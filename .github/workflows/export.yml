@@ -10,6 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    container: openresty/openresty:alpine-fat
 
     outputs:
       changes_detected: ${{ steps.autocommit.outputs.changes_detected }}
@@ -29,10 +30,6 @@ jobs:
         with:
           repository: PathOfBuildingCommunity/PathOfBuilding-PoE2
           path: PathOfBuilding2
-      - uses: leafo/gh-actions-openresty@v2
-      - uses: leafo/gh-actions-luarocks@v5
-        with:
-          withLuaPath: "/usr/local/openresty/luajit/"
       - name: lua export
         run: |
           luarocks install dkjson
