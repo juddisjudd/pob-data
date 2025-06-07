@@ -18330,7 +18330,7 @@
       }]
   },
   "MetaCastLightningSpellOnHitPlayer":{
-    "baseTypeName":"Lightning Spell on Melee Hit",
+    "baseTypeName":"Thundergod's Wrath",
     "castTime":0,
     "color":1,
     "description":"While active, gains Energy when you Hit enemies with Melee Attacks and triggers socketed Lightning spells on reaching maximum Energy.",
@@ -18415,7 +18415,7 @@
       },{
         "levelRequirement":90
       }],
-    "name":"Lightning Spell on Melee Hit",
+    "name":"Thundergod's Wrath",
     "qualityStats":[["energy_generated_+%",0.75]],
     "skillTypes":{
       "5":true,
@@ -18434,7 +18434,7 @@
         },
         "constantStats":[["cast_lightning_spell_on_hit_gain_X_centienergy_per_monster_power_on_hit",300],["skill_desired_amount_override",1]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Lightning Spell on Melee Hit",
+        "label":"Thundergod's Wrath",
         "levels":[{
             "actorLevel":1,
             "statInterpolation":[1],
@@ -18602,170 +18602,210 @@
         "baseFlags":[],
         "constantStats":[["cast_lightning_spell_on_hit_gain_X_centienergy_per_monster_power_on_hit",300],["skill_desired_amount_override",1],["generic_ongoing_trigger_1_maximum_energy_per_Xms_total_cast_time",10]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Lightning Spell on Melee Hit",
+        "label":"Thundergod's Wrath",
         "levels":[{
             "actorLevel":1,
-            "statInterpolation":[1],
-            "1":0
+            "statInterpolation":[1,1],
+            "1":0,
+            "2":10
           },{
             "actorLevel":3.4519999027252,
-            "statInterpolation":[1],
-            "1":3
+            "statInterpolation":[1,1],
+            "1":3,
+            "2":20
           },{
             "actorLevel":6.7670001983643,
-            "statInterpolation":[1],
-            "1":6
+            "statInterpolation":[1,1],
+            "1":6,
+            "2":30
           },{
             "actorLevel":10.307999610901,
-            "statInterpolation":[1],
-            "1":9
+            "statInterpolation":[1,1],
+            "1":9,
+            "2":40
           },{
             "actorLevel":14.074999809265,
-            "statInterpolation":[1],
-            "1":12
+            "statInterpolation":[1,1],
+            "1":12,
+            "2":50
           },{
             "actorLevel":18.068000793457,
-            "statInterpolation":[1],
-            "1":15
+            "statInterpolation":[1,1],
+            "1":15,
+            "2":60
           },{
             "actorLevel":22.287000656128,
-            "statInterpolation":[1],
-            "1":18
+            "statInterpolation":[1,1],
+            "1":18,
+            "2":70
           },{
             "actorLevel":26.732000350952,
-            "statInterpolation":[1],
-            "1":21
+            "statInterpolation":[1,1],
+            "1":21,
+            "2":80
           },{
             "actorLevel":31.40299987793,
-            "statInterpolation":[1],
-            "1":24
+            "statInterpolation":[1,1],
+            "1":24,
+            "2":90
           },{
             "actorLevel":36.299999237061,
-            "statInterpolation":[1],
-            "1":27
+            "statInterpolation":[1,1],
+            "1":27,
+            "2":100
           },{
             "actorLevel":41.423000335693,
-            "statInterpolation":[1],
-            "1":30
+            "statInterpolation":[1,1],
+            "1":30,
+            "2":110
           },{
             "actorLevel":46.771999359131,
-            "statInterpolation":[1],
-            "1":33
+            "statInterpolation":[1,1],
+            "1":33,
+            "2":120
           },{
             "actorLevel":52.34700012207,
-            "statInterpolation":[1],
-            "1":36
+            "statInterpolation":[1,1],
+            "1":36,
+            "2":130
           },{
             "actorLevel":58.147998809814,
-            "statInterpolation":[1],
-            "1":39
+            "statInterpolation":[1,1],
+            "1":39,
+            "2":140
           },{
             "actorLevel":64.175003051758,
-            "statInterpolation":[1],
-            "1":42
+            "statInterpolation":[1,1],
+            "1":42,
+            "2":150
           },{
             "actorLevel":70.428001403809,
-            "statInterpolation":[1],
-            "1":45
+            "statInterpolation":[1,1],
+            "1":45,
+            "2":160
           },{
             "actorLevel":76.906997680664,
-            "statInterpolation":[1],
-            "1":48
+            "statInterpolation":[1,1],
+            "1":48,
+            "2":170
           },{
             "actorLevel":83.611999511719,
-            "statInterpolation":[1],
-            "1":51
+            "statInterpolation":[1,1],
+            "1":51,
+            "2":180
           },{
             "actorLevel":90.542999267578,
-            "statInterpolation":[1],
-            "1":54
+            "statInterpolation":[1,1],
+            "1":54,
+            "2":190
           },{
             "actorLevel":97.699996948242,
-            "statInterpolation":[1],
-            "1":57
+            "statInterpolation":[1,1],
+            "1":57,
+            "2":200
           },{
             "actorLevel":105.08300018311,
-            "statInterpolation":[1],
-            "1":60
+            "statInterpolation":[1,1],
+            "1":60,
+            "2":210
           },{
             "actorLevel":112.69200134277,
-            "statInterpolation":[1],
-            "1":63
+            "statInterpolation":[1,1],
+            "1":63,
+            "2":220
           },{
             "actorLevel":120.52700042725,
-            "statInterpolation":[1],
-            "1":66
+            "statInterpolation":[1,1],
+            "1":66,
+            "2":230
           },{
             "actorLevel":128.58799743652,
-            "statInterpolation":[1],
-            "1":69
+            "statInterpolation":[1,1],
+            "1":69,
+            "2":240
           },{
             "actorLevel":136.875,
-            "statInterpolation":[1],
-            "1":72
+            "statInterpolation":[1,1],
+            "1":72,
+            "2":250
           },{
             "actorLevel":145.38800048828,
-            "statInterpolation":[1],
-            "1":75
+            "statInterpolation":[1,1],
+            "1":75,
+            "2":260
           },{
             "actorLevel":154.12699890137,
-            "statInterpolation":[1],
-            "1":78
+            "statInterpolation":[1,1],
+            "1":78,
+            "2":270
           },{
             "actorLevel":163.09199523926,
-            "statInterpolation":[1],
-            "1":81
+            "statInterpolation":[1,1],
+            "1":81,
+            "2":280
           },{
             "actorLevel":172.28300476074,
-            "statInterpolation":[1],
-            "1":84
+            "statInterpolation":[1,1],
+            "1":84,
+            "2":290
           },{
             "actorLevel":181.69999694824,
-            "statInterpolation":[1],
-            "1":87
+            "statInterpolation":[1,1],
+            "1":87,
+            "2":300
           },{
             "actorLevel":191.34300231934,
-            "statInterpolation":[1],
-            "1":90
+            "statInterpolation":[1,1],
+            "1":90,
+            "2":310
           },{
             "actorLevel":201.21200561523,
-            "statInterpolation":[1],
-            "1":93
+            "statInterpolation":[1,1],
+            "1":93,
+            "2":320
           },{
             "actorLevel":211.30700683594,
-            "statInterpolation":[1],
-            "1":96
+            "statInterpolation":[1,1],
+            "1":96,
+            "2":330
           },{
             "actorLevel":221.62800598145,
-            "statInterpolation":[1],
-            "1":99
+            "statInterpolation":[1,1],
+            "1":99,
+            "2":340
           },{
             "actorLevel":232.17500305176,
-            "statInterpolation":[1],
-            "1":102
+            "statInterpolation":[1,1],
+            "1":102,
+            "2":350
           },{
             "actorLevel":242.94799804688,
-            "statInterpolation":[1],
-            "1":105
+            "statInterpolation":[1,1],
+            "1":105,
+            "2":360
           },{
             "actorLevel":253.94700622559,
-            "statInterpolation":[1],
-            "1":108
+            "statInterpolation":[1,1],
+            "1":108,
+            "2":370
           },{
             "actorLevel":265.17199707031,
-            "statInterpolation":[1],
-            "1":111
+            "statInterpolation":[1,1],
+            "1":111,
+            "2":380
           },{
             "actorLevel":276.62298583984,
-            "statInterpolation":[1],
-            "1":114
+            "statInterpolation":[1,1],
+            "1":114,
+            "2":390
           },{
             "actorLevel":288.29998779297,
-            "statInterpolation":[1],
-            "1":117
+            "statInterpolation":[1,1],
+            "1":117,
+            "2":400
           }],
         "statDescriptionScope":"cast_lightning_spell_on_hit",
-        "stats":["energy_generated_+%","generic_ongoing_trigger_triggers_at_maximum_energy","generic_ongoing_trigger_maximum_energy_is_total_of_socketed_skills","base_deal_no_damage","triggered_by_generic_ongoing_trigger","skill_cannot_generate_energy"]
+        "stats":["energy_generated_+%","damage_+%","generic_ongoing_trigger_triggers_at_maximum_energy","generic_ongoing_trigger_maximum_energy_is_total_of_socketed_skills","base_deal_no_damage","triggered_by_generic_ongoing_trigger","no_cost"]
       }]
   },
   "MetaCastOnBlockPlayer":{

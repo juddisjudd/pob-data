@@ -2411,22 +2411,28 @@
     "stats":["empower_barrage_base_number_of_barrage_repeats","empower_barrage_number_of_barrage_repeats_per_frenzy_charge"],
     "1":[{
         "limit":[[1,1],[0,0]],
-        "text":"Empowered Attacks repeat an additional time"
+        "text":"Empowered Attacks Repeat {0:+d} time"
       },{
         "limit":[[2,"#"],[0,0]],
-        "text":"Empowered Attacks repeat {0} times"
+        "text":"Empowered Attacks Repeat {0:+d} times"
+      },{
+        "limit":[[0,0],[1,1]],
+        "text":"Empowered Attacks Repeat {1:+d} time per Frenzy Charge consumed"
       },{
         "limit":[[1,1],[1,1]],
-        "text":"Empowered Attacks repeat an additional time, plus an additional time per Frenzy Charge consumed"
+        "text":"Empowered Attacks Repeat {1:+d} time per Frenzy Charge consumed"
       },{
         "limit":[[2,"#"],[1,1]],
-        "text":"Empowered Attacks repeat {0} times, plus an additional time per Frenzy Charge consumed"
+        "text":"Empowered Attacks Repeat {0:+d} times, and a further {1:+d} time per Frenzy Charge consumed"
+      },{
+        "limit":[[0,0],[2,"#"]],
+        "text":"Empowered Attacks Repeat {0:+d} time, and a further {1:+d} times per Frenzy Charge consumed"
       },{
         "limit":[[1,1],[2,"#"]],
-        "text":"Empowered Attacks repeat an additional time, plus an additional {0} times per Frenzy Charge consumed"
+        "text":"Empowered Attacks Repeat {0:+d} time, and a further {1:+d} times per Frenzy Charge consumed"
       },{
         "limit":[[2,"#"],[2,"#"]],
-        "text":"Empowered Attacks repeat {0} times, plus an additional {0} times per Frenzy Charge consumed"
+        "text":"Empowered Attacks Repeat {0:+d} times, and a further {1:+d} times per Frenzy Charge consumed"
       }]
   },
   "186":{

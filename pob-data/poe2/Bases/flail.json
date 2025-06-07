@@ -304,7 +304,7 @@
   },
   "Twin Flail":{
     "implicit":"Forks Critical Hits",
-    "implicitModTypes":[[]],
+    "implicitModTypes":[["critical"]],
     "quality":20,
     "req":{
       "int":16,

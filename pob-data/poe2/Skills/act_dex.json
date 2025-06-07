@@ -376,7 +376,7 @@
     "baseTypeName":"Barrage",
     "castTime":0.7,
     "color":2,
-    "description":"Ready a volley of arrows or spears, Empowering your next Bow or Projectile Spear Attack to repeat multiple times. Consumes your Frenzy Charges on use to add additional repeats.",
+    "description":"Ready a volley of arrows or spears, Empowering your next Barrageable Bow or Projectile Spear Attack to Repeat multiple times. Consumes your Frenzy Charges on use to add additional repeats.",
     "levels":[{
         "cooldown":2,
         "cost":{
@@ -25148,7 +25148,7 @@
               }
             }]
         },
-        "stats":["global_knockback","triggerable_in_any_set","quality_display_active_skill_base_area_of_effect_radius_is_gem"]
+        "stats":["global_knockback","triggerable_in_any_set","quality_display_active_skill_base_area_of_effect_radius_is_gem","visual_hit_effect_physical_is_wind"]
       }],
     "weaponTypes":{
       "Bow":true,

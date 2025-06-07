@@ -67,7 +67,7 @@
     "PartyQuantityBonusPerAdditionalPlayerHardMode":0.2,
     "PartyRarityBonusPerAdditionalPlayer":0,
     "PartyRarityBonusPerAdditionalPlayerHardMode":0,
-    "PartyUniqueBonusPerAdditionalPlayer":1,
+    "PartyUniqueBonusPerAdditionalPlayer":0.3,
     "PassiveTreeJewelDistanceMultiplier":1.2,
     "PinDamageScale":4.2,
     "PinDuration":3,

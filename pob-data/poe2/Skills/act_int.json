@@ -3675,7 +3675,7 @@
             "1":55
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["blink_travel_distance","base_deal_no_damage","usable_while_shapeshifted","skill_is_not_considered_a_skill"]
+        "stats":["blink_travel_distance","base_deal_no_damage","usable_while_shapeshifted","skill_is_not_considered_a_skill","base_skill_enabled_while_mounted"]
       }]
   },
   "BlinkReservationPlayer":{
@@ -6369,7 +6369,7 @@
           }],
         "statDescriptionScope":"charge_mastery",
         "statMap":{
-          "skill_charge_mastery_crit_chance_+%_final_with_power_charges":[{
+          "charge_mastery_crit_chance_+%_final_with_power_charges":[{
               "flags":0,
               "keywordFlags":0,
               "name":"CritChance",
@@ -6385,7 +6385,7 @@
                 "type":"GlobalEffect"
               }
             }],
-          "skill_charge_mastery_defences_+%_final_with_endurance_charges":[{
+          "charge_mastery_defences_+%_final_with_endurance_charges":[{
               "flags":0,
               "keywordFlags":0,
               "name":"Defences",
@@ -6401,7 +6401,7 @@
                 "type":"GlobalEffect"
               }
             }],
-          "skill_charge_matery_skill_speed_+%_final_with_frenzy_charges":[{
+          "charge_mastery_skill_speed_+%_final_with_frenzy_charges":[{
               "flags":0,
               "keywordFlags":0,
               "name":"Speed",
@@ -6418,7 +6418,7 @@
               }
             }]
         },
-        "stats":["skill_charge_matery_skill_speed_+%_final_with_frenzy_charges","skill_charge_mastery_crit_chance_+%_final_with_power_charges","skill_charge_mastery_defences_+%_final_with_endurance_charges","consume_frenzy_power_and_endurance_charge_every_x_ms","base_deal_no_damage"]
+        "stats":["charge_mastery_skill_speed_+%_final_with_frenzy_charges","charge_mastery_crit_chance_+%_final_with_power_charges","charge_mastery_defences_+%_final_with_endurance_charges","consume_frenzy_power_and_endurance_charge_every_x_ms","base_deal_no_damage"]
       }]
   },
   "ChargedStaffPlayer":{
@@ -16215,7 +16215,7 @@
     "baseTypeName":"Firestorm",
     "castTime":1.4,
     "color":3,
-    "description":"Rain flaming bolts over the targeted area. Ignites on enemies in front of you are Consumed to fuel the Firestorm by creating improved bolts.",
+    "description":"Rain flaming bolts over the targeted area. Ignites on enemies and Corpses in front of you are Consumed to fuel the Firestorm by creating improved bolts.",
     "levels":[{
         "cost":{
           "Mana":16
@@ -50056,183 +50056,6 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "stats":["curse_effect_+%","mark_effect_+%","triggered_by_hand_of_chayula"]
-      }],
-    "support":true
-  },
-  "SupportInvisibleMetaGemSupport":{
-    "addSkillTypes":[],
-    "excludeSkillTypes":[],
-    "hidden":true,
-    "levels":[{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      }],
-    "name":"SupportInvisibleMetaGemSupport",
-    "requireSkillTypes":[37],
-    "statSets":[{
-        "baseFlags":[],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"SupportInvisibleMetaGemSupport",
-        "levels":[{
-            "actorLevel":1
-          },{
-            "actorLevel":3.4519999027252
-          },{
-            "actorLevel":6.7670001983643
-          },{
-            "actorLevel":10.307999610901
-          },{
-            "actorLevel":14.074999809265
-          },{
-            "actorLevel":18.068000793457
-          },{
-            "actorLevel":22.287000656128
-          },{
-            "actorLevel":26.732000350952
-          },{
-            "actorLevel":31.40299987793
-          },{
-            "actorLevel":36.299999237061
-          },{
-            "actorLevel":41.423000335693
-          },{
-            "actorLevel":46.771999359131
-          },{
-            "actorLevel":52.34700012207
-          },{
-            "actorLevel":58.147998809814
-          },{
-            "actorLevel":64.175003051758
-          },{
-            "actorLevel":70.428001403809
-          },{
-            "actorLevel":76.906997680664
-          },{
-            "actorLevel":83.611999511719
-          },{
-            "actorLevel":90.542999267578
-          },{
-            "actorLevel":97.699996948242
-          },{
-            "actorLevel":105.08300018311
-          },{
-            "actorLevel":112.69200134277
-          },{
-            "actorLevel":120.52700042725
-          },{
-            "actorLevel":128.58799743652
-          },{
-            "actorLevel":136.875
-          },{
-            "actorLevel":145.38800048828
-          },{
-            "actorLevel":154.12699890137
-          },{
-            "actorLevel":163.09199523926
-          },{
-            "actorLevel":172.28300476074
-          },{
-            "actorLevel":181.69999694824
-          },{
-            "actorLevel":191.34300231934
-          },{
-            "actorLevel":201.21200561523
-          },{
-            "actorLevel":211.30700683594
-          },{
-            "actorLevel":221.62800598145
-          },{
-            "actorLevel":232.17500305176
-          },{
-            "actorLevel":242.94799804688
-          },{
-            "actorLevel":253.94700622559
-          },{
-            "actorLevel":265.17199707031
-          },{
-            "actorLevel":276.62298583984
-          },{
-            "actorLevel":288.29998779297
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["skill_cannot_generate_energy"]
       }],
     "support":true
   },

@@ -1338,7 +1338,7 @@
         "type":"BASE",
         "value":2
       }]],
-  "+2 to Evasion Rating per 1 Maximum Energy Shield on Equipped Helmet":[[{
+  "+2 to Evasion Rating per 1 Energy Shield on Equipped Helmet":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"Evasion",
@@ -3797,18 +3797,6 @@
           "value":3
         }
       }]],
-  "+3 to Level of all Lightning Spell on Hit Skills":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"GemProperty",
-        "type":"LIST",
-        "value":{
-          "key":"level",
-          "keyOfScaledMod":"value",
-          "keywordList":["lightning","spell","on","hit"],
-          "value":3
-        }
-      }]],
   "+3 to Level of all Lightning Warp Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -4996,6 +4984,18 @@
           "key":"level",
           "keyOfScaledMod":"value",
           "keyword":"temporal rift",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Thundergod's Wrath Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"thundergod's wrath",
           "value":3
         }
       }]],
@@ -9710,13 +9710,6 @@
         "type":"INC",
         "value":12
       }]],
-  "12% increased Chance to inflict Ailments with One-Handed Attacks":[[{
-        "flags":17179869188,
-        "keywordFlags":0,
-        "name":"AilmentChance",
-        "type":"INC",
-        "value":12
-      }]],
   "12% increased Cold Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -12672,13 +12665,6 @@
           "type":"Condition",
           "var":"LowLife"
         }
-      }]],
-  "20% increased Chance to inflict Ailments with One-Handed Attacks":[[{
-        "flags":17179869188,
-        "keywordFlags":0,
-        "name":"AilmentChance",
-        "type":"INC",
-        "value":20
       }]],
   "20% increased Charm Charges used":[[{
         "flags":0,
@@ -25679,6 +25665,13 @@
         "type":"LIST",
         "value":"final barrage"
       }]],
+  "Allocates Finality":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GrantedPassive",
+        "type":"LIST",
+        "value":"finality"
+      }]],
   "Allocates Finesse":[[{
         "flags":0,
         "keywordFlags":0,
@@ -28693,12 +28686,34 @@
           "type":"SkillType"
         }
       }]],
+  "Attacks used by Totems have 2% increased Attack Speed per Summoned Totem":[[{
+        "flags":1,
+        "keywordFlags":16384,
+        "name":"Speed",
+        "type":"INC",
+        "value":2,
+        "1":{
+          "stat":"TotemsSummoned",
+          "type":"PerStat"
+        }
+      }]],
   "Attacks used by Totems have 4% increased Attack Speed":[[{
         "flags":1,
         "keywordFlags":16384,
         "name":"Speed",
         "type":"INC",
         "value":4
+      }]],
+  "Attacks used by Totems have 4% increased Attack Speed per Summoned Totem":[[{
+        "flags":1,
+        "keywordFlags":16384,
+        "name":"Speed",
+        "type":"INC",
+        "value":4,
+        "1":{
+          "stat":"TotemsSummoned",
+          "type":"PerStat"
+        }
       }]],
   "Attacks using your Weapons have Added Physical Damage equal":[null,"Added Physical Damage equal "],
   "Attacks using your Weapons have Added Physical Damage equal to 25% of the Accuracy Rating on the Weapon":[[{
@@ -28781,6 +28796,27 @@
           "type":"Condition",
           "var":"OffHandAttack"
         }
+      }]],
+  "Attacks with One Handed Weapons have 12% increased Chance to inflict Ailments":[[{
+        "flags":17179869184,
+        "keywordFlags":0,
+        "name":"AilmentChance",
+        "type":"INC",
+        "value":12
+      }]],
+  "Attacks with One-Handed Weapons have 12% increased Chance to inflict Ailments":[[{
+        "flags":17179869184,
+        "keywordFlags":0,
+        "name":"AilmentChance",
+        "type":"INC",
+        "value":12
+      }]],
+  "Attacks with One-Handed Weapons have 20% increased Chance to inflict Ailments":[[{
+        "flags":17179869184,
+        "keywordFlags":0,
+        "name":"AilmentChance",
+        "type":"INC",
+        "value":20
       }]],
   "Attacks with this Weapon gain 50% of Physical damage as Extra damage of each Element":[[{
         "flags":0,
@@ -32641,16 +32677,6 @@
           "skillId":"LightningBoltPlayer"
         }
       }]],
-  "Grants Skill: Level 11 Lightning Spell on Melee Hit":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSkill",
-        "type":"LIST",
-        "value":{
-          "level":11,
-          "skillId":"MetaCastLightningSpellOnHitPlayer"
-        }
-      }]],
   "Grants Skill: Level 11 Living Bomb":[[{
         "flags":0,
         "keywordFlags":0,
@@ -32891,16 +32917,8 @@
           "skillId":"LightningBoltPlayer"
         }
       }]],
-  "Grants Skill: Level 20 Lightning Spell on Melee Hit":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSkill",
-        "type":"LIST",
-        "value":{
-          "level":20,
-          "skillId":"MetaCastLightningSpellOnHitPlayer"
-        }
-      }]],
+  "Grants Skill: Level 20 Lightning Spell on Melee Hit":[],
+  "Grants Skill: Level 20 Lightning Spell on Melee Hit +200 Intelligence Requirement":[],
   "Grants Skill: Level 20 Living Bomb":[[{
         "flags":0,
         "keywordFlags":0,
@@ -36954,6 +36972,19 @@
         "value":-50
       }]],
   "Skills that would Summon a Totem have 20% chance to Summon two Totems instead":[null,"Skills that would Summon a Totem have 20% chance to Summon two Totems instead "],
+  "Skills used by Totems have 30% more Skill Speed":[[{
+        "flags":0,
+        "keywordFlags":16384,
+        "name":"Speed",
+        "type":"MORE",
+        "value":30
+      },{
+        "flags":0,
+        "keywordFlags":16384,
+        "name":"WarcrySpeed",
+        "type":"MORE",
+        "value":30
+      }]],
   "Slam Skills have 12% increased Area of Effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -37008,6 +37039,17 @@
         "name":"AreaOfEffect",
         "type":"INC",
         "value":8
+      }]],
+  "Spells Cast by Totems have 2% increased Cast Speed per Summoned Totem":[[{
+        "flags":18,
+        "keywordFlags":16384,
+        "name":"Speed",
+        "type":"INC",
+        "value":2,
+        "1":{
+          "stat":"TotemsSummoned",
+          "type":"PerStat"
+        }
       }]],
   "Spells Cast by Totems have 4% increased Cast Speed":[[{
         "flags":18,
@@ -37264,58 +37306,12 @@
         "type":"BASE",
         "value":12
       }]],
-  "Totems have 2% increased Attack Speed per Summoned Totem":[[{
-        "flags":1,
-        "keywordFlags":16384,
-        "name":"Speed",
-        "type":"INC",
-        "value":2,
-        "1":{
-          "stat":"TotemsSummoned",
-          "type":"PerStat"
-        }
-      }]],
-  "Totems have 2% increased Cast Speed per Summoned Totem":[[{
-        "flags":16,
-        "keywordFlags":16384,
-        "name":"Speed",
-        "type":"INC",
-        "value":2,
-        "1":{
-          "stat":"TotemsSummoned",
-          "type":"PerStat"
-        }
-      }]],
   "Totems have 20% additional Physical Damage Reduction":[[{
         "flags":0,
         "keywordFlags":16384,
         "name":"PhysicalDamageReduction",
         "type":"BASE",
         "value":20
-      }]],
-  "Totems have 30% more Skill Speed":[[{
-        "flags":0,
-        "keywordFlags":16384,
-        "name":"Speed",
-        "type":"MORE",
-        "value":30
-      },{
-        "flags":0,
-        "keywordFlags":16384,
-        "name":"WarcrySpeed",
-        "type":"MORE",
-        "value":30
-      }]],
-  "Totems have 4% increased Attack Speed per Summoned Totem":[[{
-        "flags":1,
-        "keywordFlags":16384,
-        "name":"Speed",
-        "type":"INC",
-        "value":4,
-        "1":{
-          "stat":"TotemsSummoned",
-          "type":"PerStat"
-        }
       }]],
   "Totems only use Skills when you fire an Attack Projectile":[null,"Totems only use Skills when you fire an Attack Projectile "],
   "Totems reserve 100 Spirit each":[null,"Totems reserve 100 Spirit each "],
