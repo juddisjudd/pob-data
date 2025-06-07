@@ -40,18 +40,20 @@ jobs:
         run: find PathOfBuilding2/src/Data/ -type d | sed 's|PathOfBuilding2/src/Data|RePoE/pob-data/poe2/|g' | while read DIR; do mkdir -p $DIR; done
       - name: run poe2 lua
         run: find PathOfBuilding2/src/Data/ -name '*.lua' -exec luajit RePoE/lua/Generate.lua '{}' RePoE/pob-data/poe2/ \;
-      - name: generate index.html
-        run: find pob-data -type d -exec tree {} --dirsfirst -F "PoB data export" -I 'index.html|schema_doc*' --noreport --charset utf-8 -o {}/index.html \;
       - name: commit changes
         id: autocommit
         uses: stefanzweifel/git-auto-commit-action@v5.2.0
         with:
           repository: RePoE
+      - name: generate index.html
+        run: find pob-data -type d -exec tree {} --dirsfirst -F "PoB data export" -I 'index.html|schema_doc*' --noreport --charset utf-8 -o {}/index.html \;
+        with:
+          path: RePoE
       - name: upload gh-pages artifact
         if: github.event_name == 'workflow_dispatch' || steps.autocommit.outputs.changes_detected == 'true'
         uses: actions/upload-pages-artifact@v3.0.1
         with:
-          path: RePoE/RePoE/data/
+          path: RePoE/pob-data/
 
   deploy:
     runs-on: ubuntu-latest
