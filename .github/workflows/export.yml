@@ -16,6 +16,7 @@ jobs:
       changes_detected: ${{ steps.autocommit.outputs.changes_detected }}
 
     steps:
+      - run: apk add --no-cache git
       - name: checkout
         uses: actions/checkout@v4.2.2
         with:
