@@ -6319,6 +6319,17 @@
           "var":"UsingStaff"
         }
       }]],
+  "+22% Chance to Block Spell Damage while wielding a Staff":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SpellBlockChance",
+        "type":"BASE",
+        "value":22,
+        "1":{
+          "type":"Condition",
+          "var":"UsingStaff"
+        }
+      }]],
   "+22% to Cold Damage over Time Multiplier":[[{
         "flags":0,
         "keywordFlags":0,
@@ -6948,6 +6959,17 @@
         "1":{
           "type":"Condition",
           "var":"UsingFlask"
+        }
+      }]],
+  "+25% Chance to Block Spell Damage while wielding a Staff":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SpellBlockChance",
+        "type":"BASE",
+        "value":25,
+        "1":{
+          "type":"Condition",
+          "var":"UsingStaff"
         }
       }]],
   "+25% Chaos Resistance when on Low Life":[[{
@@ -14016,7 +14038,7 @@
         "keywordFlags":0,
         "name":"FlaskChargesUsed",
         "type":"INC",
-        "value":-0
+        "value":0
       }]],
   "0.2% of Attack Damage Leeched as Mana per Power Charge":[[{
         "flags":1,
@@ -77528,6 +77550,13 @@
           "var":"Spider's WebStack"
         }
       }]],
+  "Gain 20 Energy Shield per Enemy Hit with Attacks":[[{
+        "flags":4,
+        "keywordFlags":65536,
+        "name":"EnergyShieldOnHit",
+        "type":"BASE",
+        "value":20
+      }]],
   "Gain 20 Energy Shield per Enemy Killed":[[{
         "flags":0,
         "keywordFlags":0,
@@ -77560,6 +77589,13 @@
         "type":"BASE",
         "value":20
       }],"  per Bleeding Enemy Hit Every 4 seconds, Regenerate 20% of Life over one second "],
+  "Gain 20 Life per Enemy Hit with Attacks":[[{
+        "flags":4,
+        "keywordFlags":65536,
+        "name":"LifeOnHit",
+        "type":"BASE",
+        "value":20
+      }]],
   "Gain 20 Life per Enemy Hit with Spells":[[{
         "flags":4,
         "keywordFlags":131072,
@@ -77703,10 +77739,17 @@
         "type":"BASE",
         "value":24
       }]],
-  "Gain 25 Energy Shield per Enemy Killed":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnergyShieldOnKill",
+  "Gain 25 Energy Shield per Enemy Hit with Attacks":[[{
+        "flags":4,
+        "keywordFlags":65536,
+        "name":"EnergyShieldOnHit",
+        "type":"BASE",
+        "value":25
+      }]],
+  "Gain 25 Life per Enemy Hit with Attacks":[[{
+        "flags":4,
+        "keywordFlags":65536,
+        "name":"LifeOnHit",
         "type":"BASE",
         "value":25
       }]],
@@ -82526,6 +82569,11 @@
         "2":{
           "skillType":1,
           "type":"SkillType"
+        },
+        "3":{
+          "neg":true,
+          "skillType":13,
+          "type":"SkillType"
         }
       },{
         "flags":4,
@@ -82540,6 +82588,11 @@
         },
         "2":{
           "skillType":1,
+          "type":"SkillType"
+        },
+        "3":{
+          "neg":true,
+          "skillType":13,
           "type":"SkillType"
         }
       }]],
@@ -82556,6 +82609,11 @@
         "2":{
           "skillType":1,
           "type":"SkillType"
+        },
+        "3":{
+          "neg":true,
+          "skillType":13,
+          "type":"SkillType"
         }
       },{
         "flags":4,
@@ -82570,6 +82628,11 @@
         },
         "2":{
           "skillType":1,
+          "type":"SkillType"
+        },
+        "3":{
+          "neg":true,
+          "skillType":13,
           "type":"SkillType"
         }
       }]],
@@ -89662,7 +89725,22 @@
         "type":"BASE",
         "value":20
       }]],
-  "Nearby Enemies are Covered in Ash if you haven't moved in the past 2 seconds":[null,"Covered in Ash if you haven't moved in the past 2 seconds "],
+  "Nearby Enemies are Covered in Ash if you haven't moved in the past 2 seconds":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CoveredInAshEffect",
+        "type":"BASE",
+        "value":20,
+        "1":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"StationarySeconds"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"Stationary"
+        }
+      }]],
   "Nearby Enemies are Crushed":[[{
         "flags":0,
         "keywordFlags":0,

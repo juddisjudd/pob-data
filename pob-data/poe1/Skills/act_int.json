@@ -43149,11 +43149,19 @@
       }],
     "name":"Hydrosphere",
     "parts":[{
-        "name":"Frozen"
+        "name":"Autopulse (Frozen)"
       },{
-        "name":"Shocked"
+        "name":"Autopulse (Shocked)"
       },{
-        "name":"Frozen & Shocked"
+        "name":"Autopulse (Frozen & Shocked)"
+      },{
+        "name":"Cast (No Ailment)"
+      },{
+        "name":"Cast (Frozen)"
+      },{
+        "name":"Cast (Shocked)"
+      },{
+        "name":"Cast (Frozen & Shocked)"
       }],
     "qualityStats":{
       "Default":[["hydro_sphere_pulse_frequency_+%",0.5]]
@@ -43230,6 +43238,51 @@
           "type":"BASE",
           "1":{
             "skillPart":3,
+            "type":"SkillPart"
+          }
+        },{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillPhysicalDamageConvertToCold",
+          "type":"BASE",
+          "1":{
+            "skillPart":4,
+            "type":"SkillPart"
+          }
+        },{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillPhysicalDamageConvertToCold",
+          "type":"BASE",
+          "1":{
+            "skillPart":5,
+            "type":"SkillPart"
+          }
+        },{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillPhysicalDamageConvertToLightning",
+          "type":"BASE",
+          "1":{
+            "skillPart":6,
+            "type":"SkillPart"
+          }
+        },{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillPhysicalDamageConvertToCold",
+          "type":"BASE",
+          "1":{
+            "skillPart":7,
+            "type":"SkillPart"
+          }
+        },{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillPhysicalDamageConvertToLightning",
+          "type":"BASE",
+          "1":{
+            "skillPart":7,
             "type":"SkillPart"
           }
         }],
