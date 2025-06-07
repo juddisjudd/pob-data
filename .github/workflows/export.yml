@@ -2,6 +2,10 @@ name: Run data export
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 1 * * *"
+  push:
+    branches: [ "master" ]
 
 jobs:
   build:
@@ -27,6 +31,8 @@ jobs:
           path: PathOfBuilding2
       - uses: leafo/gh-actions-openresty@v2
       - uses: leafo/gh-actions-luarocks@v5
+        with:
+          withLuaPath: "/usr/local/openresty/luajit/"
       - name: lua export
         run: |
           luarocks install dkjson
