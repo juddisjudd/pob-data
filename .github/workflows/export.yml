@@ -47,7 +47,7 @@ jobs:
         with:
           repository: RePoE
       - name: generate index.html
-        run: find pob-data -type d -print -exec tree {} -H / --dirsfirst -F "PoB data export" -I 'index.html|schema_doc*' --noreport --charset utf-8 -o {}/index.html \;
+        run: find pob-data -type d -print -exec tree {} -H / -L 1 -F -T "PoB data export" -I 'index.html' --dirsfirst --noreport --charset utf-8 -o {}/index.html \;
         working-directory: RePoE
       - name: upload gh-pages artifact
         if: github.event_name != 'schedule' || steps.autocommit.outputs.changes_detected == 'true'
