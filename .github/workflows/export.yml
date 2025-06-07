@@ -16,7 +16,7 @@ jobs:
       changes_detected: ${{ steps.autocommit.outputs.changes_detected }}
 
     steps:
-      - run: yum install -y git
+      - run: yum install -y git tree
       - name: checkout
         uses: actions/checkout@v4.2.2
         with:
