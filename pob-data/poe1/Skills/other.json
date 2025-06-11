@@ -1399,7 +1399,7 @@
       }],
     "castTime":1,
     "color":4,
-    "constantStats":[["base_chaos_damage_to_deal_per_minute",60000]],
+    "constantStats":[["base_chaos_damage_to_deal_per_minute",75000]],
     "description":"Casts an aura that deals Chaos Damage over Time to nearby Enemies. This skill cannot be cast by Totems.",
     "fromItem":true,
     "hidden":true,

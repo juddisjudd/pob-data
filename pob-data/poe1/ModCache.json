@@ -7342,13 +7342,6 @@
         "type":"BASE",
         "value":26
       }]],
-  "+26% to Damage over Time Multiplier":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"DotMultiplier",
-        "type":"BASE",
-        "value":26
-      }]],
   "+26% to Lightning Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -7629,13 +7622,6 @@
         "name":"ArmourAndEvasion",
         "type":"BASE",
         "value":290
-      }]],
-  "+296 to Evasion Rating":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Evasion",
-        "type":"BASE",
-        "value":296
       }]],
   "+3 seconds to Duration of Frenzy and Power Charges on Culling Strike":[[{
         "flags":0,
@@ -8753,13 +8739,6 @@
         "type":"BASE",
         "value":305
       }]],
-  "+31 to Strength":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Str",
-        "type":"BASE",
-        "value":31
-      }]],
   "+31 to maximum Mana":[[{
         "flags":0,
         "keywordFlags":0,
@@ -9227,13 +9206,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"Armour",
-        "type":"BASE",
-        "value":38
-      }]],
-  "+38 to Dexterity":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Dex",
         "type":"BASE",
         "value":38
       }]],
@@ -10357,13 +10329,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"Mana",
-        "type":"BASE",
-        "value":47
-      }]],
-  "+47% to Fire Resistance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireResist",
         "type":"BASE",
         "value":47
       }]],
@@ -12290,13 +12255,6 @@
         "type":"BASE",
         "value":73
       }]],
-  "+74 to maximum Energy Shield":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnergyShield",
-        "type":"BASE",
-        "value":74
-      }]],
   "+75 to Intelligence":[[{
         "flags":0,
         "keywordFlags":0,
@@ -12882,13 +12840,6 @@
         "type":"BASE",
         "value":81
       }]],
-  "+84 to Ward":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Ward",
-        "type":"BASE",
-        "value":84
-      }]],
   "+84 to maximum Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -13209,13 +13160,6 @@
         "name":"Life",
         "type":"BASE",
         "value":92
-      }]],
-  "+94 to maximum Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Life",
-        "type":"BASE",
-        "value":94
       }]],
   "+95 to maximum Life":[[{
         "flags":0,
@@ -16809,13 +16753,6 @@
           "stat":"Dex",
           "type":"PerStat"
         }
-      }]],
-  "1% increased Attack Speed per 8% Quality":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"AlternateQualityLocalAttackSpeedPer8Quality",
-        "type":"INC",
-        "value":1
       }]],
   "1% increased Bleed Duration per 12 Intelligence":[[{
         "flags":0,
@@ -22058,13 +21995,6 @@
         "type":"INC",
         "value":100
       }]],
-  "100% increased Ward":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Ward",
-        "type":"INC",
-        "value":100
-      }]],
   "100% increased maximum Mana":[[{
         "flags":0,
         "keywordFlags":0,
@@ -24741,13 +24671,6 @@
         "type":"INC",
         "value":140
       }]],
-  "142% increased Ward":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Ward",
-        "type":"INC",
-        "value":142
-      }]],
   "145% increased Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -24874,14 +24797,6 @@
           "var":"ArmourAvg"
         }
       }]],
-  "15% chance to Extinguish Enemies on Hit":[[]," to Extinguish Enemies  "],
-  "15% chance to Extinguish Enemies on Hit 8% of Fire Damage taken Recouped as Life":[[{
-        "flags":4,
-        "keywordFlags":0,
-        "name":"FireLifeRecoup",
-        "type":"BASE",
-        "value":15
-      }]," to Extinguish Enemies  8% of  "],
   "15% chance to Freeze":[[{
         "flags":0,
         "keywordFlags":0,
@@ -24908,8 +24823,6 @@
         "type":"BASE",
         "value":15
       }]],
-  "15% chance to Hinder Enemies on Hit with Spells":[[]," to Hinder Enemies  "],
-  "15% chance to Hinder Enemies on Hit with Spells Strike Skills target 1 additional nearby Enemy":[[]," to Hinder Enemies  Strike Skills target 1 additional nearby Enemy "],
   "15% chance to Ignite":[[{
         "flags":0,
         "keywordFlags":0,
@@ -24931,8 +24844,6 @@
         "type":"BASE",
         "value":15
       }]],
-  "15% chance to Intimidate Enemies for 4 seconds on Hit":[[]," to Intimidate Enemies   "],
-  "15% chance to Intimidate Enemies for 4 seconds on Hit 15% chance to Unnerve Enemies for 4 seconds on Hit":[[]," to Intimidate Enemies   15% chance to Unnerve Enemies  on Hit "],
   "15% chance to Intimidate Enemies for 4 seconds on Hit with Attacks":[[]," to Intimidate Enemies   with Attacks "],
   "15% chance to Knock Enemies Back on hit":[[{
         "flags":0,
@@ -25003,14 +24914,6 @@
           "triggered":true
         }
       }]],
-  "15% chance to Unnerve Enemies for 4 seconds on Hit":[[]," to Unnerve Enemies   "],
-  "15% chance to Unnerve Enemies for 4 seconds on Hit 8% of Cold Damage taken Recouped as Life":[[{
-        "flags":4,
-        "keywordFlags":0,
-        "name":"ColdLifeRecoup",
-        "type":"BASE",
-        "value":15
-      }]," to Unnerve Enemies   8% of  "],
   "15% chance to create Chilled Ground when Hit with an Attack":[[]," to create Chilled Ground when Hit with an Attack "],
   "15% chance to create Chilled Ground when you Freeze an Enemy":[[]," to create Chilled Ground when you Freeze an Enemy "],
   "15% chance to create Chilled Ground when you Freeze an Enemy Create Consecrated Ground when you Shatter an Enemy":[[]," to create Chilled Ground when you Freeze an Enemy Create Consecrated Ground when you Shatter an Enemy "],
@@ -25925,20 +25828,6 @@
         "type":"INC",
         "value":15
       }]],
-  "15% increased Explicit Physical and Chaos Damage Modifier magnitudes":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ChaosDamage",
-        "type":"INC",
-        "value":15
-      }]," Explicit Physical and  Modifier magnitudes "],
-  "15% increased Explicit Physical and Chaos Damage Modifier magnitudes 33% increased Physical Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ChaosDamage",
-        "type":"INC",
-        "value":15
-      }]," Explicit Physical and  Modifier magnitudes 33% increased Physical Damage "],
   "15% increased Fire Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -27495,13 +27384,6 @@
           "var":"PowerCharge"
         }
       }]],
-  "16% increased Stun and Block Recovery":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"StunRecovery",
-        "type":"INC",
-        "value":16
-      }]],
   "16% increased Trap Damage":[[{
         "flags":0,
         "keywordFlags":4096,
@@ -27668,13 +27550,6 @@
         "type":"BASE",
         "value":17
       }]],
-  "17% chance to Avoid Elemental Ailments":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"AvoidElementalAilments",
-        "type":"BASE",
-        "value":17
-      }]],
   "17% chance to Suppress Spell Damage while Channelling":[[{
         "flags":0,
         "keywordFlags":0,
@@ -27711,13 +27586,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"Str",
-        "type":"INC",
-        "value":17
-      }]],
-  "17% increased Stun and Block Recovery":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"StunRecovery",
         "type":"INC",
         "value":17
       }]],
@@ -27927,13 +27795,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"SpellBlockChance",
-        "type":"BASE",
-        "value":18
-      }]],
-  "18% chance to Avoid Elemental Ailments":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"AvoidElementalAilments",
         "type":"BASE",
         "value":18
       }]],
@@ -28754,16 +28615,6 @@
         "name":"PhysicalDamage",
         "type":"INC",
         "value":195
-      }]],
-  "2 Added Passive Skills are Jewel Sockets":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"JewelData",
-        "type":"LIST",
-        "value":{
-          "key":"clusterJewelSocketCount",
-          "value":2
-        }
       }]],
   "2 Enemy Writhing Worms escape the Flask when used":[[]," Enemy Writhing Worms escape the Flask when used "],
   "2 Enemy Writhing Worms escape the Flask when used Writhing Worms are destroyed when Hit":[[]," Enemy Writhing Worms escape the Flask when used Writhing Worms are destroyed when Hit "],
@@ -33599,13 +33450,6 @@
         "type":"INC",
         "value":220
       }]],
-  "222% increased Physical Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalDamage",
-        "type":"INC",
-        "value":222
-      }]],
   "225% increased Armour":[[{
         "flags":0,
         "keywordFlags":0,
@@ -33983,13 +33827,6 @@
         "keywordFlags":0,
         "name":"SpellSuppressionChance",
         "type":"BASE",
-        "value":24
-      }]],
-  "24% faster Restoration of Ward":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"WardRechargeFaster",
-        "type":"INC",
         "value":24
       }]],
   "24% increased Armour":[[{
@@ -36738,13 +36575,6 @@
         "flags":131076,
         "keywordFlags":0,
         "name":"CritChance",
-        "type":"INC",
-        "value":27
-      }]],
-  "27% increased Ward":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Ward",
         "type":"INC",
         "value":27
       }]],
@@ -40490,13 +40320,6 @@
         "type":"INC",
         "value":32
       }]],
-  "32% increased Energy Shield Recharge Rate":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnergyShieldRecharge",
-        "type":"INC",
-        "value":32
-      }]],
   "32% increased Movement Speed while affected by a Magic Abyss Jewel":[[{
         "flags":0,
         "keywordFlags":0,
@@ -40668,13 +40491,6 @@
         "type":"INC",
         "value":33
       }]],
-  "33% increased Physical Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalDamage",
-        "type":"INC",
-        "value":33
-      }]],
   "33% increased Spell Damage":[[{
         "flags":2,
         "keywordFlags":0,
@@ -40727,39 +40543,6 @@
         "name":"ArmourAndEnergyShield",
         "type":"INC",
         "value":333
-      }]],
-  "34% increased Armour from Equipped Helmet and Gloves":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Armour",
-        "type":"INC",
-        "value":34,
-        "1":{
-          "slotNameList":["Helmet","Gloves"],
-          "type":"SlotName"
-        }
-      }]],
-  "34% increased Evasion Rating from Equipped Helmet and Boots":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Evasion",
-        "type":"INC",
-        "value":34,
-        "1":{
-          "slotNameList":["Helmet","Boots"],
-          "type":"SlotName"
-        }
-      }]],
-  "34% increased Maximum Energy Shield from Equipped Gloves and Boots":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnergyShield",
-        "type":"INC",
-        "value":34,
-        "1":{
-          "slotNameList":["Gloves","Boots"],
-          "type":"SlotName"
-        }
       }]],
   "34% increased Spell Damage":[[{
         "flags":2,
@@ -40846,17 +40629,6 @@
         "name":"Accuracy",
         "type":"INC",
         "value":35
-      }]],
-  "35% increased Armour from Equipped Helmet and Gloves":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Armour",
-        "type":"INC",
-        "value":35,
-        "1":{
-          "slotNameList":["Helmet","Gloves"],
-          "type":"SlotName"
-        }
       }]],
   "35% increased Armour while Bleeding":[[{
         "flags":0,
@@ -41121,17 +40893,6 @@
           "var":"Sapped"
         }
       }]],
-  "35% increased Evasion Rating from Equipped Helmet and Boots":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Evasion",
-        "type":"INC",
-        "value":35,
-        "1":{
-          "slotNameList":["Helmet","Boots"],
-          "type":"SlotName"
-        }
-      }]],
   "35% increased Fire Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -41195,17 +40956,6 @@
         "1":{
           "type":"Condition",
           "var":"Moving"
-        }
-      }]],
-  "35% increased Maximum Energy Shield from Equipped Gloves and Boots":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnergyShield",
-        "type":"INC",
-        "value":35,
-        "1":{
-          "slotNameList":["Gloves","Boots"],
-          "type":"SlotName"
         }
       }]],
   "35% increased Movement Speed when on Full Life":[[{
@@ -41429,13 +41179,6 @@
           "var":"UsingFlask"
         }
       }]],
-  "35% reduced Duration":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Duration",
-        "type":"INC",
-        "value":-35
-      }]],
   "35% reduced Elemental Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -41654,17 +41397,6 @@
         "type":"INC",
         "value":38
       }]],
-  "38% less Minimum Physical Attack Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinPhysicalDamage",
-        "type":"MORE",
-        "value":-38,
-        "1":{
-          "skillType":1,
-          "type":"SkillType"
-        }
-      }]],
   "380% increased Evasion Rating":[[{
         "flags":0,
         "keywordFlags":0,
@@ -41751,13 +41483,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"AvoidElementalAilments",
-        "type":"BASE",
-        "value":4
-      }]],
-  "4% chance to Dodge Spell Hits":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"SpellDodgeChance",
         "type":"BASE",
         "value":4
       }]],
@@ -44692,24 +44417,6 @@
           "type":"SkillName"
         }
       }]],
-  "45% reduced Reflected Damage taken":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"DamageTaken",
-        "type":"INC",
-        "value":-45
-      }]," Reflected  "],
-  "45% reduced Reflected Damage taken Drops Sapped Ground while moving, lasting 2 seconds":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"DamageTaken",
-        "type":"INC",
-        "value":-45,
-        "1":{
-          "type":"Condition",
-          "var":"Moving"
-        }
-      }]," Reflected  Drops Sapped Ground , lasting 2 seconds "],
   "450% increased Armour and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -44794,17 +44501,6 @@
         "name":"Ward",
         "type":"INC",
         "value":48
-      }]],
-  "48% more Maximum Physical Attack Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MaxPhysicalDamage",
-        "type":"MORE",
-        "value":48,
-        "1":{
-          "skillType":1,
-          "type":"SkillType"
-        }
       }]],
   "49% increased Ward":[[{
         "flags":0,
@@ -48452,17 +48148,6 @@
           "var":"UsingFlask"
         }
       }]],
-  "6% chance to gain Onslaught for 4 seconds on Kill":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Condition:Onslaught",
-        "type":"FLAG",
-        "value":true,
-        "1":{
-          "type":"Condition",
-          "var":"KilledRecently"
-        }
-      }]],
   "6% chance to throw up to 4 additional Traps":[[{
         "flags":0,
         "keywordFlags":0,
@@ -48801,16 +48486,6 @@
           "var":"Phasing"
         }
       }]],
-  "6% increased Explicit Chaos Modifier magnitudes":[[]," Explicit Chaos Modifier magnitudes "],
-  "6% increased Explicit Chaos Modifier magnitudes 6% increased Explicit Speed Modifier magnitudes":[[]," Explicit Chaos Modifier magnitudes 6% increased Explicit Speed Modifier magnitudes "],
-  "6% increased Explicit Speed Modifier magnitudes":[[]," Explicit Speed Modifier magnitudes "],
-  "6% increased Explicit Speed Modifier magnitudes 222% increased Physical Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalDamage",
-        "type":"INC",
-        "value":6
-      }]," Explicit Speed Modifier magnitudes 222% increased  "],
   "6% increased Flask Effect Duration":[[{
         "flags":0,
         "keywordFlags":0,
@@ -49082,17 +48757,6 @@
         "name":"ArmourAndEvasion",
         "type":"INC",
         "value":60
-      }]],
-  "60% increased Armour during Effect":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Armour",
-        "type":"INC",
-        "value":60,
-        "1":{
-          "type":"Condition",
-          "var":"UsingFlask"
-        }
       }]],
   "60% increased Aspect of the Spider Area of Effect":[[{
         "flags":0,
@@ -50732,13 +50396,6 @@
         "type":"MORE",
         "value":700
       }]],
-  "73% increased Energy Shield":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnergyShield",
-        "type":"INC",
-        "value":73
-      }]],
   "74% increased Armour":[[{
         "flags":0,
         "keywordFlags":0,
@@ -51821,13 +51478,6 @@
           "var":"PoisonStack"
         }
       }]],
-  "8% of Cold Damage taken Recouped as Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ColdLifeRecoup",
-        "type":"BASE",
-        "value":8
-      }]],
   "8% of Damage is taken from Mana before Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -51839,13 +51489,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ManaRecoup",
-        "type":"BASE",
-        "value":8
-      }]],
-  "8% of Fire Damage taken Recouped as Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireLifeRecoup",
         "type":"BASE",
         "value":8
       }]],
@@ -51868,13 +51511,6 @@
         "type":"BASE",
         "value":8
       }]],
-  "8% of Lightning Damage taken Recouped as Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LightningLifeRecoup",
-        "type":"BASE",
-        "value":8
-      }]],
   "8% of Maximum Life taken as Chaos Damage per second":[[{
         "flags":0,
         "keywordFlags":0,
@@ -51891,13 +51527,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"PhysicalDamageFromHitsTakenAsFire",
-        "type":"BASE",
-        "value":8
-      }]],
-  "8% of Physical Damage taken Recouped as Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalLifeRecoup",
         "type":"BASE",
         "value":8
       }]],
@@ -52854,13 +52483,6 @@
         "type":"BASE",
         "value":9
       }]],
-  "9% of Damage taken Recouped as Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LifeRecoup",
-        "type":"BASE",
-        "value":9
-      }]],
   "9% reduced Flask Charges used":[[{
         "flags":0,
         "keywordFlags":0,
@@ -53105,16 +52727,6 @@
         "value":{
           "key":"clusterJewelSmallsAreNothingness",
           "value":true
-        }
-      }]],
-  "Added Small Passive Skills grant: 12% increased Chaos Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"JewelData",
-        "type":"LIST",
-        "value":{
-          "key":"clusterJewelSkill",
-          "value":"affliction_chaos_damage"
         }
       }]],
   "Adds 0 to 3 Lightning Damage to Attacks per 10 Intelligence":[[{
@@ -54923,19 +54535,6 @@
         "type":"BASE",
         "value":26
       }]],
-  "Adds 11 to 26 Physical Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalMin",
-        "type":"BASE",
-        "value":11
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalMax",
-        "type":"BASE",
-        "value":26
-      }]],
   "Adds 11 to 29 Physical Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -55083,16 +54682,6 @@
         "name":"ColdMax",
         "type":"BASE",
         "value":216
-      }]],
-  "Adds 12 Passive Skills":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"JewelData",
-        "type":"LIST",
-        "value":{
-          "key":"clusterJewelNodeCount",
-          "value":12
-        }
       }]],
   "Adds 12 to 15 Cold Damage to Attacks":[[{
         "flags":0,
@@ -59636,19 +59225,6 @@
         "type":"BASE",
         "value":60
       }]],
-  "Adds 39 to 82 Physical Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalMin",
-        "type":"BASE",
-        "value":39
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalMax",
-        "type":"BASE",
-        "value":82
-      }]],
   "Adds 4 Passive Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -60450,19 +60026,6 @@
           "type":"Multiplier",
           "var":"BuffOnSelf"
         }
-      }]],
-  "Adds 5 to 12 Physical Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalMin",
-        "type":"BASE",
-        "value":5
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalMax",
-        "type":"BASE",
-        "value":12
       }]],
   "Adds 5 to 12 Physical Damage to Attacks":[[{
         "flags":0,
@@ -66913,10 +66476,6 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Attacks Exerted by Ancestral Cry deal 22% increased Damage":[null,"Attacks Exerted by Ancestral Cry deal 22% increased Damage "],
-  "Attacks Exerted by Ancestral Cry deal 22% increased Damage 35% increased Armour from Equipped Helmet and Gloves":[null,"Attacks Exerted by Ancestral Cry deal 22% increased Damage 35% increased Armour from Equipped Helmet and Gloves "],
-  "Attacks Exerted by Seismic Cry deal 22% increased Damage":[null,"Attacks Exerted by Seismic Cry deal 22% increased Damage "],
-  "Attacks Exerted by Seismic Cry deal 22% increased Damage Shocks you inflict spread to other Enemies within a Radius of 12":[null,"Attacks Exerted by Seismic Cry deal 22% increased Damage Shocks you inflict spread to other Enemies within a Radius of 12 "],
   "Attacks against you always Hit":[[{
         "flags":0,
         "keywordFlags":0,
@@ -66982,14 +66541,6 @@
         "type":"BASE",
         "value":15
       }]],
-  "Attacks have 15% chance to Maim on Hit":[[]," to Maim  "],
-  "Attacks have 15% chance to Maim on Hit Minions take 45% reduced Reflected Damage":[[{
-        "flags":5,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"BASE",
-        "value":15
-      }]," to Maim  Minions take 45% reduced Reflected  "],
   "Attacks have 15% chance to cause Bleeding":[[{
         "flags":1,
         "keywordFlags":0,
@@ -67188,21 +66739,6 @@
         "value":60
       }]],
   "Attacks with this Weapon Maim on hit":[null,"Maim on hit "],
-  "Attacks with this Weapon Penetrate 10% Elemental Resistances":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ElementalPenetration",
-        "type":"BASE",
-        "value":10,
-        "1":{
-          "type":"Condition",
-          "var":"{Hand}Attack"
-        },
-        "2":{
-          "skillType":1,
-          "type":"SkillType"
-        }
-      }]],
   "Attacks with this Weapon Penetrate 15% Elemental Resistances":[[{
         "flags":0,
         "keywordFlags":0,
@@ -68791,17 +68327,6 @@
         "type":"LIST",
         "value":"Bloodsoaked Blade"
       }]],
-  "Bone Offering has 11% increased Effect":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"BuffEffect",
-        "type":"INC",
-        "value":"11",
-        "1":{
-          "skillId":"BoneOffering",
-          "type":"SkillId"
-        }
-      }]],
   "Bow Attacks fire 2 additional Arrows":[[{
         "flags":131072,
         "keywordFlags":0,
@@ -69182,8 +68707,6 @@
         "type":"BASE",
         "value":2
       }]],
-  "Can have up to 3 Crafted Modifiers":[null,"Can have up to 3 Crafted Modifiers "],
-  "Can have up to 3 Crafted Modifiers +2 to Level of Socketed Support Gems":[null,"Can have up to 3 Crafted Modifiers +2 to Level of Socketed Support Gems "],
   "Can have up to 3 additional Remote Mines placed at a time":[[{
         "flags":0,
         "keywordFlags":0,
@@ -72909,30 +72432,6 @@
           "type":"SkillName"
         }
       }]],
-  "Drops Brittle Ground while moving, lasting 2 seconds":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"BrittleBase",
-        "type":"BASE",
-        "value":2,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"OnBrittleGround"
-        }
-      }]],
-  "Drops Sapped Ground while moving, lasting 2 seconds":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"SapBase",
-        "type":"BASE",
-        "value":6,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"OnSappedGround"
-        }
-      }]],
   "Drops Scorched Ground while moving, lasting 4 seconds":[[{
         "flags":0,
         "keywordFlags":0,
@@ -75460,44 +74959,6 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Enemies you've Hit Recently have 65% reduced Life Regeneration rate":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnemyModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"LifeRegen",
-            "type":"INC",
-            "value":-65
-          }
-        },
-        "1":{
-          "type":"Condition",
-          "var":"HitRecently"
-        }
-      }]],
-  "Enemies you've Hit Recently have 66% reduced Life Regeneration rate":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnemyModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"LifeRegen",
-            "type":"INC",
-            "value":-66
-          }
-        },
-        "1":{
-          "type":"Condition",
-          "var":"HitRecently"
-        }
-      }]],
   "Enemies' Damage with Critical Strikes against you is Lucky":[null,"Enemies' Damage with Critical Strikes  is Lucky "],
   "Enemy Hits inflict Temporal Chains on you":[null,"Enemy Hits inflict Temporal Chains on you "],
   "Enemy Hits inflict Temporal Chains on you When you lose Temporal Chains you gain maximum Rage":[null,"Enemy Hits inflict Temporal Chains on you When you lose Temporal Chains you gain maximum Rage "],
@@ -76589,8 +76050,6 @@
   "Freezes you inflict spread to other Enemies with a Radius of 15":[null,"Freezes you inflict spread to other Enemies with a Radius of 15 "],
   "Freezes you inflict spread to other Enemies with a Radius of 15 60% increased Damage if you've Frozen an Enemy Recently":[null,"Freezes you inflict spread to other Enemies with a Radius of 15 60% increased Damage if you've Frozen an Enemy Recently "],
   "Freezes you inflict spread to other Enemies within 1.2 metres":[null,"Freezes you inflict spread to other Enemies within 1.2 metres "],
-  "Freezes you inflict spread to other Enemies within a Radius of 12":[null,"Freezes you inflict spread to other Enemies within a Radius of 12 "],
-  "Freezes you inflict spread to other Enemies within a Radius of 12 Gain a Frenzy Charge every 15 seconds":[null,"Freezes you inflict spread to other Enemies within a Radius of 12 Gain a Frenzy Charge every 15 seconds "],
   "Frenzy or Power Charge":[null,"or Power Charge "],
   "Frostbite can affect Hexproof Enemies":[[{
         "flags":0,
@@ -77170,13 +76629,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ManaOnKill",
-        "type":"BASE",
-        "value":13
-      }]],
-  "Gain 13% of Cold Damage as Extra Chaos Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ColdDamageGainAsChaos",
         "type":"BASE",
         "value":13
       }]],
@@ -79433,8 +78885,6 @@
       }]],
   "Gain a Frenzy Charge each second while Moving":[null,"a Frenzy Charge each second  "],
   "Gain a Frenzy Charge each second while Moving +1 to Maximum Frenzy Charges":[null,"a Frenzy Charge each second  +1 to Maximum Frenzy Charges "],
-  "Gain a Frenzy Charge every 15 seconds":[null,"a Frenzy Charge every 15 seconds "],
-  "Gain a Frenzy Charge every 15 seconds Ignites you inflict spread to other Enemies within a Radius of 12":[null,"a Frenzy Charge every 15 seconds Ignites you inflict spread to other Enemies within a Radius of 12 "],
   "Gain a Frenzy Charge every 3 seconds while Moving":[null,"a Frenzy Charge every 3 seconds  "],
   "Gain a Frenzy Charge every 3 seconds while Moving Skills fire an additional Projectile":[null,"a Frenzy Charge every 3 seconds  Skills fire an additional Projectile "],
   "Gain a Frenzy Charge every 3 seconds while Moving Skills fire an additional Projectile You and nearby Allies have Tailwind":[[{
@@ -79489,8 +78939,6 @@
   "Gain a Power Charge after Spending a total of 200 Mana":[null,"a Power Charge after Spending a total of 200 Mana "],
   "Gain a Power Charge after Spending a total of 200 Mana +1 to Maximum Power Charges":[null,"a Power Charge after Spending a total of 200 Mana +1 to Maximum Power Charges "],
   "Gain a Power Charge after Spending a total of 200 Mana Regenerate 2 Mana per Second per Power Charge":[null,"a Power Charge after Spending a total of 200 Mana Regenerate 2 Mana per Second  "],
-  "Gain a Power Charge every 15 seconds":[null,"a Power Charge every 15 seconds "],
-  "Gain a Power Charge every 15 seconds Drops Sapped Ground while moving, lasting 2 seconds":[null,"a Power Charge every 15 seconds Drops Sapped Ground , lasting 2 seconds "],
   "Gain a Power Charge every Second if you haven't lost Power Charges Recently":[null,"a Power Charge every Second if you haven't lost Power Charges Recently "],
   "Gain a Power Charge every Second if you haven't lost Power Charges Recently Lose all Power Charges when you Block":[null,"a Power Charge every Second if you haven't lost Power Charges Recently Lose all Power Charges when you Block "],
   "Gain a Power Charge for each Enemy you hit with a Critical Strike":[null,"a Power Charge for each Enemy you hit with a Critical Strike "],
@@ -79523,8 +78971,6 @@
           "type":"PerStat"
         }
       }]],
-  "Gain an Endurance Charge every 15 seconds":[null,"an Endurance Charge every 15 seconds "],
-  "Gain an Endurance Charge every 15 seconds 15% chance to Extinguish Enemies on Hit":[null,"an Endurance Charge every 15 seconds 15% chance to Extinguish Enemies on Hit "],
   "Gain an Endurance Charge every second if you've been Hit Recently":[null,"an Endurance Charge every second  "],
   "Gain an Endurance Charge every second if you've been Hit Recently You cannot be Stunned while at maximum Endurance Charges":[null,"an Endurance Charge every second  You cannot be Stunned  "],
   "Gain an Endurance Charge if an Attack Freezes an Enemy":[null,"an Endurance Charge if an Attack Freezes an Enemy "],
@@ -79584,7 +79030,6 @@
       }],"up to your maximum number ofand Power Charges when you gain Cat's Stealth You have   "],
   "Gains no Charges during Effect":[null,"Gains no Charges during Effect "],
   "Gains no Charges during Effect 23% reduced Duration":[null,"Gains no Charges during Effect 23% reduced Duration "],
-  "Gains no Charges during Effect 35% reduced Duration":[null,"Gains no Charges during Effect 35% reduced Duration "],
   "Gains no Charges during Effect Creates a Smoke Cloud on Use":[null,"Gains no Charges during Effect Creates a Smoke Cloud on Use "],
   "Gains no Charges during Effect Taunts nearby Enemies on use":[null,"Gains no Charges during Effect Taunts nearby Enemies on use "],
   "Gains no Charges during Effect of any Overflowing Chalice Flask":[null,"Gains no Charges during Effect of any Overflowing Chalice Flask "],
@@ -83079,8 +82524,6 @@
         "value":8
       }]],
   "Ignites you inflict spread to other Enemies within a Radius of 1.5 metres":[null,"Ignites you inflict spread to other Enemies within a Radius of 1.5 metres "],
-  "Ignites you inflict spread to other Enemies within a Radius of 12":[null,"Ignites you inflict spread to other Enemies within a Radius of 12 "],
-  "Ignites you inflict spread to other Enemies within a Radius of 12 8% of Lightning Damage taken Recouped as Life":[null,"Ignites you inflict spread to other Enemies within a Radius of 12 8% of Lightning Damage taken Recouped as Life "],
   "Ignites you inflict with Attacks deal Damage 20% faster":[[{
         "flags":1,
         "keywordFlags":0,
@@ -84001,8 +83444,6 @@
         "type":"LIST",
         "value":"Iron Will"
       }]],
-  "Item sells for much more to vendors":[null,"Item sells for much more to vendors "],
-  "Item sells for much more to vendors +38 to Dexterity":[null,"Item sells for much more to vendors +38 to Dexterity "],
   "Items and Gems have 10% increased Attribute Requirements":[[{
         "flags":0,
         "keywordFlags":0,
@@ -85491,8 +84932,6 @@
   "Melee Hits have 50% chance to Fortify Enemies Taunted by you take 10% increased Damage 100% chance to Taunt on Hit":[null,"Melee Hits have 50% chance to Fortify Enemies Taunted by you take 10% increased Damage 100% chance to Taunt on Hit "],
   "Melee Hits have 50% chance to Fortify Enemies Taunted by you take 10% increased Damage 100% chance to Taunt on Hit 15% increased effect of Non-Curse Auras from your Skills":[null,"Melee Hits have 50% chance to Fortify Enemies Taunted by you take 10% increased Damage 100% chance to Taunt on Hit 15% increased effect of Non-Curse Auras from your Skills "],
   "Melee Hits have 50% chance to Fortify Enemies Taunted by you take 10% increased Damage 100% chance to Taunt on Hit 15% increased effect of Non-Curse Auras from your Skills Your Hits permanently Intimidate Enemies that are on Full Life":[null,"Melee Hits have 50% chance to Fortify Enemies Taunted by you take 10% increased Damage 100% chance to Taunt on Hit 15% increased effect of Non-Curse Auras from your Skills Your Hits permanently Intimidate Enemies that are on Full Life "],
-  "Melee Hits have 7% chance to Fortify":[null,"Melee Hits have 7% chance to Fortify "],
-  "Melee Hits have 7% chance to Fortify Attacks have 15% chance to Maim on Hit":[null,"Melee Hits have 7% chance to Fortify Attacks have 15% chance to Maim on Hit "],
   "Melee Hits which Stun Fortify":[null,"Melee Hits which Stun Fortify "],
   "Melee Hits which Stun Fortify You have Onslaught while Fortified":[null,"Melee Hits which Stun Fortify You have Onslaught while Fortified "],
   "Melee Hits which Stun have 10% chance to Fortify":[null,"Melee Hits which Stun have 10% chance to Fortify "],
@@ -89110,8 +88549,6 @@
       }]],
   "Minions have the same maximum number of Endurance, Frenzy and Power Charges as you":[null,"the same maximum number of Endurance, Frenzy and Power Charges as you "],
   "Minions have the same maximum number of Endurance, Frenzy and Power Charges as you Minions count as having the same number of Endurance, Frenzy and Power Charges as you":[null,"the same maximum number of Endurance, Frenzy and Power Charges as you Minions count as having the same number of Endurance, Frenzy and Power Charges as you "],
-  "Minions take 45% reduced Reflected Damage":[null,"take 45% reduced Reflected Damage "],
-  "Minions take 45% reduced Reflected Damage 45% reduced Reflected Damage taken":[null,"take 45% reduced Reflected Damage 45% reduced Reflected Damage taken "],
   "Minions' Accuracy Rating is equal to yours":[[{
         "flags":0,
         "keywordFlags":0,
@@ -92989,13 +92426,6 @@
           "type":"SkillType"
         }
       }]],
-  "Quality does not increase Physical Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"AlternateQualityWeapon",
-        "type":"BASE",
-        "value":1
-      }]],
   "Queen's Demand can Trigger Level 20 Flames of Judgement":[[{
         "flags":0,
         "keywordFlags":0,
@@ -96818,9 +96248,6 @@
   "Shocks you inflict during Effect spread to other Enemies in a radius of 20":[null,"Shocks you inflict during Effect spread to other Enemies in a radius of 20 "],
   "Shocks you inflict during Effect spread to other Enemies in a radius of 20 30% of Lightning Damage Leeched as Life during Effect":[null,"Shocks you inflict during Effect spread to other Enemies in a radius of 20 30% of Lightning Damage Leeched as Life during Effect "],
   "Shocks you inflict spread to other Enemies within 1 metre":[null,"Shocks you inflict spread to other Enemies within 1 metre "],
-  "Shocks you inflict spread to other Enemies within a Radius of 12":[null,"Shocks you inflict spread to other Enemies within a Radius of 12 "],
-  "Shocks you inflict spread to other Enemies within a Radius of 12 15% chance to Hinder Enemies on Hit with Spells":[null,"Shocks you inflict spread to other Enemies within a Radius of 12 15% chance to Hinder Enemies on Hit with Spells "],
-  "Shocks you inflict spread to other Enemies within a Radius of 12 Strike Skills target 1 additional nearby Enemy":[null,"Shocks you inflict spread to other Enemies within a Radius of 12 Strike Skills target 1 additional nearby Enemy "],
   "Shocks you inflict spread to other Enemies within a Radius of 15":[null,"Shocks you inflict spread to other Enemies within a Radius of 15 "],
   "Shocks you inflict spread to other Enemies within a Radius of 15 Adds 1 to 10 Lightning Damage for each Shocked Enemy you've Killed Recently":[[{
         "flags":0,
@@ -104584,8 +104011,6 @@
         "value":true
       }]],
   "Strike Skills also target the previous location they were Used":[null,"Strike Skills also target the previous location they were Used "],
-  "Strike Skills target 1 additional nearby Enemy":[null,"Strike Skills target 1 additional nearby Enemy "],
-  "Strike Skills target 1 additional nearby Enemy Withered you Inflict expires 10% slower":[null,"Strike Skills target 1 additional nearby Enemy Withered you Inflict expires 10% slower "],
   "Strike Skills which target additional Enemies can do so from 40% further away":[null,"Strike Skills which target additional Enemies can do so from 40% further away "],
   "Stun Threshold is based on 500% of your Mana instead of Life":[[{
         "flags":0,
@@ -108334,554 +107759,6 @@
           }
         }
       }]],
-  "While a Unique Enemy is in your Presence, 15% chance to Extinguish Enemies on Hit":[[]," to Extinguish Enemies  "],
-  "While a Unique Enemy is in your Presence, 15% chance to Extinguish Enemies on Hit While a Unique Enemy is in your Presence, 8% of Fire Damage taken Recouped as Life":[[{
-        "flags":4,
-        "keywordFlags":0,
-        "name":"FireLifeRecoup",
-        "type":"BASE",
-        "value":15,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]," to Extinguish Enemies  While a Unique Enemy is in your Presence, 8% of  "],
-  "While a Unique Enemy is in your Presence, 15% chance to Hinder Enemies on Hit with Spells":[[]," to Hinder Enemies  "],
-  "While a Unique Enemy is in your Presence, 15% chance to Hinder Enemies on Hit with Spells While a Unique Enemy is in your Presence, Strike Skills target 1 additional nearby Enemy":[[]," to Hinder Enemies  While a Unique Enemy is in your Presence, Strike Skills target 1 additional nearby Enemy "],
-  "While a Unique Enemy is in your Presence, 15% chance to Intimidate Enemies for 4 seconds on Hit":[[]," to Intimidate Enemies   "],
-  "While a Unique Enemy is in your Presence, 15% chance to Intimidate Enemies for 4 seconds on Hit While a Unique Enemy is in your Presence, 15% chance to Unnerve Enemies for 4 seconds on Hit":[[]," to Intimidate Enemies   While a Unique Enemy is in your Presence, 15% chance to Unnerve Enemies  on Hit "],
-  "While a Unique Enemy is in your Presence, 15% chance to Unnerve Enemies for 4 seconds on Hit":[[]," to Unnerve Enemies   "],
-  "While a Unique Enemy is in your Presence, 15% chance to Unnerve Enemies for 4 seconds on Hit While a Unique Enemy is in your Presence, 8% of Cold Damage taken Recouped as Life":[[{
-        "flags":4,
-        "keywordFlags":0,
-        "name":"ColdLifeRecoup",
-        "type":"BASE",
-        "value":15,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]," to Unnerve Enemies   While a Unique Enemy is in your Presence, 8% of  "],
-  "While a Unique Enemy is in your Presence, 34% increased Armour from Equipped Helmet and Gloves":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Armour",
-        "type":"INC",
-        "value":34,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        },
-        "2":{
-          "slotNameList":["Helmet","Gloves"],
-          "type":"SlotName"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, 34% increased Evasion Rating from Equipped Helmet and Boots":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Evasion",
-        "type":"INC",
-        "value":34,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        },
-        "2":{
-          "slotNameList":["Helmet","Boots"],
-          "type":"SlotName"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, 34% increased Maximum Energy Shield from Equipped Gloves and Boots":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnergyShield",
-        "type":"INC",
-        "value":34,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        },
-        "2":{
-          "slotNameList":["Gloves","Boots"],
-          "type":"SlotName"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, 35% increased Armour from Equipped Helmet and Gloves":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Armour",
-        "type":"INC",
-        "value":35,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        },
-        "2":{
-          "slotNameList":["Helmet","Gloves"],
-          "type":"SlotName"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, 35% increased Evasion Rating from Equipped Helmet and Boots":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Evasion",
-        "type":"INC",
-        "value":35,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        },
-        "2":{
-          "slotNameList":["Helmet","Boots"],
-          "type":"SlotName"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, 35% increased Maximum Energy Shield from Equipped Gloves and Boots":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnergyShield",
-        "type":"INC",
-        "value":35,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        },
-        "2":{
-          "slotNameList":["Gloves","Boots"],
-          "type":"SlotName"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, 45% reduced Reflected Damage taken":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"DamageTaken",
-        "type":"INC",
-        "value":-45,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]," Reflected  "],
-  "While a Unique Enemy is in your Presence, 45% reduced Reflected Damage taken While a Unique Enemy is in your Presence, Drops Sapped Ground while moving, lasting 2 seconds":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"DamageTaken",
-        "type":"INC",
-        "value":-45,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        },
-        "2":{
-          "type":"Condition",
-          "var":"Moving"
-        }
-      }]," Reflected  While a Unique Enemy is in your Presence, Drops Sapped Ground , lasting 2 seconds "],
-  "While a Unique Enemy is in your Presence, 7% increased Blind Effect":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LocalEffect",
-        "type":"INC",
-        "value":7,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]," Blind  "],
-  "While a Unique Enemy is in your Presence, 7% increased Blind Effect While a Unique Enemy is in your Presence, Enemies you've Hit Recently have 65% reduced Life Regeneration rate":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LocalEffect",
-        "type":"INC",
-        "value":7,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]," Blind  While a Unique Enemy is in your Presence, Enemies you've Hit Recently have 65% reduced Life Regeneration rate "],
-  "While a Unique Enemy is in your Presence, 8% of Cold Damage taken Recouped as Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ColdLifeRecoup",
-        "type":"BASE",
-        "value":8,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, 8% of Fire Damage taken Recouped as Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireLifeRecoup",
-        "type":"BASE",
-        "value":8,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, 8% of Lightning Damage taken Recouped as Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LightningLifeRecoup",
-        "type":"BASE",
-        "value":8,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, 8% of Physical Damage taken Recouped as Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalLifeRecoup",
-        "type":"BASE",
-        "value":8,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, 9% of Damage taken Recouped as Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LifeRecoup",
-        "type":"BASE",
-        "value":9,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, Attacks Exerted by Ancestral Cry deal 22% increased Damage":[null,"Attacks Exerted by Ancestral Cry deal 22% increased Damage "],
-  "While a Unique Enemy is in your Presence, Attacks Exerted by Ancestral Cry deal 22% increased Damage While a Unique Enemy is in your Presence, 35% increased Armour from Equipped Helmet and Gloves":[null,"Attacks Exerted by Ancestral Cry deal 22% increased Damage While a Unique Enemy is in your Presence, 35% increased Armour from Equipped Helmet and Gloves "],
-  "While a Unique Enemy is in your Presence, Attacks Exerted by Seismic Cry deal 22% increased Damage":[null,"Attacks Exerted by Seismic Cry deal 22% increased Damage "],
-  "While a Unique Enemy is in your Presence, Attacks Exerted by Seismic Cry deal 22% increased Damage While a Unique Enemy is in your Presence, Shocks you inflict spread to other Enemies within a Radius of 12":[null,"Attacks Exerted by Seismic Cry deal 22% increased Damage While a Unique Enemy is in your Presence, Shocks you inflict spread to other Enemies within a Radius of 12 "],
-  "While a Unique Enemy is in your Presence, Attacks have 15% chance to Maim on Hit":[null,"Attacks have 15% chance to Maim on Hit "],
-  "While a Unique Enemy is in your Presence, Attacks have 15% chance to Maim on Hit While a Unique Enemy is in your Presence, Minions take 45% reduced Reflected Damage":[null,"Attacks have 15% chance to Maim on Hit While a Unique Enemy is in your Presence, Minions take 45% reduced Reflected Damage "],
-  "While a Unique Enemy is in your Presence, Bleeding you inflict deals Damage 5% faster":[null,"Bleeding you inflict deals Damage 5% faster "],
-  "While a Unique Enemy is in your Presence, Bleeding you inflict deals Damage 5% faster While a Unique Enemy is in your Presence, Ignites you inflict deal Damage 5% faster":[null,"Bleeding you inflict deals Damage 5% faster While a Unique Enemy is in your Presence, Ignites you inflict deal Damage 5% faster "],
-  "While a Unique Enemy is in your Presence, Bone Offering has 11% increased Effect":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LocalEffect",
-        "type":"INC",
-        "value":11,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        },
-        "2":{
-          "includeTransfigured":true,
-          "skillName":"Bone Offering",
-          "type":"SkillName"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, Drops Brittle Ground while moving, lasting 2 seconds":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"BrittleBase",
-        "type":"BASE",
-        "value":2,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"OnBrittleGround"
-        },
-        "2":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, Drops Sapped Ground while moving, lasting 2 seconds":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"SapBase",
-        "type":"BASE",
-        "value":6,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"OnSappedGround"
-        },
-        "2":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, Drops Scorched Ground while moving, lasting 2 seconds":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ScorchBase",
-        "type":"BASE",
-        "value":10,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"OnScorchedGround"
-        },
-        "2":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, Enemies you've Hit Recently have 65% reduced Life Regeneration rate":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnemyModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"LifeRegen",
-            "type":"INC",
-            "value":-65
-          }
-        },
-        "1":{
-          "type":"Condition",
-          "var":"HitRecently"
-        },
-        "2":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"PinnacleBoss"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, Enemies you've Hit Recently have 66% reduced Life Regeneration rate":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnemyModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"LifeRegen",
-            "type":"INC",
-            "value":-66
-          }
-        },
-        "1":{
-          "type":"Condition",
-          "var":"HitRecently"
-        },
-        "2":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"PinnacleBoss"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, Exerted Attacks deal 22% increased Damage":[null,"Exerted Attacks deal 22% increased Damage "],
-  "While a Unique Enemy is in your Presence, Exerted Attacks deal 22% increased Damage While a Unique Enemy is in your Presence, Bleeding you inflict deals Damage 5% faster":[null,"Exerted Attacks deal 22% increased Damage While a Unique Enemy is in your Presence, Bleeding you inflict deals Damage 5% faster "],
-  "While a Unique Enemy is in your Presence, Flasks applied to you have 7% increased Effect":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FlaskEffect",
-        "type":"INC",
-        "value":7,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        },
-        "2":{
-          "actor":"player",
-          "type":"ActorCondition"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, Flasks gain a Charge every 3 seconds":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FlaskChargesGenerated",
-        "type":"BASE",
-        "value":0.33333333333333,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, Freezes you inflict spread to other Enemies within a Radius of 12":[null,"Freezes you inflict spread to other Enemies within a Radius of 12 "],
-  "While a Unique Enemy is in your Presence, Freezes you inflict spread to other Enemies within a Radius of 12 While a Unique Enemy is in your Presence, Gain a Frenzy Charge every 15 seconds":[null,"Freezes you inflict spread to other Enemies within a Radius of 12 While a Unique Enemy is in your Presence, Gain a Frenzy Charge every 15 seconds "],
-  "While a Unique Enemy is in your Presence, Gain 1 Rage on Hit with Attacks, no more than once every 1.2 seconds":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Condition:CanGainRage",
-        "type":"FLAG",
-        "value":true,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, Gain a Frenzy Charge every 15 seconds":[null,"a Frenzy Charge every 15 seconds "],
-  "While a Unique Enemy is in your Presence, Gain a Frenzy Charge every 15 seconds While a Unique Enemy is in your Presence, Ignites you inflict spread to other Enemies within a Radius of 12":[null,"a Frenzy Charge every 15 seconds While a Unique Enemy is in your Presence, Ignites you inflict spread to other Enemies within a Radius of 12 "],
-  "While a Unique Enemy is in your Presence, Gain a Power Charge every 15 seconds":[null,"a Power Charge every 15 seconds "],
-  "While a Unique Enemy is in your Presence, Gain a Power Charge every 15 seconds While a Unique Enemy is in your Presence, Gain 1 Rage on Hit with Attacks, no more than once every 1.2 seconds":[null,"a Power Charge every 15 seconds While a Unique Enemy is in your Presence, Gain 1 Rage on Hit with Attacks, no more than once every 1.2 seconds "],
-  "While a Unique Enemy is in your Presence, Gain an Endurance Charge every 15 seconds":[null,"an Endurance Charge every 15 seconds "],
-  "While a Unique Enemy is in your Presence, Gain an Endurance Charge every 15 seconds While a Unique Enemy is in your Presence, 15% chance to Extinguish Enemies on Hit":[null,"an Endurance Charge every 15 seconds While a Unique Enemy is in your Presence, 15% chance to Extinguish Enemies on Hit "],
-  "While a Unique Enemy is in your Presence, Ignites you inflict deal Damage 5% faster":[null,"Ignites you inflict deal Damage 5% faster "],
-  "While a Unique Enemy is in your Presence, Ignites you inflict deal Damage 5% faster While a Unique Enemy is in your Presence, Poisons you inflict deal Damage 5% faster":[null,"Ignites you inflict deal Damage 5% faster While a Unique Enemy is in your Presence, Poisons you inflict deal Damage 5% faster "],
-  "While a Unique Enemy is in your Presence, Ignites you inflict spread to other Enemies within a Radius of 12":[null,"Ignites you inflict spread to other Enemies within a Radius of 12 "],
-  "While a Unique Enemy is in your Presence, Ignites you inflict spread to other Enemies within a Radius of 12 While a Unique Enemy is in your Presence, 8% of Lightning Damage taken Recouped as Life":[null,"Ignites you inflict spread to other Enemies within a Radius of 12 While a Unique Enemy is in your Presence, 8% of Lightning Damage taken Recouped as Life "],
-  "While a Unique Enemy is in your Presence, Melee Hits have 7% chance to Fortify":[null,"Melee Hits have 7% chance to Fortify "],
-  "While a Unique Enemy is in your Presence, Melee Hits have 7% chance to Fortify While a Unique Enemy is in your Presence, Attacks have 15% chance to Maim on Hit":[null,"Melee Hits have 7% chance to Fortify While a Unique Enemy is in your Presence, Attacks have 15% chance to Maim on Hit "],
-  "While a Unique Enemy is in your Presence, Minions deal 15% increased Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"Damage",
-            "type":"INC",
-            "value":15
-          }
-        },
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, Minions deal 16% increased Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"Damage",
-            "type":"INC",
-            "value":16
-          }
-        },
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, Minions have 12% increased Movement Speed":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"MovementSpeed",
-            "type":"INC",
-            "value":12
-          }
-        },
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, Minions have 15% increased maximum Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"Life",
-            "type":"INC",
-            "value":15
-          }
-        },
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, Minions have 16% increased maximum Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"Life",
-            "type":"INC",
-            "value":16
-          }
-        },
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, Minions take 45% reduced Reflected Damage":[null,"Minions take 45% reduced Reflected Damage "],
-  "While a Unique Enemy is in your Presence, Minions take 45% reduced Reflected Damage While a Unique Enemy is in your Presence, 45% reduced Reflected Damage taken":[null,"Minions take 45% reduced Reflected Damage While a Unique Enemy is in your Presence, 45% reduced Reflected Damage taken "],
-  "While a Unique Enemy is in your Presence, Overwhelm 9% Physical Damage Reduction":[null,"Overwhelm 9% Physical Damage Reduction "],
-  "While a Unique Enemy is in your Presence, Overwhelm 9% Physical Damage Reduction While a Unique Enemy is in your Presence, 7% increased Blind Effect":[null,"Overwhelm 9% Physical Damage Reduction While a Unique Enemy is in your Presence, 7% increased Blind Effect "],
-  "While a Unique Enemy is in your Presence, Poisons you inflict deal Damage 5% faster":[null,"Poisons you inflict deal Damage 5% faster "],
-  "While a Unique Enemy is in your Presence, Poisons you inflict deal Damage 5% faster While a Unique Enemy is in your Presence, Melee Hits have 7% chance to Fortify":[null,"Poisons you inflict deal Damage 5% faster While a Unique Enemy is in your Presence, Melee Hits have 7% chance to Fortify "],
-  "While a Unique Enemy is in your Presence, Projectiles Pierce an additional Target":[null,"Projectiles Pierce an additional Target "],
-  "While a Unique Enemy is in your Presence, Projectiles Pierce an additional Target While a Unique Enemy is in your Presence, Attacks Exerted by Ancestral Cry deal 22% increased Damage":[null,"Projectiles Pierce an additional Target While a Unique Enemy is in your Presence, Attacks Exerted by Ancestral Cry deal 22% increased Damage "],
-  "While a Unique Enemy is in your Presence, Regenerate 0.3% of Life per second per Endurance Charge":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LifeRegenPercent",
-        "type":"BASE",
-        "value":0.3,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"RareOrUnique"
-        },
-        "2":{
-          "type":"Multiplier",
-          "var":"EnduranceCharge"
-        }
-      }]],
-  "While a Unique Enemy is in your Presence, Shocks you inflict spread to other Enemies within a Radius of 12":[null,"Shocks you inflict spread to other Enemies within a Radius of 12 "],
-  "While a Unique Enemy is in your Presence, Shocks you inflict spread to other Enemies within a Radius of 12 While a Unique Enemy is in your Presence, 15% chance to Hinder Enemies on Hit with Spells":[null,"Shocks you inflict spread to other Enemies within a Radius of 12 While a Unique Enemy is in your Presence, 15% chance to Hinder Enemies on Hit with Spells "],
-  "While a Unique Enemy is in your Presence, Shocks you inflict spread to other Enemies within a Radius of 12 While a Unique Enemy is in your Presence, Strike Skills target 1 additional nearby Enemy":[null,"Shocks you inflict spread to other Enemies within a Radius of 12 While a Unique Enemy is in your Presence, Strike Skills target 1 additional nearby Enemy "],
-  "While a Unique Enemy is in your Presence, Strike Skills target 1 additional nearby Enemy":[null,"Strike Skills target 1 additional nearby Enemy "],
-  "While a Unique Enemy is in your Presence, Strike Skills target 1 additional nearby Enemy While a Unique Enemy is in your Presence, Withered you Inflict expires 10% slower":[null,"Strike Skills target 1 additional nearby Enemy While a Unique Enemy is in your Presence, Withered you Inflict expires 10% slower "],
-  "While a Unique Enemy is in your Presence, Withered you Inflict expires 10% slower":[null,"Withered you Inflict expires 10% slower "],
   "While at Maximum Frenzy Charges, Attacks Poison Enemies":[[{
         "flags":1,
         "keywordFlags":0,
