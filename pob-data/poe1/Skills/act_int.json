@@ -101608,6 +101608,12 @@
         "1":16.666667039196
       }],
     "name":"Wintertide Brand",
+    "parts":[{
+        "name":"Manual Stages",
+        "stages":true
+      },{
+        "name":"Average Damage"
+      }],
     "qualityStats":{
       "Default":[["immolation_brand_burn_damage_+%_final_per_stage",0.25]]
     },
@@ -101640,7 +101646,16 @@
             "limitVar":"WintertideBrandMaxStages",
             "type":"Multiplier",
             "var":"WintertideBrandStage"
+          },
+          "2":{
+            "skillPart":1,
+            "type":"SkillPart"
           }
+        },{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Multiplier:WintertideBrandDamagePerStage",
+          "type":"BASE"
         }],
       "quality_display_wintertide_brand_is_gem":[],
       "winter_brand_max_number_of_stages":[{
