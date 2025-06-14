@@ -305,8 +305,8 @@
     "hidden":true,
     "levels":[{
         "attackSpeedMultiplier":-10,
-        "baseMultiplier":1.85,
-        "damageEffectiveness":1.85,
+        "baseMultiplier":2.3,
+        "damageEffectiveness":2.3,
         "levelRequirement":1
       }],
     "name":"Empowered Cascade",
@@ -342,9 +342,9 @@
     "hidden":true,
     "levels":[{
         "attackSpeedMultiplier":-44,
-        "baseMultiplier":1.8,
+        "baseMultiplier":2.25,
         "cooldown":4,
-        "damageEffectiveness":1.8,
+        "damageEffectiveness":2.25,
         "levelRequirement":1,
         "storedUses":1
       }],
@@ -382,8 +382,8 @@
     "constantStats":[["bone_golem_attack_speed_+%_final_after_third_combo_index",200],["bone_golem_damage_+%_final_after_third_combo_index",20]],
     "hidden":true,
     "levels":[{
-        "baseMultiplier":1.35,
-        "damageEffectiveness":1.35,
+        "baseMultiplier":1.6,
+        "damageEffectiveness":1.6,
         "levelRequirement":1
       }],
     "name":"Combo Attack",
@@ -1045,7 +1045,7 @@
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile","always_pierce"]
   },
   "FireElementalMeteorSummoned":{
-    "baseEffectiveness":13.5,
+    "baseEffectiveness":14,
     "baseFlags":{
       "area":true,
       "attack":true
@@ -1064,10 +1064,10 @@
     "color":4,
     "constantStats":[["base_skill_effect_duration",5000],["skill_physical_damage_%_to_convert_to_fire",100],["active_skill_area_of_effect_radius_+%_final",80]],
     "hidden":true,
-    "incrementalEffectiveness":0.054999999701977,
+    "incrementalEffectiveness":0.056000001728535,
     "levels":[{
-        "baseMultiplier":5.25,
-        "damageEffectiveness":5.25,
+        "baseMultiplier":6.8,
+        "damageEffectiveness":6.8,
         "levelRequirement":1,
         "statInterpolation":[3],
         "1":21.666666356226
@@ -2723,7 +2723,7 @@
       }],
     "castTime":0.7,
     "color":4,
-    "constantStats":[["base_skill_effect_duration",8000],["active_skill_area_of_effect_radius_+%_final",50],["chaos_damage_taken_+%",6]],
+    "constantStats":[["base_skill_effect_duration",8000],["active_skill_area_of_effect_radius_+%_final",50],["chaos_damage_taken_+%",6],["wither_expire_speed_+%",-100]],
     "hidden":true,
     "incrementalEffectiveness":0.052099999040365,
     "levels":[{
@@ -2833,6 +2833,7 @@
     },
     "castTime":1.2,
     "color":4,
+    "constantStats":[["base_chance_to_freeze_%",20]],
     "hidden":true,
     "incrementalEffectiveness":0.040899999439716,
     "levels":[{
@@ -2862,6 +2863,7 @@
     },
     "castTime":1.2,
     "color":4,
+    "constantStats":[["base_chance_to_ignite_%",20]],
     "hidden":true,
     "incrementalEffectiveness":0.040899999439716,
     "levels":[{
@@ -2891,6 +2893,7 @@
     },
     "castTime":1.2,
     "color":4,
+    "constantStats":[["base_chance_to_shock_%",20]],
     "hidden":true,
     "incrementalEffectiveness":0.040899999439716,
     "levels":[{

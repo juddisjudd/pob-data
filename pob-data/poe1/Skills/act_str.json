@@ -20,7 +20,7 @@
     "baseTypeName":"Absolution",
     "castTime":0.75,
     "color":1,
-    "constantStats":[["skill_physical_damage_%_to_convert_to_lightning",50],["max_number_of_absolution_sentinels",3],["base_secondary_skill_effect_duration",10000],["absolution_blast_chance_to_summon_on_hitting_rare_or_unique_%",25],["display_minion_monster_type",19],["base_skill_effect_duration",1000],["max_number_of_vaal_absolution_sentinels",1]],
+    "constantStats":[["skill_physical_damage_%_to_convert_to_lightning",50],["base_max_number_of_absolution_sentinels",3],["base_secondary_skill_effect_duration",10000],["absolution_blast_chance_to_summon_on_hitting_rare_or_unique_%",25],["display_minion_monster_type",19],["base_skill_effect_duration",1000],["base_max_number_of_vaal_absolution_sentinels",1]],
     "description":"Damages enemies in an area, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the corpse will be consumed to summon a Sentinel of Absolution for a secondary duration, or to refresh the duration and life of an existing one instead if you have the maximum number of them.",
     "incrementalEffectiveness":0.043200001120567,
     "levels":[{
@@ -572,7 +572,7 @@
     "baseTypeName":"Absolution of Inspiring",
     "castTime":0.75,
     "color":1,
-    "constantStats":[["skill_physical_damage_%_to_convert_to_lightning",50],["max_number_of_absolution_sentinels",2],["base_secondary_skill_effect_duration",10000],["absolution_blast_chance_to_summon_on_hitting_rare_or_unique_%",25],["display_minion_monster_type",19],["base_skill_effect_duration",1000],["max_number_of_vaal_absolution_sentinels",1],["active_skill_additive_minion_damage_modifiers_apply_to_all_damage_at_%_value",250]],
+    "constantStats":[["skill_physical_damage_%_to_convert_to_lightning",50],["base_max_number_of_absolution_sentinels",2],["base_secondary_skill_effect_duration",10000],["absolution_blast_chance_to_summon_on_hitting_rare_or_unique_%",25],["display_minion_monster_type",19],["base_skill_effect_duration",1000],["base_max_number_of_vaal_absolution_sentinels",1],["active_skill_additive_minion_damage_modifiers_apply_to_all_damage_at_%_value",250]],
     "description":"Damages enemies in an area, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the corpse will be consumed to summon a Sentinel of Absolution for a secondary duration, or to refresh the duration and life of an existing one instead if you have the maximum number of them.",
     "incrementalEffectiveness":0.043200001120567,
     "levels":[{
@@ -2110,7 +2110,7 @@
     "castTime":0.6,
     "color":1,
     "constantStats":[["emerge_speed_+%",100],["display_minion_monster_type",3]],
-    "description":"Animates a melee weapon or armour, attaching it to an invisible Guardian that fights by your side. Animating multiple items attaches them to the same Guardian. You cannot animate unidentified items. Cannot be used by Traps or Mines.",
+    "description":"Animates a melee weapon or armour, attaching it to an invisible Guardian that fights by your side. Animating multiple items attaches them to the same Guardian. You cannot animate unidentified items. Cannot be used by Traps or Mines. If your Guardian dies you cannot summon an Animated Guardian again in that area.",
     "levels":[{
         "cost":{
           "Mana":11
@@ -2553,7 +2553,7 @@
     "castTime":0.6,
     "color":1,
     "constantStats":[["emerge_speed_+%",100],["display_minion_monster_type",3],["active_skill_minion_from_alternate_gem_index",1]],
-    "description":"Animates a melee weapon or armour, attaching it to an invisible Guardian that fights by your side using Smite of Divine Judgement, ignoring weapon restrictions. Animating multiple items attaches them to the same Guardian. You cannot animate unidentified items. Cannot be used by Traps or Mines.",
+    "description":"Animates a melee weapon or armour, attaching it to an invisible Guardian that fights by your side using Smite of Divine Judgement, ignoring weapon restrictions. Animating multiple items attaches them to the same Guardian. You cannot animate unidentified items. Cannot be used by Traps or Mines. If your Guardian dies you cannot summon an Animated Guardian again in that area.",
     "levels":[{
         "cost":{
           "Mana":11
@@ -6953,7 +6953,7 @@
     "baseTypeName":"Boneshatter of Carnage",
     "castTime":1,
     "color":1,
-    "constantStats":[["trauma_strike_shockwave_area_of_effect_+%_per_100ms_stun_duration_up_to_400%",15],["base_stun_threshold_reduction_+%",25]],
+    "constantStats":[["trauma_strike_shockwave_area_of_effect_+%_per_100ms_stun_duration_up_to_400%",20],["base_stun_threshold_reduction_+%",25]],
     "description":"Attack enemies with a forceful melee strike. Stunning an enemy with the strike releases a damaging pulse. Requires a Mace, Sceptre, Axe or Staff.",
     "incrementalEffectiveness":0.053700000047684,
     "levels":[{
@@ -7366,7 +7366,7 @@
         "name":"Pulse"
       }],
     "qualityStats":{
-      "Default":[["trauma_strike_shockwave_area_of_effect_+%_per_100ms_stun_duration_up_to_400%",0.25]]
+      "Default":[["damage_+%_final_vs_stunned_enemies",1]]
     },
     "skillTypes":{
       "1":true,
@@ -7757,6 +7757,424 @@
         }
       },
       "quality_display_chain_hook_is_gem":[]
+    },
+    "stats":["is_area_damage"],
+    "weaponTypes":{
+      "One Handed Axe":true,
+      "One Handed Mace":true,
+      "One Handed Sword":true,
+      "Sceptre":true,
+      "Thrusting One Handed Sword":true
+    }
+  },
+  "ChainHookAltY":{
+    "baseFlags":{
+      "area":true,
+      "attack":true,
+      "melee":true
+    },
+    "baseMods":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"radius",
+          "value":24
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"radiusLabel",
+          "value":"Strike area:"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"radiusSecondaryLabel",
+          "value":"Chain length:"
+        }
+      }],
+    "baseTypeName":"Chain Hook of Trarthus",
+    "castTime":1,
+    "color":1,
+    "constantStats":[["chain_strike_cone_radius_+_per_x_rage",5],["chain_hook_attaches_to_X_targets",6],["chain_hook_attachment_range",60],["chain_hook_attachment_rage_to_gain_per_hit",1],["chain_hook_max_attached_targets",12]],
+    "description":"Throws chains ahead of you, attaching them to targets hit. Enemies chained to you will grant rage when hit. When chains are broken, they snap and deal attack damage in an area around the target they were attached to. Requires a One Handed Mace, Sceptre, Sword or Axe.",
+    "levels":[{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":1.711,
+        "cost":{
+          "Mana":5
+        },
+        "damageEffectiveness":1.711,
+        "levelRequirement":12
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":1.788,
+        "cost":{
+          "Mana":5
+        },
+        "damageEffectiveness":1.788,
+        "levelRequirement":15
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":1.871,
+        "cost":{
+          "Mana":6
+        },
+        "damageEffectiveness":1.871,
+        "levelRequirement":19
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":1.959,
+        "cost":{
+          "Mana":6
+        },
+        "damageEffectiveness":1.959,
+        "levelRequirement":23
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":2.05,
+        "cost":{
+          "Mana":6
+        },
+        "damageEffectiveness":2.05,
+        "levelRequirement":27
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":2.146,
+        "cost":{
+          "Mana":6
+        },
+        "damageEffectiveness":2.146,
+        "levelRequirement":31
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":2.246,
+        "cost":{
+          "Mana":6
+        },
+        "damageEffectiveness":2.246,
+        "levelRequirement":35
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":2.346,
+        "cost":{
+          "Mana":7
+        },
+        "damageEffectiveness":2.346,
+        "levelRequirement":38
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":2.451,
+        "cost":{
+          "Mana":7
+        },
+        "damageEffectiveness":2.451,
+        "levelRequirement":41
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":2.561,
+        "cost":{
+          "Mana":7
+        },
+        "damageEffectiveness":2.561,
+        "levelRequirement":44
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":2.675,
+        "cost":{
+          "Mana":7
+        },
+        "damageEffectiveness":2.675,
+        "levelRequirement":47
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":2.794,
+        "cost":{
+          "Mana":7
+        },
+        "damageEffectiveness":2.794,
+        "levelRequirement":50
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":2.918,
+        "cost":{
+          "Mana":7
+        },
+        "damageEffectiveness":2.918,
+        "levelRequirement":53
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":3.049,
+        "cost":{
+          "Mana":8
+        },
+        "damageEffectiveness":3.049,
+        "levelRequirement":56
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":3.185,
+        "cost":{
+          "Mana":8
+        },
+        "damageEffectiveness":3.185,
+        "levelRequirement":59
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":3.325,
+        "cost":{
+          "Mana":8
+        },
+        "damageEffectiveness":3.325,
+        "levelRequirement":62
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":3.468,
+        "cost":{
+          "Mana":8
+        },
+        "damageEffectiveness":3.468,
+        "levelRequirement":64
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":3.616,
+        "cost":{
+          "Mana":8
+        },
+        "damageEffectiveness":3.616,
+        "levelRequirement":66
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":3.771,
+        "cost":{
+          "Mana":8
+        },
+        "damageEffectiveness":3.771,
+        "levelRequirement":68
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":3.931,
+        "cost":{
+          "Mana":8
+        },
+        "damageEffectiveness":3.931,
+        "levelRequirement":70
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":4.099,
+        "cost":{
+          "Mana":8
+        },
+        "damageEffectiveness":4.099,
+        "levelRequirement":72
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":4.273,
+        "cost":{
+          "Mana":9
+        },
+        "damageEffectiveness":4.273,
+        "levelRequirement":74
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":4.456,
+        "cost":{
+          "Mana":9
+        },
+        "damageEffectiveness":4.456,
+        "levelRequirement":76
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":4.646,
+        "cost":{
+          "Mana":9
+        },
+        "damageEffectiveness":4.646,
+        "levelRequirement":78
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":4.845,
+        "cost":{
+          "Mana":9
+        },
+        "damageEffectiveness":4.845,
+        "levelRequirement":80
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":5.051,
+        "cost":{
+          "Mana":9
+        },
+        "damageEffectiveness":5.051,
+        "levelRequirement":82
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":5.266,
+        "cost":{
+          "Mana":9
+        },
+        "damageEffectiveness":5.266,
+        "levelRequirement":84
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":5.49,
+        "cost":{
+          "Mana":9
+        },
+        "damageEffectiveness":5.49,
+        "levelRequirement":86
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":5.725,
+        "cost":{
+          "Mana":9
+        },
+        "damageEffectiveness":5.725,
+        "levelRequirement":88
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":5.968,
+        "cost":{
+          "Mana":9
+        },
+        "damageEffectiveness":5.968,
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":6.334,
+        "cost":{
+          "Mana":10
+        },
+        "damageEffectiveness":6.334,
+        "levelRequirement":91
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":6.469,
+        "cost":{
+          "Mana":10
+        },
+        "damageEffectiveness":6.469,
+        "levelRequirement":92
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":6.607,
+        "cost":{
+          "Mana":10
+        },
+        "damageEffectiveness":6.607,
+        "levelRequirement":93
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":6.746,
+        "cost":{
+          "Mana":10
+        },
+        "damageEffectiveness":6.746,
+        "levelRequirement":94
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":6.89,
+        "cost":{
+          "Mana":10
+        },
+        "damageEffectiveness":6.89,
+        "levelRequirement":95
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":7.037,
+        "cost":{
+          "Mana":10
+        },
+        "damageEffectiveness":7.037,
+        "levelRequirement":96
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":7.186,
+        "cost":{
+          "Mana":10
+        },
+        "damageEffectiveness":7.186,
+        "levelRequirement":97
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":7.339,
+        "cost":{
+          "Mana":10
+        },
+        "damageEffectiveness":7.339,
+        "levelRequirement":98
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":7.494,
+        "cost":{
+          "Mana":10
+        },
+        "damageEffectiveness":7.494,
+        "levelRequirement":99
+      },{
+        "attackSpeedMultiplier":20,
+        "baseMultiplier":7.654,
+        "cost":{
+          "Mana":10
+        },
+        "damageEffectiveness":7.654,
+        "levelRequirement":100
+      }],
+    "name":"Chain Hook of Trarthus",
+    "qualityStats":{
+      "Default":[["chain_hook_attaches_to_X_targets",0.15]]
+    },
+    "skillTypes":{
+      "1":true,
+      "10":true,
+      "11":true,
+      "24":true,
+      "28":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "statMap":{
+      "chain_hook_attachment_rage_to_gain_per_hit":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Condition:CanGainRage",
+          "type":"FLAG",
+          "value":true,
+          "1":{
+            "effectName":"Rage",
+            "effectType":"Buff",
+            "type":"GlobalEffect"
+          }
+        }],
+      "chain_hook_attachment_range":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillData",
+          "type":"LIST",
+          "value":{
+            "key":"radiusSecondary"
+          }
+        }],
+      "chain_strike_cone_radius_+_per_x_rage":{
+        "div":5,
+        "1":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"AreaOfEffect",
+          "type":"BASE",
+          "1":{
+            "div":5,
+            "type":"Multiplier",
+            "var":"Rage"
+          }
+        }
+      }
     },
     "stats":["is_area_damage"],
     "weaponTypes":{
@@ -12598,7 +13016,7 @@
     "baseTypeName":"Dominating Blow",
     "castTime":1,
     "color":1,
-    "constantStats":[["base_skill_effect_duration",1000],["max_number_of_dominated_normal_monsters",9],["max_number_of_dominated_magic_monsters",3],["max_number_of_dominated_rare_monsters",1],["base_secondary_skill_effect_duration",20000],["dominating_blow_chance_to_summon_on_hitting_unqiue_%",25],["max_number_of_vaal_dominated_monsters",3]],
+    "constantStats":[["base_skill_effect_duration",1000],["base_max_number_of_dominated_normal_monsters",9],["base_max_number_of_dominated_magic_monsters",3],["base_max_number_of_dominated_rare_monsters",1],["base_secondary_skill_effect_duration",20000],["dominating_blow_chance_to_summon_on_hitting_unqiue_%",25],["base_max_number_of_vaal_dominated_monsters",3]],
     "description":"Attacks enemies with a melee strike, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the enemy's corpse will be consumed and a Sentinel of Dominance with the same rarity, prefix and suffix modifiers will be summoned for a longer secondary duration.",
     "levels":[{
         "baseMultiplier":2.498,
@@ -12931,7 +13349,7 @@
     "baseTypeName":"Dominating Blow of Inspiring",
     "castTime":1,
     "color":1,
-    "constantStats":[["base_skill_effect_duration",1000],["max_number_of_dominated_normal_monsters",6],["max_number_of_dominated_magic_monsters",3],["max_number_of_dominated_rare_monsters",1],["base_secondary_skill_effect_duration",20000],["dominating_blow_chance_to_summon_on_hitting_unqiue_%",25],["max_number_of_vaal_dominated_monsters",3],["active_skill_additive_minion_damage_modifiers_apply_to_all_damage_at_%_value",250]],
+    "constantStats":[["base_skill_effect_duration",1000],["base_max_number_of_dominated_normal_monsters",6],["base_max_number_of_dominated_magic_monsters",3],["base_max_number_of_dominated_rare_monsters",1],["base_secondary_skill_effect_duration",20000],["dominating_blow_chance_to_summon_on_hitting_unqiue_%",25],["base_max_number_of_vaal_dominated_monsters",3],["active_skill_additive_minion_damage_modifiers_apply_to_all_damage_at_%_value",250]],
     "description":"Attacks enemies with a melee strike, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the enemy's corpse will be consumed and a Sentinel of Dominance with the same rarity, prefix and suffix modifiers will be summoned for a longer secondary duration.",
     "levels":[{
         "baseMultiplier":2.498,
@@ -17163,7 +17581,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":65.795001864818,
+        "3":66.453335181077,
         "4":7
       },{
         "cost":{
@@ -17175,7 +17593,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":64.013335546156,
+        "3":65.293333400389,
         "4":7
       },{
         "cost":{
@@ -17187,7 +17605,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":62.278335691753,
+        "3":64.146667165856,
         "4":7
       },{
         "cost":{
@@ -17199,7 +17617,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":60.591667258057,
+        "3":63.015001433926,
         "4":7
       },{
         "cost":{
@@ -17211,7 +17629,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":58.951669262263,
+        "3":61.900001161049,
         "4":7
       },{
         "cost":{
@@ -17223,7 +17641,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":57.354999870546,
+        "3":60.796667504236,
         "4":7
       },{
         "cost":{
@@ -17235,7 +17653,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":56.185000403884,
+        "3":60.118334842386,
         "4":8
       },{
         "cost":{
@@ -17247,7 +17665,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":55.040003099442,
+        "3":59.443336067076,
         "4":8
       },{
         "cost":{
@@ -17259,7 +17677,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":53.918335053486,
+        "3":58.771667204661,
         "4":8
       },{
         "cost":{
@@ -17271,7 +17689,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":52.82000023966,
+        "3":58.101667272337,
         "4":8
       },{
         "cost":{
@@ -17283,7 +17701,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":51.743333701516,
+        "3":57.435001226552,
         "4":8
       },{
         "cost":{
@@ -17295,7 +17713,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":50.688335439054,
+        "3":56.771669067306,
         "4":8
       },{
         "cost":{
@@ -17307,7 +17725,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":49.65500147863,
+        "3":56.110001864508,
         "4":8
       },{
         "cost":{
@@ -17319,7 +17737,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":48.643335793888,
+        "3":55.453333504697,
         "4":9
       },{
         "cost":{
@@ -17331,7 +17749,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":47.651669454736,
+        "3":54.800003005068,
         "4":9
       },{
         "cost":{
@@ -17343,7 +17761,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":47.001668868003,
+        "3":54.52166917596,
         "4":9
       },{
         "cost":{
@@ -17355,7 +17773,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":46.361665967243,
+        "3":54.243335346853,
         "4":9
       },{
         "cost":{
@@ -17367,7 +17785,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":45.728334813205,
+        "3":53.960002674758,
         "4":9
       },{
         "cost":{
@@ -17379,7 +17797,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":45.10500134514,
+        "3":53.675001072573,
         "4":9
       },{
         "cost":{
@@ -17391,7 +17809,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":44.490000606601,
+        "3":53.38833451394,
         "4":9
       },{
         "cost":{
@@ -17403,7 +17821,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":43.883332597588,
+        "3":53.098334068768,
         "4":10
       },{
         "cost":{
@@ -17415,7 +17833,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":43.285001291744,
+        "3":52.808333623596,
         "4":10
       },{
         "cost":{
@@ -17427,7 +17845,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":42.695002715426,
+        "3":52.514999291884,
         "4":10
       },{
         "cost":{
@@ -17439,7 +17857,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":42.113332894991,
+        "3":52.220000003725,
         "4":10
       },{
         "cost":{
@@ -17451,7 +17869,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":41.538334821276,
+        "3":51.923335759118,
         "4":10
       },{
         "cost":{
@@ -17463,7 +17881,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":40.973334433536,
+        "3":51.626667540868,
         "4":10
       },{
         "cost":{
@@ -17475,7 +17893,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":40.413332888782,
+        "3":51.325000479631,
         "4":10
       },{
         "cost":{
@@ -17487,7 +17905,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":39.863333003645,
+        "3":51.025002348485,
         "4":11
       },{
         "cost":{
@@ -17499,7 +17917,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":39.320000891586,
+        "3":50.723335287248,
         "4":11
       },{
         "cost":{
@@ -17511,7 +17929,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":39.049999792005,
+        "3":50.76500290852,
         "4":11
       },{
         "cost":{
@@ -17523,7 +17941,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":38.783332578962,
+        "3":50.80666655615,
         "4":11
       },{
         "cost":{
@@ -17535,7 +17953,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":38.51833429601,
+        "3":50.845000290883,
         "4":11
       },{
         "cost":{
@@ -17547,7 +17965,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":38.255000969507,
+        "3":50.87833518263,
         "4":11
       },{
         "cost":{
@@ -17559,7 +17977,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":37.993332599451,
+        "3":50.911666100733,
         "4":11
       },{
         "cost":{
@@ -17571,7 +17989,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":37.733333159486,
+        "3":50.940002149493,
         "4":11
       },{
         "cost":{
@@ -17583,7 +18001,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":37.475002649613,
+        "3":50.966669268161,
         "4":11
       },{
         "cost":{
@@ -17595,7 +18013,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":37.218333122544,
+        "3":50.9883335702,
         "4":11
       },{
         "cost":{
@@ -17607,7 +18025,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":36.963332525566,
+        "3":51.010001845881,
         "4":11
       },{
         "cost":{
@@ -17619,7 +18037,7 @@
         "statInterpolation":[3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":36.711665815127,
+        "3":51.030001191472,
         "4":11
       }],
     "name":"Exsanguinate",
@@ -17757,7 +18175,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":65.795001864818,
+        "3":66.453335181077,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":6
@@ -17771,7 +18189,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":64.013335546156,
+        "3":65.293333400389,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":6
@@ -17785,7 +18203,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":62.278335691753,
+        "3":64.146667165856,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":7
@@ -17799,7 +18217,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":60.591667258057,
+        "3":63.015001433926,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":7
@@ -17813,7 +18231,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":58.951669262263,
+        "3":61.900001161049,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":7
@@ -17827,7 +18245,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":57.354999870546,
+        "3":60.796667504236,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":7
@@ -17841,7 +18259,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":56.185000403884,
+        "3":60.118334842386,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":7
@@ -17855,7 +18273,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":55.040003099442,
+        "3":59.443336067076,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":8
@@ -17869,7 +18287,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":53.918335053486,
+        "3":58.771667204661,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":8
@@ -17883,7 +18301,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":52.82000023966,
+        "3":58.101667272337,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":8
@@ -17897,7 +18315,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":51.743333701516,
+        "3":57.435001226552,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":8
@@ -17911,7 +18329,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":50.688335439054,
+        "3":56.771669067306,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":9
@@ -17925,7 +18343,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":49.65500147863,
+        "3":56.110001864508,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":9
@@ -17939,7 +18357,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":48.643335793888,
+        "3":55.453333504697,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":9
@@ -17953,7 +18371,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":47.651669454736,
+        "3":54.800003005068,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":9
@@ -17967,7 +18385,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":47.001668868003,
+        "3":54.52166917596,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":9
@@ -17981,7 +18399,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":46.361665967243,
+        "3":54.243335346853,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":10
@@ -17995,7 +18413,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":45.728334813205,
+        "3":53.960002674758,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":10
@@ -18009,7 +18427,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":45.10500134514,
+        "3":53.675001072573,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":10
@@ -18023,7 +18441,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":44.490000606601,
+        "3":53.38833451394,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":10
@@ -18037,7 +18455,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":43.883332597588,
+        "3":53.098334068768,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":10
@@ -18051,7 +18469,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":43.285001291744,
+        "3":52.808333623596,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":11
@@ -18065,7 +18483,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":42.695002715426,
+        "3":52.514999291884,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":11
@@ -18079,7 +18497,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":42.113332894991,
+        "3":52.220000003725,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":11
@@ -18093,7 +18511,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":41.538334821276,
+        "3":51.923335759118,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":11
@@ -18107,7 +18525,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":40.973334433536,
+        "3":51.626667540868,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":11
@@ -18121,7 +18539,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":40.413332888782,
+        "3":51.325000479631,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":12
@@ -18135,7 +18553,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":39.863333003645,
+        "3":51.025002348485,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":12
@@ -18149,7 +18567,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":39.320000891586,
+        "3":50.723335287248,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":12
@@ -18163,7 +18581,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":39.049999792005,
+        "3":50.76500290852,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":12
@@ -18177,7 +18595,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":38.783332578962,
+        "3":50.80666655615,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":12
@@ -18191,7 +18609,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":38.51833429601,
+        "3":50.845000290883,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":12
@@ -18205,7 +18623,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":38.255000969507,
+        "3":50.87833518263,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":13
@@ -18219,7 +18637,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":37.993332599451,
+        "3":50.911666100733,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":13
@@ -18233,7 +18651,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":37.733333159486,
+        "3":50.940002149493,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":13
@@ -18247,7 +18665,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":37.475002649613,
+        "3":50.966669268161,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":13
@@ -18261,7 +18679,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":37.218333122544,
+        "3":50.9883335702,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":13
@@ -18275,7 +18693,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":36.963332525566,
+        "3":51.010001845881,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":13
@@ -18289,7 +18707,7 @@
         "statInterpolation":[3,3,3,3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":36.711665815127,
+        "3":51.030001191472,
         "4":-0.63999998569489,
         "5":-0.95999997854233,
         "6":13
@@ -23119,6 +23537,354 @@
       "Two Handed Sword":true
     }
   },
+  "HeavyStrikeAltY":{
+    "baseEffectiveness":0,
+    "baseFlags":{
+      "attack":true,
+      "melee":true
+    },
+    "baseTypeName":"Heavy Strike of Trarthus",
+    "castTime":1,
+    "color":1,
+    "constantStats":[["chance_to_deal_double_damage_%_per_10_intelligence",2],["active_skill_additive_spell_damage_modifiers_apply_to_attack_damage_at_%_value",150]],
+    "description":"Attacks enemies with a forceful blow. Requires a Staff.",
+    "levels":[{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":2.243,
+        "cost":{
+          "Mana":7
+        },
+        "damageEffectiveness":2.243,
+        "levelRequirement":1
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":2.341,
+        "cost":{
+          "Mana":7
+        },
+        "damageEffectiveness":2.341,
+        "levelRequirement":2
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":2.449,
+        "cost":{
+          "Mana":7
+        },
+        "damageEffectiveness":2.449,
+        "levelRequirement":4
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":2.565,
+        "cost":{
+          "Mana":7
+        },
+        "damageEffectiveness":2.565,
+        "levelRequirement":7
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":2.693,
+        "cost":{
+          "Mana":7
+        },
+        "damageEffectiveness":2.693,
+        "levelRequirement":11
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":2.831,
+        "cost":{
+          "Mana":8
+        },
+        "damageEffectiveness":2.831,
+        "levelRequirement":16
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":2.971,
+        "cost":{
+          "Mana":8
+        },
+        "damageEffectiveness":2.971,
+        "levelRequirement":20
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":3.118,
+        "cost":{
+          "Mana":8
+        },
+        "damageEffectiveness":3.118,
+        "levelRequirement":24
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":3.273,
+        "cost":{
+          "Mana":9
+        },
+        "damageEffectiveness":3.273,
+        "levelRequirement":28
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":3.433,
+        "cost":{
+          "Mana":9
+        },
+        "damageEffectiveness":3.433,
+        "levelRequirement":32
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":3.603,
+        "cost":{
+          "Mana":9
+        },
+        "damageEffectiveness":3.603,
+        "levelRequirement":36
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":3.78,
+        "cost":{
+          "Mana":10
+        },
+        "damageEffectiveness":3.78,
+        "levelRequirement":40
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":3.966,
+        "cost":{
+          "Mana":10
+        },
+        "damageEffectiveness":3.966,
+        "levelRequirement":44
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":4.161,
+        "cost":{
+          "Mana":10
+        },
+        "damageEffectiveness":4.161,
+        "levelRequirement":48
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":4.365,
+        "cost":{
+          "Mana":10
+        },
+        "damageEffectiveness":4.365,
+        "levelRequirement":52
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":4.58,
+        "cost":{
+          "Mana":11
+        },
+        "damageEffectiveness":4.58,
+        "levelRequirement":56
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":4.804,
+        "cost":{
+          "Mana":11
+        },
+        "damageEffectiveness":4.804,
+        "levelRequirement":60
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":5.039,
+        "cost":{
+          "Mana":11
+        },
+        "damageEffectiveness":5.039,
+        "levelRequirement":64
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":5.277,
+        "cost":{
+          "Mana":12
+        },
+        "damageEffectiveness":5.277,
+        "levelRequirement":67
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":5.525,
+        "cost":{
+          "Mana":12
+        },
+        "damageEffectiveness":5.525,
+        "levelRequirement":70
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":5.777,
+        "cost":{
+          "Mana":12
+        },
+        "damageEffectiveness":5.777,
+        "levelRequirement":72
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":6.04,
+        "cost":{
+          "Mana":12
+        },
+        "damageEffectiveness":6.04,
+        "levelRequirement":74
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":6.313,
+        "cost":{
+          "Mana":12
+        },
+        "damageEffectiveness":6.313,
+        "levelRequirement":76
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":6.6,
+        "cost":{
+          "Mana":12
+        },
+        "damageEffectiveness":6.6,
+        "levelRequirement":78
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":6.899,
+        "cost":{
+          "Mana":13
+        },
+        "damageEffectiveness":6.899,
+        "levelRequirement":80
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":7.212,
+        "cost":{
+          "Mana":13
+        },
+        "damageEffectiveness":7.212,
+        "levelRequirement":82
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":7.54,
+        "cost":{
+          "Mana":13
+        },
+        "damageEffectiveness":7.54,
+        "levelRequirement":84
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":7.881,
+        "cost":{
+          "Mana":13
+        },
+        "damageEffectiveness":7.881,
+        "levelRequirement":86
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":8.238,
+        "cost":{
+          "Mana":13
+        },
+        "damageEffectiveness":8.238,
+        "levelRequirement":88
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":8.611,
+        "cost":{
+          "Mana":13
+        },
+        "damageEffectiveness":8.611,
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":9.177,
+        "cost":{
+          "Mana":13
+        },
+        "damageEffectiveness":9.177,
+        "levelRequirement":91
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":9.384,
+        "cost":{
+          "Mana":14
+        },
+        "damageEffectiveness":9.384,
+        "levelRequirement":92
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":9.597,
+        "cost":{
+          "Mana":14
+        },
+        "damageEffectiveness":9.597,
+        "levelRequirement":93
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":9.814,
+        "cost":{
+          "Mana":14
+        },
+        "damageEffectiveness":9.814,
+        "levelRequirement":94
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":10.036,
+        "cost":{
+          "Mana":14
+        },
+        "damageEffectiveness":10.036,
+        "levelRequirement":95
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":10.262,
+        "cost":{
+          "Mana":14
+        },
+        "damageEffectiveness":10.262,
+        "levelRequirement":96
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":10.494,
+        "cost":{
+          "Mana":14
+        },
+        "damageEffectiveness":10.494,
+        "levelRequirement":97
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":10.732,
+        "cost":{
+          "Mana":14
+        },
+        "damageEffectiveness":10.732,
+        "levelRequirement":98
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":10.974,
+        "cost":{
+          "Mana":14
+        },
+        "damageEffectiveness":10.974,
+        "levelRequirement":99
+      },{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":11.222,
+        "cost":{
+          "Mana":14
+        },
+        "damageEffectiveness":11.222,
+        "levelRequirement":100
+      }],
+    "name":"Heavy Strike of Trarthus",
+    "qualityStats":{
+      "Default":[["active_skill_additive_spell_damage_modifiers_apply_to_attack_damage_at_%_value",1]]
+    },
+    "skillTypes":{
+      "1":true,
+      "24":true,
+      "25":true,
+      "28":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["quality_display_spell_damage_to_attack_damage_is_gem"],
+    "weaponTypes":{
+      "Staff":true
+    }
+  },
   "HeraldOfAsh":{
     "baseEffectiveness":0.5,
     "baseFlags":[],
@@ -24454,7 +25220,7 @@
         "statInterpolation":[3,3,1],
         "1":0.60000002384186,
         "2":1.2000000476837,
-        "3":50
+        "3":90
       },{
         "cost":{
           "Mana":12
@@ -24465,7 +25231,7 @@
         "statInterpolation":[3,3,1],
         "1":0.60000002384186,
         "2":1.2000000476837,
-        "3":52
+        "3":92
       },{
         "cost":{
           "Mana":13
@@ -24476,7 +25242,7 @@
         "statInterpolation":[3,3,1],
         "1":0.60000002384186,
         "2":1.2000000476837,
-        "3":54
+        "3":94
       },{
         "cost":{
           "Mana":14
@@ -24487,7 +25253,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":56
+        "3":96
       },{
         "cost":{
           "Mana":16
@@ -24498,7 +25264,7 @@
         "statInterpolation":[3,3,1],
         "1":0.69999998807907,
         "2":1.2000000476837,
-        "3":58
+        "3":98
       },{
         "cost":{
           "Mana":18
@@ -24509,7 +25275,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":60
+        "3":100
       },{
         "cost":{
           "Mana":19
@@ -24520,7 +25286,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":62
+        "3":102
       },{
         "cost":{
           "Mana":21
@@ -24531,7 +25297,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":64
+        "3":104
       },{
         "cost":{
           "Mana":23
@@ -24542,7 +25308,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":66
+        "3":106
       },{
         "cost":{
           "Mana":25
@@ -24553,7 +25319,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":68
+        "3":108
       },{
         "cost":{
           "Mana":26
@@ -24564,7 +25330,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":70
+        "3":110
       },{
         "cost":{
           "Mana":28
@@ -24575,7 +25341,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":72
+        "3":112
       },{
         "cost":{
           "Mana":30
@@ -24586,7 +25352,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":74
+        "3":114
       },{
         "cost":{
           "Mana":32
@@ -24597,7 +25363,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":76
+        "3":116
       },{
         "cost":{
           "Mana":33
@@ -24608,7 +25374,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":78
+        "3":118
       },{
         "cost":{
           "Mana":34
@@ -24619,7 +25385,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":80
+        "3":120
       },{
         "cost":{
           "Mana":36
@@ -24630,7 +25396,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":82
+        "3":122
       },{
         "cost":{
           "Mana":37
@@ -24641,7 +25407,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":84
+        "3":124
       },{
         "cost":{
           "Mana":38
@@ -24652,7 +25418,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":86
+        "3":126
       },{
         "cost":{
           "Mana":39
@@ -24663,7 +25429,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":88
+        "3":128
       },{
         "cost":{
           "Mana":40
@@ -24674,7 +25440,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":90
+        "3":130
       },{
         "cost":{
           "Mana":41
@@ -24685,7 +25451,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":92
+        "3":132
       },{
         "cost":{
           "Mana":42
@@ -24696,7 +25462,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":94
+        "3":134
       },{
         "cost":{
           "Mana":43
@@ -24707,7 +25473,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":96
+        "3":136
       },{
         "cost":{
           "Mana":44
@@ -24718,7 +25484,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":98
+        "3":138
       },{
         "cost":{
           "Mana":45
@@ -24729,7 +25495,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":100
+        "3":140
       },{
         "cost":{
           "Mana":46
@@ -24740,7 +25506,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":102
+        "3":142
       },{
         "cost":{
           "Mana":46
@@ -24751,7 +25517,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":104
+        "3":144
       },{
         "cost":{
           "Mana":47
@@ -24762,7 +25528,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":106
+        "3":146
       },{
         "cost":{
           "Mana":48
@@ -24773,7 +25539,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":108
+        "3":148
       },{
         "cost":{
           "Mana":49
@@ -24784,7 +25550,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":109
+        "3":149
       },{
         "cost":{
           "Mana":49
@@ -24795,7 +25561,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":110
+        "3":150
       },{
         "cost":{
           "Mana":49
@@ -24806,7 +25572,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":111
+        "3":151
       },{
         "cost":{
           "Mana":50
@@ -24817,7 +25583,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":112
+        "3":152
       },{
         "cost":{
           "Mana":50
@@ -24828,7 +25594,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":113
+        "3":153
       },{
         "cost":{
           "Mana":51
@@ -24839,7 +25605,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":114
+        "3":154
       },{
         "cost":{
           "Mana":51
@@ -24850,7 +25616,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":115
+        "3":155
       },{
         "cost":{
           "Mana":52
@@ -24861,7 +25627,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":116
+        "3":156
       },{
         "cost":{
           "Mana":52
@@ -24872,7 +25638,7 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":117
+        "3":157
       },{
         "cost":{
           "Mana":52
@@ -24883,11 +25649,11 @@
         "statInterpolation":[3,3,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":118
+        "3":158
       }],
     "name":"Holy Flame Totem of Ire",
     "qualityStats":{
-      "Default":[["active_skill_projectile_speed_+%_final",2]]
+      "Default":[["consecrated_ground_area_+%",2]]
     },
     "skillTotemId":17,
     "skillTypes":{
@@ -25340,329 +26106,289 @@
     "description":"Slam the ground, damaging enemies in an area. Slams with main hand weapon deal more damage. Slams with off hand weapon have larger area of effect. Requires dual-wielding Swords, Maces, Sceptres, or Axes to use.",
     "incrementalEffectiveness":0.023299999535084,
     "levels":[{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":2.498,
         "cost":{
-          "Mana":8
+          "Mana":7
         },
         "damageEffectiveness":2.498,
         "levelRequirement":28
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":2.583,
         "cost":{
-          "Mana":8
+          "Mana":7
         },
         "damageEffectiveness":2.583,
         "levelRequirement":31
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":2.671,
         "cost":{
-          "Mana":9
+          "Mana":8
         },
         "damageEffectiveness":2.671,
         "levelRequirement":34
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":2.761,
         "cost":{
-          "Mana":9
+          "Mana":8
         },
         "damageEffectiveness":2.761,
         "levelRequirement":37
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":2.855,
         "cost":{
-          "Mana":9
+          "Mana":8
         },
         "damageEffectiveness":2.855,
         "levelRequirement":40
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":2.947,
         "cost":{
-          "Mana":9
+          "Mana":8
         },
         "damageEffectiveness":2.947,
         "levelRequirement":42
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":3.042,
         "cost":{
-          "Mana":9
+          "Mana":8
         },
         "damageEffectiveness":3.042,
         "levelRequirement":44
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":3.14,
         "cost":{
-          "Mana":9
+          "Mana":8
         },
         "damageEffectiveness":3.14,
         "levelRequirement":46
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":3.241,
         "cost":{
-          "Mana":10
+          "Mana":9
         },
         "damageEffectiveness":3.241,
         "levelRequirement":48
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":3.345,
         "cost":{
-          "Mana":10
+          "Mana":9
         },
         "damageEffectiveness":3.345,
         "levelRequirement":50
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":3.453,
         "cost":{
-          "Mana":10
+          "Mana":9
         },
         "damageEffectiveness":3.453,
         "levelRequirement":52
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":3.563,
         "cost":{
-          "Mana":10
+          "Mana":9
         },
         "damageEffectiveness":3.563,
         "levelRequirement":54
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":3.678,
         "cost":{
-          "Mana":10
+          "Mana":9
         },
         "damageEffectiveness":3.678,
         "levelRequirement":56
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":3.796,
         "cost":{
-          "Mana":10
+          "Mana":9
         },
         "damageEffectiveness":3.796,
         "levelRequirement":58
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":3.918,
         "cost":{
-          "Mana":10
+          "Mana":9
         },
         "damageEffectiveness":3.918,
         "levelRequirement":60
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":4.044,
         "cost":{
-          "Mana":11
+          "Mana":10
         },
         "damageEffectiveness":4.044,
         "levelRequirement":62
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":4.174,
         "cost":{
-          "Mana":11
+          "Mana":10
         },
         "damageEffectiveness":4.174,
         "levelRequirement":64
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":4.307,
         "cost":{
-          "Mana":11
+          "Mana":10
         },
         "damageEffectiveness":4.307,
         "levelRequirement":66
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":4.445,
         "cost":{
-          "Mana":11
+          "Mana":10
         },
         "damageEffectiveness":4.445,
         "levelRequirement":68
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":4.587,
         "cost":{
-          "Mana":11
+          "Mana":10
         },
         "damageEffectiveness":4.587,
         "levelRequirement":70
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":4.735,
         "cost":{
-          "Mana":11
+          "Mana":10
         },
         "damageEffectiveness":4.735,
         "levelRequirement":72
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":4.886,
         "cost":{
-          "Mana":11
+          "Mana":10
         },
         "damageEffectiveness":4.886,
         "levelRequirement":74
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":5.042,
         "cost":{
-          "Mana":12
+          "Mana":11
         },
         "damageEffectiveness":5.042,
         "levelRequirement":76
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":5.204,
         "cost":{
-          "Mana":12
+          "Mana":11
         },
         "damageEffectiveness":5.204,
         "levelRequirement":78
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":5.37,
         "cost":{
-          "Mana":12
+          "Mana":11
         },
         "damageEffectiveness":5.37,
         "levelRequirement":80
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":5.542,
         "cost":{
-          "Mana":12
+          "Mana":11
         },
         "damageEffectiveness":5.542,
         "levelRequirement":82
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":5.719,
         "cost":{
-          "Mana":12
+          "Mana":11
         },
         "damageEffectiveness":5.719,
         "levelRequirement":84
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":5.902,
         "cost":{
-          "Mana":12
+          "Mana":11
         },
         "damageEffectiveness":5.902,
         "levelRequirement":86
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":6.09,
         "cost":{
-          "Mana":12
+          "Mana":11
         },
         "damageEffectiveness":6.09,
         "levelRequirement":88
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":6.284,
         "cost":{
-          "Mana":13
+          "Mana":12
         },
         "damageEffectiveness":6.284,
         "levelRequirement":90
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":6.567,
         "cost":{
-          "Mana":13
+          "Mana":12
         },
         "damageEffectiveness":6.567,
         "levelRequirement":91
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":6.672,
         "cost":{
-          "Mana":13
+          "Mana":12
         },
         "damageEffectiveness":6.672,
         "levelRequirement":92
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":6.779,
         "cost":{
-          "Mana":13
+          "Mana":12
         },
         "damageEffectiveness":6.779,
         "levelRequirement":93
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":6.887,
         "cost":{
-          "Mana":13
+          "Mana":12
         },
         "damageEffectiveness":6.887,
         "levelRequirement":94
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":6.996,
         "cost":{
-          "Mana":13
+          "Mana":12
         },
         "damageEffectiveness":6.996,
         "levelRequirement":95
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":7.107,
         "cost":{
-          "Mana":13
+          "Mana":12
         },
         "damageEffectiveness":7.107,
         "levelRequirement":96
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":7.221,
         "cost":{
-          "Mana":13
+          "Mana":12
         },
         "damageEffectiveness":7.221,
         "levelRequirement":97
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":7.336,
         "cost":{
-          "Mana":13
+          "Mana":12
         },
         "damageEffectiveness":7.336,
         "levelRequirement":98
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":7.453,
         "cost":{
-          "Mana":13
+          "Mana":12
         },
         "damageEffectiveness":7.453,
         "levelRequirement":99
       },{
-        "attackSpeedMultiplier":-10,
         "baseMultiplier":7.571,
         "cost":{
-          "Mana":13
+          "Mana":12
         },
         "damageEffectiveness":7.571,
         "levelRequirement":100
       }],
     "name":"Ice Crash of Cadence",
     "qualityStats":{
-      "Default":[["physical_damage_%_to_add_as_cold",0.75]]
+      "Default":[["physical_damage_%_to_add_as_cold",1]]
     },
     "skillTypes":{
       "1":true,
@@ -27050,7 +27776,7 @@
     "levels":[{
         "cooldown":8,
         "cost":{
-          "Mana":7
+          "Mana":15
         },
         "levelRequirement":24,
         "statInterpolation":[1,1,1],
@@ -27061,7 +27787,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":7
+          "Mana":15
         },
         "levelRequirement":27,
         "statInterpolation":[1,1,1],
@@ -27072,7 +27798,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":7
+          "Mana":15
         },
         "levelRequirement":30,
         "statInterpolation":[1,1,1],
@@ -27083,7 +27809,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":8
+          "Mana":15
         },
         "levelRequirement":33,
         "statInterpolation":[1,1,1],
@@ -27094,7 +27820,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":8
+          "Mana":16
         },
         "levelRequirement":36,
         "statInterpolation":[1,1,1],
@@ -27105,7 +27831,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":8
+          "Mana":16
         },
         "levelRequirement":39,
         "statInterpolation":[1,1,1],
@@ -27116,7 +27842,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":8
+          "Mana":16
         },
         "levelRequirement":42,
         "statInterpolation":[1,1,1],
@@ -27127,7 +27853,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":8
+          "Mana":16
         },
         "levelRequirement":45,
         "statInterpolation":[1,1,1],
@@ -27138,7 +27864,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":9
+          "Mana":17
         },
         "levelRequirement":48,
         "statInterpolation":[1,1,1],
@@ -27149,7 +27875,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":9
+          "Mana":17
         },
         "levelRequirement":50,
         "statInterpolation":[1,1,1],
@@ -27160,7 +27886,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":9
+          "Mana":17
         },
         "levelRequirement":52,
         "statInterpolation":[1,1,1],
@@ -27171,7 +27897,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":9
+          "Mana":17
         },
         "levelRequirement":54,
         "statInterpolation":[1,1,1],
@@ -27182,7 +27908,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":9
+          "Mana":18
         },
         "levelRequirement":56,
         "statInterpolation":[1,1,1],
@@ -27193,7 +27919,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":9
+          "Mana":18
         },
         "levelRequirement":58,
         "statInterpolation":[1,1,1],
@@ -27204,7 +27930,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":9
+          "Mana":18
         },
         "levelRequirement":60,
         "statInterpolation":[1,1,1],
@@ -27215,7 +27941,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":10
+          "Mana":18
         },
         "levelRequirement":62,
         "statInterpolation":[1,1,1],
@@ -27226,7 +27952,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":10
+          "Mana":19
         },
         "levelRequirement":64,
         "statInterpolation":[1,1,1],
@@ -27237,7 +27963,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":10
+          "Mana":19
         },
         "levelRequirement":66,
         "statInterpolation":[1,1,1],
@@ -27248,7 +27974,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":10
+          "Mana":19
         },
         "levelRequirement":68,
         "statInterpolation":[1,1,1],
@@ -27259,7 +27985,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":10
+          "Mana":19
         },
         "levelRequirement":70,
         "statInterpolation":[1,1,1],
@@ -27270,7 +27996,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":10
+          "Mana":20
         },
         "levelRequirement":72,
         "statInterpolation":[1,1,1],
@@ -27281,7 +28007,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":10
+          "Mana":20
         },
         "levelRequirement":74,
         "statInterpolation":[1,1,1],
@@ -27292,7 +28018,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":10
+          "Mana":20
         },
         "levelRequirement":76,
         "statInterpolation":[1,1,1],
@@ -27303,7 +28029,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":11
+          "Mana":20
         },
         "levelRequirement":78,
         "statInterpolation":[1,1,1],
@@ -27314,7 +28040,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":11
+          "Mana":21
         },
         "levelRequirement":80,
         "statInterpolation":[1,1,1],
@@ -27325,7 +28051,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":11
+          "Mana":21
         },
         "levelRequirement":82,
         "statInterpolation":[1,1,1],
@@ -27336,7 +28062,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":11
+          "Mana":21
         },
         "levelRequirement":84,
         "statInterpolation":[1,1,1],
@@ -27347,7 +28073,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":11
+          "Mana":21
         },
         "levelRequirement":86,
         "statInterpolation":[1,1,1],
@@ -27358,7 +28084,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":11
+          "Mana":22
         },
         "levelRequirement":88,
         "statInterpolation":[1,1,1],
@@ -27369,7 +28095,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":11
+          "Mana":22
         },
         "levelRequirement":90,
         "statInterpolation":[1,1,1],
@@ -27380,7 +28106,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":11
+          "Mana":22
         },
         "levelRequirement":91,
         "statInterpolation":[1,1,1],
@@ -27391,7 +28117,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":11
+          "Mana":22
         },
         "levelRequirement":92,
         "statInterpolation":[1,1,1],
@@ -27402,7 +28128,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":12
+          "Mana":22
         },
         "levelRequirement":93,
         "statInterpolation":[1,1,1],
@@ -27413,7 +28139,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":12
+          "Mana":22
         },
         "levelRequirement":94,
         "statInterpolation":[1,1,1],
@@ -27424,7 +28150,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":12
+          "Mana":23
         },
         "levelRequirement":95,
         "statInterpolation":[1,1,1],
@@ -27435,7 +28161,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":12
+          "Mana":23
         },
         "levelRequirement":96,
         "statInterpolation":[1,1,1],
@@ -27446,7 +28172,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":12
+          "Mana":23
         },
         "levelRequirement":97,
         "statInterpolation":[1,1,1],
@@ -27457,7 +28183,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":12
+          "Mana":23
         },
         "levelRequirement":98,
         "statInterpolation":[1,1,1],
@@ -27468,7 +28194,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":12
+          "Mana":23
         },
         "levelRequirement":99,
         "statInterpolation":[1,1,1],
@@ -27479,7 +28205,7 @@
       },{
         "cooldown":8,
         "cost":{
-          "Mana":12
+          "Mana":23
         },
         "levelRequirement":100,
         "statInterpolation":[1,1,1],
@@ -29434,7 +30160,7 @@
     "baseTypeName":"Molten Strike",
     "castTime":1,
     "color":1,
-    "constantStats":[["skill_physical_damage_%_to_convert_to_fire",60],["base_number_of_projectiles",4],["active_skill_hit_ailment_damage_with_projectile_+%_final",-50]],
+    "constantStats":[["skill_physical_damage_%_to_convert_to_fire",60],["base_number_of_projectiles",4],["active_skill_hit_ailment_damage_with_projectile_+%_final",-60]],
     "description":"Infuses your melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth from the enemies you hit, divided amongst all enemies hit by the strike. These will deal area attack damage to enemies where they land.",
     "levels":[{
         "baseMultiplier":1.265,
@@ -29881,7 +30607,7 @@
     "baseTypeName":"Molten Strike of the Zenith",
     "castTime":1,
     "color":1,
-    "constantStats":[["skill_physical_damage_%_to_convert_to_fire",60],["base_number_of_projectiles",3],["active_skill_hit_ailment_damage_with_projectile_+%_final",-50],["molten_strike_every_5th_attack_fire_X_additional_projectiles",5],["molten_strike_every_5th_attack_projectiles_damage_+%_final",800]],
+    "constantStats":[["skill_physical_damage_%_to_convert_to_fire",60],["base_number_of_projectiles",3],["active_skill_hit_ailment_damage_with_projectile_+%_final",-60],["molten_strike_every_5th_attack_fire_X_additional_projectiles",5],["molten_strike_every_5th_attack_projectiles_damage_+%_final",600]],
     "description":"Infuses your two-handed melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth from the enemies you hit, divided amongst all enemies hit by the strike. These will deal area attack damage to enemies where they land. Every fifth time you attack with this skill it fires more, high-damage projectiles.",
     "levels":[{
         "attackSpeedMultiplier":-20,
@@ -30845,7 +31571,7 @@
     "baseTypeName":"Perforate of Duality",
     "castTime":1,
     "color":1,
-    "constantStats":[["blood_spears_base_number_of_spears",3],["blood_spears_damage_+%_final_in_blood_stance",-75],["blood_spears_aoe_modifiers_apply_to_blood_spear_placement_range_at_%_value",50],["blood_spears_additional_number_of_spears_if_changed_stance_recently",10]],
+    "constantStats":[["blood_spears_base_number_of_spears",5],["blood_spears_damage_+%_final_in_blood_stance",-75],["blood_spears_aoe_modifiers_apply_to_blood_spear_placement_range_at_%_value",50],["blood_spears_additional_number_of_spears_if_changed_stance_recently",10]],
     "description":"Smash the ground to bring forth multiple spears to damage enemies. When in Blood Stance, multiple spikes burst from the ground in sequence, able to hit enemies multiple times. In Sand Stance, the spikes are thrust outwards. Requires a Sword or Axe. You are in Blood Stance by default.",
     "levels":[{
         "attackSpeedMultiplier":-20,
@@ -31250,7 +31976,7 @@
       }],
     "name":"Perforate of Duality",
     "qualityStats":{
-      "Default":[["blood_spears_base_number_of_spears",0.1]]
+      "Default":[["blood_spears_damage_+%_final_in_blood_stance",0.25],["skill_area_of_effect_+%_final_in_sand_stance",1]]
     },
     "skillTypes":{
       "1":true,
@@ -31333,412 +32059,412 @@
     "baseTypeName":"Perforate of Bloodshed",
     "castTime":1,
     "color":1,
-    "constantStats":[["blood_spears_base_number_of_spears",5],["blood_spears_aoe_modifiers_apply_to_blood_spear_placement_range_at_%_value",50],["bleed_on_hit_with_attacks_%",25]],
+    "constantStats":[["blood_spears_base_number_of_spears",6],["blood_spears_aoe_modifiers_apply_to_blood_spear_placement_range_at_%_value",50],["bleed_on_hit_with_attacks_%",25]],
     "description":"Smash the ground to bring forth multiple spikes from the ground in sequence, able to hit enemies multiple times.\nRequires a Sword or Axe.",
     "levels":[{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":0.863,
+        "baseMultiplier":0.992,
         "cost":{
           "Mana":7
         },
-        "damageEffectiveness":0.863,
+        "damageEffectiveness":0.992,
         "levelRequirement":1,
         "statInterpolation":[1],
         "1":50
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":0.908,
+        "baseMultiplier":1.044,
         "cost":{
           "Mana":7
         },
-        "damageEffectiveness":0.908,
+        "damageEffectiveness":1.044,
         "levelRequirement":2,
         "statInterpolation":[1],
         "1":52
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":0.956,
+        "baseMultiplier":1.099,
         "cost":{
           "Mana":7
         },
-        "damageEffectiveness":0.956,
+        "damageEffectiveness":1.099,
         "levelRequirement":4,
         "statInterpolation":[1],
         "1":54
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":1.009,
+        "baseMultiplier":1.16,
         "cost":{
           "Mana":7
         },
-        "damageEffectiveness":1.009,
+        "damageEffectiveness":1.16,
         "levelRequirement":7,
         "statInterpolation":[1],
         "1":56
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":1.067,
+        "baseMultiplier":1.227,
         "cost":{
           "Mana":8
         },
-        "damageEffectiveness":1.067,
+        "damageEffectiveness":1.227,
         "levelRequirement":11,
         "statInterpolation":[1],
         "1":58
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":1.132,
+        "baseMultiplier":1.302,
         "cost":{
           "Mana":8
         },
-        "damageEffectiveness":1.132,
+        "damageEffectiveness":1.302,
         "levelRequirement":16,
         "statInterpolation":[1],
         "1":60
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":1.197,
+        "baseMultiplier":1.377,
         "cost":{
           "Mana":9
         },
-        "damageEffectiveness":1.197,
+        "damageEffectiveness":1.377,
         "levelRequirement":20,
         "statInterpolation":[1],
         "1":62
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":1.266,
+        "baseMultiplier":1.456,
         "cost":{
           "Mana":9
         },
-        "damageEffectiveness":1.266,
+        "damageEffectiveness":1.456,
         "levelRequirement":24,
         "statInterpolation":[1],
         "1":64
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":1.338,
+        "baseMultiplier":1.539,
         "cost":{
           "Mana":9
         },
-        "damageEffectiveness":1.338,
+        "damageEffectiveness":1.539,
         "levelRequirement":28,
         "statInterpolation":[1],
         "1":66
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":1.415,
+        "baseMultiplier":1.627,
         "cost":{
           "Mana":9
         },
-        "damageEffectiveness":1.415,
+        "damageEffectiveness":1.627,
         "levelRequirement":32,
         "statInterpolation":[1],
         "1":68
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":1.496,
+        "baseMultiplier":1.72,
         "cost":{
           "Mana":10
         },
-        "damageEffectiveness":1.496,
+        "damageEffectiveness":1.72,
         "levelRequirement":36,
         "statInterpolation":[1],
         "1":70
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":1.581,
+        "baseMultiplier":1.818,
         "cost":{
           "Mana":10
         },
-        "damageEffectiveness":1.581,
+        "damageEffectiveness":1.818,
         "levelRequirement":40,
         "statInterpolation":[1],
         "1":72
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":1.672,
+        "baseMultiplier":1.923,
         "cost":{
           "Mana":10
         },
-        "damageEffectiveness":1.672,
+        "damageEffectiveness":1.923,
         "levelRequirement":44,
         "statInterpolation":[1],
         "1":74
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":1.767,
+        "baseMultiplier":2.032,
         "cost":{
           "Mana":11
         },
-        "damageEffectiveness":1.767,
+        "damageEffectiveness":2.032,
         "levelRequirement":48,
         "statInterpolation":[1],
         "1":76
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":1.869,
+        "baseMultiplier":2.149,
         "cost":{
           "Mana":11
         },
-        "damageEffectiveness":1.869,
+        "damageEffectiveness":2.149,
         "levelRequirement":52,
         "statInterpolation":[1],
         "1":78
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":1.975,
+        "baseMultiplier":2.271,
         "cost":{
           "Mana":11
         },
-        "damageEffectiveness":1.975,
+        "damageEffectiveness":2.271,
         "levelRequirement":56,
         "statInterpolation":[1],
         "1":80
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":2.089,
+        "baseMultiplier":2.402,
         "cost":{
           "Mana":12
         },
-        "damageEffectiveness":2.089,
+        "damageEffectiveness":2.402,
         "levelRequirement":60,
         "statInterpolation":[1],
         "1":82
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":2.207,
+        "baseMultiplier":2.538,
         "cost":{
           "Mana":12
         },
-        "damageEffectiveness":2.207,
+        "damageEffectiveness":2.538,
         "levelRequirement":64,
         "statInterpolation":[1],
         "1":84
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":2.329,
+        "baseMultiplier":2.678,
         "cost":{
           "Mana":12
         },
-        "damageEffectiveness":2.329,
+        "damageEffectiveness":2.678,
         "levelRequirement":67,
         "statInterpolation":[1],
         "1":86
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":2.457,
+        "baseMultiplier":2.826,
         "cost":{
           "Mana":13
         },
-        "damageEffectiveness":2.457,
+        "damageEffectiveness":2.826,
         "levelRequirement":70,
         "statInterpolation":[1],
         "1":88
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":2.589,
+        "baseMultiplier":2.977,
         "cost":{
           "Mana":13
         },
-        "damageEffectiveness":2.589,
+        "damageEffectiveness":2.977,
         "levelRequirement":72,
         "statInterpolation":[1],
         "1":90
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":2.728,
+        "baseMultiplier":3.137,
         "cost":{
           "Mana":13
         },
-        "damageEffectiveness":2.728,
+        "damageEffectiveness":3.137,
         "levelRequirement":74,
         "statInterpolation":[1],
         "1":92
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":2.873,
+        "baseMultiplier":3.304,
         "cost":{
           "Mana":13
         },
-        "damageEffectiveness":2.873,
+        "damageEffectiveness":3.304,
         "levelRequirement":76,
         "statInterpolation":[1],
         "1":94
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":3.026,
+        "baseMultiplier":3.48,
         "cost":{
           "Mana":13
         },
-        "damageEffectiveness":3.026,
+        "damageEffectiveness":3.48,
         "levelRequirement":78,
         "statInterpolation":[1],
         "1":96
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":3.189,
+        "baseMultiplier":3.667,
         "cost":{
           "Mana":13
         },
-        "damageEffectiveness":3.189,
+        "damageEffectiveness":3.667,
         "levelRequirement":80,
         "statInterpolation":[1],
         "1":98
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":3.359,
+        "baseMultiplier":3.863,
         "cost":{
           "Mana":14
         },
-        "damageEffectiveness":3.359,
+        "damageEffectiveness":3.863,
         "levelRequirement":82,
         "statInterpolation":[1],
         "1":100
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":3.538,
+        "baseMultiplier":4.069,
         "cost":{
           "Mana":14
         },
-        "damageEffectiveness":3.538,
+        "damageEffectiveness":4.069,
         "levelRequirement":84,
         "statInterpolation":[1],
         "1":102
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":3.726,
+        "baseMultiplier":4.285,
         "cost":{
           "Mana":14
         },
-        "damageEffectiveness":3.726,
+        "damageEffectiveness":4.285,
         "levelRequirement":86,
         "statInterpolation":[1],
         "1":104
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":3.925,
+        "baseMultiplier":4.514,
         "cost":{
           "Mana":14
         },
-        "damageEffectiveness":3.925,
+        "damageEffectiveness":4.514,
         "levelRequirement":88,
         "statInterpolation":[1],
         "1":106
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":4.135,
+        "baseMultiplier":4.755,
         "cost":{
           "Mana":14
         },
-        "damageEffectiveness":4.135,
+        "damageEffectiveness":4.755,
         "levelRequirement":90,
         "statInterpolation":[1],
         "1":108
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":4.457,
+        "baseMultiplier":5.126,
         "cost":{
           "Mana":14
         },
-        "damageEffectiveness":4.457,
+        "damageEffectiveness":5.126,
         "levelRequirement":91,
         "statInterpolation":[1],
         "1":109
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":4.575,
+        "baseMultiplier":5.261,
         "cost":{
           "Mana":14
         },
-        "damageEffectiveness":4.575,
+        "damageEffectiveness":5.261,
         "levelRequirement":92,
         "statInterpolation":[1],
         "1":110
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":4.697,
+        "baseMultiplier":5.402,
         "cost":{
           "Mana":14
         },
-        "damageEffectiveness":4.697,
+        "damageEffectiveness":5.402,
         "levelRequirement":93,
         "statInterpolation":[1],
         "1":111
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":4.823,
+        "baseMultiplier":5.546,
         "cost":{
           "Mana":15
         },
-        "damageEffectiveness":4.823,
+        "damageEffectiveness":5.546,
         "levelRequirement":94,
         "statInterpolation":[1],
         "1":112
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":4.952,
+        "baseMultiplier":5.695,
         "cost":{
           "Mana":15
         },
-        "damageEffectiveness":4.952,
+        "damageEffectiveness":5.695,
         "levelRequirement":95,
         "statInterpolation":[1],
         "1":113
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":5.083,
+        "baseMultiplier":5.845,
         "cost":{
           "Mana":15
         },
-        "damageEffectiveness":5.083,
+        "damageEffectiveness":5.845,
         "levelRequirement":96,
         "statInterpolation":[1],
         "1":114
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":5.218,
+        "baseMultiplier":6.001,
         "cost":{
           "Mana":15
         },
-        "damageEffectiveness":5.218,
+        "damageEffectiveness":6.001,
         "levelRequirement":97,
         "statInterpolation":[1],
         "1":115
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":5.357,
+        "baseMultiplier":6.161,
         "cost":{
           "Mana":15
         },
-        "damageEffectiveness":5.357,
+        "damageEffectiveness":6.161,
         "levelRequirement":98,
         "statInterpolation":[1],
         "1":116
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":5.499,
+        "baseMultiplier":6.324,
         "cost":{
           "Mana":15
         },
-        "damageEffectiveness":5.499,
+        "damageEffectiveness":6.324,
         "levelRequirement":99,
         "statInterpolation":[1],
         "1":117
       },{
         "attackSpeedMultiplier":-20,
-        "baseMultiplier":5.646,
+        "baseMultiplier":6.493,
         "cost":{
           "Mana":15
         },
-        "damageEffectiveness":5.646,
+        "damageEffectiveness":6.493,
         "levelRequirement":100,
         "statInterpolation":[1],
         "1":118
       }],
     "name":"Perforate of Bloodshed",
     "qualityStats":{
-      "Default":[["blood_spears_base_number_of_spears",0.05]]
+      "Default":[["active_skill_bleeding_damage_+%_final",1]]
     },
     "skillTypes":{
       "1":true,
@@ -35526,7 +36252,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":98.499999658515
+        "3":99.485002198232
       },{
         "cost":{
           "Life":28
@@ -35537,7 +36263,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":96.50000152116
+        "3":98.429999962126
       },{
         "cost":{
           "Life":30
@@ -35548,7 +36274,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":94.333332898716
+        "3":97.163337654049
       },{
         "cost":{
           "Life":31
@@ -35559,7 +36285,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":92.333334761361
+        "3":96.02666910549
       },{
         "cost":{
           "Life":32
@@ -35570,7 +36296,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":91.000002669791
+        "3":95.549998829638
       },{
         "cost":{
           "Life":33
@@ -35581,7 +36307,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":89.666670578222
+        "3":95.04666540876
       },{
         "cost":{
           "Life":34
@@ -35592,7 +36318,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":88.333338486652
+        "3":94.516668842857
       },{
         "cost":{
           "Life":35
@@ -35603,7 +36329,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":87.166668932885
+        "3":94.139999268601
       },{
         "cost":{
           "Life":36
@@ -35614,7 +36340,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":85.833336841315
+        "3":93.558337395452
       },{
         "cost":{
           "Life":37
@@ -35625,7 +36351,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":84.666667287548
+        "3":93.133332426846
       },{
         "cost":{
           "Life":38
@@ -35636,7 +36362,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":83.500005681068
+        "3":92.685002173396
       },{
         "cost":{
           "Life":39
@@ -35647,7 +36373,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":82.333336127301
+        "3":92.213338687817
       },{
         "cost":{
           "Life":40
@@ -35658,7 +36384,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":81.166666573534
+        "3":91.718334022822
       },{
         "cost":{
           "Life":41
@@ -35669,7 +36395,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":80.000004967054
+        "3":91.200004072984
       },{
         "cost":{
           "Life":42
@@ -35680,7 +36406,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":78.833335413287
+        "3":90.65833294373
       },{
         "cost":{
           "Life":43
@@ -35691,7 +36417,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":77.500003321717
+        "3":89.900002899518
       },{
         "cost":{
           "Life":44
@@ -35702,7 +36428,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":76.166671230147
+        "3":89.115001762994
       },{
         "cost":{
           "Life":45
@@ -35713,7 +36439,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":75.500005184362
+        "3":89.089999600773
       },{
         "cost":{
           "Life":46
@@ -35724,7 +36450,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":74.499998168399
+        "3":88.655004893479
       },{
         "cost":{
           "Life":47
@@ -35735,7 +36461,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":73.499999099721
+        "3":88.199998919666
       },{
         "cost":{
           "Life":48
@@ -35746,7 +36472,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":72.333337493241
+        "3":87.523335187907
       },{
         "cost":{
           "Life":49
@@ -35757,7 +36483,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":71.333338424564
+        "3":87.026669540107
       },{
         "cost":{
           "Life":50
@@ -35768,7 +36494,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":70.3333314086
+        "3":86.510000573074
       },{
         "cost":{
           "Life":51
@@ -35779,7 +36505,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":69.333332339923
+        "3":85.973336234093
       },{
         "cost":{
           "Life":52
@@ -35790,7 +36516,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":68.333333271245
+        "3":85.416668575878
       },{
         "cost":{
           "Life":53
@@ -35801,7 +36527,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":67.333334202568
+        "3":84.840005545716
       },{
         "cost":{
           "Life":54
@@ -35812,7 +36538,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":66.500001645337
+        "3":84.454999268291
       },{
         "cost":{
           "Life":55
@@ -35823,7 +36549,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":65.500002576659
+        "3":83.839998529752
       },{
         "cost":{
           "Life":56
@@ -35834,7 +36560,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":64.499999534339
+        "3":83.205002419266
       },{
         "cost":{
           "Life":57
@@ -35845,7 +36571,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":64
+        "3":83.200003576279
       },{
         "cost":{
           "Life":58
@@ -35856,7 +36582,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":63.666666977108
+        "3":83.403334892367
       },{
         "cost":{
           "Life":58
@@ -35867,7 +36593,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":63.166667442769
+        "3":83.380001660238
       },{
         "cost":{
           "Life":58
@@ -35878,7 +36604,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":62.66666790843
+        "3":83.346670742134
       },{
         "cost":{
           "Life":60
@@ -35889,7 +36615,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":62.333334885538
+        "3":83.526668826093
       },{
         "cost":{
           "Life":60
@@ -35900,7 +36626,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":61.833335351199
+        "3":83.475003518847
       },{
         "cost":{
           "Life":60
@@ -35911,7 +36637,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":61.33333581686
+        "3":83.413332578341
       },{
         "cost":{
           "Life":60
@@ -35922,7 +36648,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":61.000002793968
+        "3":83.570005377457
       },{
         "cost":{
           "Life":61
@@ -35933,7 +36659,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":60.500003259629
+        "3":83.490000047808
       },{
         "cost":{
           "Life":61
@@ -35944,7 +36670,7 @@
         "statInterpolation":[3,3,3],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":59.999999751647
+        "3":83.400004979471
       }],
     "name":"Reap",
     "qualityStats":{
@@ -38478,524 +39204,524 @@
     "description":"Swipe your shield, dealing area damage in three waves in front of you. Enemies can be hit by two of the waves where they overlap.",
     "incrementalEffectiveness":0.032999999821186,
     "levels":[{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":9
+          "Mana":8
         },
         "critChance":5,
         "levelRequirement":1,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":7,
-        "4":10,
+        "3":8,
+        "4":12,
         "5":50
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":9
+          "Mana":8
         },
         "critChance":5,
         "levelRequirement":2,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":7,
-        "4":10,
+        "3":8,
+        "4":12,
         "5":52
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":9
+          "Mana":8
         },
         "critChance":5,
         "levelRequirement":4,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":7,
-        "4":11,
+        "3":8,
+        "4":13,
         "5":54
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":9
+          "Mana":8
         },
         "critChance":5,
         "levelRequirement":7,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":8,
-        "4":11,
+        "3":9,
+        "4":13,
         "5":56
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":10
+          "Mana":9
         },
         "critChance":5,
         "levelRequirement":11,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":8,
-        "4":11,
+        "3":9,
+        "4":14,
         "5":58
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":10
+          "Mana":9
         },
         "critChance":5,
         "levelRequirement":16,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":8,
-        "4":12,
+        "3":10,
+        "4":14,
         "5":60
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":10
+          "Mana":9
         },
         "critChance":5,
         "levelRequirement":20,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":8,
-        "4":13,
+        "3":10,
+        "4":15,
         "5":62
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":11
+          "Mana":10
         },
         "critChance":5,
         "levelRequirement":24,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":9,
-        "4":13,
+        "3":11,
+        "4":16,
         "5":64
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":11
+          "Mana":10
         },
         "critChance":5,
         "levelRequirement":28,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":9,
-        "4":14,
+        "3":11,
+        "4":17,
         "5":66
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":12
+          "Mana":11
         },
         "critChance":5,
         "levelRequirement":32,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":10,
-        "4":14,
+        "3":12,
+        "4":17,
         "5":68
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":12
+          "Mana":11
         },
         "critChance":5,
         "levelRequirement":36,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":10,
-        "4":15,
+        "3":12,
+        "4":18,
         "5":70
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":12
+          "Mana":11
         },
         "critChance":5,
         "levelRequirement":40,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":10,
-        "4":15,
+        "3":13,
+        "4":18,
         "5":72
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":13
+          "Mana":12
         },
         "critChance":5,
         "levelRequirement":44,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":11,
-        "4":16,
+        "3":13,
+        "4":19,
         "5":74
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":13
+          "Mana":12
         },
         "critChance":5,
         "levelRequirement":48,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":11,
-        "4":16,
+        "3":13,
+        "4":20,
         "5":76
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":14
+          "Mana":13
         },
         "critChance":5,
         "levelRequirement":52,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":11,
-        "4":16,
+        "3":14,
+        "4":21,
         "5":78
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":14
+          "Mana":13
         },
         "critChance":5,
         "levelRequirement":56,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":12,
-        "4":18,
+        "3":15,
+        "4":22,
         "5":80
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":14
+          "Mana":13
         },
         "critChance":5,
         "levelRequirement":60,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":12,
-        "4":18,
+        "3":15,
+        "4":23,
         "5":82
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":15
+          "Mana":14
         },
         "critChance":5,
         "levelRequirement":64,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":13,
-        "4":19,
+        "3":16,
+        "4":23,
         "5":84
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":15
+          "Mana":14
         },
         "critChance":5,
         "levelRequirement":67,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":13,
-        "4":20,
+        "3":16,
+        "4":24,
         "5":86
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":15
+          "Mana":14
         },
         "critChance":5,
         "levelRequirement":70,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":13,
-        "4":20,
+        "3":16,
+        "4":24,
         "5":88
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":16
+          "Mana":14
         },
         "critChance":5,
         "levelRequirement":72,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":13,
-        "4":21,
+        "3":16,
+        "4":25,
         "5":90
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":16
+          "Mana":14
         },
         "critChance":5,
         "levelRequirement":74,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":14,
-        "4":21,
+        "3":17,
+        "4":25,
         "5":92
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":16
+          "Mana":14
         },
         "critChance":5,
         "levelRequirement":76,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":14,
-        "4":22,
+        "3":17,
+        "4":26,
         "5":94
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":16
+          "Mana":14
         },
         "critChance":5,
         "levelRequirement":78,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":15,
-        "4":22,
+        "3":18,
+        "4":26,
         "5":96
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":16
+          "Mana":14
         },
         "critChance":5,
         "levelRequirement":80,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":16,
-        "4":23,
+        "3":19,
+        "4":28,
         "5":98
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":17
+          "Mana":15
         },
         "critChance":5,
         "levelRequirement":82,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":16,
-        "4":24,
+        "3":19,
+        "4":29,
         "5":100
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":17
+          "Mana":15
         },
         "critChance":5,
         "levelRequirement":84,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":16,
-        "4":24,
+        "3":19,
+        "4":29,
         "5":102
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":17
+          "Mana":15
         },
         "critChance":5,
         "levelRequirement":86,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":17,
-        "4":26,
+        "3":20,
+        "4":30,
         "5":104
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":17
+          "Mana":15
         },
         "critChance":5,
         "levelRequirement":88,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":17,
-        "4":26,
+        "3":20,
+        "4":30,
         "5":106
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":17
+          "Mana":15
         },
         "critChance":5,
         "levelRequirement":90,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":17,
-        "4":26,
+        "3":21,
+        "4":31,
         "5":108
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":18
+          "Mana":16
         },
         "critChance":5,
         "levelRequirement":91,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":18,
-        "4":26,
+        "3":22,
+        "4":31,
         "5":109
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":18
+          "Mana":16
         },
         "critChance":5,
         "levelRequirement":92,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":18,
-        "4":26,
+        "3":22,
+        "4":31,
         "5":110
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":18
+          "Mana":16
         },
         "critChance":5,
         "levelRequirement":93,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":18,
-        "4":27,
+        "3":22,
+        "4":32,
         "5":111
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":18
+          "Mana":16
         },
         "critChance":5,
         "levelRequirement":94,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":18,
-        "4":27,
+        "3":22,
+        "4":32,
         "5":112
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":18
+          "Mana":16
         },
         "critChance":5,
         "levelRequirement":95,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":18,
-        "4":27,
+        "3":22,
+        "4":32,
         "5":113
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":18
+          "Mana":16
         },
         "critChance":5,
         "levelRequirement":96,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":19,
-        "4":27,
+        "3":23,
+        "4":32,
         "5":114
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":18
+          "Mana":16
         },
         "critChance":5,
         "levelRequirement":97,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":19,
-        "4":27,
+        "3":23,
+        "4":33,
         "5":115
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":18
+          "Mana":16
         },
         "critChance":5,
         "levelRequirement":98,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":20,
-        "4":28,
+        "3":24,
+        "4":33,
         "5":116
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":18
+          "Mana":16
         },
         "critChance":5,
         "levelRequirement":99,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":20,
-        "4":28,
+        "3":24,
+        "4":34,
         "5":117
       },{
-        "attackTime":1000,
+        "attackTime":900,
         "cost":{
-          "Mana":18
+          "Mana":16
         },
         "critChance":5,
         "levelRequirement":100,
         "statInterpolation":[3,3,1,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":20,
-        "4":28,
+        "3":24,
+        "4":34,
         "5":118
       }],
     "name":"Shield Crush of the Chieftain",
@@ -41234,447 +41960,487 @@
     "castTime":1,
     "color":1,
     "constantStats":[["base_number_of_golems_allowed",1],["display_minion_monster_type",7]],
-    "description":"Summons a Flame Golem that grants you increased Damage. The Flame Golem can cast a fire spray, a wave of fire damage, and an explosive arcing projectile.",
+    "description":"Summons a Flame Golem that grants you increased Damage and Area of Effect. The Flame Golem can cast a fire spray, a wave of fire damage, and an explosive arcing projectile.",
     "levels":[{
         "cooldown":6,
         "cost":{
           "Mana":30
         },
         "levelRequirement":34,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":0,
-        "2":15,
-        "3":34
+        "2":20,
+        "3":34,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":32
         },
         "levelRequirement":36,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":1,
-        "2":15,
-        "3":36
+        "2":20,
+        "3":36,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":34
         },
         "levelRequirement":38,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":1,
-        "2":16,
-        "3":38
+        "2":21,
+        "3":38,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":36
         },
         "levelRequirement":40,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":2,
-        "2":16,
-        "3":40
+        "2":21,
+        "3":40,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":38
         },
         "levelRequirement":42,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":2,
-        "2":16,
-        "3":42
+        "2":22,
+        "3":42,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":40
         },
         "levelRequirement":44,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":3,
-        "2":16,
-        "3":44
+        "2":22,
+        "3":44,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":42
         },
         "levelRequirement":46,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":3,
-        "2":17,
-        "3":46
+        "2":23,
+        "3":46,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":44
         },
         "levelRequirement":48,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":4,
-        "2":17,
-        "3":48
+        "2":23,
+        "3":48,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":44
         },
         "levelRequirement":50,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":4,
-        "2":17,
-        "3":50
+        "2":24,
+        "3":50,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":46
         },
         "levelRequirement":52,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":5,
-        "2":17,
-        "3":52
+        "2":24,
+        "3":52,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":48
         },
         "levelRequirement":54,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":5,
-        "2":18,
-        "3":54
+        "2":25,
+        "3":54,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":48
         },
         "levelRequirement":56,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":6,
-        "2":18,
-        "3":56
+        "2":25,
+        "3":56,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":50
         },
         "levelRequirement":58,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":6,
-        "2":18,
-        "3":58
+        "2":26,
+        "3":58,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":50
         },
         "levelRequirement":60,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":7,
-        "2":18,
-        "3":60
+        "2":26,
+        "3":60,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":52
         },
         "levelRequirement":62,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":7,
-        "2":19,
-        "3":62
+        "2":27,
+        "3":62,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":52
         },
         "levelRequirement":64,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":8,
-        "2":19,
-        "3":64
+        "2":27,
+        "3":64,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":52
         },
         "levelRequirement":66,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":8,
-        "2":19,
-        "3":66
+        "2":28,
+        "3":66,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":52
         },
         "levelRequirement":68,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":9,
-        "2":19,
-        "3":68
+        "2":28,
+        "3":68,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":54
         },
         "levelRequirement":69,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":9,
-        "2":20,
-        "3":69
+        "2":29,
+        "3":69,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":54
         },
         "levelRequirement":70,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":10,
-        "2":20,
-        "3":70
+        "2":29,
+        "3":70,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":56
         },
         "levelRequirement":72,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":10,
-        "2":20,
-        "3":72
+        "2":30,
+        "3":72,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":56
         },
         "levelRequirement":74,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":11,
-        "2":20,
-        "3":74
+        "2":30,
+        "3":74,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":58
         },
         "levelRequirement":76,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":11,
-        "2":21,
-        "3":76
+        "2":31,
+        "3":76,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":58
         },
         "levelRequirement":78,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":12,
-        "2":21,
-        "3":78
+        "2":31,
+        "3":78,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":60
         },
         "levelRequirement":80,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":12,
-        "2":21,
-        "3":80
+        "2":32,
+        "3":80,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":60
         },
         "levelRequirement":82,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":13,
-        "2":21,
-        "3":82
+        "2":32,
+        "3":82,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":60
         },
         "levelRequirement":84,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":13,
-        "2":22,
-        "3":84
+        "2":33,
+        "3":84,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":60
         },
         "levelRequirement":86,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":14,
-        "2":22,
-        "3":86
+        "2":33,
+        "3":86,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":62
         },
         "levelRequirement":88,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":14,
-        "2":22,
-        "3":88
+        "2":34,
+        "3":88,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":62
         },
         "levelRequirement":90,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":15,
-        "2":22,
-        "3":90
+        "2":34,
+        "3":90,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":62
         },
         "levelRequirement":91,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":15,
-        "2":22,
-        "3":91
+        "2":34,
+        "3":91,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":63
         },
         "levelRequirement":92,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":15,
-        "2":23,
-        "3":92
+        "2":35,
+        "3":92,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":63
         },
         "levelRequirement":93,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":15,
-        "2":23,
-        "3":93
+        "2":35,
+        "3":93,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":63
         },
         "levelRequirement":94,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":16,
-        "2":23,
-        "3":94
+        "2":35,
+        "3":94,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":63
         },
         "levelRequirement":95,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":16,
-        "2":23,
-        "3":95
+        "2":35,
+        "3":95,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":64
         },
         "levelRequirement":96,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":16,
-        "2":23,
-        "3":96
+        "2":36,
+        "3":96,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":64
         },
         "levelRequirement":97,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":16,
-        "2":23,
-        "3":97
+        "2":36,
+        "3":97,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":64
         },
         "levelRequirement":98,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":17,
-        "2":23,
-        "3":98
+        "2":36,
+        "3":98,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":64
         },
         "levelRequirement":99,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":17,
-        "2":23,
-        "3":99
+        "2":36,
+        "3":99,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":64
         },
         "levelRequirement":100,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":17,
-        "2":24,
-        "3":100
+        "2":37,
+        "3":100,
+        "4":20
       }],
     "minionList":["SummonedFlameGolem"],
     "minionSkillTypes":{
@@ -41704,6 +42470,16 @@
     },
     "statDescriptionScope":"minion_spell_skill_stat_descriptions",
     "statMap":{
+      "fire_golem_grants_area_of_effect_+%":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"AreaOfEffect",
+          "type":"INC",
+          "1":{
+            "effectType":"Buff",
+            "type":"GlobalEffect"
+          }
+        }],
       "fire_golem_grants_damage_+%":[{
           "flags":0,
           "keywordFlags":0,
@@ -41715,7 +42491,7 @@
           }
         }]
     },
-    "stats":["base_actor_scale_+%","fire_golem_grants_damage_+%","base_display_minion_actor_level","infinite_minion_duration"]
+    "stats":["base_actor_scale_+%","fire_golem_grants_damage_+%","base_display_minion_actor_level","fire_golem_grants_area_of_effect_+%","infinite_minion_duration"]
   },
   "SummonFlameGolemAltX":{
     "baseFlags":{
@@ -42634,447 +43410,487 @@
     "castTime":1,
     "color":1,
     "constantStats":[["base_number_of_golems_allowed",1],["display_minion_monster_type",10]],
-    "description":"Summons a Stone Golem that grants you life regeneration. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that can taunt enemies.",
+    "description":"Summons a Stone Golem that grants you life regeneration and defences. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that can taunt enemies.",
     "levels":[{
         "cooldown":6,
         "cost":{
           "Mana":30
         },
         "levelRequirement":34,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":0,
         "2":1980,
-        "3":34
+        "3":34,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":32
         },
         "levelRequirement":36,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":1,
         "2":2160,
-        "3":36
+        "3":36,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":34
         },
         "levelRequirement":38,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":1,
         "2":2340,
-        "3":38
+        "3":38,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":36
         },
         "levelRequirement":40,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":2,
         "2":2520,
-        "3":40
+        "3":40,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":38
         },
         "levelRequirement":42,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":2,
         "2":2700,
-        "3":42
+        "3":42,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":40
         },
         "levelRequirement":44,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":3,
         "2":2940,
-        "3":44
+        "3":44,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":42
         },
         "levelRequirement":46,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":3,
         "2":3120,
-        "3":46
+        "3":46,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":44
         },
         "levelRequirement":48,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":4,
         "2":3360,
-        "3":48
+        "3":48,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":44
         },
         "levelRequirement":50,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":4,
         "2":3600,
-        "3":50
+        "3":50,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":46
         },
         "levelRequirement":52,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":5,
         "2":3840,
-        "3":52
+        "3":52,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":48
         },
         "levelRequirement":54,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":5,
         "2":4080,
-        "3":54
+        "3":54,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":48
         },
         "levelRequirement":56,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":6,
         "2":4320,
-        "3":56
+        "3":56,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":50
         },
         "levelRequirement":58,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":6,
         "2":4560,
-        "3":58
+        "3":58,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":50
         },
         "levelRequirement":60,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":7,
         "2":4860,
-        "3":60
+        "3":60,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":52
         },
         "levelRequirement":62,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":7,
         "2":5100,
-        "3":62
+        "3":62,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":52
         },
         "levelRequirement":64,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":8,
         "2":5400,
-        "3":64
+        "3":64,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":52
         },
         "levelRequirement":66,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":8,
         "2":5700,
-        "3":66
+        "3":66,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":52
         },
         "levelRequirement":68,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":9,
         "2":6000,
-        "3":68
+        "3":68,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":54
         },
         "levelRequirement":69,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":9,
         "2":6180,
-        "3":69
+        "3":69,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":54
         },
         "levelRequirement":70,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":10,
         "2":6300,
-        "3":70
+        "3":70,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":56
         },
         "levelRequirement":72,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":10,
         "2":6600,
-        "3":72
+        "3":72,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":56
         },
         "levelRequirement":74,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":11,
         "2":6960,
-        "3":74
+        "3":74,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":58
         },
         "levelRequirement":76,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":11,
         "2":7260,
-        "3":76
+        "3":76,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":58
         },
         "levelRequirement":78,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":12,
         "2":7620,
-        "3":78
+        "3":78,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":60
         },
         "levelRequirement":80,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":12,
         "2":7980,
-        "3":80
+        "3":80,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":60
         },
         "levelRequirement":82,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":13,
         "2":8340,
-        "3":82
+        "3":82,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":60
         },
         "levelRequirement":84,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":13,
         "2":8700,
-        "3":84
+        "3":84,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":60
         },
         "levelRequirement":86,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":14,
         "2":9060,
-        "3":86
+        "3":86,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":62
         },
         "levelRequirement":88,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":14,
         "2":9420,
-        "3":88
+        "3":88,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":62
         },
         "levelRequirement":90,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":15,
         "2":9840,
-        "3":90
+        "3":90,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":62
         },
         "levelRequirement":91,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":15,
         "2":10020,
-        "3":91
+        "3":91,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":63
         },
         "levelRequirement":92,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":15,
         "2":10200,
-        "3":92
+        "3":92,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":63
         },
         "levelRequirement":93,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":15,
         "2":10380,
-        "3":93
+        "3":93,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":63
         },
         "levelRequirement":94,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":16,
         "2":10560,
-        "3":94
+        "3":94,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":63
         },
         "levelRequirement":95,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":16,
         "2":10740,
-        "3":95
+        "3":95,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":64
         },
         "levelRequirement":96,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":16,
         "2":10920,
-        "3":96
+        "3":96,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":64
         },
         "levelRequirement":97,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":16,
         "2":11100,
-        "3":97
+        "3":97,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":64
         },
         "levelRequirement":98,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":17,
         "2":11280,
-        "3":98
+        "3":98,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":64
         },
         "levelRequirement":99,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":17,
         "2":11460,
-        "3":99
+        "3":99,
+        "4":20
       },{
         "cooldown":6,
         "cost":{
           "Mana":64
         },
         "levelRequirement":100,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "storedUses":1,
         "1":17,
         "2":11640,
-        "3":100
+        "3":100,
+        "4":20
       }],
     "minionList":["SummonedStoneGolem"],
     "minionSkillTypes":{
@@ -43117,9 +43933,19 @@
             "type":"GlobalEffect"
           }
         }
-      }
+      },
+      "stone_golem_grants_defences_+%":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Defences",
+          "type":"INC",
+          "1":{
+            "effectType":"Buff",
+            "type":"GlobalEffect"
+          }
+        }]
     },
-    "stats":["base_actor_scale_+%","stone_golem_grants_base_life_regeneration_rate_per_minute","base_display_minion_actor_level","infinite_minion_duration"]
+    "stats":["base_actor_scale_+%","stone_golem_grants_base_life_regeneration_rate_per_minute","base_display_minion_actor_level","stone_golem_grants_defences_+%","infinite_minion_duration"]
   },
   "SummonStoneGolemAltX":{
     "baseFlags":{
@@ -45000,6 +45826,538 @@
         }]
     },
     "stats":["active_skill_area_of_effect_+%_final","is_area_damage","console_skill_dont_chase"],
+    "weaponTypes":{
+      "None":true,
+      "One Handed Axe":true,
+      "One Handed Mace":true,
+      "Sceptre":true,
+      "Staff":true,
+      "Two Handed Axe":true,
+      "Two Handed Mace":true
+    }
+  },
+  "SunderAltY":{
+    "baseFlags":{
+      "area":true,
+      "attack":true,
+      "melee":true
+    },
+    "baseMods":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"radius",
+          "value":12
+        }
+      }],
+    "baseTypeName":"Sunder of Trarthus",
+    "castTime":1,
+    "color":1,
+    "constantStats":[["shockwave_slam_explosion_damage_+%_final",-40],["base_sunder_wave_delay_ms",300],["sunder_wave_radius_+_per_step",1],["sunder_wave_max_steps",4],["sunder_wave_min_steps",2],["sunder_shockwave_limit_per_cascade",5],["sunder_number_of_fake_chains",2]],
+    "description":"Slams the ground, creating a slow wave of churning terrain that damages enemies in a sequence of areas in front of you. A number of enemies hit by the wave will release a shockwave, damaging other enemies around them. Using the skill again will stop the previous wave. When the wave reaches a target or terrain, it can restart aiming towards an enemy, if one is in range. Requires a Mace, Sceptre, Axe, Staff or Unarmed.",
+    "levels":[{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":2.05,
+        "cost":{
+          "Mana":8
+        },
+        "damageEffectiveness":2.05,
+        "levelRequirement":12,
+        "statInterpolation":[1,1],
+        "1":0,
+        "2":0
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":2.19,
+        "cost":{
+          "Mana":9
+        },
+        "damageEffectiveness":2.19,
+        "levelRequirement":15,
+        "statInterpolation":[1,1],
+        "1":1,
+        "2":-1
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":2.33,
+        "cost":{
+          "Mana":9
+        },
+        "damageEffectiveness":2.33,
+        "levelRequirement":19,
+        "statInterpolation":[1,1],
+        "1":2,
+        "2":-3
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":2.47,
+        "cost":{
+          "Mana":9
+        },
+        "damageEffectiveness":2.47,
+        "levelRequirement":23,
+        "statInterpolation":[1,1],
+        "1":3,
+        "2":-4
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":2.61,
+        "cost":{
+          "Mana":10
+        },
+        "damageEffectiveness":2.61,
+        "levelRequirement":27,
+        "statInterpolation":[1,1],
+        "1":4,
+        "2":-5
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":2.75,
+        "cost":{
+          "Mana":10
+        },
+        "damageEffectiveness":2.75,
+        "levelRequirement":31,
+        "statInterpolation":[1,1],
+        "1":5,
+        "2":-7
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":2.89,
+        "cost":{
+          "Mana":10
+        },
+        "damageEffectiveness":2.89,
+        "levelRequirement":35,
+        "statInterpolation":[1,1],
+        "1":6,
+        "2":-8
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":3.03,
+        "cost":{
+          "Mana":11
+        },
+        "damageEffectiveness":3.03,
+        "levelRequirement":38,
+        "statInterpolation":[1,1],
+        "1":7,
+        "2":-9
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":3.17,
+        "cost":{
+          "Mana":11
+        },
+        "damageEffectiveness":3.17,
+        "levelRequirement":41,
+        "statInterpolation":[1,1],
+        "1":8,
+        "2":-11
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":3.31,
+        "cost":{
+          "Mana":11
+        },
+        "damageEffectiveness":3.31,
+        "levelRequirement":44,
+        "statInterpolation":[1,1],
+        "1":9,
+        "2":-12
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":3.45,
+        "cost":{
+          "Mana":11
+        },
+        "damageEffectiveness":3.45,
+        "levelRequirement":47,
+        "statInterpolation":[1,1],
+        "1":10,
+        "2":-13
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":3.59,
+        "cost":{
+          "Mana":12
+        },
+        "damageEffectiveness":3.59,
+        "levelRequirement":50,
+        "statInterpolation":[1,1],
+        "1":11,
+        "2":-14
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":3.73,
+        "cost":{
+          "Mana":12
+        },
+        "damageEffectiveness":3.73,
+        "levelRequirement":53,
+        "statInterpolation":[1,1],
+        "1":12,
+        "2":-16
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":3.87,
+        "cost":{
+          "Mana":12
+        },
+        "damageEffectiveness":3.87,
+        "levelRequirement":56,
+        "statInterpolation":[1,1],
+        "1":13,
+        "2":-17
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":4.01,
+        "cost":{
+          "Mana":12
+        },
+        "damageEffectiveness":4.01,
+        "levelRequirement":59,
+        "statInterpolation":[1,1],
+        "1":14,
+        "2":-18
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":4.15,
+        "cost":{
+          "Mana":13
+        },
+        "damageEffectiveness":4.15,
+        "levelRequirement":62,
+        "statInterpolation":[1,1],
+        "1":15,
+        "2":-20
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":4.29,
+        "cost":{
+          "Mana":13
+        },
+        "damageEffectiveness":4.29,
+        "levelRequirement":64,
+        "statInterpolation":[1,1],
+        "1":16,
+        "2":-21
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":4.43,
+        "cost":{
+          "Mana":13
+        },
+        "damageEffectiveness":4.43,
+        "levelRequirement":66,
+        "statInterpolation":[1,1],
+        "1":17,
+        "2":-22
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":4.57,
+        "cost":{
+          "Mana":13
+        },
+        "damageEffectiveness":4.57,
+        "levelRequirement":68,
+        "statInterpolation":[1,1],
+        "1":18,
+        "2":-24
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":4.71,
+        "cost":{
+          "Mana":13
+        },
+        "damageEffectiveness":4.71,
+        "levelRequirement":70,
+        "statInterpolation":[1,1],
+        "1":19,
+        "2":-25
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":4.85,
+        "cost":{
+          "Mana":14
+        },
+        "damageEffectiveness":4.85,
+        "levelRequirement":72,
+        "statInterpolation":[1,1],
+        "1":20,
+        "2":-26
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":4.99,
+        "cost":{
+          "Mana":14
+        },
+        "damageEffectiveness":4.99,
+        "levelRequirement":74,
+        "statInterpolation":[1,1],
+        "1":21,
+        "2":-28
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":5.13,
+        "cost":{
+          "Mana":14
+        },
+        "damageEffectiveness":5.13,
+        "levelRequirement":76,
+        "statInterpolation":[1,1],
+        "1":22,
+        "2":-29
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":5.27,
+        "cost":{
+          "Mana":14
+        },
+        "damageEffectiveness":5.27,
+        "levelRequirement":78,
+        "statInterpolation":[1,1],
+        "1":23,
+        "2":-30
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":5.41,
+        "cost":{
+          "Mana":14
+        },
+        "damageEffectiveness":5.41,
+        "levelRequirement":80,
+        "statInterpolation":[1,1],
+        "1":24,
+        "2":-32
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":5.55,
+        "cost":{
+          "Mana":14
+        },
+        "damageEffectiveness":5.55,
+        "levelRequirement":82,
+        "statInterpolation":[1,1],
+        "1":25,
+        "2":-33
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":5.69,
+        "cost":{
+          "Mana":15
+        },
+        "damageEffectiveness":5.69,
+        "levelRequirement":84,
+        "statInterpolation":[1,1],
+        "1":26,
+        "2":-34
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":5.83,
+        "cost":{
+          "Mana":15
+        },
+        "damageEffectiveness":5.83,
+        "levelRequirement":86,
+        "statInterpolation":[1,1],
+        "1":27,
+        "2":-36
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":5.97,
+        "cost":{
+          "Mana":15
+        },
+        "damageEffectiveness":5.97,
+        "levelRequirement":88,
+        "statInterpolation":[1,1],
+        "1":28,
+        "2":-37
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":6.11,
+        "cost":{
+          "Mana":15
+        },
+        "damageEffectiveness":6.11,
+        "levelRequirement":90,
+        "statInterpolation":[1,1],
+        "1":29,
+        "2":-38
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":6.18,
+        "cost":{
+          "Mana":15
+        },
+        "damageEffectiveness":6.18,
+        "levelRequirement":91,
+        "statInterpolation":[1,1],
+        "1":29,
+        "2":-39
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":6.25,
+        "cost":{
+          "Mana":15
+        },
+        "damageEffectiveness":6.25,
+        "levelRequirement":92,
+        "statInterpolation":[1,1],
+        "1":30,
+        "2":-39
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":6.32,
+        "cost":{
+          "Mana":15
+        },
+        "damageEffectiveness":6.32,
+        "levelRequirement":93,
+        "statInterpolation":[1,1],
+        "1":30,
+        "2":-40
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":6.39,
+        "cost":{
+          "Mana":15
+        },
+        "damageEffectiveness":6.39,
+        "levelRequirement":94,
+        "statInterpolation":[1,1],
+        "1":31,
+        "2":-41
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":6.46,
+        "cost":{
+          "Mana":16
+        },
+        "damageEffectiveness":6.46,
+        "levelRequirement":95,
+        "statInterpolation":[1,1],
+        "1":31,
+        "2":-41
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":6.53,
+        "cost":{
+          "Mana":16
+        },
+        "damageEffectiveness":6.53,
+        "levelRequirement":96,
+        "statInterpolation":[1,1],
+        "1":32,
+        "2":-42
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":6.6,
+        "cost":{
+          "Mana":16
+        },
+        "damageEffectiveness":6.6,
+        "levelRequirement":97,
+        "statInterpolation":[1,1],
+        "1":32,
+        "2":-43
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":6.67,
+        "cost":{
+          "Mana":16
+        },
+        "damageEffectiveness":6.67,
+        "levelRequirement":98,
+        "statInterpolation":[1,1],
+        "1":33,
+        "2":-43
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":6.74,
+        "cost":{
+          "Mana":16
+        },
+        "damageEffectiveness":6.74,
+        "levelRequirement":99,
+        "statInterpolation":[1,1],
+        "1":33,
+        "2":-44
+      },{
+        "attackSpeedMultiplier":-25,
+        "baseMultiplier":6.81,
+        "cost":{
+          "Mana":16
+        },
+        "damageEffectiveness":6.81,
+        "levelRequirement":100,
+        "statInterpolation":[1,1],
+        "1":34,
+        "2":-45
+      }],
+    "name":"Sunder of Trarthus",
+    "parts":[{
+        "name":"First Wave Area"
+      },{
+        "name":"Final Wave Area"
+      },{
+        "name":"Shockwaves"
+      }],
+    "qualityStats":{
+      "Default":[["sunder_wave_delay_+%",-0.5]]
+    },
+    "skillTypes":{
+      "1":true,
+      "11":true,
+      "18":true,
+      "24":true,
+      "28":true,
+      "103":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "statMap":{
+      "shockwave_slam_explosion_damage_+%_final":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Damage",
+          "type":"MORE",
+          "1":{
+            "skillPart":3,
+            "type":"SkillPart"
+          }
+        }],
+      "sunder_number_of_fake_chains":[],
+      "sunder_wave_max_steps":{
+        "base":-1,
+        "1":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Multiplier:SunderWaveArea",
+          "type":"BASE",
+          "1":{
+            "skillPart":2,
+            "type":"SkillPart"
+          }
+        }
+      },
+      "sunder_wave_radius_+_per_step":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillData",
+          "type":"LIST",
+          "value":{
+            "key":"radiusExtra"
+          },
+          "1":{
+            "type":"Multiplier",
+            "var":"SunderWaveArea"
+          }
+        }]
+    },
+    "stats":["active_skill_area_of_effect_+%_final","sunder_wave_delay_+%","is_area_damage","console_skill_dont_chase"],
     "weaponTypes":{
       "None":true,
       "One Handed Axe":true,
@@ -50018,7 +51376,7 @@
       "quality_display_groundslam_is_gem":[],
       "vaal_skill_exertable":[]
     },
-    "stats":["active_skill_base_radius_+","groundslam_damage_to_close_targets_+%_final","is_area_damage","global_always_hit","cannot_cancel_skill_before_contact_point","vaal_skill_exertable","quality_display_groundslam_is_gem","skill_cannot_be_stunned_before_contact_point"],
+    "stats":["active_skill_base_radius_+","groundslam_damage_to_close_targets_+%_final","is_area_damage","global_always_hit","cannot_cancel_skill_before_contact_point","vaal_skill_exertable","skill_cannot_be_stunned_before_contact_point","quality_display_groundslam_is_gem"],
     "weaponTypes":{
       "None":true,
       "One Handed Axe":true,
@@ -52245,7 +53603,7 @@
     }
   },
   "VaalReap":{
-    "baseEffectiveness":2.811399936676,
+    "baseEffectiveness":2.5599999427795,
     "baseFlags":{
       "area":true,
       "duration":true,
@@ -52275,13 +53633,13 @@
     "color":1,
     "constantStats":[["base_skill_effect_duration",5000],["vaal_reap_additional_maximum_blood_charges",4],["blood_ground_leaving_area_lasts_for_ms",2000],["base_secondary_skill_effect_duration",8000]],
     "description":"Bloody scythes swipe around a selected area, hitting enemies with physical damage. An area of boiling blood is left beneath them for a duration which deals physical damage over time. Also gives a bonus to maximum Blood Charges for a secondary duration.",
-    "incrementalEffectiveness":0.05009999871254,
+    "incrementalEffectiveness":0.053599998354912,
     "levels":[{
         "cost":{
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":3.1,
+        "damageEffectiveness":3,
         "levelRequirement":28,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52307,7 +53665,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":3.2,
+        "damageEffectiveness":3.3,
         "levelRequirement":34,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52320,7 +53678,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":3.3,
+        "damageEffectiveness":3.4,
         "levelRequirement":37,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52333,7 +53691,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":3.4,
+        "damageEffectiveness":3.5,
         "levelRequirement":40,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52346,7 +53704,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":3.4,
+        "damageEffectiveness":3.6,
         "levelRequirement":42,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52359,7 +53717,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":3.5,
+        "damageEffectiveness":3.6,
         "levelRequirement":44,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52372,7 +53730,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":3.5,
+        "damageEffectiveness":3.7,
         "levelRequirement":46,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52385,7 +53743,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":3.6,
+        "damageEffectiveness":3.8,
         "levelRequirement":48,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52398,7 +53756,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":3.6,
+        "damageEffectiveness":3.9,
         "levelRequirement":50,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52411,7 +53769,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":3.7,
+        "damageEffectiveness":4,
         "levelRequirement":52,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52424,7 +53782,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":3.7,
+        "damageEffectiveness":4.1,
         "levelRequirement":54,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52437,7 +53795,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":3.8,
+        "damageEffectiveness":4.2,
         "levelRequirement":56,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52450,7 +53808,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":3.9,
+        "damageEffectiveness":4.2,
         "levelRequirement":58,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52463,7 +53821,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":3.9,
+        "damageEffectiveness":4.3,
         "levelRequirement":60,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52476,7 +53834,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4,
+        "damageEffectiveness":4.4,
         "levelRequirement":62,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52489,7 +53847,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4,
+        "damageEffectiveness":4.5,
         "levelRequirement":64,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52502,7 +53860,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.1,
+        "damageEffectiveness":4.6,
         "levelRequirement":66,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52515,7 +53873,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.7,
         "levelRequirement":68,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52528,7 +53886,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":70,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52541,7 +53899,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":72,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52554,7 +53912,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":74,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52567,7 +53925,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":76,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52580,7 +53938,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":78,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52593,7 +53951,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":80,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52606,7 +53964,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":82,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52619,7 +53977,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":84,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52632,7 +53990,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":86,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52645,7 +54003,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":88,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52658,7 +54016,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":90,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52671,7 +54029,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":91,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52684,7 +54042,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":92,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52697,7 +54055,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":93,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52710,7 +54068,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":94,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52723,7 +54081,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":95,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52736,7 +54094,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":96,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52749,7 +54107,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":97,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52762,7 +54120,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":98,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52775,7 +54133,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":99,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],
@@ -52788,7 +54146,7 @@
           "Soul":25
         },
         "critChance":6,
-        "damageEffectiveness":4.2,
+        "damageEffectiveness":4.8,
         "levelRequirement":100,
         "soulPreventionDuration":8,
         "statInterpolation":[3,3,3],

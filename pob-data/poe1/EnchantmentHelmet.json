@@ -731,8 +731,8 @@
     "MERCILESS":["25% increased Rain of Arrows Damage","10% increased Rain of Arrows Attack Speed","16% increased Rain of Arrows Area of Effect","Rain of Arrows has 10% chance to fire an additional sequence of arrows"]
   },
   "Raise Spectre":{
-    "ENDGAME":["Spectres have 40% increased Damage","Spectres have 12% increased Attack and Cast Speed","+36% to Raised Spectre Elemental Resistances"],
-    "MERCILESS":["Spectres have 25% increased Damage","Spectres have 8% increased Attack and Cast Speed","+24% to Raised Spectre Elemental Resistances"]
+    "ENDGAME":["Raised Spectres have 40% increased Damage","Raised Spectres have 12% increased Attack and Cast Speed","+36% to Raised Spectre Elemental Resistances"],
+    "MERCILESS":["Raised Spectres have 25% increased Damage","Raised Spectres have 8% increased Attack and Cast Speed","+24% to Raised Spectre Elemental Resistances"]
   },
   "Raise Zombie":{
     "ENDGAME":["Raised Zombies deal 40% increased Damage","Raised Zombies have 15% increased Attack Speed","Raised Zombies have +36% to Elemental Resistances"],

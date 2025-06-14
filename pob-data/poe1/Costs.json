@@ -56,7 +56,7 @@
   },{
     "Divisor":60,
     "Resource":"ESPerMinute",
-    "ResourceString":"{0) Energy Shield per second",
+    "ResourceString":"{0} Energy Shield per second",
     "Stat":"base_es_cost_per_minute"
   },{
     "Divisor":60,

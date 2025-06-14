@@ -4525,7 +4525,7 @@
     "color":1,
     "constantStats":[["cast_linked_spells_on_melee_kill_%",100]],
     "description":"Must support both a melee attack skill and a spell skill to work. The attack skill will trigger a spell when it kills an enemy. Cannot support totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[36,40,30,15],
+    "excludeSkillTypes":[36,40,30,15,134],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":38,
@@ -4664,7 +4664,7 @@
     "addSkillTypes":[41,101],
     "color":1,
     "description":"Must support both a melee attack skill and a spell skill to work. The attack skill will trigger a spell when it kills an enemy. Cannot support totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[36,40,30,15,60],
+    "excludeSkillTypes":[36,40,30,15,60,134],
     "ignoreMinionTypes":true,
     "isTrigger":true,
     "levels":[{
@@ -4970,7 +4970,7 @@
     "color":1,
     "constantStats":[["cast_on_damage_taken_%",100]],
     "description":"Each supported spell skill will track damage you take, and be triggered when the total damage taken reaches a threshold. Cannot support skills used by totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[36,40,30,43,60],
+    "excludeSkillTypes":[36,40,30,43,60,134],
     "isTrigger":true,
     "levels":[{
         "PvPDamageMultiplier":-80,
@@ -8670,7 +8670,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports skills which summon totems. Cannot modify the skills of minions.",
-    "excludeSkillTypes":[],
+    "excludeSkillTypes":[134],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":8,

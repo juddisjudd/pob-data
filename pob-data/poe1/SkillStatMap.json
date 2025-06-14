@@ -355,6 +355,12 @@
         }
       }
     }],
+  "active_skill_physical_damage_+%_final":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"PhysicalDamage",
+      "type":"MORE"
+    }],
   "active_skill_poison_duration_+%_final":[{
       "flags":0,
       "keywordFlags":0,
@@ -2229,6 +2235,17 @@
       "name":"DoubleDamageChance",
       "type":"BASE"
     }],
+  "chance_to_deal_double_damage_%_per_10_intelligence":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"DoubleDamageChance",
+      "type":"BASE",
+      "1":{
+        "div":10,
+        "stat":"Int",
+        "type":"PerStat"
+      }
+    }],
   "chance_to_deal_double_damage_%_vs_bleeding_enemies":[{
       "flags":0,
       "keywordFlags":0,
@@ -2578,6 +2595,17 @@
       "keywordFlags":0,
       "name":"Damage",
       "type":"INC"
+    }],
+  "damage_+%_final_vs_stunned_enemies":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Damage",
+      "type":"MORE",
+      "1":{
+        "actor":"enemy",
+        "type":"ActorCondition",
+        "var":"Stunned"
+      }
     }],
   "damage_+%_if_you_have_consumed_a_corpse_recently":[{
       "flags":0,
@@ -5712,6 +5740,16 @@
         "type":"SkillType"
       }
     }],
+  "throw_X_additional_traps_if_dual_wielding":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"TrapThrowCount",
+      "type":"BASE",
+      "1":{
+        "type":"Condition",
+        "var":"DualWielding"
+      }
+    }],
   "totem_damage_+%":[{
       "flags":0,
       "keywordFlags":16384,
@@ -5784,6 +5822,16 @@
       "1":{
         "type":"Multiplier",
         "var":"FrenzyCharge"
+      }
+    }],
+  "trap_throwing_speed_+%_while_wielding_2hand":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"TrapThrowingSpeed",
+      "type":"INC",
+      "1":{
+        "type":"Condition",
+        "var":"UsingTwoHandedWeapon"
       }
     }],
   "trap_trigger_radius_+%":[{

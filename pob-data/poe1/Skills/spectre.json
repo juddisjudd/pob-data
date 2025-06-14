@@ -11591,7 +11591,7 @@
     },
     "castTime":1,
     "color":3,
-    "constantStats":[["spell_maximum_action_distance_+%",-75]],
+    "constantStats":[["spell_maximum_action_distance_+%",-75],["active_skill_base_area_of_effect_radius",25]],
     "description":"Discharge all the character's charges to deal elemental damage to all nearby monsters.",
     "hidden":true,
     "incrementalEffectiveness":0.028500000014901,

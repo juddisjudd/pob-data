@@ -191,7 +191,7 @@
           }
         }]
     },
-    "stats":["chance_to_trigger_on_animate_weapon_kill_%","attack_minimum_added_physical_damage","attack_maximum_added_physical_damage","number_of_animated_weapons_allowed","chance_to_trigger_on_animate_guardian_kill_%"]
+    "stats":["chance_to_trigger_on_animate_weapon_kill_%","attack_minimum_added_physical_damage","attack_maximum_added_physical_damage","base_number_of_animated_weapons_allowed","chance_to_trigger_on_animate_guardian_kill_%"]
   },
   "ApproachingFlames":{
     "baseFlags":{
@@ -852,7 +852,8 @@
       "17":true,
       "18":true,
       "19":true,
-      "35":true
+      "35":true,
+      "136":true
     },
     "statDescriptionScope":"offering_skill_stat_descriptions",
     "statMap":{
@@ -3117,9 +3118,9 @@
       },
       "20":{
         "PvPDamageMultiplier":-80,
-        "baseMultiplier":1.5,
-        "cooldown":0.5,
-        "damageEffectiveness":1.5,
+        "baseMultiplier":2,
+        "cooldown":0.3,
+        "damageEffectiveness":2,
         "levelRequirement":1,
         "storedUses":1
       }
@@ -4114,7 +4115,7 @@
     "stats":["display_this_skill_cooldown_does_not_recover_during_buff"]
   },
   "ShieldShatter":{
-    "baseEffectiveness":0.34000000357628,
+    "baseEffectiveness":0.68000000715256,
     "baseFlags":{
       "area":true,
       "spell":true
@@ -4131,7 +4132,7 @@
       }],
     "castTime":1,
     "color":1,
-    "constantStats":[["trigger_on_block_%_chance",100],["base_skill_effect_duration",4000]],
+    "constantStats":[["trigger_on_block_%_chance",100],["base_skill_effect_duration",4000],["active_skill_ailment_damage_+%_final",-40]],
     "description":"Your shield shatters, dealing physical spell damage to enemies in an area, based on the shield's quality. For a short duration after this, you will be unable to block and will gain no defences from your shield, but your spells will deal added physical damage.",
     "fromItem":true,
     "hidden":true,
@@ -4150,8 +4151,8 @@
         "statInterpolation":[3,3,1,1],
         "1":0.80000001192093,
         "2":1.2000000476837,
-        "3":10,
-        "4":16
+        "3":15,
+        "4":23
       }
     },
     "name":"Shield Shatter",
@@ -6297,7 +6298,7 @@
         }
       }
     },
-    "stats":["support_aura_duration_base_buff_duration","aura_effect_+%","base_mana_cost_+","skill_is_blessing_skill"],
+    "stats":["support_aura_duration_base_buff_duration","aura_effect_+%","base_mana_cost_+","skill_is_blessing_skill","cannot_cancel_skill_before_contact_point"],
     "support":true
   },
   "SupportEarthbreaker":{
@@ -6306,7 +6307,7 @@
     },
     "addSkillTypes":[30],
     "color":1,
-    "constantStats":[["base_totem_duration",12000],["base_totem_range",50],["ancestor_totem_parent_activiation_range",70],["summon_totem_cast_speed_+%",50],["support_ancestor_slam_totem_attack_speed_+%_final",-30],["support_skill_totem_type_override",20]],
+    "constantStats":[["base_totem_duration",12000],["base_totem_range",50],["ancestor_totem_parent_activiation_range",70],["summon_totem_cast_speed_+%",50],["support_ancestor_slam_totem_attack_speed_+%_final",-30]],
     "description":"Supports slam skills, causing them to summon an ancestor totem that uses the skill for you while you're near it. Being near it grants you increased area of effect for melee skills.",
     "excludeSkillTypes":[60],
     "fromItem":true,
@@ -6577,7 +6578,7 @@
           "type":"MORE"
         }]
     },
-    "stats":["totem_support_gem_level","support_ancestor_slam_totem_damage_+%_final","base_skill_is_totemified","is_totem","leap_slam_no_epk","totem_targets_ignoring_action_distance","force_lite_skill_effects"],
+    "stats":["totem_support_gem_level","support_ancestor_slam_totem_damage_+%_final","base_skill_is_totemified","is_totem","leap_slam_no_epk","totem_targets_ignoring_action_distance","force_lite_skill_effects","support_totem_type_override_to_support_slam_ancestor"],
     "support":true
   },
   "SupportElementalPenetration":{
@@ -6813,7 +6814,7 @@
     "levels":{
       "30":{
         "levelRequirement":90,
-        "manaMultiplier":50
+        "manaMultiplier":40
       }
     },
     "name":"Greater Spell Echo",
@@ -7274,6 +7275,55 @@
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_uncastable_if_triggerable"]
   },
+  "TriggeredStarfall":{
+    "baseEffectiveness":0,
+    "baseFlags":{
+      "spell":true
+    },
+    "baseMods":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"showAverage",
+          "value":true
+        }
+      }],
+    "castTime":1,
+    "color":2,
+    "constantStats":[["skill_art_variation",11],["attack_trigger_on_melee_critical_hit_%",100]],
+    "description":"Stars fall, raining destruction down over an area. Falling stars deal Attack Damage.\nCannot be Supported by Trigger Support Gems.",
+    "fromItem":true,
+    "hidden":true,
+    "levels":{
+      "20":{
+        "baseMultiplier":0.6,
+        "cooldown":0.15,
+        "damageEffectiveness":0.6,
+        "levelRequirement":0,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":22
+      }
+    },
+    "name":"Starfall",
+    "skillTypes":{
+      "1":true,
+      "11":true,
+      "14":true,
+      "35":true,
+      "41":true,
+      "47":true,
+      "60":true,
+      "72":true,
+      "100":true,
+      "101":true,
+      "134":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["base_number_of_projectiles","base_is_projectile","is_area_damage","cannot_pierce"]
+  },
   "TriggeredSummonGhostOnKill":{
     "baseFlags":{
       "minion":true,
@@ -7281,13 +7331,13 @@
     },
     "castTime":1,
     "color":3,
-    "constantStats":[["trigger_on_corpse_consume_%_chance",100],["base_skill_effect_duration",15000],["base_number_of_support_ghosts_allowed",10],["phantasm_minimum_added_physical_damage_to_grant",42],["phantasm_maximum_added_physical_damage_to_grant",65]],
+    "constantStats":[["trigger_on_corpse_consume_%_chance",100],["base_skill_effect_duration",15000],["base_number_of_support_ghosts_allowed",11],["phantasm_minimum_added_physical_damage_to_grant",48],["phantasm_maximum_added_physical_damage_to_grant",74]],
     "description":"Summons a Phantasm minion, which uses a piercing projectile spell that deals physical damage.",
     "fromItem":true,
     "hidden":true,
     "levels":{
-      "20":{
-        "levelRequirement":70,
+      "25":{
+        "levelRequirement":80,
         "manaMultiplier":20
       }
     },
@@ -7710,7 +7760,7 @@
     },
     "castTime":1,
     "color":4,
-    "constantStats":[["trigger_on_skill_use_%_if_you_have_a_void_arrow",100],["skill_physical_damage_%_to_convert_to_cold",50],["active_skill_area_damage_+%_final",25]],
+    "constantStats":[["trigger_on_skill_use_%_if_you_have_a_void_arrow",100],["skill_physical_damage_%_to_convert_to_cold",50],["active_skill_area_damage_+%_final",100]],
     "description":"Fires an arrow which decelerates to the target location, the arrow will then become unstable and explode dealing weapon damage in an area, converting half of the physical damage to cold damage.",
     "fromItem":true,
     "hidden":true,

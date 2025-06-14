@@ -991,6 +991,27 @@
     },
     "variantId":"BladefallAltY"
   },
+  "Metadata/Items/Gems/SkillGemBladefallAltZ":{
+    "baseTypeName":"Bladefall of Trarthus",
+    "gameId":"Metadata/Items/Gems/SkillGemBladefall",
+    "grantedEffectId":"BladefallAltZ",
+    "name":"Bladefall of Trarthus",
+    "naturalMaxLevel":20,
+    "reqDex":100,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Spell, AoE, Physical, Arcane, Duration",
+    "tags":{
+      "arcane":true,
+      "area":true,
+      "dexterity":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "physical":true,
+      "spell":true
+    },
+    "variantId":"BladefallAltZ"
+  },
   "Metadata/Items/Gems/SkillGemBladestorm":{
     "baseTypeName":"Bladestorm",
     "gameId":"Metadata/Items/Gems/SkillGemBladestorm",
@@ -1051,6 +1072,28 @@
       "projectile":true
     },
     "variantId":"BlastRain"
+  },
+  "Metadata/Items/Gems/SkillGemBlastRainAltX":{
+    "baseTypeName":"Blast Rain of Trarthus",
+    "gameId":"Metadata/Items/Gems/SkillGemBlastRain",
+    "grantedEffectId":"BlastRainAltX",
+    "name":"Blast Rain of Trarthus",
+    "naturalMaxLevel":20,
+    "reqDex":100,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Fire, Attack, AoE, Projectile, Duration, Bow",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "bow":true,
+      "dexterity":true,
+      "duration":true,
+      "fire":true,
+      "grants_active_skill":true,
+      "projectile":true
+    },
+    "variantId":"BlastRainAltX"
   },
   "Metadata/Items/Gems/SkillGemBlazingSalvo":{
     "baseTypeName":"Blazing Salvo",
@@ -1508,6 +1551,25 @@
       "strength":true
     },
     "variantId":"ChainHook"
+  },
+  "Metadata/Items/Gems/SkillGemChainHookAltY":{
+    "baseTypeName":"Chain Hook of Trarthus",
+    "gameId":"Metadata/Items/Gems/SkillGemChainHook",
+    "grantedEffectId":"ChainHookAltY",
+    "name":"Chain Hook of Trarthus",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":100,
+    "tagString":"Attack, AoE, Melee",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "grants_active_skill":true,
+      "melee":true,
+      "strength":true
+    },
+    "variantId":"ChainHookAltY"
   },
   "Metadata/Items/Gems/SkillGemChargedDash":{
     "baseTypeName":"Charged Dash",
@@ -2060,6 +2122,26 @@
       "spell":true
     },
     "variantId":"DarkPact"
+  },
+  "Metadata/Items/Gems/SkillGemDarkPactAltX":{
+    "baseTypeName":"Dark Pact of Trarthus",
+    "gameId":"Metadata/Items/Gems/SkillGemDarkPact",
+    "grantedEffectId":"DarkPactAltX",
+    "name":"Dark Pact of Trarthus",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Spell, AoE, Chaos, Nova",
+    "tags":{
+      "area":true,
+      "chaos":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "nova":true,
+      "spell":true
+    },
+    "variantId":"DarkPactAltX"
   },
   "Metadata/Items/Gems/SkillGemDash":{
     "baseTypeName":"Dash",
@@ -4368,6 +4450,25 @@
       "strike":true
     },
     "variantId":"HeavyStrike"
+  },
+  "Metadata/Items/Gems/SkillGemHeavyStrikeAltY":{
+    "baseTypeName":"Heavy Strike of Trarthus",
+    "gameId":"Metadata/Items/Gems/SkillGemHeavyStrike",
+    "grantedEffectId":"HeavyStrikeAltY",
+    "name":"Heavy Strike of Trarthus",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":100,
+    "tagString":"Attack, Melee, Strike",
+    "tags":{
+      "attack":true,
+      "grants_active_skill":true,
+      "melee":true,
+      "strength":true,
+      "strike":true
+    },
+    "variantId":"HeavyStrikeAltY"
   },
   "Metadata/Items/Gems/SkillGemHeraldOfAgony":{
     "baseTypeName":"Herald of Agony",
@@ -7181,6 +7282,26 @@
     },
     "variantId":"SiegeBallistaAltX"
   },
+  "Metadata/Items/Gems/SkillGemSiegeBallistaAltY":{
+    "baseTypeName":"Siege Ballista of Trarthus",
+    "gameId":"Metadata/Items/Gems/SkillGemSiegeBallista",
+    "grantedEffectId":"SiegeBallistaAltY",
+    "name":"Siege Ballista of Trarthus",
+    "naturalMaxLevel":20,
+    "reqDex":100,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Attack, Projectile, Totem, Bow",
+    "tags":{
+      "attack":true,
+      "bow":true,
+      "dexterity":true,
+      "grants_active_skill":true,
+      "projectile":true,
+      "totem":true
+    },
+    "variantId":"SiegeBallistaAltY"
+  },
   "Metadata/Items/Gems/SkillGemSigilOfPower":{
     "baseTypeName":"Sigil of Power",
     "gameId":"Metadata/Items/Gems/SkillGemSigilOfPower",
@@ -7490,6 +7611,25 @@
     },
     "variantId":"SpectralHelix"
   },
+  "Metadata/Items/Gems/SkillGemSpectralHelixAltY":{
+    "baseTypeName":"Spectral Helix of Trarthus",
+    "gameId":"Metadata/Items/Gems/SkillGemSpectralHelix",
+    "grantedEffectId":"SpectralHelixAltY",
+    "name":"Spectral Helix of Trarthus",
+    "naturalMaxLevel":20,
+    "reqDex":60,
+    "reqInt":0,
+    "reqStr":40,
+    "tagString":"Trap, Attack, Projectile",
+    "tags":{
+      "attack":true,
+      "dexterity":true,
+      "grants_active_skill":true,
+      "projectile":true,
+      "trap":true
+    },
+    "variantId":"SpectralHelixAltY"
+  },
   "Metadata/Items/Gems/SkillGemSpectralShieldThrow":{
     "baseTypeName":"Spectral Shield Throw",
     "gameId":"Metadata/Items/Gems/SkillGemThrownShieldProjectile",
@@ -7528,6 +7668,25 @@
     },
     "variantId":"SpectralShieldThrowAltX"
   },
+  "Metadata/Items/Gems/SkillGemSpectralShieldThrowAltY":{
+    "baseTypeName":"Spectral Shield Throw of Trarthus",
+    "gameId":"Metadata/Items/Gems/SkillGemThrownShieldProjectile",
+    "grantedEffectId":"SpectralShieldThrowAltY",
+    "name":"Spectral Shield Throw of Trarthus",
+    "naturalMaxLevel":20,
+    "reqDex":60,
+    "reqInt":0,
+    "reqStr":40,
+    "tagString":"Attack, Projectile, Physical",
+    "tags":{
+      "attack":true,
+      "dexterity":true,
+      "grants_active_skill":true,
+      "physical":true,
+      "projectile":true
+    },
+    "variantId":"SpectralShieldThrowAltY"
+  },
   "Metadata/Items/Gems/SkillGemSpectralThrow":{
     "baseTypeName":"Spectral Throw",
     "gameId":"Metadata/Items/Gems/SkillGemThrownWeapon",
@@ -7563,6 +7722,25 @@
       "projectile":true
     },
     "variantId":"SpectralThrowAltX"
+  },
+  "Metadata/Items/Gems/SkillGemSpectralThrowAltY":{
+    "baseTypeName":"Spectral Throw of Trarthus",
+    "gameId":"Metadata/Items/Gems/SkillGemThrownWeapon",
+    "grantedEffectId":"SpectralThrowAltY",
+    "name":"Spectral Throw of Trarthus",
+    "naturalMaxLevel":20,
+    "reqDex":60,
+    "reqInt":0,
+    "reqStr":40,
+    "tagString":"Trap, Attack, Projectile",
+    "tags":{
+      "attack":true,
+      "dexterity":true,
+      "grants_active_skill":true,
+      "projectile":true,
+      "trap":true
+    },
+    "variantId":"SpectralThrowAltY"
   },
   "Metadata/Items/Gems/SkillGemSpellslinger":{
     "baseTypeName":"Spellslinger",
@@ -7838,6 +8016,26 @@
       "spell":true
     },
     "variantId":"StormCall"
+  },
+  "Metadata/Items/Gems/SkillGemStormCallAltX":{
+    "baseTypeName":"Storm Call of Trarthus",
+    "gameId":"Metadata/Items/Gems/SkillGemStormCall",
+    "grantedEffectId":"StormCallAltX",
+    "name":"Storm Call of Trarthus",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Spell, AoE, Duration, Physical",
+    "tags":{
+      "area":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "physical":true,
+      "spell":true
+    },
+    "variantId":"StormCallAltX"
   },
   "Metadata/Items/Gems/SkillGemStormRain":{
     "baseTypeName":"Storm Rain",
@@ -8518,6 +8716,26 @@
       "strength":true
     },
     "variantId":"SunderAltX"
+  },
+  "Metadata/Items/Gems/SkillGemSunderAltY":{
+    "baseTypeName":"Sunder of Trarthus",
+    "gameId":"Metadata/Items/Gems/SkillGemSunder",
+    "grantedEffectId":"SunderAltY",
+    "name":"Sunder of Trarthus",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":100,
+    "tagString":"Attack, AoE, Slam, Melee",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "grants_active_skill":true,
+      "melee":true,
+      "slam":true,
+      "strength":true
+    },
+    "variantId":"SunderAltY"
   },
   "Metadata/Items/Gems/SkillGemSupportAddedChaosDamage":{
     "gameId":"Metadata/Items/Gems/SupportGemAddedChaosDamage",
@@ -10455,6 +10673,23 @@
       "totem":true
     },
     "variantId":"SupportFocusedBallista"
+  },
+  "Metadata/Items/Gems/SkillGemSupportFocusedChannelling":{
+    "gameId":"Metadata/Items/Gems/SupportGemFocusedChannelling",
+    "grantedEffectId":"SupportFocusedChannelling",
+    "name":"Focused Channelling",
+    "naturalMaxLevel":20,
+    "reqDex":40,
+    "reqInt":60,
+    "reqStr":0,
+    "tagString":"Channelling, Spell, Support",
+    "tags":{
+      "channelling":true,
+      "intelligence":true,
+      "spell":true,
+      "support":true
+    },
+    "variantId":"SupportFocusedChannelling"
   },
   "Metadata/Items/Gems/SkillGemSupportFork":{
     "gameId":"Metadata/Items/Gems/SupportGemFork",
@@ -14039,7 +14274,7 @@
     "reqDex":0,
     "reqInt":60,
     "reqStr":40,
-    "tagString":"Fire, Lightning, Spell, AoE, Duration, Physical",
+    "tagString":"Spell, AoE, Duration, Fire, Lightning, Physical",
     "tags":{
       "area":true,
       "duration":true,
@@ -14051,6 +14286,28 @@
       "spell":true
     },
     "variantId":"WaveOfConviction"
+  },
+  "Metadata/Items/Gems/SkillGemWaveOfConvictionAltY":{
+    "baseTypeName":"Wave of Conviction of Trarthus",
+    "gameId":"Metadata/Items/Gems/SkillGemPurge",
+    "grantedEffectId":"WaveOfConvictionAltY",
+    "name":"Wave of Conviction of Trarthus",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":60,
+    "reqStr":40,
+    "tagString":"Spell, AoE, Duration, Physical, Fire, Nova",
+    "tags":{
+      "area":true,
+      "duration":true,
+      "fire":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "nova":true,
+      "physical":true,
+      "spell":true
+    },
+    "variantId":"WaveOfConvictionAltY"
   },
   "Metadata/Items/Gems/SkillGemWhirlingBlades":{
     "baseTypeName":"Whirling Blades",

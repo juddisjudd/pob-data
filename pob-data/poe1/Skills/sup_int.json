@@ -1953,329 +1953,249 @@
   "SupportArcaneSurge":{
     "addSkillTypes":[12],
     "color":3,
-    "constantStats":[["support_arcane_surge_base_duration_ms",4000]],
+    "constantStats":[["support_arcane_surge_base_duration_ms",4000],["support_arcane_surge_cast_speed_+%",20],["support_arcane_surge_mana_regeneration_rate_+%",30]],
     "description":"Each supported spell will track how much mana you spend on it, granting a buff when the total mana spent reaches a threshold. Cannot support skills used by totems, traps, mines or skills with a reservation.",
     "excludeSkillTypes":[36,40,30,15,16,85,84],
     "levels":[{
         "levelRequirement":1,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":10,
-        "2":30,
-        "3":15,
-        "4":10
+        "statInterpolation":[1,1],
+        "1":15,
+        "2":14
       },{
         "levelRequirement":2,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":11,
-        "2":31,
-        "3":16,
-        "4":10
+        "statInterpolation":[1,1],
+        "1":16,
+        "2":14
       },{
         "levelRequirement":4,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":11,
-        "2":33,
-        "3":17,
-        "4":11
+        "statInterpolation":[1,1],
+        "1":17,
+        "2":15
       },{
         "levelRequirement":7,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":12,
-        "2":34,
-        "3":19,
-        "4":12
+        "statInterpolation":[1,1],
+        "1":19,
+        "2":17
       },{
         "levelRequirement":11,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":12,
-        "2":36,
-        "3":22,
-        "4":13
+        "statInterpolation":[1,1],
+        "1":22,
+        "2":18
       },{
         "levelRequirement":16,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":13,
-        "2":37,
-        "3":26,
-        "4":13
+        "statInterpolation":[1,1],
+        "1":26,
+        "2":18
       },{
         "levelRequirement":20,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":13,
-        "2":39,
-        "3":32,
-        "4":14
+        "statInterpolation":[1,1],
+        "1":32,
+        "2":20
       },{
         "levelRequirement":24,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":14,
-        "2":40,
-        "3":41,
-        "4":15
+        "statInterpolation":[1,1],
+        "1":41,
+        "2":21
       },{
         "levelRequirement":28,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":14,
-        "2":42,
-        "3":51,
-        "4":16
+        "statInterpolation":[1,1],
+        "1":51,
+        "2":22
       },{
         "levelRequirement":32,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":15,
-        "2":43,
-        "3":64,
-        "4":16
+        "statInterpolation":[1,1],
+        "1":64,
+        "2":22
       },{
         "levelRequirement":36,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":15,
-        "2":45,
-        "3":80,
-        "4":17
+        "statInterpolation":[1,1],
+        "1":80,
+        "2":24
       },{
         "levelRequirement":40,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":16,
-        "2":46,
-        "3":99,
-        "4":18
+        "statInterpolation":[1,1],
+        "1":99,
+        "2":25
       },{
         "levelRequirement":44,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":16,
-        "2":48,
-        "3":121,
-        "4":19
+        "statInterpolation":[1,1],
+        "1":121,
+        "2":27
       },{
         "levelRequirement":48,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":17,
-        "2":49,
-        "3":148,
-        "4":19
+        "statInterpolation":[1,1],
+        "1":148,
+        "2":27
       },{
         "levelRequirement":52,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":17,
-        "2":51,
-        "3":178,
-        "4":20
+        "statInterpolation":[1,1],
+        "1":178,
+        "2":28
       },{
         "levelRequirement":56,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":18,
-        "2":52,
-        "3":213,
-        "4":21
+        "statInterpolation":[1,1],
+        "1":213,
+        "2":29
       },{
         "levelRequirement":60,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":18,
-        "2":54,
-        "3":252,
-        "4":22
+        "statInterpolation":[1,1],
+        "1":252,
+        "2":31
       },{
         "levelRequirement":64,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":19,
-        "2":55,
-        "3":296,
-        "4":23
+        "statInterpolation":[1,1],
+        "1":296,
+        "2":32
       },{
         "levelRequirement":67,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":19,
-        "2":57,
-        "3":345,
-        "4":24
+        "statInterpolation":[1,1],
+        "1":345,
+        "2":34
       },{
         "levelRequirement":70,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":20,
-        "2":58,
-        "3":400,
-        "4":25
+        "statInterpolation":[1,1],
+        "1":400,
+        "2":35
       },{
         "levelRequirement":72,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":20,
-        "2":60,
-        "3":461,
-        "4":25
+        "statInterpolation":[1,1],
+        "1":461,
+        "2":35
       },{
         "levelRequirement":74,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":21,
-        "2":61,
-        "3":527,
-        "4":26
+        "statInterpolation":[1,1],
+        "1":527,
+        "2":36
       },{
         "levelRequirement":76,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":21,
-        "2":63,
-        "3":600,
-        "4":27
+        "statInterpolation":[1,1],
+        "1":600,
+        "2":38
       },{
         "levelRequirement":78,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":22,
-        "2":64,
-        "3":680,
-        "4":28
+        "statInterpolation":[1,1],
+        "1":680,
+        "2":39
       },{
         "levelRequirement":80,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":22,
-        "2":66,
-        "3":766,
-        "4":28
+        "statInterpolation":[1,1],
+        "1":766,
+        "2":39
       },{
         "levelRequirement":82,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":23,
-        "2":67,
-        "3":860,
-        "4":29
+        "statInterpolation":[1,1],
+        "1":860,
+        "2":41
       },{
         "levelRequirement":84,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":23,
-        "2":69,
-        "3":961,
-        "4":30
+        "statInterpolation":[1,1],
+        "1":961,
+        "2":42
       },{
         "levelRequirement":86,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":24,
-        "2":70,
-        "3":1070,
-        "4":31
+        "statInterpolation":[1,1],
+        "1":1070,
+        "2":43
       },{
         "levelRequirement":88,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":24,
-        "2":72,
-        "3":1187,
-        "4":31
+        "statInterpolation":[1,1],
+        "1":1187,
+        "2":43
       },{
         "levelRequirement":90,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":25,
-        "2":73,
-        "3":1312,
-        "4":32
+        "statInterpolation":[1,1],
+        "1":1312,
+        "2":45
       },{
         "levelRequirement":91,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":25,
-        "2":74,
-        "3":1379,
-        "4":33
+        "statInterpolation":[1,1],
+        "1":1379,
+        "2":46
       },{
         "levelRequirement":92,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":25,
-        "2":75,
-        "3":1446,
-        "4":34
+        "statInterpolation":[1,1],
+        "1":1446,
+        "2":48
       },{
         "levelRequirement":93,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":25,
-        "2":75,
-        "3":1518,
-        "4":35
+        "statInterpolation":[1,1],
+        "1":1518,
+        "2":49
       },{
         "levelRequirement":94,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":26,
-        "2":76,
-        "3":1590,
-        "4":35
+        "statInterpolation":[1,1],
+        "1":1590,
+        "2":49
       },{
         "levelRequirement":95,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":26,
-        "2":77,
-        "3":1667,
-        "4":36
+        "statInterpolation":[1,1],
+        "1":1667,
+        "2":50
       },{
         "levelRequirement":96,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":26,
-        "2":78,
-        "3":1743,
-        "4":37
+        "statInterpolation":[1,1],
+        "1":1743,
+        "2":52
       },{
         "levelRequirement":97,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":26,
-        "2":78,
-        "3":1825,
-        "4":38
+        "statInterpolation":[1,1],
+        "1":1825,
+        "2":53
       },{
         "levelRequirement":98,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":27,
-        "2":79,
-        "3":1906,
-        "4":38
+        "statInterpolation":[1,1],
+        "1":1906,
+        "2":53
       },{
         "levelRequirement":99,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":27,
-        "2":80,
-        "3":1992,
-        "4":39
+        "statInterpolation":[1,1],
+        "1":1992,
+        "2":55
       },{
         "levelRequirement":100,
         "manaMultiplier":30,
-        "statInterpolation":[1,1,1,1],
-        "1":27,
-        "2":81,
-        "3":2078,
-        "4":40
+        "statInterpolation":[1,1],
+        "1":2078,
+        "2":56
       }],
     "name":"Arcane Surge",
     "qualityStats":{
@@ -2319,7 +2239,7 @@
           }
         }]
     },
-    "stats":["support_arcane_surge_cast_speed_+%","support_arcane_surge_mana_regeneration_rate_+%","support_arcane_surge_gain_buff_on_mana_use_threshold","support_arcane_surge_spell_damage_+%_final_while_you_have_arcane_surge"],
+    "stats":["support_arcane_surge_gain_buff_on_mana_use_threshold","support_arcane_surge_spell_damage_+%_final_while_you_have_arcane_surge"],
     "support":true
   },
   "SupportArchmage":{
@@ -2340,7 +2260,7 @@
       },{
         "levelRequirement":36,
         "statInterpolation":[1],
-        "1":11
+        "1":10
       },{
         "levelRequirement":38,
         "statInterpolation":[1],
@@ -2348,147 +2268,147 @@
       },{
         "levelRequirement":40,
         "statInterpolation":[1],
-        "1":12
+        "1":11
       },{
         "levelRequirement":42,
         "statInterpolation":[1],
-        "1":12
+        "1":11
       },{
         "levelRequirement":44,
         "statInterpolation":[1],
-        "1":13
+        "1":12
       },{
         "levelRequirement":46,
         "statInterpolation":[1],
-        "1":13
+        "1":12
       },{
         "levelRequirement":48,
         "statInterpolation":[1],
-        "1":14
+        "1":12
       },{
         "levelRequirement":50,
         "statInterpolation":[1],
-        "1":14
+        "1":13
       },{
         "levelRequirement":52,
         "statInterpolation":[1],
-        "1":15
+        "1":13
       },{
         "levelRequirement":54,
         "statInterpolation":[1],
-        "1":15
+        "1":13
       },{
         "levelRequirement":56,
         "statInterpolation":[1],
-        "1":16
+        "1":14
       },{
         "levelRequirement":58,
         "statInterpolation":[1],
-        "1":16
+        "1":14
       },{
         "levelRequirement":60,
         "statInterpolation":[1],
-        "1":17
+        "1":14
       },{
         "levelRequirement":62,
         "statInterpolation":[1],
-        "1":17
+        "1":15
       },{
         "levelRequirement":64,
         "statInterpolation":[1],
-        "1":18
+        "1":15
       },{
         "levelRequirement":66,
         "statInterpolation":[1],
-        "1":18
+        "1":15
       },{
         "levelRequirement":68,
         "statInterpolation":[1],
-        "1":19
+        "1":16
       },{
         "levelRequirement":70,
         "statInterpolation":[1],
-        "1":19
+        "1":16
       },{
         "levelRequirement":72,
         "statInterpolation":[1],
-        "1":20
+        "1":16
       },{
         "levelRequirement":74,
         "statInterpolation":[1],
-        "1":20
+        "1":17
       },{
         "levelRequirement":76,
         "statInterpolation":[1],
-        "1":21
+        "1":17
       },{
         "levelRequirement":78,
         "statInterpolation":[1],
-        "1":21
+        "1":17
       },{
         "levelRequirement":80,
         "statInterpolation":[1],
-        "1":22
+        "1":18
       },{
         "levelRequirement":82,
         "statInterpolation":[1],
-        "1":22
+        "1":18
       },{
         "levelRequirement":84,
         "statInterpolation":[1],
-        "1":23
+        "1":18
       },{
         "levelRequirement":86,
         "statInterpolation":[1],
-        "1":23
+        "1":19
       },{
         "levelRequirement":88,
         "statInterpolation":[1],
-        "1":24
+        "1":19
       },{
         "levelRequirement":90,
         "statInterpolation":[1],
-        "1":24
+        "1":19
       },{
         "levelRequirement":91,
         "statInterpolation":[1],
-        "1":24
+        "1":19
       },{
         "levelRequirement":92,
         "statInterpolation":[1],
-        "1":25
+        "1":20
       },{
         "levelRequirement":93,
         "statInterpolation":[1],
-        "1":25
+        "1":20
       },{
         "levelRequirement":94,
         "statInterpolation":[1],
-        "1":25
+        "1":20
       },{
         "levelRequirement":95,
         "statInterpolation":[1],
-        "1":25
+        "1":20
       },{
         "levelRequirement":96,
         "statInterpolation":[1],
-        "1":26
+        "1":20
       },{
         "levelRequirement":97,
         "statInterpolation":[1],
-        "1":26
+        "1":20
       },{
         "levelRequirement":98,
         "statInterpolation":[1],
-        "1":26
+        "1":21
       },{
         "levelRequirement":99,
         "statInterpolation":[1],
-        "1":26
+        "1":21
       },{
         "levelRequirement":100,
         "statInterpolation":[1],
-        "1":27
+        "1":21
       }],
     "name":"Archmage",
     "qualityStats":{
@@ -3040,7 +2960,7 @@
     "addSkillTypes":[],
     "color":3,
     "description":"Must support both a channelling skill and a non-channelling spell skill to work. The channelling skill will trigger a spell periodically while channelling. Cannot support skills used by totems, traps, or mines. Vaal skills and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[30],
+    "excludeSkillTypes":[30,134],
     "levels":[{
         "PvPDamageMultiplier":-80,
         "levelRequirement":72,
@@ -3587,7 +3507,7 @@
     "color":3,
     "constantStats":[["apply_linked_curses_on_hit_%",100]],
     "description":"Must support both a skill that hits enemies, and a hex curse skill to work. The hex will be applied when enemies are hit by the other skill. Cannot support totems, traps, or mines. Minions cannot apply hexes this way.",
-    "excludeSkillTypes":[36,40,30],
+    "excludeSkillTypes":[36,40,30,134],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":72,
@@ -4276,107 +4196,107 @@
         "value":true
       }],
     "color":3,
-    "constantStats":[["base_spell_repeat_count",1],["support_echo_damage_+%_final",-10],["spell_echo_plus_chance_double_damage_%_final",20]],
+    "constantStats":[["base_spell_repeat_count",1],["support_echo_damage_+%_final",0],["spell_echo_plus_chance_double_damage_%_final",20]],
     "description":"Supports spell skills, making them repeat when cast. Cannot support Vaal skills, totem skills, channelling skills, triggered skills, instant skills, retaliation skills, blink skills, or skills with a reservation.",
     "excludeSkillTypes":[30,36,40,41,15,42,74,105,88,85,84],
     "levels":[{
         "levelRequirement":72,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":55
       },{
         "levelRequirement":74,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":56
       },{
         "levelRequirement":76,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":57
       },{
         "levelRequirement":78,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":58
       },{
         "levelRequirement":80,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":59
       },{
         "levelRequirement":82,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":60
       },{
         "levelRequirement":84,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":60
       },{
         "levelRequirement":86,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":61
       },{
         "levelRequirement":88,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":61
       },{
         "levelRequirement":90,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":62
       },{
         "levelRequirement":91,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":62
       },{
         "levelRequirement":92,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":63
       },{
         "levelRequirement":93,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":63
       },{
         "levelRequirement":94,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":64
       },{
         "levelRequirement":95,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":64
       },{
         "levelRequirement":96,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":65
       },{
         "levelRequirement":97,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":65
       },{
         "levelRequirement":98,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":66
       },{
         "levelRequirement":99,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":66
       },{
         "levelRequirement":100,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":67
       }],
@@ -4598,163 +4518,163 @@
     "levels":[{
         "PvPDamageMultiplier":-40,
         "levelRequirement":72,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":3,
         "2":700,
-        "3":-40
+        "3":-35
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":74,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":3,
         "2":690,
-        "3":-40
+        "3":-35
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":76,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":3,
         "2":680,
-        "3":-39
+        "3":-34
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":78,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":3,
         "2":670,
-        "3":-39
+        "3":-34
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":80,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":4,
         "2":660,
-        "3":-38
+        "3":-33
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":82,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":4,
         "2":650,
-        "3":-38
+        "3":-33
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":84,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":4,
         "2":645,
-        "3":-37
+        "3":-32
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":86,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":4,
         "2":640,
-        "3":-37
+        "3":-32
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":88,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":4,
         "2":635,
-        "3":-37
+        "3":-32
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":90,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":4,
         "2":630,
-        "3":-37
+        "3":-32
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":91,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":4,
         "2":625,
-        "3":-36
+        "3":-31
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":92,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":4,
         "2":620,
-        "3":-36
+        "3":-31
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":93,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":4,
         "2":615,
-        "3":-36
+        "3":-31
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":94,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":4,
         "2":610,
-        "3":-36
+        "3":-31
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":95,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":4,
         "2":605,
-        "3":-35
+        "3":-30
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":96,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":4,
         "2":600,
-        "3":-35
+        "3":-30
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":97,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":4,
         "2":595,
-        "3":-35
+        "3":-30
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":98,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":4,
         "2":590,
-        "3":-35
+        "3":-30
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":99,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":4,
         "2":585,
-        "3":-34
+        "3":-29
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":100,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1,1],
         "1":4,
         "2":580,
-        "3":-34
+        "3":-29
       }],
     "name":"Awakened Unleash",
     "plusVersionOf":"SupportUnleash",
@@ -5615,7 +5535,7 @@
     "addSkillTypes":[41,101],
     "color":3,
     "description":"Each supported spell skill will have a chance to be triggered when you are stunned. Cannot support skills used by totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[36,40,30,43,60],
+    "excludeSkillTypes":[36,40,30,43,60,134],
     "isTrigger":true,
     "levels":[{
         "PvPDamageMultiplier":-80,
@@ -5911,7 +5831,7 @@
     "addSkillTypes":[],
     "color":3,
     "description":"Must support both a channelling skill and a non-channelling spell skill to work. The channelling skill will trigger a spell periodically while channelling. Cannot support skills used by totems, traps, or mines. Vaal skills and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[30],
+    "excludeSkillTypes":[30,134],
     "levels":[{
         "PvPDamageMultiplier":-80,
         "levelRequirement":38,
@@ -6186,7 +6106,7 @@
     "color":3,
     "constantStats":[["support_cast_while_channelling_triggered_skill_damage_+%_final",-30]],
     "description":"Must support both a channelling skill and a non-channelling spell skill to work. The channelling skill will trigger a spell periodically while channelling. Cannot support skills used by totems, traps, or mines. Vaal skills and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[30,60],
+    "excludeSkillTypes":[30,60,134],
     "isTrigger":true,
     "levels":[{
         "PvPDamageMultiplier":-80,
@@ -6375,7 +6295,7 @@
     "color":3,
     "constantStats":[["support_cast_while_channelling_triggered_skill_damage_+%_final",-30]],
     "description":"Must support both a channelling skill and a non-channelling spell skill to work. The channelling skill will trigger a spell periodically while channelling. Cannot support skills used by totems, traps, or mines. Vaal skills and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[30,60],
+    "excludeSkillTypes":[30,60,134],
     "isTrigger":true,
     "levels":[{
         "PvPDamageMultiplier":-80,
@@ -7433,7 +7353,7 @@
     "color":3,
     "constantStats":[["support_hextouch_curse_effect_+%_final",-35]],
     "description":"Must support both a skill that hits enemies, and a hex curse skill to work. The hex will be applied when enemies are hit by the other skill. Cannot support totems, traps, or mines. Minions cannot apply hexes this way.",
-    "excludeSkillTypes":[36,40,30,63,60],
+    "excludeSkillTypes":[36,40,30,63,60,134],
     "ignoreMinionTypes":true,
     "isTrigger":true,
     "levels":[{
@@ -7635,7 +7555,7 @@
     "color":3,
     "constantStats":[["support_hextouch_curse_effect_+%_final",-35]],
     "description":"Must support both a skill that hits enemies, and a hex curse skill to work. The hex will be applied when enemies are hit by the other skill. Cannot support totems, traps, or mines. Minions cannot apply hexes this way.",
-    "excludeSkillTypes":[36,40,30,63,60],
+    "excludeSkillTypes":[36,40,30,63,60,134],
     "ignoreMinionTypes":true,
     "isTrigger":true,
     "levels":[{
@@ -7797,7 +7717,7 @@
     "addSkillTypes":[127],
     "color":3,
     "description":"Supports non-aura hex curse skills.",
-    "excludeSkillTypes":[43],
+    "excludeSkillTypes":[43,137],
     "levels":[{
         "levelRequirement":31,
         "manaMultiplier":40,
@@ -8010,11 +7930,11 @@
   },
   "SupportDecay":{
     "addSkillTypes":[],
-    "baseEffectiveness":2.0355999469757,
+    "baseEffectiveness":1.6299999952316,
     "color":3,
     "description":"Supports any skill that hits enemies.",
     "excludeSkillTypes":[],
-    "incrementalEffectiveness":0.042500000447035,
+    "incrementalEffectiveness":0.048500001430511,
     "levels":[{
         "levelRequirement":38,
         "manaMultiplier":20,
@@ -10409,6 +10329,209 @@
     "stats":["minion_grant_puppet_master_buff_to_parent_on_hit_%","puppet_master_base_duration_ms","minion_larger_aggro_radius"],
     "support":true
   },
+  "SupportFocusedChannelling":{
+    "addSkillTypes":[],
+    "color":3,
+    "constantStats":[["support_focus_channel_cost_+%_final_per_second_channelling_up_to_100%",20]],
+    "description":"Supports channelling spells you cast yourself, significantly empowering their damage the longer they are channelled for, while also raising their cost. Cannot modify the skills of minions.",
+    "excludeSkillTypes":[30,36,40],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":31,
+        "statInterpolation":[1],
+        "1":15
+      },{
+        "levelRequirement":34,
+        "statInterpolation":[1],
+        "1":15
+      },{
+        "levelRequirement":36,
+        "statInterpolation":[1],
+        "1":16
+      },{
+        "levelRequirement":38,
+        "statInterpolation":[1],
+        "1":16
+      },{
+        "levelRequirement":40,
+        "statInterpolation":[1],
+        "1":17
+      },{
+        "levelRequirement":42,
+        "statInterpolation":[1],
+        "1":17
+      },{
+        "levelRequirement":44,
+        "statInterpolation":[1],
+        "1":18
+      },{
+        "levelRequirement":46,
+        "statInterpolation":[1],
+        "1":18
+      },{
+        "levelRequirement":48,
+        "statInterpolation":[1],
+        "1":19
+      },{
+        "levelRequirement":50,
+        "statInterpolation":[1],
+        "1":19
+      },{
+        "levelRequirement":52,
+        "statInterpolation":[1],
+        "1":20
+      },{
+        "levelRequirement":54,
+        "statInterpolation":[1],
+        "1":20
+      },{
+        "levelRequirement":56,
+        "statInterpolation":[1],
+        "1":21
+      },{
+        "levelRequirement":58,
+        "statInterpolation":[1],
+        "1":21
+      },{
+        "levelRequirement":60,
+        "statInterpolation":[1],
+        "1":22
+      },{
+        "levelRequirement":62,
+        "statInterpolation":[1],
+        "1":22
+      },{
+        "levelRequirement":64,
+        "statInterpolation":[1],
+        "1":23
+      },{
+        "levelRequirement":66,
+        "statInterpolation":[1],
+        "1":23
+      },{
+        "levelRequirement":68,
+        "statInterpolation":[1],
+        "1":24
+      },{
+        "levelRequirement":70,
+        "statInterpolation":[1],
+        "1":24
+      },{
+        "levelRequirement":72,
+        "statInterpolation":[1],
+        "1":25
+      },{
+        "levelRequirement":74,
+        "statInterpolation":[1],
+        "1":25
+      },{
+        "levelRequirement":76,
+        "statInterpolation":[1],
+        "1":26
+      },{
+        "levelRequirement":78,
+        "statInterpolation":[1],
+        "1":26
+      },{
+        "levelRequirement":80,
+        "statInterpolation":[1],
+        "1":27
+      },{
+        "levelRequirement":82,
+        "statInterpolation":[1],
+        "1":27
+      },{
+        "levelRequirement":84,
+        "statInterpolation":[1],
+        "1":28
+      },{
+        "levelRequirement":86,
+        "statInterpolation":[1],
+        "1":28
+      },{
+        "levelRequirement":88,
+        "statInterpolation":[1],
+        "1":29
+      },{
+        "levelRequirement":90,
+        "statInterpolation":[1],
+        "1":29
+      },{
+        "levelRequirement":91,
+        "statInterpolation":[1],
+        "1":30
+      },{
+        "levelRequirement":92,
+        "statInterpolation":[1],
+        "1":30
+      },{
+        "levelRequirement":93,
+        "statInterpolation":[1],
+        "1":31
+      },{
+        "levelRequirement":94,
+        "statInterpolation":[1],
+        "1":31
+      },{
+        "levelRequirement":95,
+        "statInterpolation":[1],
+        "1":32
+      },{
+        "levelRequirement":96,
+        "statInterpolation":[1],
+        "1":32
+      },{
+        "levelRequirement":97,
+        "statInterpolation":[1],
+        "1":33
+      },{
+        "levelRequirement":98,
+        "statInterpolation":[1],
+        "1":33
+      },{
+        "levelRequirement":99,
+        "statInterpolation":[1],
+        "1":34
+      },{
+        "levelRequirement":100,
+        "statInterpolation":[1],
+        "1":34
+      }],
+    "name":"Focused Channelling",
+    "qualityStats":{
+      "Default":[["base_cast_speed_+%",0.5]]
+    },
+    "requireSkillTypes":[57,2,84],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "support_focus_channel_cost_+%_final_per_second_channelling_up_to_100%":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Cost",
+          "type":"MORE",
+          "1":{
+            "limit":100,
+            "limitTotal":true,
+            "type":"Multiplier",
+            "var":"ChannellingSeconds"
+          }
+        }],
+      "support_focus_channel_damage_+%_final_per_second_channelling_up_to_60%":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Damage",
+          "type":"MORE",
+          "1":{
+            "limit":60,
+            "limitTotal":true,
+            "type":"Multiplier",
+            "var":"ChannellingSeconds"
+          }
+        }]
+    },
+    "stats":["support_focus_channel_damage_+%_final_per_second_channelling_up_to_60%"],
+    "support":true
+  },
   "SupportFreshMeat":{
     "addSkillTypes":[5],
     "baseMods":[{
@@ -11176,7 +11299,7 @@
     "color":3,
     "constantStats":[["apply_linked_curses_on_hit_%",100]],
     "description":"Must support both a skill that hits enemies, and a hex curse skill to work. The hex will be applied when enemies are hit by the other skill. Cannot support totems, traps, or mines. Minions cannot apply hexes this way.",
-    "excludeSkillTypes":[36,40,30],
+    "excludeSkillTypes":[36,40,30,134],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":38,
@@ -12079,7 +12202,7 @@
     "addSkillTypes":[],
     "color":3,
     "description":"Supports hex curse skills, causing them to trigger Doom Blast when the hex ends. Cannot support curse skills which are triggered or applied as an aura.",
-    "excludeSkillTypes":[41,60,43],
+    "excludeSkillTypes":[41,60,43,134],
     "levels":[{
         "levelRequirement":31,
         "manaMultiplier":30
@@ -13176,7 +13299,7 @@
   "SupportInfusedChannelling":{
     "addSkillTypes":[],
     "color":3,
-    "constantStats":[["support_storm_barrier_damage_taken_when_hit_+%_final_while_channelling",-8]],
+    "constantStats":[["support_storm_barrier_damage_taken_when_hit_+%_final_while_channelling",-12]],
     "description":"Supports any channelling skill, protecting you from damage while you channel it. Cannot modify the skills of minions.",
     "excludeSkillTypes":[],
     "ignoreMinionTypes":true,
@@ -13782,243 +13905,243 @@
     "excludeSkillTypes":[36,40,30,57,74,15,63,41,60,42,88],
     "levels":[{
         "levelRequirement":31,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":10,
+        "1":12,
         "2":30
       },{
         "levelRequirement":34,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":10,
+        "1":12,
         "2":31
       },{
         "levelRequirement":36,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":10,
+        "1":12,
         "2":32
       },{
         "levelRequirement":38,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":10,
+        "1":12,
         "2":33
       },{
         "levelRequirement":40,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":11,
+        "1":13,
         "2":34
       },{
         "levelRequirement":42,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":11,
+        "1":13,
         "2":35
       },{
         "levelRequirement":44,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":11,
+        "1":13,
         "2":36
       },{
         "levelRequirement":46,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":11,
+        "1":13,
         "2":37
       },{
         "levelRequirement":48,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":12,
+        "1":14,
         "2":38
       },{
         "levelRequirement":50,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":12,
+        "1":14,
         "2":39
       },{
         "levelRequirement":52,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":12,
+        "1":14,
         "2":40
       },{
         "levelRequirement":54,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":12,
+        "1":14,
         "2":41
       },{
         "levelRequirement":56,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":13,
+        "1":15,
         "2":42
       },{
         "levelRequirement":58,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":13,
+        "1":15,
         "2":43
       },{
         "levelRequirement":60,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":13,
+        "1":15,
         "2":44
       },{
         "levelRequirement":62,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":13,
+        "1":15,
         "2":45
       },{
         "levelRequirement":64,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":14,
+        "1":16,
         "2":46
       },{
         "levelRequirement":66,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":14,
+        "1":16,
         "2":47
       },{
         "levelRequirement":68,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":14,
+        "1":16,
         "2":48
       },{
         "levelRequirement":70,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":14,
+        "1":16,
         "2":49
       },{
         "levelRequirement":72,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":15,
+        "1":17,
         "2":50
       },{
         "levelRequirement":74,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":15,
+        "1":17,
         "2":51
       },{
         "levelRequirement":76,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":15,
+        "1":17,
         "2":52
       },{
         "levelRequirement":78,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":15,
+        "1":17,
         "2":53
       },{
         "levelRequirement":80,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":16,
+        "1":18,
         "2":54
       },{
         "levelRequirement":82,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":16,
+        "1":18,
         "2":55
       },{
         "levelRequirement":84,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":16,
+        "1":18,
         "2":56
       },{
         "levelRequirement":86,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":16,
+        "1":18,
         "2":57
       },{
         "levelRequirement":88,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":17,
+        "1":19,
         "2":58
       },{
         "levelRequirement":90,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":17,
+        "1":19,
         "2":59
       },{
         "levelRequirement":91,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":17,
+        "1":19,
         "2":59
       },{
         "levelRequirement":92,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":17,
+        "1":19,
         "2":60
       },{
         "levelRequirement":93,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":17,
+        "1":19,
         "2":60
       },{
         "levelRequirement":94,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":17,
+        "1":19,
         "2":61
       },{
         "levelRequirement":95,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":17,
+        "1":19,
         "2":61
       },{
         "levelRequirement":96,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":18,
+        "1":20,
         "2":62
       },{
         "levelRequirement":97,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":18,
+        "1":20,
         "2":62
       },{
         "levelRequirement":98,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":18,
+        "1":20,
         "2":63
       },{
         "levelRequirement":99,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":18,
+        "1":20,
         "2":63
       },{
         "levelRequirement":100,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1,1],
-        "1":18,
+        "1":20,
         "2":64
       }],
     "name":"Intensify",
@@ -16269,204 +16392,204 @@
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":31,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-25
+        "1":-19
       },{
         "levelRequirement":34,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-25
+        "1":-19
       },{
         "levelRequirement":36,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-24
+        "1":-18
       },{
         "levelRequirement":38,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-24
+        "1":-18
       },{
         "levelRequirement":40,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-23
+        "1":-17
       },{
         "levelRequirement":42,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-23
+        "1":-17
       },{
         "levelRequirement":44,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-22
+        "1":-16
       },{
         "levelRequirement":46,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-22
+        "1":-16
       },{
         "levelRequirement":48,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-21
+        "1":-15
       },{
         "levelRequirement":50,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-21
+        "1":-15
       },{
         "levelRequirement":52,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-20
+        "1":-14
       },{
         "levelRequirement":54,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-20
+        "1":-14
       },{
         "levelRequirement":56,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-19
+        "1":-13
       },{
         "levelRequirement":58,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-19
+        "1":-13
       },{
         "levelRequirement":60,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-18
+        "1":-12
       },{
         "levelRequirement":62,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-18
+        "1":-12
       },{
         "levelRequirement":64,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-17
+        "1":-11
       },{
         "levelRequirement":66,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-17
+        "1":-11
       },{
         "levelRequirement":68,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-16
+        "1":-10
       },{
         "levelRequirement":70,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-16
+        "1":-10
       },{
         "levelRequirement":72,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-15
+        "1":-9
       },{
         "levelRequirement":74,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-15
+        "1":-9
       },{
         "levelRequirement":76,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-14
+        "1":-8
       },{
         "levelRequirement":78,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-14
+        "1":-8
       },{
         "levelRequirement":80,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-13
+        "1":-7
       },{
         "levelRequirement":82,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-13
+        "1":-7
       },{
         "levelRequirement":84,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-12
+        "1":-6
       },{
         "levelRequirement":86,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-12
+        "1":-6
       },{
         "levelRequirement":88,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-11
+        "1":-5
       },{
         "levelRequirement":90,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-11
+        "1":-5
       },{
         "levelRequirement":91,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-10
+        "1":-5
       },{
         "levelRequirement":92,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-10
+        "1":-4
       },{
         "levelRequirement":93,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-10
+        "1":-4
       },{
         "levelRequirement":94,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-10
+        "1":-4
       },{
         "levelRequirement":95,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-9
+        "1":-4
       },{
         "levelRequirement":96,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-9
+        "1":-3
       },{
         "levelRequirement":97,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-9
+        "1":-3
       },{
         "levelRequirement":98,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-9
+        "1":-3
       },{
         "levelRequirement":99,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-8
+        "1":-3
       },{
         "levelRequirement":100,
-        "manaMultiplier":40,
+        "manaMultiplier":30,
         "statInterpolation":[1],
-        "1":-8
+        "1":-2
       }],
     "name":"Pinpoint",
     "qualityStats":{
@@ -16497,6 +16620,15 @@
             "var":"Intensity"
           }
         }],
+      "minimum_number_of_projectiles_to_fire_is_1":{
+        "value":1,
+        "1":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"ProjectileCountMinimum",
+          "type":"BASE"
+        }
+      },
       "support_greater_projectile_intensity_projectile_damage_+%_final":[{
           "flags":1024,
           "keywordFlags":0,
@@ -16504,7 +16636,7 @@
           "type":"MORE"
         }]
     },
-    "stats":["support_greater_projectile_intensity_projectile_damage_+%_final","display_base_intensity_loss"],
+    "stats":["support_greater_projectile_intensity_projectile_damage_+%_final","display_base_intensity_loss","minimum_number_of_projectiles_to_fire_is_1"],
     "support":true
   },
   "SupportPowerChargeOnCritical":{
@@ -17029,7 +17161,7 @@
     "color":3,
     "constantStats":[["trigger_prismatic_burst_on_hit_%_chance",100]],
     "description":"Supports attacks, causing them to trigger the Prismatic Burst spell. Cannot support triggered attacks or attacks used by things other than you. Cannot modify the skills of minions.",
-    "excludeSkillTypes":[41,40,36],
+    "excludeSkillTypes":[41,40,36,134],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":1,
@@ -17168,7 +17300,7 @@
     "addSkillTypes":[],
     "color":3,
     "description":"Supports attack skills that can be used with Wands. Cannot support Vaal skills, minion skills, movement skills, or skills used by totems, traps, or mines.",
-    "excludeSkillTypes":[42,30,36,40,9],
+    "excludeSkillTypes":[42,30,36,40,9,134],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":18,
@@ -17395,209 +17527,209 @@
   "SupportSacrifice":{
     "addSkillTypes":[],
     "color":3,
-    "description":"Supports spell skills that hit enemies and have no reservation. Cannot support brand skills, orb skills, channelling skills, Vaal skills or skills used by traps or mines. Cannot modify the skills of minions.",
-    "excludeSkillTypes":[15,42,57,36,40,111,75],
+    "description":"Supports spell skills that hit enemies and have no reservation. Cannot support brand skills, orb skills, channelling skills, arcane skills, Vaal skills or skills used by traps or mines. Cannot modify the skills of minions.",
+    "excludeSkillTypes":[15,42,57,36,40,111,75,115],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":31,
         "statInterpolation":[1,1],
         "1":20,
-        "2":25
+        "2":35
       },{
         "levelRequirement":34,
         "statInterpolation":[1,1],
         "1":20,
-        "2":26
+        "2":36
       },{
         "levelRequirement":36,
         "statInterpolation":[1,1],
         "1":20,
-        "2":27
+        "2":37
       },{
         "levelRequirement":38,
         "statInterpolation":[1,1],
         "1":20,
-        "2":28
+        "2":38
       },{
         "levelRequirement":40,
         "statInterpolation":[1,1],
         "1":20,
-        "2":29
+        "2":39
       },{
         "levelRequirement":42,
         "statInterpolation":[1,1],
         "1":20,
-        "2":30
+        "2":40
       },{
         "levelRequirement":44,
         "statInterpolation":[1,1],
         "1":20,
-        "2":31
+        "2":41
       },{
         "levelRequirement":46,
         "statInterpolation":[1,1],
         "1":20,
-        "2":32
+        "2":42
       },{
         "levelRequirement":48,
         "statInterpolation":[1,1],
         "1":20,
-        "2":33
+        "2":43
       },{
         "levelRequirement":50,
         "statInterpolation":[1,1],
         "1":20,
-        "2":34
+        "2":44
       },{
         "levelRequirement":52,
         "statInterpolation":[1,1],
         "1":20,
-        "2":35
+        "2":45
       },{
         "levelRequirement":54,
         "statInterpolation":[1,1],
         "1":20,
-        "2":36
+        "2":46
       },{
         "levelRequirement":56,
         "statInterpolation":[1,1],
         "1":20,
-        "2":37
+        "2":47
       },{
         "levelRequirement":58,
         "statInterpolation":[1,1],
         "1":20,
-        "2":38
+        "2":48
       },{
         "levelRequirement":60,
         "statInterpolation":[1,1],
         "1":20,
-        "2":39
+        "2":49
       },{
         "levelRequirement":62,
         "statInterpolation":[1,1],
         "1":20,
-        "2":40
+        "2":50
       },{
         "levelRequirement":64,
         "statInterpolation":[1,1],
         "1":20,
-        "2":41
+        "2":51
       },{
         "levelRequirement":66,
         "statInterpolation":[1,1],
         "1":20,
-        "2":42
+        "2":52
       },{
         "levelRequirement":68,
         "statInterpolation":[1,1],
         "1":20,
-        "2":43
+        "2":53
       },{
         "levelRequirement":70,
         "statInterpolation":[1,1],
         "1":20,
-        "2":44
+        "2":54
       },{
         "levelRequirement":72,
         "statInterpolation":[1,1],
         "1":20,
-        "2":45
+        "2":55
       },{
         "levelRequirement":74,
         "statInterpolation":[1,1],
         "1":20,
-        "2":46
+        "2":56
       },{
         "levelRequirement":76,
         "statInterpolation":[1,1],
         "1":20,
-        "2":47
+        "2":57
       },{
         "levelRequirement":78,
         "statInterpolation":[1,1],
         "1":20,
-        "2":48
+        "2":58
       },{
         "levelRequirement":80,
         "statInterpolation":[1,1],
         "1":20,
-        "2":49
+        "2":59
       },{
         "levelRequirement":82,
         "statInterpolation":[1,1],
         "1":20,
-        "2":50
+        "2":60
       },{
         "levelRequirement":84,
         "statInterpolation":[1,1],
         "1":20,
-        "2":51
+        "2":61
       },{
         "levelRequirement":86,
         "statInterpolation":[1,1],
         "1":20,
-        "2":52
+        "2":62
       },{
         "levelRequirement":88,
         "statInterpolation":[1,1],
         "1":20,
-        "2":53
+        "2":63
       },{
         "levelRequirement":90,
         "statInterpolation":[1,1],
         "1":20,
-        "2":54
+        "2":64
       },{
         "levelRequirement":91,
         "statInterpolation":[1,1],
         "1":20,
-        "2":54
+        "2":64
       },{
         "levelRequirement":92,
         "statInterpolation":[1,1],
         "1":20,
-        "2":55
+        "2":65
       },{
         "levelRequirement":93,
         "statInterpolation":[1,1],
         "1":20,
-        "2":55
+        "2":65
       },{
         "levelRequirement":94,
         "statInterpolation":[1,1],
         "1":20,
-        "2":56
+        "2":66
       },{
         "levelRequirement":95,
         "statInterpolation":[1,1],
         "1":20,
-        "2":56
+        "2":66
       },{
         "levelRequirement":96,
         "statInterpolation":[1,1],
         "1":20,
-        "2":57
+        "2":67
       },{
         "levelRequirement":97,
         "statInterpolation":[1,1],
         "1":20,
-        "2":57
+        "2":67
       },{
         "levelRequirement":98,
         "statInterpolation":[1,1],
         "1":20,
-        "2":58
+        "2":68
       },{
         "levelRequirement":99,
         "statInterpolation":[1,1],
         "1":20,
-        "2":58
+        "2":68
       },{
         "levelRequirement":100,
         "statInterpolation":[1,1],
         "1":20,
-        "2":59
+        "2":69
       }],
     "name":"Sacrifice",
     "qualityStats":{
@@ -17966,207 +18098,207 @@
         "value":true
       }],
     "color":3,
-    "constantStats":[["base_spell_repeat_count",1],["support_echo_damage_+%_final",-10]],
+    "constantStats":[["base_spell_repeat_count",1],["support_echo_damage_+%_final",0]],
     "description":"Supports spell skills, making them repeat when cast. Cannot support Vaal skills, totem skills, channelling skills, triggered skills, instant skills, retaliation skills, blink skills, or skills with a reservation.",
     "excludeSkillTypes":[30,36,40,41,15,42,74,91],
     "levels":[{
         "levelRequirement":38,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":40
       },{
         "levelRequirement":40,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":40
       },{
         "levelRequirement":42,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":41
       },{
         "levelRequirement":44,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":42
       },{
         "levelRequirement":46,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":43
       },{
         "levelRequirement":48,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":43
       },{
         "levelRequirement":50,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":44
       },{
         "levelRequirement":52,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":45
       },{
         "levelRequirement":54,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":46
       },{
         "levelRequirement":56,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":46
       },{
         "levelRequirement":58,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":47
       },{
         "levelRequirement":60,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":48
       },{
         "levelRequirement":62,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":49
       },{
         "levelRequirement":64,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":49
       },{
         "levelRequirement":65,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":50
       },{
         "levelRequirement":66,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":51
       },{
         "levelRequirement":67,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":52
       },{
         "levelRequirement":68,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":52
       },{
         "levelRequirement":69,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":53
       },{
         "levelRequirement":70,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":54
       },{
         "levelRequirement":72,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":55
       },{
         "levelRequirement":74,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":55
       },{
         "levelRequirement":76,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":56
       },{
         "levelRequirement":78,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":57
       },{
         "levelRequirement":80,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":58
       },{
         "levelRequirement":82,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":58
       },{
         "levelRequirement":84,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":59
       },{
         "levelRequirement":86,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":60
       },{
         "levelRequirement":88,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":61
       },{
         "levelRequirement":90,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":61
       },{
         "levelRequirement":91,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":62
       },{
         "levelRequirement":92,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":62
       },{
         "levelRequirement":93,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":62
       },{
         "levelRequirement":94,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":63
       },{
         "levelRequirement":95,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":63
       },{
         "levelRequirement":96,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":64
       },{
         "levelRequirement":97,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":64
       },{
         "levelRequirement":98,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":64
       },{
         "levelRequirement":99,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":65
       },{
         "levelRequirement":100,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":65
       }],
@@ -19633,283 +19765,283 @@
     "levels":[{
         "PvPDamageMultiplier":-40,
         "levelRequirement":38,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":900,
-        "2":-50
+        "2":-45
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":40,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":890,
-        "2":-50
+        "2":-45
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":42,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":880,
-        "2":-49
+        "2":-44
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":44,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":870,
-        "2":-49
+        "2":-44
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":46,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":860,
-        "2":-48
+        "2":-43
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":48,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":850,
-        "2":-48
+        "2":-43
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":50,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":840,
-        "2":-47
+        "2":-42
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":52,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":830,
-        "2":-47
+        "2":-42
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":54,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":820,
-        "2":-46
+        "2":-41
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":56,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":810,
-        "2":-46
+        "2":-41
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":58,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":800,
-        "2":-45
+        "2":-40
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":60,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":790,
-        "2":-45
+        "2":-40
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":62,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":780,
-        "2":-44
+        "2":-39
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":64,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":770,
-        "2":-44
+        "2":-39
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":65,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":760,
-        "2":-43
+        "2":-38
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":66,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":750,
-        "2":-43
+        "2":-38
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":67,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":740,
-        "2":-42
+        "2":-37
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":68,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":730,
-        "2":-42
+        "2":-37
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":69,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":720,
-        "2":-41
+        "2":-36
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":70,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":710,
-        "2":-41
+        "2":-36
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":72,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":700,
-        "2":-40
+        "2":-35
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":74,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":690,
-        "2":-40
+        "2":-35
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":76,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":680,
-        "2":-39
+        "2":-34
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":78,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":670,
-        "2":-39
+        "2":-34
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":80,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":660,
-        "2":-38
+        "2":-33
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":82,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":650,
-        "2":-38
+        "2":-33
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":84,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":640,
-        "2":-37
+        "2":-32
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":86,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":630,
-        "2":-37
+        "2":-32
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":88,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":620,
-        "2":-36
+        "2":-31
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":90,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":610,
-        "2":-36
+        "2":-31
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":91,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":600,
-        "2":-35
+        "2":-31
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":92,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":590,
-        "2":-35
+        "2":-30
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":93,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":580,
-        "2":-34
+        "2":-30
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":94,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":570,
-        "2":-34
+        "2":-30
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":95,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":560,
-        "2":-33
+        "2":-30
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":96,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":550,
-        "2":-33
+        "2":-29
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":97,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":540,
-        "2":-32
+        "2":-29
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":98,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":530,
-        "2":-32
+        "2":-29
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":99,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":520,
-        "2":-31
+        "2":-29
       },{
         "PvPDamageMultiplier":-40,
         "levelRequirement":100,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1,1],
         "1":510,
-        "2":-31
+        "2":-28
       }],
     "name":"Unleash",
     "qualityStats":{

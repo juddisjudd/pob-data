@@ -4,7 +4,7 @@
     "group":"AngerFireDamageLifeLeech",
     "level":1,
     "modTags":["resource","life","elemental","fire"],
-    "statOrder":[6835],
+    "statOrder":[6981],
     "weightKey":[],
     "weightVal":[],
     "1":"(1-1.5)% of Fire Damage Leeched as Life while affected by Anger"
@@ -14,7 +14,7 @@
     "group":"AngerFirePenetration",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","fire"],
-    "statOrder":[9165],
+    "statOrder":[9371],
     "weightKey":[],
     "weightVal":[],
     "1":"Damage Penetrates (10-15)% Fire Resistance while affected by Anger"
@@ -24,7 +24,7 @@
     "group":"AngerIncreasedCriticalStrikeMultiplier",
     "level":1,
     "modTags":["damage","critical"],
-    "statOrder":[5552],
+    "statOrder":[5671],
     "weightKey":[],
     "weightVal":[],
     "1":"+(30-50)% to Critical Strike Multiplier while affected by Anger"
@@ -34,7 +34,7 @@
     "group":"AngerIncreasedFireDamage",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","fire"],
-    "statOrder":[6106],
+    "statOrder":[6238],
     "weightKey":[],
     "weightVal":[],
     "1":"(40-60)% increased Fire Damage while affected by Anger"
@@ -44,7 +44,7 @@
     "group":"AngerPhysicalAddedAsFire",
     "level":1,
     "modTags":["physical_damage","elemental_damage","damage","physical","elemental","fire"],
-    "statOrder":[8937],
+    "statOrder":[9139],
     "weightKey":[],
     "weightVal":[],
     "1":"Gain (15-25)% of Physical Damage as Extra Fire Damage while affected by Anger"
@@ -54,7 +54,7 @@
     "group":"AngerPhysicalConvertedToFire",
     "level":1,
     "modTags":["physical_damage","elemental_damage","damage","physical","elemental","fire"],
-    "statOrder":[4756],
+    "statOrder":[4859],
     "weightKey":[],
     "weightVal":[],
     "1":"(25-40)% of Physical Damage Converted to Fire Damage while affected by Anger"
@@ -64,7 +64,7 @@
     "group":"ClarityDamageTakenFromManaBeforeLife",
     "level":1,
     "modTags":["resource","life","mana"],
-    "statOrder":[5668],
+    "statOrder":[5788],
     "weightKey":[],
     "weightVal":[],
     "1":"(6-10)% of Damage taken from Mana before Life while affected by Clarity"
@@ -74,7 +74,7 @@
     "group":"ClarityDamageTakenGainedAsMana",
     "level":1,
     "modTags":["resource","mana"],
-    "statOrder":[5681],
+    "statOrder":[5804],
     "weightKey":[],
     "weightVal":[],
     "1":"(15-20)% of Damage taken while affected by Clarity Recouped as Mana"
@@ -84,7 +84,7 @@
     "group":"ClarityManaAddedAsEnergyShield",
     "level":1,
     "modTags":["defences","energy_shield"],
-    "statOrder":[8534],
+    "statOrder":[8717],
     "weightKey":[],
     "weightVal":[],
     "1":"Gain (6-10)% of Maximum Mana as Extra Maximum Energy Shield while affected by Clarity"
@@ -94,7 +94,7 @@
     "group":"ClarityManaRecoveryRate",
     "level":1,
     "modTags":["resource","mana"],
-    "statOrder":[7612],
+    "statOrder":[7764],
     "weightKey":[],
     "weightVal":[],
     "1":"(10-15)% increased Mana Recovery Rate while affected by Clarity"
@@ -104,7 +104,7 @@
     "group":"ClarityRecoverManaOnSkillUse",
     "level":1,
     "modTags":["resource","mana"],
-    "statOrder":[9135],
+    "statOrder":[9340],
     "weightKey":[],
     "weightVal":[],
     "1":"(10-15)% chance to Recover 10% of Mana when you use a Skill while affected by Clarity"
@@ -114,7 +114,7 @@
     "group":"ClarityReducedManaCost",
     "level":1,
     "modTags":["resource","mana"],
-    "statOrder":[9334],
+    "statOrder":[9546],
     "weightKey":[],
     "weightVal":[],
     "1":"-(10-5) to Total Mana Cost of Skills while affected by Clarity"
@@ -124,7 +124,7 @@
     "group":"ClarityReducedManaCostNonChannelled",
     "level":1,
     "modTags":["resource","mana"],
-    "statOrder":[9339],
+    "statOrder":[9551],
     "weightKey":[],
     "weightVal":[],
     "1":"Non-Channelling Skills have -(10-5) to Total Mana Cost while affected by Clarity"
@@ -134,7 +134,7 @@
     "group":"DeterminationAdditionalArmour",
     "level":1,
     "modTags":["defences","armour"],
-    "statOrder":[4496],
+    "statOrder":[4590],
     "weightKey":[],
     "weightVal":[],
     "1":"+(600-1000) to Armour while affected by Determination"
@@ -144,7 +144,7 @@
     "group":"DeterminationAdditionalBlock",
     "level":1,
     "modTags":["block"],
-    "statOrder":[4937],
+    "statOrder":[5043],
     "weightKey":[],
     "weightVal":[],
     "1":"+(5-8)% Chance to Block Attack Damage while affected by Determination"
@@ -154,7 +154,7 @@
     "group":"DeterminationPhysicalDamageReduction",
     "level":1,
     "modTags":["physical"],
-    "statOrder":[4347],
+    "statOrder":[4433],
     "weightKey":[],
     "weightVal":[],
     "1":"(5-8)% additional Physical Damage Reduction while affected by Determination"
@@ -164,7 +164,7 @@
     "group":"DeterminationReducedExtraDamageFromCrits",
     "level":1,
     "modTags":["critical"],
-    "statOrder":[6075],
+    "statOrder":[6206],
     "weightKey":[],
     "weightVal":[],
     "1":"You take (40-60)% reduced Extra Damage from Critical Strikes while affected by Determination"
@@ -174,7 +174,7 @@
     "group":"DeterminationReducedReflectedPhysicalDamage",
     "level":1,
     "modTags":["physical"],
-    "statOrder":[9173],
+    "statOrder":[9379],
     "weightKey":[],
     "weightVal":[],
     "1":"(40-50)% reduced Reflected Physical Damage taken while affected by Determination"
@@ -184,7 +184,7 @@
     "group":"DeterminationUnaffectedByVulnerability",
     "level":1,
     "modTags":["caster","curse"],
-    "statOrder":[9731],
+    "statOrder":[9960],
     "weightKey":[],
     "weightVal":[],
     "1":"Unaffected by Vulnerability while affected by Determination"
@@ -194,7 +194,7 @@
     "group":"DisciplineAdditionalSpellBlock",
     "level":1,
     "modTags":["block"],
-    "statOrder":[5249],
+    "statOrder":[5362],
     "weightKey":[],
     "weightVal":[],
     "1":"+(5-8)% Chance to Block Spell Damage while affected by Discipline"
@@ -204,7 +204,7 @@
     "group":"DisciplineEnergyShieldPerHit",
     "level":1,
     "modTags":["defences","energy_shield"],
-    "statOrder":[5983],
+    "statOrder":[6110],
     "weightKey":[],
     "weightVal":[],
     "1":"Gain (20-30) Energy Shield per Enemy Hit while affected by Discipline"
@@ -214,7 +214,7 @@
     "group":"DisciplineEnergyShieldRecoveryRate",
     "level":1,
     "modTags":["defences","energy_shield"],
-    "statOrder":[6001],
+    "statOrder":[6129],
     "weightKey":[],
     "weightVal":[],
     "1":"(10-15)% increased Energy Shield Recovery Rate while affected by Discipline"
@@ -224,7 +224,7 @@
     "group":"DisciplineEnergyShieldRegen",
     "level":1,
     "modTags":["defences","energy_shield"],
-    "statOrder":[6007],
+    "statOrder":[6136],
     "weightKey":[],
     "weightVal":[],
     "1":"Regenerate (1.5-2.5)% of Energy Shield per Second while affected by Discipline"
@@ -234,7 +234,7 @@
     "group":"DisciplineFasterStartOfRecharge",
     "level":1,
     "modTags":["defences","energy_shield"],
-    "statOrder":[5980],
+    "statOrder":[6107],
     "weightKey":[],
     "weightVal":[],
     "1":"(30-40)% faster start of Energy Shield Recharge while affected by Discipline"
@@ -244,7 +244,7 @@
     "group":"GraceAdditionalChanceToEvade",
     "level":1,
     "modTags":["defences","evasion"],
-    "statOrder":[5271],
+    "statOrder":[5385],
     "weightKey":[],
     "weightVal":[],
     "1":"+(5-8)% chance to Evade Attack Hits while affected by Grace"
@@ -254,7 +254,7 @@
     "group":"GraceBlindEnemiesWhenHit",
     "level":1,
     "modTags":[],
-    "statOrder":[4929],
+    "statOrder":[5033],
     "weightKey":[],
     "weightVal":[],
     "1":"(30-50)% chance to Blind Enemies which Hit you while affected by Grace"
@@ -264,7 +264,7 @@
     "group":"GraceChanceToDodge",
     "level":1,
     "modTags":[],
-    "statOrder":[9435],
+    "statOrder":[9657],
     "weightKey":[],
     "weightVal":[],
     "1":"+(12-15)% chance to Suppress Spell Damage while affected by Grace"
@@ -274,7 +274,7 @@
     "group":"GraceIncreasedMovementSpeed",
     "level":1,
     "modTags":["speed"],
-    "statOrder":[8757],
+    "statOrder":[8952],
     "weightKey":[],
     "weightVal":[],
     "1":"(10-15)% increased Movement Speed while affected by Grace"
@@ -284,7 +284,7 @@
     "group":"GraceUnaffectedByEnfeeble",
     "level":1,
     "modTags":["caster","curse"],
-    "statOrder":[9715],
+    "statOrder":[9944],
     "weightKey":[],
     "weightVal":[],
     "1":"Unaffected by Enfeeble while affected by Grace"
@@ -294,7 +294,7 @@
     "group":"HasteChanceToDodgeSpells",
     "level":1,
     "modTags":[],
-    "statOrder":[9436],
+    "statOrder":[9658],
     "weightKey":[],
     "weightVal":[],
     "1":"+(5-8)% chance to Suppress Spell Damage while affected by Haste"
@@ -304,7 +304,7 @@
     "group":"HasteCooldownRecoveryForMovementSkills",
     "level":1,
     "modTags":[],
-    "statOrder":[8736],
+    "statOrder":[8931],
     "weightKey":[],
     "weightVal":[],
     "1":"(30-50)% increased Cooldown Recovery Rate of Movement Skills used while affected by Haste"
@@ -314,7 +314,7 @@
     "group":"HasteDebuffsExpireFaster",
     "level":1,
     "modTags":[],
-    "statOrder":[5721],
+    "statOrder":[5846],
     "weightKey":[],
     "weightVal":[],
     "1":"Debuffs on you expire (15-20)% faster while affected by Haste"
@@ -324,7 +324,7 @@
     "group":"HasteGainOnslaughtOnKill",
     "level":1,
     "modTags":[],
-    "statOrder":[6318],
+    "statOrder":[6452],
     "weightKey":[],
     "weightVal":[],
     "1":"You gain Onslaught for 4 seconds on Kill while affected by Haste"
@@ -334,7 +334,7 @@
     "group":"HasteGainPhasing",
     "level":1,
     "modTags":[],
-    "statOrder":[6329],
+    "statOrder":[6463],
     "weightKey":[],
     "weightVal":[],
     "1":"You have Phasing while affected by Haste"
@@ -344,7 +344,7 @@
     "group":"HasteUnaffectedByTemporalChains",
     "level":1,
     "modTags":["caster","curse"],
-    "statOrder":[9730],
+    "statOrder":[9959],
     "weightKey":[],
     "weightVal":[],
     "1":"Unaffected by Temporal Chains while affected by Haste"
@@ -354,7 +354,7 @@
     "group":"HatredAddedColdDamage",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","cold"],
-    "statOrder":[8591],
+    "statOrder":[8775],
     "weightKey":[],
     "weightVal":[],
     "1":"Adds (58-70) to (88-104) Cold Damage while affected by Hatred"
@@ -364,7 +364,7 @@
     "group":"HatredAdditionalCriticalStrikeChance",
     "level":1,
     "modTags":["critical"],
-    "statOrder":[4321],
+    "statOrder":[4407],
     "weightKey":[],
     "weightVal":[],
     "1":"+(1.2-1.8)% to Critical Strike Chance while affected by Hatred"
@@ -374,7 +374,7 @@
     "group":"HatredColdPenetration",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","cold"],
-    "statOrder":[9163],
+    "statOrder":[9369],
     "weightKey":[],
     "weightVal":[],
     "1":"Damage Penetrates (10-15)% Cold Resistance while affected by Hatred"
@@ -384,7 +384,7 @@
     "group":"HatredIncreasedColdDamage",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","cold"],
-    "statOrder":[5405],
+    "statOrder":[5520],
     "weightKey":[],
     "weightVal":[],
     "1":"(40-60)% increased Cold Damage while affected by Hatred"
@@ -394,7 +394,7 @@
     "group":"HatredPhysicalConvertedToCold",
     "level":1,
     "modTags":["physical_damage","elemental_damage","damage","physical","elemental","cold"],
-    "statOrder":[4755],
+    "statOrder":[4858],
     "weightKey":[],
     "weightVal":[],
     "1":"(25-40)% of Physical Damage Converted to Cold Damage while affected by Hatred"
@@ -404,7 +404,7 @@
     "group":"MalevolenceDamageOverTimeMultiplier",
     "level":1,
     "modTags":["damage"],
-    "statOrder":[5825],
+    "statOrder":[5951],
     "weightKey":[],
     "weightVal":[],
     "1":"+(18-22)% to Damage over Time Multiplier while affected by Malevolence"
@@ -414,7 +414,7 @@
     "group":"MalevolenceDamageOverTimeMultiplier",
     "level":1,
     "modTags":["damage"],
-    "statOrder":[5825],
+    "statOrder":[5951],
     "weightKey":[],
     "weightVal":[],
     "1":"+(18-22)% to Damage over Time Multiplier while affected by Malevolence"
@@ -424,7 +424,7 @@
     "group":"MalevolenceDamageOverTimeMultiplier",
     "level":1,
     "modTags":["damage"],
-    "statOrder":[5825],
+    "statOrder":[5951],
     "weightKey":[],
     "weightVal":[],
     "1":"+(18-22)% to Damage over Time Multiplier while affected by Malevolence"
@@ -434,7 +434,7 @@
     "group":"MalevolenceLifeAndEnergyShieldRecoveryRate",
     "level":1,
     "modTags":["resource","life","defences","energy_shield"],
-    "statOrder":[6813],
+    "statOrder":[6958],
     "weightKey":[],
     "weightVal":[],
     "1":"(8-12)% increased Recovery rate of Life and Energy Shield while affected by Malevolence"
@@ -444,7 +444,7 @@
     "group":"MalevolenceSkillEffectDuration",
     "level":1,
     "modTags":[],
-    "statOrder":[9329],
+    "statOrder":[9540],
     "weightKey":[],
     "weightVal":[],
     "1":"(20-30)% increased Skill Effect Duration while affected by Malevolence"
@@ -454,7 +454,7 @@
     "group":"MalevolenceUnaffectedByBleeding",
     "level":1,
     "modTags":["bleed","physical","attack","ailment"],
-    "statOrder":[9699],
+    "statOrder":[9928],
     "weightKey":[],
     "weightVal":[],
     "1":"Unaffected by Bleeding while affected by Malevolence"
@@ -464,7 +464,7 @@
     "group":"MalevolenceUnaffectedByPoison",
     "level":1,
     "modTags":["poison","chaos","ailment"],
-    "statOrder":[9722],
+    "statOrder":[9951],
     "weightKey":[],
     "weightVal":[],
     "1":"Unaffected by Poison while affected by Malevolence"
@@ -474,7 +474,7 @@
     "group":"MalevolenceYourAilmentsDealDamageFaster",
     "level":1,
     "modTags":["damage","ailment"],
-    "statOrder":[9886],
+    "statOrder":[10124],
     "weightKey":[],
     "weightVal":[],
     "1":"Damaging Ailments you inflict deal Damage (10-15)% faster while affected by Malevolence"
@@ -484,7 +484,7 @@
     "group":"PrecisionCannotBeBlinded",
     "level":1,
     "modTags":[],
-    "statOrder":[4994],
+    "statOrder":[5102],
     "weightKey":[],
     "weightVal":[],
     "1":"Cannot be Blinded while affected by Precision"
@@ -494,7 +494,7 @@
     "group":"PrecisionFlaskChargeOnCrit",
     "level":1,
     "modTags":["flask","critical"],
-    "statOrder":[9125],
+    "statOrder":[9330],
     "weightKey":[],
     "weightVal":[],
     "1":"Gain a Flask Charge when you deal a Critical Strike while affected by Precision"
@@ -504,7 +504,7 @@
     "group":"PrecisionIncreasedAttackDamage",
     "level":1,
     "modTags":["damage","attack"],
-    "statOrder":[4588],
+    "statOrder":[4684],
     "weightKey":[],
     "weightVal":[],
     "1":"(40-60)% increased Attack Damage while affected by Precision"
@@ -514,7 +514,7 @@
     "group":"PrecisionIncreasedAttackSpeed",
     "level":1,
     "modTags":["attack","speed"],
-    "statOrder":[4629],
+    "statOrder":[4725],
     "weightKey":[],
     "weightVal":[],
     "1":"(10-15)% increased Attack Speed while affected by Precision"
@@ -524,7 +524,7 @@
     "group":"PrecisionIncreasedCriticalStrikeMultiplier",
     "level":1,
     "modTags":["damage","critical"],
-    "statOrder":[5553],
+    "statOrder":[5672],
     "weightKey":[],
     "weightVal":[],
     "1":"+(20-30)% to Critical Strike Multiplier while affected by Precision"
@@ -534,7 +534,7 @@
     "group":"PrideChanceForDoubleDamage",
     "level":1,
     "modTags":["damage"],
-    "statOrder":[9016],
+    "statOrder":[9218],
     "weightKey":[],
     "weightVal":[],
     "1":"(8-12)% chance to deal Double Damage while using Pride"
@@ -544,7 +544,7 @@
     "group":"PrideChanceToImpale",
     "level":1,
     "modTags":["physical"],
-    "statOrder":[9017],
+    "statOrder":[9219],
     "weightKey":[],
     "weightVal":[],
     "1":"25% chance to Impale Enemies on Hit with Attacks while using Pride"
@@ -554,7 +554,7 @@
     "group":"PrideImpaleAdditionalHits",
     "level":1,
     "modTags":["physical"],
-    "statOrder":[9024],
+    "statOrder":[9226],
     "weightKey":[],
     "weightVal":[],
     "1":"Impales you inflict last 2 additional Hits while using Pride"
@@ -564,7 +564,7 @@
     "group":"PrideIncreasedPhysicalDamage",
     "level":1,
     "modTags":["physical_damage","damage","physical"],
-    "statOrder":[9022],
+    "statOrder":[9224],
     "weightKey":[],
     "weightVal":[],
     "1":"(40-60)% increased Physical Damage while using Pride"
@@ -574,7 +574,7 @@
     "group":"PrideIntimidateOnHit",
     "level":1,
     "modTags":[],
-    "statOrder":[9018],
+    "statOrder":[9220],
     "weightKey":[],
     "weightVal":[],
     "1":"Your Hits Intimidate Enemies for 4 seconds while you are using Pride"
@@ -584,7 +584,7 @@
     "group":"PurityOfElementsChaosResistance",
     "level":1,
     "modTags":["chaos","resistance"],
-    "statOrder":[5338],
+    "statOrder":[5452],
     "weightKey":[],
     "weightVal":[],
     "1":"+(30-50)% to Chaos Resistance while affected by Purity of Elements"
@@ -594,7 +594,7 @@
     "group":"PurityOfElementsMaximumElementalResistances",
     "level":1,
     "modTags":["elemental","resistance"],
-    "statOrder":[4329],
+    "statOrder":[4415],
     "weightKey":[],
     "weightVal":[],
     "1":"+1% to all maximum Elemental Resistances while affected by Purity of Elements"
@@ -604,7 +604,7 @@
     "group":"PurityOfElementsReducedReflectedElementalDamage",
     "level":1,
     "modTags":["elemental"],
-    "statOrder":[5897],
+    "statOrder":[6024],
     "weightKey":[],
     "weightVal":[],
     "1":"(40-50)% reduced Reflected Elemental Damage taken while affected by Purity of Elements"
@@ -614,7 +614,7 @@
     "group":"PurityOfElementsTakePhysicalAsCold",
     "level":1,
     "modTags":["physical","elemental","cold"],
-    "statOrder":[8962],
+    "statOrder":[9164],
     "weightKey":[],
     "weightVal":[],
     "1":"(8-12)% of Physical Damage from Hits taken as Cold Damage while affected by Purity of Elements"
@@ -624,7 +624,7 @@
     "group":"PurityOfElementsTakePhysicalAsFire",
     "level":1,
     "modTags":["physical","elemental","fire"],
-    "statOrder":[8964],
+    "statOrder":[9166],
     "weightKey":[],
     "weightVal":[],
     "1":"(8-12)% of Physical Damage from Hits taken as Fire Damage while affected by Purity of Elements"
@@ -634,7 +634,7 @@
     "group":"PurityOfElementsTakePhysicalAsLightning",
     "level":1,
     "modTags":["physical","elemental","lightning"],
-    "statOrder":[8966],
+    "statOrder":[9168],
     "weightKey":[],
     "weightVal":[],
     "1":"(8-12)% of Physical Damage from Hits taken as Lightning Damage while affected by Purity of Elements"
@@ -644,7 +644,7 @@
     "group":"PurityOfElementsUnaffectedByElementalWeakness",
     "level":1,
     "modTags":["caster","curse"],
-    "statOrder":[9714],
+    "statOrder":[9943],
     "weightKey":[],
     "weightVal":[],
     "1":"Unaffected by Elemental Weakness while affected by Purity of Elements"
@@ -654,7 +654,7 @@
     "group":"PurityOfFireColdAndLightningTakenAsFire",
     "level":1,
     "modTags":["elemental","fire","cold","lightning"],
-    "statOrder":[5394],
+    "statOrder":[5508],
     "weightKey":[],
     "weightVal":[],
     "1":"(10-20)% of Cold and Lightning Damage taken as Fire Damage while affected by Purity of Fire"
@@ -664,7 +664,7 @@
     "group":"PurityOfFireImmuneToIgnite",
     "level":1,
     "modTags":["elemental","fire","ailment"],
-    "statOrder":[6717],
+    "statOrder":[6860],
     "weightKey":[],
     "weightVal":[],
     "1":"Immune to Ignite while affected by Purity of Fire"
@@ -674,7 +674,7 @@
     "group":"PurityOfFireReducedReflectedFireDamage",
     "level":1,
     "modTags":["elemental","fire"],
-    "statOrder":[6120],
+    "statOrder":[6252],
     "weightKey":[],
     "weightVal":[],
     "1":"(40-50)% reduced Reflected Fire Damage taken while affected by Purity of Fire"
@@ -684,7 +684,7 @@
     "group":"PurityOfFireTakePhysicalAsFire",
     "level":1,
     "modTags":["physical","elemental","fire"],
-    "statOrder":[8965],
+    "statOrder":[9167],
     "weightKey":[],
     "weightVal":[],
     "1":"(6-10)% of Physical Damage from Hits taken as Fire Damage while affected by Purity of Fire"
@@ -694,7 +694,7 @@
     "group":"PurityOfFireUnaffectedByBurningGround",
     "level":1,
     "modTags":[],
-    "statOrder":[9703],
+    "statOrder":[9932],
     "weightKey":[],
     "weightVal":[],
     "1":"Unaffected by Burning Ground while affected by Purity of Fire"
@@ -704,7 +704,7 @@
     "group":"PurityOfFireUnaffectedByFlammability",
     "level":1,
     "modTags":["caster","curse"],
-    "statOrder":[9716],
+    "statOrder":[9945],
     "weightKey":[],
     "weightVal":[],
     "1":"Unaffected by Flammability while affected by Purity of Fire"
@@ -714,7 +714,7 @@
     "group":"PurityOfIceFireAndLightningTakenAsCold",
     "level":1,
     "modTags":["elemental","fire","cold","lightning"],
-    "statOrder":[6090],
+    "statOrder":[6222],
     "weightKey":[],
     "weightVal":[],
     "1":"(10-20)% of Fire and Lightning Damage taken as Cold Damage while affected by Purity of Ice"
@@ -724,7 +724,7 @@
     "group":"PurityOfIceImmuneToFreeze",
     "level":1,
     "modTags":["elemental","cold","ailment"],
-    "statOrder":[6714],
+    "statOrder":[6857],
     "weightKey":[],
     "weightVal":[],
     "1":"Immune to Freeze while affected by Purity of Ice"
@@ -734,7 +734,7 @@
     "group":"PurityOfIceReducedReflectedColdDamage",
     "level":1,
     "modTags":["elemental","cold"],
-    "statOrder":[5424],
+    "statOrder":[5539],
     "weightKey":[],
     "weightVal":[],
     "1":"(40-50)% reduced Reflected Cold Damage taken while affected by Purity of Ice"
@@ -744,7 +744,7 @@
     "group":"PurityOfIceTakePhysicalAsIce",
     "level":1,
     "modTags":["physical","elemental","cold"],
-    "statOrder":[8963],
+    "statOrder":[9165],
     "weightKey":[],
     "weightVal":[],
     "1":"(6-10)% of Physical Damage from Hits taken as Cold Damage while affected by Purity of Ice"
@@ -754,7 +754,7 @@
     "group":"PurityOfIceUnaffectedByChilledGround",
     "level":1,
     "modTags":[],
-    "statOrder":[9708],
+    "statOrder":[9937],
     "weightKey":[],
     "weightVal":[],
     "1":"Unaffected by Chilled Ground while affected by Purity of Ice"
@@ -764,7 +764,7 @@
     "group":"PurityOfIceUnaffectedByFrostbite",
     "level":1,
     "modTags":["caster","curse"],
-    "statOrder":[9718],
+    "statOrder":[9947],
     "weightKey":[],
     "weightVal":[],
     "1":"Unaffected by Frostbite while affected by Purity of Ice"
@@ -774,7 +774,7 @@
     "group":"PurityOfLightningFireAndColdTakenAsLightning",
     "level":1,
     "modTags":["elemental","fire","cold","lightning"],
-    "statOrder":[6088,6088.1],
+    "statOrder":[6220,6220.1],
     "weightKey":[],
     "weightVal":[],
     "1":"(10-20)% of Fire and Cold Damage taken as Lightning Damage while",
@@ -785,7 +785,7 @@
     "group":"PurityOfLightningImmuneToShock",
     "level":1,
     "modTags":["elemental","lightning","ailment"],
-    "statOrder":[6722],
+    "statOrder":[6865],
     "weightKey":[],
     "weightVal":[],
     "1":"Immune to Shock while affected by Purity of Lightning"
@@ -795,7 +795,7 @@
     "group":"PurityOfLightningReducedReflectedLightningDamage",
     "level":1,
     "modTags":["elemental","lightning"],
-    "statOrder":[6926],
+    "statOrder":[7073],
     "weightKey":[],
     "weightVal":[],
     "1":"(40-50)% reduced Reflected Lightning Damage taken while affected by Purity of Lightning"
@@ -805,7 +805,7 @@
     "group":"PurityOfLightningTakePhysicalAsLightning",
     "level":1,
     "modTags":["physical","elemental","lightning"],
-    "statOrder":[8967],
+    "statOrder":[9169],
     "weightKey":[],
     "weightVal":[],
     "1":"(6-10)% of Physical Damage from Hits taken as Lightning Damage while affected by Purity of Lightning"
@@ -815,7 +815,7 @@
     "group":"PurityOfLightningUnaffectedByConductivity",
     "level":1,
     "modTags":["caster","curse"],
-    "statOrder":[9709],
+    "statOrder":[9938],
     "weightKey":[],
     "weightVal":[],
     "1":"Unaffected by Conductivity while affected by Purity of Lightning"
@@ -825,7 +825,7 @@
     "group":"PurityOfLightningUnaffectedByShockedGround",
     "level":1,
     "modTags":[],
-    "statOrder":[9728],
+    "statOrder":[9957],
     "weightKey":[],
     "weightVal":[],
     "1":"Unaffected by Shocked Ground while affected by Purity of Lightning"
@@ -835,7 +835,7 @@
     "group":"SublimeVisionAnger",
     "level":1,
     "modTags":["elemental","fire","ailment"],
-    "statOrder":[3407,4398,9888],
+    "statOrder":[3432,4488,10126],
     "weightKey":[],
     "weightVal":[],
     "1":"Auras from your Skills have (20-40)% increased Effect on you",
@@ -847,7 +847,7 @@
     "group":"SublimeVisionClarity",
     "level":1,
     "modTags":["resource","mana"],
-    "statOrder":[3407,4442,9889],
+    "statOrder":[3432,4534,10127],
     "weightKey":[],
     "weightVal":[],
     "1":"Auras from your Skills have (20-40)% increased Effect on you",
@@ -859,7 +859,7 @@
     "group":"SublimeVisionDetermination",
     "level":1,
     "modTags":[],
-    "statOrder":[3407,8503,9890],
+    "statOrder":[3432,8683,10128],
     "weightKey":[],
     "weightVal":[],
     "1":"Auras from your Skills have (20-40)% increased Effect on you",
@@ -871,7 +871,7 @@
     "group":"SublimeVisionDiscipline",
     "level":1,
     "modTags":[],
-    "statOrder":[3407,8540,9891],
+    "statOrder":[3432,8724,10129],
     "weightKey":[],
     "weightVal":[],
     "1":"Auras from your Skills have (20-40)% increased Effect on you",
@@ -883,7 +883,7 @@
     "group":"SublimeVisionGrace",
     "level":1,
     "modTags":[],
-    "statOrder":[3407,8509,9892],
+    "statOrder":[3432,8690,10130],
     "weightKey":[],
     "weightVal":[],
     "1":"Auras from your Skills have (20-40)% increased Effect on you",
@@ -895,7 +895,7 @@
     "group":"SublimeVisionHaste",
     "level":1,
     "modTags":["speed"],
-    "statOrder":[3407,4296,9893],
+    "statOrder":[3432,4381,10131],
     "weightKey":[],
     "weightVal":[],
     "1":"Auras from your Skills have (20-40)% increased Effect on you",
@@ -907,7 +907,7 @@
     "group":"SublimeVisionHatred",
     "level":1,
     "modTags":["elemental","cold","ailment"],
-    "statOrder":[3407,4393,9894],
+    "statOrder":[3432,4483,10132],
     "weightKey":[],
     "weightVal":[],
     "1":"Auras from your Skills have (20-40)% increased Effect on you",
@@ -919,7 +919,7 @@
     "group":"SublimeVisionMalevolence",
     "level":1,
     "modTags":["curse"],
-    "statOrder":[3407,8836,9895],
+    "statOrder":[3432,9036,10133],
     "weightKey":[],
     "weightVal":[],
     "1":"Auras from your Skills have (20-40)% increased Effect on you",
@@ -931,7 +931,7 @@
     "group":"SublimeVisionPrecision",
     "level":1,
     "modTags":["critical"],
-    "statOrder":[3407,5500,9896],
+    "statOrder":[3432,5619,10134],
     "weightKey":[],
     "weightVal":[],
     "1":"Auras from your Skills have (20-40)% increased Effect on you",
@@ -943,7 +943,7 @@
     "group":"SublimeVisionPride",
     "level":1,
     "modTags":["physical"],
-    "statOrder":[3405,6056,9897],
+    "statOrder":[3430,6187,10135],
     "weightKey":[],
     "weightVal":[],
     "1":"(20-40)% increased Effect of Non-Curse Auras from your Skills on Enemies",
@@ -955,7 +955,7 @@
     "group":"SublimeVisionPurityOfElements",
     "level":1,
     "modTags":["elemental","resistance"],
-    "statOrder":[3407,4329,9898],
+    "statOrder":[3432,4415,10136],
     "weightKey":[],
     "weightVal":[],
     "1":"Auras from your Skills have (20-40)% increased Effect on you",
@@ -967,7 +967,7 @@
     "group":"SublimeVisionPurityOfFire",
     "level":1,
     "modTags":["elemental","fire","cold","lightning"],
-    "statOrder":[3407,5394,9899],
+    "statOrder":[3432,5508,10137],
     "weightKey":[],
     "weightVal":[],
     "1":"Auras from your Skills have (20-40)% increased Effect on you",
@@ -979,7 +979,7 @@
     "group":"SublimeVisionPurityOfIce",
     "level":1,
     "modTags":["elemental","fire","cold","lightning"],
-    "statOrder":[3407,6090,9900],
+    "statOrder":[3432,6222,10138],
     "weightKey":[],
     "weightVal":[],
     "1":"Auras from your Skills have (20-40)% increased Effect on you",
@@ -991,7 +991,7 @@
     "group":"SublimeVisionPurityOfLightning",
     "level":1,
     "modTags":["elemental","fire","cold","lightning"],
-    "statOrder":[3407,6088,6088.1,9901],
+    "statOrder":[3432,6220,6220.1,10139],
     "weightKey":[],
     "weightVal":[],
     "1":"Auras from your Skills have (20-40)% increased Effect on you",
@@ -1004,7 +1004,7 @@
     "group":"SublimeVisionVitality",
     "level":1,
     "modTags":["resource","life"],
-    "statOrder":[3407,9177,9902],
+    "statOrder":[3432,9383,10140],
     "weightKey":[],
     "weightVal":[],
     "1":"Auras from your Skills have (20-40)% increased Effect on you",
@@ -1016,7 +1016,7 @@
     "group":"SublimeVisionWrath",
     "level":1,
     "modTags":["elemental","lightning","ailment"],
-    "statOrder":[3407,4397,9903],
+    "statOrder":[3432,4487,10141],
     "weightKey":[],
     "weightVal":[],
     "1":"Auras from your Skills have (20-40)% increased Effect on you",
@@ -1028,7 +1028,7 @@
     "group":"SublimeVisionZealotry",
     "level":1,
     "modTags":["curse"],
-    "statOrder":[3407,9711,9904],
+    "statOrder":[3432,9940,10142],
     "weightKey":[],
     "weightVal":[],
     "1":"Auras from your Skills have (20-40)% increased Effect on you",
@@ -1040,7 +1040,7 @@
     "group":"SummonArbalistAttackSpeed",
     "level":1,
     "modTags":[],
-    "statOrder":[9528],
+    "statOrder":[9750],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists have (30-40)% increased Attack Speed"
@@ -1050,7 +1050,7 @@
     "group":"SummonArbalistChains",
     "level":1,
     "modTags":[],
-    "statOrder":[9529],
+    "statOrder":[9751],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists' Projectiles Chain +2 times"
@@ -1060,7 +1060,7 @@
     "group":"SummonArbalistChanceToBleed",
     "level":1,
     "modTags":[],
-    "statOrder":[9530],
+    "statOrder":[9752],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists' Attacks have (40-60)% chance to inflict Bleeding"
@@ -1070,7 +1070,7 @@
     "group":"SummonArbalistChanceToCrushOnHit",
     "level":1,
     "modTags":[],
-    "statOrder":[9531],
+    "statOrder":[9753],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists have (10-20)% chance to Crush on Hit"
@@ -1080,7 +1080,7 @@
     "group":"SummonArbalistChanceToDealDoubleDamage",
     "level":1,
     "modTags":[],
-    "statOrder":[9532],
+    "statOrder":[9754],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists have (25-35)% chance to deal Double Damage"
@@ -1090,7 +1090,7 @@
     "group":"SummonArbalistChanceToIgniteFreezeShock",
     "level":1,
     "modTags":[],
-    "statOrder":[9533],
+    "statOrder":[9755],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists have (15-25)% chance to Freeze, Shock, and Ignite"
@@ -1100,7 +1100,7 @@
     "group":"SummonArbalistChanceToInflictColdExposureonHit",
     "level":1,
     "modTags":[],
-    "statOrder":[9551],
+    "statOrder":[9773],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists have (10-20)% chance to inflict Cold Exposure on Hit"
@@ -1110,7 +1110,7 @@
     "group":"SummonArbalistChanceToInflictFireExposureOnHit",
     "level":1,
     "modTags":[],
-    "statOrder":[9552],
+    "statOrder":[9774],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists have (10-20)% chance to inflict Fire Exposure on Hit"
@@ -1120,7 +1120,7 @@
     "group":"SummonArbalistChanceToInflictLightningExposureOnHit",
     "level":1,
     "modTags":[],
-    "statOrder":[9553],
+    "statOrder":[9775],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists have (10-20)% chance to inflict Lightning Exposure on Hit"
@@ -1130,7 +1130,7 @@
     "group":"SummonArbalistChanceToIntimidateFor4SecondsOnHit",
     "level":1,
     "modTags":[],
-    "statOrder":[9534],
+    "statOrder":[9756],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists have (20-30)% chance to Intimidate for 4 seconds on Hit"
@@ -1140,7 +1140,7 @@
     "group":"SummonArbalistChanceToMaimfor4secondsOnHit",
     "level":1,
     "modTags":[],
-    "statOrder":[9535],
+    "statOrder":[9757],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists have (20-30)% chance to Maim for 4 seconds on Hit"
@@ -1150,7 +1150,7 @@
     "group":"SummonArbalistChanceToPoison",
     "level":1,
     "modTags":[],
-    "statOrder":[9536],
+    "statOrder":[9758],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists have (40-60)% chance to Poison"
@@ -1160,7 +1160,7 @@
     "group":"SummonArbalistChanceToUnnerveFor4SecondsOnHit",
     "level":1,
     "modTags":[],
-    "statOrder":[9537],
+    "statOrder":[9759],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists have (20-30)% chance to Unnerve for 4 seconds on Hit"
@@ -1170,7 +1170,7 @@
     "group":"SummonArbalistNumberOfAdditionalProjectiles",
     "level":1,
     "modTags":[],
-    "statOrder":[9538],
+    "statOrder":[9760],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists fire (2-4) additional Projectiles"
@@ -1180,7 +1180,7 @@
     "group":"SummonArbalistNumberOfArbalistsAllowed",
     "level":1,
     "modTags":[],
-    "statOrder":[8846],
+    "statOrder":[9046],
     "weightKey":[],
     "weightVal":[],
     "1":"+1 to number of Summoned Arbalists"
@@ -1190,7 +1190,7 @@
     "group":"SummonArbalistNumberOfSplits",
     "level":1,
     "modTags":[],
-    "statOrder":[9539],
+    "statOrder":[9761],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists' Projectiles Split into 3"
@@ -1200,7 +1200,7 @@
     "group":"SummonArbalistPhysicalDamageToAddAsCold",
     "level":1,
     "modTags":[],
-    "statOrder":[9540,9551],
+    "statOrder":[9762,9773],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists gain (30-40)% of Physical Damage as Extra Cold Damage",
@@ -1211,7 +1211,7 @@
     "group":"SummonArbalistPhysicalDamageToAddAsFire",
     "level":1,
     "modTags":[],
-    "statOrder":[9541,9552],
+    "statOrder":[9763,9774],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists gain (30-40)% of Physical Damage as Extra Fire Damage",
@@ -1222,7 +1222,7 @@
     "group":"SummonArbalistPhysicalDamageToAddAsLightning",
     "level":1,
     "modTags":[],
-    "statOrder":[9542,9553],
+    "statOrder":[9764,9775],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists gain (30-40)% of Physical Damage as Extra Lightning Damage",
@@ -1233,7 +1233,7 @@
     "group":"SummonArbalistPhysicalDamageToConvertToCold",
     "level":1,
     "modTags":[],
-    "statOrder":[9543,9548],
+    "statOrder":[9765,9770],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists Convert 100% of Physical Damage to Cold Damage",
@@ -1244,7 +1244,7 @@
     "group":"SummonArbalistPhysicalDamageToConvertToFire",
     "level":1,
     "modTags":[],
-    "statOrder":[9544,9549],
+    "statOrder":[9766,9771],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists Convert 100% of Physical Damage to Fire Damage",
@@ -1255,7 +1255,7 @@
     "group":"SummonArbalistPhysicalDamageToConvertToLightning",
     "level":1,
     "modTags":[],
-    "statOrder":[9545,9550],
+    "statOrder":[9767,9772],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists Convert 100% of Physical Damage to Lightning Damage",
@@ -1266,7 +1266,7 @@
     "group":"SummonArbalistProjectilesFork",
     "level":1,
     "modTags":[],
-    "statOrder":[9546],
+    "statOrder":[9768],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists' Projectiles Fork"
@@ -1276,7 +1276,7 @@
     "group":"SummonArbalistTargetsToPierce",
     "level":1,
     "modTags":[],
-    "statOrder":[9547],
+    "statOrder":[9769],
     "weightKey":[],
     "weightVal":[],
     "1":"Summoned Arbalists' Projectiles Pierce (2-4) additional Targets"
@@ -1286,7 +1286,7 @@
     "group":"VitalityDamageLifeLeech",
     "level":1,
     "modTags":["resource","life"],
-    "statOrder":[6828],
+    "statOrder":[6974],
     "weightKey":[],
     "weightVal":[],
     "1":"(0.8-1.2)% of Damage leeched as Life while affected by Vitality"
@@ -1296,7 +1296,7 @@
     "group":"VitalityFlatLifeRegen",
     "level":1,
     "modTags":["resource","life"],
-    "statOrder":[6869],
+    "statOrder":[7016],
     "weightKey":[],
     "weightVal":[],
     "1":"Regenerate (100-140) Life per Second while affected by Vitality"
@@ -1306,7 +1306,7 @@
     "group":"VitalityLifeGainPerHit",
     "level":1,
     "modTags":["resource","life"],
-    "statOrder":[6822],
+    "statOrder":[6968],
     "weightKey":[],
     "weightVal":[],
     "1":"Gain (20-30) Life per Enemy Hit while affected by Vitality"
@@ -1316,7 +1316,7 @@
     "group":"VitalityLifeRecoveryFromFlasks",
     "level":1,
     "modTags":["flask","resource","life"],
-    "statOrder":[6177],
+    "statOrder":[6309],
     "weightKey":[],
     "weightVal":[],
     "1":"(50-70)% increased Life Recovery from Flasks while affected by Vitality"
@@ -1326,7 +1326,7 @@
     "group":"VitalityLifeRecoveryRate",
     "level":1,
     "modTags":["resource","life"],
-    "statOrder":[6859],
+    "statOrder":[7006],
     "weightKey":[],
     "weightVal":[],
     "1":"(10-15)% increased Life Recovery Rate while affected by Vitality"
@@ -1336,7 +1336,7 @@
     "group":"VitalityPercentLifeRegen",
     "level":1,
     "modTags":["resource","life"],
-    "statOrder":[6876],
+    "statOrder":[7023],
     "weightKey":[],
     "weightVal":[],
     "1":"Regenerate (1-1.5)% of Life per second while affected by Vitality"
@@ -1346,7 +1346,7 @@
     "group":"WrathIncreasedCriticalStrikeChance",
     "level":1,
     "modTags":["critical"],
-    "statOrder":[5526],
+    "statOrder":[5645],
     "weightKey":[],
     "weightVal":[],
     "1":"(70-100)% increased Critical Strike Chance while affected by Wrath"
@@ -1356,7 +1356,7 @@
     "group":"WrathIncreasedLightningDamage",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","lightning"],
-    "statOrder":[6914],
+    "statOrder":[7061],
     "weightKey":[],
     "weightVal":[],
     "1":"(40-60)% increased Lightning Damage while affected by Wrath"
@@ -1366,7 +1366,7 @@
     "group":"WrathLightningDamageESLeech",
     "level":1,
     "modTags":["defences","energy_shield","elemental","lightning"],
-    "statOrder":[5987],
+    "statOrder":[6114],
     "weightKey":[],
     "weightVal":[],
     "1":"(1-1.5)% of Lightning Damage is Leeched as Energy Shield while affected by Wrath"
@@ -1376,7 +1376,7 @@
     "group":"WrathLightningDamageManaLeech",
     "level":1,
     "modTags":["resource","mana","elemental","lightning"],
-    "statOrder":[7603],
+    "statOrder":[7755],
     "weightKey":[],
     "weightVal":[],
     "1":"(1-1.5)% of Lightning Damage is Leeched as Mana while affected by Wrath"
@@ -1386,7 +1386,7 @@
     "group":"WrathLightningPenetration",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","lightning"],
-    "statOrder":[9166],
+    "statOrder":[9372],
     "weightKey":[],
     "weightVal":[],
     "1":"Damage Penetrates (10-15)% Lightning Resistance while affected by Wrath"
@@ -1396,7 +1396,7 @@
     "group":"WrathPhysicalAddedAsLightning",
     "level":1,
     "modTags":["physical_damage","elemental_damage","damage","physical","elemental","lightning"],
-    "statOrder":[8940],
+    "statOrder":[9142],
     "weightKey":[],
     "weightVal":[],
     "1":"Gain (15-25)% of Physical Damage as Extra Lightning Damage while affected by Wrath"
@@ -1406,7 +1406,7 @@
     "group":"WrathPhysicalConvertedToLightning",
     "level":1,
     "modTags":["physical_damage","elemental_damage","damage","physical","elemental","lightning"],
-    "statOrder":[4757],
+    "statOrder":[4860],
     "weightKey":[],
     "weightVal":[],
     "1":"(25-40)% of Physical Damage Converted to Lightning Damage while affected by Wrath"
@@ -1416,7 +1416,7 @@
     "group":"ZealotryCastSpeed",
     "level":1,
     "modTags":["caster","speed"],
-    "statOrder":[5065],
+    "statOrder":[5175],
     "weightKey":[],
     "weightVal":[],
     "1":"(10-15)% increased Cast Speed while affected by Zealotry"
@@ -1426,7 +1426,7 @@
     "group":"ZealotryConsecratedGroundEffectLingersForMsAfterLeavingTheArea",
     "level":1,
     "modTags":[],
-    "statOrder":[5443],
+    "statOrder":[5558],
     "weightKey":[],
     "weightVal":[],
     "1":"Effects of Consecrated Ground you create while affected by Zealotry Linger for 2 seconds"
@@ -1436,7 +1436,7 @@
     "group":"ZealotryConsecratedGroundEnemyDamageTaken",
     "level":1,
     "modTags":[],
-    "statOrder":[5440],
+    "statOrder":[5555],
     "weightKey":[],
     "weightVal":[],
     "1":"Consecrated Ground you create while affected by Zealotry causes enemies to take (8-10)% increased Damage"
@@ -1446,7 +1446,7 @@
     "group":"ZealotryCriticalStrikeChanceAgainstEnemiesOnConsecratedGround",
     "level":1,
     "modTags":["critical"],
-    "statOrder":[5506],
+    "statOrder":[5625],
     "weightKey":[],
     "weightVal":[],
     "1":"(100-120)% increased Critical Strike Chance against Enemies on Consecrated Ground while affected by Zealotry"
@@ -1456,7 +1456,7 @@
     "group":"ZealotryCriticalStrikesPenetratesElementalResistances",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","critical"],
-    "statOrder":[5566],
+    "statOrder":[5686],
     "weightKey":[],
     "weightVal":[],
     "1":"Critical Strikes Penetrate (8-10)% of Enemy Elemental Resistances while affected by Zealotry"
@@ -1466,7 +1466,7 @@
     "group":"ZealotryGainArcaneSurgeFor4SecondsWhenYouCreateConsecratedGround",
     "level":1,
     "modTags":[],
-    "statOrder":[6256],
+    "statOrder":[6388],
     "weightKey":[],
     "weightVal":[],
     "1":"Gain Arcane Surge for 4 seconds when you create Consecrated Ground while affected by Zealotry"
@@ -1476,7 +1476,7 @@
     "group":"ZealotryMaximumEnergyShieldPerSecondToMaximumEnergyShieldLeechRateOld",
     "level":1,
     "modTags":["defences","energy_shield"],
-    "statOrder":[1597],
+    "statOrder":[1617],
     "weightKey":[],
     "weightVal":[],
     "1":"30% increased Maximum total Energy Shield Recovery per second from Leech while affected by Zealotry"
@@ -1486,7 +1486,7 @@
     "group":"ZealotryMaximumEnergyShieldPerSecondToMaximumEnergyShieldLeechRate",
     "level":1,
     "modTags":["defences","energy_shield"],
-    "statOrder":[1596],
+    "statOrder":[1616],
     "weightKey":[],
     "weightVal":[],
     "1":"30% increased Maximum total Energy Shield Recovery per second from Leech while affected by Zealotry"

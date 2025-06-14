@@ -1350,7 +1350,7 @@
     "color":2,
     "constantStats":[["cast_linked_spells_on_attack_crit_%",100]],
     "description":"Must support both an attack skill and a spell skill to work. The attack skill will trigger a spell when it critically strikes an enemy. Cannot support totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[36,40,30,15],
+    "excludeSkillTypes":[36,40,30,15,134],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":72,
@@ -3395,7 +3395,7 @@
     "addSkillTypes":[41,101],
     "color":2,
     "description":"Must support both an attack skill and a spell skill to work. The attack skill will trigger a spell when it critically strikes an enemy. Cannot support totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[36,40,30,15,60],
+    "excludeSkillTypes":[36,40,30,15,60,134],
     "ignoreMinionTypes":true,
     "isTrigger":true,
     "levels":[{
@@ -3700,7 +3700,7 @@
     "addSkillTypes":[41,101],
     "color":2,
     "description":"Must support both an attack skill and a spell skill to work. The attack skill will trigger a spell when it critically strikes an enemy. Cannot support totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[36,40,30,15,60],
+    "excludeSkillTypes":[36,40,30,15,60,134],
     "ignoreMinionTypes":true,
     "isTrigger":true,
     "levels":[{
@@ -3887,7 +3887,7 @@
     "color":2,
     "constantStats":[["cast_linked_spells_on_attack_crit_%",100]],
     "description":"Must support both an attack skill and a spell skill to work. The attack skill will trigger a spell when it critically strikes an enemy. Cannot support totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[36,40,30,15],
+    "excludeSkillTypes":[36,40,30,15,134],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":38,
@@ -4037,7 +4037,7 @@
     "color":2,
     "constantStats":[["cast_on_death_%",100]],
     "description":"Each supported spell skill will be triggered when you die. Cannot support skills used by totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[9,36,40,30,43,60],
+    "excludeSkillTypes":[9,36,40,30,43,60,134],
     "isTrigger":true,
     "levels":[{
         "PvPDamageMultiplier":-85,
@@ -9902,7 +9902,7 @@
     "color":2,
     "constantStats":[["triggered_by_manaforged_arrows_support_%_chance",100],["support_manaforged_arrows_damage_+%_final_per_mana_spent",1],["support_manaforged_arrows_mana_cost_%_threshold",300]],
     "description":"Supports bow attack skills, causing them to trigger when you've spent enough mana in total on other bow attacks. Cannot modify the skills of minions. Cannot support totems, traps, mines, Vaal skills, or channelling skills",
-    "excludeSkillTypes":[36,40,30,15],
+    "excludeSkillTypes":[36,40,30,15,134],
     "ignoreMinionTypes":true,
     "isTrigger":true,
     "levels":[{
@@ -10246,7 +10246,7 @@
     "addSkillTypes":[41,101],
     "color":2,
     "description":"Supports mark curse skills.",
-    "excludeSkillTypes":[36,40,30,15,60],
+    "excludeSkillTypes":[36,40,30,15,60,134],
     "isTrigger":true,
     "levels":[{
         "cooldown":4,
@@ -12249,7 +12249,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports projectile skills.",
-    "excludeSkillTypes":[],
+    "excludeSkillTypes":[135],
     "levels":[{
         "levelRequirement":38,
         "manaMultiplier":50,
@@ -12264,192 +12264,192 @@
         "levelRequirement":42,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-69
+        "1":-70
       },{
         "levelRequirement":44,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-69
+        "1":-70
       },{
         "levelRequirement":46,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-68
+        "1":-69
       },{
         "levelRequirement":48,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-68
+        "1":-69
       },{
         "levelRequirement":50,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-67
+        "1":-69
       },{
         "levelRequirement":52,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-67
+        "1":-69
       },{
         "levelRequirement":54,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-66
+        "1":-68
       },{
         "levelRequirement":56,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-66
+        "1":-68
       },{
         "levelRequirement":58,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-65
+        "1":-68
       },{
         "levelRequirement":60,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-65
+        "1":-68
       },{
         "levelRequirement":62,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-64
+        "1":-67
       },{
         "levelRequirement":64,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-64
+        "1":-67
       },{
         "levelRequirement":65,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-63
+        "1":-67
       },{
         "levelRequirement":66,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-63
+        "1":-67
       },{
         "levelRequirement":67,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-62
+        "1":-66
       },{
         "levelRequirement":68,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-62
+        "1":-66
       },{
         "levelRequirement":69,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-61
+        "1":-66
       },{
         "levelRequirement":70,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-61
+        "1":-66
       },{
         "levelRequirement":72,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-60
+        "1":-65
       },{
         "levelRequirement":74,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-60
+        "1":-65
       },{
         "levelRequirement":76,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-59
+        "1":-65
       },{
         "levelRequirement":78,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-59
+        "1":-65
       },{
         "levelRequirement":80,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-58
+        "1":-64
       },{
         "levelRequirement":82,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-58
+        "1":-64
       },{
         "levelRequirement":84,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-57
+        "1":-64
       },{
         "levelRequirement":86,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-57
+        "1":-64
       },{
         "levelRequirement":88,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-56
+        "1":-63
       },{
         "levelRequirement":90,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-56
+        "1":-63
       },{
         "levelRequirement":91,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-56
+        "1":-63
       },{
         "levelRequirement":92,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-55
+        "1":-63
       },{
         "levelRequirement":93,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-55
+        "1":-63
       },{
         "levelRequirement":94,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-55
+        "1":-63
       },{
         "levelRequirement":95,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-55
+        "1":-63
       },{
         "levelRequirement":96,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-54
+        "1":-62
       },{
         "levelRequirement":97,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-54
+        "1":-62
       },{
         "levelRequirement":98,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-54
+        "1":-62
       },{
         "levelRequirement":99,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-54
+        "1":-62
       },{
         "levelRequirement":100,
         "manaMultiplier":50,
         "statInterpolation":[1],
-        "1":-53
+        "1":-62
       }],
     "name":"Returning Projectiles",
     "qualityStats":{
