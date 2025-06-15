@@ -7372,8 +7372,9 @@
   },
   "TriggeredSummonLesserShrine":{
     "baseFlags":{
-      "duration":true,
-      "spell":true
+      "area":true,
+      "attack":true,
+      "projectile":true
     },
     "baseMods":[{
         "flags":0,
