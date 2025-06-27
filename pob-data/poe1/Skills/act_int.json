@@ -88138,7 +88138,7 @@
         "2":39,
         "3":156
       }],
-    "minionList":["SkitterbotCold","SkitterbotLightning"],
+    "minionList":["SkitterbotCold","SkitterbotLightning","SkitterbotFire"],
     "name":"Summon Skitterbots",
     "qualityStats":{
       "Default":[["minion_movement_speed_+%",2]]
@@ -88397,6 +88397,9 @@
     "supportGemsOnly":true
   },
   "SupportBrandSupport":{
+    "addFlags":{
+      "brand":true
+    },
     "addSkillTypes":[41],
     "baseMods":[{
         "flags":0,

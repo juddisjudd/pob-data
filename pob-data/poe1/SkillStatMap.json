@@ -1505,6 +1505,12 @@
       "name":"ActiveTotemLimit",
       "type":"BASE"
     }],
+  "base_number_of_void_spawns_allowed":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"ActiveVoidSpawnLimit",
+      "type":"BASE"
+    }],
   "base_number_of_zombies_allowed":[{
       "flags":0,
       "keywordFlags":0,
@@ -2227,6 +2233,28 @@
         "actor":"enemy",
         "type":"ActorCondition",
         "var":"Maimed"
+      }
+    }],
+  "chance_to_cast_on_kill_%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SkillData",
+      "type":"LIST",
+      "value":{
+        "key":"triggeredBySquirmingTerror",
+        "value":true
+      },
+      "1":{
+        "skillType":35,
+        "type":"SkillType"
+      },
+      "2":{
+        "skillType":2,
+        "type":"SkillType"
+      },
+      "3":{
+        "type":"Condition",
+        "var":"KilledRecently"
       }
     }],
   "chance_to_deal_double_damage_%":[{
@@ -4919,6 +4947,16 @@
       "keywordFlags":0,
       "name":"SkillPhysicalDamageConvertToLightning",
       "type":"BASE"
+    }],
+  "skill_repeat_count":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"RepeatCount",
+      "type":"BASE",
+      "1":{
+        "skillType":26,
+        "type":"SkillType"
+      }
     }],
   "skill_triggered_by_snipe":[{
       "flags":0,

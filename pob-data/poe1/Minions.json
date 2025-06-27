@@ -11,6 +11,7 @@
     "fireResist":40,
     "life":4,
     "lightningResist":40,
+    "limit":"ActiveSentinelOfAbsolutionLimit",
     "modList":[],
     "monsterTags":["bludgeoning_weapon","caster","fast_movement","flesh_armour","has_one_hand_mace","has_one_handed_melee","human","humanoid","melee","not_dex","not_str","physical_affinity","templar"],
     "name":"Sentinel of Absolution",
@@ -29,6 +30,7 @@
     "fireResist":40,
     "life":4,
     "lightningResist":40,
+    "limit":"ActiveSentinelOfAbsolutionLimit",
     "modList":[{
         "flags":0,
         "keywordFlags":0,
@@ -94,6 +96,7 @@
     "fireResist":40,
     "life":4,
     "lightningResist":40,
+    "limit":"ActiveAnimatedWeaponLimit",
     "modList":[],
     "monsterTags":["construct","fast_movement","ghost_armour","is_unarmed","medium_height","melee","physical_affinity"],
     "name":"Animated Weapon",
@@ -177,6 +180,7 @@
     "fireResist":40,
     "life":4,
     "lightningResist":40,
+    "limit":"ActiveSentinelOfDominanceLimit",
     "modList":[{
         "flags":0,
         "keywordFlags":0,
@@ -208,6 +212,7 @@
     "fireResist":40,
     "life":4,
     "lightningResist":40,
+    "limit":"ActiveSentinelOfDominanceLimit",
     "modList":[{
         "flags":0,
         "keywordFlags":0,
@@ -651,6 +656,22 @@
     "name":"Chilling Skitterbot",
     "skillList":["SkitterbotDetonateMines","SkitterbotWait"]
   },
+  "SkitterbotFire":{
+    "accuracy":1,
+    "attackRange":6,
+    "attackTime":1,
+    "chaosResist":0,
+    "coldResist":0,
+    "damage":1,
+    "damageSpread":0,
+    "fireResist":0,
+    "life":1,
+    "lightningResist":0,
+    "modList":[],
+    "monsterTags":["construct","extra_extra_small_height","is_unarmed","non_attacking","stone_armour","very_fast_movement"],
+    "name":"Scorching Skitterbot",
+    "skillList":["SkitterbotDetonateMines","SkitterbotWait"]
+  },
   "SkitterbotLightning":{
     "accuracy":1,
     "attackRange":6,
@@ -967,6 +988,7 @@
     "fireResist":40,
     "life":3.74,
     "lightningResist":40,
+    "limit":"ActiveReaperLimit",
     "modList":[],
     "monsterTags":["bone_armour","bones","fast_movement","has_dual_wield_melee","has_one_hand_sword","has_one_handed_melee","melee","not_int","physical_affinity","skeleton","slashing_weapon","undead"],
     "name":"Reaper",
@@ -1035,6 +1057,7 @@
     "fireResist":40,
     "life":5,
     "lightningResist":40,
+    "limit":"ActiveAnimatedWeaponLimit",
     "modList":[{
         "flags":0,
         "keywordFlags":0,
@@ -1069,5 +1092,23 @@
     "monsterTags":["construct","fast_movement","ghost_armour","is_unarmed","medium_height","physical_affinity"],
     "name":"Dancing Dervish",
     "skillList":["Melee","DancingDervishCycloneChannelled"]
+  },
+  "VoidSpawn":{
+    "accuracy":1,
+    "attackRange":9,
+    "attackTime":1,
+    "chaosResist":20,
+    "coldResist":30,
+    "damage":1.5,
+    "damageSpread":0.2,
+    "energyShield":0.2,
+    "fireResist":30,
+    "life":3,
+    "lightningResist":30,
+    "limit":"ActiveVoidSpawnLimit",
+    "modList":[],
+    "monsterTags":["caster","construct","elder_monster","eldritch","extra_large_height","flesh_armour","influence_monster","is_unarmed","lightning_affinity","medium_movement","not_dex","not_str","ranged","red_blood"],
+    "name":"Void Spawn",
+    "skillList":["ElderTentacleMinionProjectileDeepcaller"]
   }
 }

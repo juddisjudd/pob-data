@@ -4114,6 +4114,136 @@
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["display_this_skill_cooldown_does_not_recover_during_buff"]
   },
+  "ShaperApparitionBeam":{
+    "baseEffectiveness":9,
+    "baseFlags":{
+      "duration":true,
+      "spell":true
+    },
+    "baseMods":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"showAverage",
+          "value":true
+        }
+      }],
+    "castTime":1,
+    "color":4,
+    "constantStats":[["skill_disabled_unless_cloned",3],["base_skill_effect_duration",3000]],
+    "description":"Shaper's Memory casts this spell for you to fire a damaging beam for a duration that deals damage over time to things in it.",
+    "fromItem":true,
+    "hidden":true,
+    "incrementalEffectiveness":0.052000001072884,
+    "levels":{
+      "20":{
+        "levelRequirement":72,
+        "statInterpolation":[3,3,3],
+        "1":50.000001117587,
+        "2":50.000001117587,
+        "3":50.000001117587
+      }
+    },
+    "name":"Shaper's Ire",
+    "skillTypes":{
+      "2":true,
+      "12":true,
+      "32":true,
+      "33":true,
+      "34":true,
+      "39":true,
+      "58":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["base_fire_damage_to_deal_per_minute","base_cold_damage_to_deal_per_minute","base_lightning_damage_to_deal_per_minute","spell_damage_modifiers_apply_to_skill_dot"]
+  },
+  "ShaperApparitionProjectiles":{
+    "baseEffectiveness":4,
+    "baseFlags":{
+      "projectile":true,
+      "spell":true
+    },
+    "baseMods":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"showAverage",
+          "value":true
+        }
+      }],
+    "castTime":1.4,
+    "color":4,
+    "constantStats":[["skill_disabled_unless_cloned",3],["skill_repeat_count",2],["display_fires_x_times",3]],
+    "description":"Shaper's Memory casts this spell for you to fire piercing projectiles in front of you that deal cold damage.",
+    "fromItem":true,
+    "hidden":true,
+    "incrementalEffectiveness":0.052000001072884,
+    "levels":{
+      "20":{
+        "levelRequirement":72,
+        "statInterpolation":[3,3,1],
+        "1":0.80000001192093,
+        "2":1.2000000476837,
+        "3":200
+      }
+    },
+    "name":"Shaper's Despair",
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "10":true,
+      "26":true,
+      "33":true,
+      "67":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","base_reduce_enemy_cold_resistance_%","base_is_projectile","always_pierce","projectile_uses_contact_position"]
+  },
+  "ShaperApparitionTeleportSlam":{
+    "baseFlags":{
+      "area":true,
+      "attack":true,
+      "melee":true
+    },
+    "baseMods":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"showAverage",
+          "value":true
+        }
+      }],
+    "castTime":2,
+    "color":4,
+    "constantStats":[["skill_disabled_unless_cloned",3],["active_skill_ailment_damage_+%_final",-70]],
+    "description":"Shaper's Memory uses this attack for you to teleport to an enemy and attack with a powerful blow, dealing area damage based on your weapon.",
+    "fromItem":true,
+    "hidden":true,
+    "levels":{
+      "20":{
+        "baseMultiplier":41,
+        "damageEffectiveness":41,
+        "levelRequirement":72,
+        "statInterpolation":[1],
+        "1":25
+      }
+    },
+    "name":"Shaper's Devastation",
+    "skillTypes":{
+      "1":true,
+      "11":true,
+      "24":true,
+      "37":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["active_skill_attack_speed_+%_final","is_area_damage","global_always_hit"]
+  },
   "ShieldShatter":{
     "baseEffectiveness":0.68000000715256,
     "baseFlags":{
@@ -5834,6 +5964,26 @@
     },
     "stats":["radiant_sentinel_minion_burning_effect_radius","radiant_sentinel_minion_fire_%_of_life_to_deal_nearby_per_minute"]
   },
+  "SummonShaperApparition":{
+    "baseFlags":{
+      "spell":true
+    },
+    "castTime":1,
+    "color":4,
+    "constantStats":[["display_shaper_memory_uses_skill_once",1]],
+    "description":"Consume Remembrance to summon a memory of the Shaper, which will use a skill once before fading away.",
+    "fromItem":true,
+    "hidden":true,
+    "levels":{
+      "20":{
+        "levelRequirement":0
+      }
+    },
+    "name":"Summon Shaper Memory",
+    "skillTypes":[null,true],
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":[]
+  },
   "SummonSpectralWolf":{
     "baseFlags":{
       "duration":true,
@@ -5966,6 +6116,52 @@
     },
     "statDescriptionScope":"minion_spell_skill_stat_descriptions",
     "stats":["base_deal_no_damage","spell_uncastable_if_triggerable"]
+  },
+  "SummonVoidSpawn":{
+    "baseFlags":{
+      "minion":true,
+      "spell":true
+    },
+    "castTime":1,
+    "color":3,
+    "constantStats":[["base_number_of_void_spawns_allowed",4],["display_minion_monster_type",27],["void_spawn_withered_on_hit_chance_%",100],["void_spawn_withered_base_duration_ms",2000],["triggered_by_item_buff",1]],
+    "description":"Summon a Void Spawn minion, which casts a lightning projectile spell with a chance to shock enemies.",
+    "fromItem":true,
+    "hidden":true,
+    "levels":{
+      "20":{
+        "levelRequirement":70,
+        "statInterpolation":[1],
+        "1":70
+      }
+    },
+    "minionList":["VoidSpawn"],
+    "minionSkillTypes":{
+      "1":true,
+      "3":true,
+      "47":true,
+      "67":true
+    },
+    "name":"Summon Void Spawn",
+    "skillTypes":{
+      "2":true,
+      "9":true,
+      "26":true,
+      "35":true,
+      "80":true,
+      "88":true
+    },
+    "statDescriptionScope":"minion_spell_skill_stat_descriptions",
+    "statMap":{
+      "void_spawn_withered_on_hit_chance_%":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Condition:CanWither",
+          "type":"FLAG",
+          "value":true
+        }]
+    },
+    "stats":["base_display_minion_actor_level","infinite_minion_duration"]
   },
   "SupportBloodMagicUniquePrismGuardian":{
     "addSkillTypes":[],
@@ -6978,6 +7174,26 @@
     "stats":["triggered_skill_uses_main_hand_or_averaged_attack_time_for_pvp_scaling","skill_has_trigger_from_unique_item"],
     "support":true
   },
+  "SupportTriggerSpellOnKill":{
+    "addSkillTypes":[41,101],
+    "color":4,
+    "excludeSkillTypes":[36,40,30,43,60],
+    "fromItem":true,
+    "hidden":true,
+    "isTrigger":true,
+    "levels":[{
+        "cooldown":0.5,
+        "levelRequirement":1,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":20
+      }],
+    "name":"Squirming Terror",
+    "requireSkillTypes":[2,35,84],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "stats":["chance_to_cast_on_kill_%"],
+    "support":true
+  },
   "SupportTriggerSpellOnSkillUse":{
     "addSkillTypes":[41,101],
     "color":4,
@@ -7003,6 +7219,61 @@
     "requireSkillTypes":[2,35,84],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":[],
+    "support":true
+  },
+  "SupportTriggerSpellOnUnarmedMeleeCriticalHit":{
+    "addSkillTypes":[41,101],
+    "color":4,
+    "excludeSkillTypes":[36,40,30,43,60],
+    "fromItem":true,
+    "hidden":true,
+    "isTrigger":true,
+    "levels":[{
+        "cooldown":0.25,
+        "levelRequirement":1,
+        "storedUses":1
+      }],
+    "name":"Seven Teachings",
+    "requireSkillTypes":[2,35,84],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "spell_is_triggered_on_hit":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillData",
+          "type":"LIST",
+          "value":{
+            "key":"triggeredBySevenTeachings",
+            "value":true
+          },
+          "1":{
+            "skillType":35,
+            "type":"SkillType"
+          },
+          "2":{
+            "skillType":2,
+            "type":"SkillType"
+          }
+        },{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillData",
+          "type":"LIST",
+          "value":{
+            "key":"triggerOnCrit",
+            "value":true
+          },
+          "1":{
+            "skillType":35,
+            "type":"SkillType"
+          },
+          "2":{
+            "skillType":2,
+            "type":"SkillType"
+          }
+        }]
+    },
+    "stats":["spell_is_triggered_on_hit"],
     "support":true
   },
   "SupportUniqueCastCurseOnCurse":{

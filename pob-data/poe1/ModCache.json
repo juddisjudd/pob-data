@@ -143,6 +143,19 @@
           "var":"Unarmed"
         }
       }]],
+  "+0 metres to Melee Strike Range with Unarmed Attacks":[[{
+        "flags":16777220,
+        "keywordFlags":0,
+        "name":"MeleeWeaponRangeMetre",
+        "type":"BASE",
+        "value":0
+      },{
+        "flags":16777220,
+        "keywordFlags":0,
+        "name":"UnarmedRangeMetre",
+        "type":"BASE",
+        "value":0
+      }]],
   "+0 seconds to Avian's Flight Duration":[[{
         "flags":0,
         "keywordFlags":0,
@@ -443,6 +456,19 @@
           "var":"NearbyEnemies"
         }
       }]],
+  "+0.4 metres to Melee Strike Range with Unarmed Attacks":[[{
+        "flags":16777220,
+        "keywordFlags":0,
+        "name":"MeleeWeaponRangeMetre",
+        "type":"BASE",
+        "value":0.4
+      },{
+        "flags":16777220,
+        "keywordFlags":0,
+        "name":"UnarmedRangeMetre",
+        "type":"BASE",
+        "value":0.4
+      }]],
   "+0.5% to Critical Strike Chance per Poison affecting Enemy, up to +2.0%":[[{
         "flags":0,
         "keywordFlags":0,
@@ -456,6 +482,19 @@
           "type":"Multiplier",
           "var":"PoisonStack"
         }
+      }]],
+  "+0.7 metres to Melee Strike Range with Unarmed Attacks":[[{
+        "flags":16777220,
+        "keywordFlags":0,
+        "name":"MeleeWeaponRangeMetre",
+        "type":"BASE",
+        "value":0.7
+      },{
+        "flags":16777220,
+        "keywordFlags":0,
+        "name":"UnarmedRangeMetre",
+        "type":"BASE",
+        "value":0.7
       }]],
   "+0.75% to Critical Strike Chance":[[{
         "flags":0,
@@ -525,6 +564,19 @@
           "stat":"Str",
           "type":"PerStat"
         }
+      }]],
+  "+1 metres to Melee Strike Range with Unarmed Attacks":[[{
+        "flags":16777220,
+        "keywordFlags":0,
+        "name":"MeleeWeaponRangeMetre",
+        "type":"BASE",
+        "value":1
+      },{
+        "flags":16777220,
+        "keywordFlags":0,
+        "name":"UnarmedRangeMetre",
+        "type":"BASE",
+        "value":1
       }]],
   "+1 second to Summon Skeleton Cooldown":[[]," second to Summon  Cooldown "],
   "+1 to Level of Socketed Active Skill Gems":[[{
@@ -799,6 +851,23 @@
           "value":1
         }
       }]],
+  "+1 to Level of all Chaos Skill Gems if 6 Hunter Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"chaos",
+          "value":1
+        },
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"HunterItem"
+        }
+      }]],
   "+1 to Level of all Chaos Spell Skill Gems":[[{
         "flags":0,
         "keywordFlags":0,
@@ -819,6 +888,23 @@
           "key":"level",
           "keywordList":["cold","skill"],
           "value":1
+        }
+      }]],
+  "+1 to Level of all Cold Skill Gems if 6 Redeemer Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"cold",
+          "value":1
+        },
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"RedeemerItem"
         }
       }]],
   "+1 to Level of all Cold Spell Skill Gems":[[{
@@ -843,6 +929,23 @@
           "value":1
         }
       }]],
+  "+1 to Level of all Fire Skill Gems if 6 Warlord Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"fire",
+          "value":1
+        },
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"WarlordItem"
+        }
+      }]],
   "+1 to Level of all Fire Spell Skill Gems":[[{
         "flags":0,
         "keywordFlags":0,
@@ -865,6 +968,23 @@
           "value":1
         }
       }]],
+  "+1 to Level of all Lightning Skill Gems if 6 Crusader Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"lightning",
+          "value":1
+        },
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"CrusaderItem"
+        }
+      }]],
   "+1 to Level of all Lightning Spell Skill Gems":[[{
         "flags":0,
         "keywordFlags":0,
@@ -885,6 +1005,23 @@
           "key":"level",
           "keywordList":["minion","skill"],
           "value":1
+        }
+      }]],
+  "+1 to Level of all Physical Skill Gems if 6 Elder Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"physical",
+          "value":1
+        },
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"ElderItem"
         }
       }]],
   "+1 to Level of all Physical Spell Skill Gems":[[{
@@ -975,6 +1112,23 @@
           "value":1
         }
       }]],
+  "+1 to Level of all non-Exceptional Support Gems if 6 Shaper Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"non-exceptional",
+          "value":1
+        },
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"ShaperItem"
+        }
+      }]],
   "+1 to Maximum Endurance Charge":[[{
         "flags":0,
         "keywordFlags":0,
@@ -988,6 +1142,18 @@
         "name":"EnduranceChargesMax",
         "type":"BASE",
         "value":1
+      }]],
+  "+1 to Maximum Endurance Charges if 6 Warlord Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnduranceChargesMax",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"WarlordItem"
+        }
       }]],
   "+1 to Maximum Endurance Charges while affected by Determination":[[{
         "flags":0,
@@ -1036,6 +1202,18 @@
         "name":"FrenzyChargesMax",
         "type":"BASE",
         "value":1
+      }]],
+  "+1 to Maximum Frenzy Charges if 6 Redeemer Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FrenzyChargesMax",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"RedeemerItem"
+        }
       }]],
   "+1 to Maximum Frenzy Charges while affected by Grace":[[{
         "flags":0,
@@ -1098,6 +1276,18 @@
         "name":"EnduranceChargesMax",
         "type":"BASE",
         "value":1
+      }]],
+  "+1 to Maximum Power Charges if 6 Crusader Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PowerChargesMax",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"CrusaderItem"
+        }
       }]],
   "+1 to Maximum Power Charges while affected by Discipline":[[{
         "flags":0,
@@ -1803,6 +1993,18 @@
           "stat":"PowerCharges",
           "thresholdStat":"PowerChargesMax",
           "type":"StatThreshold"
+        }
+      }]],
+  "+1.5% to Spell Critical Strike Chance if 4 Shaper Items are Equipped":[[{
+        "flags":2,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"BASE",
+        "value":1.5,
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"ShaperItem"
         }
       }]],
   "+1.8% to Critical Strike Chance while affected by Hatred":[[{
@@ -4558,31 +4760,6 @@
         "type":"BASE",
         "value":17
       }]],
-  "+17 to all Attributes":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Str",
-        "type":"BASE",
-        "value":17
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Dex",
-        "type":"BASE",
-        "value":17
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Int",
-        "type":"BASE",
-        "value":17
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"All",
-        "type":"BASE",
-        "value":17
-      }]],
   "+17% to Chaos Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -5296,6 +5473,38 @@
           "value":2
         }
       }]],
+  "+2 to Level of all Elemental Skill Gems if the stars are aligned":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keywordList":["elemental","grants_active_skill"],
+          "value":2
+        },
+        "1":{
+          "type":"Condition",
+          "var":"StarsAreAligned"
+        }
+      }]],
+  "+2 to Level of all Elemental Support Gems if the stars are aligned":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keywordList":["elemental","support"],
+          "value":2
+        },
+        "1":{
+          "type":"Condition",
+          "var":"StarsAreAligned"
+        }
+      }]],
   "+2 to Level of all Fire Spell Skill Gems":[[{
         "flags":0,
         "keywordFlags":0,
@@ -5609,6 +5818,18 @@
           "var":"AffectedByHatred"
         }
       }]],
+  "+2% to Spell Critical Strike Chance if 4 Shaper Items are Equipped":[[{
+        "flags":2,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"BASE",
+        "value":2,
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"ShaperItem"
+        }
+      }]],
   "+2% to all Elemental Resistances per 10 Devotion":[[{
         "flags":0,
         "keywordFlags":0,
@@ -5628,6 +5849,18 @@
         "name":"ElementalResistMax",
         "type":"BASE",
         "value":2
+      }]],
+  "+2% to all maximum Elemental Resistances if 6 Shaper Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ElementalResistMax",
+        "type":"BASE",
+        "value":2,
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"ShaperItem"
+        }
       }]],
   "+2% to all maximum Resistances":[[{
         "flags":0,
@@ -6947,6 +7180,25 @@
         "type":"BASE",
         "value":25
       }]],
+  "+25 to Dexterity and Intelligence":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Dex",
+        "type":"BASE",
+        "value":25
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Int",
+        "type":"BASE",
+        "value":25
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DexInt",
+        "type":"BASE",
+        "value":25
+      }]],
   "+25 to Intelligence":[[{
         "flags":0,
         "keywordFlags":0,
@@ -7537,6 +7789,13 @@
         "type":"BASE",
         "value":270
       }]],
+  "+28 to Dexterity":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Dex",
+        "type":"BASE",
+        "value":28
+      }]],
   "+28 to Dexterity and Intelligence":[[{
         "flags":0,
         "keywordFlags":0,
@@ -7900,6 +8159,38 @@
           "value":3
         }
       }]],
+  "+3 to Level of all Elemental Skill Gems if the stars are aligned":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keywordList":["elemental","grants_active_skill"],
+          "value":3
+        },
+        "1":{
+          "type":"Condition",
+          "var":"StarsAreAligned"
+        }
+      }]],
+  "+3 to Level of all Elemental Support Gems if the stars are aligned":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keywordList":["elemental","support"],
+          "value":3
+        },
+        "1":{
+          "type":"Condition",
+          "var":"StarsAreAligned"
+        }
+      }]],
   "+3 to Level of all Fire Spell Skill Gems":[[{
         "flags":0,
         "keywordFlags":0,
@@ -8253,12 +8544,36 @@
         "type":"BASE",
         "value":3
       }]],
+  "+3% to maximum Chance to Block Attack Damage if 4 Elder Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"BlockChanceMax",
+        "type":"BASE",
+        "value":3,
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"ElderItem"
+        }
+      }]],
   "+3% to maximum Chance to Block Spell Damage":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"SpellBlockChanceMax",
         "type":"BASE",
         "value":3
+      }]],
+  "+3% to maximum Chance to Block Spell Damage if 4 Shaper Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SpellBlockChanceMax",
+        "type":"BASE",
+        "value":3,
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"ShaperItem"
+        }
       }]],
   "+3% to maximum Chaos Resistance":[[{
         "flags":0,
@@ -8267,12 +8582,36 @@
         "type":"BASE",
         "value":3
       }]],
+  "+3% to maximum Chaos Resistance if 4 Hunter Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChaosResistMax",
+        "type":"BASE",
+        "value":3,
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"HunterItem"
+        }
+      }]],
   "+3% to maximum Cold Resistance":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"ColdResistMax",
         "type":"BASE",
         "value":3
+      }]],
+  "+3% to maximum Cold Resistance if 4 Redeemer Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ColdResistMax",
+        "type":"BASE",
+        "value":3,
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"RedeemerItem"
+        }
       }]],
   "+3% to maximum Fire Resistance":[[{
         "flags":0,
@@ -8281,12 +8620,36 @@
         "type":"BASE",
         "value":3
       }]],
+  "+3% to maximum Fire Resistance if 4 Warlord Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireResistMax",
+        "type":"BASE",
+        "value":3,
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"WarlordItem"
+        }
+      }]],
   "+3% to maximum Lightning Resistance":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"LightningResistMax",
         "type":"BASE",
         "value":3
+      }]],
+  "+3% to maximum Lightning Resistance if 4 Crusader Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LightningResistMax",
+        "type":"BASE",
+        "value":3,
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"CrusaderItem"
+        }
       }]],
   "+30 Energy Shield gained on Killing a Shocked Enemy":[[{
         "flags":0,
@@ -8318,6 +8681,25 @@
         "flags":0,
         "keywordFlags":0,
         "name":"Dex",
+        "type":"BASE",
+        "value":30
+      }]],
+  "+30 to Dexterity and Intelligence":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Dex",
+        "type":"BASE",
+        "value":30
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Int",
+        "type":"BASE",
+        "value":30
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DexInt",
         "type":"BASE",
         "value":30
       }]],
@@ -8488,14 +8870,10 @@
       }]],
   "+30% to Brand Critical Strike Multiplier":[[{
         "flags":0,
-        "keywordFlags":0,
+        "keywordFlags":1048576,
         "name":"CritMultiplier",
         "type":"BASE",
-        "value":30,
-        "1":{
-          "skillType":75,
-          "type":"SkillType"
-        }
+        "value":30
       }]],
   "+30% to Chaos Resistance":[[{
         "flags":0,
@@ -8875,6 +9253,13 @@
         "type":"BASE",
         "value":32
       }]],
+  "+32% to Chaos Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChaosResist",
+        "type":"BASE",
+        "value":32
+      }]],
   "+32% to Fire Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -8907,13 +9292,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"Life",
-        "type":"BASE",
-        "value":33
-      }]],
-  "+33 to Strength":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Str",
         "type":"BASE",
         "value":33
       }]],
@@ -9460,6 +9838,17 @@
           "type":"SocketedIn"
         }
       }]],
+  "+4 to Level of all Spell Skill Gems":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keywordList":["spell","skill"],
+          "value":4
+        }
+      }]],
   "+4 to Maximum Fanatic Charges":[[]," Maximum Fanatic Charges "],
   "+4 to Minimum Endurance Charges":[[{
         "flags":0,
@@ -9497,6 +9886,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"All",
+        "type":"BASE",
+        "value":4
+      }]],
+  "+4 to maximum number of Summoned Totems":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveTotemLimit",
         "type":"BASE",
         "value":4
       }]],
@@ -9723,6 +10119,13 @@
           "stat":"EnergyShieldOnWeapon 2",
           "type":"PerStat"
         }
+      }]],
+  "+4% to Unarmed Melee Attack Critical Strike Chance":[[{
+        "flags":16777477,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"BASE",
+        "value":4
       }]],
   "+4% to all Elemental Resistances":[[{
         "flags":0,
@@ -10113,10 +10516,24 @@
         "type":"BASE",
         "value":400
       }]],
+  "+400 to Armour and Evasion Rating":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArmourAndEvasion",
+        "type":"BASE",
+        "value":400
+      }]],
   "+400 to Evasion Rating":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"Evasion",
+        "type":"BASE",
+        "value":400
+      }]],
+  "+400 to maximum Energy Shield":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"BASE",
         "value":400
       }]],
@@ -10234,6 +10651,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"EnergyShield",
+        "type":"BASE",
+        "value":44
+      }]],
+  "+44% to Critical Strike Multiplier with Unarmed Melee Attack":[[{
+        "flags":16777472,
+        "keywordFlags":0,
+        "name":"CritMultiplier",
         "type":"BASE",
         "value":44
       }]],
@@ -10487,13 +10911,6 @@
         "type":"BASE",
         "value":48
       }]],
-  "+49 to Strength":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Str",
-        "type":"BASE",
-        "value":49
-      }]],
   "+5 Physical Damage taken from Attack Hits":[[{
         "flags":0,
         "keywordFlags":0,
@@ -10613,6 +11030,17 @@
           "type":"SocketedIn"
         }
       }]],
+  "+5 to Level of all Spell Skill Gems":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keywordList":["spell","skill"],
+          "value":5
+        }
+      }]],
   "+5 to Maximum Rage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -10677,6 +11105,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"MaximumValour",
+        "type":"BASE",
+        "value":5
+      }]],
+  "+5 to maximum number of Summoned Totems":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveTotemLimit",
         "type":"BASE",
         "value":5
       }]],
@@ -11373,6 +11808,13 @@
           "var":"Frozen"
         }
       }]],
+  "+51 to maximum Life":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Life",
+        "type":"BASE",
+        "value":51
+      }]],
   "+51 to maximum Mana":[[{
         "flags":0,
         "keywordFlags":0,
@@ -11469,6 +11911,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"Int",
+        "type":"BASE",
+        "value":55
+      }]],
+  "+55 to Maximum Mana":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Mana",
         "type":"BASE",
         "value":55
       }]],
@@ -12191,13 +12640,6 @@
         "type":"BASE",
         "value":650
       }]],
-  "+66 to Maximum Mana":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Mana",
-        "type":"BASE",
-        "value":66
-      }]],
   "+665 to Accuracy Rating":[[{
         "flags":0,
         "keywordFlags":0,
@@ -12325,6 +12767,13 @@
         "type":"BASE",
         "value":70
       }]],
+  "+70 to Maximum Mana":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Mana",
+        "type":"BASE",
+        "value":70
+      }]],
   "+70 to Strength":[[{
         "flags":0,
         "keywordFlags":0,
@@ -12434,6 +12883,13 @@
         "type":"BASE",
         "value":75
       }]],
+  "+75 to maximum Energy Shield":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
+        "type":"BASE",
+        "value":75
+      }]],
   "+75 to maximum Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -12491,6 +12947,13 @@
         "name":"LightningResist",
         "type":"BASE",
         "value":75
+      }]],
+  "+77% to Critical Strike Multiplier with Unarmed Melee Attack":[[{
+        "flags":16777472,
+        "keywordFlags":0,
+        "name":"CritMultiplier",
+        "type":"BASE",
+        "value":77
       }]],
   "+78 to maximum Energy Shield":[[{
         "flags":0,
@@ -17787,6 +18250,42 @@
         "type":"BASE",
         "value":1.6
       }]],
+  "10 to 24 Added Physical Damage with Bow Attacks":[[{
+        "flags":131076,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
+        "type":"BASE",
+        "value":10
+      },{
+        "flags":131076,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":24
+      }]],
+  "10 to 25 Added Attack Chaos Damage per 100 Maximum Mana":[[{
+        "flags":0,
+        "keywordFlags":65536,
+        "name":"ChaosMin",
+        "type":"BASE",
+        "value":10,
+        "1":{
+          "div":100,
+          "stat":"Mana",
+          "type":"PerStat"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":65536,
+        "name":"ChaosMax",
+        "type":"BASE",
+        "value":25,
+        "1":{
+          "div":100,
+          "stat":"Mana",
+          "type":"PerStat"
+        }
+      }]],
   "10% Chance for Traps to Trigger an additional time":[[],"  to Trigger an additional time "],
   "10% Chance to Block Attack Damage":[[{
         "flags":0,
@@ -18315,6 +18814,13 @@
           "var":"KilledRecently"
         }
       }]," to Trigger Summon Spirit of Akoya  +20 to  "],
+  "10% chance to avoid Projectiles":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AvoidProjectilesChance",
+        "type":"BASE",
+        "value":10
+      }]],
   "10% chance to cause Bleeding on Hit":[[{
         "flags":0,
         "keywordFlags":0,
@@ -18947,14 +19453,10 @@
       }]],
   "10% increased Brand Damage":[[{
         "flags":0,
-        "keywordFlags":0,
+        "keywordFlags":1048576,
         "name":"Damage",
         "type":"INC",
-        "value":10,
-        "1":{
-          "skillType":75,
-          "type":"SkillType"
-        }
+        "value":10
       }]],
   "10% increased Burning Damage for each time you have Shocked a Non-Shocked Enemy Recently, up to a maximum of 120%":[[{
         "flags":0,
@@ -20596,6 +21098,18 @@
         "type":"BASE",
         "value":10
       }],"  you Reflect to Enemies when Hit is gained as Life "],
+  "10% of Elemental taken as Chaos Damage if 4 Hunter Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ElementalDamageTakenAsChaos",
+        "type":"BASE",
+        "value":10,
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"HunterItem"
+        }
+      }]],
   "10% of Fire Damage from Hits taken as Physical Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -20700,6 +21214,42 @@
         "1":{
           "type":"Condition",
           "var":"AffectedByPurityofLightning"
+        }
+      }]],
+  "10% of Physical Damage taken as Cold Damage if 4 Redeemer Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageTakenAsCold",
+        "type":"BASE",
+        "value":10,
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"RedeemerItem"
+        }
+      }]],
+  "10% of Physical Damage taken as Fire Damage if 4 Warlord Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageTakenAsFire",
+        "type":"BASE",
+        "value":10,
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"WarlordItem"
+        }
+      }]],
+  "10% of Physical Damage taken as Lightning Damage if 4 Crusader Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageTakenAsLightning",
+        "type":"BASE",
+        "value":10,
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"CrusaderItem"
         }
       }]],
   "10% reduced Armour per 50 Strength":[[{
@@ -21324,6 +21874,13 @@
   "100% increased Charges gained by Other Flasks during Effect":[[]," Charges gained by Other Flasks  "],
   "100% increased Charges gained by Other Flasks during Effect 100% increased Charges gained by Other Flasks during Effect":[[]," Charges gained by Other Flasks  100% increased Charges gained by Other Flasks  "],
   "100% increased Charges gained by Other Flasks during Effect Gains no Charges during Effect of any Overflowing Chalice Flask":[[]," Charges gained by Other Flasks  Gains no Charges  of any Overflowing Chalice Flask "],
+  "100% increased Charges per Use":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FlaskChargesUsed",
+        "type":"INC",
+        "value":100
+      }]],
   "100% increased Charges per use":[[{
         "flags":0,
         "keywordFlags":0,
@@ -22927,14 +23484,10 @@
       }]],
   "12% increased Brand Damage":[[{
         "flags":0,
-        "keywordFlags":0,
+        "keywordFlags":1048576,
         "name":"Damage",
         "type":"INC",
-        "value":12,
-        "1":{
-          "skillType":75,
-          "type":"SkillType"
-        }
+        "value":12
       }]],
   "12% increased Burning Damage":[[{
         "flags":0,
@@ -23913,13 +24466,6 @@
         "type":"INC",
         "value":120
       }]],
-  "121% increased Armour":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Armour",
-        "type":"INC",
-        "value":121
-      }]],
   "122% increased Physical Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -24196,6 +24742,18 @@
           "type":"Global"
         }
       }]],
+  "13% increased Intelligence if 2 Crusader Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Int",
+        "type":"INC",
+        "value":13,
+        "1":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"CrusaderItem"
+        }
+      }]],
   "13% increased Life Recovery rate":[[{
         "flags":0,
         "keywordFlags":0,
@@ -24318,6 +24876,13 @@
         "name":"Mana",
         "type":"INC",
         "value":-13
+      }]],
+  "130% increased Armour":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Armour",
+        "type":"INC",
+        "value":130
       }]],
   "130% increased Armour and Energy Shield":[[{
         "flags":0,
@@ -24551,14 +25116,10 @@
       }]],
   "14% increased Brand Damage":[[{
         "flags":0,
-        "keywordFlags":0,
+        "keywordFlags":1048576,
         "name":"Damage",
         "type":"INC",
-        "value":14,
-        "1":{
-          "skillType":75,
-          "type":"SkillType"
-        }
+        "value":14
       }]],
   "14% increased Chaos Damage":[[{
         "flags":0,
@@ -24628,13 +25189,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ArmourAndEvasion",
-        "type":"INC",
-        "value":14
-      }]],
-  "14% increased Fire Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireDamage",
         "type":"INC",
         "value":14
       }]],
@@ -25137,6 +25691,8 @@
         "type":"BASE",
         "value":15
       }]],
+  "15% chance to gain a Frenzy Charge on Hit if 4 Redeemer Items are Equipped":[null,"a Frenzy Charge on Hit  "],
+  "15% chance to gain a Frenzy Charge on Hit if 4 Redeemer Items are Equipped 10% of Physical Damage taken as Cold Damage if 4 Redeemer Items are Equipped":[null,"a Frenzy Charge on Hit  10% of Physical Damage taken as Cold Damage  "],
   "15% chance to gain a Frenzy Charge on Kill":[null,"a Frenzy Charge  "],
   "15% chance to gain a Frenzy Charge on Kill Each Rage also grants +1% to Damage over Time Multiplier for Bleeding while wielding an Axe":[null,"a Frenzy Charge  Each Rage also grants +1% to Damage over Time Multiplier for Bleeding  "],
   "15% chance to gain a Frenzy Charge when you Stun an Enemy":[null,"a Frenzy Charge when you Stun an Enemy "],
@@ -25158,6 +25714,8 @@
         }
       }],"aCharge  30% chance to gain   when your  is triggered by an Enemy "],
   "15% chance to gain a Power Charge on Critical Strike":[null,"a Power Charge "],
+  "15% chance to gain a Power Charge on Hit if 4 Crusader Items are Equipped":[null,"a Power Charge on Hit  "],
+  "15% chance to gain a Power Charge on Hit if 4 Crusader Items are Equipped Cannot take Reflected Physical Damage if 4 Elder Items are Equipped":[null,"a Power Charge on Hit  Cannot take Reflected Physical Damage  "],
   "15% chance to gain a Power Charge on Kill":[null,"a Power Charge  "],
   "15% chance to gain a Power Charge on Killing an Enemy affected by fewer than 5 Poisons":[null,"a Power Charge ing an Enemy affected by fewer than 5 Poisons "],
   "15% chance to gain a Power Charge on Killing an Enemy affected by fewer than 5 Poisons 10% increased Damage with Poison per Frenzy Charge":[null,"a Power Charge ing an Enemy affected by fewer than 5 Poisons 10% increased Damage with Poison  "],
@@ -25271,6 +25829,17 @@
         "1":{
           "type":"Condition",
           "var":"StunnedEnemyRecently"
+        }
+      }]],
+  "15% increased Area of Effect of Aura Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AreaOfEffect",
+        "type":"INC",
+        "value":15,
+        "1":{
+          "skillType":43,
+          "type":"SkillType"
         }
       }]],
   "15% increased Area of Effect of Hex Skills":[[{
@@ -25524,6 +26093,51 @@
         "name":"All",
         "type":"INC",
         "value":15
+      }]],
+  "15% increased Attributes if 6 Elder Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Str",
+        "type":"INC",
+        "value":15,
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"ElderItem"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Dex",
+        "type":"INC",
+        "value":15,
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"ElderItem"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Int",
+        "type":"INC",
+        "value":15,
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"ElderItem"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"All",
+        "type":"INC",
+        "value":15,
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"ElderItem"
+        }
       }]],
   "15% increased Bleeding Duration":[[{
         "flags":0,
@@ -25844,6 +26458,18 @@
         "type":"INC",
         "value":15
       }]],
+  "15% increased Dexterity if 2 Redeemer Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Dex",
+        "type":"INC",
+        "value":15,
+        "1":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"RedeemerItem"
+        }
+      }]],
   "15% increased Dexterity if Strength is higher than Intelligence":[[{
         "flags":0,
         "keywordFlags":0,
@@ -26095,6 +26721,18 @@
         "type":"INC",
         "value":15
       }]],
+  "15% increased Intelligence if 2 Crusader Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Int",
+        "type":"INC",
+        "value":15,
+        "1":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"CrusaderItem"
+        }
+      }]],
   "15% increased Item Quantity per White Socket":[[{
         "flags":0,
         "keywordFlags":0,
@@ -26263,6 +26901,18 @@
           "var":"TrapOrMineThrownRecently"
         }
       }]],
+  "15% increased Movement Speed if 4 Hunter Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MovementSpeed",
+        "type":"INC",
+        "value":15,
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"HunterItem"
+        }
+      }]],
   "15% increased Movement Speed if you've Killed Recently":[[{
         "flags":0,
         "keywordFlags":0,
@@ -26416,6 +27066,13 @@
         "type":"INC",
         "value":15
       }]],
+  "15% increased Projectile Speed":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ProjectileSpeed",
+        "type":"INC",
+        "value":15
+      }]],
   "15% increased Quantity of Items Dropped by Slain Frozen Enemies":[[{
         "flags":0,
         "keywordFlags":0,
@@ -26492,6 +27149,18 @@
         "name":"Str",
         "type":"INC",
         "value":15
+      }]],
+  "15% increased Strength if 2 Warlord Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Str",
+        "type":"INC",
+        "value":15,
+        "1":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"WarlordItem"
+        }
       }]],
   "15% increased Stun Duration on Enemies":[[{
         "flags":0,
@@ -26596,6 +27265,18 @@
         "type":"INC",
         "value":15
       }]],
+  "15% increased maximum Life if 2 Elder Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Life",
+        "type":"INC",
+        "value":15,
+        "1":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"ElderItem"
+        }
+      }]],
   "15% increased maximum Life if there are no Life Modifiers on Equipped Body Armour":[[{
         "flags":0,
         "keywordFlags":0,
@@ -26643,6 +27324,18 @@
         "name":"Mana",
         "type":"INC",
         "value":15
+      }]],
+  "15% increased maximum Mana if 2 Shaper Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Mana",
+        "type":"INC",
+        "value":15,
+        "1":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"ShaperItem"
+        }
       }]],
   "15% less Projectile Speed":[[{
         "flags":0,
@@ -27730,13 +28423,6 @@
         "name":"ChaosDamage",
         "type":"INC",
         "value":166
-      }]],
-  "168% increased Physical Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalDamage",
-        "type":"INC",
-        "value":168
       }]],
   "17 Mana gained when you Block":[[{
         "flags":0,
@@ -30262,6 +30948,20 @@
           "type":"SkillId"
         }
       }]],
+  "20% chance to Trigger Socketed Spell on Kill, with a 0.5 second Cooldown":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":1,
+          "skillId":"SupportTriggerSpellOnKill"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "20% chance to deal Double Damage while Focused":[[{
         "flags":0,
         "keywordFlags":0,
@@ -30659,14 +31359,10 @@
       }]],
   "20% increased Brand Damage":[[{
         "flags":0,
-        "keywordFlags":0,
+        "keywordFlags":1048576,
         "name":"Damage",
         "type":"INC",
-        "value":20,
-        "1":{
-          "skillType":75,
-          "type":"SkillType"
-        }
+        "value":20
       }]],
   "20% increased Buff Effect of your Links for which 50% of Link Duration has Expired":[[{
         "flags":0,
@@ -30775,6 +31471,18 @@
         "name":"CooldownRecovery",
         "type":"INC",
         "value":20
+      }]],
+  "20% increased Cooldown Recovery Rate if 2 Shaper Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CooldownRecovery",
+        "type":"INC",
+        "value":20,
+        "1":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"ShaperItem"
+        }
       }]],
   "20% increased Critical Strike Chance":[[{
         "flags":0,
@@ -32261,6 +32969,19 @@
         "flags":0,
         "keywordFlags":0,
         "name":"TrapTriggerAreaOfEffect",
+        "type":"INC",
+        "value":20
+      }]],
+  "20% increased Trap and Mine Throwing Speed":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"TrapThrowingSpeed",
+        "type":"INC",
+        "value":20
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MineLayingSpeed",
         "type":"INC",
         "value":20
       }]],
@@ -35046,25 +35767,17 @@
       }]],
   "25% increased Brand Critical Strike Chance":[[{
         "flags":0,
-        "keywordFlags":0,
+        "keywordFlags":1048576,
         "name":"CritChance",
         "type":"INC",
-        "value":25,
-        "1":{
-          "skillType":75,
-          "type":"SkillType"
-        }
+        "value":25
       }]],
   "25% increased Brand Damage":[[{
         "flags":0,
-        "keywordFlags":0,
+        "keywordFlags":1048576,
         "name":"Damage",
         "type":"INC",
-        "value":25,
-        "1":{
-          "skillType":75,
-          "type":"SkillType"
-        }
+        "value":25
       }]],
   "25% increased Burning Damage":[[{
         "flags":0,
@@ -36074,6 +36787,19 @@
         "flags":0,
         "keywordFlags":4096,
         "name":"Damage",
+        "type":"INC",
+        "value":25
+      }]],
+  "25% increased Trap and Mine Throwing Speed":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"TrapThrowingSpeed",
+        "type":"INC",
+        "value":25
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MineLayingSpeed",
         "type":"INC",
         "value":25
       }]],
@@ -37668,6 +38394,18 @@
         "type":"BASE",
         "value":3
       }]],
+  "3% of Elemental Damage Leeched as Energy Shield if 2 Shaper Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ElementalDamageEnergyShieldLeech",
+        "type":"BASE",
+        "value":3,
+        "1":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"ShaperItem"
+        }
+      }]],
   "3% of Life Regenerated per Second if you've dealt a Critical Strike in the past 8 seconds":[[{
         "flags":0,
         "keywordFlags":0,
@@ -37685,6 +38423,18 @@
         "name":"PhysicalDamageLifeLeech",
         "type":"BASE",
         "value":3
+      }]],
+  "3% of Physical Damage Leeched as Energy Shield if 2 Elder Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageEnergyShieldLeech",
+        "type":"BASE",
+        "value":3,
+        "1":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"ElderItem"
+        }
       }]],
   "3% of Physical Damage prevented from Hits Recently is Regenerated as Energy Shield per second":[[{
         "flags":0,
@@ -38300,6 +39050,17 @@
         "name":"Damage",
         "type":"INC",
         "value":30
+      }]],
+  "30% increased Attack Damage if you've been Hit Recently":[[{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"Damage",
+        "type":"INC",
+        "value":30,
+        "1":{
+          "type":"Condition",
+          "var":"BeenHitRecently"
+        }
       }]],
   "30% increased Attack Damage while holding a Shield":[[{
         "flags":1,
@@ -40226,6 +40987,18 @@
         "type":"BASE",
         "value":30
       }]],
+  "30% of Physical Damage Prevented Recently is Regenerated as Energy Shield Per Second if 6 Crusader Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageMitigatedEnergyShieldPseudoRecoup",
+        "type":"BASE",
+        "value":120,
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"CrusaderItem"
+        }
+      }]],
   "30% of Physical Damage from Hits taken as Cold Damage during Effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -40678,6 +41451,13 @@
         "value":33
       }]," to Blind nearby Enemies when gaining Her Blessing 100% chance , Chilled or Frozen with Her Blessing "],
   "33% chance to gain a Frenzy Charge on Kill":[null,"a Frenzy Charge  "],
+  "33% chance to inflict an additional Poison on the same Target when you inflict Poison":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DoublePoisonChance",
+        "type":"BASE",
+        "value":33
+      }]],
   "33% increased Attack Damage against Bleeding Enemies":[[{
         "flags":1,
         "keywordFlags":0,
@@ -40700,6 +41480,13 @@
           "type":"Condition",
           "var":"Ignited"
         }
+      }]],
+  "33% increased Cast Speed":[[{
+        "flags":16,
+        "keywordFlags":0,
+        "name":"Speed",
+        "type":"INC",
+        "value":33
       }]],
   "33% increased Cast Speed while Ignited":[[{
         "flags":16,
@@ -41692,6 +42479,17 @@
         "type":"INC",
         "value":38
       }]],
+  "38% reduced Area of Effect of Hex Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AreaOfEffect",
+        "type":"INC",
+        "value":-38,
+        "1":{
+          "skillType":108,
+          "type":"SkillType"
+        }
+      }]],
   "380% increased Evasion Rating":[[{
         "flags":0,
         "keywordFlags":0,
@@ -41706,6 +42504,19 @@
         "type":"INC",
         "value":39
       }]],
+  "4 Warlord Items are Equipped":[[]," Warlord Items are Equipped "],
+  "4 Warlord Items are Equipped +3% to maximum Fire Resistance if 4 Warlord Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireResistMax",
+        "type":"BASE",
+        "value":4,
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"WarlordItem"
+        }
+      }]," Warlord Items are Equipped +3% to   "],
   "4 additional Arrows":[[{
         "flags":1,
         "keywordFlags":0,
@@ -41916,15 +42727,11 @@
       }]],
   "4% increased Brand Damage per 10 Devotion":[[{
         "flags":0,
-        "keywordFlags":0,
+        "keywordFlags":1048576,
         "name":"Damage",
         "type":"INC",
         "value":4,
         "1":{
-          "skillType":75,
-          "type":"SkillType"
-        },
-        "2":{
           "actor":"parent",
           "div":10,
           "stat":"Devotion",
@@ -42210,6 +43017,13 @@
           "var":"GaleForce"
         }
       }]],
+  "4% more Attack Speed with Unarmed Melee Attacks":[[{
+        "flags":16777473,
+        "keywordFlags":0,
+        "name":"Speed",
+        "type":"MORE",
+        "value":4
+      }]],
   "4% of Damage from hits is taken from your nearest Totem's Life before you":[[{
         "flags":0,
         "keywordFlags":0,
@@ -42411,6 +43225,13 @@
         }
       }]],
   "40% chance to gain a Frenzy Charge for each enemy you hit with a Critical Strike":[null,"a Frenzy Charge for each enemy you hit with a Critical Strike "],
+  "40% chance to inflict an additional Poison on the same Target when you inflict Poison":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DoublePoisonChance",
+        "type":"BASE",
+        "value":40
+      }]],
   "40% chance when you Kill a Scorched Enemy to Burn Each surrounding Enemy for 4 seconds, dealing 8% of the Killed Enemy's Life as Fire Damage per second":[[{
         "flags":0,
         "keywordFlags":0,
@@ -42545,6 +43366,17 @@
           "var":"Maimed"
         }
       }]],
+  "40% increased Attack Damage if you've been Hit Recently":[[{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"Damage",
+        "type":"INC",
+        "value":40,
+        "1":{
+          "type":"Condition",
+          "var":"BeenHitRecently"
+        }
+      }]],
   "40% increased Attack Damage while Leeching":[[{
         "flags":1,
         "keywordFlags":0,
@@ -42616,14 +43448,10 @@
       }]],
   "40% increased Brand Damage":[[{
         "flags":0,
-        "keywordFlags":0,
+        "keywordFlags":1048576,
         "name":"Damage",
         "type":"INC",
-        "value":40,
-        "1":{
-          "skillType":75,
-          "type":"SkillType"
-        }
+        "value":40
       }]],
   "40% increased Cast Speed":[[{
         "flags":16,
@@ -42641,6 +43469,17 @@
         "1":{
           "type":"Condition",
           "var":"Ignited"
+        }
+      }]],
+  "40% increased Cast Speed with Minion Skills":[[{
+        "flags":16,
+        "keywordFlags":0,
+        "name":"Speed",
+        "type":"INC",
+        "value":40,
+        "1":{
+          "skillType":9,
+          "type":"SkillType"
         }
       }]],
   "40% increased Chaos Damage":[[{
@@ -44473,6 +45312,13 @@
         "type":"INC",
         "value":-43
       }]],
+  "439% increased Evasion and Energy Shield":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EvasionAndEnergyShield",
+        "type":"INC",
+        "value":439
+      }]],
   "45% chance that if you would gain Endurance Charges, you instead gain up to your maximum number of Endurance Charges":[[]," that if you would gain Endurance Charges, you instead gain up to your maximum number of Endurance Charges "],
   "45% chance that if you would gain Endurance Charges, you instead gain up to your maximum number of Endurance Charges 10% chance to gain a Frenzy Charge on Hit":[[]," that if you would gain Endurance Charges, you instead gain up to your maximum number of Endurance Charges 10% chance to gain aCharge  "],
   "45% chance that if you would gain Frenzy Charges, you instead gain up to your maximum number of Frenzy Charges":[[]," that if you would gainCharges, you instead gain up to your maximum number of Frenzy Charges "],
@@ -45985,6 +46831,17 @@
         "name":"MeleeEvadeChance",
         "type":"MORE",
         "value":5
+      }]],
+  "5% of Damage from Hits is taken from Void Spawns' Life before you per Void Spawn":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"takenFromVoidSpawnBeforeYou",
+        "type":"BASE",
+        "value":5,
+        "1":{
+          "stat":"ActiveVoidSpawnLimit",
+          "type":"PerStat"
+        }
       }]],
   "5% of Damage from Hits is taken from your nearest Totem's Life before you":[[{
         "flags":0,
@@ -47919,6 +48776,17 @@
         "type":"BASE",
         "value":50
       }]],
+  "50% reduced Area of Effect of Hex Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AreaOfEffect",
+        "type":"INC",
+        "value":-50,
+        "1":{
+          "skillType":108,
+          "type":"SkillType"
+        }
+      }]],
   "50% reduced Attack Speed":[[{
         "flags":1,
         "keywordFlags":0,
@@ -48356,6 +49224,13 @@
         "type":"INC",
         "value":55
       }]],
+  "55% increased Totem Placement speed":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"TotemPlacementSpeed",
+        "type":"INC",
+        "value":55
+      }]],
   "55% reduced Cold Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -48503,6 +49378,20 @@
           "type":"Condition",
           "var":"UsingFlask"
         }
+      }]],
+  "6% chance to Block Attack Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"BlockChance",
+        "type":"BASE",
+        "value":6
+      }]],
+  "6% chance to avoid Projectiles":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AvoidProjectilesChance",
+        "type":"BASE",
+        "value":6
       }]],
   "6% chance to throw up to 4 additional Traps":[[{
         "flags":0,
@@ -49023,6 +49912,17 @@
         "type":"INC",
         "value":6
       }]],
+  "6% of Damage from Hits is taken from Void Spawns' Life before you per Void Spawn":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"takenFromVoidSpawnBeforeYou",
+        "type":"BASE",
+        "value":6,
+        "1":{
+          "stat":"ActiveVoidSpawnLimit",
+          "type":"PerStat"
+        }
+      }]],
   "6% of Damage taken Recouped as Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -49198,6 +50098,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"FlaskChargeRecovery",
+        "type":"INC",
+        "value":60
+      }]],
+  "60% increased Charges per Use":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FlaskChargesUsed",
         "type":"INC",
         "value":60
       }]],
@@ -49977,6 +50884,13 @@
         "type":"INC",
         "value":-60
       }]],
+  "60% reduced maximum Mana":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Mana",
+        "type":"INC",
+        "value":-60
+      }]],
   "600% increased Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -50044,6 +50958,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"CritChance",
+        "type":"INC",
+        "value":63
+      }]],
+  "63% increased Effect of Non-Damaging Ailments inflicted by Summoned Skitterbots":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkitterbotAilmentEffect",
         "type":"INC",
         "value":63
       }]],
@@ -50334,6 +51255,13 @@
         "type":"INC",
         "value":7
       }]],
+  "7% increased Maximum Life":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Life",
+        "type":"INC",
+        "value":7
+      }]],
   "7% increased Movement Speed":[[{
         "flags":0,
         "keywordFlags":0,
@@ -50393,6 +51321,13 @@
         "keywordFlags":0,
         "name":"Life",
         "type":"INC",
+        "value":7
+      }]],
+  "7% more Attack Speed with Unarmed Melee Attacks":[[{
+        "flags":16777473,
+        "keywordFlags":0,
+        "name":"Speed",
+        "type":"MORE",
         "value":7
       }]],
   "7% reduced Flask Charges used":[[{
@@ -50701,6 +51636,13 @@
         "type":"INC",
         "value":70
       }]],
+  "70% increased Totem Placement speed":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"TotemPlacementSpeed",
+        "type":"INC",
+        "value":70
+      }]],
   "70% increased effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -50752,6 +51694,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ElementalResist",
+        "type":"INC",
+        "value":-70
+      }]],
+  "70% reduced Fire Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireResist",
         "type":"INC",
         "value":-70
       }]],
@@ -50856,6 +51805,13 @@
           "var":"UsingFlask"
         }
       }]],
+  "75% increased Effect of Non-Damaging Ailments inflicted by Summoned Skitterbots":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkitterbotAilmentEffect",
+        "type":"INC",
+        "value":75
+      }]],
   "75% increased Effect of Shrine Buffs on you":[[{
         "flags":0,
         "keywordFlags":0,
@@ -50955,6 +51911,13 @@
         "type":"INC",
         "value":-75
       }]],
+  "75% reduced Fire Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireResist",
+        "type":"INC",
+        "value":-75
+      }]],
   "75% reduced Maximum number of Summoned Raging Spirits":[[{
         "flags":0,
         "keywordFlags":0,
@@ -51036,6 +51999,13 @@
         "type":"INC",
         "value":76
       }]],
+  "777% increased Evasion and Energy Shield":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EvasionAndEnergyShield",
+        "type":"INC",
+        "value":777
+      }]],
   "79% increased Cold Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -51077,6 +52047,42 @@
         "name":"PhysicalMax",
         "type":"BASE",
         "value":15
+      }]],
+  "8 to 18 Added Physical Damage with Bow Attacks":[[{
+        "flags":131076,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
+        "type":"BASE",
+        "value":8
+      },{
+        "flags":131076,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":18
+      }]],
+  "8 to 23 Added Attack Chaos Damage per 100 Maximum Mana":[[{
+        "flags":0,
+        "keywordFlags":65536,
+        "name":"ChaosMin",
+        "type":"BASE",
+        "value":8,
+        "1":{
+          "div":100,
+          "stat":"Mana",
+          "type":"PerStat"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":65536,
+        "name":"ChaosMax",
+        "type":"BASE",
+        "value":23,
+        "1":{
+          "div":100,
+          "stat":"Mana",
+          "type":"PerStat"
+        }
       }]],
   "8% Chance for Traps to Trigger an additional time":[[],"  to Trigger an additional time "],
   "8% Chance to Block Attack Damage":[[{
@@ -51936,6 +52942,18 @@
         "type":"BASE",
         "value":8
       }]],
+  "8% of Physical Damage taken as Lightning Damage if 4 Crusader Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageTakenAsLightning",
+        "type":"BASE",
+        "value":8,
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"CrusaderItem"
+        }
+      }]],
   "8% reduced Enemy Stun Threshold":[[{
         "flags":0,
         "keywordFlags":0,
@@ -52610,13 +53628,6 @@
           "type":"ActorCondition",
           "var":"Ignited"
         }
-      }]],
-  "89% increased Charges per Use":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FlaskChargesUsed",
-        "type":"INC",
-        "value":89
       }]],
   "9 to 16 Added Physical Damage with Bow Attacks":[[{
         "flags":131076,
@@ -56062,6 +57073,32 @@
         "name":"PhysicalMax",
         "type":"BASE",
         "value":20
+      }]],
+  "Adds 15 to 21 Cold Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ColdMin",
+        "type":"BASE",
+        "value":15
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ColdMax",
+        "type":"BASE",
+        "value":21
+      }]],
+  "Adds 15 to 21 Lightning Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LightningMin",
+        "type":"BASE",
+        "value":15
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LightningMax",
+        "type":"BASE",
+        "value":21
       }]],
   "Adds 15 to 25 Chaos Damage to Attacks":[[{
         "flags":0,
@@ -61775,6 +62812,19 @@
         "type":"BASE",
         "value":133
       }]],
+  "Adds 73 to 117 Physical Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
+        "type":"BASE",
+        "value":73
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":117
+      }]],
   "Adds 74 to 121 Chaos Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -62125,6 +63175,19 @@
         "name":"ColdMax",
         "type":"BASE",
         "value":128
+      }]],
+  "Adds 85 to 133 Physical Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
+        "type":"BASE",
+        "value":85
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":133
       }]],
   "Adds 85 to 160 Physical Damage":[[{
         "flags":0,
@@ -62906,6 +63969,26 @@
         "name":"LightningDamageConvertToChaos",
         "type":"BASE",
         "value":100
+      }]],
+  "All Hits with your next Non-Channelling Attack within 4 seconds of taking a Critical Strike will be Critical Strikes":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"OVERRIDE",
+        "value":100,
+        "1":{
+          "type":"Condition",
+          "var":"BeenCritRecently"
+        },
+        "2":{
+          "neg":true,
+          "skillType":57,
+          "type":"SkillType"
+        },
+        "3":{
+          "skillType":1,
+          "type":"SkillType"
+        }
       }]],
   "All Sockets are White":[[]],
   "All bonuses from an Equipped Shield apply to your Minions instead of you":[[]],
@@ -66171,6 +67254,8 @@
           "var":"AffectedByHatred"
         }
       }]],
+  "An Enemy Writhing Worm spawns every 2 seconds":[null,"An Enemy Writhing Worm spawns every 2 seconds "],
+  "An Enemy Writhing Worm spawns every 2 seconds 20% chance to Trigger Socketed Spell on Kill, with a 0.5 second Cooldown":[null,"An Enemy Writhing Worm spawns every 2 seconds 20% chance to Trigger Socketed Spell on Kill, with a 0.5 second Cooldown "],
   "An additional Curse can be applied to you":[null,"An additional Curse can be applied to you "],
   "An additional Curse can be applied to you Corrupted":[null,"An additional Curse can be applied to you Corrupted "],
   "Ancestral Bond":[[{
@@ -67150,6 +68235,30 @@
         "1":{
           "num":2,
           "type":"SlotNumber"
+        }
+      }]],
+  "Attacks have +1.5% to Critical Strike Chance if 4 Elder Items are Equipped":[[{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"BASE",
+        "value":1.5,
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"ElderItem"
+        }
+      }]],
+  "Attacks have +2% to Critical Strike Chance if 4 Elder Items are Equipped":[[{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"BASE",
+        "value":2,
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"ElderItem"
         }
       }]],
   "Attacks have 10% chance to Ignite":[[{
@@ -68881,6 +69990,56 @@
         "type":"LIST",
         "value":"Bloodsoaked Blade"
       }]],
+  "Bow Attacks Sacrifice a random Damageable Minion to fire 2 additional Arrow":[[{
+        "flags":131072,
+        "keywordFlags":0,
+        "name":"ProjectileCount",
+        "type":"BASE",
+        "value":2,
+        "1":{
+          "type":"Condition",
+          "var":"SacrificeMinionOnAttack"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"HaveDamageableMinion"
+        },
+        "3":{
+          "neg":true,
+          "skillType":41,
+          "type":"SkillType"
+        },
+        "4":{
+          "neg":true,
+          "skillType":30,
+          "type":"SkillType"
+        }
+      }]],
+  "Bow Attacks Sacrifice a random Damageable Minion to fire 3 additional Arrow":[[{
+        "flags":131072,
+        "keywordFlags":0,
+        "name":"ProjectileCount",
+        "type":"BASE",
+        "value":3,
+        "1":{
+          "type":"Condition",
+          "var":"SacrificeMinionOnAttack"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"HaveDamageableMinion"
+        },
+        "3":{
+          "neg":true,
+          "skillType":41,
+          "type":"SkillType"
+        },
+        "4":{
+          "neg":true,
+          "skillType":30,
+          "type":"SkillType"
+        }
+      }]],
   "Bow Attacks fire 2 additional Arrows":[[{
         "flags":131072,
         "keywordFlags":0,
@@ -68948,46 +70107,38 @@
       }]],
   "Brand Recall grants 20% increased Brand Attachment range to recalled Brands":[[{
         "flags":0,
-        "keywordFlags":0,
+        "keywordFlags":1048576,
         "name":"BrandAttachmentRange",
         "type":"BASE",
         "value":20,
         "1":{
-          "skillType":75,
-          "type":"SkillType"
-        },
-        "2":{
           "includeTransfigured":true,
           "skillName":"Brand Recall",
           "type":"SkillName"
         },
-        "3":{
+        "2":{
           "type":"Condition",
           "var":"{Hand}Attack"
         }
       }],"% increased  to recalled s "],
   "Brand Recall grants 20% increased Brand Attachment range to recalled Brands Brand Recall has 4% increased Cooldown Recovery Rate per Brand, up to a maximum of 40%":[[{
         "flags":0,
-        "keywordFlags":0,
+        "keywordFlags":1048576,
         "name":"BrandAttachmentRange",
         "type":"BASE",
         "value":20,
         "1":{
-          "skillType":75,
-          "type":"SkillType"
-        },
-        "2":{
           "limit":40,
           "limitTotal":true,
           "type":"Multiplier",
           "var":"ActiveBrand"
         },
-        "3":{
+        "2":{
           "includeTransfigured":true,
           "skillName":"Brand Recall",
           "type":"SkillName"
         },
-        "4":{
+        "3":{
           "type":"Condition",
           "var":"{Hand}Attack"
         }
@@ -69072,45 +70223,69 @@
       }]],
   "Brand Skills have 10% increased Duration":[[{
         "flags":0,
-        "keywordFlags":1048576,
+        "keywordFlags":0,
         "name":"Duration",
         "type":"INC",
-        "value":10
+        "value":10,
+        "1":{
+          "skillType":75,
+          "type":"SkillType"
+        }
       }]],
   "Brand Skills have 100% increased Duration":[[{
         "flags":0,
-        "keywordFlags":1048576,
+        "keywordFlags":0,
         "name":"Duration",
         "type":"INC",
-        "value":100
+        "value":100,
+        "1":{
+          "skillType":75,
+          "type":"SkillType"
+        }
       }]],
   "Brand Skills have 12% increased Duration":[[{
         "flags":0,
-        "keywordFlags":1048576,
+        "keywordFlags":0,
         "name":"Duration",
         "type":"INC",
-        "value":12
+        "value":12,
+        "1":{
+          "skillType":75,
+          "type":"SkillType"
+        }
       }]],
   "Brand Skills have 15% increased Duration":[[{
         "flags":0,
-        "keywordFlags":1048576,
+        "keywordFlags":0,
         "name":"Duration",
         "type":"INC",
-        "value":15
+        "value":15,
+        "1":{
+          "skillType":75,
+          "type":"SkillType"
+        }
       }]],
   "Brand Skills have 20% increased Duration":[[{
         "flags":0,
-        "keywordFlags":1048576,
+        "keywordFlags":0,
         "name":"Duration",
         "type":"INC",
-        "value":20
+        "value":20,
+        "1":{
+          "skillType":75,
+          "type":"SkillType"
+        }
       }]],
   "Brand Skills have 75% increased Duration":[[{
         "flags":0,
-        "keywordFlags":1048576,
+        "keywordFlags":0,
         "name":"Duration",
         "type":"INC",
-        "value":75
+        "value":75,
+        "1":{
+          "skillType":75,
+          "type":"SkillType"
+        }
       }]],
   "Brands Attach to a new Enemy each time they Activate, no more than once every 0.3 seconds":[null,"Brands Attach to a new Enemy each time they Activate, no more than once every 0.3 seconds "],
   "Brands have 100% more Activation Frequency if 75% of Attached Duration expired":[[{
@@ -69635,6 +70810,18 @@
         "type":"FLAG",
         "value":true
       }]],
+  "Cannot be Frozen if 6 Redeemer Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FreezeImmune",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"RedeemerItem"
+        }
+      }]],
   "Cannot be Frozen if Dexterity is higher than Intelligence":[[{
         "flags":0,
         "keywordFlags":0,
@@ -69795,6 +70982,18 @@
   "Cannot be Stunned by Spells if your other Ring is a Shaper Item 20% chance to Trigger Level 20 Summon Volatile Anomaly on Kill":[null,"Cannot be Stunned by Spells if your other Ring is a Shaper Item 20% chance to Trigger Level 20 Summon Volatile Anomaly on Kill "],
   "Cannot be Stunned by Suppressed Spell Damage":[null,"Cannot be Stunned by Suppressed Spell Damage "],
   "Cannot be Stunned by Suppressed Spell Damage Debilitate Enemies for 4 Seconds when you Suppress their Spell Damage":[null,"Cannot be Stunned by Suppressed Spell Damage Debilitate Enemies for 4 Seconds when you Suppress their Spell Damage "],
+  "Cannot be Stunned if 6 Elder Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunImmune",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"ElderItem"
+        }
+      }]],
   "Cannot be Stunned if you have at least 10 Crab Barriers":[[{
         "flags":0,
         "keywordFlags":0,
@@ -69948,6 +71147,451 @@
   "Cannot gain Unbound Fury while Unbound":[null,"Cannot gain Unbound Fury while Unbound "],
   "Cannot gain Unbound Fury while Unbound Your Hits always inflict Freeze, Shock and Ignite while Unbound":[null,"Cannot gain Unbound Fury while Unbound Your Hits always inflict Freeze, Shock and Ignite while Unbound "],
   "Cannot gain Unbound Fury while Unbound Your Hits always inflict Freeze, Shock and Ignite while Unbound 80% more Elemental Damage while Unbound":[null,"Cannot gain Unbound Fury while Unbound Your Hits always inflict Freeze, Shock and Ignite while Unbound 80% more Elemental Damage while Unbound "],
+  "Cannot have Minions other than Animated Weapons":[null,"Cannot have Minions other than Animated Weapons "],
+  "Cannot have Minions other than Animated Weapons Maximum number of Summoned Golems is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ActiveGolemLimit",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "globalLimit":100,
+              "globalLimitKey":"ActiveGolemLimitDoubledLimit",
+              "type":"Multiplier",
+              "var":"ActiveGolemLimitDoubled"
+            }
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ActiveGolemLimitDoubled",
+            "type":"OVERRIDE",
+            "value":1
+          }
+        }
+      }],"Cannot have s other than Animated Weapons   "],
+  "Cannot have Minions other than Raised Spectres":[null,"Cannot have Minions other than Raised Spectres "],
+  "Cannot have Minions other than Raised Spectres Maximum number of Raised Spiders is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ActiveSpiderLimit",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "globalLimit":100,
+              "globalLimitKey":"ActiveSpiderLimitDoubledLimit",
+              "type":"Multiplier",
+              "var":"ActiveSpiderLimitDoubled"
+            }
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ActiveSpiderLimitDoubled",
+            "type":"OVERRIDE",
+            "value":1
+          }
+        }
+      }],"Cannot have s other than Raised Spectres   "],
+  "Cannot have Minions other than Raised Spiders":[null,"Cannot have Minions other than Raised Spiders "],
+  "Cannot have Minions other than Raised Spiders Maximum number of Raised Zombies is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ActiveZombieLimit",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "globalLimit":100,
+              "globalLimitKey":"ActiveZombieLimitDoubledLimit",
+              "type":"Multiplier",
+              "var":"ActiveZombieLimitDoubled"
+            }
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ActiveZombieLimitDoubled",
+            "type":"OVERRIDE",
+            "value":1
+          }
+        }
+      }],"Cannot have s other than Raised Spiders   "],
+  "Cannot have Minions other than Raised Zombies":[null,"Cannot have Minions other than Raised Zombies "],
+  "Cannot have Minions other than Raised Zombies Maximum number of Summoned Reapers is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ActiveReaperLimit",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "globalLimit":100,
+              "globalLimitKey":"ActiveReaperLimitDoubledLimit",
+              "type":"Multiplier",
+              "var":"ActiveReaperLimitDoubled"
+            }
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ActiveReaperLimitDoubled",
+            "type":"OVERRIDE",
+            "value":1
+          }
+        }
+      }],"Cannot have s other than Raised Zombies   "],
+  "Cannot have Minions other than Sentinels of Absolution":[null,"Cannot have Minions other than Sentinels of Absolution "],
+  "Cannot have Minions other than Sentinels of Absolution Maximum number of Sentinels of Dominance is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ActiveSentinelOfDominanceLimit",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "includeTransfigured":true,
+              "skillName":"Absolution",
+              "type":"SkillName"
+            },
+            "2":{
+              "globalLimit":100,
+              "globalLimitKey":"ActiveSentinelOfDominanceLimitDoubledLimit",
+              "type":"Multiplier",
+              "var":"ActiveSentinelOfDominanceLimitDoubled"
+            }
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ActiveSentinelOfDominanceLimitDoubled",
+            "type":"OVERRIDE",
+            "value":1,
+            "1":{
+              "includeTransfigured":true,
+              "skillName":"Absolution",
+              "type":"SkillName"
+            }
+          }
+        }
+      }],"Cannot have s other than Sentinels of  "],
+  "Cannot have Minions other than Sentinels of Dominance":[null,"Cannot have Minions other than Sentinels of Dominance "],
+  "Cannot have Minions other than Sentinels of Dominance Maximum number of Sentinels of Purity is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ActiveSentinelOfPurityLimit",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "globalLimit":100,
+              "globalLimitKey":"ActiveSentinelOfPurityLimitDoubledLimit",
+              "type":"Multiplier",
+              "var":"ActiveSentinelOfPurityLimitDoubled"
+            }
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ActiveSentinelOfPurityLimitDoubled",
+            "type":"OVERRIDE",
+            "value":1
+          }
+        }
+      }],"Cannot have s other than Sentinels of Dominance   "],
+  "Cannot have Minions other than Sentinels of Purity":[null,"Cannot have Minions other than Sentinels of Purity "],
+  "Cannot have Minions other than Sentinels of Purity Maximum number of Summoned Holy Relics is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ActiveHolyRelicLimit",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "globalLimit":100,
+              "globalLimitKey":"ActiveHolyRelicLimitDoubledLimit",
+              "type":"Multiplier",
+              "var":"ActiveHolyRelicLimitDoubled"
+            }
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ActiveHolyRelicLimitDoubled",
+            "type":"OVERRIDE",
+            "value":1
+          }
+        }
+      }],"Cannot have s other than Sentinels of Purity   "],
+  "Cannot have Minions other than Summoned Golems":[null,"Cannot have Minions other than Summoned Golems "],
+  "Cannot have Minions other than Summoned Golems Maximum number of Summoned Raging Spirits is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ActiveRagingSpiritLimit",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "globalLimit":100,
+              "globalLimitKey":"ActiveRagingSpiritLimitDoubledLimit",
+              "type":"Multiplier",
+              "var":"ActiveRagingSpiritLimitDoubled"
+            }
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ActiveRagingSpiritLimitDoubled",
+            "type":"OVERRIDE",
+            "value":1
+          }
+        }
+      }],"Cannot have s other than Summoned Golems   "],
+  "Cannot have Minions other than Summoned Holy Relics":[null,"Cannot have Minions other than Summoned Holy Relics "],
+  "Cannot have Minions other than Summoned Holy Relics Maximum number of Summoned Phantasms is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ActivePhantasmLimit",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "globalLimit":100,
+              "globalLimitKey":"ActivePhantasmLimitDoubledLimit",
+              "type":"Multiplier",
+              "var":"ActivePhantasmLimitDoubled"
+            }
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ActivePhantasmLimitDoubled",
+            "type":"OVERRIDE",
+            "value":1
+          }
+        }
+      }],"Cannot have s other than Summoned Holy Relics   "],
+  "Cannot have Minions other than Summoned Phantasms":[null,"Cannot have Minions other than Summoned Phantasms "],
+  "Cannot have Minions other than Summoned Phantasms Maximum number of Summoned Skeletons is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ActiveSkeletonLimit",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "globalLimit":100,
+              "globalLimitKey":"ActiveSkeletonLimitDoubledLimit",
+              "type":"Multiplier",
+              "var":"ActiveSkeletonLimitDoubled"
+            }
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ActiveSkeletonLimitDoubled",
+            "type":"OVERRIDE",
+            "value":1
+          }
+        }
+      }],"Cannot have s other than Summoned Phantasms   "],
+  "Cannot have Minions other than Summoned Raging Spirits":[null,"Cannot have Minions other than Summoned Raging Spirits "],
+  "Cannot have Minions other than Summoned Raging Spirits Maximum number of Raised Spectres is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ActiveSpectreLimit",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "globalLimit":100,
+              "globalLimitKey":"ActiveSpectreLimitDoubledLimit",
+              "type":"Multiplier",
+              "var":"ActiveSpectreLimitDoubled"
+            }
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ActiveSpectreLimitDoubled",
+            "type":"OVERRIDE",
+            "value":1
+          }
+        }
+      }],"Cannot have s other than Summoned Raging Spirits   "],
+  "Cannot have Minions other than Summoned Reapers":[null,"Cannot have Minions other than Summoned Reapers "],
+  "Cannot have Minions other than Summoned Reapers Maximum number of Sentinels of Absolution is Doubled":[[],"Cannot have s other than Summoned Reapers Maximum number of Sentinels of "],
+  "Cannot have Minions other than Summoned Skeletons":[null,"Cannot have Minions other than Summoned Skeletons "],
+  "Cannot have Minions other than Summoned Skeletons Maximum number of Summoned Spectral Wolves is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ActiveWolfLimit",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "globalLimit":100,
+              "globalLimitKey":"ActiveWolfLimitDoubledLimit",
+              "type":"Multiplier",
+              "var":"ActiveWolfLimitDoubled"
+            }
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ActiveWolfLimitDoubled",
+            "type":"OVERRIDE",
+            "value":1
+          }
+        }
+      }],"Cannot have s other than Summoned Skeletons   "],
+  "Cannot have Minions other than Summoned Spectral Wolves":[null,"Cannot have Minions other than Summoned Spectral Wolves "],
   "Cannot inflict Freeze or Chill":[[{
         "flags":0,
         "keywordFlags":0,
@@ -69989,6 +71633,18 @@
           "unscalable":true
         }
       }]],
+  "Cannot take Reflected Elemental Damage if 4 Shaper Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ElementalReflectedDamageTaken",
+        "type":"MORE",
+        "value":-100,
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"ShaperItem"
+        }
+      }]],
   "Cannot take Reflected Physical Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -69999,6 +71655,18 @@
           "effectType":"Global",
           "type":"GlobalEffect",
           "unscalable":true
+        }
+      }]],
+  "Cannot take Reflected Physical Damage if 4 Elder Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalReflectedDamageTaken",
+        "type":"MORE",
+        "value":-100,
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"ElderItem"
         }
       }]],
   "Carved to glorify 10000 new faithful converted by High Templar Avarius":[[{
@@ -70884,6 +72552,18 @@
         "name":"Keystone",
         "type":"LIST",
         "value":"Conduit"
+      }]],
+  "Consecrated Ground around you while stationary if 2 Crusader Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:OnConsecratedGround",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"CrusaderItem"
+        }
       }]],
   "Consecrated Ground created by this Flask has Tripled Radius":[null,"Consecrated Ground created by this Flask has Tripled Radius "],
   "Consecrated Ground created by this Flask has Tripled Radius +2% to Critical Strike Chance against Enemies on Consecrated Ground during Effect":[null,"Consecrated Ground created by this Flask has Tripled Radius +2% to Critical Strike Chance against Enemies on Consecrated Ground during Effect "],
@@ -71966,6 +73646,19 @@
           "var":"Chilled"
         }
       }]],
+  "Damage Penetrates Fire Resistance equal to your Overcapped Fire Resistance, up to a maximum of 200%":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FirePenetration",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "limit":200,
+          "limitTotal":true,
+          "stat":"FireResistOverCap",
+          "type":"PerStat"
+        }
+      }]],
   "Damage cannot be Reflected":[[{
         "flags":0,
         "keywordFlags":0,
@@ -71992,13 +73685,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"DotMultiplierIsCritMultiplier",
-        "type":"FLAG",
-        "value":true
-      }]],
-  "Damage penetrates Fire Resistance equal to your overcapped Fire Resistance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FirePenIncreasedByUncappedFireRes",
         "type":"FLAG",
         "value":true
       }]],
@@ -75833,6 +77519,37 @@
           "var":"LifeRegenBurstAvg"
         }
       }]],
+  "Every 4 seconds, Regenerate 35% of Life over one second if 2 Hunter Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeRegenPercent",
+        "type":"BASE",
+        "value":35,
+        "1":{
+          "type":"Condition",
+          "var":"LifeRegenBurstFull"
+        },
+        "2":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"HunterItem"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeRegenPercent",
+        "type":"BASE",
+        "value":8.75,
+        "1":{
+          "type":"Condition",
+          "var":"LifeRegenBurstAvg"
+        },
+        "2":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"HunterItem"
+        }
+      }]],
   "Every 4 seconds, Regenerate 50% of Life over one second":[[{
         "flags":0,
         "keywordFlags":0,
@@ -76010,6 +77727,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"Condition:CanWither",
+        "type":"FLAG",
+        "value":true
+      }]],
+  "Excommunicate Enemies on Melee Hit for 3 seconds":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanExcommunicate",
         "type":"FLAG",
         "value":true
       }]],
@@ -76797,6 +78521,8 @@
           "var":"BeenHitRecently"
         }
       }]," Endurance Charge every second  +1 to  "],
+  "Gain 1 Endurance Charge every second if you've been Hit Recently and":[[]," Endurance Charge every second  and "],
+  "Gain 1 Endurance Charge every second if you've been Hit Recently and 4 Warlord Items are Equipped":[[]," Endurance Charge every second  and 4 Warlord Items are Equipped "],
   "Gain 1 Endurance Charge on use":[[]," Endurance Charge on use "],
   "Gain 1 Endurance Charge on use Gain 1 Frenzy Charge on use":[[]," Endurance Charge on use Gain 1Charge on use "],
   "Gain 1 Endurance Charge on use Petrified during Effect":[[]," Endurance Charge on use Petrified  "],
@@ -76889,6 +78615,14 @@
         "type":"FLAG",
         "value":true
       }]],
+  "Gain 1 Remembrance when you spend a total of 200 Energy":[[]," Remembrance when you spend a total of 200 Energy "],
+  "Gain 1 Remembrance when you spend a total of 200 Energy Shield with no Shaper Memory Summoned":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
+        "type":"BASE",
+        "value":1
+      }]," Remembrance when you spend a total of 200  with no Shaper Memory Summoned "],
   "Gain 1 Unbound Fury when you inflict an Elemental Ailment with a Hit on an Enemy, no more than once every 0.2 seconds for each type of Ailment":[[]," Unbound Fury when you inflict an Elemental Ailment with a Hit on an Enemy, no more than once every 0.2 seconds for each type of Ailment "],
   "Gain 1 Unbound Fury when you inflict an Elemental Ailment with a Hit on an Enemy, no more than once every 0.2 seconds for each type of Ailment Cannot gain Unbound Fury while Unbound":[[]," Unbound Fury when you inflict an Elemental Ailment with a Hit on an Enemy, no more than once every 0.2 seconds for each type of Ailment Cannot gain Unbound Fury while Unbound "],
   "Gain 1 Unbound Fury when you inflict an Elemental Ailment with a Hit on an Enemy, no more than once every 0.2 seconds for each type of Ailment Cannot gain Unbound Fury while Unbound Your Hits always inflict Freeze, Shock and Ignite while Unbound":[[]," Unbound Fury when you inflict an Elemental Ailment with a Hit on an Enemy, no more than once every 0.2 seconds for each type of Ailment Cannot gain Unbound Fury while Unbound Your Hits always inflict Freeze, Shock and Ignite while Unbound "],
@@ -77388,6 +79122,47 @@
           "var":"UsingFlask"
         }
       }]],
+  "Gain 15% of Physical Damage as Extra Damage of each Element if":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamage",
+        "type":"BASE",
+        "value":15
+      }],"  as Extra Damage of each Element if "],
+  "Gain 15% of Physical Damage as Extra Damage of each Element if 6 Shaper Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageGainAsLightning",
+        "type":"BASE",
+        "value":15,
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"ShaperItem"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageGainAsCold",
+        "type":"BASE",
+        "value":15,
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"ShaperItem"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageGainAsFire",
+        "type":"BASE",
+        "value":15,
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"ShaperItem"
+        }
+      }]],
   "Gain 150 Life on Culling Strike":[[{
         "flags":0,
         "keywordFlags":0,
@@ -77518,10 +79293,18 @@
   "Gain 2 Power Charges on Using a Warcry":[[]," Power Charges on Using a  "],
   "Gain 2 Power Charges on Using a Warcry Warcries grant Arcane Surge to you and Allies, with 10% increased effect per 5 power, up to 50%":[[{
         "flags":0,
-        "keywordFlags":4,
-        "name":"Condition:ArcaneSurge",
-        "type":"BASE",
-        "value":2
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":4,
+            "name":"Condition:ArcaneSurge",
+            "type":"BASE",
+            "value":2
+          }
+        }
       }]," Power Charges on Using a  Warcries grant  , with 10% increased effect per 5 power, up to 50% "],
   "Gain 2 Rage on Hit with Axes":[[{
         "flags":0,
@@ -78325,27 +80108,18 @@
           "var":"SelfCastElementalWeakness"
         }
       }]],
-  "Gain 46% of Weapon Physical Damage as Extra Damage of a Random Element":[[{
-        "flags":8192,
-        "keywordFlags":0,
-        "name":"PhysicalDamageGainAsRandom",
-        "type":"BASE",
-        "value":46
-      }]],
   "Gain 5 Life for each Ignited Enemy hit with Attacks":[[{
-        "flags":0,
-        "keywordFlags":65536,
-        "name":"Life",
+        "flags":5,
+        "keywordFlags":0,
+        "name":"LifeOnHit",
         "type":"BASE",
-        "value":5
-      }],"  for each Ignited Enemy hit  "],
-  "Gain 5 Life for each Ignited Enemy hit with Attacks 15% increased Ignite Duration on Enemies":[[{
-        "flags":0,
-        "keywordFlags":65536,
-        "name":"Life",
-        "type":"BASE",
-        "value":5
-      }],"  for each Ignited Enemy hit  15% increased Ignite Duration  "],
+        "value":5,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"Ignited"
+        }
+      }]],
   "Gain 5 Life per Enemy Hit with Attacks":[[{
         "flags":4,
         "keywordFlags":65536,
@@ -78438,6 +80212,17 @@
           "stat":"Devotion",
           "threshold":150,
           "type":"StatThreshold"
+        }
+      }]],
+  "Gain 5% of Non-Chaos Damage as Extra Chaos Damage per Summoned Void Spawn":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"NonChaosDamageGainAsChaos",
+        "type":"BASE",
+        "value":5,
+        "1":{
+          "stat":"ActiveVoidSpawnLimit",
+          "type":"PerStat"
         }
       }]],
   "Gain 5% of Non-Chaos Damage as extra Chaos Damage":[[{
@@ -78563,6 +80348,13 @@
         "type":"BASE",
         "value":50
       }]],
+  "Gain 50% of Weapon Physical Damage as Extra Damage of a Random Element":[[{
+        "flags":8192,
+        "keywordFlags":0,
+        "name":"PhysicalDamageGainAsRandom",
+        "type":"BASE",
+        "value":50
+      }]],
   "Gain 51 Mana per Enemy Killed":[[{
         "flags":0,
         "keywordFlags":0,
@@ -78591,6 +80383,17 @@
         "type":"BASE",
         "value":6
       }]],
+  "Gain 6% of Non-Chaos Damage as Extra Chaos Damage per Summoned Void Spawn":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"NonChaosDamageGainAsChaos",
+        "type":"BASE",
+        "value":6,
+        "1":{
+          "stat":"ActiveVoidSpawnLimit",
+          "type":"PerStat"
+        }
+      }]],
   "Gain 60 Life per Enemy Hit with Attacks":[[{
         "flags":4,
         "keywordFlags":65536,
@@ -78602,6 +80405,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"PhysicalDamageGainAsChaos",
+        "type":"BASE",
+        "value":60
+      }]],
+  "Gain 60% of Weapon Physical Damage as Extra Damage of a Random Element":[[{
+        "flags":8192,
+        "keywordFlags":0,
+        "name":"PhysicalDamageGainAsRandom",
         "type":"BASE",
         "value":60
       }]],
@@ -78691,6 +80501,13 @@
         "flags":4,
         "keywordFlags":131072,
         "name":"LifeOnHit",
+        "type":"BASE",
+        "value":8
+      }]],
+  "Gain 8 Mana per Enemy Killed":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaOnKill",
         "type":"BASE",
         "value":8
       }]],
@@ -80919,6 +82736,36 @@
           "skillId":"Ravenous"
         }
       }]],
+  "Grants Level 20 Shaper's Despair, which will be used by Shaper Memory":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":20,
+          "skillId":"ShaperApparitionProjectiles"
+        }
+      }]],
+  "Grants Level 20 Shaper's Devastation, which will be used by Shaper Memory":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":20,
+          "skillId":"ShaperApparitionTeleportSlam"
+        }
+      }]],
+  "Grants Level 20 Shaper's Ire, which will be used by Shaper Memory":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":20,
+          "skillId":"ShaperApparitionBeam"
+        }
+      }]],
   "Grants Level 20 Snipe Skill":[[{
         "flags":0,
         "keywordFlags":0,
@@ -80992,6 +82839,16 @@
         "value":{
           "level":20,
           "skillId":"SummonSentinelOfRadiance"
+        }
+      }]],
+  "Grants Level 20 Summon Shaper Memory":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":20,
+          "skillId":"SummonShaperApparition"
         }
       }]],
   "Grants Level 20 Thirst for Blood Skill":[[{
@@ -83574,6 +85431,19 @@
         "type":"MAX",
         "value":100
       }]],
+  "Increases and Reductions to Minion Cast Speed also affect you":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionCastSpeedAppliesToPlayer",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ImprovedMinionCastSpeedAppliesToPlayer",
+        "type":"MAX",
+        "value":100
+      }]],
   "Increases and Reductions to Minion Damage also affect you":[[{
         "flags":0,
         "keywordFlags":0,
@@ -84695,7 +86565,11 @@
         "keywordFlags":0,
         "name":"Condition:CanLinkToMinions",
         "type":"FLAG",
-        "value":true
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"HaveDamageableMinion"
+        }
       }]],
   "Link Skills have 10% increased Cast Speed":[[{
         "flags":16,
@@ -84875,6 +86749,13 @@
         "type":"BASE",
         "value":-15
       }]],
+  "Lose 15 Life per Enemy Killed":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeOnKill",
+        "type":"BASE",
+        "value":-15
+      }]],
   "Lose 15% of Energy Shield when you deal a Critical Strike":[[{
         "flags":0,
         "keywordFlags":0,
@@ -84907,6 +86788,13 @@
           "type":"Condition",
           "var":"BeenHitRecently"
         }
+      }]],
+  "Lose 20 Life per Enemy Killed":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeOnKill",
+        "type":"BASE",
+        "value":-20
       }]],
   "Lose 23 Life per Enemy Hit with Attacks":[[{
         "flags":4,
@@ -85477,6 +87365,8 @@
   "Maximum 1 Buff from an Active Ancestor Totem at a time Socketed Slam Gems are Supported by Level 25 Earthbreaker":[null,"Maximum 1 Buff from an Active Ancestor Totem at a time Socketed Slam Gems are Supported by Level 25 Earthbreaker "],
   "Maximum 10 Fragile Regrowth":[null,"Maximum 10 Fragile Regrowth "],
   "Maximum 10 Fragile Regrowth 0.7% of Life Regenerated per second per Fragile Regrowth":[null,"Maximum 10 Fragile Regrowth 0.7% of Life Regenerated per second per Fragile Regrowth "],
+  "Maximum 10 Remembrance":[null,"Maximum 10 Remembrance "],
+  "Maximum 10 Remembrance Eldritch Battery":[null,"Maximum 10 Remembrance Eldritch Battery "],
   "Maximum 5 Fragile Regrowth":[null,"Maximum 5 Fragile Regrowth "],
   "Maximum 5 Fragile Regrowth 0.7% of Life Regenerated per second per Fragile Regrowth":[null,"Maximum 5 Fragile Regrowth 0.7% of Life Regenerated per second per Fragile Regrowth "],
   "Maximum Absorption Charges is equal to Maximum Power Charges":[[{
@@ -85577,6 +87467,272 @@
       }]],
   "Maximum Quality is 200%":[[],"Maximum Quality "],
   "Maximum Quality is 200% Corrupted":[[],"Maximum Quality Corrupted "],
+  "Maximum number of Animated Weapons is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveAnimatedWeaponLimit",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "globalLimit":100,
+          "globalLimitKey":"ActiveAnimatedWeaponLimitDoubledLimit",
+          "type":"Multiplier",
+          "var":"ActiveAnimatedWeaponLimitDoubled"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:ActiveAnimatedWeaponLimitDoubled",
+        "type":"OVERRIDE",
+        "value":1
+      }]],
+  "Maximum number of Raised Spectres is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveSpectreLimit",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "globalLimit":100,
+          "globalLimitKey":"ActiveSpectreLimitDoubledLimit",
+          "type":"Multiplier",
+          "var":"ActiveSpectreLimitDoubled"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:ActiveSpectreLimitDoubled",
+        "type":"OVERRIDE",
+        "value":1
+      }]],
+  "Maximum number of Raised Spiders is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveSpiderLimit",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "globalLimit":100,
+          "globalLimitKey":"ActiveSpiderLimitDoubledLimit",
+          "type":"Multiplier",
+          "var":"ActiveSpiderLimitDoubled"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:ActiveSpiderLimitDoubled",
+        "type":"OVERRIDE",
+        "value":1
+      }]],
+  "Maximum number of Raised Zombies is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveZombieLimit",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "globalLimit":100,
+          "globalLimitKey":"ActiveZombieLimitDoubledLimit",
+          "type":"Multiplier",
+          "var":"ActiveZombieLimitDoubled"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:ActiveZombieLimitDoubled",
+        "type":"OVERRIDE",
+        "value":1
+      }]],
+  "Maximum number of Sentinels of Absolution is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveSentinelOfAbsolutionLimit",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "globalLimit":100,
+          "globalLimitKey":"ActiveSentinelOfAbsolutionLimitDoubledLimit",
+          "type":"Multiplier",
+          "var":"ActiveSentinelOfAbsolutionLimitDoubled"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:ActiveSentinelOfAbsolutionLimitDoubled",
+        "type":"OVERRIDE",
+        "value":1
+      }]],
+  "Maximum number of Sentinels of Dominance is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveSentinelOfDominanceLimit",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "globalLimit":100,
+          "globalLimitKey":"ActiveSentinelOfDominanceLimitDoubledLimit",
+          "type":"Multiplier",
+          "var":"ActiveSentinelOfDominanceLimitDoubled"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:ActiveSentinelOfDominanceLimitDoubled",
+        "type":"OVERRIDE",
+        "value":1
+      }]],
+  "Maximum number of Sentinels of Purity is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveSentinelOfPurityLimit",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "globalLimit":100,
+          "globalLimitKey":"ActiveSentinelOfPurityLimitDoubledLimit",
+          "type":"Multiplier",
+          "var":"ActiveSentinelOfPurityLimitDoubled"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:ActiveSentinelOfPurityLimitDoubled",
+        "type":"OVERRIDE",
+        "value":1
+      }]],
+  "Maximum number of Summoned Golems is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveGolemLimit",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "globalLimit":100,
+          "globalLimitKey":"ActiveGolemLimitDoubledLimit",
+          "type":"Multiplier",
+          "var":"ActiveGolemLimitDoubled"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:ActiveGolemLimitDoubled",
+        "type":"OVERRIDE",
+        "value":1
+      }]],
+  "Maximum number of Summoned Holy Relics is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveHolyRelicLimit",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "globalLimit":100,
+          "globalLimitKey":"ActiveHolyRelicLimitDoubledLimit",
+          "type":"Multiplier",
+          "var":"ActiveHolyRelicLimitDoubled"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:ActiveHolyRelicLimitDoubled",
+        "type":"OVERRIDE",
+        "value":1
+      }]],
+  "Maximum number of Summoned Phantasms is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActivePhantasmLimit",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "globalLimit":100,
+          "globalLimitKey":"ActivePhantasmLimitDoubledLimit",
+          "type":"Multiplier",
+          "var":"ActivePhantasmLimitDoubled"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:ActivePhantasmLimitDoubled",
+        "type":"OVERRIDE",
+        "value":1
+      }]],
+  "Maximum number of Summoned Raging Spirits is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveRagingSpiritLimit",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "globalLimit":100,
+          "globalLimitKey":"ActiveRagingSpiritLimitDoubledLimit",
+          "type":"Multiplier",
+          "var":"ActiveRagingSpiritLimitDoubled"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:ActiveRagingSpiritLimitDoubled",
+        "type":"OVERRIDE",
+        "value":1
+      }]],
+  "Maximum number of Summoned Reapers is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveReaperLimit",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "globalLimit":100,
+          "globalLimitKey":"ActiveReaperLimitDoubledLimit",
+          "type":"Multiplier",
+          "var":"ActiveReaperLimitDoubled"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:ActiveReaperLimitDoubled",
+        "type":"OVERRIDE",
+        "value":1
+      }]],
+  "Maximum number of Summoned Skeletons is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveSkeletonLimit",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "globalLimit":100,
+          "globalLimitKey":"ActiveSkeletonLimitDoubledLimit",
+          "type":"Multiplier",
+          "var":"ActiveSkeletonLimitDoubled"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:ActiveSkeletonLimitDoubled",
+        "type":"OVERRIDE",
+        "value":1
+      }]],
+  "Maximum number of Summoned Spectral Wolves is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveWolfLimit",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "globalLimit":100,
+          "globalLimitKey":"ActiveWolfLimitDoubledLimit",
+          "type":"Multiplier",
+          "var":"ActiveWolfLimitDoubled"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:ActiveWolfLimitDoubled",
+        "type":"OVERRIDE",
+        "value":1
+      }]],
   "Maximum total Energy Shield Recovery per second from Leech is doubled":[[{
         "flags":0,
         "keywordFlags":0,
@@ -85635,6 +87791,7 @@
   "Melee Hits Fortify":[null,"Melee Hits Fortify "],
   "Melee Hits Fortify -3 to maximum Fortification":[null,"Melee Hits Fortify -3 to maximum Fortification "],
   "Melee Hits Fortify Limited to 1 Attribute Notable Tattoo":[null,"Melee Hits Fortify Limited to 1 Attribute Notable Tattoo "],
+  "Melee Hits Fortify if 6 Warlord Items are Equipped":[null,"Melee Hits Fortify if 6 Warlord Items are Equipped "],
   "Melee Hits count as Rampage Kills":[null,"Melee Hits count as Rampage Kills "],
   "Melee Hits count as Rampage Kills Rampage":[null,"Melee Hits count as Rampage Kills Rampage "],
   "Melee Hits from Strike Skills Fortify":[null,"Melee Hits from Strike Skills Fortify "],
@@ -86110,6 +88267,7 @@
         }
       }]],
   "Minions are Aggressive":[null,"Aggressive "],
+  "Minions are Aggressive +400 to Armour and Evasion Rating":[null,"Aggressive +400 to Armour and Evasion Rating "],
   "Minions can hear the whispers for 5 seconds after they deal a Critical Strike":[[{
         "flags":0,
         "keywordFlags":0,
@@ -89882,6 +92040,26 @@
           }
         }
       }]],
+  "Nearby Enemies are Blinded if 2 Redeemer Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Condition:Blinded",
+            "type":"FLAG",
+            "value":true,
+            "1":{
+              "threshold":2,
+              "type":"MultiplierThreshold",
+              "var":"RedeemerItem"
+            }
+          }
+        }
+      }]],
   "Nearby Enemies are Blinded while Physical Aegis is not depleted":[[{
         "flags":0,
         "keywordFlags":0,
@@ -90005,6 +92183,26 @@
           }
         }
       }]],
+  "Nearby Enemies are Intimidated if 2 Warlord Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Condition:Intimidated",
+            "type":"FLAG",
+            "value":true,
+            "1":{
+              "threshold":2,
+              "type":"MultiplierThreshold",
+              "var":"WarlordItem"
+            }
+          }
+        }
+      }]],
   "Nearby Enemies are Intimidated while you have Rage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -90045,6 +92243,26 @@
         "name":"ScorchBase",
         "type":"BASE",
         "value":10
+      }]],
+  "Nearby Enemies are Unnerved if 2 Elder Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Condition:Unnerved",
+            "type":"FLAG",
+            "value":true,
+            "1":{
+              "threshold":2,
+              "type":"MultiplierThreshold",
+              "var":"ElderItem"
+            }
+          }
+        }
       }]],
   "Nearby Enemies cannot deal Critical Strikes":[[{
         "flags":0,
@@ -91050,7 +93268,7 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Non-instant Warcries you use yourself have no Cooldown":[[{
+  "Non-instant Warcries ignore their Cooldown when used":[[{
         "flags":0,
         "keywordFlags":4,
         "name":"CooldownRecovery",
@@ -91058,7 +93276,7 @@
         "value":0,
         "1":{
           "neg":true,
-          "skillTypeList":[74,null,41],
+          "skillType":74,
           "type":"SkillType"
         }
       }]],
@@ -92539,6 +94757,18 @@
         "type":"BASE",
         "value":2
       }]],
+  "Projectiles Pierce 2 additional Targets if 2 Hunter Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PierceCount",
+        "type":"BASE",
+        "value":"2",
+        "1":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"HunterItem"
+        }
+      }]],
   "Projectiles Pierce 5 additional Targets while you have Phasing":[[{
         "flags":0,
         "keywordFlags":0,
@@ -92587,10 +94817,10 @@
         "type":"BASE",
         "value":1
       }]],
-  "Projectiles Return to you at end of flight":[null,"Projectiles Return to you at end of flight "],
-  "Projectiles Return to you at end of flight Projectiles are fired in random directions":[null,"Projectiles Return to you at end of flight Projectiles are fired in random directions "],
-  "Projectiles Return to you from final target":[null,"Projectiles Return to you from final target "],
-  "Projectiles are fired in random directions":[null,"Projectiles are fired in random directions "],
+  "Projectiles Return to you at end of flight":[null,"Return to you at end of flight "],
+  "Projectiles Return to you at end of flight Projectiles are fired in random directions":[null,"Return to you at end of flight Projectiles are fired in random directions "],
+  "Projectiles Return to you from final target":[null,"Return to you from final target "],
+  "Projectiles are fired in random directions":[null,"fired in random directions "],
   "Projectiles cannot Pierce, Fork or Chain":[[{
         "flags":1024,
         "keywordFlags":0,
@@ -92610,8 +94840,33 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Projectiles cannot collide with Enemies at Close Range":[null,"Projectiles cannot collide with Enemies at Close Range "],
-  "Projectiles cannot collide with Enemies at Close Range Far Shot":[null,"Projectiles cannot collide with Enemies at Close Range Far Shot "],
+  "Projectiles cannot collide with Enemies at Close Range":[null,"cannot collide with Enemies at Close Range "],
+  "Projectiles cannot collide with Enemies at Close Range Far Shot":[null,"cannot collide with Enemies at Close Range Far Shot "],
+  "Projectiles cannot continue after colliding with targets":[[{
+        "flags":1024,
+        "keywordFlags":0,
+        "name":"CannotPierce",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":1024,
+        "keywordFlags":0,
+        "name":"CannotChain",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":1024,
+        "keywordFlags":0,
+        "name":"CannotFork",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":1024,
+        "keywordFlags":0,
+        "name":"CannotSplit",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Projectiles deal 15% increased Damage with Hits and Ailments for each remaining Chain":[[{
         "flags":0,
         "keywordFlags":786432,
@@ -92842,7 +95097,7 @@
           "type":"PerStat"
         }
       }]],
-  "Projectiles gain Damage as they travel farther, dealing up":[null,"Projectiles gain Damage as they travel farther, dealing up "],
+  "Projectiles gain Damage as they travel farther, dealing up":[null,"Damage as they travel farther, dealing up "],
   "Projectiles gain Damage as they travel farther, dealing up to 30% more Damage with Hits and Ailments":[[{
         "flags":0,
         "keywordFlags":786432,
@@ -92865,14 +95120,20 @@
           "type":"DistanceRamp"
         }
       }]],
-  "Projectiles have 20% chance to be able to Chain when colliding with terrain":[[]," to be able to Chain when colliding with terrain "],
+  "Projectiles have 20% chance to be able to Chain when colliding with terrain":[[{
+        "flags":1024,
+        "keywordFlags":0,
+        "name":"ChainCountMax",
+        "type":"BASE",
+        "value":20
+      }]," to be able to when colliding with terrain "],
   "Projectiles have 20% chance to be able to Chain when colliding with terrain Projectiles gain Damage as they travel farther, dealing up":[[{
         "flags":1024,
         "keywordFlags":0,
-        "name":"ProjectileCount",
+        "name":"ChainCountMax",
         "type":"BASE",
         "value":20
-      }]," to be able to Chain when colliding with terrain  gain Damage as they travel farther, dealing up "],
+      }]," to be able to when colliding with terrain Projectiles gain Damage as they travel farther, dealing up "],
   "Projectiles have 25% chance for an additional Projectile when Forking":[[{
         "flags":1024,
         "keywordFlags":0,
@@ -92880,8 +95141,26 @@
         "type":"BASE",
         "value":25
       }]," for an additional  when Forking "],
-  "Projectiles have 30% chance to be able to Chain when colliding with terrain":[[]," to be able to Chain when colliding with terrain "],
-  "Projectiles have 4% chance to be able to Chain when colliding with terrain per Searching Eye Jewel affecting you, up to a maximum of 20%":[[]," to be able to Chain when colliding with terrain  "],
+  "Projectiles have 30% chance to be able to Chain when colliding with terrain":[[{
+        "flags":1024,
+        "keywordFlags":0,
+        "name":"ChainCountMax",
+        "type":"BASE",
+        "value":30
+      }]," to be able to when colliding with terrain "],
+  "Projectiles have 4% chance to be able to Chain when colliding with terrain per Searching Eye Jewel affecting you, up to a maximum of 20%":[[{
+        "flags":1024,
+        "keywordFlags":0,
+        "name":"ChainCountMax",
+        "type":"BASE",
+        "value":4,
+        "1":{
+          "limit":20,
+          "limitTotal":true,
+          "type":"Multiplier",
+          "var":"SearchingEyeJewel"
+        }
+      }]," to be able to when colliding with terrain  "],
   "Projectiles have 50% chance for an additional Projectile when Forking":[[{
         "flags":1024,
         "keywordFlags":0,
@@ -95640,6 +97919,13 @@
           "var":"EnduranceCharge"
         }
       }]],
+  "Regenerate 33.3 Life per second":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeRegen",
+        "type":"BASE",
+        "value":33.3
+      }]],
   "Regenerate 35 Mana per second if all Equipped Items are Corrupted":[[{
         "flags":0,
         "keywordFlags":0,
@@ -95820,6 +98106,13 @@
           "type":"Condition",
           "var":"ConsumedCorpseInPast2Sec"
         }
+      }]],
+  "Regenerate 5.3 Mana per second":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaRegen",
+        "type":"BASE",
+        "value":5.3
       }]],
   "Regenerate 50 Energy Shield per Second per Poison on you, up to 400 per second":[[{
         "flags":0,
@@ -96961,6 +99254,8 @@
           "var":"VaalSkillsUsedInPast8Seconds"
         }
       }]],
+  "Shield with no Shaper Memory Summoned":[null,"Shield with no Shaper Memory Summoned "],
+  "Shield with no Shaper Memory Summoned Maximum 10 Remembrance":[null,"Shield with no Shaper Memory Summoned Maximum 10 Remembrance "],
   "Shock Attackers for 4 seconds on Block":[[{
         "flags":0,
         "keywordFlags":0,
@@ -97239,6 +99534,13 @@
         "type":"BASE",
         "value":3
       }]],
+  "Skills Cost Energy Shield instead of Mana or Life":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CostESInsteadOfManaOrLife",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Skills Cost Life instead of 15% of Mana Cost":[[{
         "flags":0,
         "keywordFlags":0,
@@ -97371,12 +99673,31 @@
           "var":"UsedMovementSkillRecently"
         }
       }]],
+  "Skills fire 3 additional Projectiles":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ProjectileCount",
+        "type":"BASE",
+        "value":3
+      }]],
   "Skills fire an additional Projectile":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"ProjectileCount",
         "type":"BASE",
         "value":1
+      }]],
+  "Skills fire an additional Projectile if 6 Hunter Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ProjectileCount",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"HunterItem"
+        }
       }]],
   "Skills from Equipped Body Armour are Supported by Level 20 Fist of War":[[{
         "flags":0,
@@ -103731,8 +106052,8 @@
           "type":"SocketedIn"
         }
       }]],
-  "Socketed Gems fire Projectiles in a Nova":[null,"Socketed Gems fire Projectiles in a Nova "],
-  "Socketed Gems fire Projectiles in a Nova +20 to All Attributes":[null,"Socketed Gems fire Projectiles in a Nova +20 to All Attributes "],
+  "Socketed Gems fire Projectiles in a Nova":[null,"fire Projectiles in a Nova "],
+  "Socketed Gems fire Projectiles in a Nova +20 to All Attributes":[null,"fire Projectiles in a Nova +20 to All Attributes "],
   "Socketed Gems fire an additional Projectile":[[{
         "flags":0,
         "keywordFlags":0,
@@ -105008,6 +107329,13 @@
         }
       }]],
   "Summon Skeletons cannot Summon more than 1 Skeleton Warrior":[null,"cannot Summon more than 1 Skeleton Warrior "],
+  "Summon Skitterbots also summons a Scorching Skitterbot":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ScorchingSkitterbot",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Summoned Arbalists Convert 100% of Physical Damage to Cold Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -106134,6 +108462,13 @@
           "type":"SkillName"
         }
       }]],
+  "Summoned Skitterbots' Auras affect you as well as Enemies":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkitterbotAffectPlayer",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Suppressed Spell Damage cannot inflict Elemental Ailments on you":[null,"Suppressed Spell Damage cannot inflict Elemental Ailments on you "],
   "Supreme Decadence":[[{
         "flags":0,
@@ -106370,13 +108705,13 @@
           "var":"HeartstopperAVERAGE"
         }
       }]],
-  "Take 449 Fire Damage when you use a Skill":[[{
+  "Take 400 Fire Damage when you use a Skill":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"EnmitysEmbraceSelfDamage",
         "type":"LIST",
         "value":{
-          "baseDamage":449,
+          "baseDamage":400,
           "damageType":"fire"
         }
       }]],
@@ -106422,6 +108757,16 @@
         "type":"BASE",
         "value":500
       }],"  on reaching Maximum Power Charges "],
+  "Take 500 Fire Damage when you use a Skill":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnmitysEmbraceSelfDamage",
+        "type":"LIST",
+        "value":{
+          "baseDamage":500,
+          "damageType":"fire"
+        }
+      }]],
   "Take 6000 Fire Damage per Second while Flame-Touched":[[{
         "flags":0,
         "keywordFlags":0,
@@ -106480,6 +108825,13 @@
         }
       }]],
   "Taking Chaos Damage over Time heals you instead while Leeching Life":[null,"Taking Chaos Damage over Time heals you instead while Leeching Life "],
+  "Targets are Unaffected by your Hexes":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CurseEffect",
+        "type":"MORE",
+        "value":-100
+      }]],
   "Taunt on Hit":[null,"Taunt on Hit "],
   "Taunt on Hit 15% increased effect of Non-Curse Auras from your Skills":[null,"Taunt on Hit 15% increased effect of Non-Curse Auras from your Skills "],
   "Taunt on Hit 15% increased effect of Non-Curse Auras from your Skills Your Hits permanently Intimidate Enemies that are on Full Life":[null,"Taunt on Hit 15% increased effect of Non-Curse Auras from your Skills Your Hits permanently Intimidate Enemies that are on Full Life "],
@@ -106734,6 +109086,17 @@
         "name":"SelfChillEffectIsReversed",
         "type":"FLAG",
         "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Dummy",
+        "source":"",
+        "type":"DUMMY",
+        "value":1,
+        "1":{
+          "type":"Condition",
+          "var":"Chilled"
+        }
       }]],
   "The Impaler":[[{
         "flags":0,
@@ -106751,6 +109114,43 @@
         "1":{
           "actor":"player",
           "type":"ActorCondition"
+        }
+      }]],
+  "The stars are aligned if you have 6 Influence types among other Equipped Items":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:StarsAreAligned",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"ShaperItem"
+        },
+        "2":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"ElderItem"
+        },
+        "3":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"WarlordItem"
+        },
+        "4":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"HunterItem"
+        },
+        "5":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"CrusaderItem"
+        },
+        "6":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"RedeemerItem"
         }
       }]],
   "This Jewel's Socket has 25% increased effect per Allocated Passive Skill between":[null,"This Jewel's Socket has 25% increased effect per Allocated Passive Skill between "],
@@ -107458,6 +109858,17 @@
           "triggered":true
         }
       }]],
+  "Trigger Level 20 Summon Void Spawn every 4 seconds":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":20,
+          "skillId":"SummonVoidSpawn",
+          "triggered":true
+        }
+      }]],
   "Trigger Level 20 Tawhoa's Chosen when you Attack with a Non-Vaal Slam or Strike Skill near an Enemy":[[{
         "flags":0,
         "keywordFlags":0,
@@ -107665,6 +110076,20 @@
         "value":{
           "level":1,
           "skillId":"SupportUniqueMjolnerLightningSpellsCastOnHit"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Trigger a Socketed Spell on Unarmed Melee Critical Strike, with a 0.25 second Cooldown":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":1,
+          "skillId":"SupportTriggerSpellOnUnarmedMeleeCriticalHit"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -107900,6 +110325,18 @@
   "Unaffected by Burning Ground":[null,"Unaffected by Burning Ground "],
   "Unaffected by Burning Ground while affected by Purity of Fire":[null,"Unaffected by Burning Ground while affected by Purity of Fire "],
   "Unaffected by Burning Ground while affected by Purity of Fire Unaffected by Flammability while affected by Purity of Fire":[null,"Unaffected by Burning Ground while affected by Purity of Fire Unaffected by Flammability while affected by Purity of Fire "],
+  "Unaffected by Chill if 2 Redeemer Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SelfChillEffect",
+        "type":"MORE",
+        "value":-100,
+        "1":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"RedeemerItem"
+        }
+      }]],
   "Unaffected by Chill while Channelling":[[{
         "flags":0,
         "keywordFlags":0,
@@ -107990,9 +110427,33 @@
         "type":"MORE",
         "value":-100
       }]],
+  "Unaffected by Ignite if 2 Warlord Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SelfIgniteEffect",
+        "type":"MORE",
+        "value":-100,
+        "1":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"WarlordItem"
+        }
+      }]],
   "Unaffected by Ignite or Shock if Maximum Life and Maximum Mana are within 500":[null,"Unaffected by Ignite or Shock if Maximum Life and Maximum Mana are within 500 "],
   "Unaffected by Poison":[null,"Unaffected by Poison "],
   "Unaffected by Poison 20% of Damage taken Recouped as Life":[null,"Unaffected by Poison 20% of Damage taken Recouped as Life "],
+  "Unaffected by Poison if 2 Hunter Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SelfPoisonEffect",
+        "type":"MORE",
+        "value":-100,
+        "1":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"HunterItem"
+        }
+      }]],
   "Unaffected by Poison while affected by Malevolence":[null,"Unaffected by Poison while affected by Malevolence "],
   "Unaffected by Poison while affected by Malevolence Damaging Ailments you inflict deal Damage 15% faster while affected by Malevolence":[null,"Unaffected by Poison while affected by Malevolence Damaging Ailments you inflict deal Damage 15% faster while affected by Malevolence "],
   "Unaffected by Shock":[[{
@@ -108001,6 +110462,18 @@
         "name":"SelfShockEffect",
         "type":"MORE",
         "value":-100
+      }]],
+  "Unaffected by Shock if 2 Crusader Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SelfShockEffect",
+        "type":"MORE",
+        "value":-100,
+        "1":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"CrusaderItem"
+        }
       }]],
   "Unaffected by Shock while Leeching Energy Shield":[[{
         "flags":0,
@@ -108464,6 +110937,19 @@
       }]],
   "Warcries Knock Back and Interrupt Enemies in a smaller Area":[null,"Warcries Knock Back and Interrupt Enemies in a smaller Area "],
   "Warcries cannot Exert Travel Skills":[null,"Warcries cannot Exert Travel Skills "],
+  "Warcries cost +15% of Life":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeCostBase",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "floor":true,
+          "percent":15,
+          "stat":"Life",
+          "type":"PercentStat"
+        }
+      }]],
   "Warcries grant 1 Rage per 5 Enemy Power, up to 5":[[{
         "flags":0,
         "keywordFlags":0,
@@ -108529,18 +111015,6 @@
         "type":"BASE",
         "value":10
       }]],
-  "Warcries have an additional Life Cost equal to 15% of your Maximum Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LifeCostNoMult",
-        "type":"BASE",
-        "value":1,
-        "1":{
-          "percent":15,
-          "stat":"Life",
-          "type":"PercentStat"
-        }
-      }]],
   "Warcries have infinite Power":[[{
         "flags":0,
         "keywordFlags":0,
@@ -108559,23 +111033,23 @@
           "type":"SkillType"
         }
       }]],
-  "Warcry Skills have 16% increased Area of Effect":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"AreaOfEffect",
-        "type":"INC",
-        "value":16,
-        "1":{
-          "skillType":73,
-          "type":"SkillType"
-        }
-      }]],
   "Warcry Skills have 20% increased Area of Effect":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"AreaOfEffect",
         "type":"INC",
         "value":20,
+        "1":{
+          "skillType":73,
+          "type":"SkillType"
+        }
+      }]],
+  "Warcry Skills have 25% increased Area of Effect":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AreaOfEffect",
+        "type":"INC",
+        "value":25,
         "1":{
           "skillType":73,
           "type":"SkillType"
@@ -108634,6 +111108,13 @@
       }]],
   "Warlord's Call":[null,"Warlord's Call "],
   "Weapons you Animate create an additional copy":[null,"Weapons you Animate create an additional copy "],
+  "When 90% of your Hex's Duration Expires on an Enemy, Eat 1 Soul per Enemy Power":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanHaveSoulEater",
+        "type":"FLAG",
+        "value":true
+      }]],
   "When Hit during effect, 25% of Life loss from Damage taken occurs over 4 seconds instead":[[{
         "flags":0,
         "keywordFlags":0,
@@ -109955,6 +112436,18 @@
         "type":"BASE",
         "value":1
       }]],
+  "You can apply an additional Curse if 6 Hunter Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyCurseLimit",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"HunterItem"
+        }
+      }]],
   "You can apply an additional Curse while affected by Malevolence":[[{
         "flags":0,
         "keywordFlags":0,
@@ -110163,6 +112656,8 @@
         }
       }]],
   "You cannot have Non-Spectre Minions":[null,"You cannot have Non-Spectre Minions "],
+  "You cannot have more than 2 Summoned Totems of the same type":[null,"You cannot have more than 2 Summoned Totems of the same type "],
+  "You cannot have more than 2 Summoned Totems of the same type 70% increased Totem Placement speed":[null,"You cannot have more than 2 Summoned Totems of the same type 70% increased Totem Placement speed "],
   "You cannot have non-Animated Minions":[null,"You cannot have non-Animated Minions "],
   "You cannot have non-Golem Minions":[null,"You cannot have non-Golem Minions "],
   "You cannot have non-Golem Minions 25% reduced Golem Size":[null,"You cannot have non-Golem Minions 25% reduced Golem Size "],
@@ -110529,6 +113024,147 @@
           "actor":"enemy",
           "type":"ActorCondition",
           "var":"Cursed"
+        }
+      }]],
+  "You have Elemental Conflux if the stars are aligned":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalCanChill",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"StarsAreAligned"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LightningCanChill",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"StarsAreAligned"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireCanChill",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"StarsAreAligned"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChaosCanChill",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"StarsAreAligned"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyShockChance",
+        "type":"BASE",
+        "value":100,
+        "1":{
+          "type":"Condition",
+          "var":"StarsAreAligned"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalCanShock",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"StarsAreAligned"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ColdCanShock",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"StarsAreAligned"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireCanShock",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"StarsAreAligned"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChaosCanShock",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"StarsAreAligned"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyIgniteChance",
+        "type":"BASE",
+        "value":100,
+        "1":{
+          "type":"Condition",
+          "var":"StarsAreAligned"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalCanIgnite",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"StarsAreAligned"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LightningCanIgnite",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"StarsAreAligned"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ColdCanIgnite",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"StarsAreAligned"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChaosCanIgnite",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"StarsAreAligned"
         }
       }]],
   "You have Far Shot while you do not have Iron Reflexes":[[{
@@ -111795,6 +114431,14 @@
       }]],
   "Your Lucky or Unlucky effects are instead Unexciting":[null,"Your Lucky or Unlucky effects are instead Unexciting "],
   "Your Lucky or Unlucky effects are instead Unexciting Limited to 1 Runegraft of Stability":[null,"Your Lucky or Unlucky effects are instead Unexciting Limited to 1 Runegraft of Stability "],
+  "Your Lucky or Unlucky effects use the best or":[null,"Your Lucky or Unlucky effects use the best or "],
+  "Your Lucky or Unlucky effects use the best or worst from three rolls instead of two":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtremeLuck",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Your Mark Transfers to another Enemy when Marked Enemy dies":[null,"Your Mark Transfers to another Enemy when Marked Enemy dies "],
   "Your Mark transfers to another Enemy when Marked Enemy dies":[null,"Your Mark transfers to another Enemy when Marked Enemy dies "],
   "Your Mark transfers to another Enemy when Marked Enemy dies 8% of Damage from Hits is taken from Marked Target's Life before you":[null,"Your Mark transfers to another Enemy when Marked Enemy dies 8% of Damage from Hits is taken from Marked Target's Life before you "],
