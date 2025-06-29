@@ -19618,19 +19618,20 @@
         }
       }]],
   "10% increased Damage for each unlinked Socket in Equipped Two Handed Weapon":[[{
-        "flags":8192,
+        "flags":0,
         "keywordFlags":0,
         "name":"Damage",
         "type":"INC",
-        "value":10
-      }],"  for each unlinked Socket in Equipped Two Handed  "],
-  "10% increased Damage for each unlinked Socket in Equipped Two Handed Weapon Limited to 1 Runegraft of the Jeweller":[[{
-        "flags":8192,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
-        "value":10
-      }],"  for each unlinked Socket in Equipped Two Handed  Limited to 1 Runegraft of the Jeweller "],
+        "value":10,
+        "1":{
+          "type":"Multiplier",
+          "var":"UnlinkedSocketInWeapon 1"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UsingTwoHandedWeapon"
+        }
+      }]],
   "10% increased Damage over Time":[[{
         "flags":8,
         "keywordFlags":0,
@@ -20949,15 +20950,16 @@
         "keywordFlags":0,
         "name":"Speed",
         "type":"MORE",
-        "value":10
-      }],"  with Offhand "],
-  "10% more Attack speed with Offhand Limited to 1 Runegraft of the Sinistral":[[{
-        "flags":1,
-        "keywordFlags":0,
-        "name":"Speed",
-        "type":"MORE",
-        "value":10
-      }],"  with Offhand Limited to 1 Runegraft of the Sinistral "],
+        "value":10,
+        "1":{
+          "type":"Condition",
+          "var":"OffHandAttack"
+        },
+        "2":{
+          "skillType":1,
+          "type":"SkillType"
+        }
+      }]],
   "10% more Damage if you've Killed Recently":[[{
         "flags":0,
         "keywordFlags":0,
@@ -22693,15 +22695,13 @@
         "keywordFlags":4,
         "name":"WarcrySpeed",
         "type":"INC",
-        "value":100
-      }],"  if you have not Warcried Recently "],
-  "100% increased Warcry Speed if you have not Warcried Recently Limited to 1 Runegraft of Bellows":[[{
-        "flags":0,
-        "keywordFlags":4,
-        "name":"WarcrySpeed",
-        "type":"INC",
-        "value":100
-      }],"  if you have not Warcried Recently Limited to 1 Runegraft of Bellows "],
+        "value":100,
+        "1":{
+          "neg":true,
+          "type":"Condition",
+          "var":"UsedWarcryRecently"
+        }
+      }]],
   "100% increased maximum Mana":[[{
         "flags":0,
         "keywordFlags":0,
@@ -33007,8 +33007,13 @@
         "type":"INC",
         "value":20
       }]],
-  "20% increased bonuses gained from Equipped Gloves":[[]," bonuses gained from Equipped Gloves "],
-  "20% increased bonuses gained from Equipped Gloves Limited to 1 Runegraft of the Bound":[[]," bonuses gained from Equipped Gloves Limited to 1 Runegraft of the Bound "],
+  "20% increased bonuses gained from Equipped Gloves":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EffectOfBonusesFromGloves",
+        "type":"INC",
+        "value":20
+      }]],
   "20% increased effect of Non-Curse Auras from your Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -33807,9 +33812,13 @@
         "type":"INC",
         "value":-20
       }]],
-  "20% reduced bonuses gained from Equipped Boots":[[]," bonuses gained from Equipped Boots "],
-  "20% reduced bonuses gained from Equipped Boots 20% increased bonuses gained from Equipped Gloves":[[]," bonuses gained from Equipped Boots 20% increased bonuses gained from Equipped Gloves "],
-  "20% reduced bonuses gained from Equipped Boots 20% increased bonuses gained from Equipped Gloves Limited to 1 Runegraft of the Bound":[[]," bonuses gained from Equipped Boots 20% increased bonuses gained from Equipped Gloves Limited to 1 Runegraft of the Bound "],
+  "20% reduced bonuses gained from Equipped Boots":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EffectOfBonusesFromBoots",
+        "type":"INC",
+        "value":-20
+      }]],
   "20% reduced maximum Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -47397,15 +47406,13 @@
         "keywordFlags":0,
         "name":"Damage",
         "type":"INC",
-        "value":50
-      }],"  against Enemies with a higher percentage of their Life remaining than you "],
-  "50% increased Attack Damage against Enemies with a higher percentage of their Life remaining than you Limited to 1 Runegraft of the Combatant":[[{
-        "flags":1,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
-        "value":50
-      }],"  against Enemies with a higher percentage of their Life remaining than you Limited to 1 Runegraft of the Combatant "],
+        "value":50,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"HigherLifePercentThanPlayer"
+        }
+      }]],
   "50% increased Attack Speed":[[{
         "flags":1,
         "keywordFlags":0,
@@ -69465,8 +69472,13 @@
           "var":"Herald"
         }
       }]],
-  "Auras from your Skills which affect Allies also affect Enemies":[null,"Auras from your Skills which affect Allies also affect Enemies "],
-  "Auras from your Skills which affect Allies also affect Enemies Limited to 1 Runegraft of Treachery":[null,"Auras from your Skills which affect Allies also affect Enemies Limited to 1 Runegraft of Treachery "],
+  "Auras from your Skills which affect Allies also affect Enemies":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AurasAffectEnemies",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Avatar of Fire":[[{
         "flags":0,
         "keywordFlags":0,
@@ -107137,8 +107149,23 @@
         "type":"BASE",
         "value":20
       }]],
-  "Spells have an additional Life cost equal to 8% of your Maximum Life":[null,"n additional Life cost equal to 8% of your Maximum Life "],
-  "Spells have an additional Life cost equal to 8% of your Maximum Life Limited to 1 Runegraft of the Witchmark":[null,"n additional Life cost equal to 8% of your Maximum Life Limited to 1 Runegraft of the Witchmark "],
+  "Spells have an additional Life cost equal to 8% of your Maximum Life":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeCostBase",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "floor":true,
+          "percent":8,
+          "stat":"Life",
+          "type":"PercentStat"
+        },
+        "2":{
+          "skillType":2,
+          "type":"SkillType"
+        }
+      }]],
   "Spells inflict Intimidate on Critical Strike for 4 seconds":[null,"Spells inflict Intimidate on Critical Strike for 4 seconds "],
   "Spells which can gain Intensity have +1 to maximum Intensity":[[{
         "flags":0,
@@ -114429,8 +114456,13 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Your Lucky or Unlucky effects are instead Unexciting":[null,"Your Lucky or Unlucky effects are instead Unexciting "],
-  "Your Lucky or Unlucky effects are instead Unexciting Limited to 1 Runegraft of Stability":[null,"Your Lucky or Unlucky effects are instead Unexciting Limited to 1 Runegraft of Stability "],
+  "Your Lucky or Unlucky effects are instead Unexciting":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Unexciting",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Your Lucky or Unlucky effects use the best or":[null,"Your Lucky or Unlucky effects use the best or "],
   "Your Lucky or Unlucky effects use the best or worst from three rolls instead of two":[[{
         "flags":0,
