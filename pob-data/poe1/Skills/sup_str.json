@@ -2902,6 +2902,7 @@
         "2":100
       }],
     "name":"Ballista Totem",
+    "notMinionStat":["totem_support_gem_level"],
     "qualityStats":{
       "Default":[["summon_totem_cast_speed_+%",0.5]]
     },
@@ -4053,6 +4054,7 @@
         "2":68
       }],
     "name":"Shockwave",
+    "notMinionStat":["active_skill_base_radius_+","base_cooldown_speed_+%"],
     "qualityStats":{
       "Default":[["melee_damage_+%",0.5]]
     },
@@ -5374,6 +5376,7 @@
         "3":100
       }],
     "name":"Cast when Damage Taken",
+    "notMinionStat":["cast_on_damage_taken_threshold"],
     "qualityStats":{
       "Default":[["cast_when_damage_taken_trigger_threshold_+%",-0.5]]
     },
@@ -10128,6 +10131,7 @@
         "4":11
       }],
     "name":"Inspiration",
+    "notMinionStat":["support_inspiration_mana_cost_+%_final","lose_all_righteous_charges_on_mana_use_threshold","elemental_damage_+%_final_per_righteous_charge","critical_strike_chance_+%_per_righteous_charge"],
     "qualityStats":{
       "Default":[["support_inspiration_mana_cost_+%_final",-0.25]]
     },
@@ -11896,6 +11900,7 @@
         "2":672
       }],
     "name":"Lifetap",
+    "notMinionStat":["support_lifetap_damage_+%_final_while_buffed","support_lifetap_spent_life_threshold"],
     "qualityStats":{
       "Default":[["support_base_lifetap_buff_duration",100]]
     },
@@ -14849,6 +14854,7 @@
         "2":100
       }],
     "name":"Spell Totem",
+    "notMinionStat":["totem_support_gem_level"],
     "qualityStats":{
       "Default":[["summon_totem_cast_speed_+%",0.5]]
     },
@@ -15424,6 +15430,7 @@
         "5":8400
       }],
     "name":"Trauma",
+    "notMinionStat":["trauma_strike_self_damage_per_trauma","attack_minimum_added_physical_damage_with_weapons_per_trauma","attack_maximum_added_physical_damage_with_weapons_per_trauma","support_trauma_stun_duration_+%_per_trauma","support_trauma_base_duration_ms"],
     "qualityStats":{
       "Default":[["base_stun_threshold_reduction_+%",0.5]]
     },

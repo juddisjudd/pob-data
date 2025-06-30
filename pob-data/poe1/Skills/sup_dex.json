@@ -7561,6 +7561,7 @@
         "3":91
       }],
     "name":"Focused Ballista",
+    "notMinionStat":["support_focused_ballista_totem_attack_speed_+%_final","support_focused_ballista_totem_damage_+%_final"],
     "qualityStats":{
       "Default":[["totem_damage_+%",0.5]]
     },
@@ -13192,6 +13193,7 @@
         "1":10
       }],
     "name":"Second Wind",
+    "notMinionStat":["base_cooldown_speed_+%"],
     "qualityStats":{
       "Default":[["base_cooldown_speed_+%",0.25]]
     },

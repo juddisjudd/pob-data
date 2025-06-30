@@ -6616,13 +6616,6 @@
         "type":"BASE",
         "value":21
       }]],
-  "+21% chance to Suppress Spell Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"SpellSuppressionChance",
-        "type":"BASE",
-        "value":21
-      }]],
   "+21% to Cold Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -33327,7 +33320,7 @@
         "type":"BASE",
         "value":20
       }],"   while "],
-  "20% of Fire and Cold Damage taken as Lightning Damage while Immune to Shock while affected by Purity of Lightning":[[{
+  "20% of Fire and Cold Damage taken as Lightning Damage while affected by Purity of Lightning":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"FireDamageTakenAsLightning",
@@ -33347,7 +33340,7 @@
           "type":"Condition",
           "var":"AffectedByPurityofLightning"
         }
-      }],"   while Immune to Shock  "],
+      }]],
   "20% of Fire and Lightning Damage taken as Cold Damage while affected by Purity of Ice":[[{
         "flags":0,
         "keywordFlags":0,
@@ -86548,7 +86541,6 @@
   "Limited to 1 Attribute Notable Tattoo":[null,"Limited to 1 Attribute Notable Tattoo "],
   "Limited to 1 Keystone Tattoo":[null,"Limited to 1 Keystone Tattoo "],
   "Limited to 1 Loyalty Tattoo":[null,"Limited to 1 Loyalty Tattoo "],
-  "Limited to 1 Runegraft":[null,"Limited to 1 Runegraft "],
   "Limited to 1 Runegraft of Bellows":[null,"Limited to 1 Runegraft of Bellows "],
   "Limited to 1 Runegraft of Blasphemy":[null,"Limited to 1 Runegraft of Blasphemy "],
   "Limited to 1 Runegraft of Gemcraft":[null,"Limited to 1 Runegraft of Gemcraft "],
@@ -114908,8 +114900,6 @@
           "type":"SkillType"
         }
       }]],
-  "[DNT] Projectiles you create move at your speed":[null,"[DNT] Projectiles you create move at your speed "],
-  "[DNT] Projectiles you create move at your speed Limited to 1 Runegraft":[null,"[DNT] Projectiles you create move at your speed Limited to 1 Runegraft "],
   "a Critical Strike from a Unique Enemy":[null,"a Critical Strike from a Unique Enemy "],
   "a Critical Strike from a Unique Enemy Limited to 1 Loyalty Tattoo":[null,"a Critical Strike from a Unique Enemy Limited to 1 Loyalty Tattoo "],
   "a Unique Enemy is in your Presence":[null,"a Unique Enemy is in your Presence "],

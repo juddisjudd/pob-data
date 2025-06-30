@@ -1454,6 +1454,7 @@
       "Weapon 1":true
     },
     "name":"Animate Weapon",
+    "notMinionStat":["active_skill_minion_damage_+%_final","active_skill_minion_attack_speed_+%_final"],
     "qualityStats":{
       "Default":[["base_number_of_animated_weapons_allowed",0.1]]
     },
@@ -2020,6 +2021,7 @@
       "Weapon 1":true
     },
     "name":"Animate Weapon of Self Reflection",
+    "notMinionStat":["active_skill_minion_damage_+%_final","active_skill_minion_attack_speed_+%_final"],
     "qualityStats":{
       "Default":[["base_number_of_animated_weapons_allowed",0.05]]
     },
@@ -2691,6 +2693,7 @@
       "Weapon 1":true
     },
     "name":"Animate Weapon of Ranged Arms",
+    "notMinionStat":["active_skill_minion_damage_+%_final","active_skill_minion_attack_speed_+%_final"],
     "qualityStats":{
       "Default":[["base_number_of_animated_weapons_allowed",0.1]]
     },
@@ -3161,6 +3164,7 @@
         "3":5900
       }],
     "name":"Arctic Armour",
+    "notMinionStat":["base_skill_effect_duration"],
     "qualityStats":{
       "Default":[["skill_effect_duration_+%",1]]
     },
@@ -5855,6 +5859,7 @@
         "2":1.3999999761581
       }],
     "name":"Bear Trap",
+    "notMinionStat":["secondary_minimum_base_physical_damage","secondary_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["base_skill_effect_duration",50]]
     },
@@ -6457,6 +6462,7 @@
         "3":270
       }],
     "name":"Bear Trap of Skewers",
+    "notMinionStat":["secondary_minimum_base_physical_damage","secondary_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["impale_debuff_effect_+%",4]]
     },
@@ -6906,6 +6912,7 @@
         "2":1.2000000476837
       }],
     "name":"Blade Blast",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "parts":[{
         "name":"Blade Hits Per Cast",
         "stages":true
@@ -7367,6 +7374,7 @@
         "2":1.2000000476837
       }],
     "name":"Blade Blast of Unloading",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "parts":[{
         "name":"Blade Hits Per Cast",
         "stages":true
@@ -7831,6 +7839,7 @@
         "3":1050
       }],
     "name":"Blade Blast of Dagger Detonation",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["active_skill_base_area_of_effect_radius",0.15]]
     },
@@ -10471,6 +10480,7 @@
         "3":4
       }],
     "name":"Blade Vortex",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","active_skill_base_radius_+"],
     "parts":[{
         "name":"0 Blades"
       },{
@@ -11019,6 +11029,7 @@
         "3":27
       }],
     "name":"Blade Vortex of the Scythe",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["active_skill_physical_damage_+%_final",1]]
     },
@@ -11493,6 +11504,7 @@
         "2":1.2000000476837
       }],
     "name":"Bladefall",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["bladefall_number_of_volleys",0.05]]
     },
@@ -11891,6 +11903,7 @@
         "2":1.2000000476837
       }],
     "name":"Bladefall of Volleys",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["bladefall_number_of_volleys",0.05]]
     },
@@ -12394,6 +12407,7 @@
         "3":152
       }],
     "name":"Bladefall of Impaling",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["impale_debuff_effect_+%",2]]
     },
@@ -12911,6 +12925,7 @@
         "2":1.2000000476837
       }],
     "name":"Bladefall of Trarthus",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["active_skill_base_area_of_effect_radius",0.15]]
     },
@@ -13790,6 +13805,7 @@
         "1":53.833334854494
       }],
     "name":"Blast Rain of Trarthus",
+    "notMinionStat":["base_fire_damage_to_deal_per_minute"],
     "qualityStats":{
       "Default":[["fire_dot_multiplier_+",1]]
     },
@@ -14287,6 +14303,7 @@
       "67":true
     },
     "name":"Blink Arrow",
+    "notMinionStat":["base_cooldown_speed_+%","active_skill_minion_damage_+%_final"],
     "qualityStats":{
       "Default":[["base_cooldown_speed_+%",2]]
     },
@@ -14745,6 +14762,7 @@
       "100":true
     },
     "name":"Blink Arrow of Bombarding Clones",
+    "notMinionStat":["active_skill_minion_damage_+%_final"],
     "qualityStats":{
       "Default":[["base_cooldown_speed_+%",2]]
     },
@@ -15206,6 +15224,7 @@
       "113":true
     },
     "name":"Blink Arrow of Prismatic Clones",
+    "notMinionStat":["active_skill_minion_damage_+%_final"],
     "qualityStats":{
       "Default":[["base_cooldown_speed_+%",2]]
     },
@@ -15696,6 +15715,7 @@
         "3":40
       }],
     "name":"Blood Rage",
+    "notMinionStat":["base_skill_effect_duration"],
     "qualityStats":{
       "Default":[["attack_speed_+%_granted_from_skill",0.25]]
     },
@@ -17027,6 +17047,7 @@
         "2":12
       }],
     "name":"Caustic Arrow",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["active_skill_base_radius_+",0.1]]
     },
@@ -17485,6 +17506,7 @@
         "1":12
       }],
     "name":"Caustic Arrow of Poison",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["active_skill_base_radius_+",0.1]]
     },
@@ -19306,6 +19328,7 @@
         "4":57
       }],
     "name":"Cremation",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","active_skill_base_radius_+"],
     "parts":[{
         "cast":false,
         "name":"Spell",
@@ -19884,6 +19907,7 @@
         "4":67
       }],
     "name":"Cremation of Exhuming",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","active_skill_base_radius_+"],
     "parts":[{
         "cast":false,
         "name":"Spell",
@@ -20409,6 +20433,7 @@
         "2":1.2000000476837
       }],
     "name":"Cremation of the Volcano",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "qualityStats":{
       "Default":[["cremation_fires_projectiles_faster_+%_final",0.5]]
     },
@@ -21957,6 +21982,7 @@
         "2":102
       }],
     "name":"Dash",
+    "notMinionStat":["base_cooldown_speed_+%"],
     "qualityStats":{
       "Default":[["base_cooldown_speed_+%",0.5]]
     },
@@ -22853,6 +22879,7 @@
         "4":94
       }],
     "name":"Detonate Dead",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "parts":[{
         "cast":false,
         "name":"Spell",
@@ -23823,6 +23850,7 @@
         "4":57
       }],
     "name":"Detonate Dead of Chain Reaction",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "parts":[{
         "cast":false,
         "name":"Spell",
@@ -28162,6 +28190,7 @@
         "3":16
       }],
     "name":"Ethereal Knives",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["base_number_of_projectiles",0.1]]
     },
@@ -28635,6 +28664,7 @@
         "3":10
       }],
     "name":"Ethereal Knives of Lingering Blades",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["base_number_of_projectiles",0.1]]
     },
@@ -29110,6 +29140,7 @@
         "3":19
       }],
     "name":"Ethereal Knives of the Massacre",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["base_number_of_projectiles",0.15]]
     },
@@ -31584,6 +31615,7 @@
         "6":11
       }],
     "name":"Explosive Trap",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "parts":[{
         "name":"One explosion hitting"
       },{
@@ -32228,6 +32260,7 @@
         "6":11
       }],
     "name":"Explosive Trap of Shrapnel",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "parts":[{
         "name":"One explosion hitting"
       },{
@@ -32715,6 +32748,7 @@
         "3":11
       }],
     "name":"Explosive Trap of Magnitude",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["active_skill_base_area_of_effect_radius",0.15]]
     },
@@ -33331,6 +33365,7 @@
         "6":15
       }],
     "name":"Fire Trap",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_fire_damage_to_deal_per_minute","active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["trap_trigger_radius_+%",4]]
     },
@@ -33895,6 +33930,7 @@
         "5":15
       }],
     "name":"Fire Trap of Blasting",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["trap_trigger_radius_+%",4]]
     },
@@ -34419,6 +34455,7 @@
         "2":2.0799999237061
       }],
     "name":"Flamethrower Trap",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "parts":[{
         "name":"One trap (good placement)"
       },{
@@ -37511,6 +37548,7 @@
         "1":10
       }],
     "name":"Galvanic Arrow",
+    "notMinionStat":["active_skill_base_radius_+"],
     "parts":[{
         "area":false,
         "name":"Arrow"
@@ -37922,6 +37960,7 @@
         "1":10
       }],
     "name":"Galvanic Arrow of Energy",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["active_skill_base_radius_+",0.2]]
     },
@@ -38850,6 +38889,7 @@
         "4":58
       }],
     "name":"Glacial Shield Swipe",
+    "notMinionStat":["off_hand_local_minimum_added_physical_damage","off_hand_local_maximum_added_physical_damage"],
     "qualityStats":{
       "Default":[["base_cooldown_speed_+%",1]]
     },
@@ -39249,6 +39289,7 @@
         "3":34
       }],
     "name":"Grace",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_skill_area_of_effect_+%",2]]
     },
@@ -39714,6 +39755,7 @@
         "4":34
       }],
     "name":"Haste",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_skill_area_of_effect_+%",2]]
     },
@@ -40111,6 +40153,7 @@
         "2":34
       }],
     "name":"Hatred",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_skill_area_of_effect_+%",2]]
     },
@@ -41246,6 +41289,7 @@
         "6":1670
       }],
     "name":"Herald of Ice",
+    "notMinionStat":["secondary_minimum_base_cold_damage","secondary_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["active_skill_base_radius_+",0.1]]
     },
@@ -42660,6 +42704,7 @@
         "2":1.2000000476837
       }],
     "name":"Ice Trap",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["trap_%_chance_to_trigger_twice",0.75]]
     },
@@ -43109,6 +43154,7 @@
         "2":1.2000000476837
       }],
     "name":"Ice Trap of Hollowness",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["trap_%_chance_to_trigger_twice",0.75]]
     },
@@ -43415,6 +43461,7 @@
         "1":11450
       }],
     "name":"Intuitive Link",
+    "notMinionStat":["base_skill_effect_duration"],
     "qualityStats":{
       "Default":[["base_skill_effect_duration",75]]
     },
@@ -43906,6 +43953,7 @@
         "2":118
       }],
     "name":"Lacerate",
+    "notMinionStat":["active_skill_base_radius_+"],
     "parts":[{
         "name":"One slash"
       },{
@@ -44379,6 +44427,7 @@
         "1":38
       }],
     "name":"Lacerate of Butchering",
+    "notMinionStat":["active_skill_base_radius_+"],
     "parts":[{
         "name":"One slash"
       },{
@@ -44836,6 +44885,7 @@
         "1":177
       }],
     "name":"Lacerate of Haemorrhage",
+    "notMinionStat":["active_skill_bleeding_damage_+%_final"],
     "parts":[{
         "name":"One slash"
       },{
@@ -47781,6 +47831,7 @@
       "67":true
     },
     "name":"Mirror Arrow",
+    "notMinionStat":["base_cooldown_speed_+%","active_skill_minion_damage_+%_final"],
     "qualityStats":{
       "Default":[["base_cooldown_speed_+%",2]]
     },
@@ -48239,6 +48290,7 @@
       "100":true
     },
     "name":"Mirror Arrow of Bombarding Clones",
+    "notMinionStat":["active_skill_minion_damage_+%_final"],
     "qualityStats":{
       "Default":[["base_cooldown_speed_+%",2]]
     },
@@ -48700,6 +48752,7 @@
       "113":true
     },
     "name":"Mirror Arrow of Prismatic Clones",
+    "notMinionStat":["active_skill_minion_damage_+%_final"],
     "qualityStats":{
       "Default":[["base_cooldown_speed_+%",2]]
     },
@@ -49929,6 +49982,7 @@
         "2":7
       }],
     "name":"Plague Bearer",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["corrosive_shroud_%_of_stored_poison_damage_to_deal_per_second",0.2]]
     },
@@ -51703,6 +51757,7 @@
         "3":34
       }],
     "name":"Precision",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_skill_area_of_effect_+%",2]]
     },
@@ -52170,6 +52225,7 @@
         "1":69
       }],
     "name":"Puncture",
+    "notMinionStat":["active_skill_bleeding_damage_+%_final"],
     "qualityStats":{
       "Default":[["active_skill_bleeding_damage_+%_final",1]]
     },
@@ -52659,6 +52715,7 @@
         "2":148
       }],
     "name":"Puncture of Shanking",
+    "notMinionStat":["active_skill_bleeding_damage_+%_final"],
     "qualityStats":{
       "Default":[["active_skill_bleeding_damage_+%_final",1]]
     },
@@ -53066,6 +53123,7 @@
         "3":34
       }],
     "name":"Purity of Ice",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_cold_damage_resistance_%",0.5]]
     },
@@ -54781,6 +54839,7 @@
         "1":3
       }],
     "name":"Reave",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["reave_additional_max_stacks",0.1]]
     },
@@ -55206,6 +55265,7 @@
         "1":3
       }],
     "name":"Reave of Refraction",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["reave_additional_max_stacks",0.1]]
     },
@@ -56717,6 +56777,7 @@
         "2":1.2000000476837
       }],
     "name":"Seismic Trap",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "parts":[{
         "name":"One wave hitting"
       },{
@@ -57307,6 +57368,7 @@
         "2":1.2000000476837
       }],
     "name":"Seismic Trap of Swells",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "parts":[{
         "name":"One wave hitting"
       },{
@@ -60996,6 +61058,7 @@
         "2":37
       }],
     "name":"Smoke Mine",
+    "notMinionStat":["base_skill_effect_duration"],
     "qualityStats":{
       "Default":[["base_movement_velocity_+%",1]]
     },
@@ -63031,6 +63094,7 @@
         "4":12
       }],
     "name":"Spectral Shield Throw",
+    "notMinionStat":["off_hand_local_minimum_added_physical_damage","off_hand_local_maximum_added_physical_damage"],
     "parts":[{
         "name":"Shield"
       },{
@@ -64213,6 +64277,7 @@
         "5":6
       }],
     "name":"Spectral Shield Throw of Trarthus",
+    "notMinionStat":["off_hand_local_minimum_added_physical_damage","off_hand_local_maximum_added_physical_damage"],
     "parts":[{
         "name":"Shield"
       },{
@@ -70629,6 +70694,7 @@
         "4":-26
       }],
     "name":"Temporal Chains",
+    "notMinionStat":["base_skill_effect_duration","active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_curse_duration_+%",1]]
     },
@@ -70989,6 +71055,7 @@
         "1":68
       }],
     "name":"Temporal Rift",
+    "notMinionStat":["base_cooldown_speed_+%"],
     "qualityStats":{
       "Default":[["debuff_time_passed_+%",1]]
     },
@@ -71469,6 +71536,7 @@
         "3":102
       }],
     "name":"Tornado",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["tornado_movement_speed_+%",1]]
     },
@@ -71958,6 +72026,7 @@
         "3":102
       }],
     "name":"Tornado of Elemental Turbulence",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "parts":[{
         "name":"Fire",
         "stages":true
@@ -74500,6 +74569,7 @@
         "3":95
       }],
     "name":"Unearth",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["maximum_life_+%_for_corpses_you_create",1]]
     },
@@ -75158,6 +75228,7 @@
       "Weapon 1":true
     },
     "name":"Vaal Animate Weapon",
+    "notMinionStat":["active_skill_minion_damage_+%_final","active_skill_minion_attack_speed_+%_final"],
     "qualityStats":{
       "Default":[["base_number_of_animated_weapons_allowed",0.1]]
     },
@@ -75652,6 +75723,7 @@
         "3":7752
       }],
     "name":"Vaal Arctic Armour",
+    "notMinionStat":["base_skill_effect_duration"],
     "qualityStats":{
       "Default":[["skill_effect_duration_+%",1]]
     },
@@ -76875,6 +76947,7 @@
         "3":16
       }],
     "name":"Vaal Blade Vortex",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["blade_vortex_hit_rate_+%_per_blade",0.25]]
     },
@@ -78989,6 +79062,7 @@
         "4":94
       }],
     "name":"Vaal Detonate Dead",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "parts":[{
         "cast":false,
         "name":"Spell",
@@ -80458,6 +80532,7 @@
         "1":34
       }],
     "name":"Vaal Grace",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_skill_area_of_effect_+%",2]]
     },
@@ -81076,6 +81151,7 @@
         "4":34
       }],
     "name":"Vaal Haste",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_skill_area_of_effect_+%",2]]
     },
@@ -82017,6 +82093,7 @@
         "2":136
       }],
     "name":"Vaal Impurity of Ice",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_skill_area_of_effect_+%",2]]
     },
@@ -84004,6 +84081,7 @@
         "1":3
       }],
     "name":"Vaal Reave",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["reave_additional_max_stacks",0.1]]
     },
@@ -85211,6 +85289,7 @@
         "2":11450
       }],
     "name":"Vampiric Link",
+    "notMinionStat":["base_skill_effect_duration"],
     "qualityStats":{
       "Default":[["base_skill_effect_duration",75]]
     },
@@ -86836,6 +86915,7 @@
         "3":47
       }],
     "name":"Volatile Dead",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "parts":[{
         "cast":false,
         "name":"Spell",
@@ -87419,6 +87499,7 @@
         "3":47
       }],
     "name":"Volatile Dead of Confinement",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "parts":[{
         "cast":false,
         "name":"Spell",
@@ -88003,6 +88084,7 @@
         "3":47
       }],
     "name":"Volatile Dead of Seething",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "parts":[{
         "cast":false,
         "name":"Spell",
@@ -90024,6 +90106,7 @@
         "3":68
       }],
     "name":"Withering Step",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["slither_wither_stacks",0.1]]
     },

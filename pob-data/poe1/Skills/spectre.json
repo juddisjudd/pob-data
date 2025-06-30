@@ -347,6 +347,7 @@
         "2":1.5
       }],
     "name":"Nova Spell",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -379,6 +380,7 @@
         "2":1.5
       }],
     "name":"Ball Lightning",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -418,6 +420,7 @@
         "2":1.5
       }],
     "name":"Beam",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -448,6 +451,7 @@
         "2":1.2999999523163
       }],
     "name":"Mortar",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -483,6 +487,7 @@
         "2":1.5
       }],
     "name":"Bombs",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -510,6 +515,7 @@
         "2":1.5
       }],
     "name":"Projectile Spell",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -538,6 +544,7 @@
         "2":1.2000000476837
       }],
     "name":"Crystal Impact",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -569,6 +576,7 @@
         "2":1.2000000476837
       }],
     "name":"Mortar",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -614,6 +622,7 @@
         "1":200
       }],
     "name":"Snipe",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -648,6 +657,7 @@
         "2":1.2000000476837
       }],
     "name":"Chilling Breath",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -675,6 +685,7 @@
         "2":1.2000000476837
       }],
     "name":"Mortar Shards",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -707,6 +718,7 @@
         "2":1.2000000476837
       }],
     "name":"Mortar",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -765,6 +777,7 @@
         "4":0.73000001907349
       }],
     "name":"Glacial Cascade",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -1014,6 +1027,7 @@
         "2":1.2000000476837
       }],
     "name":"Dash Mortars",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -1044,6 +1058,7 @@
         "1":0
       }],
     "name":"Dash thrust",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "35":true
@@ -1067,6 +1082,7 @@
         "1":0
       }],
     "name":"Double Strike",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "35":true
@@ -1094,6 +1110,7 @@
         "2":1.2000000476837
       }],
     "name":"Geyser Damage",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -1338,6 +1355,7 @@
         "2":1.2000000476837
       }],
     "name":"Firestorm",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -1534,6 +1552,7 @@
         "2":1.2000000476837
       }],
     "name":"Mortar",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -1572,6 +1591,7 @@
         "2":1.2000000476837
       }],
     "name":"Mortar 2",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -1651,6 +1671,7 @@
         "2":1.5
       }],
     "name":"Beam",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -1748,6 +1769,7 @@
         "2":1.5
       }],
     "name":"Screech",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -1789,6 +1811,7 @@
         "2":1.2000000476837
       }],
     "name":"Lightning Beam",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":[null,true,true,null,null,null,null,null,null,true],
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","projectile_uses_contact_position","is_area_damage","skill_cannot_be_interrupted","skill_cannot_be_stunned","base_is_projectile"]
@@ -1813,6 +1836,7 @@
         "2":1.5
       }],
     "name":"Default Attack",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -2073,6 +2097,7 @@
         "3":-30
       }],
     "name":"Projectile",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","active_skill_damage_+%_final"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -2292,6 +2317,7 @@
         "2":1.2000000476837
       }],
     "name":"Cremation",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -2359,6 +2385,7 @@
         "3":50
       }],
     "name":"Purity of Fire",
+    "notMinionStat":["active_skill_area_of_effect_radius_+%_final"],
     "skillTypes":{
       "2":true,
       "5":true,
@@ -2527,6 +2554,7 @@
         "1":16.666667039196
       }],
     "name":"Goddess Beam",
+    "notMinionStat":["base_fire_damage_to_deal_per_minute"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -2627,6 +2655,7 @@
         "1":16.666667039196
       }],
     "name":"Fire Pillar",
+    "notMinionStat":["base_fire_damage_to_deal_per_minute"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -2690,6 +2719,7 @@
         "2":1.2000000476837
       }],
     "name":"Mortar",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -2785,6 +2815,7 @@
         "2":1.2000000476837
       }],
     "name":"Spinning Zap",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -2811,6 +2842,7 @@
         "2":1.2000000476837
       }],
     "name":"Turret Projectile",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -2837,6 +2869,7 @@
         "2":1.2000000476837
       }],
     "name":"Spinning Beam",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -2937,6 +2970,7 @@
         "3":50
       }],
     "name":"Purity of Ice",
+    "notMinionStat":["active_skill_area_of_effect_radius_+%_final"],
     "skillTypes":{
       "2":true,
       "5":true,
@@ -2999,6 +3033,7 @@
         "5":-20
       }],
     "name":"Glacial Cascade",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","active_skill_area_of_effect_radius_+%_final"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -3222,6 +3257,7 @@
         "2":1.5
       }],
     "name":"Shock Nova",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -3260,6 +3296,7 @@
         "2":1.5
       }],
     "name":"Spark",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -3300,6 +3337,7 @@
         "2":1.5
       }],
     "name":"Lightning Warp",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -3420,6 +3458,7 @@
         "1":0
       }],
     "name":"Default Attack",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -3555,6 +3594,7 @@
         "1":20
       }],
     "name":"Sweep",
+    "notMinionStat":["active_skill_physical_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "11":true,
@@ -3657,6 +3697,7 @@
         "5":0
       }],
     "name":"Cold Snap",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -3723,6 +3764,7 @@
         "3":15
       }],
     "name":"Laser",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","active_skill_cast_speed_+%_final"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -3778,6 +3820,7 @@
         "2":0.60000002384186
       }],
     "name":"Rain of Boulders",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -3899,6 +3942,7 @@
         "2":1.5
       }],
     "name":"Explode",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -3928,6 +3972,7 @@
         "2":1.5
       }],
     "name":"Explode",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -4034,6 +4079,7 @@
         "2":1.2000000476837
       }],
     "name":"Mortar",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -4115,6 +4161,7 @@
         "2":1.2000000476837
       }],
     "name":"Sword Cascade",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -4173,6 +4220,7 @@
         "3":50
       }],
     "name":"Purity of Lightning",
+    "notMinionStat":["active_skill_base_radius_+"],
     "skillTypes":{
       "2":true,
       "5":true,
@@ -4520,6 +4568,7 @@
         "1":33.333334078391
       }],
     "name":"Sunder",
+    "notMinionStat":["base_fire_damage_to_deal_per_minute"],
     "skillTypes":[true],
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_fire_damage_to_deal_per_minute","global_cannot_crit","always_ignite"]
@@ -4758,6 +4807,7 @@
         "1":0
       }],
     "name":"Secret Police Daggers",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -4878,6 +4928,7 @@
         "2":2.5999999046326
       }],
     "name":"Breach Arc",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -5067,6 +5118,7 @@
         "2":1.5
       }],
     "name":"Breach Lightning Orbs Commander",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -5124,6 +5176,7 @@
         "2":3
       }],
     "name":"Breach Lightning Whip",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -5256,6 +5309,7 @@
         "2":1.2000000476837
       }],
     "name":"Sandstorm",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -5354,6 +5408,7 @@
         "2":0.60000002384186
       }],
     "name":"Ice Storm",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -5712,6 +5767,7 @@
         "2":1.5
       }],
     "name":"Projectile",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -5740,6 +5796,7 @@
         "2":1.5
       }],
     "name":"Explode",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -5766,6 +5823,7 @@
         "2":1.2000000476837
       }],
     "name":"Delayed Blast",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -5919,6 +5977,7 @@
         "2":1.2000000476837
       }],
     "name":"Chaos Screech",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "skillTypes":{
       "2":true,
       "26":true,
@@ -6004,6 +6063,7 @@
         "2":1.2000000476837
       }],
     "name":"Blade Vortex",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -6039,6 +6099,7 @@
         "2":1.5
       }],
     "name":"Projectile",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -6077,6 +6138,7 @@
         "2":1.5
       }],
     "name":"Projectile Large",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -6239,6 +6301,7 @@
         "1":400
       }],
     "name":"Elemental Hit Fire",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -6289,6 +6352,7 @@
         "1":200
       }],
     "name":"Elemental Hit",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -6477,6 +6541,7 @@
         "3":4
       }],
     "name":"Detonate Dead",
+    "notMinionStat":["secondary_minimum_base_fire_damage","secondary_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -6541,6 +6606,7 @@
         "2":1.2000000476837
       }],
     "name":"Firestorm",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -6603,6 +6669,7 @@
         "3":90.000003601114
       }],
     "name":"Flame Dash",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_fire_damage_to_deal_per_minute"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -6691,6 +6758,7 @@
         "2":1.2000000476837
       }],
     "name":"Chaos Ball",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -6730,6 +6798,7 @@
         "2":1.2000000476837
       }],
     "name":"Fireball",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -6769,6 +6838,7 @@
         "2":1.5
       }],
     "name":"Lightning Ball",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -6829,6 +6899,7 @@
         "3":-75
       }],
     "name":"Blue Flame",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTotemId":8,
     "skillTypes":{
       "2":true,
@@ -6861,6 +6932,7 @@
         "1":-30
       }],
     "name":"Leap Slam",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "35":true
@@ -6885,6 +6957,7 @@
         "1":-30
       }],
     "name":"Claw Slam",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "35":true
@@ -7026,6 +7099,7 @@
         "1":0
       }],
     "name":"Slam",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "35":true
@@ -7088,6 +7162,7 @@
         "2":60
       }],
     "name":"Dash Slam",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "35":true
@@ -7150,6 +7225,7 @@
         "2":60
       }],
     "name":"Dash Slash",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "35":true
@@ -7184,6 +7260,7 @@
         "1":60
       }],
     "name":"Stomp",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "35":true
@@ -7248,6 +7325,7 @@
         "1":60
       }],
     "name":"Ranged Shotgun",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "35":true,
@@ -7285,6 +7363,7 @@
         "1":60
       }],
     "name":"Dash Slash",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "35":true
@@ -7355,6 +7434,7 @@
         "2":1.2000000476837
       }],
     "name":"Poisonous Concoction",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -7383,6 +7463,7 @@
         "2":1.2000000476837
       }],
     "name":"Cannonball",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -7409,6 +7490,7 @@
         "2":1.2999999523163
       }],
     "name":"Zap",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -7435,6 +7517,7 @@
         "2":1.2000000476837
       }],
     "name":"Corrupted Blood Explode",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -7463,6 +7546,7 @@
         "2":1.2000000476837
       }],
     "name":"Ice Nova",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -7492,6 +7576,7 @@
         "2":1.2000000476837
       }],
     "name":"Beam Nuke",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -7518,6 +7603,7 @@
         "2":1.5
       }],
     "name":"Beam",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -7546,6 +7632,7 @@
         "2":1.5
       }],
     "name":"Shock Explode",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -7576,6 +7663,7 @@
         "2":1
       }],
     "name":"Nova Spell",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -7607,6 +7695,7 @@
         "2":7
       }],
     "name":"Screech",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -7634,6 +7723,7 @@
         "2":1.5
       }],
     "name":"Volatile",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -7661,6 +7751,7 @@
         "2":1.2999999523163
       }],
     "name":"Waterfall",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -7689,6 +7780,7 @@
         "2":1.2000000476837
       }],
     "name":"Beam Blast",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -7716,6 +7808,7 @@
         "2":1.2000000476837
       }],
     "name":"Beam Sweep",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -7745,6 +7838,7 @@
         "2":1.2000000476837
       }],
     "name":"Nuke Beam",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -7774,6 +7868,7 @@
         "2":1.2000000476837
       }],
     "name":"Nuke Beam Channelled",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "35":true,
@@ -7802,6 +7897,7 @@
         "2":1.5
       }],
     "name":"Dash",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -7830,6 +7926,7 @@
         "2":1.2000000476837
       }],
     "name":"Screech",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -7888,6 +7985,7 @@
         "3":24
       }],
     "name":"Beam Nuke",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","active_skill_damage_+%_final"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -7916,6 +8014,7 @@
         "2":1.5
       }],
     "name":"Bolt Impact",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -7956,6 +8055,7 @@
         "3":1
       }],
     "name":"Omega Beam",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","active_skill_damage_+%_final"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -7981,6 +8081,7 @@
         "2":1.2000000476837
       }],
     "name":"Slam",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -8019,6 +8120,7 @@
         "2":1.2000000476837
       }],
     "name":"Blade Vortex",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -8109,6 +8211,7 @@
         "2":1.8400000333786
       }],
     "name":"Magma Orb",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -8473,6 +8576,7 @@
         "4":19399
       }],
     "name":"Molten Shell",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -8575,6 +8679,7 @@
         "2":1.7999999523163
       }],
     "name":"Arc",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -8700,6 +8805,7 @@
         "1":60
       }],
     "name":"Slam Attack",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "10":true,
@@ -8816,6 +8922,7 @@
         "1":150
       }],
     "name":"Leap Slam",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "11":true,
@@ -8896,6 +9003,7 @@
         "2":1.5
       }],
     "name":"Lightning Bolt",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -9096,6 +9204,7 @@
         "2":1.5
       }],
     "name":"Scourge Arc",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -9138,6 +9247,7 @@
         "2":2.710000038147
       }],
     "name":"Fireball",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -9292,6 +9402,7 @@
         "5":0
       }],
     "name":"Chaos Projectile",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage","spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","active_skill_damage_+%_final"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -9362,6 +9473,7 @@
         "2":1.2000000476837
       }],
     "name":"Chaos Spikes",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -9442,6 +9554,7 @@
         "2":83
       }],
     "name":"Scorching Ray Totem",
+    "notMinionStat":["base_fire_damage_to_deal_per_minute","base_active_skill_totem_level"],
     "skillTypes":{
       "2":true,
       "12":true,
@@ -9704,6 +9817,7 @@
         "2":0.80000001192093
       }],
     "name":"Mortar",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -9749,6 +9863,7 @@
         "2":1.2000000476837
       }],
     "name":"Flame Surge",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -9806,6 +9921,7 @@
         "1":200
       }],
     "name":"Snipe",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -9898,6 +10014,7 @@
         "1":200
       }],
     "name":"Leap Slam",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "11":true,
@@ -9944,6 +10061,7 @@
         "2":1.2000000476837
       }],
     "name":"Ball Lightning",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -9983,6 +10101,7 @@
         "2":1.2000000476837
       }],
     "name":"Storm Call",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -10021,6 +10140,7 @@
         "2":1.2000000476837
       }],
     "name":"Large Vomit",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -10057,6 +10177,7 @@
         "2":1.2000000476837
       }],
     "name":"Medium Vomit",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -10093,6 +10214,7 @@
         "2":1.2000000476837
       }],
     "name":"Small Vomit",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -10130,6 +10252,7 @@
         "2":1.2000000476837
       }],
     "name":"Mortar",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -10167,6 +10290,7 @@
         "2":1.2000000476837
       }],
     "name":"Vomit Mortar",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -10207,6 +10331,7 @@
         "2":1.2000000476837
       }],
     "name":"Frost Mortar",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -10268,6 +10393,7 @@
         "3":24
       }],
     "name":"Triple Mortal",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","active_skill_damage_+%_final"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -10329,6 +10455,7 @@
         "3":24
       }],
     "name":"Vomit Mortar",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","active_skill_damage_+%_final"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -10366,6 +10493,7 @@
         "2":1.2000000476837
       }],
     "name":"Ice Mortar",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -10402,6 +10530,7 @@
         "2":1.2000000476837
       }],
     "name":"Green Projectile",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -10430,6 +10559,7 @@
         "2":1.2000000476837
       }],
     "name":"Frost Projectile",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -10468,6 +10598,7 @@
         "1":60
       }],
     "name":"Burning Arrow",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -10500,6 +10631,7 @@
         "1":0
       }],
     "name":"Barrage",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -10650,6 +10782,7 @@
         "1":200
       }],
     "name":"Default Attack",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -10697,6 +10830,7 @@
         "1":200
       }],
     "name":"Default Attack",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -10744,6 +10878,7 @@
         "1":200
       }],
     "name":"Default Attack",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -10791,6 +10926,7 @@
         "1":200
       }],
     "name":"Default Attack",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -10838,6 +10974,7 @@
         "1":200
       }],
     "name":"Default Attack",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -10897,6 +11034,7 @@
         "1":200
       }],
     "name":"Knockback Attack",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -10943,6 +11081,7 @@
         "1":200
       }],
     "name":"Basic Attack",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -10986,6 +11125,7 @@
         "1":200
       }],
     "name":"Cold Arrow",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -11121,6 +11261,7 @@
         "4":4000
       }],
     "name":"Throw Fire",
+    "notMinionStat":["base_fire_damage_to_deal_per_minute","spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_skill_effect_duration"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -11204,6 +11345,7 @@
         "2":1.5
       }],
     "name":"Arc",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -11323,6 +11465,7 @@
         "2":3000
       }],
     "name":"Caustic Arrow",
+    "notMinionStat":["base_skill_effect_duration"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -11458,6 +11601,7 @@
         "3":16.666667039196
       }],
     "name":"Caustic Bomb",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -11619,6 +11763,7 @@
         "6":1.0800000429153
       }],
     "name":"Discharge",
+    "notMinionStat":["spell_minimum_base_lightning_damage_per_removable_power_charge","spell_maximum_base_lightning_damage_per_removable_power_charge","spell_minimum_base_fire_damage_per_removable_endurance_charge","spell_maximum_base_fire_damage_per_removable_endurance_charge","spell_minimum_base_cold_damage_per_removable_frenzy_charge","spell_maximum_base_cold_damage_per_removable_frenzy_charge"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -11826,6 +11971,7 @@
         "3":23.33333345751
       }],
     "name":"Fire Bomb",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_fire_damage_to_deal_per_minute"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -11868,6 +12014,7 @@
         "2":3.0099999904633
       }],
     "name":"Fireball",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -11906,6 +12053,7 @@
         "2":0.60000002384186
       }],
     "name":"Incinerate",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTotemId":8,
     "skillTypes":{
       "2":true,
@@ -12115,6 +12263,7 @@
         "2":2.6400001049042
       }],
     "name":"Lesser Multi Fireball",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -12161,6 +12310,7 @@
         "2":1.2000000476837
       }],
     "name":"Lesser Multi Ice Spear",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -12267,6 +12417,7 @@
         "2":2.6400001049042
       }],
     "name":"Multi Fireball",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -12313,6 +12464,7 @@
         "2":1.2000000476837
       }],
     "name":"Multi Ice Spear",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -12365,6 +12517,7 @@
         "2":42
       }],
     "name":"Projectile Weakness",
+    "notMinionStat":["active_skill_area_of_effect_radius_+%_final"],
     "skillTypes":{
       "2":true,
       "17":true,
@@ -12453,6 +12606,7 @@
         "1":197
       }],
     "name":"Puncture",
+    "notMinionStat":["active_skill_bleeding_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -12499,6 +12653,7 @@
         "1":16.666667039196
       }],
     "name":"Unrighteous Fire",
+    "notMinionStat":["base_fire_damage_to_deal_per_minute"],
     "skillTypes":{
       "2":true,
       "5":true,
@@ -12543,6 +12698,7 @@
         "2":4.3899998664856
       }],
     "name":"Shock Nova",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -12631,6 +12787,7 @@
         "2":3.2999999523163
       }],
     "name":"Spark",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -12675,6 +12832,7 @@
         "2":2.6400001049042
       }],
     "name":"Split Fireball",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -12721,6 +12879,7 @@
         "2":1.2000000476837
       }],
     "name":"Split Ice Spear",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -12996,6 +13155,7 @@
         "2":1.2000000476837
       }],
     "name":"Rolling Magma",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -13043,6 +13203,7 @@
         "3":25
       }],
     "name":"Ice Spear",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -13492,6 +13653,7 @@
         "2":42
       }],
     "name":"Projectile Weakness",
+    "notMinionStat":["active_skill_area_of_effect_radius_+%_final"],
     "skillTypes":{
       "2":true,
       "17":true,
@@ -13657,6 +13819,7 @@
         "4":0.33000001311302
       }],
     "name":"Chaos Fireball",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -13702,6 +13865,7 @@
         "2":1.6799999475479
       }],
     "name":"Fireball",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -13762,6 +13926,7 @@
         "2":1.2000000476837
       }],
     "name":"Suicide Explosion",
+    "notMinionStat":["secondary_minimum_base_fire_damage","secondary_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -13791,6 +13956,7 @@
         "2":1.3999999761581
       }],
     "name":"Lightning Projectile",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -13819,6 +13985,7 @@
         "2":1.3999999761581
       }],
     "name":"Lightning Projectile",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -13890,6 +14057,7 @@
         "2":2.8800001144409
       }],
     "name":"Screech",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -13926,6 +14094,7 @@
         "2":1.5800000429153
       }],
     "name":"Frostbolt",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -14134,6 +14303,7 @@
         "2":1.2000000476837
       }],
     "name":"Unearth",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -14183,6 +14353,7 @@
         "2":1.2000000476837
       }],
     "name":"Bone Mortar",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -14249,6 +14420,7 @@
         "2":1.2000000476837
       }],
     "name":"Mortar",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -14317,6 +14489,7 @@
         "2":1.2000000476837
       }],
     "name":"",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -14350,6 +14523,7 @@
         "1":-40
       }],
     "name":"Tornado Shot",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -14452,6 +14626,7 @@
         "2":6.7300000190735
       }],
     "name":"Spark",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -14562,6 +14737,7 @@
         "2":1.5
       }],
     "name":"Lightning Surge",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -14625,6 +14801,7 @@
         "2":1.2000000476837
       }],
     "name":"Flame Vortex",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -14676,6 +14853,7 @@
         "2":1.2000000476837
       }],
     "name":"Beam",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":[null,true,null,null,null,null,null,null,null,true],
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage"]
@@ -14702,6 +14880,7 @@
         "2":1.2000000476837
       }],
     "name":"Triple Mortar",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -14758,6 +14937,7 @@
         "2":1.2999999523163
       }],
     "name":"Lightning Bolt",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -14785,6 +14965,7 @@
         "2":1.5
       }],
     "name":"Lightning Laser",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -14812,6 +14993,7 @@
         "2":1.5
       }],
     "name":"Lightning Projectile",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -14839,6 +15021,7 @@
         "2":1.2000000476837
       }],
     "name":"Projectile",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -14893,6 +15076,7 @@
         "2":1.5
       }],
     "name":"Lightning Bolt",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "35":true
@@ -15236,6 +15420,7 @@
         "3":33
       }],
     "name":"Tar Projectile",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -15277,6 +15462,7 @@
         "1":250
       }],
     "name":"Cone Arrow",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "35":true
@@ -15306,6 +15492,7 @@
         "1":0
       }],
     "name":"Cold Arrow",
+    "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -15403,6 +15590,7 @@
         "2":1.2000000476837
       }],
     "name":"Firestorm",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -15461,6 +15649,7 @@
         "2":1.2000000476837
       }],
     "name":"Physical Beam",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":[null,true,null,null,null,null,null,null,null,true],
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage"]
@@ -15485,6 +15674,7 @@
         "2":1.2000000476837
       }],
     "name":"Physical Mortar",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -15613,6 +15803,7 @@
         "3":-25
       }],
     "name":"Ethereal Knives",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,

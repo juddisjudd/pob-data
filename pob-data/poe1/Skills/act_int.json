@@ -493,6 +493,7 @@
         "3":11
       }],
     "name":"Arc",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["number_of_chains",0.05]]
     },
@@ -1017,6 +1018,7 @@
         "3":11
       }],
     "name":"Arc of Surging",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["projectile_number_to_split",0.1]]
     },
@@ -1529,6 +1531,7 @@
         "3":6
       }],
     "name":"Arc of Oscillating",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["number_of_chains",0.05]]
     },
@@ -2467,6 +2470,7 @@
         "3":44
       }],
     "name":"Armageddon Brand",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "qualityStats":{
       "Default":[["sigil_attached_target_hit_damage_+%_final",0.5]]
     },
@@ -2946,6 +2950,7 @@
         "2":1.2000000476837
       }],
     "name":"Armageddon Brand of Volatility",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "qualityStats":{
       "Default":[["active_skill_base_area_of_effect_radius",0.1]]
     },
@@ -3465,6 +3470,7 @@
         "3":-80
       }],
     "name":"Armageddon Brand of Recall",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "qualityStats":{
       "Default":[["active_skill_base_area_of_effect_radius",0.1]]
     },
@@ -4607,6 +4613,7 @@
         "2":1.8999999761581
       }],
     "name":"Ball Lightning",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "parts":[{
         "name":"One Bolt"
       },{
@@ -5146,6 +5153,7 @@
         "2":1.8999999761581
       }],
     "name":"Ball Lightning of Orbiting",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "parts":[{
         "name":"One Bolt"
       },{
@@ -5736,6 +5744,7 @@
         "2":1.8999999761581
       }],
     "name":"Ball Lightning of Static",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["base_cooldown_speed_+%",1]]
     },
@@ -7113,6 +7122,7 @@
         "3":10
       }],
     "name":"Blazing Salvo",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "parts":[{
         "name":"1 Projectile"
       },{
@@ -7512,6 +7522,7 @@
         "2":11
       }],
     "name":"Blight",
+    "notMinionStat":["active_skill_base_radius_+"],
     "parts":[{
         "name":"Manual Stacks",
         "stages":true
@@ -7929,6 +7940,7 @@
         "2":11
       }],
     "name":"Blight of Contagion",
+    "notMinionStat":["active_skill_base_radius_+"],
     "parts":[{
         "name":"Manual Stacks",
         "stages":true
@@ -8346,6 +8358,7 @@
         "2":11
       }],
     "name":"Blight of Atrophy",
+    "notMinionStat":["active_skill_base_radius_+"],
     "parts":[{
         "name":"Manual Stacks",
         "stages":true
@@ -8867,6 +8880,7 @@
         "4":4
       }],
     "name":"Bodyswap",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","active_skill_base_radius_+"],
     "parts":[{
         "cast":false,
         "name":"Self Explosion",
@@ -9410,6 +9424,7 @@
         "4":39
       }],
     "name":"Bodyswap of Sacrifice",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","active_skill_base_radius_+"],
     "parts":[{
         "cast":false,
         "name":"Self Explosion",
@@ -10170,6 +10185,7 @@
         "2":125
       }],
     "name":"Brand Recall",
+    "notMinionStat":["base_cooldown_speed_+%"],
     "qualityStats":{
       "Default":[["base_cooldown_speed_+%",1]]
     },
@@ -10766,6 +10782,7 @@
         "2":34
       }],
     "name":"Clarity",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_skill_area_of_effect_+%",2]]
     },
@@ -11373,6 +11390,7 @@
         "3":82.833331687997
       }],
     "name":"Cold Snap",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["active_skill_chill_effect_+%_final",1]]
     },
@@ -11889,6 +11907,7 @@
         "2":1.2000000476837
       }],
     "name":"Cold Snap of Power",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["add_power_charge_on_critical_strike_%",1]]
     },
@@ -12303,6 +12322,7 @@
         "3":-51
       }],
     "name":"Conductivity",
+    "notMinionStat":["base_skill_effect_duration","active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_self_shock_duration_-%",-1]]
     },
@@ -13716,6 +13736,7 @@
         "1":13800
       }],
     "name":"Conversion Trap",
+    "notMinionStat":["base_skill_effect_duration"],
     "qualityStats":{
       "Default":[["base_skill_effect_duration",200]]
     },
@@ -14284,6 +14305,7 @@
         "2":1.5
       }],
     "name":"Crackling Lance",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["disintegrate_damage_+%_final_per_intensity",0.5]]
     },
@@ -14755,6 +14777,7 @@
         "2":1.5
       }],
     "name":"Crackling Lance of Branching",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["active_skill_area_of_effect_+%_final",1]]
     },
@@ -15198,6 +15221,7 @@
         "2":1.5
       }],
     "name":"Crackling Lance of Disintegration",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["shock_maximum_magnitude_+",0.5]]
     },
@@ -15696,6 +15720,7 @@
         "3":223.00000689179
       }],
     "name":"Creeping Frost",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["active_skill_base_radius_+",0.1]]
     },
@@ -16144,6 +16169,7 @@
         "3":199
       }],
     "name":"Dark Pact",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "parts":[{
         "name":"Cast on Player"
       },{
@@ -16603,6 +16629,7 @@
         "2":1.2000000476837
       }],
     "name":"Dark Pact of Trarthus",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "parts":[{
         "name":"Average"
       },{
@@ -17050,6 +17077,7 @@
         "3":-41
       }],
     "name":"Despair",
+    "notMinionStat":["base_skill_effect_duration","active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["curse_effect_+%",0.5]]
     },
@@ -17437,6 +17465,7 @@
         "2":11450
       }],
     "name":"Destructive Link",
+    "notMinionStat":["base_skill_effect_duration"],
     "qualityStats":{
       "Default":[["base_skill_effect_duration",75]]
     },
@@ -18140,6 +18169,7 @@
         "6":1.2000000476837
       }],
     "name":"Discharge",
+    "notMinionStat":["spell_minimum_base_lightning_damage_per_removable_power_charge","spell_maximum_base_lightning_damage_per_removable_power_charge","spell_minimum_base_fire_damage_per_removable_endurance_charge","spell_maximum_base_fire_damage_per_removable_endurance_charge","spell_minimum_base_cold_damage_per_removable_frenzy_charge","spell_maximum_base_cold_damage_per_removable_frenzy_charge"],
     "qualityStats":{
       "Default":[["discharge_chance_not_to_consume_charges_%",0.5]]
     },
@@ -18734,6 +18764,7 @@
         "6":1.2000000476837
       }],
     "name":"Discharge of Misery",
+    "notMinionStat":["spell_minimum_base_lightning_damage_per_removable_power_charge","spell_maximum_base_lightning_damage_per_removable_power_charge","spell_minimum_base_fire_damage_per_removable_endurance_charge","spell_maximum_base_fire_damage_per_removable_endurance_charge","spell_minimum_base_cold_damage_per_removable_frenzy_charge","spell_maximum_base_cold_damage_per_removable_frenzy_charge"],
     "qualityStats":{
       "Default":[["discharge_chance_not_to_consume_charges_%",0.5]]
     },
@@ -19096,6 +19127,7 @@
         "2":34
       }],
     "name":"Discipline",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_skill_area_of_effect_+%",2]]
     },
@@ -19613,6 +19645,7 @@
         "3":8
       }],
     "name":"Divine Ire",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "parts":[{
         "area":false,
         "name":"Channelling"
@@ -20144,6 +20177,7 @@
         "3":14
       }],
     "name":"Divine Ire of Holy Lightning",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "parts":[{
         "area":false,
         "name":"Channelling"
@@ -20694,6 +20728,7 @@
         "4":34
       }],
     "name":"Divine Ire of Disintegration",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["divine_tempest_beam_width_+%",1]]
     },
@@ -21266,6 +21301,7 @@
         "3":6
       }],
     "name":"Divine Retribution",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["base_cooldown_speed_+%",1]]
     },
@@ -21677,6 +21713,7 @@
         "3":-41
       }],
     "name":"Elemental Weakness",
+    "notMinionStat":["base_skill_effect_duration","active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["self_elemental_status_duration_-%",-1]]
     },
@@ -22719,6 +22756,7 @@
         "5":-26
       }],
     "name":"Enfeeble",
+    "notMinionStat":["base_skill_effect_duration","active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_curse_duration_+%",1]]
     },
@@ -23266,6 +23304,7 @@
         "3":0.23999999463558
       }],
     "name":"Essence Drain",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "qualityStats":{
       "Default":[["siphon_life_leech_from_damage_permyriad",2.5]]
     },
@@ -23812,6 +23851,7 @@
         "4":21.49999984478
       }],
     "name":"Essence Drain of Desperation",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "qualityStats":{
       "Default":[["base_skill_effect_duration",20]]
     },
@@ -24318,6 +24358,7 @@
         "3":0.52999997138977
       }],
     "name":"Essence Drain of Wickedness",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "qualityStats":{
       "Default":[["siphon_life_leech_from_damage_permyriad",2.5]]
     },
@@ -24755,6 +24796,7 @@
         "2":1.2000000476837
       }],
     "name":"Eye of Winter",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["eye_of_winter_base_explosion_shards",0.1]]
     },
@@ -25199,6 +25241,7 @@
         "2":1.2000000476837
       }],
     "name":"Eye of Winter of Finality",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["freezing_pulse_damage_+%_final_at_long_range",1]]
     },
@@ -25643,6 +25686,7 @@
         "2":1.2000000476837
       }],
     "name":"Eye of Winter of Transience",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["freezing_pulse_damage_+%_final_at_long_range",0.75]]
     },
@@ -26167,6 +26211,7 @@
         "3":17
       }],
     "name":"Fireball",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "parts":[{
         "area":false,
         "name":"Projectile"
@@ -26651,6 +26696,7 @@
         "2":1.2000000476837
       }],
     "name":"Firestorm",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "parts":[{
         "name":"First Impact"
       },{
@@ -27113,6 +27159,7 @@
         "2":1.2000000476837
       }],
     "name":"Firestorm of Meteors",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "qualityStats":{
       "Default":[["active_skill_base_area_of_effect_radius",0.1]]
     },
@@ -27571,6 +27618,7 @@
         "2":1.2000000476837
       }],
     "name":"Firestorm of Pelting",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "qualityStats":{
       "Default":[["firestorm_max_number_of_storms",0.1]]
     },
@@ -28180,6 +28228,7 @@
         "4":34
       }],
     "name":"Flame Dash",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_fire_damage_to_deal_per_minute","base_cooldown_speed_+%"],
     "qualityStats":{
       "Default":[["base_cooldown_speed_+%",0.5]]
     },
@@ -28712,6 +28761,7 @@
         "4":39
       }],
     "name":"Flame Dash of Return",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_fire_damage_to_deal_per_minute"],
     "qualityStats":{
       "Default":[["chance_to_scorch_%",1]]
     },
@@ -29232,6 +29282,7 @@
         "4":17
       }],
     "name":"Flame Surge",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "qualityStats":{
       "Default":[["flame_whip_damage_+%_final_vs_burning_enemies",1]]
     },
@@ -29748,6 +29799,7 @@
         "3":17
       }],
     "name":"Flame Surge of Combusting",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "qualityStats":{
       "Default":[["flame_surge_burning_ground_on_ignite_damage_%",0.75]]
     },
@@ -30346,6 +30398,7 @@
         "7":6400
       }],
     "name":"Flame Wall",
+    "notMinionStat":["base_fire_damage_to_deal_per_minute","base_secondary_skill_effect_duration","base_skill_effect_duration"],
     "parts":[{
         "area":true,
         "name":"Primary Debuff"
@@ -30880,6 +30933,7 @@
         "2":1.2000000476837
       }],
     "name":"Flameblast",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "qualityStats":{
       "Default":[["flameblast_maximum_stages",0.05]]
     },
@@ -31322,6 +31376,7 @@
         "2":1.2000000476837
       }],
     "name":"Flameblast of Celerity",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "qualityStats":{
       "Default":[["charged_blast_spell_damage_+%_final_per_stack",2]]
     },
@@ -31803,6 +31858,7 @@
         "2":1.2000000476837
       }],
     "name":"Flameblast of Contraction",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "qualityStats":{
       "Default":[["flameblast_maximum_stages",0.05]]
     },
@@ -32262,6 +32318,7 @@
         "3":-51
       }],
     "name":"Flammability",
+    "notMinionStat":["base_skill_effect_duration","active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_self_ignite_duration_-%",-1]]
     },
@@ -33226,6 +33283,7 @@
         "3":8
       }],
     "name":"Forbidden Rite",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "parts":[{
         "name":"1 Projectile"
       },{
@@ -33773,6 +33831,7 @@
         "3":8
       }],
     "name":"Forbidden Rite of Soul Sacrifice",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "parts":[{
         "name":"1 Projectile"
       },{
@@ -34244,6 +34303,7 @@
         "2":1.2000000476837
       }],
     "name":"Freezing Pulse",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["base_projectile_speed_+%",2]]
     },
@@ -34679,6 +34739,7 @@
         "2":1.2000000476837
       }],
     "name":"Frostbolt",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["projectile_damage_+%_final_if_pierced_enemy",1]]
     },
@@ -35243,6 +35304,7 @@
         "3":13
       }],
     "name":"Frost Bomb",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["base_cooldown_speed_+%",1]]
     },
@@ -35744,6 +35806,7 @@
         "3":7
       }],
     "name":"Frost Bomb of Instability",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["active_skill_base_area_of_effect_radius",0.1]]
     },
@@ -36300,6 +36363,7 @@
         "3":13
       }],
     "name":"Frost Bomb of Forthcoming",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["base_skill_effect_duration",25]]
     },
@@ -37422,6 +37486,7 @@
         "4":94
       }],
     "name":"Frost Wall",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","base_skill_effect_duration"],
     "qualityStats":{
       "Default":[["base_cooldown_speed_+%",2]]
     },
@@ -37838,6 +37903,7 @@
         "3":-51
       }],
     "name":"Frostbite",
+    "notMinionStat":["base_skill_effect_duration","active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_self_freeze_duration_-%",-1]]
     },
@@ -38598,6 +38664,7 @@
         "6":6
       }],
     "name":"Frostblink",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["skill_maximum_travel_distance_+%",0.5]]
     },
@@ -39112,6 +39179,7 @@
         "3":6
       }],
     "name":"Frostblink of Wintry Blast",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["frostblink_damage_+%_final_per_5%_chill_effect_on_target",0.2]]
     },
@@ -39627,6 +39695,7 @@
         "4":17
       }],
     "name":"Galvanic Field",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "parts":[{
         "name":"Single Target"
       },{
@@ -40148,6 +40217,7 @@
         "2":1.8999999761581
       }],
     "name":"Galvanic Field of Intensity",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "parts":[{
         "name":"Single Target"
       },{
@@ -40691,6 +40761,7 @@
         "2":1.2000000476837
       }],
     "name":"Glacial Cascade",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "parts":[{
         "name":"Initial Bursts"
       },{
@@ -41193,6 +41264,7 @@
         "2":1.2000000476837
       }],
     "name":"Glacial Cascade of the Fissure",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["upheaval_number_of_spikes",0.1]]
     },
@@ -41726,6 +41798,7 @@
         "6":4792
       }],
     "name":"Herald of Thunder",
+    "notMinionStat":["secondary_minimum_base_lightning_damage","secondary_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["herald_of_thunder_bolt_frequency_+%",1]]
     },
@@ -42312,6 +42385,7 @@
         "2":1.2000000476837
       }],
     "name":"Hexblast",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "parts":[{
         "area":false,
         "name":"Target"
@@ -42876,6 +42950,7 @@
         "2":1.2000000476837
       }],
     "name":"Hexblast of Contradiction",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "parts":[{
         "area":false,
         "name":"Target"
@@ -43350,6 +43425,7 @@
         "2":1.2000000476837
       }],
     "name":"Hexblast of Havoc",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "parts":[{
         "area":false,
         "name":"Target"
@@ -43840,6 +43916,7 @@
         "3":357494
       }],
     "name":"Hydrosphere",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "parts":[{
         "name":"Autopulse (Frozen)"
       },{
@@ -44455,6 +44532,7 @@
         "3":8
       }],
     "name":"Ice Nova",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["active_skill_base_area_of_effect_radius",0.15]]
     },
@@ -44929,6 +45007,7 @@
         "3":8
       }],
     "name":"Ice Nova of Frostbolts",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["active_skill_base_area_of_effect_radius",0.15]]
     },
@@ -45455,6 +45534,7 @@
         "4":8
       }],
     "name":"Ice Nova of Deep Freeze",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["ice_nova_freeze_as_though_damage_+%_final",4]]
     },
@@ -45948,6 +46028,7 @@
         "3":69
       }],
     "name":"Ice Spear",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "parts":[{
         "name":"First Form, 1 Projectile"
       },{
@@ -46473,6 +46554,7 @@
         "3":8
       }],
     "name":"Ice Spear of Splitting",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "parts":[{
         "name":"First Form, 1 Projectile"
       },{
@@ -46968,6 +47050,7 @@
         "2":1.2000000476837
       }],
     "name":"Icicle Mine",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["base_number_of_projectiles",0.1]]
     },
@@ -47459,6 +47542,7 @@
         "2":1.2000000476837
       }],
     "name":"Icicle Mine of Fanning",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["base_number_of_projectiles",0.1]]
     },
@@ -47950,6 +48034,7 @@
         "2":1.2000000476837
       }],
     "name":"Icicle Mine of Sabotage",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["aura_effect_+%",1]]
     },
@@ -48517,6 +48602,7 @@
         "4":24
       }],
     "name":"Incinerate",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "parts":[{
         "name":"Channelling",
         "stages":true
@@ -49147,6 +49233,7 @@
         "4":24
       }],
     "name":"Incinerate of Expanse",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "parts":[{
         "name":"Channelling",
         "stages":true
@@ -49777,6 +49864,7 @@
         "4":35
       }],
     "name":"Incinerate of Venting",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "qualityStats":{
       "Default":[["expanding_fire_cone_maximum_number_of_stages",0.15]]
     },
@@ -51909,6 +51997,7 @@
         "3":22
       }],
     "name":"Lightning Conduit",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target",0.2]]
     },
@@ -52436,6 +52525,7 @@
         "4":39
       }],
     "name":"Lightning Conduit of the Heavens",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["lightning_conduit_max_num_targets",0.2]]
     },
@@ -53068,6 +53158,7 @@
         "4":280
       }],
     "name":"Lightning Spire Trap",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "parts":[{
         "name":"One wave hitting"
       },{
@@ -53587,6 +53678,7 @@
         "3":400
       }],
     "name":"Lightning Spire Trap of Zapping",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "parts":[{
         "name":"One wave hitting"
       },{
@@ -54211,6 +54303,7 @@
         "3":1000
       }],
     "name":"Lightning Spire Trap of Overloading",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "parts":[{
         "name":"One wave hitting"
       },{
@@ -54714,6 +54807,7 @@
         "3":13
       }],
     "name":"Lightning Tendrils",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "parts":[{
         "name":"Normal pulse"
       },{
@@ -55214,6 +55308,7 @@
         "3":13
       }],
     "name":"Lightning Tendrils of Eccentricity",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "parts":[{
         "name":"Normal pulse"
       },{
@@ -55724,6 +55819,7 @@
         "3":13
       }],
     "name":"Lightning Tendrils of Escalation",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["active_skill_base_area_of_effect_radius",0.1]]
     },
@@ -56250,6 +56346,7 @@
         "4":148
       }],
     "name":"Lightning Trap",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["trap_%_chance_to_trigger_twice",0.75]]
     },
@@ -56760,6 +56857,7 @@
         "4":148
       }],
     "name":"Lightning Trap of Sparking",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["trap_%_chance_to_trigger_twice",0.75]]
     },
@@ -57280,6 +57378,7 @@
         "4":8
       }],
     "name":"Lightning Warp",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_cast_speed_+%",1]]
     },
@@ -57686,6 +57785,7 @@
         "3":27
       }],
     "name":"Malevolence",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_skill_area_of_effect_+%",2]]
     },
@@ -58220,6 +58320,7 @@
         "3":59
       }],
     "name":"Manabond",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["mana_void_gain_%_missing_unreserved_mana_as_base_lightning_damage",0.5]]
     },
@@ -58831,6 +58932,7 @@
         "4":1550
       }],
     "name":"Orb of Storms",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["projectile_number_to_split",0.1]]
     },
@@ -59337,6 +59439,7 @@
         "2":1.2000000476837
       }],
     "name":"Penance Brand",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["sigil_attached_target_hit_damage_+%_final",0.5]]
     },
@@ -59837,6 +59940,7 @@
         "2":1.2000000476837
       }],
     "name":"Penance Brand of Dissipation",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "parts":[{
         "name":"Energy Pulse",
         "stages":true
@@ -60410,6 +60514,7 @@
         "3":17
       }],
     "name":"Penance Brand of Conduction",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["sigil_attached_target_hit_damage_+%_final",1]]
     },
@@ -61892,6 +61997,7 @@
         "4":11
       }],
     "name":"Purifying Flame",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","active_skill_base_radius_+"],
     "parts":[{
         "name":"Initial hit"
       },{
@@ -62423,6 +62529,7 @@
         "3":16
       }],
     "name":"Purifying Flame of Revelations",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "parts":[{
         "name":"Initial hit"
       },{
@@ -62804,6 +62911,7 @@
         "2":34
       }],
     "name":"Purity of Elements",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_resist_all_elements_%",0.25]]
     },
@@ -63230,6 +63338,7 @@
         "3":34
       }],
     "name":"Purity of Lightning",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_lightning_damage_resistance_%",0.5]]
     },
@@ -63985,6 +64094,7 @@
         "6":3
       }],
     "name":"Pyroclast Mine",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "qualityStats":{
       "Default":[["base_number_of_projectiles",0.05]]
     },
@@ -64732,6 +64842,7 @@
         "6":24
       }],
     "name":"Pyroclast Mine of Sabotage",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "qualityStats":{
       "Default":[["base_number_of_projectiles",0.05]]
     },
@@ -66121,6 +66232,7 @@
       "28":true
     },
     "name":"Raise Zombie",
+    "notMinionStat":["active_skill_minion_life_+%_final"],
     "qualityStats":{
       "Default":[["base_number_of_zombies_allowed",0.05]]
     },
@@ -67245,6 +67357,7 @@
         "2":10
       }],
     "name":"Righteous Fire",
+    "notMinionStat":["righteous_fire_spell_damage_+%_final"],
     "qualityStats":{
       "Default":[["active_skill_base_area_of_effect_radius",0.15]]
     },
@@ -67652,6 +67765,7 @@
         "2":38
       }],
     "name":"Righteous Fire of Arcane Devotion",
+    "notMinionStat":["righteous_fire_cast_speed_+%_final"],
     "qualityStats":{
       "Default":[["active_skill_base_area_of_effect_radius",0.15]]
     },
@@ -68267,6 +68381,7 @@
         "4":6
       }],
     "name":"Rolling Magma",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["number_of_chains",0.1]]
     },
@@ -69046,6 +69161,7 @@
         "1":16.666667039196
       }],
     "name":"Scorching Ray",
+    "notMinionStat":["base_fire_damage_to_deal_per_minute"],
     "parts":[{
         "name":"Manual Stages",
         "stages":true
@@ -69418,6 +69534,7 @@
         "1":16.666667039196
       }],
     "name":"Scorching Ray of Immolation",
+    "notMinionStat":["base_fire_damage_to_deal_per_minute"],
     "parts":[{
         "name":"Manual Stages",
         "stages":true
@@ -69890,6 +70007,7 @@
         "2":1.5
       }],
     "name":"Shock Nova",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "parts":[{
         "name":"Ring"
       },{
@@ -71521,6 +71639,7 @@
         "2":11450
       }],
     "name":"Soul Link",
+    "notMinionStat":["base_skill_effect_duration"],
     "qualityStats":{
       "Default":[["base_skill_effect_duration",75]]
     },
@@ -72039,6 +72158,7 @@
         "3":0.37000000476837
       }],
     "name":"Soulrend",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "qualityStats":{
       "Default":[["base_skill_effect_duration",10]]
     },
@@ -72486,6 +72606,7 @@
         "2":0.37000000476837
       }],
     "name":"Soulrend of Reaping",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "qualityStats":{
       "Default":[["base_projectile_speed_+%",2]]
     },
@@ -72979,6 +73100,7 @@
         "3":0.37000000476837
       }],
     "name":"Soulrend of the Spiral",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "qualityStats":{
       "Default":[["base_skill_effect_duration",10]]
     },
@@ -73458,6 +73580,7 @@
         "3":11
       }],
     "name":"Spark",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "parts":[{
         "name":"1 Hit"
       },{
@@ -73938,6 +74061,7 @@
         "3":11
       }],
     "name":"Spark of the Nova",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "parts":[{
         "name":"1 Hit"
       },{
@@ -74418,6 +74542,7 @@
         "3":9
       }],
     "name":"Spark of Unpredictability",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "parts":[{
         "name":"1 Hit"
       },{
@@ -75525,6 +75650,7 @@
         "3":169
       }],
     "name":"Storm Brand",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["conduit_sigil_number_of_beam_targets",0.05]]
     },
@@ -76016,6 +76142,7 @@
         "2":1.5
       }],
     "name":"Storm Brand of Indecision",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["sigil_attached_target_hit_damage_+%_final",0.5]]
     },
@@ -76514,6 +76641,7 @@
         "3":8
       }],
     "name":"Storm Burst",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","active_skill_base_radius_+"],
     "parts":[{
         "name":"1 Orb Tick"
       },{
@@ -77016,6 +77144,7 @@
         "3":11
       }],
     "name":"Storm Call",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["storm_call_chance_to_strike_on_cast_%",0.75]]
     },
@@ -77545,6 +77674,7 @@
         "4":11
       }],
     "name":"Storm Call of Trarthus",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_secondary_skill_effect_duration",50]]
     },
@@ -78065,6 +78195,7 @@
         "3":39
       }],
     "name":"Stormbind",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "parts":[{
         "name":"Unimproved"
       },{
@@ -78621,6 +78752,7 @@
         "3":39
       }],
     "name":"Stormbind of Teleportation",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "parts":[{
         "name":"Unimproved"
       },{
@@ -79187,6 +79319,7 @@
         "3":9
       }],
     "name":"Stormblast Mine",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["lightning_explosion_mine_aura_damage_taken_+%",0.05]]
     },
@@ -82742,6 +82875,7 @@
       "95":true
     },
     "name":"Summon Holy Relic",
+    "notMinionStat":["active_skill_minion_movement_velocity_+%_final"],
     "qualityStats":{
       "Default":[["skill_buff_effect_+%",2]]
     },
@@ -83218,6 +83352,7 @@
       "86":true
     },
     "name":"Summon Holy Relic of Conviction",
+    "notMinionStat":["active_skill_minion_movement_velocity_+%_final"],
     "qualityStats":{
       "Default":[["minion_cooldown_recovery_+%",1]]
     },
@@ -84939,6 +85074,7 @@
       "28":true
     },
     "name":"Summon Raging Spirit of Enormity",
+    "notMinionStat":["active_skill_minion_life_+%_final"],
     "qualityStats":{
       "Default":[["active_skill_minion_movement_velocity_+%_final",0.5]]
     },
@@ -85461,6 +85597,7 @@
       "37":true
     },
     "name":"Summon Reaper",
+    "notMinionStat":["active_skill_minion_bleeding_damage_+%_final"],
     "qualityStats":{
       "Default":[["bleed_on_hit_with_attacks_%",1]]
     },
@@ -86459,6 +86596,7 @@
       "37":true
     },
     "name":"Summon Reaper of Eviscerating",
+    "notMinionStat":["active_skill_minion_bleeding_damage_+%_final"],
     "qualityStats":{
       "Default":[["minion_aggravate_bleeding_on_attack_hit_chance_%",2]]
     },
@@ -88387,6 +88525,7 @@
         "1":10
       }],
     "name":"Automation",
+    "notMinionStat":["base_cooldown_speed_+%"],
     "qualityStats":{
       "Default":[["base_cooldown_speed_+%",0.25]]
     },
@@ -88659,6 +88798,7 @@
         "2":74
       }],
     "name":"Arcanist Brand",
+    "notMinionStat":["support_brand_damage_+%_final","trigger_brand_support_hit_damage_+%_final_vs_branded_enemy"],
     "qualityStats":{
       "Default":[["dummy_stat_display_nothing",0]]
     },
@@ -89499,6 +89639,7 @@
         "3":-24
       }],
     "name":"Spellslinger",
+    "notMinionStat":["gain_%_of_base_wand_damage_as_added_spell_damage","base_cooldown_speed_+%"],
     "qualityStats":{
       "Default":[["gain_%_of_base_wand_damage_as_added_spell_damage",1]]
     },
@@ -90012,6 +90153,7 @@
         "3":31
       }],
     "name":"Tempest Shield",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["base_chance_to_shock_%",2]]
     },
@@ -90641,6 +90783,7 @@
         "3":13
       }],
     "name":"Vaal Arc",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["number_of_chains",0.05]]
     },
@@ -91095,6 +91238,7 @@
         "2":17
       }],
     "name":"Vaal Blight",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_skill_effect_duration",40]]
     },
@@ -91600,6 +91744,7 @@
         "1":34
       }],
     "name":"Vaal Clarity",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_skill_area_of_effect_+%",2]]
     },
@@ -92209,6 +92354,7 @@
         "3":88.500001024455
       }],
     "name":"Vaal Cold Snap",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["active_skill_chill_effect_+%_final",1]]
     },
@@ -92692,6 +92838,7 @@
         "1":34
       }],
     "name":"Vaal Discipline",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_skill_area_of_effect_+%",2]]
     },
@@ -93259,6 +93406,7 @@
         "3":17
       }],
     "name":"Vaal Fireball",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "parts":[{
         "area":false,
         "name":"Projectile"
@@ -93864,6 +94012,7 @@
         "3":55.000000434617
       }],
     "name":"Vaal Firestorm",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_fire_damage_to_deal_per_minute"],
     "qualityStats":{
       "Default":[["active_skill_base_area_of_effect_radius",0.1]]
     },
@@ -94400,6 +94549,7 @@
         "2":1.2000000476837
       }],
     "name":"Vaal Flameblast",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "qualityStats":{
       "Default":[["damage_+%",1]]
     },
@@ -94941,6 +95091,7 @@
         "2":1.25
       }],
     "name":"Vaal Ice Nova",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["active_skill_base_area_of_effect_radius",0.15]]
     },
@@ -95453,6 +95604,7 @@
         "2":136
       }],
     "name":"Vaal Impurity of Lightning",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_skill_area_of_effect_+%",2]]
     },
@@ -96005,6 +96157,7 @@
         "2":1.5
       }],
     "name":"Vaal Lightning Trap",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["shocked_ground_base_magnitude_override",0.25]]
     },
@@ -96574,6 +96727,7 @@
         "3":-68
       }],
     "name":"Vaal Lightning Warp",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["base_cast_speed_+%",1]]
     },
@@ -97545,6 +97699,7 @@
         "2":27
       }],
     "name":"Vaal Righteous Fire",
+    "notMinionStat":["vaal_righteous_fire_spell_damage_+%_final"],
     "qualityStats":{
       "Default":[["active_skill_base_area_of_effect_radius",0.15]]
     },
@@ -98098,6 +98253,7 @@
         "2":1.8999999761581
       }],
     "name":"Vaal Spark",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["base_number_of_projectiles",0.1]]
     },
@@ -98649,6 +98805,7 @@
         "2":1.2999999523163
       }],
     "name":"Vaal Storm Call",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "qualityStats":{
       "Default":[["base_skill_area_of_effect_+%",0.5]]
     },
@@ -99769,6 +99926,7 @@
         "3":-47
       }],
     "name":"Void Sphere",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["base_cooldown_speed_+%",1]]
     },
@@ -100259,6 +100417,7 @@
         "3":-47
       }],
     "name":"Void Sphere of Rending",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "qualityStats":{
       "Default":[["base_skill_effect_duration",25]]
     },
@@ -100759,6 +100918,7 @@
         "3":5
       }],
     "name":"Voltaxic Burst",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["voltaxic_burst_hit_and_ailment_damage_+%_final_per_stack",0.05]]
     },
@@ -101278,6 +101438,7 @@
         "3":166.16667483126
       }],
     "name":"Vortex",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["active_skill_base_radius_+",0.1]]
     },
@@ -101824,6 +101985,7 @@
         "4":-83.166664710889
       }],
     "name":"Vortex of Projection",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "qualityStats":{
       "Default":[["active_skill_base_radius_+",0.1]]
     },
@@ -102313,6 +102475,7 @@
         "3":840
       }],
     "name":"Wave of Conviction",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_skill_effect_duration"],
     "qualityStats":{
       "Default":[["base_penetrate_elemental_resistances_%",0.75]]
     },
@@ -102826,6 +102989,7 @@
         "3":570
       }],
     "name":"Wave of Conviction of Trarthus",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_skill_effect_duration"],
     "qualityStats":{
       "Default":[["base_penetrate_elemental_resistances_%",0.75]]
     },
@@ -103274,6 +103438,7 @@
         "2":1
       }],
     "name":"Winter Orb",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "parts":[{
         "name":"Channelling",
         "stages":true
@@ -104551,6 +104716,7 @@
         "4":26
       }],
     "name":"Wrath",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_skill_area_of_effect_+%",2]]
     },
@@ -104990,6 +105156,7 @@
         "3":34
       }],
     "name":"Zealotry",
+    "notMinionStat":["active_skill_base_radius_+"],
     "qualityStats":{
       "Default":[["base_skill_area_of_effect_+%",2]]
     },

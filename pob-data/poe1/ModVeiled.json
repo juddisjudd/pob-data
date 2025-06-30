@@ -1562,7 +1562,7 @@
     "statOrder":[866],
     "type":"Prefix",
     "weightKey":["flask","default"],
-    "weightVal":[1000,0],
+    "weightVal":[0,0],
     "1":"(40-60)% increased Critical Strike Chance during Effect"
   },
   "JunMasterVeiledLocalFlaskIgniteDamageLifeLeech":{
@@ -2776,7 +2776,7 @@
     "statOrder":[1031],
     "type":"Prefix",
     "weightKey":["body_armour","default"],
-    "weightVal":[2000,0],
+    "weightVal":[0,0],
     "1":"+(18-21)% chance to Suppress Spell Damage"
   },
   "JunMasterVeiledStatusAilmentsYouInflictDurationWhileFocused_":{

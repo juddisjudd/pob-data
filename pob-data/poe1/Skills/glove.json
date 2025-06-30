@@ -24,6 +24,7 @@
         "2":1.6000000238419
       }],
     "name":"Word of Blades",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -61,6 +62,7 @@
         "2":2.2999999523163
       }],
     "name":"Edict of Blades",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -98,6 +100,7 @@
         "2":3
       }],
     "name":"Decree of Blades",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -135,6 +138,7 @@
         "2":3.7999999523163
       }],
     "name":"Commandment of Blades",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -172,6 +176,7 @@
         "2":1.7999999523163
       }],
     "name":"Word of Flames",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -210,6 +215,7 @@
         "2":2.5
       }],
     "name":"Edict of Flames",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -248,6 +254,7 @@
         "2":3.2000000476837
       }],
     "name":"Decree of Flames",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -286,6 +293,7 @@
         "2":4
       }],
     "name":"Commandment of Flames",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -456,6 +464,7 @@
         "2":1.6000000238419
       }],
     "name":"Word of Frost",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -493,6 +502,7 @@
         "2":2.2999999523163
       }],
     "name":"Edict of Frost",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -530,6 +540,7 @@
         "2":3
       }],
     "name":"Decree of Frost",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -567,6 +578,7 @@
         "2":3.7999999523163
       }],
     "name":"Commandment of Frost",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -809,6 +821,7 @@
         "2":1.6000000238419
       }],
     "name":"Word of Inferno",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "11":true,
@@ -848,6 +861,7 @@
         "2":2.2999999523163
       }],
     "name":"Edict of Inferno",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "11":true,
@@ -887,6 +901,7 @@
         "2":3
       }],
     "name":"Decree of Inferno",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "11":true,
@@ -926,6 +941,7 @@
         "2":3.7999999523163
       }],
     "name":"Commandment of Inferno",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
       "11":true,
@@ -1705,6 +1721,7 @@
         "2":1.6000000238419
       }],
     "name":"Word of the Tempest",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -1746,6 +1763,7 @@
         "2":2.2999999523163
       }],
     "name":"Edict of the Tempest",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -1787,6 +1805,7 @@
         "2":3
       }],
     "name":"Decree of the Tempest",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -1828,6 +1847,7 @@
         "2":3.7999999523163
       }],
     "name":"Commandment of the Tempest",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "10":true,
@@ -2037,6 +2057,7 @@
         "2":1.6000000238419
       }],
     "name":"Word of Thunder",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "11":true,
@@ -2078,6 +2099,7 @@
         "2":2.2999999523163
       }],
     "name":"Edict of Thunder",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "11":true,
@@ -2119,6 +2141,7 @@
         "2":3
       }],
     "name":"Decree of Thunder",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "11":true,
@@ -2160,6 +2183,7 @@
         "2":3.7999999523163
       }],
     "name":"Commandment of Thunder",
+    "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
       "11":true,
@@ -2389,6 +2413,7 @@
         "2":1.6000000238419
       }],
     "name":"Word of Winter",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -2434,6 +2459,7 @@
         "2":2.2999999523163
       }],
     "name":"Edict of Winter",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -2479,6 +2505,7 @@
         "2":3
       }],
     "name":"Decree of Winter",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -2524,6 +2551,7 @@
         "2":3.7999999523163
       }],
     "name":"Commandment of Winter",
+    "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
       "3":true,
