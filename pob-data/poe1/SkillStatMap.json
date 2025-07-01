@@ -5627,7 +5627,12 @@
   "support_swift_affliction_skill_effect_and_damaging_ailment_duration_+%_final":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"SkillAndDamagingAilmentDuration",
+      "name":"Duration",
+      "type":"MORE"
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"DamagingAilmentDuration",
       "type":"MORE"
     }],
   "support_trap_damage_+%_final":[{

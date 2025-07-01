@@ -108849,7 +108849,11 @@
         "keywordFlags":0,
         "name":"CurseEffect",
         "type":"MORE",
-        "value":-100
+        "value":-100,
+        "1":{
+          "skillType":108,
+          "type":"SkillType"
+        }
       }]],
   "Taunt on Hit":[null,"Taunt on Hit "],
   "Taunt on Hit 15% increased effect of Non-Curse Auras from your Skills":[null,"Taunt on Hit 15% increased effect of Non-Curse Auras from your Skills "],
