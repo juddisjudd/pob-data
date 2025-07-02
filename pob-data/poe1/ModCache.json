@@ -86658,8 +86658,7 @@
       }]],
   "Linked Targets Cannot Die for 2 seconds after you Die":[null,"Linked Targets Cannot Die for 2 seconds after you Die "],
   "Linked Targets Cannot Die for 2 seconds after you Die Lose no Experience when you die because a Linked target died":[null,"Linked Targets Cannot Die for 2 seconds after you Die Lose no Experience when you die because a Linked target died "],
-  "Linked Targets always count as in range of Non-Curse Auras from your Skills":[null,"Linked Targets always count as in range of Non-Curse Auras from your Skills "],
-  "Linked Targets always count as in range of Non-Curse Auras from your Skills Non-Curse Auras from your Skills only apply to you and Linked Targets":[null,"Linked Targets always count as in range of Non-Curse Auras from your Skills Non-Curse Auras from your Skills only apply to you and Linked Targets "],
+  "Linked Targets always count as in range of Non-Curse Auras from your Skills":[[]],
   "Linked targets share Endurance, Frenzy and Power Charges with you":[null,"Linked targets share Endurance, Frenzy and Power Charges with you "],
   "Links take twice as long to break":[null,"Links take twice as long to break "],
   "Lose 0.1% of Life per second per Rage while you are not losing Rage":[[{
@@ -93009,7 +93008,22 @@
           "type":"SkillType"
         }
       }]],
-  "Non-Curse Auras from your Skills only apply to you and Linked Targets":[null,"Non-Curse Auras from your Skills only apply to you and Linked Targets "],
+  "Non-Curse Auras from your Skills only apply to you and Linked Targets":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SelfAurasAffectYouAndLinkedTarget",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "skillType":43,
+          "type":"SkillType"
+        },
+        "2":{
+          "neg":true,
+          "skillType":79,
+          "type":"SkillType"
+        }
+      }]],
   "Non-Cursed Enemies you inflict Non-Aura Curses on are Blinded for 4 seconds":[null,"Non-Cursed Enemies you inflict Non-Aura Curses on are Blinded for 4 seconds "],
   "Non-Damaging Ailments Cannot Be inflicted on you while you already have one":[null,"Non-Damaging Ailments Cannot Be inflicted on you while you already have one "],
   "Non-Damaging Ailments have 40% reduced Effect on you while you have Arcane Surge":[[{
