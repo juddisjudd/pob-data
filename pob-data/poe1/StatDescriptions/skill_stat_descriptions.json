@@ -14562,10 +14562,10 @@
     "stats":["glacial_cascade_final_spike_damage_+%_final","quality_display_glacial_cascade_is_gem"],
     "1":[{
         "limit":[[1,"#"],["!",0]],
-        "text":"Cannot Knockback Unique Enemies more than once per second\nFinal Burst Deals {0}% more Damage\nFinal Burst has 100% more Area of Effect\nFinal Burst cannot Knockback"
+        "text":"Cannot Knockback Unique Enemies more than once per second\nFinal Burst Deals {0}% more Damage\nFinal Burst has 100% more Radius\nFinal Burst cannot Knockback"
       },{
         "limit":[["#",-1],["!",0]],
-        "text":"Cannot Knockback Unique Enemies more than once per second\nFinal Burst Deals {0}% less Damage\nFinal Burst has 100% more Area of Effect\nFinal Burst cannot Knockback"
+        "text":"Cannot Knockback Unique Enemies more than once per second\nFinal Burst Deals {0}% less Damage\nFinal Burst has 100% more Radius\nFinal Burst cannot Knockback"
       },{
         "limit":[[1,"#"],[0,0]],
         "text":"Final Burst Deals +{0}% more Damage"

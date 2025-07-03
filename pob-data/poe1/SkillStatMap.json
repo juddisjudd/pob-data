@@ -1391,7 +1391,16 @@
       "name":"RepeatCount",
       "type":"BASE",
       "1":{
-        "skillType":28,
+        "modFlags":83886080,
+        "type":"ModFlagOr"
+      }
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"RepeatCount",
+      "type":"BASE",
+      "1":{
+        "skillType":13,
         "type":"SkillType"
       }
     }],

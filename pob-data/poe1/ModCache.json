@@ -23904,6 +23904,10 @@
         "1":{
           "skillType":88,
           "type":"SkillType"
+        },
+        "2":{
+          "skillType":9,
+          "type":"SkillType"
         }
       }]],
   "12% increased Movement Speed":[[{
@@ -30026,6 +30030,10 @@
           "type":"SkillType"
         },
         "2":{
+          "skillType":9,
+          "type":"SkillType"
+        },
+        "3":{
           "actor":"parent",
           "stat":"ActiveZombieLimit",
           "type":"PerStat"
@@ -32587,6 +32595,10 @@
         "value":20,
         "1":{
           "skillType":88,
+          "type":"SkillType"
+        },
+        "2":{
+          "skillType":9,
           "type":"SkillType"
         }
       }]],
@@ -67388,7 +67400,7 @@
         }
       }]],
   "Animated Minions' Melee Attacks deal 50% less Damage to surrounding targets":[null,"Animated Minions' Melee Attacks deal 50% less Damage to surrounding targets "],
-  "Animated Minions' Melee Attacks deal 50% less Damage to surrounding targets You cannot have non-Animated Minions":[null,"Animated Minions' Melee Attacks deal 50% less Damage to surrounding targets You cannot have non-Animated Minions "],
+  "Animated Minions' Melee Attacks deal 50% less Damage to surrounding targets You cannot have Non-Animated, Non-Manifested Minions":[null,"Animated Minions' Melee Attacks deal 50% less Damage to surrounding targets You cannot have Non-Animated, Non-Manifested Minions "],
   "Animated Minions' Melee Attacks deal Splash Damage to surrounding targets":[null,"Animated Minions' Melee Attacks deal Splash Damage to surrounding targets "],
   "Animated Minions' Melee Attacks deal Splash Damage to surrounding targets Animated Minions' Melee Attacks deal 50% less Damage to surrounding targets":[null,"Animated Minions' Melee Attacks deal Splash Damage to surrounding targets Animated Minions' Melee Attacks deal 50% less Damage to surrounding targets "],
   "Arcane Surge grants 10% more Spell Damage to you":[[{
@@ -112692,10 +112704,10 @@
           "var":"SoulGainPrevention"
         }
       }]],
+  "You cannot have Non-Animated, Non-Manifested Minions":[null,"You cannot have Non-Animated, Non-Manifested Minions "],
   "You cannot have Non-Spectre Minions":[null,"You cannot have Non-Spectre Minions "],
   "You cannot have more than 2 Summoned Totems of the same type":[null,"You cannot have more than 2 Summoned Totems of the same type "],
   "You cannot have more than 2 Summoned Totems of the same type 70% increased Totem Placement speed":[null,"You cannot have more than 2 Summoned Totems of the same type 70% increased Totem Placement speed "],
-  "You cannot have non-Animated Minions":[null,"You cannot have non-Animated Minions "],
   "You cannot have non-Golem Minions":[null,"You cannot have non-Golem Minions "],
   "You cannot have non-Golem Minions 25% reduced Golem Size":[null,"You cannot have non-Golem Minions 25% reduced Golem Size "],
   "You count as Dual Wielding while you are Unencumbered":[[{

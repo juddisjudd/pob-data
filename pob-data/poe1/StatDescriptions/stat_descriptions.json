@@ -60347,7 +60347,7 @@
     "stats":["animated_minions_melee_splash"],
     "1":[{
         "limit":[["#","#"]],
-        "text":"Animated Minions' Melee Attacks deal Splash Damage to surrounding targets"
+        "text":"Animated and Manifested Minions' Melee Strikes deal Splash\nDamage to surrounding targets"
       }]
   },
   "4546":{
@@ -83985,10 +83985,10 @@
     "stats":["grant_animated_minion_melee_splash_damage_+%_final_for_splash"],
     "1":[{
         "limit":[[1,"#"]],
-        "text":"Animated Minions' Melee Attacks deal {0}% more Splash Damage to surrounding targets"
+        "text":"Animated and Manifested Minions' Melee Strikes deal {0}% more Splash Damage"
       },{
         "limit":[["#",-1]],
-        "text":"Animated Minions' Melee Attacks deal {0}% less Splash Damage to surrounding targets",
+        "text":"Animated and Manifested Minions' Melee Strikes deal {0}% less Splash Damage",
         "1":{
           "k":"negate",
           "v":1
@@ -121481,7 +121481,7 @@
     "stats":["you_cannot_have_non_animated_minions"],
     "1":[{
         "limit":[["#","#"]],
-        "text":"You cannot have non-Animated Minions"
+        "text":"You cannot have Non-Animated, Non-Manifested Minions"
       }]
   },
   "10141":{

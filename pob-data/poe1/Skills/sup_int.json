@@ -18914,6 +18914,7 @@
             "type":"PerStat"
           },
           "2":{
+            "allowTotemBuff":true,
             "effectCond":"PhantasmalMight",
             "effectName":"Phantasmal Might",
             "effectType":"Buff",
@@ -18930,6 +18931,7 @@
             "type":"PerStat"
           },
           "2":{
+            "allowTotemBuff":true,
             "effectCond":"PhantasmalMight",
             "effectName":"Phantasmal Might",
             "effectType":"Buff",
