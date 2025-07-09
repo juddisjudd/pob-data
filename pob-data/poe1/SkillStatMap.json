@@ -5551,7 +5551,7 @@
       "name":"SkillData",
       "type":"LIST",
       "value":{
-        "key":"triggeredByAutoCry"
+        "key":"triggeredByAutoexertion"
       },
       "1":{
         "skillType":35,

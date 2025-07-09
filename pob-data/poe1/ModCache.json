@@ -38450,6 +38450,18 @@
           "var":"ElderItem"
         }
       }]],
+  "3% of Physical Damage Prevented Recently is Regenerated as Energy Shield Per Second if 6 Crusader Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageMitigatedEnergyShieldPseudoRecoup",
+        "type":"BASE",
+        "value":12,
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"CrusaderItem"
+        }
+      }]],
   "3% of Physical Damage prevented from Hits Recently is Regenerated as Energy Shield per second":[[{
         "flags":0,
         "keywordFlags":0,
@@ -41000,18 +41012,6 @@
         "name":"PhysicalDamageConvertToLightning",
         "type":"BASE",
         "value":30
-      }]],
-  "30% of Physical Damage Prevented Recently is Regenerated as Energy Shield Per Second if 6 Crusader Items are Equipped":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalDamageMitigatedEnergyShieldPseudoRecoup",
-        "type":"BASE",
-        "value":120,
-        "1":{
-          "threshold":6,
-          "type":"MultiplierThreshold",
-          "var":"CrusaderItem"
-        }
       }]],
   "30% of Physical Damage from Hits taken as Cold Damage during Effect":[[{
         "flags":0,
@@ -82458,7 +82458,17 @@
           "var":"UsingFlask"
         }
       }]],
-  "Grants Immunity to Corrupted Blood for 12 seconds if used while affected by Corrupted Blood":[null,"Grants Immunity to Corrupted Blood for 12 seconds if used while affected by Corrupted Blood "],
+  "Grants Immunity to Corrupted Blood for 12 seconds if used while affected by Corrupted Blood":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CorruptedBloodImmune",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"UsingFlask"
+        }
+      }]],
   "Grants Immunity to Ignite for 4 seconds if used while Ignited":[[{
         "flags":0,
         "keywordFlags":0,
@@ -85400,12 +85410,6 @@
         "name":"CastSpeedAppliesToAttacks",
         "type":"FLAG",
         "value":true
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ImprovedCastSpeedAppliesToAttacks",
-        "type":"MAX",
-        "value":100
       }]],
   "Increases and Reductions to Light Radius also apply to Accuracy":[[{
         "flags":0,
@@ -85441,12 +85445,6 @@
         "name":"MinionAttackSpeedAppliesToPlayer",
         "type":"FLAG",
         "value":true
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ImprovedMinionAttackSpeedAppliesToPlayer",
-        "type":"MAX",
-        "value":100
       }]],
   "Increases and Reductions to Minion Cast Speed also affect you":[[{
         "flags":0,
@@ -85454,12 +85452,6 @@
         "name":"MinionCastSpeedAppliesToPlayer",
         "type":"FLAG",
         "value":true
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ImprovedMinionCastSpeedAppliesToPlayer",
-        "type":"MAX",
-        "value":100
       }]],
   "Increases and Reductions to Minion Damage also affect you":[[{
         "flags":0,
@@ -85467,12 +85459,6 @@
         "name":"MinionDamageAppliesToPlayer",
         "type":"FLAG",
         "value":true
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ImprovedMinionDamageAppliesToPlayer",
-        "type":"MAX",
-        "value":100
       }]],
   "Increases and Reductions to Minion Damage also affect you at 150% of their value":[[{
         "flags":0,
@@ -85513,16 +85499,6 @@
         "name":"SpellDamageAppliesToAttacks",
         "type":"FLAG",
         "value":true,
-        "1":{
-          "type":"Condition",
-          "var":"UsingWand"
-        }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ImprovedSpellDamageAppliesToAttacks",
-        "type":"MAX",
-        "value":100,
         "1":{
           "type":"Condition",
           "var":"UsingWand"

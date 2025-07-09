@@ -46415,16 +46415,6 @@
   },
   "SupportAutoexertion":{
     "addSkillTypes":[41,101],
-    "baseMods":[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"SkillData",
-        "type":"LIST",
-        "value":{
-          "key":"SupportedByAutoexertion",
-          "value":true
-        }
-      }],
     "color":1,
     "constantStats":[["support_autoexertion_base_mana_cost_override",10]],
     "description":"Supports warcry skills. Cannot support retaliation skills or modify the skills of minions.",
