@@ -10521,7 +10521,7 @@
             "limit":100,
             "limitTotal":true,
             "type":"Multiplier",
-            "var":"ChannellingSeconds"
+            "var":"ChannellingTime"
           }
         }],
       "support_focus_channel_damage_+%_final_per_second_channelling_up_to_60%":[{
@@ -10533,7 +10533,7 @@
             "limit":60,
             "limitTotal":true,
             "type":"Multiplier",
-            "var":"ChannellingSeconds"
+            "var":"ChannellingTime"
           }
         }]
     },

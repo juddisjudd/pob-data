@@ -46897,6 +46897,42 @@
           "type":"Multiplier",
           "var":"EnemyPower"
         }
+      },{
+        "flags":4,
+        "keywordFlags":0,
+        "name":"InstantManaLeech",
+        "type":"BASE",
+        "value":5,
+        "1":{
+          "type":"Condition",
+          "var":"{Hand}Attack"
+        },
+        "2":{
+          "skillType":1,
+          "type":"SkillType"
+        },
+        "3":{
+          "type":"Multiplier",
+          "var":"EnemyPower"
+        }
+      },{
+        "flags":4,
+        "keywordFlags":0,
+        "name":"InstantEnergyShieldLeech",
+        "type":"BASE",
+        "value":5,
+        "1":{
+          "type":"Condition",
+          "var":"{Hand}Attack"
+        },
+        "2":{
+          "skillType":1,
+          "type":"SkillType"
+        },
+        "3":{
+          "type":"Multiplier",
+          "var":"EnemyPower"
+        }
       }]],
   "5% of Leech is Instant":[[{
         "flags":0,

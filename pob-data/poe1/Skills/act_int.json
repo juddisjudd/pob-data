@@ -67866,7 +67866,7 @@
           }
         }
       },
-      "righteous_fire_spell_damage_+%_final":[{
+      "righteous_fire_cast_speed_+%_final":[{
           "flags":16,
           "keywordFlags":0,
           "name":"Speed",
