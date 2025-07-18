@@ -586,7 +586,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"active skill",
           "value":1
         },
@@ -602,7 +601,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"grants_active_skill",
           "value":1
         },
@@ -623,7 +621,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"aura",
           "value":1
         },
@@ -639,7 +636,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"bow",
           "value":1
         },
@@ -655,7 +651,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"cold",
           "value":1
         },
@@ -671,7 +666,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"curse",
           "value":1
         },
@@ -687,7 +681,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"dexterity",
           "value":1
         },
@@ -703,7 +696,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"elemental",
           "value":1
         },
@@ -719,7 +711,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"fire",
           "value":1
         },
@@ -735,7 +726,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"all",
           "value":1
         },
@@ -751,7 +741,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"melee",
           "value":1
         },
@@ -767,7 +756,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"minion",
           "value":1
         },
@@ -783,7 +771,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"spell",
           "value":1
         },
@@ -799,7 +786,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"strength",
           "value":1
         },
@@ -815,7 +801,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"support",
           "value":1
         },
@@ -831,7 +816,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"warcry",
           "value":1
         },
@@ -847,6 +831,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["chaos","skill"],
           "value":1
         }
@@ -875,6 +860,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["chaos","spell","skill"],
           "value":1
         }
@@ -886,6 +872,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["cold","skill"],
           "value":1
         }
@@ -914,6 +901,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["cold","spell","skill"],
           "value":1
         }
@@ -925,6 +913,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["dexterity","skill"],
           "value":1
         }
@@ -953,6 +942,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["fire","spell","skill"],
           "value":1
         }
@@ -964,6 +954,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["intelligence","skill"],
           "value":1
         }
@@ -992,6 +983,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["lightning","spell","skill"],
           "value":1
         }
@@ -1003,6 +995,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["minion","skill"],
           "value":1
         }
@@ -1031,6 +1024,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["physical","spell","skill"],
           "value":1
         }
@@ -1042,6 +1036,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keyword":"raise spectre",
           "value":1
         }
@@ -1053,6 +1048,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keyword":"raise zombie",
           "value":1
         }
@@ -1064,6 +1060,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["skill"],
           "value":1
         }
@@ -1075,6 +1072,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["spell","skill"],
           "value":1
         }
@@ -1086,6 +1084,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["strength","skill"],
           "value":1
         }
@@ -1097,6 +1096,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["vaal","skill"],
           "value":1
         }
@@ -1108,6 +1108,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["non-exceptional","support"],
           "value":1
         }
@@ -3248,7 +3249,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"skill",
           "value":12
         },
@@ -5180,6 +5180,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["spell","skill"],
           "value":2
         }
@@ -5191,7 +5192,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"aura",
           "value":2
         },
@@ -5207,7 +5207,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"bow",
           "value":2
         },
@@ -5223,7 +5222,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"cold",
           "value":2
         },
@@ -5239,7 +5237,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"curse",
           "value":2
         },
@@ -5255,7 +5252,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"elemental",
           "value":2
         },
@@ -5271,7 +5267,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"fire",
           "value":2
         },
@@ -5287,7 +5282,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"all",
           "value":2
         },
@@ -5303,7 +5297,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"golem",
           "value":2
         },
@@ -5319,7 +5312,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"herald",
           "value":2
         },
@@ -5335,7 +5327,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"lightning",
           "value":2
         },
@@ -5351,7 +5342,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"minion",
           "value":2
         },
@@ -5367,7 +5357,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"movement",
           "value":2
         },
@@ -5383,7 +5372,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"skill",
           "value":2
         },
@@ -5399,7 +5387,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"spell",
           "value":2
         },
@@ -5415,7 +5402,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"support",
           "value":2
         },
@@ -5431,7 +5417,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"vaal",
           "value":2
         },
@@ -5447,6 +5432,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["chaos","spell","skill"],
           "value":2
         }
@@ -5458,6 +5444,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["cold","spell","skill"],
           "value":2
         }
@@ -5469,6 +5456,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["curse","skill"],
           "value":2
         }
@@ -5512,6 +5500,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["fire","spell","skill"],
           "value":2
         }
@@ -5523,6 +5512,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["lightning","spell","skill"],
           "value":2
         }
@@ -5534,6 +5524,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["link","skill"],
           "value":2
         }
@@ -5545,6 +5536,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["melee","skill"],
           "value":2
         }
@@ -5556,6 +5548,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["minion","skill"],
           "value":2
         }
@@ -5567,6 +5560,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["spell","skill"],
           "value":2
         }
@@ -8030,7 +8024,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"curse",
           "value":3
         },
@@ -8046,7 +8039,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"fire",
           "value":3
         },
@@ -8062,7 +8054,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"golem",
           "value":3
         },
@@ -8078,7 +8069,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"lightning",
           "value":3
         },
@@ -8094,7 +8084,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"minion",
           "value":3
         },
@@ -8110,7 +8099,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"warcry",
           "value":3
         },
@@ -8126,6 +8114,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["chaos","spell","skill"],
           "value":3
         }
@@ -8137,6 +8126,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["cold","spell","skill"],
           "value":3
         }
@@ -8148,6 +8138,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["critical","support"],
           "value":3
         }
@@ -8191,6 +8182,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["fire","spell","skill"],
           "value":3
         }
@@ -8202,6 +8194,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["lightning","spell","skill"],
           "value":3
         }
@@ -8213,6 +8206,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["melee","skill"],
           "value":3
         }
@@ -8224,6 +8218,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["physical","spell","skill"],
           "value":3
         }
@@ -8235,6 +8230,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keyword":"spark",
           "value":3
         }
@@ -9081,7 +9077,6 @@
         "type":"LIST",
         "value":{
           "key":"quality",
-          "keyOfScaledMod":"value",
           "keyword":"all",
           "value":30
         },
@@ -9097,7 +9092,6 @@
         "type":"LIST",
         "value":{
           "key":"quality",
-          "keyOfScaledMod":"value",
           "keyword":"support",
           "value":30
         },
@@ -9806,7 +9800,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"aura",
           "value":4
         },
@@ -9822,7 +9815,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"herald",
           "value":4
         },
@@ -9838,6 +9830,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["spell","skill"],
           "value":4
         }
@@ -10479,7 +10472,6 @@
         "type":"LIST",
         "value":{
           "key":"quality",
-          "keyOfScaledMod":"value",
           "keyword":"all",
           "value":40
         },
@@ -10966,7 +10958,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"aura",
           "value":5
         },
@@ -10982,7 +10973,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"all",
           "value":5
         },
@@ -10998,7 +10988,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"movement",
           "value":5
         },
@@ -11014,7 +11003,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"vaal",
           "value":5
         },
@@ -11030,6 +11018,7 @@
         "type":"LIST",
         "value":{
           "key":"level",
+          "keyOfScaledMod":"value",
           "keywordList":["spell","skill"],
           "value":5
         }
@@ -11693,7 +11682,6 @@
         "type":"LIST",
         "value":{
           "key":"quality",
-          "keyOfScaledMod":"value",
           "keyword":"all",
           "value":50
         },
@@ -12668,7 +12656,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"all",
           "value":7
         },
@@ -12705,7 +12692,6 @@
         "type":"LIST",
         "value":{
           "key":"quality",
-          "keyOfScaledMod":"value",
           "keyword":"support",
           "value":7
         },
@@ -12983,7 +12969,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"all",
           "value":8
         },
@@ -13288,7 +13273,6 @@
         "type":"LIST",
         "value":{
           "key":"quality",
-          "keyOfScaledMod":"value",
           "keyword":"support",
           "value":8
         },
@@ -14106,7 +14090,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"support",
           "value":-2
         },
@@ -14326,7 +14309,6 @@
         "type":"LIST",
         "value":{
           "key":"level",
-          "keyOfScaledMod":"value",
           "keyword":"non-vaal",
           "value":-5
         },
