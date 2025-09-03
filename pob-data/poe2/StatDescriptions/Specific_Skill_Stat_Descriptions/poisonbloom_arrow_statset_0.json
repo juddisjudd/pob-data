@@ -1,19 +1,52 @@
 {
-  "active_skill_base_secondary_area_of_effect_radius":1,
-  "base_skill_detonation_time":4,
+  "base_number_of_projectiles":3,
+  "number_of_poisonbloom_arrow_bloom_allowed":4,
   "parent":"skill_stat_descriptions",
-  "poisonbloom_arrow_bloom_max_burst_damage_+%_final_from_stored_poison":2,
-  "poisonbloom_arrow_max_additional_burst_base_radius_+":3,
+  "poisonbloom_arrow_bloom_max_burst_damage_+%_final_from_stored_poison":1,
+  "poisonbloom_arrow_max_additional_burst_base_radius_+":2,
+  "quality_display_base_number_of_projectiles_is_gem":3,
+  "skill_can_fire_arrows":3,
+  "virtual_poisonbloom_arrow_bloom_limit":5,
   "1":{
-    "stats":["active_skill_base_secondary_area_of_effect_radius"]
-  },
-  "2":{
     "stats":["poisonbloom_arrow_bloom_max_burst_damage_+%_final_from_stored_poison"]
   },
-  "3":{
+  "2":{
     "stats":["poisonbloom_arrow_max_additional_burst_base_radius_+"]
   },
+  "3":{
+    "stats":["base_number_of_projectiles","skill_can_fire_arrows","quality_display_base_number_of_projectiles_is_gem"],
+    "1":[{
+        "limit":[[1,1],["#","#"],[0,0]],
+        "text":"Fires {0:+d} Pustule"
+      },{
+        "limit":[[2,"#"],["#","#"],[0,0]],
+        "text":"Fires {0:+d} Pustules"
+      },{
+        "limit":[[1,1],["#","#"],["#","#"]],
+        "text":"Fires {0} Pustule"
+      },{
+        "limit":[[2,"#"],["#","#"],["#","#"]],
+        "text":"Fires {0} Pustules"
+      }]
+  },
   "4":{
-    "stats":["base_skill_detonation_time"]
+    "stats":["number_of_poisonbloom_arrow_bloom_allowed"],
+    "1":[{
+        "limit":[],
+        "text":"Limit {0:+d} pustule"
+      },{
+        "limit":[],
+        "text":"Limit {0:+d} pustules"
+      },{
+        "limit":[[1,1]],
+        "text":"Limit {0} pustule"
+      },{
+        "limit":[[2,"#"]],
+        "text":"Limit {0} pustules"
+      }]
+  },
+  "5":{
+    "stats":["virtual_poisonbloom_arrow_bloom_limit"],
+    "1":[]
   }
 }

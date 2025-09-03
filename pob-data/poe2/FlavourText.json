@@ -159,6 +159,10 @@
     "name":"Widow's Reign",
     "text":["That day, both the Unblinking Eye and","their enemies stood in silence. That day,","the sky was clear, but it was raining."]
   },{
+    "id":"FourUniqueBodyStrDex8",
+    "name":"Lightning Coil",
+    "text":["The world churned during the Great Wasting.","Tawhoa may have stilled the rioting earth,","but it was Valako that tamed the broken sky."]
+  },{
     "id":"FourUniqueBodyStrDex9",
     "name":"The Fallen Formation",
     "text":["\"I will never forget. I will carry your memory","forward, all of you, from this ghastly Vale.\"","- Artair, last survivor of the Ogham rebellion"]
@@ -226,6 +230,10 @@
     "id":"FourUniqueBodyDexInt6",
     "name":"Zerphi's Serape",
     "text":["Mortality is a curse.","The cure is simple."]
+  },{
+    "id":"FourUniqueBodyDexInt13",
+    "name":"Cospri's Will",
+    "text":["Curse their vile Council,","They cast me aside as if I am some bastard child.","If they only knew the power I possess."]
   },{
     "id":"FourUniqueBodyStrDexInt1",
     "name":"Tabula Rasa",
@@ -531,6 +539,10 @@
     "name":"Essentia Sanguis",
     "text":["The darkest clouds clashed and coupled,","giving birth to four lightning children of hate."]
   },{
+    "id":"FourUniqueGlovesDexInt6",
+    "name":"Thunderfist",
+    "text":["The roar of the heavens","Strikes more than fear","Into the hearts of Man"]
+  },{
     "id":"FourUniqueBootsStr1",
     "name":"Legionstride",
     "text":["A wall of steel and muscle."]
@@ -598,6 +610,10 @@
     "id":"FourUniqueBootsStrDex3",
     "name":"Obern's Bastion",
     "text":["The storm cannot sway those of sure footing."]
+  },{
+    "id":"FourUniqueBootsStrDex4",
+    "name":"Shankgonne",
+    "text":["\"Captain Hiff Greybeard accomplished what nary a Brinerot","could: he died of old age. Almost had him a dozen times","meself, if it weren't for that damn leg of his... crafty shite...\""]
   },{
     "id":"FourUniqueBootsStrInt2",
     "name":"Wake of Destruction",
@@ -698,6 +714,10 @@
     "id":"FourUniqueShieldDex4",
     "name":"Bloodbarrier",
     "text":["A window onto a realm of red,","where countless voices scream..."]
+  },{
+    "id":"FourUniqueShieldDex5",
+    "name":"Kaltenhalt",
+    "text":["Cold, miserable and alone... but alive."]
   },{
     "id":"FourUniqueShieldDex6",
     "name":"Silverthorne",
@@ -843,6 +863,10 @@
     "name":"Serpent's Egg",
     "text":["When Kabala the Serpent Queen was banished from Keth,","the Sekhemas took a single hostage as punishment."]
   },{
+    "id":"FourUniqueAmulet21",
+    "name":"Hinekora's Sight",
+    "text":["Remember the past, anticipate the future."]
+  },{
     "id":"FourUniqueRing1",
     "name":"Blackheart",
     "text":["Fear is highly infectious."]
@@ -959,6 +983,10 @@
     "name":"Kalandra's Touch",
     "text":["Power is a matter of perspective."]
   },{
+    "id":"FourUniqueRing33",
+    "name":"Grip of Kulemak",
+    "text":["Drink deeply of the Well.","Let the Abyss coil within."]
+  },{
     "id":"FourUniqueBelt1",
     "name":"Meginord's Girdle",
     "text":["Kaom's strength was rivaled only by","the great Meginord of the north."]
@@ -970,6 +998,10 @@
     "id":"FourUniqueBelt3",
     "name":"Keelhaul",
     "text":["Below all living things,","there exists a flow..."]
+  },{
+    "id":"FourUniqueBelt4",
+    "name":"Umbilicus Immortalis",
+    "text":["\"The power of rebirth rivals that of immortality.\"","- Icius Perandus, Antiquities Collection, Item 3"]
   },{
     "id":"FourUniqueBelt5",
     "name":"Birthright Buckle",
@@ -1003,10 +1035,6 @@
     "name":"Bijouborne",
     "text":["Trifle not with the trinket mage."]
   },{
-    "id":"FourUniqueBelt16_",
-    "name":"Silverpoint",
-    "text":["Asinia promised vengeance beyond death,","and she found a way to keep that promise."]
-  },{
     "id":"FourUniqueBelt17",
     "name":"Waistgate",
     "text":["Clever artifice is not always complex."]
@@ -1018,6 +1046,14 @@
     "id":"FourUniqueBelt21",
     "name":"Shavronne's Satchel",
     "text":["Bring mystery to life. Again and again."]
+  },{
+    "id":"FourUniqueBelt23",
+    "name":"Darkness Enthroned",
+    "text":["Kulemak sat triumphant, raising the crown.","Darkness coiled the world in eternal night.","Victory, a mere moment, came crashing down.","No conqueror, no conquered, only searing Light."]
+  },{
+    "id":"FourUniqueLifeFlask1",
+    "name":"Blood of the Warrior",
+    "text":["\"Tukohama may be asleep, but he still gives us his strength. A small","needle, an offering, and a vial... drink deeply, my son, and you","will more than survive the coming battle... you will thrive.\""]
   },{
     "id":"FourUniqueOneHandMace1",
     "name":"Brynhand's Mark",
@@ -1087,12 +1123,16 @@
     "name":"Tidebreaker",
     "text":["The sea strikes the rock relentlessly.","Whether in one day or in ten thousand years,","eventually the rock will crumble,","and the Brine King's domain will grow."]
   },{
+    "id":"FourUniqueTwoHandMace10",
+    "name":"Marohi Erqi",
+    "text":["\"Drunken Erqi boasted to Tukohama; the God of War","challenged him to a clash of strength. Woe to the","Divine - he should have made it a test of skill!\""]
+  },{
     "id":"FourUniqueTwoHandMace13",
     "name":"The Hammer of Faith",
     "text":["The secret Order endured by publicly","praying however the Templars demanded.","One day, justice would fall upon them..."]
   },{
     "id":"FourUniqueSpear1",
-    "name":"Splinter of Loratta",
+    "name":"Splinter of Lorrata",
     "text":["The Baleful Gem's corruption lingers still..."]
   },{
     "id":"FourUniqueSpear2",
@@ -1187,6 +1227,10 @@
     "name":"Sire of Shards",
     "text":["That which was broken may yet break."]
   },{
+    "id":"FourUniqueStaff13",
+    "name":"The Unborn Lich",
+    "text":["In ghastly pits beneath the world,","Kulemak grows countless new bodies,","each more powerful than the last.","Not all of his abominations survive."]
+  },{
     "id":"FourUniqueStaff14",
     "name":"The Whispering Ice",
     "text":["\"From what beast you derived, we can only fathom.","Aye, you of living ice, rotting gill, and untold nightmare!","We Brinerot return ye to the sea.\"","- Weylam Roth"]
@@ -1219,6 +1263,10 @@
     "name":"Slivertongue",
     "text":["A hundred blind heads, each seeking the taste of prey on the air."]
   },{
+    "id":"FourUniqueBow9",
+    "name":"Fairgraves' Curse",
+    "text":["The power of the Allflame rends","souls just as easily as flesh."]
+  },{
     "id":"FourUniqueBow13_",
     "name":"Lioneye's Glare",
     "text":["\"Kinslayer, you dishonour your own traditions to turn the tide of battle!","Let us see which is stronger... Karui savagery or the might of the Empire!\"","- General Marceus Lioneye"]
@@ -1230,6 +1278,10 @@
     "id":"FourUniqueCrossbow2",
     "name":"Rampart Raptor",
     "text":["\"His approach to the gate was met with sounding trumpets","and an unfurling of banners. He never saw it coming.\"","- anonymous Brotherhood of Silence report"]
+  },{
+    "id":"FourUniqueCrossbow5",
+    "name":"Double Vision",
+    "text":["For those without a home in the Vastiri, the","hot day is harsh, but the chill night is far worse."]
   },{
     "id":"FourUniqueCrossbow13",
     "name":"The Last Lament",
@@ -1498,4 +1550,8 @@
     "id":"FourUniqueJewel10",
     "name":"Against the Darkness",
     "text":["After the fires, in the depths of the Winter of the World, all life in the Vastiri banded together. Whether serpent, hyena, human, or golem, hated enemies clasped hand to claw, built refuge, and fought side by side against the Abyssals. Thus, the Third Pact was born."]
+  },{
+    "id":"FourUniqueJewel12",
+    "name":"Heart of the Well",
+    "text":["Countless souls scream in agonising harmony,","forever sinking under the weight of the newly dead."]
   }]

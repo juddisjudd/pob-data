@@ -1,0 +1,59 @@
+{
+  "base_skill_effect_duration":1,
+  "blazing_cluster_maximum_number_of_projectiles_allowed":2,
+  "ember_fusillade_damage_+%_final_per_ember_fired":3,
+  "parent":"skill_stat_descriptions",
+  "quality_display_ember_fusilade_is_gem":3,
+  "skill_effect_duration":4,
+  "total_number_of_projectiles_to_fire":5,
+  "1":{
+    "stats":["base_skill_effect_duration"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Hover duration is {0} second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Hover duration is {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["blazing_cluster_maximum_number_of_projectiles_allowed"],
+    "1":[{
+        "limit":[[2,"#"]],
+        "text":"Can accumulate up to {0} Wellsprites\nModifiers to number of Projectiles instead\napply to number of Wellsprites accumulated"
+      }]
+  },
+  "3":{
+    "stats":["ember_fusillade_damage_+%_final_per_ember_fired","quality_display_ember_fusilade_is_gem"],
+    "1":[{
+        "limit":[[1,"#"],[0,0]],
+        "text":"{0:+d}% more Damage for each previous Wellsprite fired in sequence"
+      },{
+        "limit":[[1,"#"],["#","#"]],
+        "text":"{0}% more Damage for each previous Wellsprite fired in sequence"
+      },{
+        "limit":[["#",-1],["#","#"]],
+        "text":"{0}% less Damage for each previous Wellsprite fired in sequence",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["skill_effect_duration"],
+    "1":[]
+  },
+  "5":{
+    "stats":["total_number_of_projectiles_to_fire"],
+    "1":[]
+  }
+}

@@ -1,95 +1,90 @@
 {
   "Adept Rune":{
     "armour":{
-      "statOrder":[946],
+      "statOrder":[944],
       "type":"Rune",
       "1":"+8 to Dexterity"
     },
     "caster":{
-      "statOrder":[946],
-      "type":"Rune",
-      "1":"+8 to Dexterity"
-    },
-    "sceptre":{
-      "statOrder":[946],
+      "statOrder":[944],
       "type":"Rune",
       "1":"+8 to Dexterity"
     },
     "weapon":{
-      "statOrder":[946],
+      "statOrder":[944],
       "type":"Rune",
       "1":"+8 to Dexterity"
     }
   },
   "Atmohua's Soul Core of Retreat":{
     "body armour":{
-      "statOrder":[1379],
+      "statOrder":[963],
       "type":"Rune",
       "1":"30% faster start of Energy Shield Recharge"
     }
   },
   "Bear Talisman":{
     "helmet":{
-      "statOrder":[1571],
+      "statOrder":[1554],
       "type":"Rune",
       "1":"8% increased Area of Effect"
     }
   },
   "Boar Talisman":{
     "gloves":{
-      "statOrder":[6240],
+      "statOrder":[6339],
       "type":"Rune",
       "1":"Gain 1 Rage on Melee Hit"
     }
   },
   "Body Rune":{
     "armour":{
-      "statOrder":[872],
+      "statOrder":[866],
       "type":"Rune",
       "1":"+30 to maximum Life"
     },
     "caster":{
-      "statOrder":[870],
+      "statOrder":[864],
       "type":"Rune",
       "1":"+30 to maximum Energy Shield"
     },
     "weapon":{
-      "statOrder":[967],
+      "statOrder":[968],
       "type":"Rune",
       "1":"Leeches 2.5% of Physical Damage as Life"
     }
   },
   "Cat Talisman":{
-    "boots":{
-      "statOrder":[948],
+    "gloves":{
+      "statOrder":[1264],
       "type":"Rune",
-      "1":"Hits against you have 15% reduced Critical Damage Bonus"
+      "1":"15% increased Accuracy Rating"
     }
   },
   "Cholotl's Soul Core of War":{
     "bow":{
-      "statOrder":[878],
+      "statOrder":[872],
       "type":"Rune",
       "1":"20% increased Projectile Speed"
     }
   },
   "Citaqualotl's Soul Core of Foulness":{
     "weapon":{
-      "statOrder":[1235],
+      "statOrder":[1223],
       "type":"Rune",
-      "1":"Adds 13 to 19 Chaos damage"
+      "1":"Adds 19 to 29 Chaos damage"
     }
   },
   "Countess Seske's Rune of Archery":{
     "bow":{
-      "statOrder":[943],
+      "statOrder":[941],
       "type":"Rune",
       "1":"Bow Attacks fire an additional Arrow"
     }
   },
   "Courtesan Mannan's Rune of Cruelty":{
     "gloves":{
-      "statOrder":[5551],
+      "statOrder":[5605],
       "type":"Rune",
       "1":"15% increased Magnitude of Damaging Ailments you inflict"
     }
@@ -103,233 +98,228 @@
   },
   "Craiceann's Rune of Warding":{
     "body armour":{
-      "statOrder":[1855],
+      "statOrder":[1832],
       "type":"Rune",
       "1":"40% reduced effect of Curses on you"
     }
   },
   "Desert Rune":{
     "armour":{
-      "statOrder":[956],
+      "statOrder":[954],
       "type":"Rune",
       "1":"+12% to Fire Resistance"
     },
     "caster":{
-      "statOrder":[849],
+      "statOrder":[844],
       "type":"Rune",
-      "1":"Gain 10% of Damage as Extra Fire Damage"
+      "1":"Gain 8% of Damage as Extra Fire Damage"
     },
     "weapon":{
-      "statOrder":[825],
+      "statOrder":[821],
       "type":"Rune",
       "1":"Adds 7 to 11 Fire Damage"
     }
   },
   "Estazunti's Soul Core of Convalescence":{
     "boots":{
-      "statOrder":[8689],
+      "statOrder":[8937],
       "type":"Rune",
       "1":"10% increased speed of Recoup Effects"
     }
   },
   "Farrul's Rune of Grace":{
     "boots":{
-      "statOrder":[8258],
+      "statOrder":[8467],
       "type":"Rune",
       "1":"6% reduced Movement Speed Penalty from using Skills while moving"
     }
   },
   "Farrul's Rune of the Chase":{
     "boots":{
-      "statOrder":[829],
+      "statOrder":[825],
       "type":"Rune",
       "1":"5% increased Movement Speed"
     }
   },
   "Farrul's Rune of the Hunt":{
     "weapon":{
-      "statOrder":[4362],
+      "statOrder":[4352],
       "type":"Rune",
       "1":"50% increased Attack Damage against Rare or Unique Enemies"
     }
   },
   "Fenumus' Rune of Agony":{
     "caster":{
-      "statOrder":[1620],
+      "statOrder":[1599],
       "type":"Rune",
       "1":"Gain 13% of Damage as Extra Chaos Damage"
     },
     "weapon":{
-      "statOrder":[1620],
+      "statOrder":[1599],
       "type":"Rune",
       "1":"Gain 13% of Damage as Extra Chaos Damage"
     }
   },
   "Fenumus' Rune of Draining":{
     "gloves":{
-      "statOrder":[9454],
+      "statOrder":[9734],
       "type":"Rune",
-      "1":"20% increased Effect of Withered"
+      "1":"20% increased Withered Magnitude"
     }
   },
   "Fenumus' Rune of Spinning":{
     "gloves":{
-      "statOrder":[940],
+      "statOrder":[938],
       "type":"Rune",
       "1":"8% increased Cast Speed"
     }
   },
   "Fox Talisman":{
     "body armour":{
-      "statOrder":[4181],
+      "statOrder":[4150],
       "type":"Rune",
       "1":"+2% to Quality of all Skills"
     }
   },
   "Glacial Rune":{
     "armour":{
-      "statOrder":[957],
+      "statOrder":[955],
       "type":"Rune",
       "1":"+12% to Cold Resistance"
     },
     "caster":{
-      "statOrder":[851],
+      "statOrder":[846],
       "type":"Rune",
-      "1":"Gain 10% of Damage as Extra Cold Damage"
+      "1":"Gain 8% of Damage as Extra Cold Damage"
     },
     "weapon":{
-      "statOrder":[826],
+      "statOrder":[822],
       "type":"Rune",
       "1":"Adds 6 to 10 Cold Damage"
     }
   },
   "Greater Adept Rune":{
     "armour":{
-      "statOrder":[946],
+      "statOrder":[944],
       "type":"Rune",
       "1":"+10 to Dexterity"
     },
     "caster":{
-      "statOrder":[946],
-      "type":"Rune",
-      "1":"+10 to Dexterity"
-    },
-    "sceptre":{
-      "statOrder":[946],
+      "statOrder":[944],
       "type":"Rune",
       "1":"+10 to Dexterity"
     },
     "weapon":{
-      "statOrder":[946],
+      "statOrder":[944],
       "type":"Rune",
       "1":"+10 to Dexterity"
     }
   },
   "Greater Body Rune":{
     "armour":{
-      "statOrder":[872],
+      "statOrder":[866],
       "type":"Rune",
       "1":"+40 to maximum Life"
     },
     "caster":{
-      "statOrder":[870],
+      "statOrder":[864],
       "type":"Rune",
       "1":"+35 to maximum Energy Shield"
     },
     "weapon":{
-      "statOrder":[967],
+      "statOrder":[968],
       "type":"Rune",
       "1":"Leeches 3% of Physical Damage as Life"
     }
   },
   "Greater Desert Rune":{
     "armour":{
-      "statOrder":[956],
+      "statOrder":[954],
       "type":"Rune",
       "1":"+14% to Fire Resistance"
     },
     "caster":{
-      "statOrder":[849],
+      "statOrder":[844],
       "type":"Rune",
-      "1":"Gain 12% of Damage as Extra Fire Damage"
+      "1":"Gain 10% of Damage as Extra Fire Damage"
     },
     "weapon":{
-      "statOrder":[825],
+      "statOrder":[821],
       "type":"Rune",
       "1":"Adds 13 to 16 Fire Damage"
     }
   },
   "Greater Glacial Rune":{
     "armour":{
-      "statOrder":[957],
+      "statOrder":[955],
       "type":"Rune",
       "1":"+14% to Cold Resistance"
     },
     "caster":{
-      "statOrder":[851],
+      "statOrder":[846],
       "type":"Rune",
-      "1":"Gain 12% of Damage as Extra Cold Damage"
+      "1":"Gain 10% of Damage as Extra Cold Damage"
     },
     "weapon":{
-      "statOrder":[826],
+      "statOrder":[822],
       "type":"Rune",
       "1":"Adds 9 to 15 Cold Damage"
     }
   },
   "Greater Inspiration Rune":{
     "armour":{
-      "statOrder":[971],
+      "statOrder":[972],
       "type":"Rune",
       "1":"18% increased Mana Regeneration Rate"
     },
     "caster":{
-      "statOrder":[971],
+      "statOrder":[972],
       "type":"Rune",
       "1":"24% increased Mana Regeneration Rate"
     },
     "weapon":{
-      "statOrder":[975],
+      "statOrder":[976],
       "type":"Rune",
       "1":"Gain 24 Mana per Enemy Killed"
     }
   },
   "Greater Iron Rune":{
     "armour":{
-      "statOrder":[1377],
+      "statOrder":[1361],
       "type":"Rune",
-      "1":"25% increased Armour, Evasion and Energy Shield"
+      "1":"18% increased Armour, Evasion and Energy Shield"
     },
     "caster":{
-      "statOrder":[855],
+      "statOrder":[850],
       "type":"Rune",
       "1":"30% increased Spell Damage"
     },
     "weapon":{
-      "statOrder":[823],
+      "statOrder":[819],
       "type":"Rune",
-      "1":"25% increased Physical Damage"
+      "1":"18% increased Physical Damage"
     }
   },
   "Greater Mind Rune":{
     "armour":{
-      "statOrder":[874],
+      "statOrder":[868],
       "type":"Rune",
       "1":"+35 to maximum Mana"
     },
     "caster":{
-      "statOrder":[874],
+      "statOrder":[868],
       "type":"Rune",
-      "1":"+35 to maximum Mana"
+      "1":"+50 to maximum Mana"
     },
     "weapon":{
-      "statOrder":[973],
+      "statOrder":[974],
       "type":"Rune",
       "1":"Leeches 2.5% of Physical Damage as Mana"
     }
   },
   "Greater Rebirth Rune":{
     "armour":{
-      "statOrder":[1635],
+      "statOrder":[1614],
       "type":"Rune",
       "1":"Regenerate 0.35% of maximum Life per second"
     },
@@ -339,99 +329,89 @@
       "1":"18% increased Energy Shield Recharge Rate"
     },
     "weapon":{
-      "statOrder":[970],
+      "statOrder":[971],
       "type":"Rune",
       "1":"Gain 30 Life per Enemy Killed"
     }
   },
   "Greater Resolve Rune":{
     "armour":{
-      "statOrder":[947],
+      "statOrder":[945],
       "type":"Rune",
       "1":"+10 to Intelligence"
     },
     "caster":{
-      "statOrder":[947],
-      "type":"Rune",
-      "1":"+10 to Intelligence"
-    },
-    "sceptre":{
-      "statOrder":[947],
+      "statOrder":[945],
       "type":"Rune",
       "1":"+10 to Intelligence"
     },
     "weapon":{
-      "statOrder":[947],
+      "statOrder":[945],
       "type":"Rune",
       "1":"+10 to Intelligence"
     }
   },
   "Greater Robust Rune":{
     "armour":{
-      "statOrder":[945],
+      "statOrder":[943],
       "type":"Rune",
       "1":"+10 to Strength"
     },
     "caster":{
-      "statOrder":[945],
-      "type":"Rune",
-      "1":"+10 to Strength"
-    },
-    "sceptre":{
-      "statOrder":[945],
+      "statOrder":[943],
       "type":"Rune",
       "1":"+10 to Strength"
     },
     "weapon":{
-      "statOrder":[945],
+      "statOrder":[943],
       "type":"Rune",
       "1":"+10 to Strength"
     }
   },
   "Greater Rune of Alacrity":{
     "armour":{
-      "statOrder":[5583],
+      "statOrder":[5638],
       "type":"Rune",
       "1":"Debuffs on you expire 8% faster"
     },
     "weapon":{
-      "statOrder":[830],
+      "statOrder":[826],
       "type":"Rune",
       "1":"8% increased Skill Speed"
     }
   },
   "Greater Rune of Leadership":{
     "armour":{
-      "statOrder":[8189],
+      "statOrder":[8392],
       "type":"Rune",
       "1":"Minions take 10% of Physical Damage as Lightning Damage"
     },
     "weapon":{
-      "statOrder":[8188],
+      "statOrder":[8391],
       "type":"Rune",
       "1":"Minions gain 10% of their Physical Damage as Extra Lightning Damage"
     }
   },
   "Greater Rune of Nobility":{
     "armour":{
-      "statOrder":[8842],
+      "statOrder":[9107],
       "type":"Rune",
       "1":"10% reduced effect of Shock on you"
     },
     "weapon":{
-      "statOrder":[6998],
+      "statOrder":[7159],
       "type":"Rune",
       "1":"Attacks with this Weapon have 10% chance to inflict Lightning Exposure"
     }
   },
   "Greater Rune of Tithing":{
     "armour":{
-      "statOrder":[9216],
+      "statOrder":[9482],
       "type":"Rune",
       "1":"1 to 100 Lightning Thorns damage"
     },
     "weapon":{
-      "statOrder":[5847],
+      "statOrder":[5919],
       "type":"Rune",
       "1":"Meta Skills gain 10% increased Energy"
     }
@@ -440,259 +420,254 @@
     "armour":{
       "statOrder":[990],
       "type":"Rune",
-      "1":"+50 to Stun Threshold"
+      "1":"+80 to Stun Threshold"
     },
     "caster":{
-      "statOrder":[9099],
+      "statOrder":[9364],
       "type":"Rune",
       "1":"Gain additional Stun Threshold equal to 14% of maximum Energy Shield"
     },
     "weapon":{
-      "statOrder":[980],
+      "statOrder":[981],
       "type":"Rune",
       "1":"Causes 30% increased Stun Buildup"
     }
   },
   "Greater Storm Rune":{
     "armour":{
-      "statOrder":[958],
+      "statOrder":[956],
       "type":"Rune",
       "1":"+14% to Lightning Resistance"
     },
     "caster":{
-      "statOrder":[853],
+      "statOrder":[848],
       "type":"Rune",
-      "1":"Gain 12% of Damage as Extra Lightning Damage"
+      "1":"Gain 10% of Damage as Extra Lightning Damage"
     },
     "weapon":{
-      "statOrder":[827],
+      "statOrder":[823],
       "type":"Rune",
       "1":"Adds 1 to 30 Lightning Damage"
     }
   },
   "Greater Tempered Rune":{
     "armour":{
-      "statOrder":[9217],
+      "statOrder":[9483],
       "type":"Rune",
       "1":"31 to 52 Physical Thorns damage"
     },
     "weapon":{
-      "statOrder":[824],
+      "statOrder":[820],
       "type":"Rune",
       "1":"Adds 9 to 12 Physical Damage"
     }
   },
   "Greater Vision Rune":{
     "armour":{
-      "statOrder":[6052],
+      "statOrder":[6145],
       "type":"Rune",
       "1":"12% increased Life and Mana Recovery from Flasks"
     },
     "caster":{
-      "statOrder":[933],
+      "statOrder":[931],
       "type":"Rune",
       "1":"24% increased Critical Hit Chance for Spells"
     },
     "weapon":{
-      "statOrder":[828],
+      "statOrder":[824],
       "type":"Rune",
       "1":"+110 to Accuracy Rating"
     }
   },
   "Guatelitzi's Soul Core of Endurance":{
     "caster":{
-      "statOrder":[5068],
+      "statOrder":[5096],
       "type":"Rune",
       "1":"50% chance when you gain an Endurance Charge to gain an additional Endurance Charge"
     },
     "weapon":{
-      "statOrder":[5068],
+      "statOrder":[5096],
       "type":"Rune",
       "1":"50% chance when you gain an Endurance Charge to gain an additional Endurance Charge"
     }
   },
   "Hayoxi's Soul Core of Heatproofing":{
-    "body armour":{
+    "helmet":{
       "statOrder":[4481],
       "type":"Rune",
-      "1":"20% of Armour also applies to Cold Damage taken from Hits"
+      "1":"+30% of Armour also applies to Cold Damage"
     }
   },
   "Hedgewitch Assandra's Rune of Wisdom":{
     "caster":{
-      "statOrder":[922],
+      "statOrder":[919],
       "type":"Rune",
       "1":"+1 to Level of all Spell Skills"
     }
   },
   "Inspiration Rune":{
     "armour":{
-      "statOrder":[971],
+      "statOrder":[972],
       "type":"Rune",
       "1":"15% increased Mana Regeneration Rate"
     },
     "caster":{
-      "statOrder":[971],
+      "statOrder":[972],
       "type":"Rune",
       "1":"20% increased Mana Regeneration Rate"
     },
     "weapon":{
-      "statOrder":[975],
+      "statOrder":[976],
       "type":"Rune",
       "1":"Gain 16 Mana per Enemy Killed"
     }
   },
   "Iron Rune":{
     "armour":{
-      "statOrder":[1377],
+      "statOrder":[1361],
       "type":"Rune",
-      "1":"20% increased Armour, Evasion and Energy Shield"
+      "1":"16% increased Armour, Evasion and Energy Shield"
     },
     "caster":{
-      "statOrder":[855],
+      "statOrder":[850],
       "type":"Rune",
       "1":"25% increased Spell Damage"
     },
     "weapon":{
-      "statOrder":[823],
+      "statOrder":[819],
       "type":"Rune",
-      "1":"20% increased Physical Damage"
+      "1":"16% increased Physical Damage"
     }
   },
   "Lady Hestra's Rune of Winter":{
     "weapon":{
-      "statOrder":[826],
+      "statOrder":[822],
       "type":"Rune",
       "1":"Adds 19 to 28 Cold Damage"
     }
   },
   "Lesser Adept Rune":{
     "armour":{
-      "statOrder":[946],
+      "statOrder":[944],
       "type":"Rune",
       "1":"+6 to Dexterity"
     },
     "caster":{
-      "statOrder":[946],
-      "type":"Rune",
-      "1":"+6 to Dexterity"
-    },
-    "sceptre":{
-      "statOrder":[946],
+      "statOrder":[944],
       "type":"Rune",
       "1":"+6 to Dexterity"
     },
     "weapon":{
-      "statOrder":[946],
+      "statOrder":[944],
       "type":"Rune",
       "1":"+6 to Dexterity"
     }
   },
   "Lesser Body Rune":{
     "armour":{
-      "statOrder":[872],
+      "statOrder":[866],
       "type":"Rune",
       "1":"+20 to maximum Life"
     },
     "caster":{
-      "statOrder":[870],
+      "statOrder":[864],
       "type":"Rune",
       "1":"+25 to maximum Energy Shield"
     },
     "weapon":{
-      "statOrder":[967],
+      "statOrder":[968],
       "type":"Rune",
       "1":"Leeches 2% of Physical Damage as Life"
     }
   },
   "Lesser Desert Rune":{
     "armour":{
-      "statOrder":[956],
+      "statOrder":[954],
       "type":"Rune",
       "1":"+10% to Fire Resistance"
     },
     "caster":{
-      "statOrder":[849],
+      "statOrder":[844],
       "type":"Rune",
-      "1":"Gain 8% of Damage as Extra Fire Damage"
+      "1":"Gain 6% of Damage as Extra Fire Damage"
     },
     "weapon":{
-      "statOrder":[825],
+      "statOrder":[821],
       "type":"Rune",
       "1":"Adds 4 to 6 Fire Damage"
     }
   },
   "Lesser Glacial Rune":{
     "armour":{
-      "statOrder":[957],
+      "statOrder":[955],
       "type":"Rune",
       "1":"+10% to Cold Resistance"
     },
     "caster":{
-      "statOrder":[851],
+      "statOrder":[846],
       "type":"Rune",
-      "1":"Gain 8% of Damage as Extra Cold Damage"
+      "1":"Gain 6% of Damage as Extra Cold Damage"
     },
     "weapon":{
-      "statOrder":[826],
+      "statOrder":[822],
       "type":"Rune",
       "1":"Adds 3 to 5 Cold Damage"
     }
   },
   "Lesser Inspiration Rune":{
     "armour":{
-      "statOrder":[971],
+      "statOrder":[972],
       "type":"Rune",
       "1":"12% increased Mana Regeneration Rate"
     },
     "caster":{
-      "statOrder":[971],
+      "statOrder":[972],
       "type":"Rune",
       "1":"16% increased Mana Regeneration Rate"
     },
     "weapon":{
-      "statOrder":[975],
+      "statOrder":[976],
       "type":"Rune",
       "1":"Gain 8 Mana per Enemy Killed"
     }
   },
   "Lesser Iron Rune":{
     "armour":{
-      "statOrder":[1377],
+      "statOrder":[1361],
       "type":"Rune",
-      "1":"15% increased Armour, Evasion and Energy Shield"
+      "1":"14% increased Armour, Evasion and Energy Shield"
     },
     "caster":{
-      "statOrder":[855],
+      "statOrder":[850],
       "type":"Rune",
       "1":"20% increased Spell Damage"
     },
     "weapon":{
-      "statOrder":[823],
+      "statOrder":[819],
       "type":"Rune",
-      "1":"15% increased Physical Damage"
+      "1":"14% increased Physical Damage"
     }
   },
   "Lesser Mind Rune":{
     "armour":{
-      "statOrder":[874],
+      "statOrder":[868],
       "type":"Rune",
       "1":"+15 to maximum Mana"
     },
     "caster":{
-      "statOrder":[874],
+      "statOrder":[868],
       "type":"Rune",
-      "1":"+25 to maximum Mana"
+      "1":"+30 to maximum Mana"
     },
     "weapon":{
-      "statOrder":[973],
+      "statOrder":[974],
       "type":"Rune",
       "1":"Leeches 1.5% of Physical Damage as Mana"
     }
   },
   "Lesser Rebirth Rune":{
     "armour":{
-      "statOrder":[1635],
+      "statOrder":[1614],
       "type":"Rune",
       "1":"Regenerate 0.25% of maximum Life per second"
     },
@@ -702,51 +677,41 @@
       "1":"12% increased Energy Shield Recharge Rate"
     },
     "weapon":{
-      "statOrder":[970],
+      "statOrder":[971],
       "type":"Rune",
       "1":"Gain 10 Life per Enemy Killed"
     }
   },
   "Lesser Resolve Rune":{
     "armour":{
-      "statOrder":[947],
+      "statOrder":[945],
       "type":"Rune",
       "1":"+6 to Intelligence"
     },
     "caster":{
-      "statOrder":[947],
-      "type":"Rune",
-      "1":"+6 to Intelligence"
-    },
-    "sceptre":{
-      "statOrder":[947],
+      "statOrder":[945],
       "type":"Rune",
       "1":"+6 to Intelligence"
     },
     "weapon":{
-      "statOrder":[947],
+      "statOrder":[945],
       "type":"Rune",
       "1":"+6 to Intelligence"
     }
   },
   "Lesser Robust Rune":{
     "armour":{
-      "statOrder":[945],
+      "statOrder":[943],
       "type":"Rune",
       "1":"+6 to Strength"
     },
     "caster":{
-      "statOrder":[945],
-      "type":"Rune",
-      "1":"+6 to Strength"
-    },
-    "sceptre":{
-      "statOrder":[945],
+      "statOrder":[943],
       "type":"Rune",
       "1":"+6 to Strength"
     },
     "weapon":{
-      "statOrder":[945],
+      "statOrder":[943],
       "type":"Rune",
       "1":"+6 to Strength"
     }
@@ -755,118 +720,118 @@
     "armour":{
       "statOrder":[990],
       "type":"Rune",
-      "1":"+30 to Stun Threshold"
+      "1":"+40 to Stun Threshold"
     },
     "caster":{
-      "statOrder":[9099],
+      "statOrder":[9364],
       "type":"Rune",
       "1":"Gain additional Stun Threshold equal to 10% of maximum Energy Shield"
     },
     "weapon":{
-      "statOrder":[980],
+      "statOrder":[981],
       "type":"Rune",
       "1":"Causes 20% increased Stun Buildup"
     }
   },
   "Lesser Storm Rune":{
     "armour":{
-      "statOrder":[958],
+      "statOrder":[956],
       "type":"Rune",
       "1":"+10% to Lightning Resistance"
     },
     "caster":{
-      "statOrder":[853],
+      "statOrder":[848],
       "type":"Rune",
-      "1":"Gain 8% of Damage as Extra Lightning Damage"
+      "1":"Gain 6% of Damage as Extra Lightning Damage"
     },
     "weapon":{
-      "statOrder":[827],
+      "statOrder":[823],
       "type":"Rune",
       "1":"Adds 1 to 10 Lightning Damage"
     }
   },
   "Lesser Tempered Rune":{
     "armour":{
-      "statOrder":[9217],
+      "statOrder":[9483],
       "type":"Rune",
       "1":"6 to 9 Physical Thorns damage"
     },
     "weapon":{
-      "statOrder":[824],
+      "statOrder":[820],
       "type":"Rune",
       "1":"Adds 3 to 4 Physical Damage"
     }
   },
   "Lesser Vision Rune":{
     "armour":{
-      "statOrder":[6052],
+      "statOrder":[6145],
       "type":"Rune",
       "1":"8% increased Life and Mana Recovery from Flasks"
     },
     "caster":{
-      "statOrder":[933],
+      "statOrder":[931],
       "type":"Rune",
       "1":"16% increased Critical Hit Chance for Spells"
     },
     "weapon":{
-      "statOrder":[828],
+      "statOrder":[824],
       "type":"Rune",
       "1":"+50 to Accuracy Rating"
     }
   },
   "Mind Rune":{
     "armour":{
-      "statOrder":[874],
+      "statOrder":[868],
       "type":"Rune",
       "1":"+25 to maximum Mana"
     },
     "caster":{
-      "statOrder":[874],
+      "statOrder":[868],
       "type":"Rune",
-      "1":"+30 to maximum Mana"
+      "1":"+40 to maximum Mana"
     },
     "weapon":{
-      "statOrder":[973],
+      "statOrder":[974],
       "type":"Rune",
       "1":"Leeches 2% of Physical Damage as Mana"
     }
   },
   "Opiloti's Soul Core of Assault":{
     "caster":{
-      "statOrder":[5069],
+      "statOrder":[5097],
       "type":"Rune",
       "1":"50% chance when you gain a Frenzy Charge to gain an additional Frenzy Charge"
     },
     "weapon":{
-      "statOrder":[5069],
+      "statOrder":[5097],
       "type":"Rune",
       "1":"50% chance when you gain a Frenzy Charge to gain an additional Frenzy Charge"
     }
   },
   "Owl Talisman":{
-    "boots":{
-      "statOrder":[4504],
+    "focus":{
+      "statOrder":[4507],
       "type":"Rune",
-      "1":"5% increased Cooldown Recovery Rate"
+      "1":"10% increased Cooldown Recovery Rate"
     }
   },
   "Ox Talisman":{
-    "boots":{
-      "statOrder":[998],
+    "shield":{
+      "statOrder":[828],
       "type":"Rune",
-      "1":"20% increased Presence Area of Effect"
+      "1":"10% increased Block chance"
     }
   },
   "Primate Talisman":{
     "helmet":{
-      "statOrder":[961],
+      "statOrder":[958],
       "type":"Rune",
       "1":"Minions have 12% increased maximum Life"
     }
   },
   "Quipolatl's Soul Core of Flow":{
     "helmet":{
-      "statOrder":[1586,4504],
+      "statOrder":[1569,4507],
       "type":"Rune",
       "1":"8% increased Skill Effect Duration",
       "2":"8% increased Cooldown Recovery Rate"
@@ -874,14 +839,14 @@
   },
   "Rabbit Talisman":{
     "body armour":{
-      "statOrder":[916],
+      "statOrder":[913],
       "type":"Rune",
       "1":"8% increased Rarity of Items found"
     }
   },
   "Rebirth Rune":{
     "armour":{
-      "statOrder":[1635],
+      "statOrder":[1614],
       "type":"Rune",
       "1":"Regenerate 0.3% of maximum Life per second"
     },
@@ -891,235 +856,225 @@
       "1":"15% increased Energy Shield Recharge Rate"
     },
     "weapon":{
-      "statOrder":[970],
+      "statOrder":[971],
       "type":"Rune",
       "1":"Gain 20 Life per Enemy Killed"
     }
   },
   "Resolve Rune":{
     "armour":{
-      "statOrder":[947],
+      "statOrder":[945],
       "type":"Rune",
       "1":"+8 to Intelligence"
     },
     "caster":{
-      "statOrder":[947],
-      "type":"Rune",
-      "1":"+8 to Intelligence"
-    },
-    "sceptre":{
-      "statOrder":[947],
+      "statOrder":[945],
       "type":"Rune",
       "1":"+8 to Intelligence"
     },
     "weapon":{
-      "statOrder":[947],
+      "statOrder":[945],
       "type":"Rune",
       "1":"+8 to Intelligence"
     }
   },
   "Robust Rune":{
     "armour":{
-      "statOrder":[945],
+      "statOrder":[943],
       "type":"Rune",
       "1":"+8 to Strength"
     },
     "caster":{
-      "statOrder":[945],
-      "type":"Rune",
-      "1":"+8 to Strength"
-    },
-    "sceptre":{
-      "statOrder":[945],
+      "statOrder":[943],
       "type":"Rune",
       "1":"+8 to Strength"
     },
     "weapon":{
-      "statOrder":[945],
+      "statOrder":[943],
       "type":"Rune",
       "1":"+8 to Strength"
     }
   },
   "Saqawal's Rune of Erosion":{
     "helmet":{
-      "statOrder":[5943],
+      "statOrder":[6032],
       "type":"Rune",
       "1":"20% increased Exposure Effect"
     }
   },
   "Saqawal's Rune of Memory":{
     "helmet":{
-      "statOrder":[1411],
+      "statOrder":[1394],
       "type":"Rune",
       "1":"2% increased Experience gain"
     }
   },
   "Saqawal's Rune of the Sky":{
     "caster":{
-      "statOrder":[8334],
+      "statOrder":[8552],
       "type":"Rune",
-      "1":"Gain 6% of Damage as Extra Damage of all Elements"
+      "1":"Gain 5% of Damage as Extra Damage of all Elements"
     },
     "weapon":{
-      "statOrder":[8334],
+      "statOrder":[8552],
       "type":"Rune",
-      "1":"Gain 6% of Damage as Extra Damage of all Elements"
+      "1":"Gain 5% of Damage as Extra Damage of all Elements"
     }
   },
   "Serpent Talisman":{
     "gloves":{
-      "statOrder":[2288],
+      "statOrder":[2256],
       "type":"Rune",
       "1":"5% increased Curse Magnitudes"
     }
   },
   "Soul Core of Atmohua":{
     "armour":{
-      "statOrder":[7063],
+      "statOrder":[7228],
       "type":"Rune",
       "1":"Convert 20% of Requirements to Strength"
     },
     "weapon":{
-      "statOrder":[7063],
+      "statOrder":[7228],
       "type":"Rune",
       "1":"Convert 20% of Requirements to Strength"
     }
   },
   "Soul Core of Azcapa":{
-    "armour":{
-      "statOrder":[6281],
+    "gloves":{
+      "statOrder":[6384],
       "type":"Rune",
-      "1":"5% increased Quantity of Gold Dropped by Slain Enemies"
+      "1":"10% increased Quantity of Gold Dropped by Slain Enemies"
     },
     "weapon":{
-      "statOrder":[877],
+      "statOrder":[871],
       "type":"Rune",
       "1":"+15 to Spirit"
     }
   },
   "Soul Core of Cholotl":{
     "armour":{
-      "statOrder":[7061],
+      "statOrder":[7226],
       "type":"Rune",
       "1":"Convert 20% of Requirements to Dexterity"
     },
     "weapon":{
-      "statOrder":[7061],
+      "statOrder":[7226],
       "type":"Rune",
       "1":"Convert 20% of Requirements to Dexterity"
     }
   },
   "Soul Core of Citaqualotl":{
     "armour":{
-      "statOrder":[955],
+      "statOrder":[953],
       "type":"Rune",
       "1":"+5% to all Elemental Resistances"
     },
     "weapon":{
-      "statOrder":[861],
+      "statOrder":[856],
       "type":"Rune",
       "1":"30% increased Elemental Damage with Attacks"
     }
   },
   "Soul Core of Jiquani":{
-    "armour":{
-      "statOrder":[873],
+    "body armour":{
+      "statOrder":[867],
       "type":"Rune",
-      "1":"2% increased maximum Life"
+      "1":"3% increased maximum Life"
     },
     "weapon":{
-      "statOrder":[1451],
+      "statOrder":[1434],
       "type":"Rune",
       "1":"Recover 2% of maximum Life on Kill"
     }
   },
   "Soul Core of Opiloti":{
-    "armour":{
-      "statOrder":[5146],
+    "helmet":{
+      "statOrder":[5177],
       "type":"Rune",
-      "1":"10% increased Charm Charges gained"
+      "1":"20% increased Charm Charges gained"
     },
     "weapon":{
-      "statOrder":[2178],
+      "statOrder":[2147],
       "type":"Rune",
       "1":"15% chance to cause Bleeding on Hit"
     }
   },
   "Soul Core of Puhuarte":{
-    "armour":{
-      "statOrder":[951],
+    "gloves":{
+      "statOrder":[949],
       "type":"Rune",
       "1":"+1% to Maximum Fire Resistance"
     },
     "weapon":{
       "statOrder":[984],
       "type":"Rune",
-      "1":"30% increased chance to Ignite"
+      "1":"30% increased Flammability Magnitude"
     }
   },
   "Soul Core of Quipolatl":{
-    "armour":{
-      "statOrder":[4548],
+    "boots":{
+      "statOrder":[4572],
       "type":"Rune",
-      "1":"10% reduced Slowing Potency of Debuffs on You"
+      "1":"15% reduced Slowing Potency of Debuffs on You"
     },
     "weapon":{
-      "statOrder":[919],
+      "statOrder":[916],
       "type":"Rune",
       "1":"5% increased Attack Speed"
     }
   },
   "Soul Core of Tacati":{
     "armour":{
-      "statOrder":[959],
+      "statOrder":[957],
       "type":"Rune",
       "1":"+11% to Chaos Resistance"
     },
     "weapon":{
-      "statOrder":[7059],
+      "statOrder":[7224],
       "type":"Rune",
       "1":"15% chance to Poison on Hit with this weapon"
     }
   },
   "Soul Core of Ticaba":{
-    "armour":{
-      "statOrder":[948],
+    "body armour":{
+      "statOrder":[946],
       "type":"Rune",
-      "1":"Hits against you have 10% reduced Critical Damage Bonus"
+      "1":"Hits against you have 20% reduced Critical Damage Bonus"
     },
     "weapon":{
-      "statOrder":[918],
+      "statOrder":[915],
       "type":"Rune",
-      "1":"+12% to Critical Damage Bonus"
+      "1":"+5% to Critical Damage Bonus"
     }
   },
   "Soul Core of Topotante":{
-    "armour":{
-      "statOrder":[4162],
+    "boots":{
+      "statOrder":[4130],
       "type":"Rune",
-      "1":"15% increased Elemental Ailment Threshold"
+      "1":"25% increased Elemental Ailment Threshold"
     },
     "weapon":{
-      "statOrder":[3373],
+      "statOrder":[3319],
       "type":"Rune",
       "1":"Attacks with this Weapon Penetrate 15% Elemental Resistances"
     }
   },
   "Soul Core of Tzamoto":{
-    "armour":{
-      "statOrder":[952],
+    "helmet":{
+      "statOrder":[950],
       "type":"Rune",
       "1":"+1% to Maximum Cold Resistance"
     },
     "weapon":{
       "statOrder":[986],
       "type":"Rune",
-      "1":"20% increased Freeze Buildup"
+      "1":"30% increased Freeze Buildup"
     }
   },
   "Soul Core of Xopec":{
-    "armour":{
-      "statOrder":[953],
+    "boots":{
+      "statOrder":[951],
       "type":"Rune",
       "1":"+1% to Maximum Lightning Resistance"
     },
@@ -1130,122 +1085,122 @@
     }
   },
   "Soul Core of Zalatl":{
-    "armour":{
-      "statOrder":[875],
+    "helmet":{
+      "statOrder":[869],
       "type":"Rune",
-      "1":"2% increased maximum Mana"
+      "1":"3% increased maximum Mana"
     },
     "weapon":{
-      "statOrder":[1453],
+      "statOrder":[1436],
       "type":"Rune",
       "1":"Recover 2% of maximum Mana on Kill"
     }
   },
   "Soul Core of Zantipi":{
     "armour":{
-      "statOrder":[7062],
+      "statOrder":[7227],
       "type":"Rune",
       "1":"Convert 20% of Requirements to Intelligence"
     },
     "weapon":{
-      "statOrder":[7062],
+      "statOrder":[7227],
       "type":"Rune",
       "1":"Convert 20% of Requirements to Intelligence"
     }
   },
   "Stag Talisman":{
     "helmet":{
-      "statOrder":[5943],
+      "statOrder":[9472],
       "type":"Rune",
-      "1":"8% increased Exposure Effect"
+      "1":"50% increased Thorns Critical Hit Chance"
     }
   },
   "Stone Rune":{
     "armour":{
       "statOrder":[990],
       "type":"Rune",
-      "1":"+40 to Stun Threshold"
+      "1":"+60 to Stun Threshold"
     },
     "caster":{
-      "statOrder":[9099],
+      "statOrder":[9364],
       "type":"Rune",
       "1":"Gain additional Stun Threshold equal to 12% of maximum Energy Shield"
     },
     "weapon":{
-      "statOrder":[980],
+      "statOrder":[981],
       "type":"Rune",
       "1":"Causes 25% increased Stun Buildup"
     }
   },
   "Storm Rune":{
     "armour":{
-      "statOrder":[958],
+      "statOrder":[956],
       "type":"Rune",
       "1":"+12% to Lightning Resistance"
     },
     "caster":{
-      "statOrder":[853],
+      "statOrder":[848],
       "type":"Rune",
-      "1":"Gain 10% of Damage as Extra Lightning Damage"
+      "1":"Gain 8% of Damage as Extra Lightning Damage"
     },
     "weapon":{
-      "statOrder":[827],
+      "statOrder":[823],
       "type":"Rune",
       "1":"Adds 1 to 20 Lightning Damage"
     }
   },
   "Tacati's Soul Core of Affliction":{
     "helmet":{
-      "statOrder":[3663],
+      "statOrder":[3606],
       "type":"Rune",
       "1":"Enemies you Curse have -4% to Chaos Resistance"
     }
   },
   "Talisman of Eeshta":{
     "helmet":{
-      "statOrder":[1572],
+      "statOrder":[4568],
       "type":"Rune",
-      "1":"6% reduced Cost of Skills"
+      "1":"10% increased Cost Efficiency"
     }
   },
   "Talisman of Egrin":{
     "helmet":{
-      "statOrder":[3370],
+      "statOrder":[3316],
       "type":"Rune",
       "1":"Enemies you Curse take 5% increased Damage"
     }
   },
   "Talisman of Grold":{
     "gloves":{
-      "statOrder":[4951],
+      "statOrder":[9708],
       "type":"Rune",
-      "1":"Skills which Empower an Attack have 15% chance to not count that Attack"
+      "1":"15% increased total Power counted by Warcries"
     }
   },
   "Talisman of Maxarius":{
     "body armour":{
-      "statOrder":[8377],
+      "statOrder":[8602],
       "type":"Rune",
       "1":"+1 Charm Slot"
     }
   },
   "Talisman of Ralakesh":{
     "helmet":{
-      "statOrder":[8194],
+      "statOrder":[8397],
       "type":"Rune",
-      "1":"Minions have 5% reduced Reservation"
+      "1":"6% increased Reservation Efficiency of Minion Skills"
     }
   },
   "Talisman of Sirrius":{
     "gloves":{
-      "statOrder":[939],
+      "statOrder":[937],
       "type":"Rune",
       "1":"8% increased Attack Speed"
     }
   },
   "Talisman of Thruldana":{
     "weapon":{
-      "statOrder":[2820,8385],
+      "statOrder":[2775,8612],
       "type":"Rune",
       "1":"25% reduced Poison Duration",
       "2":"Targets can be affected by +1 of your Poisons at the same time"
@@ -1253,75 +1208,75 @@
   },
   "Tempered Rune":{
     "armour":{
-      "statOrder":[9217],
+      "statOrder":[9483],
       "type":"Rune",
       "1":"14 to 21 Physical Thorns damage"
     },
     "weapon":{
-      "statOrder":[824],
+      "statOrder":[820],
       "type":"Rune",
       "1":"Adds 6 to 9 Physical Damage"
     }
   },
   "Thane Girt's Rune of Wildness":{
     "caster":{
-      "statOrder":[8997],
+      "statOrder":[9267],
       "type":"Rune",
       "1":"25% chance for Spell Skills to fire 2 additional Projectiles"
     }
   },
   "Thane Grannell's Rune of Mastery":{
     "gloves":{
-      "statOrder":[8322],
+      "statOrder":[8532],
       "type":"Rune",
       "1":"20% increased Magnitude of Non-Damaging Ailments you inflict"
     }
   },
   "Thane Leld's Rune of Spring":{
     "weapon":{
-      "statOrder":[827],
+      "statOrder":[823],
       "type":"Rune",
       "1":"Adds 1 to 60 Lightning Damage"
     }
   },
   "Thane Myrk's Rune of Summer":{
     "weapon":{
-      "statOrder":[825],
+      "statOrder":[821],
       "type":"Rune",
       "1":"Adds 23 to 34 Fire Damage"
     }
   },
   "The Greatwolf's Rune of Claws":{
     "gloves":{
-      "statOrder":[845],
+      "statOrder":[840],
       "type":"Rune",
       "1":"Adds 5 to 12 Physical Damage to Attacks"
     }
   },
   "The Greatwolf's Rune of Willpower":{
     "body armour":{
-      "statOrder":[2384],
+      "statOrder":[2352],
       "type":"Rune",
       "1":"10% of Damage is taken from Mana before Life"
     }
   },
   "Topotante's Soul Core of Dampening":{
-    "body armour":{
+    "gloves":{
       "statOrder":[4482],
       "type":"Rune",
-      "1":"20% of Armour also applies to Fire Damage taken from Hits"
+      "1":"+30% of Armour also applies to Fire Damage"
     }
   },
   "Tzamoto's Soul Core of Ferocity":{
     "helmet":{
-      "statOrder":[8640],
+      "statOrder":[8886],
       "type":"Rune",
       "1":"+4 to Maximum Rage"
     }
   },
   "Uromoti's Soul Core of Attenuation":{
     "boots":{
-      "statOrder":[1480,2820],
+      "statOrder":[1463,2775],
       "type":"Rune",
       "1":"15% increased Curse Duration",
       "2":"15% increased Poison Duration"
@@ -1329,57 +1284,57 @@
   },
   "Vision Rune":{
     "armour":{
-      "statOrder":[6052],
+      "statOrder":[6145],
       "type":"Rune",
       "1":"10% increased Life and Mana Recovery from Flasks"
     },
     "caster":{
-      "statOrder":[933],
+      "statOrder":[931],
       "type":"Rune",
       "1":"20% increased Critical Hit Chance for Spells"
     },
     "weapon":{
-      "statOrder":[828],
+      "statOrder":[824],
       "type":"Rune",
       "1":"+80 to Accuracy Rating"
     }
   },
   "Wolf Talisman":{
     "gloves":{
-      "statOrder":[4598],
+      "statOrder":[4626],
       "type":"Rune",
       "1":"10% increased Magnitude of Bleeding you inflict"
     }
   },
   "Xipocado's Soul Core of Dominion":{
     "caster":{
-      "statOrder":[8147],
+      "statOrder":[8347],
       "type":"Rune",
       "1":"Minions deal 40% increased Damage with Command Skills"
     },
     "sceptre":{
-      "statOrder":[8147],
+      "statOrder":[8347],
       "type":"Rune",
       "1":"Minions deal 40% increased Damage with Command Skills"
     }
   },
   "Xopec's Soul Core of Power":{
     "caster":{
-      "statOrder":[5070],
+      "statOrder":[5098],
       "type":"Rune",
       "1":"50% chance when you gain a Power Charge to gain an additional Power Charge"
     },
     "weapon":{
-      "statOrder":[5070],
+      "statOrder":[5098],
       "type":"Rune",
       "1":"50% chance when you gain a Power Charge to gain an additional Power Charge"
     }
   },
   "Zalatl's Soul Core of Insulation":{
-    "body armour":{
+    "boots":{
       "statOrder":[4483],
       "type":"Rune",
-      "1":"20% of Armour also applies to Lightning Damage taken from Hits"
+      "1":"+30% of Armour also applies to Lightning Damage"
     }
   }
 }

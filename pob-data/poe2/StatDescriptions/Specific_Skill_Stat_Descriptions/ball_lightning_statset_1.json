@@ -1,0 +1,50 @@
+{
+  "active_skill_base_secondary_area_of_effect_radius":1,
+  "ball_lightning_infused_burning_ground_interval_ms":2,
+  "parent":"skill_stat_descriptions",
+  "spell_maximum_base_fire_damage":3,
+  "spell_minimum_base_fire_damage":3,
+  "1":{
+    "stats":["active_skill_base_secondary_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Fire-Infused explosion radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Fire-Infused explosion radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["ball_lightning_infused_burning_ground_interval_ms"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Creates Ignited Ground every {0} second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Creates Ignited Ground every {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+    "1":[{
+        "limit":[["#","#"],["#","#"]],
+        "text":"Fire-Infused explosion deals {0} to {1} Fire damage"
+      }]
+  }
+}

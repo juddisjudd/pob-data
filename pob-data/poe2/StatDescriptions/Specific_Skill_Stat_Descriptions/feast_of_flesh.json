@@ -1,0 +1,65 @@
+{
+  "active_skill_area_of_effect_radius":1,
+  "active_skill_base_area_of_effect_radius":2,
+  "base_life_recovery_per_minute":3,
+  "base_mana_recovery_per_minute":3,
+  "feast_of_flesh_number_of_corpses":4,
+  "feast_of_flesh_regeneration_duration":3,
+  "parent":"skill_stat_descriptions",
+  "1":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "2":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Corpse Consumption radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Corpse Consumption radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["base_life_recovery_per_minute","base_mana_recovery_per_minute","feast_of_flesh_regeneration_duration"],
+    "1":[{
+        "limit":[["#","#"],["#","#"],[1000,1000]],
+        "text":"Recover {0} Life and {1} Mana over {2} second per Corpse Consumed",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":3
+        }
+      },{
+        "limit":[["#","#"],["#","#"],["#","#"]],
+        "text":"Recover {0} Life and {1} Mana over {2} seconds per Corpse Consumed",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":3
+        }
+      }]
+  },
+  "4":{
+    "stats":["feast_of_flesh_number_of_corpses"],
+    "1":[{
+        "limit":[],
+        "text":"Consumes {0:+d} Corpse"
+      },{
+        "limit":[],
+        "text":"Consumes {0:+d} Corpses"
+      },{
+        "limit":[[1,1]],
+        "text":"Consumes up to 1 Corpse"
+      },{
+        "limit":[["#","#"]],
+        "text":"Consumes up to {0} Corpses"
+      }]
+  }
+}

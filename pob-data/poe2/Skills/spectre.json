@@ -67,9 +67,10 @@
       "42":true,
       "56":true,
       "69":true,
-      "70":true,
       "72":true,
-      "140":true
+      "140":true,
+      "228":true,
+      "234":true
     },
     "statSets":[{
         "baseFlags":{
@@ -119,9 +120,10 @@
       "31":true,
       "56":true,
       "69":true,
-      "70":true,
       "72":true,
-      "140":true
+      "140":true,
+      "228":true,
+      "234":true
     },
     "statSets":[{
         "baseFlags":{
@@ -130,7 +132,7 @@
           "duration":true,
           "spell":true
         },
-        "constantStats":[["accuracy_rating_+%",-60],["base_skill_buff_damage_+%_final_to_apply",-60],["base_skill_buff_damage_+%_final_vs_unique_to_apply",-23],["active_skill_area_of_effect_radius_+%_final",100]],
+        "constantStats":[["accuracy_rating_+%",-60],["base_skill_buff_damage_+%_final_to_apply",-60],["active_skill_area_of_effect_radius_+%_final",100]],
         "label":"Enfeeble",
         "levels":[{
             "actorLevel":1
@@ -190,9 +192,10 @@
       "31":true,
       "56":true,
       "69":true,
-      "70":true,
       "72":true,
-      "140":true
+      "140":true,
+      "228":true,
+      "234":true
     },
     "statSets":[{
         "baseFlags":{
@@ -259,7 +262,7 @@
             "1":16.666667039196
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["base_chaos_damage_to_deal_per_minute","base_is_projectile","is_area_damage","skill_can_fire_arrows","cannot_pierce","action_attack_or_cast_time_uses_animation_length","base_skill_cannot_be_blocked"]
+        "stats":["base_chaos_damage_to_deal_per_minute","base_is_projectile","is_area_damage","skill_can_fire_arrows","cannot_pierce","action_attack_or_cast_time_uses_animation_length","base_cannot_be_blocked"]
       }],
     "weaponTypes":{
       "Bow":true
@@ -267,7 +270,7 @@
   },
   "BloodMageBloodTendrils":{
     "castTime":1.67,
-    "description":"Expel your own blood as Chaining blood tendrils in a cone in front of you. Enemies hit by the tendrils take Physical damage and are inflicted with a Debuff that deals Physical damage over time.",
+    "description":"Expel your own blood as Chaining blood tendrils in a cone in front of you. Enemies Hit by the tendrils take Physical damage and are inflicted with Bleeding.",
     "hidden":true,
     "levels":[{
         "cooldown":0.5,
@@ -289,8 +292,9 @@
       "27":true,
       "31":true,
       "35":true,
-      "70":true,
-      "140":true
+      "140":true,
+      "228":true,
+      "234":true
     },
     "statSets":[{
         "baseEffectiveness":2.5,
@@ -992,7 +996,7 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length","base_skill_cannot_be_blocked","base_skill_cannot_be_avoided_by_dodge_roll"]
+        "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length","base_cannot_be_blocked","base_skill_cannot_be_avoided_by_dodge_roll_or_evaded_or_blocked"]
       }]
   },
   "GADeathKnightOverheadslamforward":{
@@ -1689,7 +1693,7 @@
         "incrementalEffectiveness":0.10000000149012,
         "label":"Ice Beam",
         "levels":[{
-            "actorLevel":35,
+            "actorLevel":1,
             "statInterpolation":[3,3],
             "1":0.80000001192093,
             "2":1.2000000476837
@@ -1928,7 +1932,7 @@
           "spell":true,
           "triggerable":true
         },
-        "constantStats":[["freeze_as_though_dealt_damage_+%",100]],
+        "constantStats":[["hit_damage_freeze_multiplier_+%",100]],
         "damageIncrementalEffectiveness":0.017500000074506,
         "incrementalEffectiveness":0.10000000149012,
         "label":"Sword Barrage",
@@ -2204,7 +2208,7 @@
           "melee":true,
           "projectile":true
         },
-        "constantStats":[["arrow_projectile_variation",1001]],
+        "constantStats":[["arrow_projectile_variation",1001],["chance_to_poison_on_hit_with_attacks_%",20]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Basic Attack",
         "levels":[{
@@ -2400,7 +2404,9 @@
       "90":true,
       "140":true,
       "158":true,
-      "217":true
+      "217":true,
+      "228":true,
+      "241":true
     },
     "statSets":[{
         "baseEffectiveness":3,
@@ -2450,7 +2456,8 @@
       "140":true,
       "158":true,
       "168":true,
-      "217":true
+      "217":true,
+      "228":true
     },
     "statSets":[{
         "baseEffectiveness":2.5,
@@ -2474,7 +2481,7 @@
             "5":10
           }],
         "statDescriptionScope":"oil_grenade",
-        "stats":["active_skill_base_area_of_effect_radius","skill_base_covered_in_oil_movement_speed_+%_final_to_apply","skill_base_ground_oil_movement_speed_+%_final_to_apply","skill_base_ground_oil_exposure_-_to_total_fire_resistance","skill_base_covered_in_oil_exposure_-_to_total_fire_resistance","base_is_projectile","projectile_ballistic_angle_from_reference_event","projectile_uses_contact_position","is_area_damage","ballistic_projectiles_always_bounce"]
+        "stats":["active_skill_base_area_of_effect_radius","skill_base_covered_in_oil_movement_speed_+%_final_to_apply","skill_base_ground_oil_movement_speed_+%_final_to_apply","skill_base_ground_oil_exposure_-_to_total_elemental_resistance","skill_base_covered_in_oil_exposure_-_to_total_elemental_resistance","base_is_projectile","projectile_ballistic_angle_from_reference_event","projectile_uses_contact_position","is_area_damage","ballistic_projectiles_always_bounce"]
       }],
     "weaponTypes":{
       "Crossbow":true
@@ -2930,7 +2937,7 @@
       "57":true
     },
     "statSets":[{
-        "baseEffectiveness":3,
+        "baseEffectiveness":2,
         "baseFlags":{
           "hit":true,
           "projectile":true,
@@ -3382,7 +3389,7 @@
           "spell":true,
           "triggerable":true
         },
-        "constantStats":[["monster_projectile_variation",1042],["spell_maximum_action_distance_+%",-40]],
+        "constantStats":[["monster_projectile_variation",1042],["spell_maximum_action_distance_+%",-40],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",-70]],
         "damageIncrementalEffectiveness":0.017500000074506,
         "incrementalEffectiveness":0.10000000149012,
         "label":"Basic Spell",
@@ -3394,7 +3401,7 @@
           }],
         "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","action_attack_or_cast_time_uses_animation_length","check_for_targets_between_initiator_and_projectile_source"]
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","action_attack_or_cast_time_uses_animation_length","check_for_targets_between_initiator_and_projectile_source","can_perform_skill_while_moving"]
       }]
   },
   "MPWAzmeriPitifulFabricationSkullThrow":{
@@ -3619,12 +3626,6 @@
     "levels":[{
         "baseMultiplier":1.5,
         "levelRequirement":0
-      },{
-        "baseMultiplier":1.5,
-        "levelRequirement":0
-      },{
-        "baseMultiplier":1.5,
-        "levelRequirement":0
       }],
     "name":"Puncture",
     "qualityStats":[],
@@ -3643,25 +3644,14 @@
           "projectile":true,
           "triggerable":true
         },
-        "constantStats":[["monster_projectile_variation",1055],["chance_to_poison_on_hit_with_attacks_%",50]],
+        "constantStats":[["monster_projectile_variation",1055],["chance_to_poison_on_hit_with_attacks_%",100],["projectile_speed_variation_+%",25]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Puncture",
         "levels":[{
-            "actorLevel":1,
-            "statInterpolation":[1],
-            "1":0
-          },{
-            "actorLevel":30,
-            "statInterpolation":[1],
-            "1":25
-          },{
-            "actorLevel":60,
-            "statInterpolation":[1],
-            "1":50
+            "actorLevel":1
           }],
-        "notMinionStat":["active_skill_bleeding_effect_+%_final"],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["active_skill_bleeding_effect_+%_final","use_scaled_contact_offset","projectile_uses_contact_position","base_is_projectile","attacks_inflict_bleeding_on_hit","action_attack_or_cast_time_uses_animation_length"]
+        "stats":["use_scaled_contact_offset","projectile_uses_contact_position","base_is_projectile","action_attack_or_cast_time_uses_animation_length"]
       }]
   },
   "MPWVaalSavageBlowDart":{
@@ -4054,7 +4044,8 @@
       "151":true,
       "172":true,
       "185":true,
-      "192":true
+      "192":true,
+      "228":true
     },
     "statSets":[{
         "baseEffectiveness":0,
@@ -4127,7 +4118,7 @@
   },
   "SerpentClanCurse":{
     "castTime":1.5,
-    "description":"Curse all targets in an area after a short delay, making Hits against them ignore a portion of their Armour.",
+    "description":"Curse all targets in an area after a short delay. making Hits against them ignore a portion of their Armour.",
     "hidden":true,
     "levels":[{
         "cooldown":6,
@@ -4148,9 +4139,10 @@
       "31":true,
       "56":true,
       "69":true,
-      "70":true,
       "72":true,
-      "140":true
+      "140":true,
+      "228":true,
+      "234":true
     },
     "statSets":[{
         "baseEffectiveness":0,
@@ -4452,7 +4444,7 @@
   },
   "SkelemancerSkelenado":{
     "castTime":1,
-    "description":"Launch a spray of sparking Projectiles that travel erratically along the ground until they hit an enemy or expire.",
+    "description":"Launch a spray of sparking Projectiles that travel erratically along the ground until they hit an enemy or expire. Consumes a Cold Infusion if possible to fire many sparks in a circle.",
     "hidden":true,
     "levels":[{
         "critChance":5,
@@ -4472,9 +4464,10 @@
       "30":true,
       "31":true,
       "57":true,
-      "70":true,
       "125":true,
-      "140":true
+      "140":true,
+      "228":true,
+      "234":true
     },
     "statSets":[{
         "baseEffectiveness":3,
@@ -4496,7 +4489,7 @@
             "4":0.60000002384186
           }],
         "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
-        "statDescriptionScope":"spark",
+        "statDescriptionScope":"spark_statset_0",
         "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile","projectiles_not_offset","always_pierce"]
       }]
   },
@@ -4560,7 +4553,6 @@
           "spell":true,
           "triggerable":true
         },
-        "constantStats":[["additional_chance_to_freeze_chilled_enemies_%",50]],
         "damageIncrementalEffectiveness":0.017500000074506,
         "incrementalEffectiveness":0.10000000149012,
         "label":"Basic Spell",
@@ -4792,7 +4784,7 @@
   },
   "VaalBloodPriestExsanguinate":{
     "castTime":2.2,
-    "description":"Expel your own blood as Chaining blood tendrils in a cone in front of you. Enemies hit by the tendrils take Physical damage and are inflicted with a Debuff that deals Physical damage over time.",
+    "description":"Expel your own blood as Chaining blood tendrils in a cone in front of you. Enemies Hit by the tendrils take Physical damage and are inflicted with Bleeding.",
     "hidden":true,
     "levels":[{
         "critChance":5,
@@ -4812,8 +4804,9 @@
       "27":true,
       "31":true,
       "35":true,
-      "70":true,
-      "140":true
+      "140":true,
+      "228":true,
+      "234":true
     },
     "statSets":[{
         "baseEffectiveness":2.5,
@@ -4873,7 +4866,7 @@
           "spell":true,
           "triggerable":true
         },
-        "constantStats":[["base_skill_effect_duration",500],["spell_maximum_action_distance_+%",-35]],
+        "constantStats":[["base_skill_effect_duration",500],["spell_maximum_action_distance_+%",-35],["active_skill_area_of_effect_radius_+%_final",-20]],
         "damageIncrementalEffectiveness":0.017500000074506,
         "incrementalEffectiveness":0.10000000149012,
         "label":"Soulrend",

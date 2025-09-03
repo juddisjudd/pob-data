@@ -1,0 +1,38 @@
+{
+  "curse_zone_explosion_apply_supported_curse_for_base_ms_on_hit":1,
+  "display_skill_area_of_effect_radius_from_curse":2,
+  "parent":"skill_stat_descriptions",
+  "skill_base_chaos_damage_%_of_intelligence":3,
+  "1":{
+    "stats":["curse_zone_explosion_apply_supported_curse_for_base_ms_on_hit"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Explosion applies Supported Curse for {0} second on Hit",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Explosion applies Supported Curse for {0} seconds on Hit",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["display_skill_area_of_effect_radius_from_curse"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Explosion radius is equal to that of the Cursed Ground"
+      }]
+  },
+  "3":{
+    "stats":["skill_base_chaos_damage_%_of_intelligence"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Explosion deals base Chaos Damage equal to {0}% of your Intelligence"
+      }]
+  }
+}

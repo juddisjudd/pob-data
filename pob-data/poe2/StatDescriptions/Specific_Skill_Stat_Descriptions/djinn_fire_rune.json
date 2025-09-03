@@ -1,0 +1,156 @@
+{
+  "active_skill_area_of_effect_radius":1,
+  "active_skill_base_area_of_effect_radius":2,
+  "active_skill_base_secondary_area_of_effect_radius":3,
+  "active_skill_base_tertiary_area_of_effect_radius":4,
+  "base_secondary_skill_effect_duration":5,
+  "base_skill_effect_duration":6,
+  "fire_djinn_flame_rune_tick_rate_ms":7,
+  "fire_djinn_maximum_flame_runes_allowed":8,
+  "fire_djinn_number_of_flame_runes_placed":9,
+  "parent":"skill_stat_descriptions",
+  "skill_effect_duration":10,
+  "1":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"DNT Runes are created within@{0}m",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"DNT Runes are created within {0} metre of Djinn",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[[2,"#"]],
+        "text":"DNT Runes are created within {0} metres of Djinn",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["active_skill_base_secondary_area_of_effect_radius"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"DNT Runes trigger radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[[2,"#"]],
+        "text":"DNT Runes trigger radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["active_skill_base_tertiary_area_of_effect_radius"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"DNT Tornado radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[[2,"#"]],
+        "text":"DNT Tornado radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "5":{
+    "stats":["base_secondary_skill_effect_duration"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"DNT Tornado duration is {0} second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"DNT Tornado duration is {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "6":{
+    "stats":["base_skill_effect_duration"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"DNT Rune duration is {0} second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"DNT Rune duration is {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "7":{
+    "stats":["fire_djinn_flame_rune_tick_rate_ms"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"DNT Tornados deal damage once every second while active",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"DNT Tornados deal damage once every {0} seconds while active",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "8":{
+    "stats":["fire_djinn_maximum_flame_runes_allowed"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"DNT Limit {0} Rune"
+      },{
+        "limit":[[2,"#"]],
+        "text":"DNT Limit {0} Runes"
+      }]
+  },
+  "9":{
+    "stats":["fire_djinn_number_of_flame_runes_placed"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"DNT Create {0} Rune"
+      },{
+        "limit":[[2,"#"]],
+        "text":"DNT Create {0} Runes"
+      }]
+  },
+  "10":{
+    "stats":["skill_effect_duration"],
+    "1":[]
+  }
+}

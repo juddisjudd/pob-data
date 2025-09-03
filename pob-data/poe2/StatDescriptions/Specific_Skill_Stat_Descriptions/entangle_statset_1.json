@@ -1,0 +1,43 @@
+{
+  "active_skill_area_of_effect_radius":1,
+  "active_skill_base_area_of_effect_radius":2,
+  "entangle_base_movement_speed_+%_final_per_applied_stack":3,
+  "entangle_vines_maximum_number_of_vines_allowed":4,
+  "parent":"specific_skill_stat_descriptions/blazing_cluster_statset_0",
+  "1":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "2":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Vines can stretch to a {0} metre length before breaking",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["entangle_base_movement_speed_+%_final_per_applied_stack"],
+    "1":[{
+        "limit":[["#",-1]],
+        "text":"Each attached Vine Slows enemy by {0}%",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["entangle_vines_maximum_number_of_vines_allowed"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"Can attach {0} Vine to each enemy"
+      },{
+        "limit":[["#","#"]],
+        "text":"Can attach up to {0} Vines to each enemy"
+      }]
+  }
+}

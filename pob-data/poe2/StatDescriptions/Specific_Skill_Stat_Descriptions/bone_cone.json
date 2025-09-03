@@ -2,9 +2,11 @@
   "active_skill_area_of_effect_radius":1,
   "active_skill_base_area_of_effect_radius":2,
   "base_skill_effect_duration":3,
+  "minion_movement_speed_+%":4,
   "parent":"skill_stat_descriptions",
   "quality_display_base_skill_effect_duration_is_gem":3,
-  "skill_effect_duration":4,
+  "skill_effect_duration":5,
+  "skill_specific_stat_description_mode":6,
   "1":{
     "stats":["active_skill_area_of_effect_radius"],
     "1":[{
@@ -67,7 +69,31 @@
       }]
   },
   "4":{
+    "stats":["minion_movement_speed_+%"],
+    "1":[{
+        "limit":[],
+        "text":"Minions have {0}% increased Movement Speed"
+      },{
+        "limit":[[1,"#"]],
+        "text":"Minions have {0}% increased Movement Speed"
+      },{
+        "limit":[["#",-1]],
+        "text":"Minions have {0}% reduced Movement Speed",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "5":{
     "stats":["skill_effect_duration"],
     "1":[]
+  },
+  "6":{
+    "stats":["skill_specific_stat_description_mode"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Reviving Minions can only create\n one Bone Construct per death"
+      }]
   }
 }

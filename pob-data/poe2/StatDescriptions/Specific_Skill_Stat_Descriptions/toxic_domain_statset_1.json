@@ -1,0 +1,92 @@
+{
+  "active_skill_area_of_effect_radius":2,
+  "active_skill_base_area_of_effect_radius":3,
+  "base_skill_detonation_time":4,
+  "local_poison_on_hit":5,
+  "parent":"skill_stat_descriptions",
+  "toxic_domain_+1%_final_more_damage_per_x_stored_poison":6,
+  "toxic_domain_max_damage_+%_final_from_stored_poison":6,
+  "toxic_domain_pustule_poison_explode_threshold":7,
+  "1":{
+    "stats":["active_skill_base_area_of_effect_radius"]
+  },
+  "2":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "3":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[],
+        "text":"{0:+d} metre to Pustule Detonation radius",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[],
+        "text":"{0:+d} metres to Pustule Detonation radius",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[[10,10]],
+        "text":"Pustule Detonation radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Pustule Detonation radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["base_skill_detonation_time"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Pustule Detonates after {0} second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Pustule Detonates after {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "5":{
+    "stats":["local_poison_on_hit"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Hits always Poison",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "6":{
+    "stats":["toxic_domain_+1%_final_more_damage_per_x_stored_poison","toxic_domain_max_damage_+%_final_from_stored_poison"],
+    "1":[{
+        "limit":[[1,"#"],[1,"#"]],
+        "text":"Stored Poison grants up to {1}% more explosion Damage"
+      }]
+  },
+  "7":{
+    "stats":["toxic_domain_pustule_poison_explode_threshold"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Pustules store expected damage of Poisons inflicted on them and will Detonate early after storing {0} Poison damage"
+      }]
+  }
+}

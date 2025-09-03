@@ -13,6 +13,7 @@
   "tornado_shot_projectile_damage_+%_final":9,
   "tornado_shot_projectile_range":10,
   "total_number_of_projectiles_to_fire":11,
+  "virtual_tornado_shot_number_of_hits_allowed":12,
   "1":{
     "stats":["active_skill_base_area_of_effect_radius"]
   },
@@ -102,6 +103,10 @@
   },
   "11":{
     "stats":["total_number_of_projectiles_to_fire"],
+    "1":[]
+  },
+  "12":{
+    "stats":["virtual_tornado_shot_number_of_hits_allowed"],
     "1":[]
   }
 }

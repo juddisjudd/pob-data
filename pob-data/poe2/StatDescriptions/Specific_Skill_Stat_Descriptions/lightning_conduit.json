@@ -33,10 +33,10 @@
     "stats":["lightning_conduit_x_additional_strikes_if_consumed_a_shock"],
     "1":[{
         "limit":[[1,1]],
-        "text":"{0} additional bolt hits targets if at least one Shock Consumed"
+        "text":"{0} additional bolt if a Shocked enemy is in the target area"
       },{
         "limit":[[2,"#"]],
-        "text":"{0} additional bolts hit targets if at least one Shock Consumed"
+        "text":"{0} additional bolts if a Shocked enemy is in the target area"
       }]
   }
 }

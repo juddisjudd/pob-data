@@ -3,15 +3,17 @@
   "base_secondary_skill_effect_duration":2,
   "base_skill_effect_duration":3,
   "flame_wall_maximum_added_fire_damage":4,
+  "flame_wall_maximum_added_lightning_damage_to_add_to_projectile":5,
   "flame_wall_minimum_added_fire_damage":4,
-  "flame_wall_projectiles_gain_all_damage_%_as_fire":5,
+  "flame_wall_minimum_added_lightning_damage_to_add_to_projectile":5,
+  "flame_wall_projectiles_gain_all_damage_%_as_fire":6,
   "parent":"skill_stat_descriptions",
-  "secondary_base_fire_damage_to_deal_per_minute":6,
-  "secondary_intermediary_fire_skill_dot_damage_to_deal_per_minute":7,
-  "secondary_skill_effect_duration":8,
-  "skill_effect_duration":9,
-  "spell_maximum_base_fire_damage":10,
-  "spell_minimum_base_fire_damage":10,
+  "secondary_base_fire_damage_to_deal_per_minute":7,
+  "secondary_intermediary_fire_skill_dot_damage_to_deal_per_minute":8,
+  "secondary_skill_effect_duration":9,
+  "skill_effect_duration":10,
+  "spell_maximum_base_fire_damage":11,
+  "spell_minimum_base_fire_damage":11,
   "1":{
     "stats":["base_fire_damage_to_deal_per_minute"],
     "1":[{
@@ -67,13 +69,20 @@
       }]
   },
   "5":{
+    "stats":["flame_wall_minimum_added_lightning_damage_to_add_to_projectile","flame_wall_maximum_added_lightning_damage_to_add_to_projectile"],
+    "1":[{
+        "limit":[["#","#"],["#","#"]],
+        "text":"Projectiles which pass through the Infused wall deal {0} to {1} Added Lightning Damage"
+      }]
+  },
+  "6":{
     "stats":["flame_wall_projectiles_gain_all_damage_%_as_fire"],
     "1":[{
         "limit":[["#","#"]],
         "text":"Projectiles which pass through the wall gain extra {0}% damage as Fire"
       }]
   },
-  "6":{
+  "7":{
     "stats":["secondary_base_fire_damage_to_deal_per_minute"],
     "1":[{
         "limit":[[1,"#"]],
@@ -84,7 +93,7 @@
         }
       }]
   },
-  "7":{
+  "8":{
     "stats":["secondary_intermediary_fire_skill_dot_damage_to_deal_per_minute"],
     "1":[{
         "limit":[[1,"#"]],
@@ -95,15 +104,15 @@
         }
       }]
   },
-  "8":{
+  "9":{
     "stats":["secondary_skill_effect_duration"],
     "1":[]
   },
-  "9":{
+  "10":{
     "stats":["skill_effect_duration"],
     "1":[]
   },
-  "10":{
+  "11":{
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "1":[{
         "limit":[["#","#"],["#","#"]],

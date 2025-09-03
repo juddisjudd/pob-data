@@ -1,8 +1,10 @@
 {
   "base_secondary_skill_effect_duration":1,
   "base_skill_effect_duration":2,
+  "bone_offering_damage_taken_+%_final":3,
+  "bone_offering_hit_threshold_%_of_maximum_life":4,
   "parent":"skill_stat_descriptions",
-  "skill_effect_duration":3,
+  "skill_effect_duration":5,
   "1":{
     "stats":["base_secondary_skill_effect_duration"]
   },
@@ -25,6 +27,27 @@
       }]
   },
   "3":{
+    "stats":["bone_offering_damage_taken_+%_final"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Minions take {0}% increased damage from Hits while shielded"
+      },{
+        "limit":[["#",-1]],
+        "text":"Minions take {0}% reduced damage from Hits while shielded",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["bone_offering_hit_threshold_%_of_maximum_life"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Absorbs first Hit dealing over {0}% of Minion's maximum life"
+      }]
+  },
+  "5":{
     "stats":["skill_effect_duration"],
     "1":[]
   }

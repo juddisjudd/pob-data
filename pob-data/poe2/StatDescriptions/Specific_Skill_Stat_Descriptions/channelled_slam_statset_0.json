@@ -6,6 +6,7 @@
   "channelled_slam_max_stages":5,
   "parent":"skill_stat_descriptions",
   "quality_display_supercharged_slam_is_gem":5,
+  "virtual_channelled_slam_max_stages":6,
   "1":{
     "stats":["base_skill_effect_duration"]
   },
@@ -57,5 +58,9 @@
         "limit":[["#","#"],["#","#"]],
         "text":"Maximum {0} Stages\nChannelling ends 1 second after reaching maximum Stages\nReleases 1 Aftershock per Stage"
       }]
+  },
+  "6":{
+    "stats":["virtual_channelled_slam_max_stages"],
+    "1":[]
   }
 }

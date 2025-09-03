@@ -1,0 +1,44 @@
+{
+  "attack_maximum_action_distance_+":2,
+  "base_skill_effect_duration":6,
+  "cannot_daze":4,
+  "exploit_debuff_attack_damage_to_convert_to_magnitude_%":5,
+  "parent":"skill_stat_descriptions",
+  "skill_effect_duration":7,
+  "total_attack_time_+_ms":1,
+  "vaulting_impact_short_animation_maximum_range":3,
+  "1":{
+    "stats":["total_attack_time_+_ms"]
+  },
+  "2":{
+    "stats":["attack_maximum_action_distance_+"]
+  },
+  "3":{
+    "stats":["vaulting_impact_short_animation_maximum_range"]
+  },
+  "4":{
+    "stats":["cannot_daze"]
+  },
+  "5":{
+    "stats":["exploit_debuff_attack_damage_to_convert_to_magnitude_%"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Applies Broken Stance on Hit against Dazed enemies"
+      }]
+  },
+  "6":{
+    "stats":["base_skill_effect_duration"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Broken Stance has {0} second duration, or until Daze is removed",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "7":{
+    "stats":["skill_effect_duration"],
+    "1":[]
+  }
+}

@@ -6,6 +6,7 @@
   "freezing_salvo_seals_gain_interval_ms":5,
   "parent":"skill_stat_descriptions",
   "quality_display_freezing_salvo_is_gem":4,
+  "virtual_freezing_salvo_maximum_number_of_seals":6,
   "1":{
     "stats":["active_skill_area_of_effect_radius"],
     "1":[]
@@ -55,6 +56,10 @@
   },
   "5":{
     "stats":["freezing_salvo_seals_gain_interval_ms"],
+    "1":[]
+  },
+  "6":{
+    "stats":["virtual_freezing_salvo_maximum_number_of_seals"],
     "1":[]
   }
 }

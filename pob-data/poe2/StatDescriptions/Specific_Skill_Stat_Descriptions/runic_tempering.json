@@ -1,0 +1,49 @@
+{
+  "parent":"skill_stat_descriptions",
+  "runic_tempering_backlash_cooldown_ms":1,
+  "runic_tempering_damage_taken_+%":2,
+  "runic_tempering_hit_per_rune":3,
+  "runic_tempering_max_runes":4,
+  "1":{
+    "stats":["runic_tempering_backlash_cooldown_ms"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"DNT Minimum of {0} second between each backlash",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["runic_tempering_damage_taken_+%"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"DNT {0}% increase Damage taken while you have runes"
+      },{
+        "limit":[["#",-1]],
+        "text":"DNT {0}% decrease Damage taken while you have runes",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["runic_tempering_hit_per_rune"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"DNT Each rune can backlash {0} time"
+      },{
+        "limit":[[2,"#"]],
+        "text":"DNT Each rune can backlash {0} times"
+      }]
+  },
+  "4":{
+    "stats":["runic_tempering_max_runes"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"DNT Maximum {0} Runes"
+      }]
+  }
+}

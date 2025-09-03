@@ -1,0 +1,11 @@
+{
+  "dodge_roll_base_travel_distance":2,
+  "parent":"skill_stat_descriptions",
+  "spell_cast_time_cannot_be_modified":1,
+  "1":{
+    "stats":["spell_cast_time_cannot_be_modified"]
+  },
+  "2":{
+    "stats":["dodge_roll_base_travel_distance"]
+  }
+}

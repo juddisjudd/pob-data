@@ -48,7 +48,9 @@
       "115":true
     },
     "statSets":[{
-        "baseFlags":[],
+        "baseFlags":{
+          "area":true
+        },
         "constantStats":[["active_skill_base_area_of_effect_radius",18],["plague_burst_area_+%_final_maximum",100],["plague_burst_%_stored_value_to_deal_as_physical_damage",100],["additional_base_critical_strike_chance",500]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Plague Burst",
@@ -64,17 +66,18 @@
     "color":2,
     "description":"Supports Attacks, causing them to Gain Lightning Damage but deal less Cold and Fire Damage.",
     "excludeSkillTypes":[],
+    "gemFamily":["LightningAttunement"],
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Lightning Infusion",
+    "name":"Lightning Attunement",
     "requireSkillTypes":[1,117],
     "statSets":[{
         "baseEffectiveness":0.52710002660751,
         "baseFlags":[],
         "constantStats":[["non_skill_base_all_damage_%_to_gain_as_lightning_with_attacks",25],["support_cold_and_fire_damage_+%_final",-50]],
         "incrementalEffectiveness":0.092720001935959,
-        "label":"Lightning Infusion",
+        "label":"Lightning Attunement",
         "levels":[{
             "actorLevel":1
           }],
@@ -96,54 +99,22 @@
       }],
     "support":true
   },
-  "SupportAdditionalAccuracyPlayer":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports Attacks, causing them to gain Accuracy.",
-    "excludeSkillTypes":[],
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":10
-      }],
-    "name":"Bullseye",
-    "requireSkillTypes":[1,117],
-    "statSets":[{
-        "baseEffectiveness":0,
-        "baseFlags":[],
-        "constantStats":[["support_additional_accurary_rating_+%_final",50]],
-        "incrementalEffectiveness":0.092720001935959,
-        "label":"Bullseye",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "support_additional_accurary_rating_+%_final":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"Accuracy",
-              "type":"MORE"
-            }]
-        },
-        "stats":[]
-      }],
-    "support":true
-  },
-  "SupportAdherePlayer":{
+  "SupportAdhesiveGrenadesPlayer":{
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Grenade Skills. Grenades from Supported Skills do not bounce, instead halting movement where they intially land, but doing lower damage when they detonate.",
     "excludeSkillTypes":[],
+    "gemFamily":["AdhesiveGrenades"],
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Adhere",
+    "name":"Adhesive Grenades I",
     "requireSkillTypes":[158],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_sticky_grenade_damage_+%_final",-20]],
+        "constantStats":[["support_sticky_grenade_damage_+%_final",-10]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Adhere",
+        "label":"Adhesive Grenades I",
         "levels":[{
             "actorLevel":1
           }],
@@ -160,22 +131,211 @@
       }],
     "support":true
   },
+  "SupportAdhesiveGrenadesPlayerThree":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Grenade Skills. Grenades from Supported Skills do not bounce, instead halting movement where they intially land. Grenades from Supported Skills have longer cooldowns, and a chance to detonate an additional time.",
+    "excludeSkillTypes":[],
+    "gemFamily":["AdhesiveGrenades"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Adhesive Grenades III",
+    "requireSkillTypes":[158],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["grenade_skill_%_chance_to_explode_twice",35],["grenade_skill_cooldown_speed_+%",-50]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Adhesive Grenades III",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_sticky_grenade_damage_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE"
+            }]
+        },
+        "stats":["grenade_skill_does_not_bounce_off_ground"]
+      }],
+    "support":true
+  },
+  "SupportAdhesiveGrenadesPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Grenade Skills. Grenades from Supported Skills do not bounce, instead halting movement where they intially land.",
+    "excludeSkillTypes":[],
+    "gemFamily":["AdhesiveGrenades"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Adhesive Grenades II",
+    "requireSkillTypes":[158],
+    "statSets":[{
+        "baseFlags":[],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Adhesive Grenades II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_sticky_grenade_damage_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE"
+            }]
+        },
+        "stats":["grenade_skill_does_not_bounce_off_ground"]
+      }],
+    "support":true
+  },
+  "SupportAdmixturePlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Skills which can cause Damaging Hits. Bleeding inflicted by those Hits is more effective against Poisoned Enemies, and Poison inflicted by Supported Skills is more effective against Bleeding Enemies.",
+    "excludeSkillTypes":[49],
+    "gemFamily":["Admixture"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Admixture",
+    "requireSkillTypes":[1,7,116],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["mixed_maladies_poison_effect_+%_final_vs_bleeding",20],["mixed_maladies_bleed_effect_+%_final_vs_poisoned",20]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Admixture",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "mixed_maladies_bleed_effect_+%_final_vs_poisoned":[{
+              "flags":0,
+              "keywordFlags":4194304,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "actor":"enemy",
+                "type":"ActorCondition",
+                "var":"Poisoned"
+              }
+            }],
+          "mixed_maladies_poison_effect_+%_final_vs_bleeding":[{
+              "flags":0,
+              "keywordFlags":2097152,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "actor":"enemy",
+                "type":"ActorCondition",
+                "var":"Bleeding"
+              }
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportAilithLineagePlayer":{
+    "addSkillTypes":[146],
+    "color":2,
+    "description":"Supports Skills which can expend Combo. On expending Combo with Supported Skills, you have a chance to gain Power Charges based on the amount of Combo expended.",
+    "excludeSkillTypes":[],
+    "gemFamily":["AilithLineage"],
+    "ignoreMinionTypes":true,
+    "isLineage":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Ailith's Chimes",
+    "requireSkillTypes":[152],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["chance_%_to_gain_power_charges_per_combo_spent",10]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Ailith's Chimes",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
   "SupportAlignmentPlayer":{
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Bow Attacks. Supported Skills indicate one of four directions, changing indicated direction when an Attack with Supported Skill matches that direction. Attacks from Supported Skills which match the indicated direction deal much more Damage. Cannot Support Channelled Skills.",
     "excludeSkillTypes":[48],
+    "gemFamily":["Alignment"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":20
       }],
-    "name":"Alignment",
+    "name":"Alignment I",
     "requireSkillTypes":[1,185,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_called_shots_projectile_damage_+%_final_when_matching_direction",30],["called_shot_aiming_delay_ms",1000],["called_shot_angle_allowance_degs",40]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Alignment",
+        "label":"Alignment I",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":["support_called_shots_enable_directional_buff"]
+      }],
+    "support":true
+  },
+  "SupportAlignmentPlayerThree":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Bow Attacks. Supported Skills indicate one of four directions, changing indicated direction when an Attack with Supported Skill matches that direction. Attacks from Supported Skills which match the indicated direction fire additional Projectiles. Cannot Support Channelled Skills.",
+    "excludeSkillTypes":[48],
+    "gemFamily":["Alignment","AdditionalProjectiles"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Alignment III",
+    "requireSkillTypes":[1,185,74],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["called_shot_aiming_delay_ms",1000],["called_shot_angle_allowance_degs",40],["support_called_shots_additional_projectiles_when_matching_indicated_direction",4]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Alignment III",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":["support_called_shots_enable_directional_buff"]
+      }],
+    "support":true
+  },
+  "SupportAlignmentPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Bow Attacks. Supported Skills indicate one of four directions, changing indicated direction when an Attack with Supported Skill matches that direction. Attacks from Supported Skills which match the indicated direction deal much more Damage. Cannot Support Channelled Skills.",
+    "excludeSkillTypes":[48],
+    "gemFamily":["Alignment"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Alignment II",
+    "requireSkillTypes":[1,185,74],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_called_shots_projectile_damage_+%_final_when_matching_direction",40],["called_shot_aiming_delay_ms",1000],["called_shot_angle_allowance_degs",40]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Alignment II",
         "levels":[{
             "actorLevel":1
           }],
@@ -189,16 +349,17 @@
     "color":2,
     "description":"Supports Crossbow Ammunition Skills, granting a chance to not consume a Bolt when firing.",
     "excludeSkillTypes":[],
+    "gemFamily":["AmmoConservation"],
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Ammo Conservation",
+    "name":"Ammo Conservation I",
     "requireSkillTypes":[117,116],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["crossbow_attack_%_chance_to_not_consume_ammo",25]],
+        "constantStats":[["crossbow_attack_%_chance_to_not_consume_ammo",20]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Ammo Conservation",
+        "label":"Ammo Conservation I",
         "levels":[{
             "actorLevel":1
           }],
@@ -215,22 +376,168 @@
       }],
     "support":true
   },
+  "SupportAmmoConservationPlayerFour":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Crossbow Skills, granting a chance to load a bolt into all Crossbow Ammunition on kill with Supported Skill.",
+    "excludeSkillTypes":[],
+    "gemFamily":["AmmoConservation"],
+    "isLineage":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Arjun's Medal",
+    "requireSkillTypes":[117,116],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["chance_to_load_a_bolt_on_killing_an_enemy_%",35]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Arjun's Medal",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportAmmoConservationPlayerThree":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Crossbow Ammunition Skills, granting a chance to not consume a Bolt when firing, at the cost of Reload speed.",
+    "excludeSkillTypes":[],
+    "gemFamily":["AmmoConservation"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Ammo Conservation III",
+    "requireSkillTypes":[117,116],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["crossbow_attack_%_chance_to_not_consume_ammo",30],["support_ammo_conservation_crossbow_reload_speed_+%_final",-20]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Ammo Conservation III",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "crossbow_attack_%_chance_to_not_consume_ammo":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ChanceToNotConsumeAmmo",
+              "type":"BASE"
+            }],
+          "support_ammo_conservation_crossbow_reload_speed_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ReloadSpeed",
+              "type":"MORE"
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportAmmoConservationPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Crossbow Ammunition Skills, granting a chance to not consume a Bolt when firing.",
+    "excludeSkillTypes":[],
+    "gemFamily":["AmmoConservation"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Ammo Conservation II",
+    "requireSkillTypes":[117,116],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["crossbow_attack_%_chance_to_not_consume_ammo",25]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Ammo Conservation II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "crossbow_attack_%_chance_to_not_consume_ammo":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ChanceToNotConsumeAmmo",
+              "type":"BASE"
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportArakaalisLustPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports any Skill that Hits Enemies, causing it to deal increasingly higher damage the more Poisons are on the target.",
+    "excludeSkillTypes":[],
+    "gemFamily":["ArakaaliLineage"],
+    "isLineage":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Arakaali's Lust",
+    "requireSkillTypes":[7,1,116,117],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_debilitate_hit_damage_+%_final_per_poison_stack",6],["support_debilitate_hit_damage_max_poison_stacks",30]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Arakaali's Lust",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
   "SupportBlindPlayer":{
     "addSkillTypes":[],
     "color":2,
     "description":"Supports any skill that Hits enemies, causing them to Blind on Hit.",
     "excludeSkillTypes":[],
+    "gemFamily":["Blind"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":10
       }],
-    "name":"Blind",
+    "name":"Blind I",
     "requireSkillTypes":[7,1,117],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["global_chance_to_blind_on_hit_%",100]],
         "incrementalEffectiveness":0.092720001935959,
-        "label":"Blind",
+        "label":"Blind I",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportBlindPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports any skill that Hits enemies, causing them to Blind on Hit with increased effect.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Blind"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":10
+      }],
+    "name":"Blind II",
+    "requireSkillTypes":[7,1,117],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["global_chance_to_blind_on_hit_%",100],["blind_effect_+%",20]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Blind II",
         "levels":[{
             "actorLevel":1
           }],
@@ -244,6 +551,7 @@
     "color":2,
     "description":"Supports Skills which can cause Damaging Hits. Supported Skills are more likely to Critically Hit Blinded Enemies, and deal more Damage with Critical Hits against Blinded Enemies, but cannot themselves inflict Blind.",
     "excludeSkillTypes":[49],
+    "gemFamily":["Blindside"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":20
@@ -287,21 +595,71 @@
       }],
     "support":true
   },
-  "SupportBloodInTheEyesPlayer":{
+  "SupportBountyPlayer":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports Skills that Hit Enemies, causing those Hits to Hobble Bleeding Enemies based on a portion of Physical Damage dealt.",
+    "description":"Supports any Skill that Hits Enemies, causing Enemies it kills to grant more Flask and Charm charges.",
     "excludeSkillTypes":[],
+    "gemFamily":["Bounty"],
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Blood in the Eyes",
-    "requireSkillTypes":[7,1,117],
+    "name":"Bounty I",
+    "requireSkillTypes":[1,7,117],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["physical_damage_%_dealt_as_evasion_break_vs_bleeding",15]],
+        "constantStats":[["support_mana_flask_charges_gained_+%_final_from_killing_blow",50],["support_life_flask_charges_gained_+%_final_from_killing_blow",50],["support_charm_charges_gained_+%_final_from_killing_blow",50]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Blood in the Eyes",
+        "label":"Bounty I",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportBountyPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports any Skill that Hits Enemies, causing Enemies it kills to grant more Flask and Charm charges.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Bounty"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Bounty II",
+    "requireSkillTypes":[1,7,117],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_mana_flask_charges_gained_+%_final_from_killing_blow",100],["support_life_flask_charges_gained_+%_final_from_killing_blow",100],["support_charm_charges_gained_+%_final_from_killing_blow",100]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Bounty II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportBrambleslamPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Slam Skills. Supported Skills create Hazardous Brambles on the ground that activate after a duration. Enemies which come in contact with these thorns take damage and are Maimed. A maximum of 20 Brambles are allowed at one time. Does not modify Skills used by Minions or Totems.",
+    "excludeSkillTypes":[95],
+    "gemFamily":["Brambleslam"],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Brambleslam",
+    "requireSkillTypes":[92],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["create_X_briar_thorns_on_slam",3]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Brambleslam",
         "levels":[{
             "actorLevel":1
           }],
@@ -315,6 +673,7 @@
     "color":2,
     "description":"Supports skills that can Poison enemies, causing Poisoned enemies to gain Plague over time and explode in a Plague Burst on death. Cannot support the skills of Minions.",
     "excludeSkillTypes":[],
+    "gemFamily":["BurstingPlague"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0,
@@ -339,7 +698,8 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Attacks you use yourself. Supported Skills gain more Attack speed each time you use them, but will become unusable if used too frequently in a short time frame.",
-    "excludeSkillTypes":[95,25,218],
+    "excludeSkillTypes":[139,95,25,218,37],
+    "gemFamily":["Cadence"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
@@ -364,6 +724,7 @@
     "color":2,
     "description":"Supports Ranged Spear Attacks. Supported Skills create Caltrops when Projectiles they create reach the end of their flight.",
     "excludeSkillTypes":[115],
+    "gemFamily":["Caltrops"],
     "levels":[{
         "attackTime":1,
         "levelRequirement":0,
@@ -388,17 +749,18 @@
     "color":2,
     "description":"Supports Projectile skills and any other skills that Chain, causing them to Chain additional times.",
     "excludeSkillTypes":[163,176],
+    "gemFamily":["Chain"],
     "levels":[{
         "PvPDamageMultiplier":-30,
         "levelRequirement":0
       }],
-    "name":"Chain",
+    "name":"Chain I",
     "requireSkillTypes":[19,3],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["number_of_chains",1],["chains_hit_X_more_times",1],["support_chain_hit_damage_+%_final",-50]],
         "incrementalEffectiveness":0.092720001935959,
-        "label":"Chain",
+        "label":"Chain I",
         "levels":[{
             "actorLevel":1
           }],
@@ -415,22 +777,144 @@
       }],
     "support":true
   },
-  "SupportChanceToPoisonPlayer":{
+  "SupportChainPlayerThree":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports any skill that Hits enemies, giving it a chance to Poison enemies.",
+    "description":"Supports Projectile skills and any other skills that Chain, causing them to Chain additional times.",
+    "excludeSkillTypes":[163,176],
+    "gemFamily":["Chain"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Chain III",
+    "requireSkillTypes":[19,3],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["chains_hit_X_more_times",2],["support_chain_hit_damage_+%_final",-40]],
+        "incrementalEffectiveness":0.092720001935959,
+        "label":"Chain III",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_chain_hit_damage_+%_final":[{
+              "flags":4,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE"
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportChainPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Projectile skills and any other skills that Chain, causing them to Chain additional times.",
+    "excludeSkillTypes":[163,176],
+    "gemFamily":["Chain"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Chain II",
+    "requireSkillTypes":[19,3],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["number_of_chains",1],["chains_hit_X_more_times",1],["support_chain_hit_damage_+%_final",-40]],
+        "incrementalEffectiveness":0.092720001935959,
+        "label":"Chain II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_chain_hit_damage_+%_final":[{
+              "flags":4,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE"
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportChargeInhibitionPlayer":{
+    "addSkillTypes":[223],
+    "color":2,
+    "description":"Supports any Skill you use yourself or that you Trigger. Supported Skills cannot consume Charges  or Infusion by any means. Cannot Support Skills which require Charges or Infusion to be used.",
+    "excludeSkillTypes":[139,95,33,36,222,37],
+    "gemFamily":["Inhibitor"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Inhibitor",
+    "requireSkillTypes":[7,1,116,117,2,49],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_inhibitor_damage_+%_final_per_charge_type",4],["support_inhibitor_damage_+%_final_per_infusion_type",4]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Inhibitor",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_inhibitor_damage_+%_final_per_charge_type":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "threshold":1,
+                "type":"MultiplierThreshold",
+                "var":"FrenzyCharge"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "threshold":1,
+                "type":"MultiplierThreshold",
+                "var":"PowerCharge"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "threshold":1,
+                "type":"MultiplierThreshold",
+                "var":"EnduranceCharge"
+              }
+            }]
+        },
+        "stats":["cannot_consume_power_frenzy_endurance_charges","cannot_consume_infusions"]
+      }],
+    "support":true
+  },
+  "SupportChargeProfusionPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports skills that can generate Charges, giving them a chance to generate an additional Charge when they do so.",
     "excludeSkillTypes":[],
+    "gemFamily":["ChargeProfusion"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":20
       }],
-    "name":"Envenom",
-    "requireSkillTypes":[7,1,117],
+    "name":"Charge Profusion I",
+    "requireSkillTypes":[146],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["base_chance_to_poison_on_hit_%",50]],
-        "incrementalEffectiveness":0.092720001935959,
-        "label":"Envenom",
+        "constantStats":[["chance_to_gain_1_more_charge_%",30]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Charge Profusion I",
         "levels":[{
             "actorLevel":1
           }],
@@ -439,34 +923,27 @@
       }],
     "support":true
   },
-  "SupportChanceToShockPlayer":{
+  "SupportChargeProfusionPlayerTwo":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports any skill that Hits enemies, making it more likely to Shock.",
+    "description":"Supports skills that can generate Charges, giving them a chance to generate an additional Charge when they do so, as well as a chance to generate an additional Charge of a random type.",
     "excludeSkillTypes":[],
+    "gemFamily":["ChargeProfusion"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":20
       }],
-    "name":"Conduction",
-    "requireSkillTypes":[7,1,117],
+    "name":"Charge Profusion II",
+    "requireSkillTypes":[146],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_conduction_chance_to_shock_+%_final",100]],
-        "incrementalEffectiveness":0.092720001935959,
-        "label":"Conduction",
+        "constantStats":[["chance_to_gain_1_more_charge_%",30],["chance_to_gain_1_more_random_charge_%",15]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Charge Profusion II",
         "levels":[{
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "support_conduction_chance_to_shock_+%_final":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"EnemyShockChance",
-              "type":"MORE"
-            }]
-        },
         "stats":[]
       }],
     "support":true
@@ -476,22 +953,71 @@
     "color":2,
     "description":"Supports Bow Attacks. Every third shot with Supported Skills restores a portion of it's Mana cost and Gains Damage as extra Lightning Damage.",
     "excludeSkillTypes":[],
+    "gemFamily":["ChargedShots"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":10
       }],
-    "name":"Charged Shots",
+    "name":"Charged Shots I",
     "requireSkillTypes":[1,185,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_charged_shots_applies_every_X_shots",3],["support_charged_shots_recover_%_mana_cost_on_use",100],["support_charged_shots_%_damage_to_gain_as_lightning",30]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Charged Shots",
+        "label":"Charged Shots I",
         "levels":[{
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_charged_shots_%_damage_to_gain_as_lightning":{
+            "div":3,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"DamageGainAsLightning",
+              "type":"BASE"
+            }
+          }
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportChargedShotsPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Bow Attacks. Every third shot with Supported Skills Gains Damage as extra Lightning Damage.",
+    "excludeSkillTypes":[],
+    "gemFamily":["ChargedShots"],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Charged Shots II",
+    "requireSkillTypes":[1,185,74],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_charged_shots_applies_every_X_shots",3],["support_charged_shots_%_damage_to_gain_as_lightning",60]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Charged Shots II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_charged_shots_%_damage_to_gain_as_lightning":{
+            "div":3,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"DamageGainAsLightning",
+              "type":"BASE"
+            }
+          }
+        },
         "stats":[]
       }],
     "support":true
@@ -501,6 +1027,7 @@
     "color":2,
     "description":"Supports any Skill that Hits Enemies, causing Enemies it kills to grant more Charm charges.",
     "excludeSkillTypes":[],
+    "gemFamily":["Bounty"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -524,18 +1051,19 @@
     "color":2,
     "description":"Supports Attacks, causing them to deal more damage to enemies based on how close they are to you.",
     "excludeSkillTypes":[],
+    "gemFamily":["CloseCombat"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":20
       }],
-    "name":"Close Combat",
+    "name":"Close Combat I",
     "requireSkillTypes":[1,117],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_close_combat_attack_damage_+%_final_from_distance",25]],
+        "constantStats":[["support_close_combat_attack_damage_+%_final_from_distance",20]],
         "incrementalEffectiveness":0.092720001935959,
-        "label":"Close Combat",
+        "label":"Close Combat I",
         "levels":[{
             "actorLevel":1
           }],
@@ -556,22 +1084,112 @@
       }],
     "support":true
   },
+  "SupportCloseCombatPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Attacks, causing them to deal more damage to enemies based on how close they are to you.",
+    "excludeSkillTypes":[],
+    "gemFamily":["CloseCombat"],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Close Combat II",
+    "requireSkillTypes":[1,117],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_close_combat_attack_damage_+%_final_from_distance",30]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Close Combat II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_close_combat_attack_damage_+%_final_from_distance":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "ramp":[[10,1],[35,0]],
+                "type":"DistanceRamp"
+              }
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportCombatReloadPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Crossbow Ammunition Skills, causing them to load multiple extra bolts. Supported Skills cannot reload normally, instead loading bolts when you Dodge.",
+    "excludeSkillTypes":[],
+    "gemFamily":["DoubleBarrel"],
+    "isLineage":true,
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":10
+      }],
+    "name":"Ratha's Assault",
+    "requireSkillTypes":[117,116],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["crossbow_load_x_bolts_on_dodge",3],["support_double_barrel_number_of_crossbow_bolts_+",3]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Ratha's Assault",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":["active_skill_cannot_manually_reload"]
+      }],
+    "support":true
+  },
   "SupportComboFinisherPlayer":{
     "addSkillTypes":[152,153,194],
     "color":2,
-    "description":"Supports Melee Attacks you use yourself. Supported Skills cannot be used until enough Combo has been built up, but deal massively more damage. Cannot support skills which already Combo, or Triggered Skills.",
-    "excludeSkillTypes":[90,52,37,50,25,95,33,36,2,63,194,153,75,74],
+    "description":"Supports Melee Attacks you use yourself. Supported Skills cannot be used until enough Combo has been built up, but deal more damage. Cannot support skills which already Combo, or Triggered Skills.",
+    "excludeSkillTypes":[139,90,52,37,50,25,95,33,36,2,63,194,153,75,74],
+    "gemFamily":["ComboFinisher"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Combo Finisher",
+    "name":"Combo Finisher I",
+    "requireSkillTypes":[20],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_combo_finisher_required_number_of_combo_stacks",3],["support_combo_finisher_damage_+%_final",25],["base_combo_stacks_decay_delay_ms",4000]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Combo Finisher I",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportComboFinisherPlayerTwo":{
+    "addSkillTypes":[152,153,194],
+    "color":2,
+    "description":"Supports Melee Attacks you use yourself. Supported Skills cannot be used until enough Combo has been built up, but deal massively more damage. Cannot support skills which already Combo, or Triggered Skills.",
+    "excludeSkillTypes":[139,90,52,37,50,25,95,33,36,2,63,194,153,75,74],
+    "gemFamily":["ComboFinisher"],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Combo Finisher II",
     "requireSkillTypes":[20],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_combo_finisher_required_number_of_combo_stacks",5],["support_combo_finisher_damage_+%_final",40],["base_combo_stacks_decay_delay_ms",4000]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Combo Finisher",
+        "label":"Combo Finisher II",
         "levels":[{
             "actorLevel":1
           }],
@@ -583,8 +1201,9 @@
   "SupportCommiseratePlayer":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports Skills you use yourself which can cause Damaging Hits. Supported Skills inflict more powerful Ailments if you are afflicted with those Ailments when you inflict them, while also removing from you any Ailment that they inflict.",
-    "excludeSkillTypes":[6,95,25,49],
+    "description":"Supports Skills you use yourself or Trigger, which can cause Damaging Hits. Supported Skills inflict more powerful Ailments if you are afflicted with those Ailments when you inflict them, while also removing from you any Ailment that they inflict.",
+    "excludeSkillTypes":[139,6,95,25,49],
+    "gemFamily":["Commiserate"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -592,7 +1211,7 @@
     "requireSkillTypes":[1,7,116,117],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["ailment_effect_+%_while_afflicted_by_relevant_ailment",30]],
+        "constantStats":[["support_ailment_effect_+%_final_while_afflicted_by_relevant_ailment",40]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Commiserate",
         "levels":[{
@@ -603,22 +1222,58 @@
       }],
     "support":true
   },
-  "SupportCooldownReductionPlayer":{
+  "SupportCooldownRecoveryPlayer":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports skills with Cooldowns, increasing the rate at which those Cooldowns Recover.",
+    "description":"Supports skills with Cooldowns, increasing the rate at which those Cooldowns Recover. Cannot modify the skills of minions.",
     "excludeSkillTypes":[],
+    "gemFamily":["CooldownRecovery"],
+    "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0,
-        "manaMultiplier":10
+        "manaMultiplier":30
       }],
-    "name":"Ingenuity",
+    "name":"Cooldown Recovery I",
+    "requireSkillTypes":[90],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_cooldown_reduction_cooldown_recovery_+%",25]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Cooldown Recovery I",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_cooldown_reduction_cooldown_recovery_+%":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"CooldownRecovery",
+              "type":"INC"
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportCooldownRecoveryPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports skills with Cooldowns, increasing the rate at which those Cooldowns Recover. Cannot modify the skills of minions.",
+    "excludeSkillTypes":[],
+    "gemFamily":["CooldownRecovery"],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":30
+      }],
+    "name":"Cooldown Recovery II",
     "requireSkillTypes":[90],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_cooldown_reduction_cooldown_recovery_+%",30]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Ingenuity",
+        "label":"Cooldown Recovery II",
         "levels":[{
             "actorLevel":1
           }],
@@ -640,6 +1295,7 @@
     "color":2,
     "description":"Supports any skill that Hits enemies, causing Poison it applies to also Break enemy Armour. Cannot support skills that Consume Fully Broken Armour.",
     "excludeSkillTypes":[134],
+    "gemFamily":["Corrosion"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":10
@@ -664,16 +1320,66 @@
     "color":2,
     "description":"Supports Strikes that perform a Final Strike at the end of a combination of attacks, allowing you to use the Final Strike twice in succession.",
     "excludeSkillTypes":[],
+    "gemFamily":["Crescendo"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":20
       }],
-    "name":"Crescendo",
+    "name":"Crescendo I",
     "requireSkillTypes":[148],
     "statSets":[{
         "baseFlags":[],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Crescendo",
+        "label":"Crescendo I",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":["repeat_last_step_of_combo_attack"]
+      }],
+    "support":true
+  },
+  "SupportCrescendoPlayerThree":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Strikes that perform a Final Strike at the end of a combination of attacks, causing the Final Strike to be Ancestrally Boosted.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Crescendo"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Crescendo III",
+    "requireSkillTypes":[148],
+    "statSets":[{
+        "baseFlags":[],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Crescendo III",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":["final_strike_is_ancestrally_boosted"]
+      }],
+    "support":true
+  },
+  "SupportCrescendoPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Strikes that perform a Final Strike at the end of a combination of attacks, allowing you to use the Final Strike twice in succession, and causing Non-Final Strike Attacks to be faster.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Crescendo"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Crescendo II",
+    "requireSkillTypes":[148],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_crescendo_non_final_strike_attack_speed_+%_final",15]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Crescendo II",
         "levels":[{
             "actorLevel":1
           }],
@@ -687,15 +1393,56 @@
     "color":2,
     "description":"Supports Attack Skills, causing them to Cull Rare and Unique Enemies on Hit.",
     "excludeSkillTypes":[],
+    "gemFamily":["CullingStrike"],
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Culling Strike",
+    "name":"Culling Strike I",
     "requireSkillTypes":[1,117],
     "statSets":[{
         "baseFlags":[],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Culling Strike",
+        "label":"Culling Strike I",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_culling_strike_vs_rare_or_unique_enemy":{
+            "value":10,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"CullPercent",
+              "type":"MAX",
+              "1":{
+                "actor":"enemy",
+                "type":"ActorCondition",
+                "var":"RareOrUnique"
+              }
+            }
+          }
+        },
+        "stats":["support_culling_strike_vs_rare_or_unique_enemy"]
+      }],
+    "support":true
+  },
+  "SupportCullingStrikePlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Attack Skills, causing them to Cull Rare and Unique Enemies on Hit, and increasing the threshold at which they will Cull Enemies.",
+    "excludeSkillTypes":[],
+    "gemFamily":["CullingStrike"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Culling Strike II",
+    "requireSkillTypes":[1,117],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_culling_strike_threshold_+%_on_cull_for_seconds_from_code",20]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Culling Strike II",
         "levels":[{
             "actorLevel":1
           }],
@@ -723,18 +1470,19 @@
   "SupportCulminationPlayer":{
     "addSkillTypes":[152,169,194],
     "color":2,
-    "description":"Supports Melee Attack Skills. Supported Skills gain Combo when you successfully Strike Enemies with other Melee Attacks. Supported Skills reset their Combo on use, dealing more Damage the higher Combo you had on use. Cannot support skills which already gain Combo. Cannot Support Skills used by Minions.",
+    "description":"Supports Melee Attack Skills. Supported Skills gain Combo when you successfully Strike Enemies with other Melee Attacks. Supported Skills reset their Combo on use, dealing more Damage the higher Combo you had on use. Cannot support skills which already gain Combo. Does not modify Skills used by Minions.",
     "excludeSkillTypes":[194,169,75,74],
+    "gemFamily":["Culmination"],
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Culmination",
+    "name":"Culmination I",
     "requireSkillTypes":[1,20,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_damage_+%_final_per_combo_stack",3],["base_combo_stacks_decay_delay_ms",4000]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Culmination",
+        "label":"Culmination I",
         "levels":[{
             "actorLevel":1
           }],
@@ -743,11 +1491,59 @@
       }],
     "support":true
   },
+  "SupportCulminationPlayerTwo":{
+    "addSkillTypes":[152,169,194],
+    "color":2,
+    "description":"Supports Melee Attack Skills. Supported Skills gain Combo when you successfully Strike Enemies with other Melee Attacks. Supported Skills reset their Combo on use, dealing more Damage the higher Combo you had on use. Cannot support skills which already gain Combo. Does not modify Skills used by Minions.",
+    "excludeSkillTypes":[194,169,75,74],
+    "gemFamily":["Culmination"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Culmination II",
+    "requireSkillTypes":[1,20,74],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_damage_+%_final_per_combo_stack",3],["base_combo_stacks_decay_delay_ms",4000],["combo_falloff_speed_+%",-50]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Culmination II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":["skill_uncapped_combo_counter"]
+      }],
+    "support":true
+  },
+  "SupportDazePlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Attacks, causing them to build up Daze based on a portion of Physical Damage dealt.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Discombobulate"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Daze",
+    "requireSkillTypes":[1,117],
+    "statSets":[{
+        "baseFlags":[],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Daze",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
   "SupportDazedBreakPlayer":{
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Attacks, causing them to Daze Enemies when they fully Break Armour.",
     "excludeSkillTypes":[],
+    "gemFamily":["BreakPosture"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -766,34 +1562,12 @@
       }],
     "support":true
   },
-  "SupportDazingPlayer":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports Attacks, causing them to build up Daze based on a portion of Physical Damage dealt.",
-    "excludeSkillTypes":[],
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Discombobulate",
-    "requireSkillTypes":[1,117],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["support_physical_damage_%_to_gain_as_daze_build_up",100]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Discombobulate",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
-      }],
-    "support":true
-  },
   "SupportDazzlePlayer":{
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Attack Skills. Supported Skills always hit Dazed Enemies, but Consume Daze on Hit, and cannot themselves inflict Daze.",
     "excludeSkillTypes":[],
+    "gemFamily":["Dazzle"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -816,6 +1590,7 @@
     "color":2,
     "description":"Supports Herald Skills, making their triggered effects deal more damage at the expense of higher Spirit cost.",
     "excludeSkillTypes":[],
+    "gemFamily":["DeadlyHeralds"],
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":20
@@ -848,16 +1623,55 @@
     "color":2,
     "description":"Supports any skill that Hits enemies, causing it to deal less damage but inflict more potent Poison.",
     "excludeSkillTypes":[],
+    "gemFamily":["DeadlyPoison"],
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Deadly Poison",
+    "name":"Deadly Poison I",
     "requireSkillTypes":[1,7,117],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_deadly_poison_hit_damage_+%_final",-25],["support_deadly_poison_poison_effect_+%_final",75]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Deadly Poison",
+        "label":"Deadly Poison I",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_deadly_poison_hit_damage_+%_final":[{
+              "flags":4,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE"
+            }],
+          "support_deadly_poison_poison_effect_+%_final":[{
+              "flags":0,
+              "keywordFlags":2097152,
+              "name":"AilmentMagnitude",
+              "type":"MORE"
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportDeadlyPoisonPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports any skill that Hits enemies, causing it to deal less damage but inflict more potent Poison.",
+    "excludeSkillTypes":[],
+    "gemFamily":["DeadlyPoison"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Deadly Poison II",
+    "requireSkillTypes":[1,7,117],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_deadly_poison_hit_damage_+%_final",-30],["support_deadly_poison_poison_effect_+%_final",100]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Deadly Poison II",
         "levels":[{
             "actorLevel":1
           }],
@@ -885,6 +1699,7 @@
     "color":2,
     "description":"Supports Skills which require some Condition to be met for use. Supported Skills can be used an additional time after their Condition has been met, but meeting that Condition is harder.",
     "excludeSkillTypes":[],
+    "gemFamily":["DelayedGratification"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -908,6 +1723,7 @@
     "color":2,
     "description":"Supports Skills which create Hazards, causing those Hazards to only be able to trigger immediately after creation or at the end of their duration. Created Hazards have significantly lowered duration, and deal more damage.",
     "excludeSkillTypes":[],
+    "gemFamily":["DelayedReaction"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -945,6 +1761,7 @@
     "color":2,
     "description":"Supports skills that can be used while moving, causing you to move slower while using them, but granting more damage in exchange.",
     "excludeSkillTypes":[],
+    "gemFamily":["Deliberation"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -971,11 +1788,38 @@
       }],
     "support":true
   },
+  "SupportDurabilityPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Skills which create objects that are destroyed after being Hit a number of times, allowing for them to last for additional Hits. Does not modify Skills used by Minions.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Durability"],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":0,
+        "reservationMultiplier":10
+      }],
+    "name":"Durability",
+    "requireSkillTypes":[240],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_number_of_additional_uses_before_expiry",2]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Durability",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
   "SupportElectrocutePlayer":{
     "addSkillTypes":[],
     "color":2,
     "description":"Supports any Skill which can deal Damage. Lightning Damage from Supported Skills can inflict Electrocute, but Supported Skills cannot inflict Shock.",
     "excludeSkillTypes":[],
+    "gemFamily":["Electrocute"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -998,6 +1842,7 @@
     "color":2,
     "description":"Supports skills that can Empower skills other than themselves, causing skills they Empower to Cull enemies.",
     "excludeSkillTypes":[],
+    "gemFamily":["MurderousIntent"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":20
@@ -1036,25 +1881,46 @@
       }],
     "support":true
   },
-  "SupportEncumberancePlayer":{
+  "SupportEscalatingPoisonPlayer":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports any skill, causing inflicted Slows to be more powerful.",
+    "description":"Supports any skill that Hits enemies, allowing it to inflict an extra Poison on enemies but shortening the duration of those Poisons.",
     "excludeSkillTypes":[],
+    "gemFamily":["EscalatingPoison"],
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Encumbrance",
-    "requireSkillTypes":[7,1,2,49,117],
+    "name":"Escalating Poison",
+    "requireSkillTypes":[1,7,117],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["base_debuff_slow_magnitude_+%",15]],
+        "constantStats":[["number_of_additional_poison_stacks",1],["support_multi_poison_poison_duration_+%_final",-20]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Encumbrance",
+        "label":"Escalating Poison",
         "levels":[{
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "number_of_additional_poison_stacks":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"PoisonStacks",
+              "type":"BASE"
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"PoisonCanStack",
+              "type":"FLAG",
+              "value":true
+            }],
+          "support_multi_poison_poison_duration_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"EnemyPoisonDuration",
+              "type":"MORE"
+            }]
+        },
         "stats":[]
       }],
     "support":true
@@ -1064,6 +1930,7 @@
     "color":2,
     "description":"Supports Melee Attack Skills. Supported Skills deal more Melee Damage for each Elemental Ailment on Enemies they hit, but cannot themselves inflict Elemental Ailments.",
     "excludeSkillTypes":[],
+    "gemFamily":["Excoriate"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":15
@@ -1141,18 +2008,19 @@
     "color":2,
     "description":"Supports Attacks, causing them to deal more damage from farther away.",
     "excludeSkillTypes":[],
+    "gemFamily":["Longshot"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":20
       }],
-    "name":"Longshot",
+    "name":"Longshot I",
     "requireSkillTypes":[1,117],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_far_combat_attack_damage_+%_final_from_distance",30]],
+        "constantStats":[["support_far_combat_attack_damage_+%_final_from_distance",25]],
         "incrementalEffectiveness":0.092720001935959,
-        "label":"Longshot",
+        "label":"Longshot I",
         "levels":[{
             "actorLevel":1
           }],
@@ -1173,65 +2041,38 @@
       }],
     "support":true
   },
-  "SupportFasterAttackPlayer":{
+  "SupportFarCombatPlayerTwo":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports Attacks, causing them to Attack faster.",
-    "excludeSkillTypes":[52,218],
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Martial Tempo",
-    "requireSkillTypes":[1,117],
-    "statSets":[{
-        "baseEffectiveness":0,
-        "baseFlags":[],
-        "constantStats":[["support_faster_attacks_attack_speed_+%_final",20],["support_faster_attacks_damage_+%_final",0]],
-        "incrementalEffectiveness":0.092720001935959,
-        "label":"Martial Tempo",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "support_faster_attacks_attack_speed_+%_final":[{
-              "flags":1,
-              "keywordFlags":0,
-              "name":"Speed",
-              "type":"MORE"
-            }]
-        },
-        "stats":[]
-      }],
-    "support":true
-  },
-  "SupportFasterProjectilesPlayer":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports Projectile skills, making those Projectiles travel faster.",
-    "excludeSkillTypes":[43],
+    "description":"Supports Attacks, causing them to deal more damage from farther away.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Longshot"],
+    "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":20
       }],
-    "name":"Acceleration",
-    "requireSkillTypes":[3,11],
+    "name":"Longshot II",
+    "requireSkillTypes":[1,117],
     "statSets":[{
-        "baseEffectiveness":0,
         "baseFlags":[],
-        "constantStats":[["support_faster_projectiles_projectile_speed_+%_final",40]],
+        "constantStats":[["support_far_combat_attack_damage_+%_final_from_distance",35]],
         "incrementalEffectiveness":0.092720001935959,
-        "label":"Acceleration",
+        "label":"Longshot II",
         "levels":[{
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
-          "support_faster_projectiles_projectile_speed_+%_final":[{
+          "support_far_combat_attack_damage_+%_final_from_distance":[{
               "flags":0,
               "keywordFlags":0,
-              "name":"ProjectileSpeed",
-              "type":"MORE"
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "ramp":[[35,0],[70,1]],
+                "type":"DistanceRamp"
+              }
             }]
         },
         "stats":[]
@@ -1242,7 +2083,8 @@
     "addSkillTypes":[174],
     "color":2,
     "description":"Supports Skills that you use yourself. Supported Skills will consume a Frenzy Charge on use if possible, and will gain significant Skill Speed if they do. Supported Skills cannot generate Frenzy Charges.",
-    "excludeSkillTypes":[6,25,221,95,139,172,174,75,74],
+    "excludeSkillTypes":[37,6,25,221,95,139,172,174,75,74],
+    "gemFamily":["Ferocity"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -1279,6 +2121,7 @@
     "color":2,
     "description":"Supports Skills which require Combo to use. Supported Skills lose their Combo stacks after a longer delay spent not gaining any Combo.",
     "excludeSkillTypes":[],
+    "gemFamily":["Flow"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -1302,6 +2145,7 @@
     "color":2,
     "description":"Supports Projectile skills, making their Projectiles Fork.",
     "excludeSkillTypes":[176],
+    "gemFamily":["Fork"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":10
@@ -1334,11 +2178,61 @@
       }],
     "support":true
   },
+  "SupportFrenziedRipostePlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Attacks you use yourself or that you Trigger, causing them to Consume the Parried Debuff on Hit to grant you a Frenzy Charge. Cannot support Skills which already Consume the Parried Debuff.",
+    "excludeSkillTypes":[139,6,95,216],
+    "gemFamily":["Retort"],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Frenzied Riposte",
+    "requireSkillTypes":[1],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["consume_parry_debuff_on_hit_to_gain_X_frenzy_charges",1]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Frenzied Riposte",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportFrozenSpitePlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Attack Skills, causing them to create Ice Fragments on killing Frozen Enemies. Cannot Support Totem Skills and does not modify Skills used by Minions.",
+    "excludeSkillTypes":[239,95,36,33,25],
+    "gemFamily":["FrozenSpite"],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Frozen Spite",
+    "requireSkillTypes":[1],
+    "statSets":[{
+        "baseFlags":[],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Frozen Spite",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":["trigger_ballistic_ice_chunks_on_killing_frozen_enemy"]
+      }],
+    "support":true
+  },
   "SupportGambleshotPlayer":{
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Skills which fire Projectiles that are not ground targeted. Projectiles from Supported Skills randomly Fork, Chain or Pierce.",
     "excludeSkillTypes":[192],
+    "gemFamily":["Gambleshot"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -1365,11 +2259,132 @@
       }],
     "support":true
   },
+  "SupportGarukhansResolvePlayer":{
+    "addSkillTypes":[194,238],
+    "color":2,
+    "description":"Supports Attack Skills you use yourself which do not already have some Condition for use. Supported Skills can only be used after you have moved a certain distance, but will Bifurcate Critical Hit Chance. Cannot support Skills which have a Cooldown or that are Triggered, and does not modify skills used by Minions.",
+    "excludeSkillTypes":[139,194,238,75,74,64,90,37,95],
+    "gemFamily":["HitAndRun"],
+    "ignoreMinionTypes":true,
+    "isLineage":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Garukhan's Resolve",
+    "requireSkillTypes":[1],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["skill_unusable_until_moved_X_distance",200]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Garukhan's Resolve",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":["attacks_roll_crits_twice"]
+      }],
+    "support":true
+  },
+  "SupportHeightenedAccuracyPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Attacks, causing them to gain Accuracy.",
+    "excludeSkillTypes":[],
+    "gemFamily":["HeightenedAccuracy"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":10
+      }],
+    "name":"Heightened Accuracy I",
+    "requireSkillTypes":[1,117],
+    "statSets":[{
+        "baseEffectiveness":0,
+        "baseFlags":[],
+        "constantStats":[["support_additional_accurary_rating_+%_final",50]],
+        "incrementalEffectiveness":0.092720001935959,
+        "label":"Heightened Accuracy I",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_additional_accurary_rating_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Accuracy",
+              "type":"MORE"
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportHeightenedAccuracyPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Attacks, causing them to gain Accuracy, and never miss against Enemies on full Life.",
+    "excludeSkillTypes":[],
+    "gemFamily":["HeightenedAccuracy"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":10
+      }],
+    "name":"Heightened Accuracy II",
+    "requireSkillTypes":[1,117],
+    "statSets":[{
+        "baseEffectiveness":0,
+        "baseFlags":[],
+        "constantStats":[["support_additional_accurary_rating_+%_final",50]],
+        "incrementalEffectiveness":0.092720001935959,
+        "label":"Heightened Accuracy II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_additional_accurary_rating_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Accuracy",
+              "type":"MORE"
+            }]
+        },
+        "stats":["cannot_miss_against_full_life_enemies"]
+      }],
+    "support":true
+  },
+  "SupportHeightenedChargesPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports any Skill that Consumes Charges, granting a chance for benefits of that Consumption to be doubled.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Twofold"],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":15
+      }],
+    "name":"Heightened Charges",
+    "requireSkillTypes":[131],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["chance_%_to_double_effect_of_removing_charges",20]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Heightened Charges",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
   "SupportHitAndRunPlayer":{
     "addSkillTypes":[194,195],
     "color":2,
-    "description":"Supports Attack Skills you use yourself which do not already have some Condition for use. Supported Skills can only be used after you have moved a certain distance, but have massively increased Skill Speed. Cannot support Skills which have a Cooldown or that are Triggered.",
-    "excludeSkillTypes":[194,195,75,74,64,90,37,95],
+    "description":"Supports Attack Skills you use yourself which do not already have some Condition for use. Supported Skills can only be used after you have moved a certain distance, but have massively increased Skill Speed. Cannot support Skills which have a Cooldown or that are Triggered, and does not modify skills used by Minions.",
+    "excludeSkillTypes":[139,194,195,75,74,64,90,37,95],
+    "gemFamily":["HitAndRun"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
@@ -1389,11 +2404,36 @@
       }],
     "support":true
   },
+  "SupportHobblePlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Skills that Hit Enemies, causing those Hits to Hobble Bleeding Enemies based on a portion of Physical Damage dealt.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Hobble"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Hobble",
+    "requireSkillTypes":[7,1,117],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["physical_damage_%_dealt_as_evasion_break_vs_bleeding",15]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Hobble",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
   "SupportImpalePlayer":{
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Attacks, causing them to Impale on Hit but making them unable to Extract Impale themselves.",
     "excludeSkillTypes":[],
+    "gemFamily":["Impale"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":20
@@ -1418,16 +2458,17 @@
     "color":2,
     "description":"Supports skills which can have a Limited number of effects active at once, increasing that Limit at the cost of their duration. Only applies to restrictions that use the word \"Limit\".",
     "excludeSkillTypes":[],
+    "gemFamily":["Overabundance"],
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Overabundance",
+    "name":"Overabundance I",
     "requireSkillTypes":[144],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["base_limit_+",1],["support_limit_skill_effect_duration_+%_final",-50]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Overabundance",
+        "label":"Overabundance I",
         "levels":[{
             "actorLevel":1
           }],
@@ -1444,59 +2485,66 @@
       }],
     "support":true
   },
-  "SupportInhibitorPlayer":{
-    "addSkillTypes":[223],
+  "SupportIncreaseLimitPlayerThree":{
+    "addSkillTypes":[12,242],
     "color":2,
-    "description":"Supports any Skill you use yourself or that you Trigger. Supported Skills cannot consume Charges by any means. Cannot Support Skills which require Charges to be used.",
-    "excludeSkillTypes":[95,33,36,222],
+    "description":"Supports skills which can have a Limited number of effects active at once, doubling that Limit at the cost of Cursing yourself on Skill use. Only applies to restrictions that use the word \"Limit\".",
+    "excludeSkillTypes":[12,242,75,74],
+    "gemFamily":["Overabundance"],
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Inhibitor",
-    "requireSkillTypes":[7,1,116,117,2,49],
+    "name":"Overabundance III",
+    "requireSkillTypes":[144],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_inhibitor_damage_+%_final_per_charge_type",4]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Inhibitor",
+        "label":"Overabundance III",
         "levels":[{
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
-          "support_inhibitor_damage_+%_final_per_charge_type":[{
+          "support_limit_skill_effect_duration_+%_final":[{
               "flags":0,
               "keywordFlags":0,
-              "name":"Damage",
-              "type":"MORE",
-              "1":{
-                "threshold":1,
-                "type":"MultiplierThreshold",
-                "var":"FrenzyCharge"
-              }
-            },{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"Damage",
-              "type":"MORE",
-              "1":{
-                "threshold":1,
-                "type":"MultiplierThreshold",
-                "var":"PowerCharge"
-              }
-            },{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"Damage",
-              "type":"MORE",
-              "1":{
-                "threshold":1,
-                "type":"MultiplierThreshold",
-                "var":"EnduranceCharge"
-              }
+              "name":"Duration",
+              "type":"MORE"
             }]
         },
-        "stats":["cannot_consume_power_frenzy_endurance_charges"]
+        "stats":["skill_has_double_limit","randomly_curse_self_on_skill_use"]
+      }],
+    "support":true
+  },
+  "SupportIncreaseLimitPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports skills which can have a Limited number of effects active at once, increasing that Limit at the cost of their duration. Only applies to restrictions that use the word \"Limit\".",
+    "excludeSkillTypes":[],
+    "gemFamily":["Overabundance"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Overabundance II",
+    "requireSkillTypes":[144],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["base_limit_+",1],["support_limit_skill_effect_duration_+%_final",-40]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Overabundance II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_limit_skill_effect_duration_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Duration",
+              "type":"MORE"
+            }]
+        },
+        "stats":[]
       }],
     "support":true
   },
@@ -1504,7 +2552,8 @@
     "addSkillTypes":[9],
     "color":2,
     "description":"Supports Attacks you use yourself. Killing a Shocked enemy with supported skills infuses all of your Attacks with Lightning damage for a short time.",
-    "excludeSkillTypes":[33,36,25],
+    "excludeSkillTypes":[139,33,36,25,37,95],
+    "gemFamily":["Innervate"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
@@ -1513,7 +2562,7 @@
     "requireSkillTypes":[1,117],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_innervate_buff_grant_%_added_lightning_attack_damage",35],["support_innervate_buff_base_duration_ms",5000]],
+        "constantStats":[["support_innervate_buff_grant_%_added_lightning_attack_damage",25],["support_innervate_buff_base_duration_ms",5000]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Innervate",
         "levels":[{
@@ -1521,7 +2570,7 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
-          "support_innervate_base_buff_duration":{
+          "support_innervate_buff_base_duration_ms":{
             "div":1000,
             "1":{
               "flags":0,
@@ -1563,6 +2612,7 @@
     "color":2,
     "description":"Supports any skill that you can use, triggering a blast of wind that Knocks Back enemies if you are Stunned while using it.",
     "excludeSkillTypes":[64,139],
+    "gemFamily":["WindWave"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -1585,6 +2635,7 @@
     "color":2,
     "description":"Supports any skill that Hits enemies or inflicts Shock, causing its Shocks to be inflicted less often but last longer.",
     "excludeSkillTypes":[],
+    "gemFamily":["LastingShock"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -1616,6 +2667,7 @@
     "color":2,
     "description":"Supports Skills which Hit Enemies. Supported Skills gain increased chance to Critically Hit against Immobilised Enemies.",
     "excludeSkillTypes":[],
+    "gemFamily":["Leverage"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -1639,6 +2691,7 @@
     "color":2,
     "description":"Supports any skill that Hits enemies, causing enemies it kills to grant more Life Flask charges.",
     "excludeSkillTypes":[],
+    "gemFamily":["Bounty"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -1662,6 +2715,7 @@
     "color":2,
     "description":"Supports any skill that Hits enemies, causing you to recover Life when it Culls an enemy.",
     "excludeSkillTypes":[],
+    "gemFamily":["LifeDrain"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -1683,8 +2737,9 @@
   "SupportLightningExposurePlayer":{
     "addSkillTypes":[9],
     "color":2,
-    "description":"Supports any skill that Hits enemies, causing it to inflict Lightning Exposure when inflicting Shock.",
+    "description":"Supports any skill that Hits enemies, causing it to inflict Exposure when inflicting Shock.",
     "excludeSkillTypes":[],
+    "gemFamily":["LightningExposure"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":20
@@ -1693,7 +2748,7 @@
     "requireSkillTypes":[1,7,117],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["inflict_lightning_exposure_for_x_ms_on_shock",8000]],
+        "constantStats":[["inflict_exposure_for_x_ms_on_shock",8000]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Lightning Exposure",
         "levels":[{
@@ -1709,6 +2764,7 @@
     "color":2,
     "description":"Supports any skill that Hits enemies, making those Hits Penetrate enemy Lightning resistance.",
     "excludeSkillTypes":[],
+    "gemFamily":["LightningPenetration"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":20
@@ -1733,6 +2789,7 @@
     "color":2,
     "description":"Supports any skill that Hits enemies, causing any Pin buildup it inflicts to be stronger the closer the enemy is to you.",
     "excludeSkillTypes":[],
+    "gemFamily":["Lockdown"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -1756,6 +2813,7 @@
     "color":2,
     "description":"Supports Attacks, causing them to Maim enemies.",
     "excludeSkillTypes":[],
+    "gemFamily":["Maim"],
     "levels":[{
         "levelRequirement":0
       },{
@@ -1783,6 +2841,7 @@
     "color":2,
     "description":"Supports Skills which can cause Damaging Hits, causing base chance to inflict Bleed with Supported Skills to instead apply to base chance to Poison, and causing base chance to Poison to instead apply to Bleed.",
     "excludeSkillTypes":[],
+    "gemFamily":["Malady"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -1805,6 +2864,7 @@
     "color":2,
     "description":"Supports any skill that Hits enemies, causing enemies it kills to grant more Mana Flask charges.",
     "excludeSkillTypes":[],
+    "gemFamily":["Bounty"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -1828,6 +2888,7 @@
     "color":2,
     "description":"Supports any skill that Hits enemies, causing you to recover Mana when it Culls an enemy.",
     "excludeSkillTypes":[],
+    "gemFamily":["SoulDrain"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -1846,11 +2907,37 @@
       }],
     "support":true
   },
+  "SupportMarkForDeathPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Mark Skills. Enemies affected by Supported Marks will have their Armour Broken by Physical Damage they take.",
+    "excludeSkillTypes":[],
+    "gemFamily":["SingleOut"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Mark for Death",
+    "requireSkillTypes":[98],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["marked_target_%_physical_damage_taken_as_armour_break",10]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Mark for Death",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
   "SupportMobilityPlayer":{
     "addSkillTypes":[],
     "color":2,
     "description":"Supports skills that can be used while moving, allowing you to move faster while using them.",
     "excludeSkillTypes":[],
+    "gemFamily":["Mobility"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -1873,7 +2960,8 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports any damaging skill that you use yourself, causing it to deal more damage if you move a sufficient distance while using the skill. Teleportation does not count towards the distance travelled.",
-    "excludeSkillTypes":[37,33,36,25],
+    "excludeSkillTypes":[139,37,33,36,25,37,95],
+    "gemFamily":["Momentum"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0,
@@ -1906,66 +2994,38 @@
       }],
     "support":true
   },
-  "SupportMultipleChargesPlayer":{
+  "SupportMultishotPlayer":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports skills that can generate Charges, giving them a chance to generate an additional Charge when they do so.",
-    "excludeSkillTypes":[],
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":20
-      }],
-    "name":"Profusion",
-    "requireSkillTypes":[146],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["chance_to_gain_1_more_charge_%",50]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Profusion",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
-      }],
-    "support":true
-  },
-  "SupportMultiplePoisonPlayer":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports any skill that Hits enemies, allowing it to inflict an extra Poison on enemies but shortening the duration of those Poisons.",
-    "excludeSkillTypes":[],
+    "description":"Supports Projectile skills, making them fire extra Projectiles. Also lowers Attack and Cast speed of supported skills, as well as lessening their damage.",
+    "excludeSkillTypes":[113],
+    "gemFamily":["AdditionalProjectiles"],
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Comorbidity",
-    "requireSkillTypes":[1,7,117],
+    "name":"Multishot I",
+    "requireSkillTypes":[3,62],
     "statSets":[{
+        "baseEffectiveness":0,
         "baseFlags":[],
-        "constantStats":[["number_of_additional_poison_stacks",1],["support_multi_poison_poison_duration_+%_final",-20]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Comorbidity",
+        "constantStats":[["number_of_additional_projectiles",2],["support_multiple_damage_+%_final",-35],["terrain_arrow_attachment_chance_reduction_+%",200],["support_scattershot_skill_speed_+%_final",-20]],
+        "incrementalEffectiveness":0.092720001935959,
+        "label":"Multishot I",
         "levels":[{
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
-          "number_of_additional_poison_stacks":[{
+          "support_multiple_damage_+%_final":[{
               "flags":0,
               "keywordFlags":0,
-              "name":"PoisonStacks",
-              "type":"BASE"
-            },{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"PoisonCanStack",
-              "type":"FLAG",
-              "value":true
+              "name":"Damage",
+              "type":"MORE"
             }],
-          "support_multi_poison_poison_duration_+%_final":[{
+          "support_scattershot_skill_speed_+%_final":[{
               "flags":0,
               "keywordFlags":0,
-              "name":"EnemyPoisonDuration",
+              "name":"Speed",
               "type":"MORE"
             }]
         },
@@ -1973,37 +3033,37 @@
       }],
     "support":true
   },
-  "SupportMultipleProjectilesPlayer":{
+  "SupportMultishotPlayerTwo":{
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Projectile skills, making them fire extra Projectiles. Also lowers Attack and Cast speed of supported skills, as well as lessening their damage.",
     "excludeSkillTypes":[113],
+    "gemFamily":["AdditionalProjectiles"],
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Scattershot",
+    "name":"Multishot II",
     "requireSkillTypes":[3,62],
     "statSets":[{
-        "baseEffectiveness":0,
         "baseFlags":[],
-        "constantStats":[["number_of_additional_projectiles",2],["support_multiple_damage_+%_final",-35],["terrain_arrow_attachment_chance_reduction_+%",200],["support_multiple_attack_and_cast_speed_+%_final",-20]],
-        "incrementalEffectiveness":0.092720001935959,
-        "label":"Scattershot",
+        "constantStats":[["number_of_additional_projectiles",2],["support_multiple_damage_+%_final",-25],["terrain_arrow_attachment_chance_reduction_+%",200],["support_scattershot_skill_speed_+%_final",-20]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Multishot II",
         "levels":[{
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
-          "support_multiple_attack_and_cast_speed_+%_final":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"Speed",
-              "type":"MORE"
-            }],
           "support_multiple_damage_+%_final":[{
               "flags":0,
               "keywordFlags":0,
               "name":"Damage",
+              "type":"MORE"
+            }],
+          "support_scattershot_skill_speed_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Speed",
               "type":"MORE"
             }]
         },
@@ -2016,6 +3076,7 @@
     "color":2,
     "description":"Supports any skill that Hits enemies. Nearby enemies are marked when they are Primed for Electrocution, and hitting a marked enemy with a supported skill will Electrocute them.",
     "excludeSkillTypes":[],
+    "gemFamily":["Electrocute"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -2038,6 +3099,7 @@
     "color":2,
     "description":"Supports Crossbow Ammunition Skills, causing them to Reload bolts significantly faster.",
     "excludeSkillTypes":[],
+    "gemFamily":["NimbleReload"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -2056,11 +3118,44 @@
       }],
     "support":true
   },
+  "SupportNovaProjectilesPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Projectile Skills, making them fire extra Projectiles in a circle, at the cost of Damage. Does not support Skills which rain down  Projectiles from above.",
+    "excludeSkillTypes":[113,89],
+    "gemFamily":["AdditionalProjectiles"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Nova Projectiles",
+    "requireSkillTypes":[3,62,116,117],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["number_of_additional_projectiles",4],["support_nova_projectiles_damage_+%_final",-40]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Nova Projectiles",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_nova_projectiles_damage_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE"
+            }]
+        },
+        "stats":["projectiles_nova"]
+      }],
+    "support":true
+  },
   "SupportOutmaneuverPlayer":{
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Skills you use yourself which can cause Damaging Hits. Supported Skills Break Armour against Parried Enemies.",
-    "excludeSkillTypes":[95,25,6,33,36],
+    "excludeSkillTypes":[139,95,25,6,33,36,37],
+    "gemFamily":["Outmaneuver"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0,
@@ -2086,6 +3181,7 @@
     "color":2,
     "description":"Supports any skill that Hits enemies, making its Shocks more effective but reflecting them back to you as well.",
     "excludeSkillTypes":[],
+    "gemFamily":["Overcharge"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -2108,7 +3204,8 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Attack Skills you use yourself. Supported Skills deal more Damage with Critical Hits, but Critically Hitting an Enemy with them will Daze you for a short time.",
-    "excludeSkillTypes":[6,25,95],
+    "excludeSkillTypes":[139,6,25,95,37],
+    "gemFamily":["Overextend"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":15
@@ -2136,11 +3233,50 @@
       }],
     "support":true
   },
+  "SupportOverreachPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Attack Skills which deal Damage in an Area. Supported Skills have significantly increased Area of Effect, but are less Accurate against nearby targets.",
+    "excludeSkillTypes":[],
+    "gemFamily":["IncreasedAreaOfEffect"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Overreach",
+    "requireSkillTypes":[1,8,74],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["base_skill_area_of_effect_+%",40],["support_reach_accuracy_within_2m_+%_final",-80]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Overreach",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_reach_accuracy_within_2m_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Accuracy",
+              "type":"MORE",
+              "1":{
+                "threshold":20,
+                "type":"MultiplierThreshold",
+                "upper":true,
+                "var":"enemyDistance"
+              }
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
   "SupportPayloadPlayer":{
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Skills which fire Grenades, giving fired Grenades a chance to activate again, but lengthening their cooldowns.",
     "excludeSkillTypes":[],
+    "gemFamily":["Payload"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -2159,11 +3295,36 @@
       }],
     "support":true
   },
+  "SupportPerfectEndurancePlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports skills which have a benefit for Perfect Timing. Supported Skills grant at least one Endurance Charge when Hitting an enemy with Perfect Timing.",
+    "excludeSkillTypes":[],
+    "gemFamily":["PerfectedEndurance"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Perfected Endurance",
+    "requireSkillTypes":[149],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["chance_to_gain_endurance_charge_on_perfect_timing_hit_%",100]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Perfected Endurance",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
   "SupportPerfectionPlayer":{
     "addSkillTypes":[],
     "color":2,
     "description":"Supports skills which have a benefit for Perfectly Timing their use. On successfully executing Perfect Timing with Supported Skills, gain Perfection, which is a powerful damage buff. However, failing to execute any Perfect Timing (even with skills not supported by Perfection) will remove all Perfection on you.",
     "excludeSkillTypes":[],
+    "gemFamily":["Perfection"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -2187,6 +3348,7 @@
     "color":2,
     "description":"Supports skills that consume Power, Frenzy or Endurance Charges on use, giving them a chance not to remove each Charge while still gaining the benefits of consuming them.",
     "excludeSkillTypes":[],
+    "gemFamily":["PerpetualCharge"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":30
@@ -2199,7 +3361,7 @@
     "requireSkillTypes":[131],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["charge_skip_consume_chance_%",35]],
+        "constantStats":[["charge_skip_consume_chance_%",25]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Perpetual Charge",
         "levels":[{
@@ -2215,17 +3377,18 @@
     "color":2,
     "description":"Supports Projectile skills, making their Projectiles Pierce an enemy but deal less damage after doing so.",
     "excludeSkillTypes":[176],
+    "gemFamily":["Pierce"],
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Pierce",
+    "name":"Pierce I",
     "requireSkillTypes":[3],
     "statSets":[{
         "baseEffectiveness":0,
         "baseFlags":[],
         "constantStats":[["base_chance_to_pierce_%",100],["support_pierce_projectile_damage_+%_final_if_pierced_enemy",-20]],
         "incrementalEffectiveness":0.092720001935959,
-        "label":"Pierce",
+        "label":"Pierce I",
         "levels":[{
             "actorLevel":1
           }],
@@ -2234,26 +3397,249 @@
       }],
     "support":true
   },
+  "SupportPiercePlayerThree":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Projectile skills, making their Projectiles Pierce an unlimited number of enemies, losing damage as they do so.",
+    "excludeSkillTypes":[176],
+    "gemFamily":["Pierce"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Pierce III",
+    "requireSkillTypes":[3],
+    "statSets":[{
+        "baseEffectiveness":0,
+        "baseFlags":[],
+        "constantStats":[["support_pierce_damage_+%_final_per_pierced_target",-20]],
+        "incrementalEffectiveness":0.092720001935959,
+        "label":"Pierce III",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_pierce_damage_+%_final_per_pierced_target":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "stat":"PiercedCount",
+                "type":"PerStat"
+              }
+            }]
+        },
+        "stats":["always_pierce"]
+      }],
+    "support":true
+  },
+  "SupportPiercePlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Projectile skills, making their Projectiles Pierce an enemy.",
+    "excludeSkillTypes":[176],
+    "gemFamily":["Pierce"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Pierce II",
+    "requireSkillTypes":[3],
+    "statSets":[{
+        "baseEffectiveness":0,
+        "baseFlags":[],
+        "constantStats":[["base_chance_to_pierce_%",100]],
+        "incrementalEffectiveness":0.092720001935959,
+        "label":"Pierce II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportPietysMercyPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Skills that cause Damaging Hits. Hits from Supported Skills cannot kill Enemies.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Mercy"],
+    "isLineage":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Piety's Mercy",
+    "requireSkillTypes":[1,7],
+    "statSets":[{
+        "baseFlags":[],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Piety's Mercy",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":["cannot_kill_enemies_with_hits"]
+      }],
+    "support":true
+  },
   "SupportPinPlayer":{
     "addSkillTypes":[],
     "color":2,
     "description":"Supports any skill that Hits enemies, allowing its Physical damage to Pin enemies but making it unable to Stun.",
     "excludeSkillTypes":[],
+    "gemFamily":["Pin"],
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Pin",
+    "name":"Pin I",
     "requireSkillTypes":[1,7,117],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_pin_spell_pinned_art_variation",1],["support_pin_hit_damage_stun_multiplier_+%_final",-100]],
+        "constantStats":[["support_pin_spell_pinned_art_variation",1]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Pin",
+        "label":"Pin I",
         "levels":[{
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["support_pin_physical_damage_can_pin"]
+        "stats":["support_pin_physical_damage_can_pin","support_pin_buildup_pin_instead_of_stun"]
+      }],
+    "support":true
+  },
+  "SupportPinPlayerThree":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports any skill that Hits enemies, allowing its Physical damage to Pin enemies but making it unable to Stun. Pin buildup caused by Supported Skill is lessened, but Pin duration is significantly longer.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Pin"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Pin III",
+    "requireSkillTypes":[1,7,117],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_pin_spell_pinned_art_variation",1],["support_pin_pin_buildup_+%_final",-60],["support_pin_pin_duration_+%_final",30]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Pin III",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":["support_pin_physical_damage_can_pin","support_pin_buildup_pin_instead_of_stun"]
+      }],
+    "support":true
+  },
+  "SupportPinPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports any skill that Hits enemies, allowing its Physical damage to Pin enemies but making it unable to Stun, as well as granting Critial Hit Chance against Immobilised enemies.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Pin"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Pin II",
+    "requireSkillTypes":[1,7,117],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_pin_spell_pinned_art_variation",1],["critical_strike_chance_+%_vs_immobilised_enemies",50]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Pin II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":["support_pin_physical_damage_can_pin","support_pin_buildup_pin_instead_of_stun"]
+      }],
+    "support":true
+  },
+  "SupportPoisonPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports any skill that Hits enemies, giving it a chance to Poison enemies.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Poison"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Poison I",
+    "requireSkillTypes":[7,1,117],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["base_chance_to_poison_on_hit_%",40]],
+        "incrementalEffectiveness":0.092720001935959,
+        "label":"Poison I",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportPoisonPlayerThree":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports any skill that Hits enemies, giving it a chance to Poison enemies and causing it to inflict more powerful Poisons against Bleeding Enemies.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Poison"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Poison III",
+    "requireSkillTypes":[7,1,117],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["base_chance_to_poison_on_hit_%",60],["mixed_maladies_poison_effect_+%_final_vs_bleeding",20]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Poison III",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "mixed_maladies_poison_effect_+%_final_vs_bleeding":[{
+              "flags":0,
+              "keywordFlags":2097152,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "actor":"enemy",
+                "type":"ActorCondition",
+                "var":"Bleeding"
+              }
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportPoisonPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports any skill that Hits enemies, giving it a chance to Poison enemies.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Poison"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Poison II",
+    "requireSkillTypes":[7,1,117],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["base_chance_to_poison_on_hit_%",60]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Poison II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
       }],
     "support":true
   },
@@ -2262,6 +3648,7 @@
     "color":2,
     "description":"Supports Strike Skills. Supported Skills have a chance to build additional Combo on Hit. Cannot support Skills used by Minions.",
     "excludeSkillTypes":[6],
+    "gemFamily":["PracticedCombo"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -2285,17 +3672,19 @@
     "color":2,
     "description":"Supports Persistent Buff Skills, causing you to gain increased Accuracy while the Skill is active.",
     "excludeSkillTypes":[],
+    "gemFamily":["Precision"],
+    "isLineage":true,
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":10
       }],
-    "name":"Precision",
+    "name":"Precision I",
     "requireSkillTypes":[139,5,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_precision_accuracy_rating_+%",30]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Precision",
+        "label":"Precision I",
         "levels":[{
             "actorLevel":1
           }],
@@ -2317,11 +3706,217 @@
       }],
     "support":true
   },
+  "SupportPrecisionPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Persistent Buff Skills, causing you to gain increased Accuracy while the Skill is active.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Precision"],
+    "isLineage":true,
+    "levels":[{
+        "levelRequirement":0,
+        "spiritReservationFlat":20
+      }],
+    "name":"Precision II",
+    "requireSkillTypes":[139,5,74],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_precision_accuracy_rating_+%",50]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Precision II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_precision_accuracy_rating_+%":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Accuracy",
+              "type":"INC",
+              "1":{
+                "effectName":"Precision",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportProjectileAccelerationPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Projectile skills, making those Projectiles travel faster.",
+    "excludeSkillTypes":[43],
+    "gemFamily":["ProjectileSpeed"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Projectile Acceleration I",
+    "requireSkillTypes":[3,11],
+    "statSets":[{
+        "baseEffectiveness":0,
+        "baseFlags":[],
+        "constantStats":[["support_faster_projectiles_projectile_speed_+%_final",40]],
+        "incrementalEffectiveness":0.092720001935959,
+        "label":"Projectile Acceleration I",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_faster_projectiles_projectile_speed_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ProjectileSpeed",
+              "type":"MORE"
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportProjectileAccelerationPlayerThree":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Projectile skills, making those Projectiles travel faster, and causing increases and reductions to Projectile speed to also apply to Damage.",
+    "excludeSkillTypes":[43],
+    "gemFamily":["ProjectileSpeed"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Projectile Acceleration III",
+    "requireSkillTypes":[3,11],
+    "statSets":[{
+        "baseEffectiveness":0,
+        "baseFlags":[],
+        "constantStats":[["support_faster_projectiles_projectile_speed_+%_final",40]],
+        "incrementalEffectiveness":0.092720001935959,
+        "label":"Projectile Acceleration III",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_faster_projectiles_projectile_speed_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ProjectileSpeed",
+              "type":"MORE"
+            }]
+        },
+        "stats":["projectile_speed_additive_modifiers_also_apply_to_projectile_damage"]
+      }],
+    "support":true
+  },
+  "SupportProjectileAccelerationPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Projectile skills, making those Projectiles travel faster, and granting them a chance to Pierce Enemies.",
+    "excludeSkillTypes":[43],
+    "gemFamily":["ProjectileSpeed"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Projectile Acceleration II",
+    "requireSkillTypes":[3,11],
+    "statSets":[{
+        "baseEffectiveness":0,
+        "baseFlags":[],
+        "constantStats":[["support_faster_projectiles_projectile_speed_+%_final",40],["base_chance_to_pierce_%",40]],
+        "incrementalEffectiveness":0.092720001935959,
+        "label":"Projectile Acceleration II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_faster_projectiles_projectile_speed_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ProjectileSpeed",
+              "type":"MORE"
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportProjectileDecelerationPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Projectile skills, making those Projectiles travel more slowly.",
+    "excludeSkillTypes":[43],
+    "gemFamily":["ProjectileSpeed"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Projectile Deceleration I",
+    "requireSkillTypes":[3,11],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_slower_projectiles_projectile_speed_+%_final",-25]],
+        "incrementalEffectiveness":0.092720001935959,
+        "label":"Projectile Deceleration I",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_slower_projectiles_projectile_speed_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ProjectileSpeed",
+              "type":"MORE"
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportProjectileDecelerationPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Projectile skills, making those Projectiles travel more slowly.",
+    "excludeSkillTypes":[43],
+    "gemFamily":["ProjectileSpeed"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Projectile Deceleration II",
+    "requireSkillTypes":[3,11],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_slower_projectiles_projectile_speed_+%_final",-30]],
+        "incrementalEffectiveness":0.092720001935959,
+        "label":"Projectile Deceleration II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_slower_projectiles_projectile_speed_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ProjectileSpeed",
+              "type":"MORE"
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
   "SupportPunchThroughPlayer":{
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Melee Attack Skills. Supported Skills apply Easy Target when Knocking Back Enemies, causing the next Projectile Attack Hit they take to deal increased Damage.",
     "excludeSkillTypes":[],
+    "gemFamily":["PunchThrough"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":15
@@ -2346,17 +3941,18 @@
     "color":2,
     "description":"Supports Melee Attacks. Supported Skills deal more Melee damage if you have struck with a Projectile Attack Hit in the last eight seconds, but cannot themselves deal Projectile Damage.",
     "excludeSkillTypes":[],
+    "gemFamily":["Pursuit"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":20
       }],
-    "name":"Pursuit",
+    "name":"Pursuit I",
     "requireSkillTypes":[20,1,74],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_advancing_assault_melee_damage_+%_final_if_projectile_attack_damage_hit_in_past_8_seconds",25],["support_advancing_assault_projectile_damage_+%_final",-100]],
+        "constantStats":[["support_advancing_assault_melee_damage_+%_final_if_projectile_attack_damage_hit_in_past_8_seconds",20],["support_advancing_assault_projectile_damage_+%_final",-100]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Pursuit",
+        "label":"Pursuit I",
         "levels":[{
             "actorLevel":1
           }],
@@ -2383,45 +3979,195 @@
       }],
     "support":true
   },
-  "SupportReachPlayer":{
+  "SupportPursuitPlayerThree":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports Attack Skills which deal Damage in an Area. Supported Skills have significantly increased Area of Effect, but are less Accurate against nearby targets.",
+    "description":"Supports Melee Attacks. Supported Skills deal more Melee damage if you have struck with a Projectile Attack Hit in the last two seconds, but cannot themselves deal Projectile Damage.",
     "excludeSkillTypes":[],
+    "gemFamily":["Pursuit"],
     "levels":[{
-        "levelRequirement":0
+        "levelRequirement":0,
+        "manaMultiplier":20
       }],
-    "name":"Reach",
-    "requireSkillTypes":[1,8,74],
+    "name":"Pursuit III",
+    "requireSkillTypes":[20,1,74],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_reach_area_of_effect_+%_final",35],["support_reach_accuracy_within_2m_+%_final",-80]],
+        "constantStats":[["support_advancing_assault_melee_damage_+%_final_if_projectile_attack_damage_hit_in_past_2_seconds",30],["support_advancing_assault_projectile_damage_+%_final",-100]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Reach",
+        "label":"Pursuit III",
         "levels":[{
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
-          "support_reach_accuracy_within_2m_+%_final":[{
-              "flags":0,
+          "support_advancing_assault_melee_damage_+%_final_if_projectile_attack_damage_hit_in_past_2_seconds":[{
+              "flags":256,
               "keywordFlags":0,
-              "name":"Accuracy",
+              "name":"Damage",
               "type":"MORE",
               "1":{
-                "threshold":20,
-                "type":"MultiplierThreshold",
-                "upper":true,
-                "var":"enemyDistance"
+                "type":"Condition",
+                "var":"HitProjectileRecently"
               }
             }],
-          "support_reach_area_of_effect_+%_final":[{
-              "flags":0,
+          "support_advancing_assault_projectile_damage_+%_final":[{
+              "flags":1024,
               "keywordFlags":0,
-              "name":"AreaOfEffect",
+              "name":"Damage",
               "type":"MORE"
             }]
         },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportPursuitPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Melee Attacks. Supported Skills deal more Melee damage if you have struck with a Projectile Attack Hit in the last eight seconds, but cannot themselves deal Projectile Damage.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Pursuit"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Pursuit II",
+    "requireSkillTypes":[20,1,74],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_advancing_assault_melee_damage_+%_final_if_projectile_attack_damage_hit_in_past_8_seconds",25],["support_advancing_assault_projectile_damage_+%_final",-100]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Pursuit II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_advancing_assault_melee_damage_+%_final_if_projectile_attack_damage_hit_in_past_8_seconds":[{
+              "flags":256,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "type":"Condition",
+                "var":"HitProjectileRecently"
+              }
+            }],
+          "support_advancing_assault_projectile_damage_+%_final":[{
+              "flags":1024,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE"
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportRakiatasFlowPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Skills that can cause Damaging Hits, causing those Hits to treat Enemy Elemental Resistances as inverted.",
+    "excludeSkillTypes":[],
+    "gemFamily":["RakiataLineage"],
+    "isLineage":true,
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Rakiata's Flow",
+    "requireSkillTypes":[7,1],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["treat_enemy_resistances_as_negated_on_elemental_damage_hit_%_chance",100]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Rakiata's Flow",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportRapidAttacksPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Attacks, causing them to Attack faster.",
+    "excludeSkillTypes":[52,218],
+    "gemFamily":["RapidAttacks"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Rapid Attacks I",
+    "requireSkillTypes":[1,117],
+    "statSets":[{
+        "baseEffectiveness":0,
+        "baseFlags":[],
+        "constantStats":[["attack_speed_+%",15]],
+        "incrementalEffectiveness":0.092720001935959,
+        "label":"Rapid Attacks I",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportRapidAttacksPlayerThree":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Attacks, causing them to Attack faster at the cost of Damage.",
+    "excludeSkillTypes":[52,218],
+    "gemFamily":["RapidAttacks"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Rapid Attacks III",
+    "requireSkillTypes":[1,117],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["attack_speed_+%",35],["support_faster_attacks_damage_+%_final",-50]],
+        "incrementalEffectiveness":0.092720001935959,
+        "label":"Rapid Attacks III",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_faster_attacks_damage_+%_final":[{
+              "flags":1,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE"
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportRapidAttacksPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Attacks, causing them to Attack faster.",
+    "excludeSkillTypes":[52,218],
+    "gemFamily":["RapidAttacks"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Rapid Attacks II",
+    "requireSkillTypes":[1,117],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["attack_speed_+%",25]],
+        "incrementalEffectiveness":0.092720001935959,
+        "label":"Rapid Attacks II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
         "stats":[]
       }],
     "support":true
@@ -2431,17 +4177,18 @@
     "color":2,
     "description":"Supports Skills which create Hazards. Hazards created by Supported Skills have a chance to be rearmed a short duration after triggering.",
     "excludeSkillTypes":[],
+    "gemFamily":["Rearm"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":10
       }],
-    "name":"Rearm",
+    "name":"Rearm I",
     "requireSkillTypes":[203],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["hazard_rearm_%_chance",25]],
+        "constantStats":[["hazard_rearm_%_chance",20]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Rearm",
+        "label":"Rearm I",
         "levels":[{
             "actorLevel":1
           }],
@@ -2450,22 +4197,23 @@
       }],
     "support":true
   },
-  "SupportRetortPlayer":{
+  "SupportRearmPlayerTwo":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports Attacks you use yourself, causing them to Consume the Parried Debuff on Hit to grant you a Frenzy Charge. Cannot support Skills which already Consume the Parried Debuff.",
-    "excludeSkillTypes":[6,95,216],
-    "ignoreMinionTypes":true,
+    "description":"Supports Skills which create Hazards. Hazards created by Supported Skills have a chance to be rearmed a short duration after triggering.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Rearm"],
     "levels":[{
-        "levelRequirement":0
+        "levelRequirement":0,
+        "manaMultiplier":10
       }],
-    "name":"Retort",
-    "requireSkillTypes":[1],
+    "name":"Rearm II",
+    "requireSkillTypes":[203],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["consume_parry_debuff_on_hit_to_gain_X_frenzy_charges",1]],
+        "constantStats":[["hazard_rearm_%_chance",30]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Retort",
+        "label":"Rearm II",
         "levels":[{
             "actorLevel":1
           }],
@@ -2479,17 +4227,104 @@
     "color":2,
     "description":"Supports Skills which create Projectiles. Supported Skills deal more damage with Projectiles if you have struck with a Melee Hit in the last eight seconds, but cannot themselves deal Melee Damage.",
     "excludeSkillTypes":[],
+    "gemFamily":["Retreat"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":20
       }],
-    "name":"Retreat",
+    "name":"Retreat I",
+    "requireSkillTypes":[3],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_retreating_assault_projectile_damage_+%_final_if_melee_hit_in_past_8_seconds",20],["support_retreating_assault_melee_damage_+%_final",-100]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Retreat I",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_retreating_assault_melee_damage_+%_final":[{
+              "flags":256,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE"
+            }],
+          "support_retreating_assault_projectile_damage_+%_final_if_melee_hit_in_past_8_seconds":[{
+              "flags":1024,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "type":"Condition",
+                "var":"HitMeleeRecently"
+              }
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportRetreatPlayerThree":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Skills which create Projectiles. Supported Skills deal more damage with Projectiles if you have struck with a Melee Hit in the last two seconds, but cannot themselves deal Melee Damage.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Retreat"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Retreat III",
+    "requireSkillTypes":[3],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_retreating_assault_projectile_damage_+%_final_if_melee_hit_in_past_2_seconds",30],["support_retreating_assault_melee_damage_+%_final",-100]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Retreat III",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_retreating_assault_melee_damage_+%_final":[{
+              "flags":256,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE"
+            }],
+          "support_retreating_assault_projectile_damage_+%_final_if_melee_hit_in_past_2_seconds":[{
+              "flags":1024,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "type":"Condition",
+                "var":"HitMeleeRecently"
+              }
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportRetreatPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Skills which create Projectiles. Supported Skills deal more damage with Projectiles if you have struck with a Melee Hit in the last eight seconds, but cannot themselves deal Melee Damage.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Retreat"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Retreat II",
     "requireSkillTypes":[3],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_retreating_assault_projectile_damage_+%_final_if_melee_hit_in_past_8_seconds",25],["support_retreating_assault_melee_damage_+%_final",-100]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Retreat",
+        "label":"Retreat II",
         "levels":[{
             "actorLevel":1
           }],
@@ -2521,16 +4356,90 @@
     "color":2,
     "description":"Supports any Skill which creates Projectiles, giving those Projectiles a chance to Chain when impacting terrain.",
     "excludeSkillTypes":[163,220],
+    "gemFamily":["Ricochet"],
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Ricochet",
+    "name":"Ricochet I",
     "requireSkillTypes":[3],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["projectile_chance_to_chain_1_extra_time_from_terrain_%",40]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Ricochet",
+        "label":"Ricochet I",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportRicochetPlayerThree":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports any Skill which creates Projectiles, causing those Projectiles to Chain when impacting terrain, at the cost of any additional Projectiles, as well as causing them to always Pierce.",
+    "excludeSkillTypes":[163,220],
+    "gemFamily":["Ricochet"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Ricochet III",
+    "requireSkillTypes":[3],
+    "statSets":[{
+        "baseFlags":[],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Ricochet III",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":["additional_projectiles_instead_applies_to_number_of_terrain_chains","always_pierce"]
+      }],
+    "support":true
+  },
+  "SupportRicochetPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports any Skill which creates Projectiles, giving those Projectiles a chance to Chain when impacting terrain.",
+    "excludeSkillTypes":[163,220],
+    "gemFamily":["Ricochet"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Ricochet II",
+    "requireSkillTypes":[3],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["projectile_chance_to_chain_1_extra_time_from_terrain_%",50]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Ricochet II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportRigwaldsFerocityPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Attack skills, granting them Attack Speed at the cost of Damage or Damage at the cost of Attack Speed depending on Weapon Set they are used in. Does not modify skills used by Minions.",
+    "excludeSkillTypes":[218,64],
+    "gemFamily":["RigwaldLineage"],
+    "ignoreMinionTypes":true,
+    "isLineage":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Rigwald's Ferocity",
+    "requireSkillTypes":[1],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_rigwald_attack_speed_+%_final_in_weapon_set_one",20],["support_rigwald_damage_+%_final_in_weapon_set_one",-15],["support_rigwald_attack_speed_+%_final_in_weapon_set_two",-10],["support_rigwald_damage_+%_final_in_weapon_set_two",30]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Rigwald's Ferocity",
         "levels":[{
             "actorLevel":1
           }],
@@ -2543,7 +4452,8 @@
     "addSkillTypes":[188,190],
     "color":2,
     "description":"Supports Attack Skills you use yourself which fire Projectiles. Supported Skills accumulate Seals over time, and consume them when used. For each Seal consumed, the Attack will fire additional Projectiles. Projectiles from Supported Skills are fired in random directions. Cannot Support Skills which require Combo, have a Cooldown or already gain Seals.",
-    "excludeSkillTypes":[6,95,38,90,152,188,190,75,74],
+    "excludeSkillTypes":[139,37,6,95,38,90,152,188,190,75,74],
+    "gemFamily":["AdditionalProjectiles"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -2565,19 +4475,21 @@
   "SupportSecondWindPlayer":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports skills with cooldowns, giving them extra uses of that cooldown.\nCannot support instant or triggered skills.",
+    "description":"Supports skills with cooldowns, giving them extra uses of that cooldown.\nCannot support instant or triggered skills, or modify the skills of minions.",
     "excludeSkillTypes":[37,64],
+    "gemFamily":["SecondWind"],
+    "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":50
       }],
-    "name":"Second Wind",
+    "name":"Second Wind I",
     "requireSkillTypes":[90],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["base_cooldown_speed_+%_final",-50]],
         "incrementalEffectiveness":0.092720001935959,
-        "label":"Second Wind",
+        "label":"Second Wind I",
         "levels":[{
             "actorLevel":1
           }],
@@ -2586,11 +4498,97 @@
       }],
     "support":true
   },
+  "SupportSecondWindPlayerThree":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports skills with cooldowns, giving them extra uses of that cooldown and causing them to restore Life on use.\nCannot support instant or triggered skills, or modify the skills of minions.",
+    "excludeSkillTypes":[37,64],
+    "gemFamily":["SecondWind"],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":50
+      }],
+    "name":"Second Wind III",
+    "requireSkillTypes":[90],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["base_cooldown_speed_+%_final",-40],["restore_%_life_on_skill_use_per_1000_ms_cooldown",2]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Second Wind III",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":["support_double_number_of_cooldown_uses"]
+      }],
+    "support":true
+  },
+  "SupportSecondWindPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports skills with cooldowns, giving them extra uses of that cooldown.\nCannot support instant or triggered skills, or modify the skills of minions.",
+    "excludeSkillTypes":[37,64],
+    "gemFamily":["SecondWind"],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":50
+      }],
+    "name":"Second Wind II",
+    "requireSkillTypes":[90],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["base_cooldown_speed_+%_final",-40]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Second Wind II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":["support_double_number_of_cooldown_uses"]
+      }],
+    "support":true
+  },
+  "SupportShockPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports any skill that Hits enemies, making it more likely to Shock.",
+    "excludeSkillTypes":[],
+    "gemFamily":["Shock"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Shock",
+    "requireSkillTypes":[7,1,117],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_conduction_chance_to_shock_+%_final",100]],
+        "incrementalEffectiveness":0.092720001935959,
+        "label":"Shock",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_conduction_chance_to_shock_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"EnemyShockChance",
+              "type":"MORE"
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
   "SupportShockingLeapPlayer":{
     "addSkillTypes":[168,8,9],
     "color":2,
     "description":"Supports Skills that leap into the air and deal damage, causing them to create Shocked Ground the first time they Critically Hit an enemy.",
     "excludeSkillTypes":[],
+    "gemFamily":["ShockingLeap"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -2609,57 +4607,26 @@
       }],
     "support":true
   },
-  "SupportSingleOutPlayer":{
+  "SupportSlowPotencyPlayer":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports Mark Skills. Enemies affected by Supported Marks will have their Armour Broken by Physical Damage they take.",
+    "description":"Supports any skill, causing inflicted Slows to be more powerful.",
     "excludeSkillTypes":[],
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":20
-      }],
-    "name":"Single Out",
-    "requireSkillTypes":[98],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["marked_target_%_physical_damage_taken_as_armour_break",10]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Single Out",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
-      }],
-    "support":true
-  },
-  "SupportSlowerProjectilesPlayer":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports Projectile skills, making those Projectiles travel more slowly.",
-    "excludeSkillTypes":[43],
+    "gemFamily":["Encumberance"],
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Deceleration",
-    "requireSkillTypes":[3,11],
+    "name":"Slow Potency",
+    "requireSkillTypes":[7,1,2,49,117],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_slower_projectiles_projectile_speed_+%_final",-30]],
-        "incrementalEffectiveness":0.092720001935959,
-        "label":"Deceleration",
+        "constantStats":[["base_debuff_slow_magnitude_+%",15]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Slow Potency",
         "levels":[{
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "support_slower_projectiles_projectile_speed_+%_final":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"ProjectileSpeed",
-              "type":"MORE"
-            }]
-        },
         "stats":[]
       }],
     "support":true
@@ -2668,7 +4635,8 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Bow or Spear Projectile Attacks you use yourself. Supported Skills deal lower damage initially, but generate Spectral Projectiles, which deal more damage when they fire. Spectral Projectiles linger and will fire a short duration after no new Spectral Projectiles have been created. Cannot support Channelling Skills, Leaping skills, or skills which rain Projectiles from above.",
-    "excludeSkillTypes":[89,48,162],
+    "excludeSkillTypes":[139,89,48,162,37],
+    "gemFamily":["SpectralVolley"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":20
@@ -2684,7 +4652,7 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["skill_has_spectral_arrows","triggered_skills_ignore_cost"]
+        "stats":["skill_has_spectral_arrows"]
       }],
     "support":true
   },
@@ -2693,6 +4661,7 @@
     "color":2,
     "description":"Supports Projectile Skills and Skills which can Chain. Supported Skills always Chain when initially Hitting a Shocked Enemy, but cannot themselves inflict Shock. Does not support Skills which cannot Chain.",
     "excludeSkillTypes":[176,163],
+    "gemFamily":["Stormchain"],
     "levels":[{
         "levelRequirement":0
       }],
@@ -2711,21 +4680,73 @@
       }],
     "support":true
   },
+  "SupportStreamlinedRoundsPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Crossbow Ammunition Skills. Supported Skills have significantly higher Attack speed and bolt capacity, but deal less damage and have longer reload time.",
+    "excludeSkillTypes":[],
+    "gemFamily":["StreamlinedRounds"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Streamlined Rounds",
+    "requireSkillTypes":[116,117],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_double_barrel_number_of_crossbow_bolts_+",5],["support_auto_shotgun_attack_speed_+%_final",50],["support_auto_shotgun_damage_+%_final",-60],["support_auto_shotgun_projectile_count_+%_final",0],["support_auto_shotgun_reload_speed_+%_final",-50]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Streamlined Rounds",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_auto_shotgun_attack_speed_+%_final":[{
+              "flags":1,
+              "keywordFlags":0,
+              "name":"Speed",
+              "type":"MORE"
+            }],
+          "support_auto_shotgun_damage_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE"
+            }],
+          "support_auto_shotgun_reload_speed_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ReloadSpeed",
+              "type":"MORE"
+            }],
+          "support_double_barrel_number_of_crossbow_bolts_+":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"CrossbowBoltCount",
+              "type":"BASE"
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
   "SupportSwiftAfflictionPlayer":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports any skill that deals damage, causing it to deal more damage over time but have a shorter duration.",
+    "description":"Supports any skill that deals damage, causing it to deal more non-Ailment damage over time but have a shorter duration.",
     "excludeSkillTypes":[],
+    "gemFamily":["SwiftAffliction"],
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Swift Affliction",
+    "name":"Swift Affliction I",
     "requireSkillTypes":[7,1,35,117],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_rapid_decay_damage_over_time_+%_final",30],["support_swift_affliction_skill_effect_and_damaging_ailment_duration_+%_final",-20]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Swift Affliction",
+        "label":"Swift Affliction I",
         "levels":[{
             "actorLevel":1
           }],
@@ -2742,11 +4763,145 @@
       }],
     "support":true
   },
+  "SupportSwiftAfflictionPlayerThree":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports any skill that deals damage, causing effects with a duration of one second or less to deal more non-Ailment damage over time.",
+    "excludeSkillTypes":[],
+    "gemFamily":["SwiftAffliction"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Swift Affliction III",
+    "requireSkillTypes":[7,1,35,117],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_swift_affliction_skill_effect_and_damaging_ailment_duration_+%_final",-30],["support_swift_affliction_non_ailment_damage_over_time_+%_final_if_duration_below_1_second",50]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Swift Affliction III",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_swift_affliction_non_ailment_damage_over_time_+%_final_if_duration_below_1_second":[{
+              "flags":8,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "stat":"Duration",
+                "threshold":1,
+                "type":"StatThreshold",
+                "upper":true
+              }
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportSwiftAfflictionPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports any skill that deals damage, causing it to deal more non-Ailment damage over time but have a shorter duration.",
+    "excludeSkillTypes":[],
+    "gemFamily":["SwiftAffliction"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Swift Affliction II",
+    "requireSkillTypes":[7,1,35,117],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_rapid_decay_damage_over_time_+%_final",30],["support_swift_affliction_skill_effect_and_damaging_ailment_duration_+%_final",-10]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Swift Affliction II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_rapid_decay_damage_over_time_+%_final":[{
+              "flags":8,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE"
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportTacatisIrePlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Skills which can cause Damaging Hits. Poison inflicted with Supported Skills deals Damage faster the higher your Rage.",
+    "excludeSkillTypes":[],
+    "gemFamily":["TacatiLineage"],
+    "isLineage":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Tacati's Ire",
+    "requireSkillTypes":[1,7],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["faster_poison_%_per_current_rage",1]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Tacati's Ire",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "faster_poison_%_per_current_rage":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"PoisonFaster",
+              "type":"INC",
+              "1":{
+                "stat":"Rage",
+                "type":"PerStat"
+              }
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportTulsStillnessPlayer":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Skills that can cause Damaging Hits, granting extra Chaos damage and causing Chaos damage to Contribute to Freeze Buildup.",
+    "excludeSkillTypes":[],
+    "gemFamily":["BreachLineage"],
+    "isLineage":true,
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Tul's Stillness",
+    "requireSkillTypes":[7,1],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["non_skill_base_cold_damage_%_to_gain_as_chaos",20]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Tul's Stillness",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":["chaos_damage_can_freeze"]
+      }],
+    "support":true
+  },
   "SupportTumultPlayer":{
     "addSkillTypes":[221],
     "color":2,
     "description":"Supports Skills you use yourself which can cause Damaging Hits. Supported Skills consume a Frenzy Charge on use to powerfully Break Armour.",
-    "excludeSkillTypes":[95,25,6,33,36,172,221,75,74],
+    "excludeSkillTypes":[139,37,95,25,6,33,36,172,221,75,74],
+    "gemFamily":["Tumult"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
@@ -2766,36 +4921,12 @@
       }],
     "support":true
   },
-  "SupportTwofoldPlayer":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports any Skill that Consumes Charges, granting a chance for benefits of that Consumption to be doubled.",
-    "excludeSkillTypes":[],
-    "ignoreMinionTypes":true,
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":15
-      }],
-    "name":"Twofold",
-    "requireSkillTypes":[131],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["chance_%_to_double_effect_of_removing_charges",20]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Twofold",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
-      }],
-    "support":true
-  },
   "SupportUnerringPowerPlayer":{
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Attack Skills you use yourself. When Supported Attacks are Empowered, they have significantly lowered cost and raised Accuracy.",
-    "excludeSkillTypes":[95,25],
+    "excludeSkillTypes":[139,95,25,37],
+    "gemFamily":["UnerringPower"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
@@ -2841,7 +4972,8 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Attack Skills you use yourself. While using Supported Skills, you gain increased Evasion Rating, with the increase scaling higher the longer the Attack time of the supported Skill. Cannot Support Channelling Skills.",
-    "excludeSkillTypes":[6,95,25,48],
+    "excludeSkillTypes":[139,6,95,25,48,37],
+    "gemFamily":["Untouchable"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0,
@@ -2865,17 +4997,18 @@
   "SupportVoltPlayer":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports Projectile Attack Skills you use yourself. Supported Skills gain Voltaic Charge as you move, up to a maximum. When used, Supported Skills expend that Charge to gain extra Lightning Damage and Chain.",
-    "excludeSkillTypes":[6,95],
+    "description":"Supports Projectile Attack Skills you use yourself. Supported Skills gain Voltaic Charge as you move, up to a maximum. When used, Supported Skills expend that Charge to gain extra Lightning Damage.",
+    "excludeSkillTypes":[139,6,95,37],
+    "gemFamily":["Volt"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":20
       }],
     "name":"Volt",
-    "requireSkillTypes":[41],
+    "requireSkillTypes":[1,3,74],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_static_charge_charge_gain_per_metre",3],["support_static_charge_X_chains_per_10_charge",1],["support_static_charge_%_damage_gained_as_lightning_per_10_charge",5],["support_static_charge_maximum_charge",30]],
+        "constantStats":[["support_static_charge_charge_gain_per_metre",3],["support_static_charge_%_damage_gained_as_lightning_per_10_charge",5],["support_static_charge_maximum_charge",30]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Volt",
         "levels":[{
@@ -2891,6 +5024,8 @@
     "color":2,
     "description":"Supports Persistent Buff Skills, causing Freeze applied to you to last for a shorter duration while the Supported Skill is active.",
     "excludeSkillTypes":[],
+    "gemFamily":["WarmBlooded"],
+    "isLineage":true,
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":15
@@ -2928,16 +5063,17 @@
     "color":2,
     "description":"Supports Channelling skills that have special effects if released with Perfect Timing, causing them to deal much more damage if released with Perfect Timing but reducing the Perfect Timing window.",
     "excludeSkillTypes":[],
+    "gemFamily":["WindowOfOpportunity"],
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Window of Opportunity",
+    "name":"Window of Opportunity I",
     "requireSkillTypes":[149],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["perfect_timing_window_ms_+%",-35],["support_window_of_opportunity_perfect_timing_damage_+%_final",35]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Window of Opportunity",
+        "label":"Window of Opportunity I",
         "levels":[{
             "actorLevel":1
           }],
@@ -2958,13 +5094,84 @@
       }],
     "support":true
   },
+  "SupportWindowOfOpportunityPlayerTwo":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports Channelling skills that have special effects if released with Perfect Timing, causing them to deal much more damage and grant Perfect Deflection if released with Perfect Timing but reducing the Perfect Timing window.",
+    "excludeSkillTypes":[],
+    "gemFamily":["WindowOfOpportunity"],
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Window of Opportunity II",
+    "requireSkillTypes":[149],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["perfect_timing_window_ms_+%",-35],["support_window_of_opportunity_perfect_timing_damage_+%_final",35],["gain_%_of_evasion_as_deflection_rating_on_perfect_timing_for_8_seconds",15]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Window of Opportunity II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_window_of_opportunity_perfect_timing_damage_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "type":"Condition",
+                "var":"PerfectTiming"
+              }
+            }]
+        },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "TriggeredBrambleslamPlayer":{
+    "castTime":1,
+    "description":"Hazardous thorns damage and Maim enemies with which they come in contact.",
+    "hidden":true,
+    "levels":[{
+        "cooldown":0.15,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Brambles",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "7":true,
+      "8":true,
+      "27":true,
+      "31":true,
+      "37":true,
+      "115":true,
+      "203":true,
+      "218":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true
+        },
+        "constantStats":[["active_skill_base_area_of_effect_radius",10],["triggered_by_briarpatch_support_on_slam_%",100],["base_skill_effect_duration",8000],["briarpatches_arming_time_ms",400],["active_skill_has_%_standard_scaling_attack_damage",35],["ice_crystals_hazard_damage_+%_final_for_first_500_ms_when_not_killed_by_self",-80]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Brambles",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"triggered_briar_patch",
+        "stats":["is_hazard","global_maim_on_hit","additive_thorns_damage_modifiers_apply_to_attack_damage"]
+      }]
+  },
   "TriggeredCaltropsPlayer":{
     "castTime":1,
-    "description":"Maims and deals Physical area damage when triggered by an Enemy. Caltrops are destroyed when triggered, and a maximum of 20 Caltrops can be active at once.",
+    "description":"Maims and deals Attack area damage when triggered by an Enemy. Caltrops are destroyed when triggered, and a maximum of 20 Caltrops can be active at once.",
     "hidden":true,
     "levels":[{
         "attackTime":1,
-        "critChance":5,
         "levelRequirement":0
       }],
     "name":"Caltrops",
@@ -2975,7 +5182,6 @@
       "7":true,
       "8":true,
       "9":true,
-      "27":true,
       "31":true,
       "37":true,
       "115":true,
@@ -2988,10 +5194,11 @@
     "statSets":[{
         "baseFlags":{
           "area":true,
+          "attack":true,
           "duration":true,
           "projectile":true
         },
-        "constantStats":[["triggered_by_caltrops_support_%",100],["base_number_of_projectiles",1],["active_skill_base_area_of_effect_radius",5],["active_skill_base_secondary_area_of_effect_radius",30],["base_skill_effect_duration",8000],["main_hand_base_physical_damage_from_%_dex",60]],
+        "constantStats":[["triggered_by_caltrops_support_%",100],["base_number_of_projectiles",1],["active_skill_base_area_of_effect_radius",5],["active_skill_base_secondary_area_of_effect_radius",30],["base_skill_effect_duration",8000],["active_skill_has_%_standard_scaling_attack_damage",75]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Caltrops",
         "levels":[{
@@ -2999,6 +5206,42 @@
           }],
         "statDescriptionScope":"triggered_caltrops",
         "stats":["global_maim_on_hit","additive_thorns_damage_modifiers_apply_to_attack_damage","replace_main_hand_unarmed_attack_stats_with_nothing_type","base_is_projectile","is_hazard","is_area_damage","projectiles_not_offset"]
+      }]
+  },
+  "TriggeredSupportFrozenSpiteIceFragmentPlayer":{
+    "castTime":1,
+    "description":"Explodes to deal Cold Damage in an area after a short delay, based on the life of the slain frozen Enemy.",
+    "hidden":true,
+    "levels":[{
+        "baseMultiplier":0.75,
+        "levelRequirement":0
+      }],
+    "name":"Ice Fragments",
+    "qualityStats":[],
+    "skillTypes":{
+      "3":true,
+      "8":true,
+      "29":true,
+      "31":true,
+      "37":true,
+      "115":true,
+      "217":true,
+      "239":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "hit":true,
+          "projectile":true
+        },
+        "constantStats":[["triggered_by_frozen_spite_support_%",100],["active_skill_base_area_of_effect_radius",15],["support_frozen_spite_%_enemy_maximum_life_dealt_as_cold_damage",10],["ballistic_ice_chunk_cone_angle",360],["base_skill_detonation_time",1500],["base_number_of_projectiles",3]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Ice Fragments",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"triggered_support_frozen_spite_ice_fragment",
+        "stats":["base_is_projectile","ballistic_projectiles_always_bounce","triggerable_in_any_set","usable_while_shapeshifted","is_area_damage","never_freeze"]
       }]
   }
 }

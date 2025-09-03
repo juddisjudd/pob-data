@@ -1,13 +1,37 @@
 {
   "active_skill_base_secondary_area_of_effect_radius":1,
-  "base_skill_effect_duration":2,
+  "base_projectiles_cannot_chain":2,
+  "base_skill_effect_duration":5,
+  "cannot_pierce":3,
+  "electrocuting_arrow_%_damage_gained_as_extra_lightning_on_debuffed_target":4,
   "parent":"skill_stat_descriptions",
-  "quality_display_base_skill_effect_duration_is_gem":2,
-  "skill_effect_duration":3,
+  "quality_display_base_skill_effect_duration_is_gem":5,
+  "skill_effect_duration":6,
   "1":{
     "stats":["active_skill_base_secondary_area_of_effect_radius"]
   },
   "2":{
+    "stats":["base_projectiles_cannot_chain"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Cannot Chain"
+      }]
+  },
+  "3":{
+    "stats":["cannot_pierce"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Cannot Pierce"
+      }]
+  },
+  "4":{
+    "stats":["electrocuting_arrow_%_damage_gained_as_extra_lightning_on_debuffed_target"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Hits against targets with attached Rods gain {0}% of Damage as extra Lightning Damage"
+      }]
+  },
+  "5":{
     "stats":["base_skill_effect_duration","quality_display_base_skill_effect_duration_is_gem"],
     "1":[{
         "limit":[[1000,1000],[0,0]],
@@ -39,7 +63,7 @@
         }
       }]
   },
-  "3":{
+  "6":{
     "stats":["skill_effect_duration"],
     "1":[]
   }

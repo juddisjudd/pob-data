@@ -1,0 +1,26 @@
+{
+  "base_secondary_skill_effect_duration":1,
+  "maximum_corpse_beetles_allowed":2,
+  "parent":"skill_stat_descriptions",
+  "1":{
+    "stats":["base_secondary_skill_effect_duration"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"DNT {0} second duration between Corpse consumptions",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["maximum_corpse_beetles_allowed"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"DNT Maximum {0} Corpse Beetle"
+      },{
+        "limit":[[2,"#"]],
+        "text":"DNT Maximum {0} Corpse Beetles"
+      }]
+  }
+}

@@ -92,6 +92,28 @@
     "spawnLocation":[],
     "spectreReservation":50
   },
+  "LivingLightning":{
+    "accuracy":1,
+    "attackRange":20,
+    "attackTime":1,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":97,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":30,
+    "damage":0.35,
+    "damageSpread":0.8,
+    "fireResist":0,
+    "life":1,
+    "lightningResist":0,
+    "modList":[],
+    "monsterCategory":"Construct",
+    "monsterTags":["construct","extra_small_height","ghost_armour","is_unarmed","melee","physical_affinity","very_fast_movement"],
+    "name":"Living Lightning",
+    "skillList":["LivingLightningZap"],
+    "spawnLocation":[],
+    "spectreReservation":50
+  },
   "ManifestWeapon":{
     "accuracy":1,
     "attackRange":10,
@@ -159,7 +181,7 @@
     "monsterCategory":"Undead",
     "monsterTags":["2HBluntMetal_onhit_audio","bone_armour","bones","fast_movement","has_one_hand_sword","has_one_handed_melee","medium_height","melee","not_dex","not_int","physical_affinity","skeleton","slashing_weapon","undead"],
     "name":"Skeletal Brute",
-    "skillList":["MinionMeleeStep","BoneshatterBruteMinion"],
+    "skillList":["MinionMeleeStep","BoneshatterBruteMinion","ShatteringRoarSkeletalBruteMinion"],
     "spawnLocation":[],
     "spectreReservation":50,
     "weaponType1":"Two Handed Mace"
@@ -209,7 +231,7 @@
     "monsterCategory":"Undead",
     "monsterTags":["bone_armour","bones","caster","cold_affinity","is_unarmed","medium_height","medium_movement","not_dex","not_str","ranged","skeleton","slashing_weapon","Unarmed_onhit_audio","undead"],
     "name":"Skeletal Frost Mage",
-    "skillList":["FrostBoltSkeletonMageMinion","IceBombSkeletonMageMinion"],
+    "skillList":["FrostBoltSkeletonMageMinion","IceArmourSkeletonMageMinion"],
     "spawnLocation":[],
     "spectreReservation":50,
     "weaponType1":"None"
@@ -351,6 +373,27 @@
     "spectreReservation":50,
     "weaponType1":"One Handed Axe"
   },
+  "RavenousSwarm":{
+    "accuracy":1,
+    "attackRange":1,
+    "attackTime":1,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":24,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":30,
+    "damage":0.84,
+    "damageSpread":0.3,
+    "fireResist":0,
+    "life":0.7,
+    "lightningResist":0,
+    "modList":[],
+    "monsterTags":["slow_movement","Unarmed_onhit_audio"],
+    "name":"Ravenous Swarm",
+    "skillList":["RavenousSwarmAttack"],
+    "spawnLocation":[],
+    "spectreReservation":50
+  },
   "SummonedHellhound":{
     "accuracy":1,
     "armour":0.5,
@@ -446,7 +489,7 @@
     "monsterCategory":"Undead",
     "monsterTags":["bones","medium_movement","MonsterStab_onhit_audio","skeleton","undead"],
     "name":"Bone Crawler",
-    "skillList":["MinionMelee"],
+    "skillList":["MinionMelee","DATTBoneConstructPlayerSummoned","GABoneConstructPlayerSummoned"],
     "spawnLocation":[],
     "spectreReservation":50
   }

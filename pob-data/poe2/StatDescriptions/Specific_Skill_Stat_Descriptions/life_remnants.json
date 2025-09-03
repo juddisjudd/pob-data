@@ -1,9 +1,10 @@
 {
   "life_remnants_chance_to_spawn_orb_on_killing_enemy_%":1,
-  "life_remnants_gain_per_globe":3,
+  "life_remnants_gain_per_globe":4,
   "life_remnants_spawn_remnant_on_crit_vs_enemy_every_X_ms":2,
+  "life_remnants_spawn_remnant_on_hit_vs_enemy_every_X_ms":3,
   "parent":"skill_stat_descriptions",
-  "virtual_life_remnants_gain_per_globe":4,
+  "virtual_life_remnants_gain_per_globe":5,
   "1":{
     "stats":["life_remnants_chance_to_spawn_orb_on_killing_enemy_%"],
     "1":[{
@@ -29,13 +30,27 @@
       }]
   },
   "3":{
+    "stats":["life_remnants_spawn_remnant_on_hit_vs_enemy_every_X_ms"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Spawn a Remnant on Hitting a target, no more than once per second"
+      },{
+        "limit":[["#","#"]],
+        "text":"Spawn a Remnant on Hitting a target, no more than once every {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
     "stats":["life_remnants_gain_per_globe"],
     "1":[{
         "limit":[[1,"#"]],
         "text":"Each Remnant grants {0} Life"
       }]
   },
-  "4":{
+  "5":{
     "stats":["virtual_life_remnants_gain_per_globe"],
     "1":[]
   }

@@ -3,10 +3,11 @@
   "active_skill_base_area_of_effect_radius":3,
   "base_skill_effect_duration":4,
   "parent":"skill_stat_descriptions",
-  "skill_effect_duration":5,
+  "sandstorm_swipe_storm_radius_+_per_stage":5,
+  "skill_effect_duration":6,
   "skill_specific_stat_description_mode":1,
-  "windstorm_base_maximum_number_of_storms":6,
-  "windstorm_maximum_number_of_storms":7,
+  "windstorm_base_maximum_number_of_storms":7,
+  "windstorm_maximum_number_of_storms":8,
   "1":{
     "stats":["skill_specific_stat_description_mode"],
     "1":[{
@@ -55,10 +56,21 @@
       }]
   },
   "5":{
+    "stats":["sandstorm_swipe_storm_radius_+_per_stage"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"{0:+d}m to Radius per additional stage",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "6":{
     "stats":["skill_effect_duration"],
     "1":[]
   },
-  "6":{
+  "7":{
     "stats":["windstorm_base_maximum_number_of_storms"],
     "1":[{
         "limit":[[1,1]],
@@ -68,7 +80,7 @@
         "text":"Limit {0} Whirlwinds"
       }]
   },
-  "7":{
+  "8":{
     "stats":["windstorm_maximum_number_of_storms"],
     "1":[]
   }

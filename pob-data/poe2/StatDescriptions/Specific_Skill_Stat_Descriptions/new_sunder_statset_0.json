@@ -1,9 +1,12 @@
 {
   "active_skill_area_of_effect_radius":2,
   "active_skill_base_area_of_effect_radius":3,
+  "base_skill_effect_duration":7,
   "cannot_break_armour":1,
   "parent":"skill_stat_descriptions",
-  "sunder_shockwave_limit_per_cascade":4,
+  "skill_effect_duration":4,
+  "sunder_armor_break_extra_magnitude":6,
+  "sunder_shockwave_limit_per_cascade":5,
   "1":{
     "stats":["cannot_break_armour"]
   },
@@ -30,10 +33,32 @@
       }]
   },
   "4":{
+    "stats":["skill_effect_duration"],
+    "1":[]
+  },
+  "5":{
     "stats":["sunder_shockwave_limit_per_cascade"],
     "1":[{
         "limit":[[1,"#"]],
         "text":"Wave causes Shockwaves from up to {0} Enemies in each Area"
+      }]
+  },
+  "6":{
+    "stats":["sunder_armor_break_extra_magnitude"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Inflicts Sundered Armour on hitting\nFully Armour Broken targets, causing {0}% additional\nincreased Physical damage taken"
+      }]
+  },
+  "7":{
+    "stats":["base_skill_effect_duration"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Sundered Armour has {0} second duration, or until Fully Broken Armour is removed",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
       }]
   }
 }

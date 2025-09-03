@@ -1,0 +1,34 @@
+{
+  "parent":"skill_stat_descriptions",
+  "skill_grant_X_power_charges_against_normal_and_magic_monsters":1,
+  "skill_grant_X_power_charges_against_rare_monsters":1,
+  "skill_grant_X_power_charges_against_unique_monsters":1,
+  "1":{
+    "stats":["skill_grant_X_power_charges_against_normal_and_magic_monsters","skill_grant_X_power_charges_against_rare_monsters","skill_grant_X_power_charges_against_unique_monsters"],
+    "1":[{
+        "limit":[[1,1],[1,1],[1,1]],
+        "text":"Culling a monster grants {2} Power Charge"
+      },{
+        "limit":[[1,1],[1,1],["#","#"]],
+        "text":"Normal and Magic monsters grant {0} Power Charge\nRare monsters grant {1} Power Charge\nUnique monsters grant {2} Power Charges"
+      },{
+        "limit":[[1,1],["#","#"],[1,1]],
+        "text":"Normal and Magic monsters grant {0} Power Charge\nRare monsters grant {1} Power Charges\nUnique monsters grant {2} Power Charge"
+      },{
+        "limit":[["#","#"],[1,1],[1,1]],
+        "text":"Normal and Magic monsters grant {0} Power Charges\nRare monsters grant {1} Power Charge\nUnique monsters grant {2} Power Charge"
+      },{
+        "limit":[["#","#"],[1,1],["#","#"]],
+        "text":"Normal and Magic monsters grant {0} Power Charges\nRare monsters grant {1} Power Charge\nUnique monsters grant {2} Power Charges"
+      },{
+        "limit":[["#","#"],["#","#"],[1,1]],
+        "text":"Normal and Magic monsters grant {0} Power Charges\nRare monsters grant {1} Power Charges\nUnique monsters grant {2} Power Charge"
+      },{
+        "limit":[[1,1],["#","#"],["#","#"]],
+        "text":"Normal and Magic monsters grant {0} Power Charge\nRare monsters grant {1} Power Charges\nUnique monsters grant {2} Power Charges"
+      },{
+        "limit":[["#","#"],["#","#"],["#","#"]],
+        "text":"Normal and Magic monsters grant {0} Power Charges\nRare monsters grant {1} Power Charges\nUnique monsters grant {2} Power Charges"
+      }]
+  }
+}

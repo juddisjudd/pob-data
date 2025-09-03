@@ -1,15 +1,19 @@
 {
-  "active_skill_area_of_effect_radius":1,
-  "active_skill_base_area_of_effect_radius":2,
-  "base_skill_effect_duration":3,
-  "frost_wall_maximum_life":4,
-  "frozen_locus_crystal_display_stat":4,
+  "active_skill_area_of_effect_radius":2,
+  "active_skill_base_area_of_effect_radius":3,
+  "base_knockback_distance":1,
+  "base_skill_effect_duration":4,
+  "frost_wall_maximum_life":5,
+  "frozen_locus_crystal_display_stat":5,
   "parent":"skill_stat_descriptions",
   "1":{
+    "stats":["base_knockback_distance"]
+  },
+  "2":{
     "stats":["active_skill_area_of_effect_radius"],
     "1":[]
   },
-  "2":{
+  "3":{
     "stats":["active_skill_base_area_of_effect_radius"],
     "1":[{
         "limit":[[10,10]],
@@ -27,7 +31,7 @@
         }
       }]
   },
-  "3":{
+  "4":{
     "stats":["base_skill_effect_duration"],
     "1":[{
         "limit":[[1000,1000]],
@@ -45,7 +49,7 @@
         }
       }]
   },
-  "4":{
+  "5":{
     "stats":["frost_wall_maximum_life","frozen_locus_crystal_display_stat"],
     "1":[{
         "limit":[[1,"#"],[0,0]],

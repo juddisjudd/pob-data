@@ -34,10 +34,10 @@
     "stats":["base_skill_buff_damage_+%_final_to_apply"],
     "1":[{
         "limit":[[1,"#"]],
-        "text":"Curse makes Non-Unique targets deal {0}% more Damage"
+        "text":"Curse makes targets deal {0}% more Damage"
       },{
         "limit":[["#",-1]],
-        "text":"Curse makes Non-Unique targets deal {0}% less Damage",
+        "text":"Curse makes targets deal {0}% less Damage",
         "1":{
           "k":"negate",
           "v":1

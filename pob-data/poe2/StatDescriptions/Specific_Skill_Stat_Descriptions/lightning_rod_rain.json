@@ -3,11 +3,13 @@
   "active_skill_base_area_of_effect_radius":3,
   "active_skill_base_secondary_area_of_effect_radius":1,
   "base_skill_effect_duration":4,
+  "lightning_rod_%_chance_for_additional_burst_on_landing":6,
   "lightning_rod_number_of_chains_allowed":5,
-  "number_of_lightning_rods_allowed":6,
+  "number_of_lightning_rods_allowed":7,
   "parent":"skill_stat_descriptions",
   "quality_display_active_skill_base_area_of_effect_radius_is_gem":3,
-  "skill_effect_duration":7,
+  "skill_effect_duration":8,
+  "virtual_lightning_rod_number_of_chains_allowed":9,
   "1":{
     "stats":["active_skill_base_secondary_area_of_effect_radius"]
   },
@@ -76,6 +78,16 @@
       }]
   },
   "6":{
+    "stats":["lightning_rod_%_chance_for_additional_burst_on_landing"],
+    "1":[{
+        "limit":[[1,99]],
+        "text":"{0}% chance to cause an additional Burst on impact"
+      },{
+        "limit":[[100,"#"]],
+        "text":"Causes an additional Burst on impact"
+      }]
+  },
+  "7":{
     "stats":["number_of_lightning_rods_allowed"],
     "1":[{
         "limit":[[1,1]],
@@ -85,8 +97,12 @@
         "text":"Maximum {0} active Arrows"
       }]
   },
-  "7":{
+  "8":{
     "stats":["skill_effect_duration"],
+    "1":[]
+  },
+  "9":{
+    "stats":["virtual_lightning_rod_number_of_chains_allowed"],
     "1":[]
   }
 }

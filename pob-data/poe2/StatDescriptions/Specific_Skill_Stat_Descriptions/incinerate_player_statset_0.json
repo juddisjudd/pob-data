@@ -2,14 +2,18 @@
   "active_skill_area_of_effect_radius":1,
   "active_skill_base_area_of_effect_radius":2,
   "base_skill_effect_duration":3,
-  "incinerate_buff_exposure_-_to_total_fire_resistance_per_stack":5,
-  "incinerate_damage_+%_final_per_stage":4,
-  "incinerate_maximum_exposure_magnitude":5,
-  "incinerate_maximum_stages":6,
+  "incinerate_buff_exposure_-_to_total_fire_resistance_per_stack":8,
+  "incinerate_damage_+%_final_per_stage":6,
+  "incinerate_fuel_gain_per_mana_spent":4,
+  "incinerate_gain_stage_every_x_ms":7,
+  "incinerate_maximum_exposure_magnitude":8,
+  "incinerate_maximum_fuel":5,
+  "incinerate_maximum_stages":9,
   "parent":"skill_stat_descriptions",
-  "skill_effect_duration":7,
-  "spell_maximum_base_fire_damage":8,
-  "spell_minimum_base_fire_damage":8,
+  "skill_effect_duration":10,
+  "spell_maximum_base_fire_damage":11,
+  "spell_minimum_base_fire_damage":11,
+  "virtual_incinerate_maximum_stages":12,
   "1":{
     "stats":["active_skill_area_of_effect_radius"],
     "1":[]
@@ -51,35 +55,85 @@
       }]
   },
   "4":{
+    "stats":["incinerate_fuel_gain_per_mana_spent"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Gains {0} second of fuel per Mana spent"
+      },{
+        "limit":[["#","#"]],
+        "text":"Gains {0} milliseconds of fuel per Mana spent"
+      }]
+  },
+  "5":{
+    "stats":["incinerate_maximum_fuel"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Can store up to {0} second of fuel",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Can store up to {0} seconds of fuel",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "6":{
     "stats":["incinerate_damage_+%_final_per_stage"],
     "1":[{
         "limit":[["#","#"]],
         "text":"Deals {0}% more damage per stage"
       }]
   },
-  "5":{
+  "7":{
+    "stats":["incinerate_gain_stage_every_x_ms"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Gains a stage every second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Gains a stage every {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "8":{
     "stats":["incinerate_buff_exposure_-_to_total_fire_resistance_per_stack","incinerate_maximum_exposure_magnitude"],
     "1":[{
         "limit":[["#","#"],["#","#"]],
         "text":"Inflicts stacking Fire Exposure at maximum stages, reducing Fire Resistance by {0}% per stack, up to a maximum of {1}%"
       }]
   },
-  "6":{
+  "9":{
     "stats":["incinerate_maximum_stages"],
     "1":[{
         "limit":[["#","#"]],
         "text":"{0} maximum stages"
       }]
   },
-  "7":{
+  "10":{
     "stats":["skill_effect_duration"],
     "1":[]
   },
-  "8":{
+  "11":{
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "1":[{
         "limit":[["#","#"],["#","#"]],
         "text":"Ignites as though dealing {0} to {1} Fire damage"
       }]
+  },
+  "12":{
+    "stats":["virtual_incinerate_maximum_stages"],
+    "1":[]
   }
 }

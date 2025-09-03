@@ -1,10 +1,18 @@
 {
-  "base_skill_effect_duration":1,
-  "display_this_skill_cooldown_does_not_recover_during_buff":2,
+  "base_skill_effect_duration":2,
+  "display_this_skill_cooldown_does_not_recover_during_buff":3,
   "parent":"skill_stat_descriptions",
-  "quality_display_base_skill_effect_duration_is_gem":1,
-  "skill_effect_duration":3,
+  "quality_display_base_skill_effect_duration_is_gem":2,
+  "skill_effect_duration":4,
+  "skill_specific_stat_description_mode":1,
   "1":{
+    "stats":["skill_specific_stat_description_mode"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Cooldown is {0} seconds"
+      }]
+  },
+  "2":{
     "stats":["base_skill_effect_duration","quality_display_base_skill_effect_duration_is_gem"],
     "1":[{
         "limit":[[1000,1000],[0,0]],
@@ -36,14 +44,14 @@
         }
       }]
   },
-  "2":{
+  "3":{
     "stats":["display_this_skill_cooldown_does_not_recover_during_buff"],
     "1":[{
         "limit":[["#","#"]],
         "text":"Cooldown does not recover during Buff effect"
       }]
   },
-  "3":{
+  "4":{
     "stats":["skill_effect_duration"],
     "1":[]
   }

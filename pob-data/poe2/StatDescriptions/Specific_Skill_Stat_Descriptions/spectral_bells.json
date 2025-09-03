@@ -1,0 +1,88 @@
+{
+  "active_skill_area_of_effect_radius":1,
+  "active_skill_base_area_of_effect_radius":2,
+  "active_skill_base_secondary_area_of_effect_radius":3,
+  "base_secondary_skill_effect_duration":4,
+  "base_skill_effect_duration":5,
+  "parent":"skill_stat_descriptions",
+  "spectral_bells_maximum_active_bells":6,
+  "1":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "2":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"DNT Shockwave radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"DNT Shockwave radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["active_skill_base_secondary_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"DNT Spectral Bells can appear within {0} metre of you",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"DNT Spectral Bells can appear within {0} metres of you",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["base_secondary_skill_effect_duration"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"DNT Spectral Bells linger for {0} second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"DNT Spectral Bells linger for {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "5":{
+    "stats":["base_skill_effect_duration"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"DNT {0} second duration between Spectral Bells appearing",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "6":{
+    "stats":["spectral_bells_maximum_active_bells"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"DNT Maximum {0} active Spectral Bell"
+      },{
+        "limit":[[2,"#"]],
+        "text":"DNT Maximum {0} active Spectral Bells"
+      }]
+  }
+}

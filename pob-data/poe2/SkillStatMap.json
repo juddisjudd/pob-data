@@ -377,6 +377,18 @@
       "name":"EnemyFreezeDuration",
       "type":"MORE"
     }],
+  "active_skill_has_%_standard_scaling_attack_damage":{
+    "div":100,
+    "1":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SkillData",
+      "type":"LIST",
+      "value":{
+        "key":"baseMultiplier"
+      }
+    }
+  },
   "active_skill_hit_damage_freeze_multiplier_+%_final":[{
       "flags":0,
       "keywordFlags":0,
@@ -1393,6 +1405,13 @@
       "name":"EnemyShockChance",
       "type":"BASE"
     }],
+  "base_chaos_damage_can_ignite":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"ChaosCanIgnite",
+      "type":"FLAG",
+      "value":true
+    }],
   "base_chaos_damage_resistance_%":[{
       "flags":0,
       "keywordFlags":0,
@@ -2123,6 +2142,15 @@
       "name":"SpellBlockChance",
       "type":"BASE"
     }],
+  "base_spell_cast_time_ms":{
+    "div":1000,
+    "1":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"TotalCastTime",
+      "type":"BASE"
+    }
+  },
   "base_spell_cast_time_ms_override":{
     "div":1000,
     "1":{
@@ -2383,6 +2411,13 @@
       "type":"FLAG",
       "value":true
     }],
+  "cannot_poison":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotPoison",
+      "type":"FLAG",
+      "value":true
+    }],
   "cannot_poison_poisoned_enemies":[{
       "flags":0,
       "keywordFlags":0,
@@ -2459,6 +2494,18 @@
       "keywordFlags":0,
       "name":"Speed",
       "type":"INC"
+    }],
+  "cast_speed_additive_modifiers_also_apply_to_projectile_speed_at_%_value":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CastSpeedAppliesToProjectileSpeed",
+      "type":"FLAG",
+      "value":true
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"ImprovedCastSpeedAppliesToProjectileSpeed",
+      "type":"MAX"
     }],
   "cast_spell_on_linked_attack_crit":[{
       "flags":0,
@@ -2718,6 +2765,13 @@
       "keywordFlags":0,
       "name":"ChaosDamage",
       "type":"INC"
+    }],
+  "chaos_damage_can_shock":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"ChaosCanShock",
+      "type":"FLAG",
+      "value":true
     }],
   "chaos_damage_taken_+%":[{
       "flags":0,
@@ -3657,6 +3711,12 @@
       "name":"GrenadeExplodeTwice",
       "type":"INC"
     }],
+  "grenade_skill_cooldown_speed_+%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CooldownRecovery",
+      "type":"INC"
+    }],
   "hazard_rearm_%_chance":[{
       "flags":0,
       "keywordFlags":0,
@@ -4183,52 +4243,6 @@
         "var":"Ignited"
       }
     }],
-  "minion_1%_accuracy_rating_+%_per_X_player_dexterity":{
-    "div":3,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"Accuracy",
-          "type":"INC",
-          "1":{
-            "actor":"parent",
-            "div":3,
-            "stat":"Dex",
-            "type":"PerStat"
-          }
-        }
-      }
-    }
-  },
-  "minion_1%_damage_+%_per_X_player_strength":{
-    "div":3,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"Damage",
-          "type":"INC",
-          "1":{
-            "actor":"parent",
-            "div":3,
-            "stat":"Str",
-            "type":"PerStat"
-          }
-        }
-      }
-    }
-  },
   "minion_accuracy_rating_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -4679,6 +4693,13 @@
         "value":true
       }
     }],
+  "modifiers_to_warcry_damage_also_apply_to_this":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"WarcryDamageAppliesToSkill",
+      "type":"FLAG",
+      "value":true
+    }],
   "monster_base_block_%":[{
       "flags":0,
       "keywordFlags":0,
@@ -4696,6 +4717,19 @@
       "flags":0,
       "keywordFlags":0,
       "name":"CannotFreeze",
+      "type":"FLAG",
+      "value":true
+    }],
+  "never_freeze_or_chill":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotFreeze",
+      "type":"FLAG",
+      "value":true
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotChill",
       "type":"FLAG",
       "value":true
     }],
@@ -4810,6 +4844,30 @@
       "flags":1,
       "keywordFlags":0,
       "name":"DamageGainAsLightning",
+      "type":"BASE"
+    }],
+  "non_skill_base_cold_damage_%_to_gain_as_chaos":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"ColdDamageGainAsChaos",
+      "type":"BASE"
+    }],
+  "non_skill_base_fire_damage_%_to_gain_as_chaos":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"FireDamageGainAsChaos",
+      "type":"BASE"
+    }],
+  "non_skill_base_lightning_damage_%_to_gain_as_chaos":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"LightningDamageGainAsChaos",
+      "type":"BASE"
+    }],
+  "non_skill_base_physical_damage_%_to_gain_as_chaos":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"PhysicalDamageGainAsChaos",
       "type":"BASE"
     }],
   "nova_skills_cast_at_target_location":[],
@@ -5199,6 +5257,13 @@
       "name":"PerfectTiming",
       "type":"INC"
     }],
+  "perfectly_timed":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Condition:PerfectTiming",
+      "type":"FLAG",
+      "value":true
+    }],
   "physical_damage_%_to_add_as_chaos":[{
       "flags":0,
       "keywordFlags":0,
@@ -5378,6 +5443,13 @@
       "name":"SplitCount",
       "type":"BASE"
     }],
+  "projectile_speed_additive_modifiers_also_apply_to_projectile_damage":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"ProjectileSpeedAppliesToProjectileDamage",
+      "type":"FLAG",
+      "value":true
+    }],
   "projectiles_always_pierce_you":[{
       "flags":0,
       "keywordFlags":0,
@@ -5429,6 +5501,7 @@
   "quality_display_base_duration_is_quality":[],
   "quality_display_base_number_of_projectiles_is_gem":[],
   "quality_display_base_skill_effect_duration_is_gem":[],
+  "quality_display_base_totem_duration_is_gem":[],
   "quality_display_lightning_arrow_is_gem":[],
   "quality_display_mana_tempest_is_gem":[],
   "quality_display_sandstorm_swipe_is_gem":[],
@@ -5843,6 +5916,13 @@
         "skillType":31,
         "type":"SkillType"
       }
+    }],
+  "skill_triggered_manually_by_other_skill":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Condition:Empowered",
+      "type":"FLAG",
+      "value":true
     }],
   "skill_triggered_when_you_focus_chance_%":{
     "div":100,
@@ -6555,6 +6635,32 @@
         }
       }
     }],
+  "support_no_fear_damage_+%_final_per_second_up_to_30%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Damage",
+      "type":"MORE",
+      "1":{
+        "type":"Condition",
+        "var":"UsingStoicism"
+      },
+      "2":{
+        "neg":true,
+        "type":"Condition",
+        "var":"DodgeRolledRecently"
+      },
+      "3":{
+        "neg":true,
+        "type":"Condition",
+        "var":"UsedTravelSkillRecently"
+      },
+      "4":{
+        "limitTotal":true,
+        "limitVar":"StoicismCap",
+        "type":"Multiplier",
+        "var":"StoicismSeconds"
+      }
+    }],
   "support_pierce_projectile_damage_+%_final_if_pierced_enemy":[{
       "flags":1024,
       "keywordFlags":0,
@@ -6570,6 +6676,12 @@
       "flags":0,
       "keywordFlags":0,
       "name":"EnemyShockDuration",
+      "type":"MORE"
+    }],
+  "support_rapid_decay_damage_over_time_+%_final":[{
+      "flags":8,
+      "keywordFlags":0,
+      "name":"Damage",
       "type":"MORE"
     }],
   "support_spell_echo_number_of_echo_cascades":[{
@@ -6606,6 +6718,16 @@
       "type":"LIST",
       "value":{
         "key":"level",
+        "keyword":"grants_active_skill"
+      }
+    }],
+  "supported_active_skill_gem_quality_%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SupportedGemProperty",
+      "type":"LIST",
+      "value":{
+        "key":"quality",
         "keyword":"grants_active_skill"
       }
     }],
@@ -6794,6 +6916,24 @@
       "keywordFlags":0,
       "name":"TotemLife",
       "type":"MORE"
+    }],
+  "totem_maximum_all_elemental_resistances_%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"TotemElementalResistMax",
+      "type":"BASE"
+    }],
+  "totem_skill_attack_speed_+%":[{
+      "flags":1,
+      "keywordFlags":16384,
+      "name":"Speed",
+      "type":"INC"
+    }],
+  "totem_skill_cast_speed_+%":[{
+      "flags":16,
+      "keywordFlags":16384,
+      "name":"Speed",
+      "type":"INC"
     }],
   "totem_support_gem_level":[{
       "flags":0,

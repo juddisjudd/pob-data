@@ -1,0 +1,61 @@
+{
+  "active_skill_base_area_of_effect_radius":4,
+  "ancestral_cry_empowered_attacks_strike_X_additional_enemies":2,
+  "ancestral_cry_non_skill_physical_to_fire_convert_%":5,
+  "base_number_of_projectiles":6,
+  "non_spell_cast_duration_ms":3,
+  "parent":"skill_stat_descriptions",
+  "quality_display_base_number_of_projectiles_is_gem":6,
+  "skill_can_fire_arrows":6,
+  "skill_empower_limitation_specifier_for_stat_description":1,
+  "1":{
+    "stats":["skill_empower_limitation_specifier_for_stat_description"]
+  },
+  "2":{
+    "stats":["ancestral_cry_empowered_attacks_strike_X_additional_enemies"]
+  },
+  "3":{
+    "stats":["non_spell_cast_duration_ms"]
+  },
+  "4":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Impact Radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Impact Radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "5":{
+    "stats":["ancestral_cry_non_skill_physical_to_fire_convert_%"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Converts {0}% of Physical damage to Fire damage"
+      }]
+  },
+  "6":{
+    "stats":["base_number_of_projectiles","skill_can_fire_arrows","quality_display_base_number_of_projectiles_is_gem"],
+    "1":[{
+        "limit":[],
+        "text":"Fires {0:+d} Molten Projectile"
+      },{
+        "limit":[],
+        "text":"Fires {0:+d} Molten Projectiles"
+      },{
+        "limit":[[1,1],["#","#"],["#","#"]],
+        "text":"Fires {0} Molten Projectile"
+      },{
+        "limit":[["#","#"],["#","#"],["#","#"]],
+        "text":"Fires {0} Molten Projectiles"
+      }]
+  }
+}

@@ -1,12 +1,16 @@
 {
-  "active_skill_area_of_effect_radius":1,
-  "active_skill_base_area_of_effect_radius":2,
+  "active_skill_area_of_effect_radius":2,
+  "active_skill_base_area_of_effect_radius":3,
+  "has_freeze_cull":1,
   "parent":"skill_stat_descriptions",
   "1":{
+    "stats":["has_freeze_cull"]
+  },
+  "2":{
     "stats":["active_skill_area_of_effect_radius"],
     "1":[]
   },
-  "2":{
+  "3":{
     "stats":["active_skill_base_area_of_effect_radius"],
     "1":[{
         "limit":[[10,10]],

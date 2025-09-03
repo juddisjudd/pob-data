@@ -1,0 +1,38 @@
+{
+  "active_skill_area_of_effect_radius":1,
+  "active_skill_base_area_of_effect_radius":3,
+  "deadeye_meta_marks_number_of_enemies_to_mark":2,
+  "parent":"skill_stat_descriptions",
+  "1":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "2":{
+    "stats":["deadeye_meta_marks_number_of_enemies_to_mark"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"Applies a socketed Mark to {0} Enemy every five seconds"
+      },{
+        "limit":[[2,"#"]],
+        "text":"Applies a socketed Mark to {0} Enemies every five seconds"
+      }]
+  },
+  "3":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Applies socketed Marks to Enemies within {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Applies socketed Marks to Enemies within {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  }
+}

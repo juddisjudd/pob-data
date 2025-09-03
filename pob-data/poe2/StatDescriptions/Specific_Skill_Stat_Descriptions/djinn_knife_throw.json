@@ -1,0 +1,64 @@
+{
+  "active_skill_area_of_effect_radius":1,
+  "active_skill_base_area_of_effect_radius":2,
+  "active_skill_base_secondary_area_of_effect_radius":3,
+  "djinn_knife_throw_number_of_knives_created":4,
+  "parent":"skill_stat_descriptions",
+  "1":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"DNT Erupting blade creation radius@{0}m",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"DNT Erupting blades are created within {0} metre of initial impact",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[[2,"#"]],
+        "text":"DNT Erupting blades are created within {0} metres of initial impact",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["active_skill_base_secondary_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"DNT Erupting blade radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"DNT Erupting blade radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["djinn_knife_throw_number_of_knives_created"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"DNT Creates {0} erupting blade"
+      },{
+        "limit":[[2,"#"]],
+        "text":"DNT Creates {0} erupting blades"
+      }]
+  }
+}
