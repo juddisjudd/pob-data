@@ -41,7 +41,7 @@
     "monsterCategory":"Beast",
     "monsterTags":["beast","Beast_onhit_audio","bludgeoning_weapon","has_one_hand_mace","has_one_handed_melee","light_armour","mammal_beast","medium_height","melee","not_dex","not_int","physical_affinity","slow_movement"],
     "name":"Ancestral Jade Hulk",
-    "skillList":["MeleeAtAnimationSpeed","DTTAncestralJadeHulkLeapSlam","GAAncestralJadeHulkLeapImpact","TCAncestralLeagueKaruiHulk","GAAncestralLeagueKaruiHulkCharge"],
+    "skillList":["MeleeAtAnimationSpeed","DTTAncestralJadeHulkLeapSlam","GAAncestralJadeHulkLeapImpact","TCAncestralLeagueKaruiHulk","GAAncestralLeagueKaruiHulkCharge","EGJadeHulkWarcryBuff"],
     "spawnLocation":[],
     "spectreReservation":50
   },
@@ -387,7 +387,13 @@
     "fireResist":0,
     "life":0.7,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CannotBeDamaged",
+        "type":"FLAG",
+        "value":1
+      }],
     "monsterTags":["slow_movement","Unarmed_onhit_audio"],
     "name":"Ravenous Swarm",
     "skillList":["RavenousSwarmAttack"],

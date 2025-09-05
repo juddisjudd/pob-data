@@ -111,7 +111,8 @@
   "8":{
     "stats":["base_curse_duration_+%"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[[1,"#"]],
         "text":"{0:+d}% increased duration of socketed Curses"
       },{
         "limit":[[1,"#"]],
@@ -142,7 +143,8 @@
   "10":{
     "stats":["curse_effect_+%"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[["#","#"]],
         "text":"Supported Curses have {0}% increased Magnitudes"
       },{
         "limit":[[1,"#"]],
@@ -191,7 +193,8 @@
   "13":{
     "stats":["mark_effect_+%"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[["#","#"]],
         "text":"{0:+d}% increased Effect of Socketed Marks"
       },{
         "limit":[[1,"#"]],

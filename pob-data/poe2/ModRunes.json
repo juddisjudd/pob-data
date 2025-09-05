@@ -122,14 +122,14 @@
   },
   "Estazunti's Soul Core of Convalescence":{
     "boots":{
-      "statOrder":[8937],
+      "statOrder":[8938],
       "type":"Rune",
       "1":"10% increased speed of Recoup Effects"
     }
   },
   "Farrul's Rune of Grace":{
     "boots":{
-      "statOrder":[8467],
+      "statOrder":[8468],
       "type":"Rune",
       "1":"6% reduced Movement Speed Penalty from using Skills while moving"
     }
@@ -162,7 +162,7 @@
   },
   "Fenumus' Rune of Draining":{
     "gloves":{
-      "statOrder":[9734],
+      "statOrder":[9735],
       "type":"Rune",
       "1":"20% increased Withered Magnitude"
     }
@@ -382,31 +382,31 @@
   },
   "Greater Rune of Leadership":{
     "armour":{
-      "statOrder":[8392],
+      "statOrder":[8393],
       "type":"Rune",
       "1":"Minions take 10% of Physical Damage as Lightning Damage"
     },
     "weapon":{
-      "statOrder":[8391],
+      "statOrder":[8392],
       "type":"Rune",
       "1":"Minions gain 10% of their Physical Damage as Extra Lightning Damage"
     }
   },
   "Greater Rune of Nobility":{
     "armour":{
-      "statOrder":[9107],
+      "statOrder":[9108],
       "type":"Rune",
       "1":"10% reduced effect of Shock on you"
     },
     "weapon":{
-      "statOrder":[7159],
+      "statOrder":[7160],
       "type":"Rune",
       "1":"Attacks with this Weapon have 10% chance to inflict Lightning Exposure"
     }
   },
   "Greater Rune of Tithing":{
     "armour":{
-      "statOrder":[9482],
+      "statOrder":[9483],
       "type":"Rune",
       "1":"1 to 100 Lightning Thorns damage"
     },
@@ -423,7 +423,7 @@
       "1":"+80 to Stun Threshold"
     },
     "caster":{
-      "statOrder":[9364],
+      "statOrder":[9365],
       "type":"Rune",
       "1":"Gain additional Stun Threshold equal to 14% of maximum Energy Shield"
     },
@@ -452,7 +452,7 @@
   },
   "Greater Tempered Rune":{
     "armour":{
-      "statOrder":[9483],
+      "statOrder":[9484],
       "type":"Rune",
       "1":"31 to 52 Physical Thorns damage"
     },
@@ -723,7 +723,7 @@
       "1":"+40 to Stun Threshold"
     },
     "caster":{
-      "statOrder":[9364],
+      "statOrder":[9365],
       "type":"Rune",
       "1":"Gain additional Stun Threshold equal to 10% of maximum Energy Shield"
     },
@@ -752,7 +752,7 @@
   },
   "Lesser Tempered Rune":{
     "armour":{
-      "statOrder":[9483],
+      "statOrder":[9484],
       "type":"Rune",
       "1":"6 to 9 Physical Thorns damage"
     },
@@ -911,12 +911,12 @@
   },
   "Saqawal's Rune of the Sky":{
     "caster":{
-      "statOrder":[8552],
+      "statOrder":[8553],
       "type":"Rune",
       "1":"Gain 5% of Damage as Extra Damage of all Elements"
     },
     "weapon":{
-      "statOrder":[8552],
+      "statOrder":[8553],
       "type":"Rune",
       "1":"Gain 5% of Damage as Extra Damage of all Elements"
     }
@@ -930,12 +930,12 @@
   },
   "Soul Core of Atmohua":{
     "armour":{
-      "statOrder":[7228],
+      "statOrder":[7229],
       "type":"Rune",
       "1":"Convert 20% of Requirements to Strength"
     },
     "weapon":{
-      "statOrder":[7228],
+      "statOrder":[7229],
       "type":"Rune",
       "1":"Convert 20% of Requirements to Strength"
     }
@@ -954,12 +954,12 @@
   },
   "Soul Core of Cholotl":{
     "armour":{
-      "statOrder":[7226],
+      "statOrder":[7227],
       "type":"Rune",
       "1":"Convert 20% of Requirements to Dexterity"
     },
     "weapon":{
-      "statOrder":[7226],
+      "statOrder":[7227],
       "type":"Rune",
       "1":"Convert 20% of Requirements to Dexterity"
     }
@@ -1031,7 +1031,7 @@
       "1":"+11% to Chaos Resistance"
     },
     "weapon":{
-      "statOrder":[7224],
+      "statOrder":[7225],
       "type":"Rune",
       "1":"15% chance to Poison on Hit with this weapon"
     }
@@ -1098,19 +1098,19 @@
   },
   "Soul Core of Zantipi":{
     "armour":{
-      "statOrder":[7227],
+      "statOrder":[7228],
       "type":"Rune",
       "1":"Convert 20% of Requirements to Intelligence"
     },
     "weapon":{
-      "statOrder":[7227],
+      "statOrder":[7228],
       "type":"Rune",
       "1":"Convert 20% of Requirements to Intelligence"
     }
   },
   "Stag Talisman":{
     "helmet":{
-      "statOrder":[9472],
+      "statOrder":[9473],
       "type":"Rune",
       "1":"50% increased Thorns Critical Hit Chance"
     }
@@ -1122,7 +1122,7 @@
       "1":"+60 to Stun Threshold"
     },
     "caster":{
-      "statOrder":[9364],
+      "statOrder":[9365],
       "type":"Rune",
       "1":"Gain additional Stun Threshold equal to 12% of maximum Energy Shield"
     },
@@ -1172,21 +1172,21 @@
   },
   "Talisman of Grold":{
     "gloves":{
-      "statOrder":[9708],
+      "statOrder":[9709],
       "type":"Rune",
       "1":"15% increased total Power counted by Warcries"
     }
   },
   "Talisman of Maxarius":{
     "body armour":{
-      "statOrder":[8602],
+      "statOrder":[8603],
       "type":"Rune",
       "1":"+1 Charm Slot"
     }
   },
   "Talisman of Ralakesh":{
     "helmet":{
-      "statOrder":[8397],
+      "statOrder":[8398],
       "type":"Rune",
       "1":"6% increased Reservation Efficiency of Minion Skills"
     }
@@ -1200,7 +1200,7 @@
   },
   "Talisman of Thruldana":{
     "weapon":{
-      "statOrder":[2775,8612],
+      "statOrder":[2775,8613],
       "type":"Rune",
       "1":"25% reduced Poison Duration",
       "2":"Targets can be affected by +1 of your Poisons at the same time"
@@ -1208,7 +1208,7 @@
   },
   "Tempered Rune":{
     "armour":{
-      "statOrder":[9483],
+      "statOrder":[9484],
       "type":"Rune",
       "1":"14 to 21 Physical Thorns damage"
     },
@@ -1220,14 +1220,14 @@
   },
   "Thane Girt's Rune of Wildness":{
     "caster":{
-      "statOrder":[9267],
+      "statOrder":[9268],
       "type":"Rune",
       "1":"25% chance for Spell Skills to fire 2 additional Projectiles"
     }
   },
   "Thane Grannell's Rune of Mastery":{
     "gloves":{
-      "statOrder":[8532],
+      "statOrder":[8533],
       "type":"Rune",
       "1":"20% increased Magnitude of Non-Damaging Ailments you inflict"
     }
@@ -1269,7 +1269,7 @@
   },
   "Tzamoto's Soul Core of Ferocity":{
     "helmet":{
-      "statOrder":[8886],
+      "statOrder":[8887],
       "type":"Rune",
       "1":"+4 to Maximum Rage"
     }
@@ -1308,12 +1308,12 @@
   },
   "Xipocado's Soul Core of Dominion":{
     "caster":{
-      "statOrder":[8347],
+      "statOrder":[8348],
       "type":"Rune",
       "1":"Minions deal 40% increased Damage with Command Skills"
     },
     "sceptre":{
-      "statOrder":[8347],
+      "statOrder":[8348],
       "type":"Rune",
       "1":"Minions deal 40% increased Damage with Command Skills"
     }

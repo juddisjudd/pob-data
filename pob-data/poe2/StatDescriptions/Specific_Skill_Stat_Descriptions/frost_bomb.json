@@ -15,7 +15,8 @@
   "1":{
     "stats":["active_skill_all_elemental_exposure_magnitude","active_skill_all_elemental_exposure_compounding_magnitude","active_skill_all_elemental_exposure_compounding_magnitude_cap"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[["#","#"],["#","#"],["#","#"]],
         "text":"{2:+d}% maximum Elemental Exposure applied"
       },{
         "limit":[["#","#"],["#","#"],["#","#"]],

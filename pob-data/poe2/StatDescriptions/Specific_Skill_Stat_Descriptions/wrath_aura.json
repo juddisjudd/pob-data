@@ -20,7 +20,8 @@
   "3":{
     "stats":["skill_wrath_aura_shared_damage_+%_to_other_shocked_enemies_in_presence"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[["#","#"]],
         "text":"Additional Hits deal {0}% more damage"
       },{
         "limit":[["#","#"]],

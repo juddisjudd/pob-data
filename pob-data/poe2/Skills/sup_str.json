@@ -1248,7 +1248,7 @@
   "SupportBloodMagicPlayer":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports any Skill, turning a portion of its Mana cost into a Life cost. Does not support Skills which reserve Spirit.",
+    "description":"Supports any Skill, turning its Mana cost into a Life cost. Does not support Skills which reserve Spirit.",
     "excludeSkillTypes":[108,139],
     "gemFamily":["Lifetap"],
     "levels":[{
@@ -1517,44 +1517,13 @@
     "requireSkillTypes":[77],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_minion_defensive_stance_minion_damage_taken_+%_final",-100],["support_meat_shield_minion_damage_+%_final",-100]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Brutus' Brain",
         "levels":[{
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "support_meat_shield_minion_damage_+%_final":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"MinionModifier",
-              "type":"LIST",
-              "value":{
-                "mod":{
-                  "flags":0,
-                  "keywordFlags":0,
-                  "name":"DamageTaken",
-                  "type":"MORE"
-                }
-              }
-            }],
-          "support_minion_defensive_stance_minion_damage_taken_+%_final":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"MinionModifier",
-              "type":"LIST",
-              "value":{
-                "mod":{
-                  "flags":0,
-                  "keywordFlags":0,
-                  "name":"Damage",
-                  "type":"MORE"
-                }
-              }
-            }]
-        },
-        "stats":[]
+        "stats":["minions_cannot_be_damaged","minions_deal_no_damage"]
       }],
     "support":true
   },
@@ -2449,7 +2418,7 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["attack_damage_is_lucky_if_surrounded","melee_attacks_usable_without_mana_cost_while_surrounded"]
+        "stats":["attack_damage_is_lucky_if_surrounded","skills_are_usable_without_mana_cost_while_surrounded"]
       }],
     "support":true
   },
@@ -2473,7 +2442,7 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["melee_attacks_usable_without_mana_cost_while_surrounded"]
+        "stats":["skills_are_usable_without_mana_cost_while_surrounded"]
       }],
     "support":true
   },

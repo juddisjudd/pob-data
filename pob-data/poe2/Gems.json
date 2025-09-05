@@ -4803,7 +4803,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Lineage, AoE, Chaos, Curse, Hazard",
+    "tagString":"Lineage, Spell, AoE, Chaos, Curse, Hazard",
     "tags":{
       "area":true,
       "chaos":true,
@@ -4811,6 +4811,7 @@
       "grants_active_skill":true,
       "hazard":true,
       "lineage":true,
+      "spell":true,
       "support":true
     },
     "variantId":"DoedresUndoingSupport"

@@ -2034,7 +2034,7 @@
         "label":"Fire-Infused",
         "levels":[{
             "actorLevel":1,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2042,7 +2042,7 @@
             "4":16
           },{
             "actorLevel":3.4519999027252,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2050,7 +2050,7 @@
             "4":22
           },{
             "actorLevel":6.7670001983643,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2058,7 +2058,7 @@
             "4":30
           },{
             "actorLevel":10.307999610901,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2066,7 +2066,7 @@
             "4":38
           },{
             "actorLevel":14.074999809265,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2074,7 +2074,7 @@
             "4":48
           },{
             "actorLevel":18.068000793457,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2082,7 +2082,7 @@
             "4":59
           },{
             "actorLevel":22.287000656128,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2090,7 +2090,7 @@
             "4":71
           },{
             "actorLevel":26.732000350952,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2098,7 +2098,7 @@
             "4":85
           },{
             "actorLevel":31.40299987793,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2106,7 +2106,7 @@
             "4":100
           },{
             "actorLevel":36.299999237061,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2114,7 +2114,7 @@
             "4":116
           },{
             "actorLevel":41.423000335693,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2122,7 +2122,7 @@
             "4":135
           },{
             "actorLevel":46.771999359131,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2130,7 +2130,7 @@
             "4":155
           },{
             "actorLevel":52.34700012207,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2138,7 +2138,7 @@
             "4":178
           },{
             "actorLevel":58.147998809814,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2146,7 +2146,7 @@
             "4":204
           },{
             "actorLevel":64.175003051758,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2154,7 +2154,7 @@
             "4":232
           },{
             "actorLevel":70.428001403809,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2162,7 +2162,7 @@
             "4":264
           },{
             "actorLevel":76.906997680664,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2170,7 +2170,7 @@
             "4":299
           },{
             "actorLevel":83.611999511719,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2178,7 +2178,7 @@
             "4":338
           },{
             "actorLevel":90.542999267578,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2186,7 +2186,7 @@
             "4":382
           },{
             "actorLevel":97.699996948242,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2194,7 +2194,7 @@
             "4":431
           },{
             "actorLevel":105.08300018311,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2202,7 +2202,7 @@
             "4":485
           },{
             "actorLevel":112.69200134277,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2210,7 +2210,7 @@
             "4":546
           },{
             "actorLevel":120.52700042725,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2218,7 +2218,7 @@
             "4":614
           },{
             "actorLevel":128.58799743652,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2226,7 +2226,7 @@
             "4":690
           },{
             "actorLevel":136.875,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2234,7 +2234,7 @@
             "4":775
           },{
             "actorLevel":145.38800048828,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2242,7 +2242,7 @@
             "4":871
           },{
             "actorLevel":154.12699890137,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2250,7 +2250,7 @@
             "4":978
           },{
             "actorLevel":163.09199523926,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2258,7 +2258,7 @@
             "4":1098
           },{
             "actorLevel":172.28300476074,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2266,7 +2266,7 @@
             "4":1233
           },{
             "actorLevel":181.69999694824,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2274,7 +2274,7 @@
             "4":1385
           },{
             "actorLevel":191.34300231934,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2282,7 +2282,7 @@
             "4":1555
           },{
             "actorLevel":201.21200561523,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2290,7 +2290,7 @@
             "4":1747
           },{
             "actorLevel":211.30700683594,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2298,7 +2298,7 @@
             "4":1964
           },{
             "actorLevel":221.62800598145,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2306,7 +2306,7 @@
             "4":2208
           },{
             "actorLevel":232.17500305176,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2314,7 +2314,7 @@
             "4":2484
           },{
             "actorLevel":242.94799804688,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2322,7 +2322,7 @@
             "4":2796
           },{
             "actorLevel":253.94700622559,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2330,7 +2330,7 @@
             "4":3148
           },{
             "actorLevel":265.17199707031,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2338,7 +2338,7 @@
             "4":3547
           },{
             "actorLevel":276.62298583984,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2346,7 +2346,7 @@
             "4":3999
           },{
             "actorLevel":288.29998779297,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2370,7 +2370,7 @@
         "label":"Ignited Ground",
         "levels":[{
             "actorLevel":1,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2378,7 +2378,7 @@
             "4":19
           },{
             "actorLevel":3.4519999027252,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2386,7 +2386,7 @@
             "4":25
           },{
             "actorLevel":6.7670001983643,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2394,7 +2394,7 @@
             "4":34
           },{
             "actorLevel":10.307999610901,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2402,7 +2402,7 @@
             "4":45
           },{
             "actorLevel":14.074999809265,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2410,7 +2410,7 @@
             "4":57
           },{
             "actorLevel":18.068000793457,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2418,7 +2418,7 @@
             "4":71
           },{
             "actorLevel":22.287000656128,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2426,7 +2426,7 @@
             "4":86
           },{
             "actorLevel":26.732000350952,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2434,7 +2434,7 @@
             "4":104
           },{
             "actorLevel":31.40299987793,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2442,7 +2442,7 @@
             "4":123
           },{
             "actorLevel":36.299999237061,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2450,7 +2450,7 @@
             "4":146
           },{
             "actorLevel":41.423000335693,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2458,7 +2458,7 @@
             "4":172
           },{
             "actorLevel":46.771999359131,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2466,7 +2466,7 @@
             "4":201
           },{
             "actorLevel":52.34700012207,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2474,7 +2474,7 @@
             "4":234
           },{
             "actorLevel":58.147998809814,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2482,7 +2482,7 @@
             "4":271
           },{
             "actorLevel":64.175003051758,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2490,7 +2490,7 @@
             "4":314
           },{
             "actorLevel":70.428001403809,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2498,7 +2498,7 @@
             "4":363
           },{
             "actorLevel":76.906997680664,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2506,7 +2506,7 @@
             "4":419
           },{
             "actorLevel":83.611999511719,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2514,7 +2514,7 @@
             "4":482
           },{
             "actorLevel":90.542999267578,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2522,7 +2522,7 @@
             "4":555
           },{
             "actorLevel":97.699996948242,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2530,7 +2530,7 @@
             "4":638
           },{
             "actorLevel":105.08300018311,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2538,7 +2538,7 @@
             "4":733
           },{
             "actorLevel":112.69200134277,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2546,7 +2546,7 @@
             "4":841
           },{
             "actorLevel":120.52700042725,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2554,7 +2554,7 @@
             "4":966
           },{
             "actorLevel":128.58799743652,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2562,7 +2562,7 @@
             "4":1110
           },{
             "actorLevel":136.875,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2570,7 +2570,7 @@
             "4":1275
           },{
             "actorLevel":145.38800048828,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2578,7 +2578,7 @@
             "4":1465
           },{
             "actorLevel":154.12699890137,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2586,7 +2586,7 @@
             "4":1684
           },{
             "actorLevel":163.09199523926,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2594,7 +2594,7 @@
             "4":1937
           },{
             "actorLevel":172.28300476074,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2602,7 +2602,7 @@
             "4":2229
           },{
             "actorLevel":181.69999694824,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2610,7 +2610,7 @@
             "4":2567
           },{
             "actorLevel":191.34300231934,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2618,7 +2618,7 @@
             "4":2959
           },{
             "actorLevel":201.21200561523,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2626,7 +2626,7 @@
             "4":3414
           },{
             "actorLevel":211.30700683594,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2634,7 +2634,7 @@
             "4":3942
           },{
             "actorLevel":221.62800598145,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2642,7 +2642,7 @@
             "4":4556
           },{
             "actorLevel":232.17500305176,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2650,7 +2650,7 @@
             "4":5272
           },{
             "actorLevel":242.94799804688,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2658,7 +2658,7 @@
             "4":6107
           },{
             "actorLevel":253.94700622559,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2666,7 +2666,7 @@
             "4":7083
           },{
             "actorLevel":265.17199707031,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2674,7 +2674,7 @@
             "4":8224
           },{
             "actorLevel":276.62298583984,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -2682,7 +2682,7 @@
             "4":9561
           },{
             "actorLevel":288.29998779297,
-            "critChance":-2,
+            "critChance":7,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -19910,7 +19910,7 @@
         "label":"Ice Bolts",
         "levels":[{
             "actorLevel":1,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -19918,7 +19918,7 @@
             "4":3
           },{
             "actorLevel":3.4519999027252,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -19926,7 +19926,7 @@
             "4":4
           },{
             "actorLevel":6.7670001983643,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -19934,7 +19934,7 @@
             "4":5
           },{
             "actorLevel":10.307999610901,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -19942,7 +19942,7 @@
             "4":6
           },{
             "actorLevel":14.074999809265,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -19950,7 +19950,7 @@
             "4":8
           },{
             "actorLevel":18.068000793457,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -19958,7 +19958,7 @@
             "4":10
           },{
             "actorLevel":22.287000656128,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -19966,7 +19966,7 @@
             "4":12
           },{
             "actorLevel":26.732000350952,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -19974,7 +19974,7 @@
             "4":15
           },{
             "actorLevel":31.40299987793,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -19982,7 +19982,7 @@
             "4":18
           },{
             "actorLevel":36.299999237061,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -19990,7 +19990,7 @@
             "4":21
           },{
             "actorLevel":41.423000335693,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -19998,7 +19998,7 @@
             "4":24
           },{
             "actorLevel":46.771999359131,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20006,7 +20006,7 @@
             "4":28
           },{
             "actorLevel":52.34700012207,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20014,7 +20014,7 @@
             "4":33
           },{
             "actorLevel":58.147998809814,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20022,7 +20022,7 @@
             "4":38
           },{
             "actorLevel":64.175003051758,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20030,7 +20030,7 @@
             "4":44
           },{
             "actorLevel":70.428001403809,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20038,7 +20038,7 @@
             "4":50
           },{
             "actorLevel":76.906997680664,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20046,7 +20046,7 @@
             "4":58
           },{
             "actorLevel":83.611999511719,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20054,7 +20054,7 @@
             "4":66
           },{
             "actorLevel":90.542999267578,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20062,7 +20062,7 @@
             "4":76
           },{
             "actorLevel":97.699996948242,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20070,7 +20070,7 @@
             "4":86
           },{
             "actorLevel":105.08300018311,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20078,7 +20078,7 @@
             "4":99
           },{
             "actorLevel":112.69200134277,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20086,7 +20086,7 @@
             "4":113
           },{
             "actorLevel":120.52700042725,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20094,7 +20094,7 @@
             "4":129
           },{
             "actorLevel":128.58799743652,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20102,7 +20102,7 @@
             "4":147
           },{
             "actorLevel":136.875,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20110,7 +20110,7 @@
             "4":168
           },{
             "actorLevel":145.38800048828,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20118,7 +20118,7 @@
             "4":192
           },{
             "actorLevel":154.12699890137,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20126,7 +20126,7 @@
             "4":220
           },{
             "actorLevel":163.09199523926,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20134,7 +20134,7 @@
             "4":251
           },{
             "actorLevel":172.28300476074,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20142,7 +20142,7 @@
             "4":287
           },{
             "actorLevel":181.69999694824,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20150,7 +20150,7 @@
             "4":328
           },{
             "actorLevel":191.34300231934,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20158,7 +20158,7 @@
             "4":376
           },{
             "actorLevel":201.21200561523,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20166,7 +20166,7 @@
             "4":431
           },{
             "actorLevel":211.30700683594,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20174,7 +20174,7 @@
             "4":494
           },{
             "actorLevel":221.62800598145,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20182,7 +20182,7 @@
             "4":567
           },{
             "actorLevel":232.17500305176,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20190,7 +20190,7 @@
             "4":651
           },{
             "actorLevel":242.94799804688,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20198,7 +20198,7 @@
             "4":749
           },{
             "actorLevel":253.94700622559,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20206,7 +20206,7 @@
             "4":862
           },{
             "actorLevel":265.17199707031,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20214,7 +20214,7 @@
             "4":993
           },{
             "actorLevel":276.62298583984,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20222,7 +20222,7 @@
             "4":1145
           },{
             "actorLevel":288.29998779297,
-            "critChance":5,
+            "critChance":12,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20245,7 +20245,7 @@
         "label":"Lightning Bolts",
         "levels":[{
             "actorLevel":1,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20253,7 +20253,7 @@
             "4":5
           },{
             "actorLevel":3.4519999027252,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20261,7 +20261,7 @@
             "4":7
           },{
             "actorLevel":6.7670001983643,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20269,7 +20269,7 @@
             "4":9
           },{
             "actorLevel":10.307999610901,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20277,7 +20277,7 @@
             "4":12
           },{
             "actorLevel":14.074999809265,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20285,7 +20285,7 @@
             "4":15
           },{
             "actorLevel":18.068000793457,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20293,7 +20293,7 @@
             "4":18
           },{
             "actorLevel":22.287000656128,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20301,7 +20301,7 @@
             "4":22
           },{
             "actorLevel":26.732000350952,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20309,7 +20309,7 @@
             "4":27
           },{
             "actorLevel":31.40299987793,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20317,7 +20317,7 @@
             "4":32
           },{
             "actorLevel":36.299999237061,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20325,7 +20325,7 @@
             "4":37
           },{
             "actorLevel":41.423000335693,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20333,7 +20333,7 @@
             "4":44
           },{
             "actorLevel":46.771999359131,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20341,7 +20341,7 @@
             "4":51
           },{
             "actorLevel":52.34700012207,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20349,7 +20349,7 @@
             "4":59
           },{
             "actorLevel":58.147998809814,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20357,7 +20357,7 @@
             "4":68
           },{
             "actorLevel":64.175003051758,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20365,7 +20365,7 @@
             "4":79
           },{
             "actorLevel":70.428001403809,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20373,7 +20373,7 @@
             "4":90
           },{
             "actorLevel":76.906997680664,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20381,7 +20381,7 @@
             "4":104
           },{
             "actorLevel":83.611999511719,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20389,7 +20389,7 @@
             "4":119
           },{
             "actorLevel":90.542999267578,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20397,7 +20397,7 @@
             "4":136
           },{
             "actorLevel":97.699996948242,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20405,7 +20405,7 @@
             "4":156
           },{
             "actorLevel":105.08300018311,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20413,7 +20413,7 @@
             "4":178
           },{
             "actorLevel":112.69200134277,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20421,7 +20421,7 @@
             "4":203
           },{
             "actorLevel":120.52700042725,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20429,7 +20429,7 @@
             "4":232
           },{
             "actorLevel":128.58799743652,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20437,7 +20437,7 @@
             "4":265
           },{
             "actorLevel":136.875,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20445,7 +20445,7 @@
             "4":303
           },{
             "actorLevel":145.38800048828,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20453,7 +20453,7 @@
             "4":346
           },{
             "actorLevel":154.12699890137,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20461,7 +20461,7 @@
             "4":396
           },{
             "actorLevel":163.09199523926,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20469,7 +20469,7 @@
             "4":452
           },{
             "actorLevel":172.28300476074,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20477,7 +20477,7 @@
             "4":517
           },{
             "actorLevel":181.69999694824,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20485,7 +20485,7 @@
             "4":592
           },{
             "actorLevel":191.34300231934,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20493,7 +20493,7 @@
             "4":677
           },{
             "actorLevel":201.21200561523,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20501,7 +20501,7 @@
             "4":776
           },{
             "actorLevel":211.30700683594,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20509,7 +20509,7 @@
             "4":890
           },{
             "actorLevel":221.62800598145,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20517,7 +20517,7 @@
             "4":1021
           },{
             "actorLevel":232.17500305176,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20525,7 +20525,7 @@
             "4":1173
           },{
             "actorLevel":242.94799804688,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20533,7 +20533,7 @@
             "4":1349
           },{
             "actorLevel":253.94700622559,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20541,7 +20541,7 @@
             "4":1553
           },{
             "actorLevel":265.17199707031,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20549,7 +20549,7 @@
             "4":1789
           },{
             "actorLevel":276.62298583984,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -20557,7 +20557,7 @@
             "4":2063
           },{
             "actorLevel":288.29998779297,
-            "critChance":2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -26439,7 +26439,7 @@
         "label":"Lightning-Infused",
         "levels":[{
             "actorLevel":1,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26449,7 +26449,7 @@
             "6":36
           },{
             "actorLevel":3.4519999027252,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26459,7 +26459,7 @@
             "6":64
           },{
             "actorLevel":6.7670001983643,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26469,7 +26469,7 @@
             "6":108
           },{
             "actorLevel":10.307999610901,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26479,7 +26479,7 @@
             "6":164
           },{
             "actorLevel":14.074999809265,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26489,7 +26489,7 @@
             "6":240
           },{
             "actorLevel":18.068000793457,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26499,7 +26499,7 @@
             "6":334
           },{
             "actorLevel":22.287000656128,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26509,7 +26509,7 @@
             "6":460
           },{
             "actorLevel":26.732000350952,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26519,7 +26519,7 @@
             "6":624
           },{
             "actorLevel":31.40299987793,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26529,7 +26529,7 @@
             "6":832
           },{
             "actorLevel":36.299999237061,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26539,7 +26539,7 @@
             "6":1100
           },{
             "actorLevel":41.423000335693,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26549,7 +26549,7 @@
             "6":1438
           },{
             "actorLevel":46.771999359131,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26559,7 +26559,7 @@
             "6":1866
           },{
             "actorLevel":52.34700012207,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26569,7 +26569,7 @@
             "6":2408
           },{
             "actorLevel":58.147998809814,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26579,7 +26579,7 @@
             "6":3086
           },{
             "actorLevel":64.175003051758,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26589,7 +26589,7 @@
             "6":3940
           },{
             "actorLevel":70.428001403809,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26599,7 +26599,7 @@
             "6":5016
           },{
             "actorLevel":76.906997680664,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26609,7 +26609,7 @@
             "6":6362
           },{
             "actorLevel":83.611999511719,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26619,7 +26619,7 @@
             "6":8032
           },{
             "actorLevel":90.542999267578,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26629,7 +26629,7 @@
             "6":10118
           },{
             "actorLevel":97.699996948242,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26639,7 +26639,7 @@
             "6":12714
           },{
             "actorLevel":105.08300018311,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26649,7 +26649,7 @@
             "6":13350
           },{
             "actorLevel":112.69200134277,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26659,7 +26659,7 @@
             "6":14017
           },{
             "actorLevel":120.52700042725,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26669,7 +26669,7 @@
             "6":14718
           },{
             "actorLevel":128.58799743652,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26679,7 +26679,7 @@
             "6":15454
           },{
             "actorLevel":136.875,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26689,7 +26689,7 @@
             "6":16227
           },{
             "actorLevel":145.38800048828,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26699,7 +26699,7 @@
             "6":17038
           },{
             "actorLevel":154.12699890137,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26709,7 +26709,7 @@
             "6":17890
           },{
             "actorLevel":163.09199523926,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26719,7 +26719,7 @@
             "6":18784
           },{
             "actorLevel":172.28300476074,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26729,7 +26729,7 @@
             "6":19724
           },{
             "actorLevel":181.69999694824,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26739,7 +26739,7 @@
             "6":20710
           },{
             "actorLevel":191.34300231934,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26749,7 +26749,7 @@
             "6":21745
           },{
             "actorLevel":201.21200561523,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26759,7 +26759,7 @@
             "6":22833
           },{
             "actorLevel":211.30700683594,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26769,7 +26769,7 @@
             "6":23974
           },{
             "actorLevel":221.62800598145,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26779,7 +26779,7 @@
             "6":25173
           },{
             "actorLevel":232.17500305176,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26789,7 +26789,7 @@
             "6":26431
           },{
             "actorLevel":242.94799804688,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26799,7 +26799,7 @@
             "6":27753
           },{
             "actorLevel":253.94700622559,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26809,7 +26809,7 @@
             "6":29141
           },{
             "actorLevel":265.17199707031,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26819,7 +26819,7 @@
             "6":30598
           },{
             "actorLevel":276.62298583984,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -26829,7 +26829,7 @@
             "6":32128
           },{
             "actorLevel":288.29998779297,
-            "critChance":-2,
+            "critChance":9,
             "statInterpolation":[1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -29724,7 +29724,7 @@
         "label":"Orb",
         "levels":[{
             "actorLevel":1,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":1,
             "2":3,
@@ -29732,7 +29732,7 @@
             "4":3
           },{
             "actorLevel":3.4519999027252,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":1,
             "2":4,
@@ -29740,7 +29740,7 @@
             "4":4
           },{
             "actorLevel":6.7670001983643,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":1,
             "2":6,
@@ -29748,7 +29748,7 @@
             "4":6
           },{
             "actorLevel":10.307999610901,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":1,
             "2":8,
@@ -29756,7 +29756,7 @@
             "4":8
           },{
             "actorLevel":14.074999809265,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":1,
             "2":11,
@@ -29764,7 +29764,7 @@
             "4":11
           },{
             "actorLevel":18.068000793457,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":1,
             "2":14,
@@ -29772,7 +29772,7 @@
             "4":14
           },{
             "actorLevel":22.287000656128,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":1,
             "2":17,
@@ -29780,7 +29780,7 @@
             "4":17
           },{
             "actorLevel":26.732000350952,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":1,
             "2":21,
@@ -29788,7 +29788,7 @@
             "4":21
           },{
             "actorLevel":31.40299987793,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":1,
             "2":26,
@@ -29796,7 +29796,7 @@
             "4":26
           },{
             "actorLevel":36.299999237061,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":2,
             "2":31,
@@ -29804,7 +29804,7 @@
             "4":31
           },{
             "actorLevel":41.423000335693,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":2,
             "2":37,
@@ -29812,7 +29812,7 @@
             "4":37
           },{
             "actorLevel":46.771999359131,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":2,
             "2":44,
@@ -29820,7 +29820,7 @@
             "4":44
           },{
             "actorLevel":52.34700012207,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":3,
             "2":51,
@@ -29828,7 +29828,7 @@
             "4":51
           },{
             "actorLevel":58.147998809814,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":3,
             "2":59,
@@ -29836,7 +29836,7 @@
             "4":59
           },{
             "actorLevel":64.175003051758,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":4,
             "2":68,
@@ -29844,7 +29844,7 @@
             "4":68
           },{
             "actorLevel":70.428001403809,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":4,
             "2":79,
@@ -29852,7 +29852,7 @@
             "4":79
           },{
             "actorLevel":76.906997680664,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":5,
             "2":91,
@@ -29860,7 +29860,7 @@
             "4":91
           },{
             "actorLevel":83.611999511719,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":6,
             "2":105,
@@ -29868,7 +29868,7 @@
             "4":105
           },{
             "actorLevel":90.542999267578,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":6,
             "2":121,
@@ -29876,7 +29876,7 @@
             "4":121
           },{
             "actorLevel":97.699996948242,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":7,
             "2":139,
@@ -29884,7 +29884,7 @@
             "4":139
           },{
             "actorLevel":105.08300018311,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":8,
             "2":159,
@@ -29892,7 +29892,7 @@
             "4":159
           },{
             "actorLevel":112.69200134277,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":10,
             "2":183,
@@ -29900,7 +29900,7 @@
             "4":183
           },{
             "actorLevel":120.52700042725,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":11,
             "2":210,
@@ -29908,7 +29908,7 @@
             "4":210
           },{
             "actorLevel":128.58799743652,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":13,
             "2":242,
@@ -29916,7 +29916,7 @@
             "4":242
           },{
             "actorLevel":136.875,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":15,
             "2":278,
@@ -29924,7 +29924,7 @@
             "4":278
           },{
             "actorLevel":145.38800048828,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":17,
             "2":319,
@@ -29932,7 +29932,7 @@
             "4":319
           },{
             "actorLevel":154.12699890137,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":19,
             "2":367,
@@ -29940,7 +29940,7 @@
             "4":367
           },{
             "actorLevel":163.09199523926,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":22,
             "2":422,
@@ -29948,7 +29948,7 @@
             "4":422
           },{
             "actorLevel":172.28300476074,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":26,
             "2":485,
@@ -29956,7 +29956,7 @@
             "4":485
           },{
             "actorLevel":181.69999694824,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":29,
             "2":559,
@@ -29964,7 +29964,7 @@
             "4":559
           },{
             "actorLevel":191.34300231934,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":34,
             "2":644,
@@ -29972,7 +29972,7 @@
             "4":644
           },{
             "actorLevel":201.21200561523,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":39,
             "2":743,
@@ -29980,7 +29980,7 @@
             "4":743
           },{
             "actorLevel":211.30700683594,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":45,
             "2":858,
@@ -29988,7 +29988,7 @@
             "4":858
           },{
             "actorLevel":221.62800598145,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":52,
             "2":992,
@@ -29996,7 +29996,7 @@
             "4":992
           },{
             "actorLevel":232.17500305176,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":60,
             "2":1148,
@@ -30004,7 +30004,7 @@
             "4":1148
           },{
             "actorLevel":242.94799804688,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":70,
             "2":1330,
@@ -30012,7 +30012,7 @@
             "4":1330
           },{
             "actorLevel":253.94700622559,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":81,
             "2":1542,
@@ -30020,7 +30020,7 @@
             "4":1542
           },{
             "actorLevel":265.17199707031,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":94,
             "2":1790,
@@ -30028,7 +30028,7 @@
             "4":1790
           },{
             "actorLevel":276.62298583984,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":110,
             "2":2082,
@@ -30036,7 +30036,7 @@
             "4":2082
           },{
             "actorLevel":288.29998779297,
-            "critChance":9,
+            "critChance":18,
             "statInterpolation":[1,1,1,1],
             "1":128,
             "2":2423,
@@ -33031,8 +33031,9 @@
           "display_herald_of_ice_behaviour":[{
               "flags":0,
               "keywordFlags":0,
-              "name":"HeraldOfIceBuff",
-              "type":"BASE",
+              "name":"Condition:EnemiesExplode",
+              "type":"FLAG",
+              "value":true,
               "1":{
                 "effectName":"Herald of Ice",
                 "effectType":"Buff",
@@ -52080,7 +52081,7 @@
         "label":"Lightning",
         "levels":[{
             "actorLevel":1,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52088,7 +52089,7 @@
             "4":15
           },{
             "actorLevel":3.4519999027252,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52096,7 +52097,7 @@
             "4":20
           },{
             "actorLevel":6.7670001983643,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52104,7 +52105,7 @@
             "4":28
           },{
             "actorLevel":10.307999610901,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52112,7 +52113,7 @@
             "4":36
           },{
             "actorLevel":14.074999809265,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52120,7 +52121,7 @@
             "4":46
           },{
             "actorLevel":18.068000793457,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52128,7 +52129,7 @@
             "4":57
           },{
             "actorLevel":22.287000656128,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52136,7 +52137,7 @@
             "4":69
           },{
             "actorLevel":26.732000350952,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52144,7 +52145,7 @@
             "4":83
           },{
             "actorLevel":31.40299987793,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52152,7 +52153,7 @@
             "4":99
           },{
             "actorLevel":36.299999237061,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52160,7 +52161,7 @@
             "4":117
           },{
             "actorLevel":41.423000335693,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52168,7 +52169,7 @@
             "4":138
           },{
             "actorLevel":46.771999359131,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52176,7 +52177,7 @@
             "4":161
           },{
             "actorLevel":52.34700012207,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52184,7 +52185,7 @@
             "4":188
           },{
             "actorLevel":58.147998809814,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52192,7 +52193,7 @@
             "4":218
           },{
             "actorLevel":64.175003051758,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52200,7 +52201,7 @@
             "4":252
           },{
             "actorLevel":70.428001403809,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52208,7 +52209,7 @@
             "4":292
           },{
             "actorLevel":76.906997680664,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52216,7 +52217,7 @@
             "4":336
           },{
             "actorLevel":83.611999511719,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52224,7 +52225,7 @@
             "4":387
           },{
             "actorLevel":90.542999267578,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52232,7 +52233,7 @@
             "4":446
           },{
             "actorLevel":97.699996948242,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52240,7 +52241,7 @@
             "4":512
           },{
             "actorLevel":105.08300018311,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52248,7 +52249,7 @@
             "4":589
           },{
             "actorLevel":112.69200134277,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52256,7 +52257,7 @@
             "4":676
           },{
             "actorLevel":120.52700042725,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52264,7 +52265,7 @@
             "4":776
           },{
             "actorLevel":128.58799743652,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52272,7 +52273,7 @@
             "4":892
           },{
             "actorLevel":136.875,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52280,7 +52281,7 @@
             "4":1024
           },{
             "actorLevel":145.38800048828,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52288,7 +52289,7 @@
             "4":1177
           },{
             "actorLevel":154.12699890137,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52296,7 +52297,7 @@
             "4":1353
           },{
             "actorLevel":163.09199523926,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52304,7 +52305,7 @@
             "4":1556
           },{
             "actorLevel":172.28300476074,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52312,7 +52313,7 @@
             "4":1791
           },{
             "actorLevel":181.69999694824,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52320,7 +52321,7 @@
             "4":2063
           },{
             "actorLevel":191.34300231934,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52328,7 +52329,7 @@
             "4":2378
           },{
             "actorLevel":201.21200561523,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52336,7 +52337,7 @@
             "4":2743
           },{
             "actorLevel":211.30700683594,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52344,7 +52345,7 @@
             "4":3167
           },{
             "actorLevel":221.62800598145,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52352,7 +52353,7 @@
             "4":3661
           },{
             "actorLevel":232.17500305176,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52360,7 +52361,7 @@
             "4":4236
           },{
             "actorLevel":242.94799804688,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52368,7 +52369,7 @@
             "4":4907
           },{
             "actorLevel":253.94700622559,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52376,7 +52377,7 @@
             "4":5691
           },{
             "actorLevel":265.17199707031,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52384,7 +52385,7 @@
             "4":6608
           },{
             "actorLevel":276.62298583984,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52392,7 +52393,7 @@
             "4":7683
           },{
             "actorLevel":288.29998779297,
-            "critChance":-2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52414,7 +52415,7 @@
         "label":"Fire",
         "levels":[{
             "actorLevel":1,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52422,7 +52423,7 @@
             "4":8
           },{
             "actorLevel":3.4519999027252,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52430,7 +52431,7 @@
             "4":11
           },{
             "actorLevel":6.7670001983643,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52438,7 +52439,7 @@
             "4":16
           },{
             "actorLevel":10.307999610901,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52446,7 +52447,7 @@
             "4":20
           },{
             "actorLevel":14.074999809265,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52454,7 +52455,7 @@
             "4":26
           },{
             "actorLevel":18.068000793457,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52462,7 +52463,7 @@
             "4":32
           },{
             "actorLevel":22.287000656128,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52470,7 +52471,7 @@
             "4":39
           },{
             "actorLevel":26.732000350952,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52478,7 +52479,7 @@
             "4":47
           },{
             "actorLevel":31.40299987793,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52486,7 +52487,7 @@
             "4":56
           },{
             "actorLevel":36.299999237061,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52494,7 +52495,7 @@
             "4":66
           },{
             "actorLevel":41.423000335693,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52502,7 +52503,7 @@
             "4":78
           },{
             "actorLevel":46.771999359131,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52510,7 +52511,7 @@
             "4":91
           },{
             "actorLevel":52.34700012207,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52518,7 +52519,7 @@
             "4":106
           },{
             "actorLevel":58.147998809814,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52526,7 +52527,7 @@
             "4":123
           },{
             "actorLevel":64.175003051758,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52534,7 +52535,7 @@
             "4":142
           },{
             "actorLevel":70.428001403809,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52542,7 +52543,7 @@
             "4":164
           },{
             "actorLevel":76.906997680664,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52550,7 +52551,7 @@
             "4":189
           },{
             "actorLevel":83.611999511719,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52558,7 +52559,7 @@
             "4":218
           },{
             "actorLevel":90.542999267578,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52566,7 +52567,7 @@
             "4":251
           },{
             "actorLevel":97.699996948242,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52574,7 +52575,7 @@
             "4":288
           },{
             "actorLevel":105.08300018311,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52582,7 +52583,7 @@
             "4":331
           },{
             "actorLevel":112.69200134277,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52590,7 +52591,7 @@
             "4":381
           },{
             "actorLevel":120.52700042725,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52598,7 +52599,7 @@
             "4":437
           },{
             "actorLevel":128.58799743652,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52606,7 +52607,7 @@
             "4":502
           },{
             "actorLevel":136.875,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52614,7 +52615,7 @@
             "4":577
           },{
             "actorLevel":145.38800048828,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52622,7 +52623,7 @@
             "4":663
           },{
             "actorLevel":154.12699890137,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52630,7 +52631,7 @@
             "4":762
           },{
             "actorLevel":163.09199523926,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52638,7 +52639,7 @@
             "4":876
           },{
             "actorLevel":172.28300476074,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52646,7 +52647,7 @@
             "4":1009
           },{
             "actorLevel":181.69999694824,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52654,7 +52655,7 @@
             "4":1162
           },{
             "actorLevel":191.34300231934,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52662,7 +52663,7 @@
             "4":1339
           },{
             "actorLevel":201.21200561523,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52670,7 +52671,7 @@
             "4":1545
           },{
             "actorLevel":211.30700683594,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52678,7 +52679,7 @@
             "4":1784
           },{
             "actorLevel":221.62800598145,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52686,7 +52687,7 @@
             "4":2062
           },{
             "actorLevel":232.17500305176,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52694,7 +52695,7 @@
             "4":2386
           },{
             "actorLevel":242.94799804688,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52702,7 +52703,7 @@
             "4":2763
           },{
             "actorLevel":253.94700622559,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52710,7 +52711,7 @@
             "4":3205
           },{
             "actorLevel":265.17199707031,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52718,7 +52719,7 @@
             "4":3721
           },{
             "actorLevel":276.62298583984,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -52726,7 +52727,7 @@
             "4":4327
           },{
             "actorLevel":288.29998779297,
-            "critChance":-5,
+            "critChance":8,
             "statInterpolation":[1,1,1,1],
             "1":0,
             "2":0,
@@ -55210,7 +55211,7 @@
         "label":"Cold-Infused",
         "levels":[{
             "actorLevel":1,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55222,7 +55223,7 @@
             "8":12
           },{
             "actorLevel":3.4519999027252,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55234,7 +55235,7 @@
             "8":12
           },{
             "actorLevel":6.7670001983643,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55246,7 +55247,7 @@
             "8":12
           },{
             "actorLevel":10.307999610901,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55258,7 +55259,7 @@
             "8":12
           },{
             "actorLevel":14.074999809265,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55270,7 +55271,7 @@
             "8":13
           },{
             "actorLevel":18.068000793457,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55282,7 +55283,7 @@
             "8":13
           },{
             "actorLevel":22.287000656128,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55294,7 +55295,7 @@
             "8":13
           },{
             "actorLevel":26.732000350952,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55306,7 +55307,7 @@
             "8":13
           },{
             "actorLevel":31.40299987793,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55318,7 +55319,7 @@
             "8":14
           },{
             "actorLevel":36.299999237061,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55330,7 +55331,7 @@
             "8":14
           },{
             "actorLevel":41.423000335693,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55342,7 +55343,7 @@
             "8":14
           },{
             "actorLevel":46.771999359131,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55354,7 +55355,7 @@
             "8":14
           },{
             "actorLevel":52.34700012207,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55366,7 +55367,7 @@
             "8":15
           },{
             "actorLevel":58.147998809814,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55378,7 +55379,7 @@
             "8":15
           },{
             "actorLevel":64.175003051758,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55390,7 +55391,7 @@
             "8":15
           },{
             "actorLevel":70.428001403809,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55402,7 +55403,7 @@
             "8":15
           },{
             "actorLevel":76.906997680664,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55414,7 +55415,7 @@
             "8":16
           },{
             "actorLevel":83.611999511719,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55426,7 +55427,7 @@
             "8":16
           },{
             "actorLevel":90.542999267578,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55438,7 +55439,7 @@
             "8":16
           },{
             "actorLevel":97.699996948242,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55450,7 +55451,7 @@
             "8":16
           },{
             "actorLevel":105.08300018311,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55462,7 +55463,7 @@
             "8":17
           },{
             "actorLevel":112.69200134277,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55474,7 +55475,7 @@
             "8":17
           },{
             "actorLevel":120.52700042725,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55486,7 +55487,7 @@
             "8":17
           },{
             "actorLevel":128.58799743652,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55498,7 +55499,7 @@
             "8":17
           },{
             "actorLevel":136.875,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55510,7 +55511,7 @@
             "8":18
           },{
             "actorLevel":145.38800048828,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55522,7 +55523,7 @@
             "8":18
           },{
             "actorLevel":154.12699890137,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55534,7 +55535,7 @@
             "8":18
           },{
             "actorLevel":163.09199523926,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55546,7 +55547,7 @@
             "8":18
           },{
             "actorLevel":172.28300476074,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55558,7 +55559,7 @@
             "8":19
           },{
             "actorLevel":181.69999694824,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55570,7 +55571,7 @@
             "8":19
           },{
             "actorLevel":191.34300231934,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55582,7 +55583,7 @@
             "8":19
           },{
             "actorLevel":201.21200561523,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55594,7 +55595,7 @@
             "8":19
           },{
             "actorLevel":211.30700683594,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55606,7 +55607,7 @@
             "8":19
           },{
             "actorLevel":221.62800598145,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55618,7 +55619,7 @@
             "8":19
           },{
             "actorLevel":232.17500305176,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55630,7 +55631,7 @@
             "8":19
           },{
             "actorLevel":242.94799804688,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55642,7 +55643,7 @@
             "8":20
           },{
             "actorLevel":253.94700622559,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55654,7 +55655,7 @@
             "8":20
           },{
             "actorLevel":265.17199707031,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55666,7 +55667,7 @@
             "8":20
           },{
             "actorLevel":276.62298583984,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -55678,7 +55679,7 @@
             "8":20
           },{
             "actorLevel":288.29998779297,
-            "critChance":2,
+            "critChance":11,
             "statInterpolation":[1,1,1,1,1,1,1,1],
             "1":0,
             "2":0,
@@ -59004,6 +59005,7 @@
         "levelRequirement":0
       }],
     "name":"SupportBarrierInvocationPlayer",
+    "qualityStats":[],
     "requireSkillTypes":[2,31,74],
     "statSets":[{
         "baseFlags":[],
@@ -59184,6 +59186,7 @@
         "levelRequirement":0
       }],
     "name":"SupportBlasphemyPlayer",
+    "qualityStats":[],
     "requireSkillTypes":[69],
     "statSets":[{
         "baseFlags":{
@@ -59501,6 +59504,7 @@
         "levelRequirement":0
       }],
     "name":"SupportElementalInvocationPlayer",
+    "qualityStats":[],
     "requireSkillTypes":[2,31,74],
     "statSets":[{
         "baseFlags":[],
@@ -59679,6 +59683,7 @@
         "levelRequirement":0
       }],
     "name":"SupportHandOfChayulaPlayer",
+    "qualityStats":[["base_curse_duration_+%",1],["mark_effect_+%",0.5]],
     "requireSkillTypes":[69,98,73],
     "statSets":[{
         "baseFlags":[],
@@ -59977,6 +59982,7 @@
         "levelRequirement":0
       }],
     "name":"SupportMetaCastCurseOnBlockPlayer",
+    "qualityStats":[],
     "requireSkillTypes":[69,31,74],
     "statSets":[{
         "baseFlags":[],
@@ -60156,6 +60162,7 @@
         "levelRequirement":0
       }],
     "name":"SupportMetaCastOnCritPlayer",
+    "qualityStats":[],
     "requireSkillTypes":[2,31,74],
     "statSets":[{
         "baseFlags":[],
@@ -60335,6 +60342,7 @@
         "levelRequirement":0
       }],
     "name":"SupportMetaCastOnDodgePlayer",
+    "qualityStats":[],
     "requireSkillTypes":[2,31,74],
     "statSets":[{
         "baseFlags":[],
@@ -60514,6 +60522,7 @@
         "levelRequirement":0
       }],
     "name":"SupportMetaCastOnElementalAilmentPlayer",
+    "qualityStats":[],
     "requireSkillTypes":[2,31,74],
     "statSets":[{
         "baseFlags":[],
@@ -60693,6 +60702,7 @@
         "levelRequirement":0
       }],
     "name":"SupportMetaCastOnMinionDeathPlayer",
+    "qualityStats":[],
     "requireSkillTypes":[2,31,74],
     "statSets":[{
         "baseFlags":[],
@@ -60872,6 +60882,7 @@
         "levelRequirement":0
       }],
     "name":"SupportReapersInvocationPlayer",
+    "qualityStats":[],
     "requireSkillTypes":[2,31,74],
     "statSets":[{
         "baseFlags":[],

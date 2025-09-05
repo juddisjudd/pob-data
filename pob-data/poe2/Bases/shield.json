@@ -227,9 +227,11 @@
   "Blacksteel Crest Shield":{
     "armour":{
       "Armour":109,
+      "BlockChance":25,
       "EnergyShield":37,
       "MovementPenalty":0.015
     },
+    "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -626,8 +628,10 @@
   },
   "Desert Buckler":{
     "armour":{
+      "BlockChance":20,
       "Evasion":144
     },
+    "implicit":"Grants Skill: Level (1-20) Parry",
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -902,9 +906,11 @@
   "Golden Targe":{
     "armour":{
       "Armour":109,
+      "BlockChance":25,
       "Evasion":99,
       "MovementPenalty":0.015
     },
+    "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -2087,8 +2093,10 @@
   "Tawhoan Tower Shield":{
     "armour":{
       "Armour":197,
+      "BlockChance":26,
       "MovementPenalty":0.03
     },
+    "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
     "req":{

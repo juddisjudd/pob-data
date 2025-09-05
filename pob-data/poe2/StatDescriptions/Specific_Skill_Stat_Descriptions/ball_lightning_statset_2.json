@@ -9,14 +9,16 @@
   "1":{
     "stats":["active_skill_base_tertiary_area_of_effect_radius"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[[10,10]],
         "text":"{0:+d} metre to Ignited Ground radius",
         "1":{
           "k":"divide_by_ten_1dp_if_required",
           "v":1
         }
       },{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[["#","#"]],
         "text":"{0:+d} metres to Ignited Ground radius",
         "1":{
           "k":"divide_by_ten_1dp_if_required",

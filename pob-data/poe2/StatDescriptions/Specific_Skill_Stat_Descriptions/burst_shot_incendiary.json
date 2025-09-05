@@ -42,7 +42,8 @@
   "7":{
     "stats":["ignite_duration_+%_per_shotgun_pellet_hit"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[["#","#"]],
         "text":"{0:+d}% increased Ignite duration for each Fragment in a single hit"
       },{
         "limit":[["#","#"]],

@@ -8638,7 +8638,7 @@
     "baseTypeName":"Meditate",
     "castTime":1,
     "color":4,
-    "description":"Channel to Recharge Energy Shield and allow that Recharge to Overflow. Channelling ends when you take damage or your Energy Shield is double its normal maximum. This skill cannot be used if your Energy Shield is already double its normal maximum or you have no maximum Energy Shield.",
+    "description":"Channel to Recharge Energy Shield and allow that Recharge to Overflow. Channelling ends when you take damage or your Energy Shield is fully Overflowed.",
     "fromTree":true,
     "levels":[{
         "cooldown":7,
@@ -13845,6 +13845,7 @@
         "levelRequirement":0
       }],
     "name":"SupportMetaCastFireSpellOnHitPlayer",
+    "qualityStats":[],
     "requireSkillTypes":[2,31,28,74,74],
     "statSets":[{
         "baseFlags":[],
@@ -14025,6 +14026,7 @@
         "levelRequirement":0
       }],
     "name":"SupportMetaCastOnCharmUsePlayer",
+    "qualityStats":[],
     "requireSkillTypes":[2,31,74],
     "statSets":[{
         "baseFlags":[],
@@ -14204,6 +14206,7 @@
         "levelRequirement":0
       }],
     "name":"SupportMetaDeadeyeMarksPlayer",
+    "qualityStats":[],
     "requireSkillTypes":[98],
     "statSets":[{
         "baseFlags":[],
@@ -16760,7 +16763,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["crossbow_ammo_skill_binds_default_attack","action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","crossbow_ammo_skill_does_not_transition","skill_is_instant_while_sprinting"]
+        "stats":["crossbow_ammo_skill_binds_default_attack","action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","crossbow_ammo_skill_does_not_transition","can_be_used_instantly_in_any_set"]
       }],
     "weaponTypes":{
       "Crossbow":true

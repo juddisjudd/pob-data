@@ -49,10 +49,12 @@
   "4":{
     "stats":["feast_of_flesh_number_of_corpses"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[[1,1]],
         "text":"Consumes {0:+d} Corpse"
       },{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[["#","#"]],
         "text":"Consumes {0:+d} Corpses"
       },{
         "limit":[[1,1]],

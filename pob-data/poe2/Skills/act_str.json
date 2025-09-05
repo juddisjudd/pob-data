@@ -2173,7 +2173,7 @@
             "1":31
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["base_number_of_crossbow_bolts","action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","skill_is_instant_while_sprinting"]
+        "stats":["base_number_of_crossbow_bolts","action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","can_be_used_instantly_in_any_set"]
       }],
     "weaponTypes":{
       "Crossbow":true
@@ -6071,7 +6071,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"rapid_shot_requiem_ammo",
-        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","crossbow_ammo_skill_does_not_transition","crossbow_ammo_has_no_ammo","skill_is_instant_while_sprinting"]
+        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","crossbow_ammo_skill_does_not_transition","crossbow_ammo_has_no_ammo","can_be_used_instantly_in_any_set"]
       }],
     "weaponTypes":{
       "Crossbow":true
@@ -9414,7 +9414,7 @@
             "1":51
           }],
         "statDescriptionScope":"emergency_reload",
-        "stats":["emergency_reload_damage_+%_final","base_skill_is_instant","triggerable_in_any_set","action_can_be_used_in_aiming_stance","action_can_be_used_in_upward_aiming_stance","base_deal_no_damage"]
+        "stats":["emergency_reload_damage_+%_final","can_be_used_instantly_in_any_set","action_can_be_used_in_aiming_stance","action_can_be_used_in_upward_aiming_stance","base_deal_no_damage"]
       }],
     "weaponTypes":{
       "Crossbow":true
@@ -10285,7 +10285,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","skill_is_instant_while_sprinting"]
+        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","can_be_used_instantly_in_any_set"]
       }],
     "weaponTypes":{
       "Crossbow":true
@@ -12861,7 +12861,7 @@
           }],
         "notMinionStat":["off_hand_weapon_minimum_physical_damage","off_hand_weapon_maximum_physical_damage"],
         "statDescriptionScope":"shielding_cry_shockwave",
-        "stats":["off_hand_weapon_minimum_physical_damage","off_hand_weapon_maximum_physical_damage","off_hand_minimum_added_physical_damage_per_15_shield_armour","off_hand_maximum_added_physical_damage_per_15_shield_armour","base_skill_show_average_damage_instead_of_dps","display_statset_hide_usage_stats","modifiers_to_warcry_damage_also_apply_to_this","replace_off_hand_unarmed_attack_stats_with_shield_type","attack_is_melee_override","skill_triggered_manually_by_other_skill","triggerable_in_any_set"]
+        "stats":["off_hand_weapon_minimum_physical_damage","off_hand_weapon_maximum_physical_damage","off_hand_minimum_added_physical_damage_per_15_shield_armour","off_hand_maximum_added_physical_damage_per_15_shield_armour","base_skill_show_average_damage_instead_of_dps","display_statset_hide_usage_stats","modifiers_to_warcry_damage_also_apply_to_this","replace_off_hand_unarmed_attack_stats_with_shield_type","attack_is_melee_override","skill_triggered_manually_by_other_skill","triggerable_in_any_set","is_area_damage"]
       }]
   },
   "FragmentationRoundsAmmoPlayer":{
@@ -13166,7 +13166,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","skill_is_instant_while_sprinting"]
+        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","can_be_used_instantly_in_any_set"]
       }],
     "weaponTypes":{
       "Crossbow":true
@@ -13842,7 +13842,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","quality_display_base_number_of_crossbow_bolts_is_gem","skill_is_instant_while_sprinting"]
+        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","quality_display_base_number_of_crossbow_bolts_is_gem","can_be_used_instantly_in_any_set"]
       }],
     "weaponTypes":{
       "Crossbow":true
@@ -14880,7 +14880,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","skill_is_instant_while_sprinting"]
+        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","can_be_used_instantly_in_any_set"]
       }],
     "weaponTypes":{
       "Crossbow":true
@@ -15721,7 +15721,7 @@
             "1":39
           }],
         "statDescriptionScope":"siege_cascade_permafrost_ammo",
-        "stats":["base_number_of_crossbow_bolts","active_skill_cannot_manually_reload","action_can_be_used_in_aiming_stance","action_can_be_used_in_upward_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","crossbow_ammo_skill_has_passive_reloading","display_statset_hide_usage_stats","quality_display_base_number_of_crossbow_bolts_is_gem","skill_is_instant_while_sprinting"]
+        "stats":["base_number_of_crossbow_bolts","active_skill_cannot_manually_reload","action_can_be_used_in_aiming_stance","action_can_be_used_in_upward_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","crossbow_ammo_skill_has_passive_reloading","display_statset_hide_usage_stats","quality_display_base_number_of_crossbow_bolts_is_gem","can_be_used_instantly_in_any_set"]
       }],
     "weaponTypes":{
       "Crossbow":true
@@ -17258,6 +17258,20 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"herald_of_blood",
+        "statMap":{
+          "display_herald_of_blood_behaviour":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Condition:EnemiesExplode",
+              "type":"FLAG",
+              "value":true,
+              "1":{
+                "effectName":"Herald of Blood",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }]
+        },
         "stats":["base_deal_no_damage","display_herald_of_blood_behaviour","quality_display_herald_of_blood_is_gem"]
       },{
         "baseEffectiveness":1.25,
@@ -17909,7 +17923,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","skill_is_instant_while_sprinting"]
+        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","can_be_used_instantly_in_any_set"]
       }],
     "weaponTypes":{
       "Crossbow":true
@@ -18586,7 +18600,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","skill_is_instant_while_sprinting"]
+        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","can_be_used_instantly_in_any_set"]
       }],
     "weaponTypes":{
       "Crossbow":true
@@ -19392,7 +19406,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","skill_is_instant_while_sprinting"]
+        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","can_be_used_instantly_in_any_set"]
       }],
     "weaponTypes":{
       "Crossbow":true
@@ -19991,7 +20005,7 @@
     "baseTypeName":"Infernal Cry",
     "castTime":0.8,
     "color":1,
-    "description":"Perform a Warcry, Empowering subsequent Attacks if there are enemies nearby. Enemies in the warcry's area are destabilised and will Combust on death. This Skill's cooldown can be bypassed by expending an Endurance Charge.",
+    "description":"Perform a Warcry, Empowering subsequent Melee Attacks if there are enemies nearby. Enemies in the warcry's area are destabilised and will Combust on death. This Skill's cooldown can be bypassed by expending an Endurance Charge.",
     "levels":[{
         "cooldown":8,
         "cost":{
@@ -25525,7 +25539,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","skill_is_instant_while_sprinting"]
+        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","can_be_used_instantly_in_any_set"]
       }],
     "weaponTypes":{
       "Crossbow":true
@@ -26150,7 +26164,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","quality_display_base_number_of_crossbow_bolts_is_gem","skill_is_instant_while_sprinting"]
+        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","quality_display_base_number_of_crossbow_bolts_is_gem","can_be_used_instantly_in_any_set"]
       }],
     "weaponTypes":{
       "Crossbow":true
@@ -26828,7 +26842,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","quality_display_base_number_of_crossbow_bolts_is_gem","skill_is_instant_while_sprinting"]
+        "stats":["action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","quality_display_base_number_of_crossbow_bolts_is_gem","can_be_used_instantly_in_any_set"]
       }],
     "weaponTypes":{
       "Crossbow":true
@@ -27863,7 +27877,7 @@
           }],
         "notMinionStat":["off_hand_weapon_minimum_physical_damage","off_hand_weapon_maximum_physical_damage"],
         "statDescriptionScope":"shield_drum",
-        "stats":["off_hand_weapon_minimum_physical_damage","off_hand_weapon_maximum_physical_damage","off_hand_minimum_added_physical_damage_per_15_shield_armour","off_hand_maximum_added_physical_damage_per_15_shield_armour","apply_X_armour_break_on_hit","can_perform_skill_while_moving","active_skill_does_not_decay_heavy_stun_during_action","attack_speed_modifiers_apply_to_over_time_cost","cannot_be_empowered_by_warcries","replace_off_hand_unarmed_attack_stats_with_shield_type"]
+        "stats":["off_hand_weapon_minimum_physical_damage","off_hand_weapon_maximum_physical_damage","off_hand_minimum_added_physical_damage_per_15_shield_armour","off_hand_maximum_added_physical_damage_per_15_shield_armour","apply_X_armour_break_on_hit","can_perform_skill_while_moving","active_skill_does_not_decay_heavy_stun_during_action","attack_speed_modifiers_apply_to_over_time_cost","cannot_be_empowered_by_warcries","replace_off_hand_unarmed_attack_stats_with_shield_type","is_area_damage"]
       }]
   },
   "RollingSlamPlayer":{
@@ -31162,6 +31176,7 @@
     "statSets":[{
         "baseEffectiveness":1.210000038147,
         "baseFlags":{
+          "area":true,
           "attack":true,
           "melee":true,
           "shieldAttack":true
@@ -31532,7 +31547,7 @@
           }],
         "notMinionStat":["off_hand_weapon_minimum_physical_damage","off_hand_weapon_maximum_physical_damage"],
         "statDescriptionScope":"shield_barricade",
-        "stats":["off_hand_weapon_minimum_physical_damage","off_hand_weapon_maximum_physical_damage","wall_maximum_length","shield_wall_maximum_life","off_hand_minimum_added_physical_damage_per_15_shield_armour","off_hand_maximum_added_physical_damage_per_15_shield_armour","skill_does_not_pathfind","is_shield_barricade_segment","shield_wall_segment_display_stat","quality_display_shield_wall_is_gem","replace_off_hand_unarmed_attack_stats_with_shield_type"]
+        "stats":["off_hand_weapon_minimum_physical_damage","off_hand_weapon_maximum_physical_damage","wall_maximum_length","shield_wall_maximum_life","off_hand_minimum_added_physical_damage_per_15_shield_armour","off_hand_maximum_added_physical_damage_per_15_shield_armour","skill_does_not_pathfind","is_shield_barricade_segment","shield_wall_segment_display_stat","quality_display_shield_wall_is_gem","replace_off_hand_unarmed_attack_stats_with_shield_type","is_area_damage"]
       }]
   },
   "ShockGrenadePlayer":{
@@ -32518,7 +32533,7 @@
             "1":29
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["base_number_of_crossbow_bolts","action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","quality_display_base_number_of_crossbow_bolts_is_gem","skill_is_instant_while_sprinting"]
+        "stats":["base_number_of_crossbow_bolts","action_can_be_used_in_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","quality_display_base_number_of_crossbow_bolts_is_gem","can_be_used_instantly_in_any_set"]
       }],
     "weaponTypes":{
       "Crossbow":true
@@ -34939,7 +34954,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["action_can_be_used_in_aiming_stance","action_can_be_used_in_upward_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","skill_is_instant_while_sprinting"]
+        "stats":["action_can_be_used_in_aiming_stance","action_can_be_used_in_upward_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","can_be_used_instantly_in_any_set"]
       }],
     "weaponTypes":{
       "Crossbow":true
@@ -36699,7 +36714,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["action_can_be_used_in_aiming_stance","action_can_be_used_in_upward_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","quality_display_base_number_of_crossbow_bolts_is_gem","skill_is_instant_while_sprinting"]
+        "stats":["action_can_be_used_in_aiming_stance","action_can_be_used_in_upward_aiming_stance","can_perform_skill_while_moving","base_deal_no_damage","display_statset_hide_usage_stats","quality_display_base_number_of_crossbow_bolts_is_gem","can_be_used_instantly_in_any_set"]
       }],
     "weaponTypes":{
       "Crossbow":true
@@ -38180,6 +38195,7 @@
         "levelRequirement":0
       }],
     "name":"SupportAncestralWarriorTotemPlayer",
+    "qualityStats":[],
     "requireSkillTypes":[1],
     "statSets":[{
         "baseFlags":[],
@@ -38382,6 +38398,7 @@
         "levelRequirement":0
       }],
     "name":"SupportMetaCastLightningSpellOnHitPlayer",
+    "qualityStats":[],
     "requireSkillTypes":[2,31,30,74,74],
     "statSets":[{
         "baseFlags":[],
@@ -38642,6 +38659,7 @@
         "levelRequirement":0
       }],
     "name":"SupportMetaCastOnBlockPlayer",
+    "qualityStats":[],
     "requireSkillTypes":[2,31,74],
     "statSets":[{
         "baseFlags":[],
@@ -38746,6 +38764,7 @@
         "storedUses":1
       }],
     "name":"SupportMetaCastOnMeleeKillPlayer",
+    "qualityStats":[],
     "requireSkillTypes":[2,31,74],
     "statSets":[{
         "baseFlags":[],
@@ -38772,6 +38791,7 @@
         "storedUses":1
       }],
     "name":"SupportMetaCastOnMeleeStunPlayer",
+    "qualityStats":[],
     "requireSkillTypes":[2,31,74],
     "statSets":[{
         "baseFlags":[],
@@ -38875,6 +38895,7 @@
         "levelRequirement":0
       }],
     "name":"SupportMortarCannonPlayer",
+    "qualityStats":[],
     "requireSkillTypes":[158],
     "statSets":[{
         "baseFlags":[],

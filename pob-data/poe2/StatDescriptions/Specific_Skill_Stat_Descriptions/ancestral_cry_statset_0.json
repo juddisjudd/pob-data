@@ -73,7 +73,8 @@
   "9":{
     "stats":["ancestral_cry_duration_+%_final_per_removable_endurance_charge"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[["#","#"]],
         "text":"{0:+d}% increased Warcry duration per Endurance Charge consumed"
       },{
         "limit":[["#","#"]],

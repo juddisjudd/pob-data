@@ -4611,6 +4611,23 @@
         }
       }
     }],
+  "minions_cannot_be_damaged":{
+    "value":-100,
+    "1":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"MinionModifier",
+      "type":"LIST",
+      "value":{
+        "mod":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"DamageTaken",
+          "type":"MORE"
+        }
+      }
+    }
+  },
   "minions_deal_%_of_physical_damage_as_additional_chaos_damage":[{
       "flags":0,
       "keywordFlags":0,
@@ -4625,6 +4642,23 @@
         }
       }
     }],
+  "minions_deal_no_damage":{
+    "value":-100,
+    "1":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"MinionModifier",
+      "type":"LIST",
+      "value":{
+        "mod":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Damage",
+          "type":"MORE"
+        }
+      }
+    }
+  },
   "minions_have_%_chance_to_inflict_wither_on_hit":[{
       "flags":0,
       "keywordFlags":0,

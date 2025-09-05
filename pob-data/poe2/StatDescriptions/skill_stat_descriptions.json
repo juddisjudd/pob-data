@@ -7092,7 +7092,8 @@
   "469":{
     "stats":["arc_damage_+%_final_for_each_remaining_chain"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[[1,"#"]],
         "text":"{0:+d}% more Damage for each remaining Chain"
       },{
         "limit":[[1,"#"]],
@@ -7654,10 +7655,12 @@
   "522":{
     "stats":["base_number_of_projectiles","skill_can_fire_arrows","quality_display_base_number_of_projectiles_is_gem"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[["#","#"],[0,0],["#","#"]],
         "text":"Fires {0:+d} Projectiles"
       },{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[["#","#"],[0,0],["#","#"]],
         "text":"Fires {0:+d} Arrows"
       },{
         "limit":[[2,"#"],[0,0],["#","#"]],
@@ -12783,7 +12786,8 @@
   "1075":{
     "stats":["infusion_remnants_%_chance_to_spawn_cold_infusion_on_freezing_an_enemy"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[[1,"#"]],
         "text":"{0:+d}% chance per Power to spawn a Cold Remnant on\nFreezing a target"
       },{
         "limit":[[1,"#"]],
@@ -12793,7 +12797,8 @@
   "1076":{
     "stats":["infusion_remnants_%_chance_to_spawn_fire_infusion_on_igniting_an_enemy"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[[1,"#"]],
         "text":"{0:+d}% chance to spawn a Fire Remnant on\nIgniting a non-Ignited target"
       },{
         "limit":[[1,"#"]],
@@ -12803,7 +12808,8 @@
   "1077":{
     "stats":["infusion_remnants_%_chance_to_spawn_lightning_infusion_on_shocking_an_enemy"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[[1,"#"]],
         "text":"{0:+d}% chance to spawn a Lightning Remnant on\nShocking a non-Shocked target"
       },{
         "limit":[[1,"#"]],

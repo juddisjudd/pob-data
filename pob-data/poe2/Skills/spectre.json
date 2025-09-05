@@ -3954,7 +3954,7 @@
     "castTime":1,
     "hidden":true,
     "levels":[{
-        "baseMultiplier":0.7,
+        "baseMultiplier":0.6,
         "levelRequirement":0
       }],
     "name":"Spike Burst",

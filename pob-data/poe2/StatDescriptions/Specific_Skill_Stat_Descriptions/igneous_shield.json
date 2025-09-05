@@ -25,7 +25,8 @@
   "2":{
     "stats":["igneous_shield_charge_up_time_+%"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[["#","#"]],
         "text":"{0}% reduced Imbuement time",
         "1":{
           "k":"negate",
@@ -50,7 +51,8 @@
   "3":{
     "stats":["skill_igneous_shield_grants_block_chance_+%"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[[1,"#"]],
         "text":"{0:+d}% increased Block chance"
       },{
         "limit":[[1,"#"]],

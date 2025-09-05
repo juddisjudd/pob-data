@@ -581,10 +581,10 @@
     },
     "type":"Bow",
     "weapon":{
-      "AttackRateBase":1.2,
+      "AttackRateBase":1.1,
       "CritChanceBase":5,
-      "PhysicalMax":53,
-      "PhysicalMin":29,
+      "PhysicalMax":60,
+      "PhysicalMin":32,
       "Range":120
     }
   },

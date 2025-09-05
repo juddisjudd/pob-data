@@ -12,7 +12,8 @@
   "2":{
     "stats":["thunderfist_number_of_bolts_delays","thunderfist_bolt_delay_ms"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[[0,0],["#",-1]],
         "text":"-{1} seconds to bolt cooldown",
         "1":{
           "k":"milliseconds_to_seconds_2dp_if_required",

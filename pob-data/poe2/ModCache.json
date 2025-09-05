@@ -1151,6 +1151,13 @@
         "type":"BASE",
         "value":13
       }]],
+  "+13 to maximum Energy Shield":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
+        "type":"BASE",
+        "value":13
+      }]],
   "+13% to Block chance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -1514,6 +1521,13 @@
         "name":"LightningResist",
         "type":"BASE",
         "value":17
+      }]],
+  "+175 to Accuracy Rating":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Accuracy",
+        "type":"BASE",
+        "value":175
       }]],
   "+175 to Armour":[[{
         "flags":0,
@@ -2071,6 +2085,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"Dex",
+        "type":"BASE",
+        "value":23
+      }]],
+  "+23 to Evasion Rating":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
         "type":"BASE",
         "value":23
       }]],
@@ -16459,7 +16480,7 @@
         "value":25
       }]," to 35 Fire  "],
   "25% Chance to gain a Charge when you Kill an Enemy":[null,"a Charge  "],
-  "25% Chance to gain a Charge when you Kill an Enemy Creates Ignited Ground in for 4 seconds when used, Igniting enemies as though dealing Fire damage equal to 500% of your maximum Life":[null,"a Charge  Creates Ignited Ground in  when used, Igniting enemies as though dealing Fire damage equal to 500% of your maximum Life "],
+  "25% Chance to gain a Charge when you Kill an Enemy Creates Ignited Ground for 4 seconds when used, Igniting enemies as though dealing Fire damage equal to 500% of your maximum Life":[null,"a Charge  Creates Ignited Ground  when used, Igniting enemies as though dealing Fire damage equal to 500% of your maximum Life "],
   "25% Chance to gain a Charge when you Kill an Enemy Energy Shield Recharge starts on use":[null,"a Charge  Energy Shield Recharge starts on use "],
   "25% chance for Attacks to Maim on Hit against Poisoned Enemies":[[],"  to Maim on Hit  "],
   "25% chance for Attacks to Maim on Hit against Poisoned Enemies 25% increased Magnitude of Poison you inflict":[[{
@@ -16994,13 +17015,13 @@
         "value":25
       }]],
   "25% increased Culling Strike Threshold":[[]," Culling Strike Threshold "],
-  "25% increased Culling Strike Threshold Gain 15% of Damage as Extra Lightning Damage":[[{
+  "25% increased Culling Strike Threshold Gain 13% of Damage as Extra Chaos Damage":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"Damage",
         "type":"INC",
         "value":25
-      }]," Culling Strike Threshold Gain 15% of  as Extra Lightning Damage "],
+      }]," Culling Strike Threshold Gain 13% of  as Extra Chaos Damage "],
   "25% increased Damage during any Flask Effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -18015,6 +18036,13 @@
         "name":"Mana",
         "type":"INC",
         "value":-25
+      }]],
+  "250% increased Armour and Energy Shield":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArmourAndEnergyShield",
+        "type":"INC",
+        "value":250
       }]],
   "250% increased Armour and Evasion":[[{
         "flags":0,
@@ -22722,13 +22750,6 @@
         "type":"INC",
         "value":-5
       }]],
-  "50% chance for Flasks you use to not consume Charges":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FlaskChanceNotConsumeCharges",
-        "type":"BASE",
-        "value":50
-      }]],
   "50% chance for Projectiles to Pierce Enemies within 3m distance of you":[[{
         "flags":0,
         "keywordFlags":0,
@@ -23538,6 +23559,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"Evasion",
+        "type":"MORE",
+        "value":-50
+      }]],
+  "50% less Flask Charges used":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FlaskChargesUsed",
         "type":"MORE",
         "value":-50
       }]],
@@ -34626,6 +34654,13 @@
   "Blocking Damage Poisons the Enemy as though dealing 100 Base Chaos Damage":[null,"Blocking Damage Poisons the Enemy as though dealing 100 Base Chaos Damage "],
   "Blocking Damage Poisons the Enemy as though dealing 100 Base Chaos Damage Blocking Damage Poisons the Enemy as though dealing 200 Base Chaos Damage":[null,"Blocking Damage Poisons the Enemy as though dealing 100 Base Chaos Damage Blocking Damage Poisons the Enemy as though dealing 200 Base Chaos Damage "],
   "Blocking Damage Poisons the Enemy as though dealing 200 Base Chaos Damage":[null,"Blocking Damage Poisons the Enemy as though dealing 200 Base Chaos Damage "],
+  "Blood Magic":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Keystone",
+        "type":"LIST",
+        "value":"Blood Magic"
+      }]],
   "Blue: Skills have 30% less cost":[null,"Blue: Skills have 30% less cost "],
   "Blue: Skills have 30% less cost Green: 40% less Movement Speed Penalty from using Skills while Moving":[null,"Blue: Skills have 30% less cost Green: 40% less Movement Speed Penalty from using Skills while Moving "],
   "Body Armour grants +100% of Armour also applies to Chaos Damage":[[{
@@ -35537,8 +35572,6 @@
         "type":"BASE",
         "value":100
       }]],
-  "Coral Circlet":[null,"Coral Circlet "],
-  "Coral Circlet League: Dawn of the Hunt":[null,"Coral Circlet League: Dawn of the Hunt "],
   "Corrupted Blood cannot be inflicted on you":[[{
         "flags":0,
         "keywordFlags":0,
@@ -35547,7 +35580,7 @@
         "value":true
       }]],
   "Creates Consecrated Ground on use":[[]],
-  "Creates Ignited Ground in for 4 seconds when used, Igniting enemies as though dealing Fire damage equal to 500% of your maximum Life":[null,"Creates Ignited Ground in for 4 seconds when used, Igniting enemies as though dealing Fire damage equal to 500% of your maximum Life "],
+  "Creates Ignited Ground for 4 seconds when used, Igniting enemies as though dealing Fire damage equal to 500% of your maximum Life":[null,"Creates Ignited Ground for 4 seconds when used, Igniting enemies as though dealing Fire damage equal to 500% of your maximum Life "],
   "Critical Hits Ignore Enemy Monster Lightning Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -36155,8 +36188,6 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Diviner Cuffs":[null,"Diviner Cuffs "],
-  "Diviner Cuffs League: Dawn of the Hunt":[null,"Diviner Cuffs League: Dawn of the Hunt "],
   "Dodge Roll avoids all Hits":[null,"Dodge Roll avoids all Hits "],
   "Dodge Roll avoids all Hits 10% less Movement and Skill Speed per Dodge Roll in the past 20 seconds":[null,"Dodge Roll avoids all Hits 10% less Movement and Skill Speed per Dodge Roll in the past 20 seconds "],
   "Dodge Roll cannot Avoid Damage":[null,"Dodge Roll cannot Avoid Damage "],
@@ -39061,6 +39092,16 @@
           "skillId":"ManaDrainPlayer"
         }
       }]],
+  "Grants Skill: Level 11 Parry":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":11,
+          "skillId":"ParryPlayer"
+        }
+      }]],
   "Grants Skill: Level 11 Phantasmal Arrow":[[{
         "flags":0,
         "keywordFlags":0,
@@ -39109,6 +39150,16 @@
         "value":{
           "level":11,
           "skillId":"PurityOfLightningPlayer"
+        }
+      }]],
+  "Grants Skill: Level 11 Raise Shield":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":11,
+          "skillId":"ShieldBlockPlayer"
         }
       }]],
   "Grants Skill: Level 11 Sigil of Power":[[{
@@ -39444,6 +39495,16 @@
           "skillId":"ManaDrainPlayer"
         }
       }]],
+  "Grants Skill: Level 20 Parry":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":20,
+          "skillId":"ParryPlayer"
+        }
+      }]],
   "Grants Skill: Level 20 Phantasmal Arrow":[[{
         "flags":0,
         "keywordFlags":0,
@@ -39502,6 +39563,16 @@
         "value":{
           "level":20,
           "skillId":"PurityOfLightningPlayer"
+        }
+      }]],
+  "Grants Skill: Level 20 Raise Shield":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":20,
+          "skillId":"ShieldBlockPlayer"
         }
       }]],
   "Grants Skill: Level 20 Sigil of Power":[[{

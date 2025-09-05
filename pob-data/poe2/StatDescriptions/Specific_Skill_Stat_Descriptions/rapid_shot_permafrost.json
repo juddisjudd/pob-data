@@ -76,7 +76,8 @@
           "v":1
         }
       },{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[["#","#"],[0,0],["#","#"]],
         "text":"Shards deal up to {0:+d}% more Damage after arming",
         "1":{
           "k":"milliseconds_to_seconds_2dp_if_required",

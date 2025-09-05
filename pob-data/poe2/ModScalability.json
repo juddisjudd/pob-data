@@ -1,5 +1,4 @@
 {
-  " All Elemental Damage from Hits Contributes to Flammability and Ignite Magnitudes":[],
   "#":[{
       "formats":["tree_expansion_jewel_passive"],
       "isScalable":false
@@ -10794,6 +10793,9 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "#% less Flask Charges used":[{
+      "isScalable":true
+    }],
   "#% less Flask Effect Duration":[{
       "formats":["negate"],
       "isScalable":true
@@ -11275,6 +11277,10 @@
       "isScalable":true
     }],
   "#% more Flask Charges gained from Kills":[{
+      "isScalable":true
+    }],
+  "#% more Flask Charges used":[{
+      "formats":["negate"],
       "isScalable":true
     }],
   "#% more Flask Effect Duration":[{
@@ -21101,6 +21107,7 @@
   "All Damage taken from Hits can Scorch you":[],
   "All Damage taken from Hits while Bleeding Contributes to Magnitude of Chill on you":[],
   "All Damage taken from Hits while Poisoned Contributes to Magnitude of Chill on you":[],
+  "All Elemental Damage from Hits Contributes to Flammability and Ignite Magnitudes":[],
   "All Elemental Damage from Hits Contributes to Freeze Buildup":[],
   "All Elemental Damage from Hits Contributes to Shock Chance":[],
   "All Maps in Range can be accessed":[],
@@ -24294,7 +24301,7 @@
   "Creates Consecrated Ground on Critical Hit":[],
   "Creates Consecrated Ground on Use":[],
   "Creates Consecrated Ground on use":[],
-  "Creates Ignited Ground in for 4 seconds when used, Igniting enemies as though dealing Fire damage equal to #% of your maximum Life":[{
+  "Creates Ignited Ground for 4 seconds when used, Igniting enemies as though dealing Fire damage equal to #% of your maximum Life":[{
       "isScalable":true
     }],
   "Creates a Smoke Cloud on Rampage":[],
@@ -33243,7 +33250,7 @@
       "isScalable":true
     }],
   "Purity of Fire has #% reduced Mana Reservation Efficiency":[{
-      "formats":["double"],
+      "formats":["negate"],
       "isScalable":true
     }],
   "Purity of Fire has #% reduced Reservation":[{

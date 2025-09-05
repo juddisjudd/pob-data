@@ -3087,10 +3087,12 @@
   "249":{
     "stats":["number_of_chains"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[[1,1]],
         "text":"Chains an additional time"
       },{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[["#","#"]],
         "text":"Chains {0:+d} additional times"
       },{
         "limit":[[1,1]],

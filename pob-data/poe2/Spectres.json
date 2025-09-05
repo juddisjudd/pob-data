@@ -4277,7 +4277,13 @@
     "fireResist":0,
     "life":0.8,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyCurseLimit",
+        "type":"BASE",
+        "value":3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["bones","skeleton","Unarmed_onhit_audio","undead","very_slow_movement"],
     "name":"Ribrattle",

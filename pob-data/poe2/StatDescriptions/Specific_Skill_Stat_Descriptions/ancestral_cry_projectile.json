@@ -45,10 +45,12 @@
   "6":{
     "stats":["base_number_of_projectiles","skill_can_fire_arrows","quality_display_base_number_of_projectiles_is_gem"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[[1,1],["#","#"],[0,0]],
         "text":"Fires {0:+d} Molten Projectile"
       },{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[["#","#"],["#","#"],[0,0]],
         "text":"Fires {0:+d} Molten Projectiles"
       },{
         "limit":[[1,1],["#","#"],["#","#"]],

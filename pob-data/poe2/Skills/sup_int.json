@@ -5212,16 +5212,18 @@
     "name":"Doedre's Dark Design",
     "qualityStats":[],
     "skillTypes":{
+      "2":true,
       "7":true,
       "8":true,
       "31":true,
       "37":true,
       "42":true,
+      "72":true,
       "115":true
     },
     "statSets":[{
         "baseFlags":{
-          "hit":true
+          "spell":true
         },
         "constantStats":[["triggered_by_curse_zones_are_hazards_%",100],["skill_base_chaos_damage_%_of_intelligence",200],["curse_zone_explosion_apply_supported_curse_for_base_ms_on_hit",3000]],
         "incrementalEffectiveness":0.054999999701977,

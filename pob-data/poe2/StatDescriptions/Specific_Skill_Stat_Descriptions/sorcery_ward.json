@@ -24,7 +24,8 @@
   "4":{
     "stats":["aegis_unique_shield_max_value_from_%_armour_evasion"],
     "1":[{
-        "limit":[],
+        "gem_quality":true,
+        "limit":[[1,"#"]],
         "text":"Barrier can take Elemental Damage up to an additional {0:+d}% of your Armour and Evasion Rating"
       },{
         "limit":[[1,"#"]],
