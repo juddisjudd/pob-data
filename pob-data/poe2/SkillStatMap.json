@@ -1342,6 +1342,20 @@
       "name":"Condition:CannotBeDamaged",
       "type":"FLAG"
     }],
+  "base_cannot_be_frozen":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"FreezeImmune",
+      "type":"FLAG",
+      "value":true
+    }],
+  "base_cannot_be_stunned":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"StunImmune",
+      "type":"FLAG",
+      "value":true
+    }],
   "base_cast_speed_+%":[{
       "flags":16,
       "keywordFlags":0,
@@ -1409,6 +1423,13 @@
       "flags":0,
       "keywordFlags":0,
       "name":"ChaosCanIgnite",
+      "type":"FLAG",
+      "value":true
+    }],
+  "base_chaos_damage_does_not_damage_energy_shield_extra_hard":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"ChaosNotDoubleESDamage",
       "type":"FLAG",
       "value":true
     }],
@@ -1725,6 +1746,12 @@
       "keywordFlags":0,
       "name":"FireResistMax",
       "type":"BASE"
+    }],
+  "base_maximum_life_is_one":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Life",
+      "type":"OVERRIDE"
     }],
   "base_maximum_lightning_damage_resistance_%":[{
       "flags":0,
@@ -2107,6 +2134,15 @@
       "name":"HybridManaAndLifeCost_Life",
       "type":"BASE"
     }],
+  "base_skill_detonation_time":{
+    "div":1000,
+    "1":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"DetonationTime",
+      "type":"BASE"
+    }
+  },
   "base_skill_effect_duration":{
     "div":1000,
     "1":{
@@ -2119,6 +2155,13 @@
       }
     }
   },
+  "base_skill_is_ballistified":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Condition:BallistaSkill",
+      "type":"FLAG",
+      "value":true
+    }],
   "base_skill_reserve_life_instead_of_mana":[{
       "flags":0,
       "keywordFlags":0,
@@ -2324,6 +2367,13 @@
       "type":"FLAG",
       "value":true
     }],
+  "cannot_be_knocked_back":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"KnockbackImmune",
+      "type":"FLAG",
+      "value":true
+    }],
   "cannot_be_stunned_while_leeching":[{
       "flags":{
         "type":"Condition",
@@ -2422,6 +2472,13 @@
       "flags":0,
       "keywordFlags":0,
       "name":"Condition:SinglePoison",
+      "type":"FLAG",
+      "value":true
+    }],
+  "cannot_recharge_energy_shield":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"NoEnergyShieldRecharge",
       "type":"FLAG",
       "value":true
     }],
@@ -3587,6 +3644,12 @@
       "name":"BlindChance",
       "type":"BASE"
     }],
+  "global_chance_to_daze_on_hit_%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"DazeChance",
+      "type":"BASE"
+    }],
   "global_knockback":{
     "value":100,
     "1":{
@@ -3708,8 +3771,8 @@
   "grenade_skill_%_chance_to_explode_twice":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"GrenadeExplodeTwice",
-      "type":"INC"
+      "name":"GrenadeActivateTwice",
+      "type":"BASE"
     }],
   "grenade_skill_cooldown_speed_+%":[{
       "flags":0,
@@ -3768,6 +3831,13 @@
       "name":"EnemyIgniteDuration",
       "type":"INC"
     }],
+  "immune_to_curses":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CurseImmune",
+      "type":"FLAG",
+      "value":true
+    }],
   "impale_debuff_effect_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -3812,6 +3882,13 @@
       "flags":0,
       "keywordFlags":0,
       "name":"CanCreateHazards",
+      "type":"FLAG",
+      "value":true
+    }],
+  "is_hidden_monster":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"HiddenMonster",
       "type":"FLAG",
       "value":true
     }],
@@ -4608,6 +4685,21 @@
           "keywordFlags":0,
           "name":"SkillPhysicalDamageConvertToFire",
           "type":"BASE"
+        }
+      }
+    }],
+  "minions_are_gigantic":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"MinionModifier",
+      "type":"LIST",
+      "value":{
+        "mod":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Gigantic",
+          "type":"FLAG",
+          "value":true
         }
       }
     }],
@@ -5700,6 +5792,48 @@
       "name":"SecondaryDuration",
       "type":"INC"
     }],
+  "set_base_cannot_be_damaged":{
+    "value":-100,
+    "1":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"DamageTaken",
+      "type":"MORE"
+    }
+  },
+  "set_base_heavy_stun_duration_ms":{
+    "div":1000,
+    "1":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"StunDuration",
+      "type":"OVERRIDE"
+    }
+  },
+  "set_base_maximum_life_is_one":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Life",
+      "type":"OVERRIDE"
+    }],
+  "set_max_endurance_charges":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"EnduranceChargesMax",
+      "type":"OVERRIDE"
+    }],
+  "set_max_frenzy_charges":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"FrenzyChargesMax",
+      "type":"OVERRIDE"
+    }],
+  "set_max_power_charges":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"PowerChargesMax",
+      "type":"OVERRIDE"
+    }],
   "shield_charge_damage_+%_maximum":[{
       "flags":4,
       "keywordFlags":0,
@@ -5815,6 +5949,12 @@
       "keywordFlags":0,
       "name":"PhysicalDamageConvertToRandom",
       "type":"BASE"
+    }],
+  "skill_detonation_time_+%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"DetonationTime",
+      "type":"INC"
     }],
   "skill_double_hits_when_dual_wielding":[{
       "flags":0,
@@ -6389,6 +6529,12 @@
         "type":"ActorCondition",
         "var":"FullLife"
       }
+    }],
+  "stun_duration_on_self_+%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"StunDuration",
+      "type":"INC"
     }],
   "stun_threshold_+%":[{
       "flags":0,

@@ -6261,6 +6261,7 @@
     "statSets":[{
         "baseFlags":{
           "area":true,
+          "attack":true,
           "projectile":true
         },
         "constantStats":[["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["active_skill_base_area_of_effect_radius",16],["active_skill_base_secondary_area_of_effect_radius",24],["active_skill_base_physical_damage_%_to_convert_to_cold",60]],

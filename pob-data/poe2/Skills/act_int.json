@@ -38912,7 +38912,7 @@
         "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
         "statDescriptionScope":"lightning_conduit",
         "statMap":{
-          "consume_enemy_shock_to_gain_damage_+%_final_per_5%_increased_damage_taken_from_shock":[{
+          "lightning_conduit_damage_+%_final_per_5%_increased_damage_taken_from_shock":[{
               "flags":0,
               "keywordFlags":262144,
               "name":"Damage",

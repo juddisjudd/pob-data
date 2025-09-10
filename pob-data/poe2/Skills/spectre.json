@@ -451,6 +451,44 @@
         "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length"]
       }]
   },
+  "CGEAbyssCocoon3FlameGeyser":{
+    "castTime":3.532,
+    "hidden":true,
+    "levels":[{
+        "critChance":5,
+        "levelRequirement":0
+      }],
+    "name":"Large Ball Flame Geyser",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "31":true,
+      "72":true
+    },
+    "statSets":[{
+        "baseEffectiveness":15,
+        "baseFlags":{
+          "area":true,
+          "duration":true,
+          "spell":true
+        },
+        "constantStats":[["active_skill_area_of_effect_radius_+%_final",-75],["base_skill_effect_duration",3000],["ground_fire_art_variation",1029],["monster_penalty_against_minions_damage_+%_final_vs_player_minions",100]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Large Ball Flame Geyser",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3],
+            "1":16.666667039196
+          }],
+        "notMinionStat":["base_fire_damage_to_deal_per_minute"],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["base_fire_damage_to_deal_per_minute","is_area_damage"]
+      }]
+  },
   "CGEBloodPriestBoilingBlood":{
     "castTime":1,
     "hidden":true,
@@ -634,6 +672,34 @@
         "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
       }]
   },
+  "DTTKaruiBloodFeverButcherLeap":{
+    "castTime":1,
+    "hidden":true,
+    "levels":[{
+        "cooldown":6.75,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Dash",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "34":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true
+        },
+        "constantStats":[["walk_emerge_extra_distance",-5],["leap_slam_minimum_distance",28],["attack_maximum_action_distance_+",30]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Dash",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["action_attack_or_cast_time_uses_animation_length"]
+      }]
+  },
   "DTTMantisRatLeap":{
     "castTime":1,
     "hidden":true,
@@ -691,6 +757,43 @@
           }],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length","base_skill_can_be_blocked"]
+      }]
+  },
+  "EDSAbyssMorayClanFlamethrower":{
+    "castTime":1,
+    "hidden":true,
+    "levels":[{
+        "cooldown":3,
+        "critChance":6,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Flamethrower",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "31":true
+    },
+    "statSets":[{
+        "baseEffectiveness":1.25,
+        "baseFlags":{
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["monster_penalty_against_minions_damage_+%_final_vs_player_minions",-40],["ignite_chance_+%",200]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Flamethrower",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage","action_attack_or_cast_time_uses_animation_length"]
       }]
   },
   "EDSGolemancerReapLeft":{
@@ -1324,6 +1427,258 @@
         "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length"]
       }]
   },
+  "GSAbyssCarrionWingBeamImpact":{
+    "castTime":1,
+    "hidden":true,
+    "levels":[{
+        "critChance":5,
+        "levelRequirement":0
+      }],
+    "name":"Beam Impact",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "31":true
+    },
+    "statSets":[{
+        "baseEffectiveness":1.3200000524521,
+        "baseFlags":{
+          "hit":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Beam Impact",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "statDescriptionScope":"geometry_spell",
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage","base_skill_can_be_blocked","base_skill_can_be_avoided_by_dodge_roll"]
+      }]
+  },
+  "GSAbyssCocoon3BallSpitImpact":{
+    "castTime":1,
+    "hidden":true,
+    "levels":[{
+        "critChance":5,
+        "levelRequirement":0
+      }],
+    "name":"Large Ball Impact",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "31":true
+    },
+    "statSets":[{
+        "baseEffectiveness":6,
+        "baseFlags":{
+          "hit":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["active_skill_area_of_effect_radius_+%_final",-65],["active_skill_ignite_chance_+%_final",200],["active_skill_ignite_effect_+%_final",200]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Large Ball Impact",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "statDescriptionScope":"geometry_spell",
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage","action_attack_or_cast_time_uses_animation_length","base_is_projectile","base_skill_can_be_avoided_by_dodge_roll","base_skill_can_be_blocked"]
+      }]
+  },
+  "GSAbyssCocoon3BallSpitSmallImpact":{
+    "castTime":1,
+    "hidden":true,
+    "levels":[{
+        "critChance":6,
+        "levelRequirement":0
+      }],
+    "name":"Small Ball Impact ",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "31":true
+    },
+    "statSets":[{
+        "baseEffectiveness":4,
+        "baseFlags":{
+          "hit":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Small Ball Impact ",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "statDescriptionScope":"geometry_spell",
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage","action_attack_or_cast_time_uses_animation_length","base_is_projectile","base_skill_can_be_avoided_by_dodge_roll","base_skill_can_be_blocked"]
+      }]
+  },
+  "GSAbyssPaleEliteBeam":{
+    "castTime":2.333,
+    "hidden":true,
+    "levels":[{
+        "cooldown":6,
+        "critChance":7,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Beam",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "31":true
+    },
+    "statSets":[{
+        "baseEffectiveness":6.25,
+        "baseFlags":{
+          "hit":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["spell_maximum_action_distance_+%",-55]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Beam",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
+        "statDescriptionScope":"geometry_spell",
+        "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_area_damage","action_attack_or_cast_time_uses_animation_length"]
+      }]
+  },
+  "GSAbyssPaleEliteSnowBallImpact":{
+    "castTime":1,
+    "hidden":true,
+    "levels":[{
+        "critChance":7,
+        "levelRequirement":0
+      }],
+    "name":"Snowball Impact",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "31":true
+    },
+    "statSets":[{
+        "baseEffectiveness":2.5,
+        "baseFlags":{
+          "area":true,
+          "hit":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Snowball Impact",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
+        "statDescriptionScope":"geometry_spell",
+        "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_area_damage","action_attack_or_cast_time_uses_animation_length"]
+      }]
+  },
+  "GSAbyssPitArtilleryMortarImpact":{
+    "castTime":1,
+    "hidden":true,
+    "levels":[{
+        "critChance":6,
+        "levelRequirement":0
+      }],
+    "name":"Artillery Impact",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "31":true
+    },
+    "statSets":[{
+        "baseEffectiveness":2.5,
+        "baseFlags":{
+          "area":true,
+          "hit":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Artillery Impact",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.5,
+            "2":1.5
+          }],
+        "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
+        "statDescriptionScope":"geometry_spell",
+        "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage","action_attack_or_cast_time_uses_animation_length","base_skill_can_be_avoided_by_dodge_roll","base_is_projectile"]
+      }]
+  },
+  "GSAbyssPrimordialMonsterScreech":{
+    "castTime":1,
+    "hidden":true,
+    "levels":[{
+        "critChance":6,
+        "levelRequirement":0
+      }],
+    "name":"Screech",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "31":true
+    },
+    "statSets":[{
+        "baseEffectiveness":1.8999999761581,
+        "baseFlags":{
+          "hit":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["spell_maximum_action_distance_+%",-80]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Screech",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.5,
+            "2":1.5
+          }],
+        "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
+        "statDescriptionScope":"geometry_spell",
+        "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage","action_attack_or_cast_time_uses_animation_length"]
+      }]
+  },
   "GSArmourCasterVolatileExplode":{
     "castTime":1,
     "hidden":true,
@@ -1810,6 +2165,52 @@
         "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage","skill_ignore_moving_slowdown_on_shift_attack","base_is_projectile"]
       }]
   },
+  "GSVaalZealotLightningBlast":{
+    "castTime":1.2,
+    "hidden":true,
+    "levels":[{
+        "critChance":7,
+        "levelRequirement":0
+      }],
+    "name":"Lightning Blast",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "31":true
+    },
+    "statSets":[{
+        "baseEffectiveness":4,
+        "baseFlags":{
+          "hit":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"SkillData",
+            "type":"LIST",
+            "value":{
+              "key":"cooldown",
+              "value":10.5
+            }
+          }],
+        "constantStats":[["shock_chance_+%",300]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Lightning Blast",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.5,
+            "2":1.5
+          }],
+        "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
+        "statDescriptionScope":"geometry_spell",
+        "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","action_attack_or_cast_time_uses_animation_length","base_skill_can_be_blocked","base_skill_can_be_avoided_by_dodge_roll"]
+      }]
+  },
   "GSWarlockRaiseBugs":{
     "castTime":1,
     "hidden":true,
@@ -1982,6 +2383,54 @@
         "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage","cannot_stun","base_skill_can_be_blocked","base_skill_can_be_avoided_by_dodge_roll"]
+      }]
+  },
+  "HuhuGrubLarvaeMortar":{
+    "castTime":1.3,
+    "description":"Generic monster mortar skill. Like Monster Projectile but has an impact effect.",
+    "hidden":true,
+    "levels":[{
+        "cooldown":2.5,
+        "critChance":5,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Mortar",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "31":true,
+      "57":true,
+      "72":true
+    },
+    "statSets":[{
+        "baseEffectiveness":2.5,
+        "baseFlags":{
+          "area":true,
+          "hit":true,
+          "projectile":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Mortar",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position","global_poison_on_hit"]
       }]
   },
   "HyenaCentaurMeleeStab":{
@@ -2521,6 +2970,236 @@
         "stats":["base_is_projectile","action_attack_or_cast_time_uses_animation_length","projectile_ballistic_angle_from_reference_event","projectile_uses_contact_position","projectile_uses_contact_direction","use_scaled_contact_offset"]
       }]
   },
+  "MPSAbyssCocoon3BallSpit":{
+    "castTime":1,
+    "hidden":true,
+    "levels":[{
+        "cooldown":10,
+        "critChance":5,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Large Ball Spit",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "57":true
+    },
+    "statSets":[{
+        "baseEffectiveness":2,
+        "baseFlags":{
+          "hit":true,
+          "projectile":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["monster_projectile_variation",1427],["projectile_spread_radius",25],["projectile_speed_variation_+%",40],["spell_maximum_action_distance_+%",-50],["number_of_projectiles_override",1],["number_of_additional_projectiles",2]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Large Ball Spit",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile","projectile_uses_contact_direction","projectile_uses_contact_position","use_scaled_contact_offset","action_attack_or_cast_time_uses_animation_length","base_deal_no_damage","projectile_ballistic_angle_from_reference_event","distribute_projectiles_over_contact_points"]
+      }]
+  },
+  "MPSAbyssCocoon3BallSpitSmall":{
+    "castTime":1,
+    "hidden":true,
+    "levels":[{
+        "critChance":5,
+        "levelRequirement":0
+      }],
+    "name":"Small Ball Spit",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "57":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "hit":true,
+          "projectile":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["monster_projectile_variation",1429],["spell_maximum_action_distance_+%",-45]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Small Ball Spit",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile","projectile_uses_contact_position","maintain_projectile_direction_when_using_contact_position","action_attack_or_cast_time_uses_animation_length","base_deal_no_damage","projectile_ballistic_angle_from_target_distance"]
+      }]
+  },
+  "MPSAbyssPaleEliteFireball":{
+    "castTime":1,
+    "hidden":true,
+    "levels":[{
+        "critChance":6,
+        "levelRequirement":0
+      }],
+    "name":"Fireball",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "57":true
+    },
+    "statSets":[{
+        "baseEffectiveness":2.5,
+        "baseFlags":{
+          "hit":true,
+          "projectile":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["spell_maximum_action_distance_+%",-25],["monster_projectile_variation",1430]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Fireball",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","action_attack_or_cast_time_uses_animation_length","check_for_targets_between_initiator_and_projectile_source","maintain_projectile_direction_when_using_contact_position","base_deal_no_damage"]
+      }]
+  },
+  "MPSAbyssPaleEliteSnowBall":{
+    "castTime":1,
+    "hidden":true,
+    "levels":[{
+        "critChance":5,
+        "levelRequirement":0
+      }],
+    "name":"Snowball",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "57":true
+    },
+    "statSets":[{
+        "baseEffectiveness":0,
+        "baseFlags":{
+          "hit":true,
+          "projectile":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["spell_maximum_action_distance_+%",-25],["monster_projectile_variation",1426]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Snowball",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","action_attack_or_cast_time_uses_animation_length","check_for_targets_between_initiator_and_projectile_source","maintain_projectile_direction_when_using_contact_position","base_deal_no_damage"]
+      }]
+  },
+  "MPSAbyssPaleWalker2Fireball":{
+    "castTime":1,
+    "hidden":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Fireball",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "57":true
+    },
+    "statSets":[{
+        "baseEffectiveness":2,
+        "baseFlags":{
+          "hit":true,
+          "projectile":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["monster_projectile_variation",1431]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Fireball",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile","use_scaled_contact_offset","projectile_uses_contact_position","maintain_projectile_direction_when_using_contact_position","projectiles_not_offset"]
+      }]
+  },
+  "MPSAbyssPitArtillery":{
+    "castTime":1,
+    "hidden":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Artillery",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "57":true
+    },
+    "statSets":[{
+        "baseEffectiveness":1.5,
+        "baseFlags":{
+          "area":true,
+          "hit":true,
+          "projectile":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["projectile_spread_radius",5],["monster_projectile_variation",1432],["spell_maximum_action_distance_+%",-38]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Artillery",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.5,
+            "2":1.5
+          }],
+        "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position","global_poison_on_hit","base_skill_can_be_avoided_by_dodge_roll","projectile_ballistic_angle_from_reference_event","base_deal_no_damage"]
+      }]
+  },
   "MPSArmourCasterBasic":{
     "castTime":1.17,
     "hidden":true,
@@ -2901,6 +3580,7 @@
     "statSets":[{
         "baseEffectiveness":3.25,
         "baseFlags":{
+          "duration":true,
           "hit":true,
           "projectile":true,
           "spell":true,
@@ -4567,6 +5247,43 @@
         "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_area_damage","base_skill_can_be_blocked","base_is_projectile","base_skill_can_be_avoided_by_dodge_roll"]
       }]
   },
+  "TBAbyssCarrionWingBeam":{
+    "castTime":1,
+    "hidden":true,
+    "levels":[{
+        "critChance":5,
+        "levelRequirement":0
+      }],
+    "name":"Beam",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "2":true,
+      "7":true,
+      "31":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "hit":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["spell_maximum_action_distance_+%",-60]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Beam",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_skill_can_be_blocked","base_skill_can_be_avoided_by_dodge_roll"]
+      }]
+  },
   "TBBreachElitePaleLightningBoltSpammableLeft":{
     "castTime":1.333,
     "hidden":true,
@@ -4911,6 +5628,110 @@
         "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage","base_is_projectile"]
+      }]
+  },
+  "VaalZealotLightningSpark":{
+    "castTime":1.2,
+    "description":"Launch a spray of sparking Projectiles that travel erratically along the ground until they hit an enemy or expire. Consumes a Cold Infusion if possible to fire many sparks in a circle.",
+    "hidden":true,
+    "levels":[{
+        "cooldown":0.2,
+        "critChance":7,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Spark",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "7":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "30":true,
+      "31":true,
+      "57":true,
+      "125":true,
+      "140":true,
+      "228":true,
+      "234":true
+    },
+    "statSets":[{
+        "baseEffectiveness":2.8499999046326,
+        "baseFlags":{
+          "duration":true,
+          "hit":true,
+          "projectile":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["base_skill_effect_duration",2000],["spell_maximum_action_distance_+%",-35],["spark_random_duration_%",44],["shock_chance_+%",150],["base_projectile_speed_+%",-30]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Spark",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.5,
+            "2":1.5
+          }],
+        "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
+        "statDescriptionScope":"spark_statset_0",
+        "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_is_projectile","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
+      }]
+  },
+  "VaalZealotLightningSparkNova":{
+    "castTime":1,
+    "description":"Launch a spray of sparking Projectiles that travel erratically along the ground until they hit an enemy or expire. Consumes a Cold Infusion if possible to fire many sparks in a circle.",
+    "hidden":true,
+    "levels":[{
+        "critChance":7,
+        "levelRequirement":0
+      }],
+    "name":"Spark Nova",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "7":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "30":true,
+      "31":true,
+      "57":true,
+      "125":true,
+      "140":true,
+      "228":true,
+      "234":true
+    },
+    "statSets":[{
+        "baseEffectiveness":3,
+        "baseFlags":{
+          "duration":true,
+          "hit":true,
+          "projectile":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["base_skill_effect_duration",2000],["number_of_additional_projectiles",4],["spark_random_duration_%",44],["shock_chance_+%",150],["base_projectile_speed_+%",-30]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Spark Nova",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.5,
+            "2":1.5
+          }],
+        "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
+        "statDescriptionScope":"spark_statset_0",
+        "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","projectiles_nova","base_is_projectile","action_attack_or_cast_time_uses_animation_length"]
       }]
   }
 }

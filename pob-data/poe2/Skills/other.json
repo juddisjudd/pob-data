@@ -2791,6 +2791,66 @@
             "2":1635
           }],
         "statDescriptionScope":"demon_transformation",
+        "statMap":{
+          "demon_form_grants_cast_speed_+%":[{
+              "flags":16,
+              "keywordFlags":0,
+              "name":"Speed",
+              "type":"INC",
+              "1":{
+                "type":"Condition",
+                "var":"DemonForm"
+              },
+              "2":{
+                "effectName":"Demon Form",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }],
+          "demon_form_life_loss_per_minute_per_stack":{
+            "div":60,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"LifeDegen",
+              "type":"BASE",
+              "1":{
+                "type":"Condition",
+                "var":"DemonForm"
+              },
+              "2":{
+                "effectName":"Demon Form",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              },
+              "3":{
+                "limitVar":"DemonFlameMaximum",
+                "type":"Multiplier",
+                "var":"DemonFlameStacks"
+              }
+            }
+          },
+          "demon_form_spell_damage_+%_final_per_stack":[{
+              "flags":0,
+              "keywordFlags":131072,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "type":"Condition",
+                "var":"DemonForm"
+              },
+              "2":{
+                "effectName":"Demon Form",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              },
+              "3":{
+                "limitVar":"DemonFlameMaximum",
+                "type":"Multiplier",
+                "var":"DemonFlameStacks"
+              }
+            }]
+        },
         "stats":["demon_form_grants_cast_speed_+%","demon_form_life_loss_per_minute_per_stack","base_deal_no_damage","demon_transformation_cooldown_does_not_tick"]
       }]
   },
@@ -14386,7 +14446,7 @@
       },{
         "levelRequirement":90
       }],
-    "minionList":[],
+    "minionList":["TacticianMinion"],
     "minionSkillTypes":{
       "1":true,
       "3":true,

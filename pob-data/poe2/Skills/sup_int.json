@@ -338,6 +338,7 @@
     "color":3,
     "description":"Supports skills that create walls in a line, causing them to instead be created along a Fissure, at the cost of damage and Area of Effect.",
     "excludeSkillTypes":[],
+    "flavourText":["As possessed golems ravaged the land, Aul - crowned Ahn","by blood and tyranny - began the last ritual, causing azurite","crystals to rupture and grow throughout his doomed citadel."],
     "gemFamily":["Fortress"],
     "isLineage":true,
     "levels":[{
@@ -482,6 +483,7 @@
     "color":3,
     "description":"Supports Fire Spell Skills. You have a chance to gain Flame Archon when Igniting with Supported Skills.",
     "excludeSkillTypes":[],
+    "flavourText":["\"This carving seems to depict curled bodies floating in vats...","the next shows all but one of them dying. What were they","trying to do? It seems they kept trying... kept experimenting...\""],
     "gemFamily":["ArbiterLineage"],
     "ignoreMinionTypes":true,
     "isLineage":true,
@@ -564,6 +566,7 @@
     "color":3,
     "description":"Supports Curse Skills, causing those Curses to ignore the usual Curse Limit, but be reflected back to you.",
     "excludeSkillTypes":[],
+    "flavourText":["Such was her seductive power, every noble in the court fell","over themselves to do her bidding. Winning a single glance","away from her mirror meant more than their lives."],
     "gemFamily":["AtziriLineage"],
     "isLineage":true,
     "levels":[{
@@ -1636,6 +1639,7 @@
     "color":3,
     "description":"Supports any Skill which has levels, increasing the level and Quality, while reducing the cost and Reservation.",
     "excludeSkillTypes":[],
+    "flavourText":["\"I will become your Gemling Queen, my love, but not","with such dull stones. I want to give myself to you","for eternity. Surely we can seek perfection together?\""],
     "gemFamily":["DiallasDesire"],
     "isLineage":true,
     "levels":[{
@@ -1663,6 +1667,7 @@
     "color":3,
     "description":"Supports Curse Skills. Supported Curse Skills create Hazardous areas which explode when Enemies enter them, Cursing Enemies and dealing Chaos Damage based on your Intelligence.",
     "excludeSkillTypes":[],
+    "flavourText":["\"Let the meat show us the way. Hail the meat, praise the","meat. The meat is both debasement and divinity alike. The","meat shall lead us down the path to true enlightenment.\""],
     "gemFamily":["CursedGround"],
     "isLineage":true,
     "levels":[{
@@ -1971,6 +1976,7 @@
     "color":3,
     "description":"Supports Skills that can cause Damaging Hits, granting extra Chaos damage and causing Chaos damage to Contribute to Shock.",
     "excludeSkillTypes":[],
+    "flavourText":["\"Where life once thrived, now only metal grows, inching","like endless worms through the ash. Where silence fell,","now sourceless thought whispers numbers in the dark.\""],
     "gemFamily":["BreachLineage"],
     "isLineage":true,
     "levels":[{
@@ -2393,6 +2399,7 @@
     "color":3,
     "description":"Supports Skills which Trigger other Skills. Skills Triggered by Supported Skills have their Damage, Area of Effect, and Projectile Speed randomly raised or lowered when Triggered, as well as recovering a random amount of their cost when Triggered.",
     "excludeSkillTypes":[],
+    "flavourText":["Few mortals can comprehend the horror of experiencing","every possibility. Chaos alone takes joy in the","unthinkable and the unimaginable made manifest."],
     "gemFamily":["Fluke"],
     "isLineage":true,
     "levels":[{
@@ -2660,36 +2667,6 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "support_titanblood_minion_damage_+%_final":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"MinionModifier",
-              "type":"LIST",
-              "value":{
-                "mod":{
-                  "flags":0,
-                  "keywordFlags":0,
-                  "name":"Damage",
-                  "type":"MORE"
-                }
-              }
-            }],
-          "support_titanblood_minion_life_+%_final":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"MinionModifier",
-              "type":"LIST",
-              "value":{
-                "mod":{
-                  "flags":0,
-                  "keywordFlags":0,
-                  "name":"Life",
-                  "type":"MORE"
-                }
-              }
-            }]
-        },
         "stats":["minions_are_gigantic"]
       }],
     "support":true
@@ -2913,6 +2890,7 @@
     "color":3,
     "description":"Supports Curse Skills. Enemies Cursed by Supported Skills are Pacified for the final portion of the Supported Curse's duration.",
     "excludeSkillTypes":[],
+    "flavourText":["\"Her voice reached into my chest and plucked my beating","heart from its cage. By the wide, glistening eyes of my","fellow punters, I knew that they felt it, too.\""],
     "gemFamily":["KalisasCrescendo"],
     "isLineage":true,
     "levels":[{
@@ -2938,6 +2916,7 @@
     "color":3,
     "description":"Supports Offering Skills, causing Spells that affect an area around you or a target location to also affect the area around Supported Offerings.",
     "excludeSkillTypes":[],
+    "flavourText":["Still a shadow of his former self, Kulemak turned to deception.","He promised Ahn untold power and mastery, in exchange for","a single golem. \"After all, what harm could one servant do?\""],
     "gemFamily":["AbyssalLineageTwo"],
     "isLineage":true,
     "levels":[{
@@ -2964,6 +2943,7 @@
     "color":3,
     "description":"Supports Commandable Minions causing you and the Supported Minion to gain Unholy Might when you Command them.",
     "excludeSkillTypes":[],
+    "flavourText":["Kurgal's first body was a mere stone golem, enslaved by a","collar. He found such ecstasy in the power of dominion,","he clawed his way free... and soon, supplanted a Lich Lord."],
     "gemFamily":["KurgalLineage"],
     "isLineage":true,
     "levels":[{
@@ -4163,6 +4143,7 @@
     "color":3,
     "description":"Supports skills that create Persistent Minions, causing those Minions to fight on when they are fatally wounded, dying after a short duration or when they take further damage exceeding their maximum Life. Minions from Supported Skills gain Soul Eater and a burst of speed on entering this state.",
     "excludeSkillTypes":[214],
+    "flavourText":["The Lich Lords destroyed his body, but with his dying fury,","Tecrod found a way. He lurks deep, in the blood, in the flesh,","in the Well... perhaps walking among them even now, unseen."],
     "gemFamily":["LastGasp"],
     "isLineage":true,
     "levels":[{
@@ -4355,6 +4336,7 @@
     "color":3,
     "description":"Supports any Skill that can deal Damage, causing it to deal more Damage per different Command Skill used.",
     "excludeSkillTypes":[],
+    "flavourText":["\"These traditions we shall set forth, so that we may remain","strong, so that we may endure throughout the ages. Not to","bind, not to dominate, but to protect... and guide.\""],
     "gemFamily":["VarashtasBlessing"],
     "isLineage":true,
     "levels":[{
@@ -4406,6 +4388,7 @@
     "color":3,
     "description":"Supports Spell Skills that fire Projectiles, causing increases and reductions to cast speed to also apply to Projectile speed.",
     "excludeSkillTypes":[43],
+    "flavourText":["Day and night, she hammered away, obsessed with proving it","could be done; a vast ring of artifice under the earth, pushing","energy to speeds never before seen - all to prove Qotra wrong."],
     "gemFamily":["ProjectileSpeed"],
     "isLineage":true,
     "levels":[{
@@ -4718,6 +4701,7 @@
     "color":3,
     "description":"Supports Projectile Spells. Supported Spells have an increasingly higher chance to fire many additional Projectiles in a circle, resetting when they do.",
     "excludeSkillTypes":[113],
+    "flavourText":["She holds in her hand a shattered crystal, a vision of her desire: to","see her sister's silver palace obliterated, to see it cast across the","heavens. One cross word, and the sky will rain down her fury."],
     "gemFamily":["AdditionalProjectiles"],
     "ignoreMinionTypes":true,
     "isLineage":true,
@@ -4800,6 +4784,7 @@
     "color":3,
     "description":"Supports Spells that affect an area around you or a target location. Supported Spells echo twice, causing their effects to happen again after a short delay, but Supported Skills are given a short Cooldown. Cannot support Channelling skills, Remote skills, skills which already have a Cooldown, or skills which are Triggered.",
     "excludeSkillTypes":[90,237,75,74,25,95,33,36,38,48,1,37],
+    "flavourText":["Reliving the same day for all time, Zarokh raged against","the moments that made up his prison. There would be","no redemption, for he had broken his only barya."],
     "gemFamily":["SpellEcho"],
     "isLineage":true,
     "levels":[{

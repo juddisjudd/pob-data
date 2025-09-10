@@ -14,7 +14,13 @@
     "fireResist":0,
     "life":0.95,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.433
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["2HBluntWood_onhit_audio","humanoid","melee","not_int","not_str","physical_affinity","red_blood","very_slow_movement"],
     "name":"Flathead Clubber",
@@ -38,7 +44,13 @@
     "fireResist":0,
     "life":1.3,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.3
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","humanoid","not_dex","red_blood","very_slow_movement"],
     "name":"Pyromushroom Cultivator",
@@ -60,7 +72,13 @@
     "fireResist":0,
     "life":0.9,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.266
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["humanoid","melee","physical_affinity","red_blood","slow_movement","StaffWood_onhit_audio"],
     "name":"Hunchback Clubber",
@@ -83,7 +101,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.6
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","Beast_onhit_audio","mammal_beast","melee","not_dex","not_int","physical_affinity","red_blood","slow_movement"],
     "name":"Antlion Charger",
@@ -105,7 +129,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.05
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","Claw_onhit_audio","fast_movement","flying","mammal_beast","red_blood"],
     "name":"Feral Bat",
@@ -128,7 +158,13 @@
     "fireResist":-30,
     "life":1.25,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.333
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","beast","Beast_onhit_audio","insect","monster_applies_poison","monster_summons_adds","not_int","not_str","physical_affinity","ranged","very_slow_movement"],
     "name":"Bane Sapling",
@@ -151,7 +187,13 @@
     "fireResist":-30,
     "life":1.05,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.633
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","Beast_onhit_audio","fast_movement","humanoid","mammal_beast","not_int","not_str","red_blood"],
     "name":"Court Werewolf",
@@ -174,7 +216,13 @@
     "fireResist":30,
     "life":1.1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.333
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["2HSharpMetal_onhit_audio","cultist","human","humanoid","medium_movement","melee","not_int","not_str","physical_damage","red_blood"],
     "name":"Bloodrite Guard",
@@ -202,7 +250,13 @@
     "fireResist":75,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.533
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_additional_projectiles","caster","cultist","fire_affinity","flying","ghost","medium_movement","not_dex","not_str","ranged","red_blood","Unarmed_onhit_audio","undead"],
     "name":"Priest of the Sun",
@@ -225,7 +279,13 @@
     "fireResist":0,
     "life":1.75,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.5
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","bludgeoning_weapon","flesh_armour","has_one_hand_mace","has_one_handed_melee","mammal_beast","medium_height","medium_movement","melee","MonsterBlunt_onhit_audio","not_dex","not_int","physical_affinity","primate_beast","red_blood"],
     "name":"Alpha Primate",
@@ -252,7 +312,13 @@
     "fireResist":30,
     "life":1.7,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.433
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","allows_additional_projectiles","caster","cultist","human","humanoid","medium_movement","not_dex","not_str","physical_affinity","red_blood"],
     "name":"Bloodrite Priest",
@@ -260,6 +326,48 @@
     "spawnLocation":["Sun Temple (Map)","Temple of Kopec (Act 3)","Found in Maps"],
     "spectreReservation":74,
     "weaponType1":"Dagger"
+  },
+  "Metadata/Monsters/BloodFeverKarui/BloodFeverButcherSpectre":{
+    "accuracy":1,
+    "armour":0.7,
+    "attackRange":15,
+    "attackTime":1.5,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":39,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":47.4,
+    "damage":2.75,
+    "damageSpread":0.2,
+    "fireResist":0,
+    "life":2.5,
+    "lightningResist":0,
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamage",
+        "type":"INC",
+        "value":0
+      },{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"BleedChance",
+        "type":"BASE",
+        "value":100
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":4
+      }],
+    "monsterCategory":"Humanoid",
+    "monsterTags":["1HAxe_onhit_audio","fast_movement","human","humanoid","karui","not_dex","not_int","red_blood"],
+    "name":"Harano, the Meat Carver",
+    "skillList":["MeleeAtAnimationSpeed","DTTKaruiBloodFeverButcherLeap","GABloodFeverButcherLeapSlamImpact","GABloodFeverButcherSlamImpact","CGEBloodfeverKaruiFast"],
+    "spawnLocation":[],
+    "spectreReservation":99,
+    "weaponType1":"One Handed Axe"
   },
   "Metadata/Monsters/BloodMonsters/BloodCarrier1":{
     "accuracy":1,
@@ -276,7 +384,13 @@
     "fireResist":0,
     "life":1.1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["allows_inc_aoe","demon","fast_movement","humanoid","melee","monster_has_on_death_mechanic","not_int","not_str","physical_affinity","red_blood","Unarmed_onhit_audio"],
     "name":"Blood Carrier",
@@ -299,7 +413,13 @@
     "fireResist":0,
     "life":1.35,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.25
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["allows_inc_aoe","demon","humanoid","medium_movement","melee","monster_has_on_death_mechanic","not_int","not_str","physical_affinity","red_blood","Unarmed_onhit_audio"],
     "name":"Blood Collector",
@@ -326,7 +446,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.317
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","caster","medium_movement","melee","monster_barely_moves","not_str","physical_affinity","ranged","red_blood","Unarmed_onhit_audio","undead","zombie"],
     "name":"Courtesan",
@@ -349,7 +475,13 @@
     "fireResist":0,
     "life":0.8,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.25
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["allows_inc_aoe","demon","humanoid","medium_movement","melee","monster_has_on_death_mechanic","not_int","not_str","physical_affinity","red_blood","Unarmed_onhit_audio"],
     "name":"Blood Cretin",
@@ -371,7 +503,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["1HAxe_onhit_audio","humanoid","melee","monster_barely_moves","physical_affinity","undead","uses_suicide_explode","very_slow_movement","zombie"],
     "name":"Bogfelled Commoner",
@@ -394,7 +532,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["humanoid","melee","monster_barely_moves","physical_affinity","Unarmed_onhit_audio","undead","uses_suicide_explode","very_slow_movement","zombie"],
     "name":"Bogfelled Slave",
@@ -440,7 +584,13 @@
     "fireResist":0,
     "life":1.35,
     "lightningResist":30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.933
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_inc_aoe","caster","cultist","human","humanoid","lightning_affinity","not_dex","not_str","red_blood","Unarmed_onhit_audio","very_slow_movement"],
     "name":"Lost-men Zealot",
@@ -463,7 +613,13 @@
     "fireResist":30,
     "life":1.35,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.933
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_inc_aoe","caster","cultist","fire_affinity","human","humanoid","not_dex","not_str","red_blood","Unarmed_onhit_audio","very_slow_movement"],
     "name":"Lost-men Zealot",
@@ -512,7 +668,13 @@
     "fireResist":0,
     "life":2.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","melee","MonsterBlunt_onhit_audio","not_dex","not_int","physical_affinity","red_blood","reptile_beast","slow_movement"],
     "name":"Drudge Osseodon",
@@ -571,6 +733,12 @@
         "name":"BlockChanceMax",
         "type":"BASE",
         "value":25
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.083
       }],
     "monsterCategory":"Humanoid",
     "monsterTags":["2HBluntWood_onhit_audio","cultist","human","humanoid","melee","monster_blocks_damage","not_dex","not_int","physical_affinity","red_blood","very_slow_movement"],
@@ -594,7 +762,13 @@
     "fireResist":0,
     "life":1.5,
     "lightningResist":30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.766
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["allows_inc_aoe","construct","medium_movement","melee","MonsterStab_onhit_audio","physical_affinity","skeleton","undead"],
     "name":"Bone Stalker",
@@ -617,7 +791,13 @@
     "fireResist":0,
     "life":1.65,
     "lightningResist":30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.666
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_inc_aoe","beast","Beast_onhit_audio","fast_movement","insect","large_model","melee","monster_barely_moves","not_int","not_str","physical_affinity"],
     "name":"Dune Lurker",
@@ -640,7 +820,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.9
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_inc_aoe","beast","insect","medium_movement","melee","MonsterBlunt_onhit_audio","not_dex","not_int","physical_affinity","red_blood"],
     "name":"Bramble Hulk",
@@ -663,7 +849,13 @@
     "fireResist":0,
     "life":2.3,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.5
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["allows_inc_aoe","Claw_onhit_audio","demon","humanoid","melee","not_dex","not_int","physical_affinity","red_blood","very_slow_movement"],
     "name":"It That Lashes",
@@ -686,7 +878,13 @@
     "fireResist":0,
     "life":1.8,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.33
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_additional_projectiles","caster","cold_affinity","fast_movement","human","humanoid","not_dex","not_str","ranged","red_blood"],
     "name":"It That Guards",
@@ -712,7 +910,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.75
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["allows_additional_projectiles","caster","chaos_affinity","demon","fast_movement","melee","not_dex","not_str","red_blood","Stab_onhit_audio"],
     "name":"It That Hates",
@@ -736,7 +940,13 @@
     "fireResist":75,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.5
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","animal_claw_weapon","bone_armour","caster","Claw_onhit_audio","demon","fire_affinity","humanoid","is_unarmed","lightning_affinity","medium_movement","not_str","red_blood"],
     "name":"It That Controls",
@@ -760,7 +970,13 @@
     "fireResist":0,
     "life":1.8,
     "lightningResist":75,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.9
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["animal_claw_weapon","bone_armour","caster","Claw_onhit_audio","demon","is_unarmed","lightning_affinity","medium_movement","melee","not_int","not_str","red_blood"],
     "name":"It That Stalks",
@@ -814,6 +1030,12 @@
         "name":"BleedChance",
         "type":"BASE",
         "value":25
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.6
       }],
     "monsterCategory":"Demon",
     "monsterTags":["allows_inc_aoe","Claw_onhit_audio","demon","fast_movement","humanoid","melee","not_int","physical_affinity","red_blood","very_fast_movement"],
@@ -859,7 +1081,13 @@
     "fireResist":0,
     "life":1.1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.3
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["Claw_onhit_audio","demon","fast_movement","humanoid","melee","not_int","not_str","physical_affinity","red_blood","very_fast_movement"],
     "name":"It That Grasps",
@@ -882,7 +1110,13 @@
     "fireResist":0,
     "life":1.2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.05
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","beast","Beast_onhit_audio","demon","fast_movement","flying","melee","not_int","not_str","physical_affinity","ranged","red_blood","very_fast_movement"],
     "name":"It That Watches",
@@ -905,7 +1139,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":4.1
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["Claw_onhit_audio","demon","fast_movement","insect","melee","not_int","not_str","physical_affinity","red_blood"],
     "name":"It That Crawls",
@@ -928,7 +1168,13 @@
     "fireResist":30,
     "life":0.6,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.444
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["cannot_be_monolith","construct","medium_movement","melee","not_dex","not_int","physical_affinity","sanctum_monster","StaffWood_onhit_audio"],
     "name":"Skitter Golem",
@@ -952,7 +1198,13 @@
     "fireResist":0,
     "life":2.3,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.533
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["caster","flying","humanoid","medium_movement","not_dex","physical_affinity","ranged","red_blood","Unarmed_onhit_audio"],
     "name":"Filthy Crone",
@@ -975,7 +1227,13 @@
     "fireResist":0,
     "life":1.35,
     "lightningResist":30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_inc_aoe","beast","Beast_onhit_audio","mammal_beast","medium_movement","melee","not_dex","not_int","physical_affinity","red_blood"],
     "name":"Tombshrieker",
@@ -998,7 +1256,13 @@
     "fireResist":0,
     "life":2.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.067
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_inc_aoe","humanoid","melee","monster_has_on_death_mechanic","MonsterBlunt_onhit_audio","no_minion_revival","not_dex","not_int","physical_affinity","red_blood","very_slow_movement"],
     "name":"Filthy First-born",
@@ -1022,7 +1286,13 @@
     "fireResist":0,
     "life":1.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.3
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","caster","humanoid","melee","monster_barely_moves","not_dex","not_str","physical_affinity","red_blood","very_slow_movement"],
     "name":"Foul Sage",
@@ -1046,7 +1316,13 @@
     "fireResist":0,
     "life":0.7,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.266
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["humanoid","melee","not_int","not_str","physical_affinity","red_blood","slow_movement","Unarmed_onhit_audio"],
     "name":"Flathead Youngling",
@@ -1068,7 +1344,13 @@
     "fireResist":0,
     "life":1.3,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.5
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["2HBluntWood_onhit_audio","allows_additional_projectiles","allows_inc_aoe","humanoid","melee","physical_affinity","ranged","red_blood","slow_movement"],
     "name":"Foul Blacksmith",
@@ -1092,7 +1374,13 @@
     "fireResist":0,
     "life":1.75,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.283
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","humanoid","melee","monster_barely_moves","not_dex","not_int","physical_affinity","red_blood","very_slow_movement"],
     "name":"Foul Mauler",
@@ -1115,7 +1403,13 @@
     "fireResist":0,
     "life":1.15,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.1
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_additional_projectiles","fast_movement","humanoid","physical_affinity","ranged","red_blood","Unarmed_onhit_audio"],
     "name":"Filthy Lobber",
@@ -1137,7 +1431,13 @@
     "fireResist":0,
     "life":1.2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["humanoid","medium_movement","melee","physical_affinity","red_blood","Unarmed_onhit_audio"],
     "name":"Flathead Warrior",
@@ -1162,7 +1462,13 @@
     "fireResist":0,
     "life":2.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.9
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_inc_aoe","beast","Claw_onhit_audio","fast_movement","melee","not_dex","not_int","physical_affinity","primate_beast","quest_null_monster_mods","red_blood"],
     "name":"Stoneclad Gorilla",
@@ -1185,7 +1491,13 @@
     "fireResist":-30,
     "life":1.85,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.216
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","Claw_onhit_audio","feline_beast","medium_movement","melee","not_int","not_str","physical_affinity","quest_null_monster_mods","red_blood"],
     "name":"Scute Lizard",
@@ -1209,7 +1521,13 @@
     "fireResist":-30,
     "life":1.1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.467
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","Claw_onhit_audio","mammal_beast","melee","not_int","physical_affinity","quest_null_monster_mods","red_blood","very_slow_movement"],
     "name":"Petulant Stonemaw",
@@ -1236,7 +1554,13 @@
     "fireResist":0,
     "life":1.85,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.1
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_inc_aoe","beast","Claw_onhit_audio","mammal_beast","melee","not_str","physical_affinity","quest_null_monster_mods","ranged","red_blood","very_slow_movement"],
     "name":"Cerberic Bat",
@@ -1259,7 +1583,13 @@
     "fireResist":0,
     "life":2.2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.483
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["Claw_onhit_audio","demon","not_dex","not_str","quest_null_monster_mods","red_blood","very_slow_movement"],
     "name":"Saurian Servant",
@@ -1282,7 +1612,13 @@
     "fireResist":0,
     "life":3.3,
     "lightningResist":30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.916
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_inc_aoe","beast","Beast_onhit_audio","lightning_affinity","melee","not_dex","not_int","quest_null_monster_mods","red_blood","very_slow_movement"],
     "name":"Crested Behemoth",
@@ -1306,7 +1642,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.333
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","Beast_onhit_audio","melee","not_int","physical_affinity","red_blood","very_slow_movement"],
     "name":"Chaw Mongrel",
@@ -1340,6 +1682,12 @@
         "name":"EnemyPoisonDuration",
         "type":"INC",
         "value":0
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
       }],
     "monsterCategory":"Undead",
     "monsterTags":["beast","melee","monster_applies_poison","physical_affinity","red_blood","reptile_beast","Unarmed_onhit_audio","undead","very_slow_movement"],
@@ -1374,6 +1722,12 @@
         "name":"EnemyPoisonDuration",
         "type":"INC",
         "value":0
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
       }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_additional_projectiles","beast","melee","monster_applies_poison","physical_affinity","ranged","red_blood","reptile_beast","Unarmed_onhit_audio","undead","very_slow_movement"],
@@ -1397,7 +1751,13 @@
     "fireResist":0,
     "life":1.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.433
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["2HSharpMetal_onhit_audio","azmeri_cultist_monster","cultist","human","humanoid","melee","monster_summons_adds","not_dex","not_int","physical_affinity","red_blood","very_slow_movement"],
     "name":"Cultist Brute",
@@ -1424,7 +1784,13 @@
     "fireResist":0,
     "life":1.3,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.733
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","Arrow_onhit_audio","azmeri_cultist_monster","chaos_affinity","cultist","fast_movement","human","humanoid","monster_barely_moves","not_int","not_str","physical_affinity","ranged","red_blood"],
     "name":"Cultist Archer",
@@ -1448,7 +1814,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.333
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["azmeri_cultist_monster","Claw_onhit_audio","cultist","fast_movement","human","humanoid","melee","not_int","not_str","physical_affinity","red_blood"],
     "name":"Cultist Daggerdancer",
@@ -1473,7 +1845,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.3
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["2HBluntWood_onhit_audio","allows_additional_projectiles","allows_inc_aoe","azmeri_cultist_monster","caster","chaos_affinity","cultist","human","humanoid","monster_barely_moves","not_dex","not_str","ranged","red_blood","very_slow_movement"],
     "name":"Cultist Witch",
@@ -1496,7 +1874,13 @@
     "fireResist":0,
     "life":1.1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.36
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HAxe_onhit_audio","azmeri_cultist_monster","cultist","human","humanoid","melee","physical_affinity","red_blood","very_slow_movement"],
     "name":"Cultist Warrior",
@@ -1520,7 +1904,13 @@
     "fireResist":0,
     "life":0.65,
     "lightningResist":-30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","flying","melee","MonsterStab_onhit_audio","not_int","not_str","physical_affinity","very_slow_movement"],
     "name":"Rotting Crow",
@@ -1542,7 +1932,13 @@
     "fireResist":-30,
     "life":0.9,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.433
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_additional_projectiles","beast","melee","monster_applies_poison","physical_affinity","slow_movement","spider","Unarmed_onhit_audio"],
     "name":"Vault Lurker",
@@ -1564,7 +1960,13 @@
     "fireResist":0,
     "life":0.9,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.466
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","cannot_be_monolith","melee","physical_affinity","spider","Unarmed_onhit_audio","very_slow_movement"],
     "name":"Sabre Spider",
@@ -1613,7 +2015,13 @@
     "fireResist":30,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.75
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","fire_affinity","humanoid","monster_barely_moves","ranged","red_blood","Unarmed_onhit_audio","undead","very_slow_movement","zombie"],
     "name":"Forsaken Miner",
@@ -1636,7 +2044,13 @@
     "fireResist":0,
     "life":1.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.466
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["2HSharpMetal_onhit_audio","allows_inc_aoe","beast","fast_movement","insect","lightning_affinity","melee","not_dex","not_int"],
     "name":"Tarnished Scarab",
@@ -1659,7 +2073,13 @@
     "fireResist":0,
     "life":1.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.466
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["2HSharpMetal_onhit_audio","allows_inc_aoe","beast","fast_movement","insect","lightning_affinity","melee","not_dex","not_int"],
     "name":"Adorned Scarab",
@@ -1728,7 +2148,13 @@
     "fireResist":0,
     "life":0.9,
     "lightningResist":30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.5
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["demon","fast_movement","lightning_affinity","melee","not_int","not_str","ranged","red_blood","Unarmed_onhit_audio","very_fast_movement"],
     "name":"Forgotten Crawler",
@@ -1752,7 +2178,13 @@
     "fireResist":0,
     "life":1.1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.6
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["demon","fast_movement","melee","not_int","physical_affinity","red_blood","Unarmed_onhit_audio","very_fast_movement"],
     "name":"Forgotten Stalker",
@@ -1776,7 +2208,13 @@
     "fireResist":0,
     "life":1.1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.333
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["Claw_onhit_audio","demon","fast_movement","humanoid","melee","not_int","physical_affinity","red_blood","skeleton"],
     "name":"Forgotten Satyr",
@@ -1799,7 +2237,13 @@
     "fireResist":0,
     "life":2.25,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.5
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["beast","Beast_onhit_audio","demon","fast_movement","not_dex","not_int","red_blood","skeleton"],
     "name":"Forgotten Stag",
@@ -1868,7 +2312,13 @@
     "fireResist":0,
     "life":0.9,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.066
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["amphibian_beast","beast","melee","not_int","not_str","physical_affinity","red_blood","slow_movement","Snap_onhit_audio"],
     "name":"Maw Demon",
@@ -1890,7 +2340,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_inc_aoe","caster","melee","physical_affinity","raises_dead","Unarmed_onhit_audio","undead","very_slow_movement","zombie"],
     "name":"Fungal Proliferator",
@@ -1912,7 +2368,13 @@
     "fireResist":0,
     "life":1.15,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_inc_aoe","melee","monster_has_on_death_mechanic","physical_affinity","Unarmed_onhit_audio","undead","very_slow_movement","zombie"],
     "name":"Fungal Zombie",
@@ -1947,6 +2409,12 @@
         "name":"BlockChanceMax",
         "type":"BASE",
         "value":25
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.183
       }],
     "monsterCategory":"Construct",
     "monsterTags":["1HSword_onhit_audio","construct","melee","not_dex","not_int","physical_affinity","slow_movement","stone_construct"],
@@ -1997,7 +2465,13 @@
     "fireResist":0,
     "life":0.8,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.433
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["demon","humanoid","medium_movement","melee","not_int","not_str","physical_affinity","Unarmed_onhit_audio"],
     "name":"Skulking Ghoul",
@@ -2020,7 +2494,13 @@
     "fireResist":0,
     "life":1.35,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.533
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["allows_inc_aoe","demon","fast_movement","humanoid","melee","not_int","not_str","physical_affinity","Unarmed_onhit_audio","very_fast_movement"],
     "name":"Ghoul Commander",
@@ -2043,7 +2523,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["2HSharpMetal_onhit_audio","bones","humanoid","melee","monster_barely_moves","not_dex","not_int","physical_affinity","skeleton","undead","very_slow_movement"],
     "name":"Gold-Melted Shambler",
@@ -2073,6 +2559,12 @@
         "name":"BleedChance",
         "type":"BASE",
         "value":25
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.3
       }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","mammal_beast","medium_movement","melee","MonsterBlunt_onhit_audio","not_dex","not_int","physical_affinity","red_blood"],
@@ -2096,7 +2588,13 @@
     "fireResist":-30,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","melee","not_dex","not_int","physical_affinity","red_blood","reptile_beast","Unarmed_onhit_audio","very_slow_movement"],
     "name":"Entrailhome Shambler",
@@ -2119,7 +2617,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.666
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_inc_aoe","Beast_onhit_audio","caster","cold_affinity","humanoid","monster_barely_moves","monster_summons_adds","not_dex","not_str","raises_dead","very_slow_movement"],
     "name":"River Hag",
@@ -2142,7 +2646,13 @@
     "fireResist":-30,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":5.333
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_inc_aoe","caster","Claw_onhit_audio","fire_affinity","humanoid","melee","monster_barely_moves","monster_summons_adds","not_dex","not_str","raises_dead","red_blood","very_slow_movement"],
     "name":"Vile Hag",
@@ -2188,7 +2698,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.033
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_additional_projectiles","beast","fast_movement","mammal_beast","melee","physical_affinity","red_blood","SpearMetal_onhit_audio"],
     "name":"Sun Clan Scavenger",
@@ -2211,7 +2727,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","Beast_onhit_audio","fast_movement","mammal_beast","melee","not_int","not_str","physical_affinity","red_blood","very_fast_movement"],
     "name":"Hyena Demon",
@@ -2234,7 +2756,13 @@
     "fireResist":0,
     "life":1.6,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.8
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","fast_movement","humanoid","melee","not_int","not_str","physical_affinity","red_blood","vaal","very_fast_movement"],
     "name":"Adorned Miscreation",
@@ -2257,7 +2785,13 @@
     "fireResist":0,
     "life":1.6,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.8
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","fast_movement","humanoid","melee","not_int","not_str","physical_affinity","red_blood","vaal","very_fast_movement"],
     "name":"Pale-stitched Stalker",
@@ -2326,7 +2860,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["2HSharpMetal_onhit_audio","allows_inc_aoe","construct","humanoid","melee","monster_barely_moves","not_dex","not_int","physical_affinity","very_slow_movement"],
     "name":"Death Knight",
@@ -2350,7 +2890,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["2HSharpMetal_onhit_audio","allows_inc_aoe","construct","humanoid","melee","monster_barely_moves","not_dex","not_int","physical_affinity","very_slow_movement"],
     "name":"Death Knight",
@@ -2358,6 +2904,499 @@
     "spawnLocation":["Cemetery of the Eternals (Act 1)","Holten (Act 6)","Necropolis (Map)","The Manor Ramparts (Act 1)","Found in Maps","Wolvenhold (Act 6)"],
     "spectreReservation":84,
     "weaponType1":"Two Handed Axe"
+  },
+  "Metadata/Monsters/LeagueAbyss/Blackblood/CollectorSpectre":{
+    "accuracy":1,
+    "attackRange":8,
+    "attackTime":1.5,
+    "baseMovementSpeed":32,
+    "chaosResist":0,
+    "coldResist":30,
+    "companionReservation":32.1,
+    "damage":1.15,
+    "damageSpread":0.2,
+    "fireResist":0,
+    "life":1.15,
+    "lightningResist":0,
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.25
+      }],
+    "monsterCategory":"Demon",
+    "monsterTags":["abyssal","allows_inc_aoe","blackblood_faction","demon","medium_movement"],
+    "name":"Blackblooded Proboscite",
+    "skillList":["MeleeAtAnimationSpeed","CGEAbyssLivingBloodGround","MASExtraAttackDistance20","GSAbyssCollectorExplodeOnDeath"],
+    "spawnLocation":["Abyssal Depths (Act 2)","Dark Domain","Lightless Passage (Act 2)"],
+    "spectreReservation":55
+  },
+  "Metadata/Monsters/LeagueAbyss/Blackblood/CretinSpectre":{
+    "accuracy":1,
+    "attackRange":6,
+    "attackTime":1.5,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":37,
+    "chaosResist":0,
+    "coldResist":30,
+    "companionReservation":26.7,
+    "damage":0.8,
+    "damageSpread":0.2,
+    "fireResist":0,
+    "life":0.8,
+    "lightningResist":0,
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.25
+      }],
+    "monsterCategory":"Demon",
+    "monsterTags":["abyssal","allows_inc_aoe","blackblood_faction","demon","medium_movement","Unarmed_onhit_audio"],
+    "name":"Blackblooded Cretin",
+    "skillList":["MeleeAtAnimationSpeed","SOBlackbloodRemnant"],
+    "spawnLocation":["Abyssal Depths (Act 2)","Dark Domain","Lightless Passage (Act 2)"],
+    "spectreReservation":42
+  },
+  "Metadata/Monsters/LeagueAbyss/Blackblood/PaleEliteSpectre_":{
+    "accuracy":1,
+    "attackRange":9,
+    "attackTime":1.5,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":37,
+    "chaosResist":0,
+    "coldResist":75,
+    "companionReservation":47.4,
+    "damage":2.5,
+    "damageSpread":0.2,
+    "energyShield":0.2,
+    "fireResist":0,
+    "life":2.25,
+    "lightningResist":0,
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.5
+      }],
+    "monsterCategory":"Demon",
+    "monsterTags":["abyssal","blackblood_faction","cold_affinity","demon","medium_movement","not_dex","not_str"],
+    "name":"Blackblooded Elite",
+    "skillList":["MPSAbyssPaleEliteSnowBall","GSAbyssPaleEliteBeam","TeleportHellscapePaleElite","GSAbyssPaleEliteBeamLong","EASAbyssPaleEliteBeamLong","GSAbyssPaleEliteSnowBallImpact"],
+    "spawnLocation":["Abyssal Depths (Act 2)","Dark Domain","Lightless Passage (Act 2)"],
+    "spectreReservation":99
+  },
+  "Metadata/Monsters/LeagueAbyss/Blackblood/RumCarrierSpectre":{
+    "accuracy":1,
+    "attackRange":7,
+    "attackTime":1.5,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":40,
+    "chaosResist":0,
+    "coldResist":30,
+    "companionReservation":31.5,
+    "damage":1.1,
+    "damageSpread":0.2,
+    "fireResist":0,
+    "life":1.1,
+    "lightningResist":0,
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.116
+      }],
+    "monsterCategory":"Demon",
+    "monsterTags":["abyssal","allows_inc_aoe","blackblood_faction","demon","fast_movement"],
+    "name":"Blackblooded Blisterboil",
+    "skillList":["MeleeAtAnimationSpeed","GSPaleCrawlerExplode5","EASPaleCrawlerExplode"],
+    "spawnLocation":["Abyssal Depths (Act 2)","Dark Domain","Lightless Passage (Act 2)"],
+    "spectreReservation":53
+  },
+  "Metadata/Monsters/LeagueAbyss/Blackblood/TarHulkSpectre":{
+    "accuracy":1,
+    "attackRange":16,
+    "attackTime":1.5,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":11,
+    "chaosResist":0,
+    "coldResist":75,
+    "companionReservation":47.4,
+    "damage":2.5,
+    "damageSpread":0.2,
+    "fireResist":0,
+    "life":3.75,
+    "lightningResist":0,
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
+    "monsterCategory":"Demon",
+    "monsterTags":["abyssal","allows_inc_aoe","blackblood_faction","cold_affinity","demon","melee","very_slow_movement"],
+    "name":"Blackblooded Tarhulk",
+    "skillList":["MeleeAtAnimationSpeed","MPSAbyssHulkIceShatter","GSAbyssHulkIceExplode","GTAbyssHulkIceExplode"],
+    "spawnLocation":["Abyssal Depths (Act 2)","Dark Domain"],
+    "spectreReservation":99
+  },
+  "Metadata/Monsters/LeagueAbyss/Fodder/HuhuGrubLarvaeLargeAbyssSpectre":{
+    "accuracy":1,
+    "attackRange":12,
+    "attackTime":1.8,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":33,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":30,
+    "damage":1,
+    "damageSpread":0.2,
+    "fireResist":0,
+    "life":1,
+    "lightningResist":0,
+    "modList":[],
+    "monsterCategory":"Demon",
+    "monsterTags":["abyssal","demon","insect","medium_movement","melee","Stab_onhit_audio"],
+    "name":"Gargantuan Larva",
+    "skillList":["MeleeAtAnimationSpeed","HuhuGrubLarvaeMortar","HuhuGrubRangedStanceChange"],
+    "spawnLocation":["Abyssal Depths (Act 2)","Dark Domain","Lightless Passage (Act 2)","Lightless Void"],
+    "spectreReservation":50
+  },
+  "Metadata/Monsters/LeagueAbyss/Fodder/PaleWalker1/KulemaksGripSpectre":{
+    "accuracy":1,
+    "attackRange":11,
+    "attackTime":1.5,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":16,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":30,
+    "damage":1,
+    "damageSpread":0.2,
+    "fireResist":0,
+    "life":1,
+    "lightningResist":0,
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.216
+      }],
+    "monsterCategory":"Demon",
+    "monsterTags":["abyssal","demon","melee","Unarmed_onhit_audio","very_slow_movement"],
+    "name":"Abyssal Walker",
+    "skillList":["MeleeAtAnimationSpeed","GSAbyssSoulBlast","EASAbyssSoulRelease","MPSAbyssSoulRelease"],
+    "spawnLocation":["Abyssal Depths (Act 2)","Dark Domain","Lightless Passage (Act 2)","Lightless Void"],
+    "spectreReservation":50
+  },
+  "Metadata/Monsters/LeagueAbyss/Fodder/PaleWalker2/KulemaksGraspSpectre":{
+    "accuracy":1,
+    "attackRange":11,
+    "attackTime":1.5,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":16,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":30,
+    "damage":1,
+    "damageSpread":0.2,
+    "fireResist":0,
+    "life":1,
+    "lightningResist":0,
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.216
+      }],
+    "monsterCategory":"Demon",
+    "monsterTags":["abyssal","demon","melee","Unarmed_onhit_audio","very_slow_movement"],
+    "name":"Abyssal Shambler",
+    "skillList":["MPSAbyssPaleWalker2Fireball"],
+    "spawnLocation":["Abyssal Depths (Act 2)","Dark Domain","Lightless Passage (Act 2)","Lightless Void"],
+    "spectreReservation":50
+  },
+  "Metadata/Monsters/LeagueAbyss/Fodder/PaleWalker3/KulemaksClutchSpectre":{
+    "accuracy":1,
+    "attackRange":11,
+    "attackTime":1.5,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":16,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":30,
+    "damage":1,
+    "damageSpread":0.2,
+    "fireResist":0,
+    "life":1,
+    "lightningResist":0,
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.216
+      }],
+    "monsterCategory":"Demon",
+    "monsterTags":["abyssal","demon","melee","Unarmed_onhit_audio","very_slow_movement"],
+    "name":"Abyssal Strangler",
+    "skillList":["MeleeAtAnimationSpeed","SOAbyssCrystalMineSpectre","GSAbyssCrystalMine","GTAbyssCrystalMineSpectre"],
+    "spawnLocation":["Abyssal Depths (Act 2)","Dark Domain","Lightless Passage (Act 2)","Lightless Void"],
+    "spectreReservation":50
+  },
+  "Metadata/Monsters/LeagueAbyss/Lightless/CarrionWingAbyssSpectre":{
+    "accuracy":1,
+    "attackRange":8,
+    "attackTime":1.5,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":39,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":34.2,
+    "damage":1.3,
+    "damageSpread":0.2,
+    "fireResist":30,
+    "life":1.3,
+    "lightningResist":0,
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.833
+      }],
+    "monsterCategory":"Demon",
+    "monsterTags":["abyssal","Beast_onhit_audio","demon","fast_movement","fire_affinity","lightless_faction"],
+    "name":"Lightless Vengewing",
+    "skillList":["MeleeAtAnimationSpeed","TBAbyssCarrionWingBeam","GSAbyssCarrionWingBeamImpact","DTTCarrionWingDodgeLeft","DTTCarrionWingDodgeRight"],
+    "spawnLocation":["Abyssal Depths (Act 2)","Lightless Passage (Act 2)","Lightless Void"],
+    "spectreReservation":60
+  },
+  "Metadata/Monsters/LeagueAbyss/Lightless/Cocoon3Spectre":{
+    "accuracy":1,
+    "armour":0.4,
+    "attackRange":18,
+    "attackTime":1.5,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":32,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":47.4,
+    "damage":2.5,
+    "damageSpread":0.2,
+    "fireResist":75,
+    "life":3,
+    "lightningResist":0,
+    "modList":[],
+    "monsterCategory":"Demon",
+    "monsterTags":["abyssal","allows_additional_projectiles","allows_inc_aoe","demon","fire_affinity","lightless_faction","medium_movement","not_dex","not_int"],
+    "name":"Lightless Abomination",
+    "skillList":["MeleeAtAnimationSpeed","MPSAbyssCocoon3BallSpit","GSAbyssCocoon3BallSpitImpact","GSAbyssCocoon3BallSpitImpactWall","CGEAbyssCocoon3FlameGeyser","GTAbyssCocoon3FlameGeyser","MPSAbyssCocoon3BallSpitSmall","GSAbyssCocoon3BallSpitSmallImpact","GSAbyssCocoon3BallSpitSmallImpactWall","MMSAbyssCocoon3ChargedMortar","EASAbyssCocoon3ChargedMortar"],
+    "spawnLocation":["Abyssal Depths (Act 2)","Lightless Void"],
+    "spectreReservation":99
+  },
+  "Metadata/Monsters/LeagueAbyss/Lightless/MorayClanCasterSpectre":{
+    "accuracy":1,
+    "armour":0.25,
+    "attackRange":12,
+    "attackTime":1.5,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":46,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":47.4,
+    "damage":2.5,
+    "damageSpread":0.2,
+    "energyShield":0.1,
+    "fireResist":75,
+    "life":2.5,
+    "lightningResist":0,
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":4.066
+      }],
+    "monsterCategory":"Demon",
+    "monsterTags":["abyssal","allows_additional_projectiles","allows_inc_aoe","Claw_onhit_audio","demon","fast_movement","fire_affinity","lightless_faction","not_dex","ranged"],
+    "name":"Lightless Moray",
+    "skillList":["MeleeAtAnimationSpeed","EDSAbyssMorayClanFlamethrower","CTS2AbyssMorayClan","GSAbyssMorayClanShadeFormErupt","GAAbyssMorayClanTailSwipeDetonation","MPSAbyssPaleEliteFireball","GSAbyssPaleEliteFireball"],
+    "spawnLocation":["Abyssal Depths (Act 2)","Lightless Passage (Act 2)","Lightless Void"],
+    "spectreReservation":99
+  },
+  "Metadata/Monsters/LeagueAbyss/Lightless/SerpentClanCasterAbyssSpectre":{
+    "accuracy":1,
+    "attackRange":8,
+    "attackTime":1.5,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":40,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":35.4,
+    "damage":1.4,
+    "damageSpread":0.2,
+    "fireResist":30,
+    "life":1.4,
+    "lightningResist":0,
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":4.067
+      }],
+    "monsterCategory":"Demon",
+    "monsterTags":["abyssal","allows_additional_projectiles","allows_inc_aoe","demon","fast_movement","fire_affinity","lightless_faction"],
+    "name":"Lightless Serpent",
+    "skillList":["MeleeAtAnimationSpeed","CGEAbyssSerpentColdDOT","MAASAbyssSerpentEmerge","GSAbyssSerpentColdExplode"],
+    "spawnLocation":["Abyssal Depths (Act 2)","Lightless Passage (Act 2)","Lightless Void"],
+    "spectreReservation":64
+  },
+  "Metadata/Monsters/LeagueAbyss/Pit/CorpseStrider/CorpseStriderAbyssSpectre":{
+    "accuracy":1,
+    "armour":0.4,
+    "attackRange":14,
+    "attackTime":1.5,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":58,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":47.4,
+    "damage":2.5,
+    "damageSpread":0.2,
+    "fireResist":0,
+    "life":3,
+    "lightningResist":75,
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":4.133
+      }],
+    "monsterCategory":"Demon",
+    "monsterTags":["abyssal","allows_additional_projectiles","demon","lightning_affinity","MonsterStab_onhit_audio","not_dex","not_int","pit_faction","ranged","very_fast_movement"],
+    "name":"Strider of the Pit",
+    "skillList":["MeleeAtAnimationSpeed","GAAbyssCorpseStrideSlams","EAAAbyssCorpseStrideSlams","GSAbyssCorpseStriderLighting","GTAbyssCorpseStriderLighting"],
+    "spawnLocation":["Abyssal Depths (Act 2)","Lightless Passage (Act 2)"],
+    "spectreReservation":99
+  },
+  "Metadata/Monsters/LeagueAbyss/Pit/FungalArtillery/FungalArtilleryAbyssSpectre":{
+    "accuracy":1,
+    "attackRange":9,
+    "attackTime":1.5,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":6,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":27.6,
+    "damage":0.85,
+    "damageSpread":0.2,
+    "fireResist":0,
+    "life":0.85,
+    "lightningResist":30,
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.5
+      }],
+    "monsterCategory":"Demon",
+    "monsterTags":["abyssal","allows_additional_projectiles","demon","pit_faction","ranged","Unarmed_onhit_audio","very_slow_movement"],
+    "name":"Fungoid of the Pit",
+    "skillList":["MPSAbyssPitArtillery","GSAbyssPitArtilleryMortarImpact"],
+    "spawnLocation":["Abyssal Depths (Act 2)","Lightless Passage (Act 2)"],
+    "spectreReservation":44
+  },
+  "Metadata/Monsters/LeagueAbyss/Pit/PrimordialMonster2LargeSpectre":{
+    "accuracy":1,
+    "attackRange":8,
+    "attackTime":1.5,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":53,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":33,
+    "damage":1.2,
+    "damageSpread":0.2,
+    "evasion":0.25,
+    "fireResist":0,
+    "life":1.2,
+    "lightningResist":30,
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.116
+      }],
+    "monsterCategory":"Demon",
+    "monsterTags":["abyssal","demon","melee","not_int","not_str","pit_faction","very_fast_movement"],
+    "name":"Hound of the Pit",
+    "skillList":["MeleeAtAnimationSpeed"],
+    "spawnLocation":["Abyssal Depths (Act 2)"],
+    "spectreReservation":57
+  },
+  "Metadata/Monsters/LeagueAbyss/Pit/PrimordialMonster2Spectre":{
+    "accuracy":1,
+    "attackRange":6,
+    "attackTime":1.5,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":35,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":23.1,
+    "damage":0.6,
+    "damageSpread":0.2,
+    "evasion":0.25,
+    "fireResist":0,
+    "life":0.6,
+    "lightningResist":30,
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.116
+      }],
+    "monsterCategory":"Demon",
+    "monsterTags":["abyssal","demon","medium_movement","melee","not_int","not_str","pit_faction"],
+    "name":"Hound of the Pit",
+    "skillList":["MeleeAtAnimationSpeed"],
+    "spawnLocation":["Abyssal Depths (Act 2)"],
+    "spectreReservation":34
+  },
+  "Metadata/Monsters/LeagueAbyss/Pit/PrimordialMonster3AbyssSpectre":{
+    "accuracy":1,
+    "attackRange":8,
+    "attackTime":1.5,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":32,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":24.3,
+    "damage":0.78,
+    "damageSpread":0.2,
+    "evasion":0.25,
+    "fireResist":0,
+    "life":0.65,
+    "lightningResist":30,
+    "modList":[],
+    "monsterCategory":"Demon",
+    "monsterTags":["abyssal","Claw_onhit_audio","demon","medium_movement","melee","not_int","not_str","pit_faction"],
+    "name":"Primordium of the Pit",
+    "skillList":["MeleeAtAnimationSpeed","GSAbyssPrimordialMonsterScreech","DTTPrimordialBeast3LeapAttack","GAPrimordialMonster3Leap"],
+    "spawnLocation":["Abyssal Depths (Act 2)"],
+    "spectreReservation":36
   },
   "Metadata/Monsters/LeagueExpeditionNew/Arbalest/ExpeditionArbalest":{
     "accuracy":1,
@@ -2449,7 +3488,13 @@
     "fireResist":-30,
     "life":1.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.333
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["1HSword_onhit_audio","bone_armour","bones","caster","cold_affinity","is_unarmed","not_dex","not_int","skeleton","slashing_weapon","slow_movement","undead","ward_armour"],
     "name":"Priest of the Chalice",
@@ -2512,7 +3557,13 @@
     "fireResist":0,
     "life":1.3,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.45
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["caster","construct","fire_affinity","is_unarmed","medium_movement","metal_armour","not_dex","not_int","Unarmed_onhit_audio","undead","ward_armour"],
     "name":"Unearthed Runecaster",
@@ -2557,7 +3608,13 @@
     "fireResist":0,
     "life":1.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["1HSword_onhit_audio","flesh_armour","is_unarmed","melee","not_dex","not_int","physical_affinity","slashing_weapon","undead","very_slow_movement","ward_armour"],
     "name":"Black Scythe Mercenary",
@@ -2662,7 +3719,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["1HSword_onhit_audio","bones","is_unarmed","melee","metal_armour","not_dex","not_int","physical_affinity","skeleton","slashing_weapon","undead","very_slow_movement","ward_armour"],
     "name":"Order Ostiary",
@@ -2685,7 +3748,13 @@
     "fireResist":0,
     "life":0.65,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.333
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["fast_movement","humanoid","not_int","not_str","Unarmed_onhit_audio","undead","zombie"],
     "name":"Unearthed Urchin",
@@ -2708,7 +3777,13 @@
     "fireResist":0,
     "life":1.6,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.233
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["caster","fast_movement","fire_affinity","has_staff","has_two_handed_melee","humanoid","lightning_affinity","metal_armour","not_dex","not_int","puncturing_weapon","ranged","Stab_onhit_audio","undead","ward_armour"],
     "name":"Runed Knight",
@@ -2731,7 +3806,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["flesh_armour","humanoid","is_unarmed","melee","physical_affinity","Unarmed_onhit_audio","undead","very_slow_movement","zombie"],
     "name":"Unearthed Zombie",
@@ -2776,7 +3857,13 @@
     "fireResist":75,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.933
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["beyond_demon","demon","demon_faction","fast_movement","not_int","not_str","red_blood","Unarmed_onhit_audio","very_fast_movement"],
     "name":"Demon Harpy",
@@ -2800,7 +3887,13 @@
     "fireResist":75,
     "life":2.1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.833
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["beyond_demon","demon","demon_faction","fast_movement","not_dex","not_str","red_blood","StaffWood_onhit_audio"],
     "name":"Demon Herder",
@@ -2849,7 +3942,13 @@
     "fireResist":30,
     "life":1.15,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.3
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["beyond_demon","demon","fast_movement","not_int","not_str","red_blood","Unarmed_onhit_audio","very_fast_movement"],
     "name":"Demon Beast",
@@ -2872,7 +3971,13 @@
     "fireResist":0,
     "life":1.1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.333
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["beyond_demon","demon","fast_movement","MonsterStab_onhit_audio","red_blood","very_fast_movement"],
     "name":"Demon Ghast",
@@ -2896,7 +4001,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.766
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["beyond_demon","demon","fast_movement","flesh_faction","not_dex","not_str","red_blood","Unarmed_onhit_audio","very_fast_movement"],
     "name":"Ravenous Bloodshaper",
@@ -2920,7 +4031,13 @@
     "fireResist":0,
     "life":2.25,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.066
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["beyond_demon","demon","flesh_faction","MonsterBlunt_onhit_audio","not_dex","not_int","red_blood","slow_movement"],
     "name":"Ravenous Macerator",
@@ -2947,7 +4064,13 @@
     "fireResist":0,
     "life":1.3,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.3
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["beyond_demon","demon","fast_movement","flesh_faction","not_dex","not_int","red_blood","Unarmed_onhit_audio"],
     "name":"Ravenous Homunculus",
@@ -2974,7 +4097,13 @@
     "fireResist":0,
     "life":1.7,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.8
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["beyond_demon","demon","fast_movement","flesh_faction","not_dex","not_int","red_blood","Unarmed_onhit_audio"],
     "name":"Ravenous Brute",
@@ -2998,7 +4127,13 @@
     "fireResist":0,
     "life":1.1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.333
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["beyond_demon","demon","fast_movement","flesh_faction","MonsterStab_onhit_audio","not_int","not_str","red_blood"],
     "name":"Ravenous Digester",
@@ -3022,7 +4157,13 @@
     "fireResist":0,
     "life":1.15,
     "lightningResist":30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.588
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["beyond_demon","demon","flesh_faction","medium_movement","not_dex","not_str","red_blood","Unarmed_onhit_audio"],
     "name":"Ravenous Misshapen",
@@ -3046,7 +4187,13 @@
     "fireResist":0,
     "life":2.12,
     "lightningResist":75,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.5
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["beyond_demon","demon","medium_movement","not_dex","not_str","red_blood","Unarmed_onhit_audio"],
     "name":"Pale Angel",
@@ -3071,7 +4218,13 @@
     "fireResist":0,
     "life":2.25,
     "lightningResist":75,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.933
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["beyond_demon","demon","fast_movement","MonsterStab_onhit_audio","not_int","pale_faction","red_blood"],
     "name":"Pale Seraphim",
@@ -3095,7 +4248,13 @@
     "fireResist":0,
     "life":1.2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.666
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["beyond_demon","demon","not_dex","not_str","red_blood","slow_movement","Unarmed_onhit_audio"],
     "name":"Pale Cherubim",
@@ -3119,7 +4278,13 @@
     "fireResist":0,
     "life":1.15,
     "lightningResist":30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.666
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["beyond_demon","Claw_onhit_audio","demon","fast_movement","not_int","not_str","red_blood","very_fast_movement"],
     "name":"Pale Servitor",
@@ -3143,7 +4308,13 @@
     "fireResist":0,
     "life":1.15,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":4.15
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["beyond_demon","demon","fast_movement","MonsterStab_onhit_audio","not_int","not_str","red_blood"],
     "name":"Pale Virtue",
@@ -3167,7 +4338,13 @@
     "fireResist":0,
     "life":1.7,
     "lightningResist":30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_inc_aoe","beast","Beast_onhit_audio","mammal_beast","medium_movement","melee","not_dex","not_int","physical_affinity","red_blood"],
     "name":"Nameless Dweller",
@@ -3190,7 +4367,19 @@
     "fireResist":-30,
     "life":2.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"KnockbackImmune",
+        "type":"FLAG",
+        "value":1
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":5.333
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","Beast_onhit_audio","cannot_be_monolith","cleaving_weapon","devourer","hard_armour","hidden_monster","immobile","is_unarmed","medium_movement","not_dex","not_int","physical_affinity","ranged","red_blood","spider"],
     "name":"Nameless Burrower",
@@ -3217,7 +4406,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.9
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","insect","medium_movement","MonsterBlunt_onhit_audio","not_dex","not_int","red_blood"],
     "name":"Nameless Hulk",
@@ -3240,7 +4435,13 @@
     "fireResist":-30,
     "life":0.7,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.733
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","mammal_beast","medium_movement","melee","not_int","not_str","physical_affinity","red_blood","Unarmed_onhit_audio"],
     "name":"Nameless Imp",
@@ -3264,7 +4465,13 @@
     "fireResist":0,
     "life":0.75,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":1.7
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["beast","fast_movement","mammal_beast","melee","not_int","physical_affinity","rodent","rodent_beast","Snap_onhit_audio","undead"],
     "name":"Nameless Vermin",
@@ -3287,7 +4494,13 @@
     "fireResist":0,
     "life":1.3,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.666
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","mammal_beast","medium_movement","MonsterBlunt_onhit_audio","not_int","not_str","red_blood"],
     "name":"Nameless Lurker",
@@ -3337,7 +4550,13 @@
     "fireResist":-30,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_inc_aoe","melee","monster_has_on_death_mechanic","physical_affinity","Unarmed_onhit_audio","undead","very_slow_movement","zombie"],
     "name":"Treant Foulspawn",
@@ -3364,7 +4583,13 @@
     "fireResist":0,
     "life":1.1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.333
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["Claw_onhit_audio","demon","fast_movement","humanoid","melee","not_int","red_blood","skeleton"],
     "name":"Treant Hookhorror",
@@ -3387,7 +4612,13 @@
     "fireResist":0,
     "life":2.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.4
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","humanoid","insect","not_dex","not_int","Unarmed_onhit_audio","very_slow_movement"],
     "name":"Treant Fungalreaver",
@@ -3411,7 +4642,13 @@
     "fireResist":0,
     "life":1.3,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["animal_claw_weapon","caster","construct","humanoid","is_unarmed","melee","MonsterStab_onhit_audio","not_dex","physical_affinity","slow_movement","wood_armour"],
     "name":"Treant Mystic",
@@ -3435,7 +4672,13 @@
     "fireResist":0,
     "life":1.3,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["animal_claw_weapon","caster","construct","humanoid","is_unarmed","melee","MonsterStab_onhit_audio","not_dex","physical_affinity","slow_movement","wood_armour"],
     "name":"Treant Sage",
@@ -3459,7 +4702,13 @@
     "fireResist":0,
     "life":1.3,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["animal_claw_weapon","caster","construct","humanoid","is_unarmed","melee","MonsterStab_onhit_audio","not_dex","physical_affinity","slow_movement","wood_armour"],
     "name":"Treant Spriggan",
@@ -3530,7 +4779,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["humanoid","melee","monster_barely_moves","no_minion_revival","physical_affinity","Unarmed_onhit_audio","undead","very_slow_movement","zombie"],
     "name":"Sandscoured Dead",
@@ -3581,7 +4836,13 @@
     "fireResist":30,
     "life":1.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.083
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","fire_affinity","human","humanoid","medium_movement","melee","not_str","red_blood","StaffMetal_onhit_audio"],
     "name":"Mar Acolyte",
@@ -3604,7 +4865,13 @@
     "fireResist":0,
     "life":1.2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.2
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["1HAxe_onhit_audio","melee","not_dex","not_int","physical_affinity","slow_movement","undead","zombie"],
     "name":"Decrepit Mercenary",
@@ -3628,7 +4895,13 @@
     "fireResist":0,
     "life":1.2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":1.715
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","beast","cannot_be_monolith","flying","lightning_affinity","mammal_beast","melee","MonsterStab_onhit_audio","not_int","not_str","physical_affinity","ranged","red_blood","slow_movement"],
     "name":"Vesper Bat",
@@ -3651,7 +4924,13 @@
     "fireResist":-30,
     "life":0.7,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.733
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","mammal_beast","medium_movement","melee","not_int","not_str","physical_affinity","red_blood","Unarmed_onhit_audio"],
     "name":"Bramble Ape",
@@ -3674,7 +4953,13 @@
     "fireResist":0,
     "life":0.65,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.733
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["animal_claw_weapon","beast","cannot_be_map_archnemesis","fast_movement","flesh_armour","is_unarmed","mammal_beast","melee","not_int","not_str","physical_affinity","primate_beast","ranged","red_blood","small_height","Unarmed_onhit_audio"],
     "name":"Feral Primate",
@@ -3697,7 +4982,19 @@
     "fireResist":-30,
     "life":2.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"KnockbackImmune",
+        "type":"FLAG",
+        "value":1
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":5.333
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_additional_projectiles","beast","Beast_onhit_audio","cannot_be_monolith","devourer","hidden_monster","immobile","medium_movement","melee","not_dex","not_int","physical_affinity","ranged","red_blood","spider"],
     "name":"Bramble Burrower",
@@ -3720,7 +5017,13 @@
     "fireResist":0,
     "life":1.44,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.65
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["2HBluntWood_onhit_audio","allows_inc_aoe","construct","earth_elemental","humanoid","melee","mud_blood","not_dex","not_int","physical_affinity","very_slow_movement"],
     "name":"Swamp Golem",
@@ -3742,7 +5045,13 @@
     "fireResist":30,
     "life":1.65,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.65
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["construct","earth_elemental","MonsterBlunt_onhit_audio","mud_blood","stone_construct","very_slow_movement"],
     "name":"Mud Simulacrum",
@@ -3764,7 +5073,13 @@
     "fireResist":0,
     "life":1.3,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.65
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["allows_inc_aoe","Beast_onhit_audio","cannot_be_monolith","construct","melee","monster_barely_moves","physical_affinity","very_slow_movement"],
     "name":"Living Sand",
@@ -3787,7 +5102,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.433
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","fast_movement","human","humanoid","melee","not_dex","not_int","physical_affinity","red_blood"],
     "name":"Faridun Butcher",
@@ -3811,7 +5132,13 @@
     "fireResist":0,
     "life":0.8,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.233
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","fast_movement","human","humanoid","melee","not_int","not_str","physical_affinity","red_blood"],
     "name":"Faridun Neophyte",
@@ -3836,7 +5163,13 @@
     "fireResist":0,
     "life":0.8,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.233
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","fast_movement","human","humanoid","melee","not_int","not_str","physical_affinity","red_blood"],
     "name":"Faridun Fledgling",
@@ -3864,7 +5197,13 @@
     "fireResist":0,
     "life":1.2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.733
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","fast_movement","human","humanoid","melee","not_int","physical_affinity","red_blood"],
     "name":"Faridun Spearman",
@@ -3889,7 +5228,13 @@
     "fireResist":0,
     "life":1.2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.733
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","fast_movement","human","humanoid","melee","not_int","physical_affinity","red_blood"],
     "name":"Faridun Swordsman",
@@ -3927,6 +5272,12 @@
         "name":"BlockEffect",
         "type":"BASE",
         "value":10
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.733
       }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","fast_movement","human","humanoid","melee","monster_blocks_damage","not_int","physical_affinity","red_blood"],
@@ -3952,7 +5303,13 @@
     "fireResist":0,
     "life":1.05,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.733
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["Claw_onhit_audio","fast_movement","human","humanoid","melee","not_int","not_str","physical_affinity","red_blood"],
     "name":"Faridun Wind-slicer",
@@ -3977,7 +5334,13 @@
     "fireResist":0,
     "life":1.1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.733
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","fast_movement","human","humanoid","melee","not_int","not_str","physical_affinity","red_blood"],
     "name":"Faridun Bladedancer",
@@ -4002,7 +5365,13 @@
     "fireResist":0,
     "life":1.05,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.733
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_additional_projectiles","fast_movement","human","humanoid","not_int","not_str","physical_affinity","ranged","red_blood","Stab_onhit_audio"],
     "name":"Faridun Javelineer",
@@ -4060,7 +5429,13 @@
     "fireResist":0,
     "life":1.1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.733
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["fast_movement","human","humanoid","melee","not_int","not_str","physical_affinity","red_blood","SpearMetal_onhit_audio"],
     "name":"Faridun Spearwoman",
@@ -4085,7 +5460,13 @@
     "fireResist":0,
     "life":1.1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.733
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["human","humanoid","medium_movement","melee","monster_blocks_damage","not_int","physical_affinity","red_blood","Stab_onhit_audio"],
     "name":"Faridun Infantry",
@@ -4094,6 +5475,33 @@
     "spectreReservation":53,
     "weaponType1":"Spear",
     "weaponType2":"Shield"
+  },
+  "Metadata/Monsters/NettleAnt/NettleAntInterlude":{
+    "accuracy":1,
+    "armour":0.5,
+    "attackRange":22,
+    "attackTime":0.69,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":78,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":47.4,
+    "damage":2.5,
+    "damageSpread":0.2,
+    "extraFlags":{
+      "recommendedBeast":true,
+      "recommendedSpectre":true
+    },
+    "fireResist":0,
+    "life":2.5,
+    "lightningResist":0,
+    "modList":[],
+    "monsterCategory":"Beast",
+    "monsterTags":["beast","insect","not_dex","not_int","Unarmed_onhit_audio","very_fast_movement"],
+    "name":"Frozen Mandibles",
+    "skillList":["MeleeAtAnimationSpeed"],
+    "spawnLocation":[],
+    "spectreReservation":99
   },
   "Metadata/Monsters/NettleAnt/NettleAntSummoned":{
     "accuracy":1,
@@ -4229,7 +5637,13 @@
     "fireResist":0,
     "life":0.6,
     "lightningResist":-30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.667
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_additional_projectiles","beast","melee","monster_applies_poison","not_int","not_str","physical_affinity","ranged","red_blood","slow_movement","Unarmed_onhit_audio"],
     "name":"Chyme Skitterer",
@@ -4252,7 +5666,13 @@
     "fireResist":0,
     "life":0.6,
     "lightningResist":-30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.667
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_additional_projectiles","beast","melee","monster_applies_poison","not_int","not_str","physical_affinity","ranged","red_blood","slow_movement","Unarmed_onhit_audio"],
     "name":"Abyss Fish",
@@ -4280,6 +5700,12 @@
     "modList":[{
         "flags":0,
         "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.6
+      },{
+        "flags":0,
+        "keywordFlags":0,
         "name":"EnemyCurseLimit",
         "type":"BASE",
         "value":3
@@ -4305,7 +5731,13 @@
     "fireResist":0,
     "life":0.8,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.5
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_inc_aoe","physical_affinity","ranged","skeleton","slow_movement","Unarmed_onhit_audio","undead"],
     "name":"Skullslinger",
@@ -4327,7 +5759,13 @@
     "fireResist":0,
     "life":0.8,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.95
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["medium_movement","melee","physical_affinity","skeleton","Unarmed_onhit_audio","undead"],
     "name":"Spinesnatcher",
@@ -4355,6 +5793,12 @@
         "name":"PhysicalDamageLifeLeech",
         "type":"BASE",
         "value":125
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.4
       }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","Claw_onhit_audio","fast_movement","insect","melee","physical_affinity","very_fast_movement"],
@@ -4377,7 +5821,13 @@
     "fireResist":-30,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["2HSharpMetal_onhit_audio","demon","melee","monster_barely_moves","physical_affinity","undead","very_slow_movement"],
     "name":"Corrupted Corpse",
@@ -4423,7 +5873,13 @@
     "fireResist":-30,
     "life":0.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.5
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","fast_movement","flying","insect","melee","not_int","not_str","physical_affinity","red_blood","Unarmed_onhit_audio","very_fast_movement"],
     "name":"Bloodthief Wasp",
@@ -4446,7 +5902,13 @@
     "fireResist":-30,
     "life":0.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.5
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","fast_movement","insect","melee","not_int","not_str","physical_affinity","Unarmed_onhit_audio","very_fast_movement"],
     "name":"Plague Swarm",
@@ -4472,7 +5934,13 @@
     "fireResist":0,
     "life":0.8,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.6
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","beast","insect","melee","MonsterStab_onhit_audio","not_dex","not_int","physical_affinity","ranged","slow_movement"],
     "name":"Rasp Scavenger",
@@ -4507,6 +5975,12 @@
         "name":"BlockEffect",
         "type":"BASE",
         "value":15
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.433
       }],
     "monsterCategory":"Undead",
     "monsterTags":["1HSword_onhit_audio","humanoid","medium_movement","melee","monster_blocks_damage","not_dex","not_int","physical_affinity","red_blood","undead"],
@@ -4532,7 +6006,13 @@
     "fireResist":0,
     "life":1.2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.888
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["aura_bearer","humanoid","medium_movement","not_dex","not_str","physical_affinity","red_blood","Unarmed_onhit_audio","undead"],
     "name":"Vaal Embalmed Bearer",
@@ -4554,7 +6034,13 @@
     "fireResist":0,
     "life":1.45,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.888
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","Arrow_onhit_audio","fire_affinity","humanoid","medium_movement","physical_affinity","ranged","red_blood","undead"],
     "name":"Vaal Embalmed Archer",
@@ -4577,7 +6063,13 @@
     "fireResist":0,
     "life":1.1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.833
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["fast_movement","humanoid","melee","physical_affinity","red_blood","Stab_onhit_audio","undead"],
     "name":"Vaal Embalmed Rogue",
@@ -4600,7 +6092,13 @@
     "fireResist":0,
     "life":1.1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.833
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["fast_movement","humanoid","melee","physical_affinity","red_blood","Stab_onhit_audio","undead"],
     "name":"Vaal Embalmed Spearman",
@@ -4627,7 +6125,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_inc_aoe","beast","fast_movement","mammal_beast","melee","MonsterBlunt_onhit_audio","not_dex","not_int","physical_affinity","red_blood"],
     "name":"Quadrilla",
@@ -4650,7 +6154,13 @@
     "fireResist":30,
     "life":0.7,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_additional_projectiles","beast","fire_affinity","insect","MonsterStab_onhit_audio","not_dex","not_int","physical_affinity","ranged","red_blood","slow_movement"],
     "name":"Porcupine Crab",
@@ -4673,7 +6183,13 @@
     "fireResist":30,
     "life":0.85,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_additional_projectiles","beast","fire_affinity","insect","MonsterStab_onhit_audio","not_dex","not_int","physical_affinity","ranged","red_blood","slow_movement"],
     "name":"Porcupine Crab",
@@ -4700,7 +6216,13 @@
     "fireResist":0,
     "life":0.85,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_additional_projectiles","beast","insect","monster_applies_poison","MonsterStab_onhit_audio","not_dex","not_int","physical_affinity","ranged","red_blood","slow_movement"],
     "name":"Venomous Crab Matriarch",
@@ -4723,7 +6245,13 @@
     "fireResist":0,
     "life":0.7,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_additional_projectiles","beast","insect","monster_applies_poison","MonsterStab_onhit_audio","not_dex","not_int","physical_affinity","ranged","red_blood","slow_movement"],
     "name":"Venomous Crab",
@@ -4746,7 +6274,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.2
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","mammal_beast","melee","not_int","not_str","physical_affinity","red_blood","Snap_onhit_audio","very_slow_movement"],
     "name":"Rabid Dog",
@@ -4768,7 +6302,13 @@
     "fireResist":0,
     "life":2.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.4
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_inc_aoe","giant","human","humanoid","large_model","melee","MonsterBlunt_onhit_audio","physical_affinity","red_blood","very_slow_movement"],
     "name":"Desert Hulk",
@@ -4790,7 +6330,13 @@
     "fireResist":0,
     "life":2.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.4
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_inc_aoe","giant","human","humanoid","large_model","melee","MonsterBlunt_onhit_audio","physical_affinity","red_blood","very_slow_movement"],
     "name":"Forsaken Hulk",
@@ -4813,7 +6359,13 @@
     "fireResist":0,
     "life":2.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.65
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","giant","human","humanoid","large_model","melee","monster_applies_poison","MonsterBlunt_onhit_audio","not_dex","not_int","physical_affinity","undead","very_slow_movement"],
     "name":"Bog Hulk",
@@ -4836,7 +6388,13 @@
     "fireResist":0,
     "life":2.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.65
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","giant","human","humanoid","large_model","melee","monster_applies_poison","MonsterBlunt_onhit_audio","not_dex","not_int","physical_affinity","undead","very_slow_movement"],
     "name":"Rotting Hulk",
@@ -4860,7 +6418,13 @@
     "fireResist":0,
     "life":0.75,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":1.7
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["beast","fast_movement","mammal_beast","melee","not_int","physical_affinity","rodent","rodent_beast","Snap_onhit_audio","undead"],
     "name":"Rotted Rat",
@@ -4929,7 +6493,13 @@
     "fireResist":0,
     "life":1.35,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.415
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_additional_projectiles","Arrow_onhit_audio","fire_affinity","humanoid","not_dex","not_int","physical_affinity","ranged","skeleton","undead","very_slow_movement"],
     "name":"Risen Arbalest",
@@ -4976,7 +6546,13 @@
     "fireResist":30,
     "life":0.75,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.466
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","Beast_onhit_audio","cannot_be_monolith","insect","medium_movement","melee","not_dex","not_int","physical_affinity"],
     "name":"Boulder Ant",
@@ -5000,7 +6576,13 @@
     "fireResist":0,
     "life":1.4,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.4
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","humanoid","insect","not_dex","not_int","Unarmed_onhit_audio","very_slow_movement"],
     "name":"Cultivated Grove",
@@ -5023,7 +6605,13 @@
     "fireResist":75,
     "life":1.8,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.133
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["allows_inc_aoe","construct","melee","MonsterBlunt_onhit_audio","not_dex","not_int","physical_affinity","very_slow_movement"],
     "name":"Quake Golem",
@@ -5046,7 +6634,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":1.533
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["demon","MonsterStab_onhit_audio","mud_blood","not_int","not_str","very_slow_movement"],
     "name":"Fettered Hook",
@@ -5068,7 +6662,13 @@
     "fireResist":0,
     "life":3.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.6
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["demon","medium_movement","MonsterBlunt_onhit_audio","mud_blood"],
     "name":"Fettered Monstrosity",
@@ -5120,7 +6720,13 @@
     "fireResist":0,
     "life":2.15,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.8
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["demon","fast_movement","MonsterStab_onhit_audio","mud_blood","not_dex","not_int"],
     "name":"Fettered Snake",
@@ -5143,7 +6749,13 @@
     "fireResist":0,
     "life":2.15,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.4
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","fast_movement","MonsterStab_onhit_audio","mud_blood","not_dex","not_int","spider","very_fast_movement"],
     "name":"Fettered Spider",
@@ -5167,7 +6779,13 @@
     "fireResist":0,
     "life":1.45,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.5
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["demon","MonsterStab_onhit_audio","mud_blood","not_int","slow_movement"],
     "name":"Fettered Grasper",
@@ -5190,7 +6808,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.083
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","insect","MonsterStab_onhit_audio","mud_blood","not_int","not_str","very_slow_movement"],
     "name":"Fettered Writher",
@@ -5214,7 +6838,13 @@
     "fireResist":-30,
     "life":1.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.1
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_additional_projectiles","bones","caster","medium_movement","not_dex","physical_affinity","raises_dead","skeleton","Unarmed_onhit_audio","undead"],
     "name":"Desiccated Lich",
@@ -5239,7 +6869,13 @@
     "fireResist":0,
     "life":0.6,
     "lightningResist":30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.45
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","fast_movement","insect","melee","not_int","not_str","physical_affinity","SpearWood_onhit_audio","very_fast_movement"],
     "name":"Crag Leaper",
@@ -5264,7 +6900,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["animal_claw_weapon","caster","construct","humanoid","is_unarmed","melee","MonsterStab_onhit_audio","physical_affinity","slow_movement","wood_armour"],
     "name":"Treant",
@@ -5286,7 +6928,13 @@
     "fireResist":0,
     "life":2.25,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.066
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["2HSharpMetal_onhit_audio","allows_inc_aoe","beast","humanoid","mammal_beast","melee","physical_affinity","red_blood","very_slow_movement"],
     "name":"Scarecrow Beast",
@@ -5310,7 +6958,13 @@
     "fireResist":0,
     "life":1.25,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.5
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_inc_aoe","fast_movement","human","humanoid","melee","not_int","physical_affinity","ranged","red_blood","Unarmed_onhit_audio"],
     "name":"Tendril Sentinel",
@@ -5332,7 +6986,13 @@
     "fireResist":0,
     "life":1.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":4.067
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_inc_aoe","beast","Claw_onhit_audio","fast_movement","humanoid","melee","monster_applies_poison","physical_affinity","reptile_beast"],
     "name":"Serpent Clan",
@@ -5359,7 +7019,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":4.067
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","beast","Beast_onhit_audio","caster","fast_movement","humanoid","not_dex","not_str","physical_affinity","reptile_beast"],
     "name":"Serpent Shaman",
@@ -5394,6 +7060,12 @@
         "name":"EnemyPoisonDuration",
         "type":"INC",
         "value":0
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
       }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","melee","monster_applies_poison","not_dex","not_int","physical_affinity","red_blood","reptile_beast","Unarmed_onhit_audio","very_slow_movement"],
@@ -5417,7 +7089,13 @@
     "fireResist":30,
     "life":1.15,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.4
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","beast","crustacean_beast","fire","fire_affinity","melee","MonsterStab_onhit_audio","not_dex","not_int","ranged","slow_movement"],
     "name":"Brimstone Crab",
@@ -5452,6 +7130,12 @@
         "name":"BlockChanceMax",
         "type":"BASE",
         "value":25
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.95
       }],
     "monsterCategory":"Undead",
     "monsterTags":["2HSharpMetal_onhit_audio","allows_additional_projectiles","allows_inc_aoe","bones","humanoid","melee","monster_blocks_damage","not_dex","not_int","physical_affinity","skeleton","undead","very_slow_movement"],
@@ -5476,7 +7160,13 @@
     "fireResist":0,
     "life":2.25,
     "lightningResist":30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.533
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["1HSword_onhit_audio","bones","humanoid","melee","not_dex","not_int","physical_affinity","skeleton","undead","very_slow_movement"],
     "name":"Knight-Gaunt",
@@ -5501,7 +7191,13 @@
     "fireResist":-30,
     "life":1.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.1
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["1HBluntWood_onhit_audio","allows_additional_projectiles","bones","caster","fire_affinity","medium_movement","monster_barely_moves","monster_summons_adds","not_dex","physical_affinity","raises_dead","skeleton","undead"],
     "name":"Dread Servant",
@@ -5526,7 +7222,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["beast","melee","not_int","not_str","physical_affinity","reptile_beast","skeleton","SpearWood_onhit_audio","undead","very_slow_movement"],
     "name":"Gilded Cobra",
@@ -5571,7 +7273,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.467
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["melee","monster_barely_moves","physical_affinity","skeleton","Unarmed_onhit_audio","undead","very_slow_movement"],
     "name":"Risen Rattler",
@@ -5593,7 +7301,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.488
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_additional_projectiles","Arrow_onhit_audio","fire_affinity","monster_barely_moves","ranged","skeleton","undead","very_slow_movement"],
     "name":"Vaal Skeletal Archer",
@@ -5622,6 +7336,12 @@
         "name":"MeleeWeaponRange",
         "type":"BASE",
         "value":7
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.488
       }],
     "monsterCategory":"Undead",
     "monsterTags":["melee","monster_barely_moves","physical_affinity","skeleton","SpearMetal_onhit_audio","undead","very_slow_movement"],
@@ -5646,7 +7366,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.488
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","caster","lightning_affinity","monster_barely_moves","not_dex","not_str","skeleton","StaffWood_onhit_audio","undead","very_slow_movement"],
     "name":"Vaal Skeletal Priest",
@@ -5681,6 +7407,12 @@
         "name":"BlockEffect",
         "type":"BASE",
         "value":10
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.488
       }],
     "monsterCategory":"Undead",
     "monsterTags":["1HAxe_onhit_audio","melee","monster_barely_moves","monster_blocks_damage","physical_affinity","skeleton","undead","very_slow_movement"],
@@ -5705,7 +7437,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.467
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["1HSword_onhit_audio","melee","monster_barely_moves","physical_affinity","skeleton","undead","very_slow_movement"],
     "name":"Fungal Rattler",
@@ -5728,7 +7466,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.467
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["melee","monster_barely_moves","physical_affinity","skeleton","Unarmed_onhit_audio","undead","very_slow_movement"],
     "name":"Risen Maraketh",
@@ -5750,7 +7494,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.467
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["1HSword_onhit_audio","melee","monster_barely_moves","physical_affinity","skeleton","undead","very_slow_movement"],
     "name":"Wretched Rattler",
@@ -5785,6 +7535,12 @@
         "name":"BlockEffect",
         "type":"BASE",
         "value":10
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.467
       }],
     "monsterCategory":"Undead",
     "monsterTags":["1HSword_onhit_audio","melee","monster_barely_moves","skeleton","undead","very_slow_movement"],
@@ -5831,7 +7587,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.467
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["melee","monster_barely_moves","physical_affinity","skeleton","Unarmed_onhit_audio","undead","very_slow_movement"],
     "name":"Sandflesh Warrior",
@@ -5854,7 +7616,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.467
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["monster_barely_moves","skeleton","Unarmed_onhit_audio","undead","very_slow_movement"],
     "name":"Sandflesh Skeleton",
@@ -5877,7 +7645,13 @@
     "fireResist":-30,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.7
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["allows_additional_projectiles","demon","medium_movement","melee","monster_applies_poison","not_int","not_str","physical_affinity","ranged","Unarmed_onhit_audio"],
     "name":"Bloom Serpent",
@@ -5900,7 +7674,13 @@
     "fireResist":-30,
     "life":2.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["beast","Beast_onhit_audio","melee","not_dex","not_int","physical_affinity","red_blood","reptile_beast","undead","very_slow_movement"],
     "name":"Entwined Hulk",
@@ -5923,7 +7703,13 @@
     "fireResist":0,
     "life":0.8,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.68
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","fast_movement","melee","not_int","not_str","physical_affinity","red_blood","Unarmed_onhit_audio"],
     "name":"Scorpion Monkey",
@@ -5968,7 +7754,13 @@
     "fireResist":0,
     "life":1.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.633
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["Claw_onhit_audio","humanoid","melee","not_dex","not_str","physical_affinity","red_blood","very_slow_movement"],
     "name":"Wheelbound Hag",
@@ -5992,7 +7784,13 @@
     "fireResist":0,
     "life":1.1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.5
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","beast","melee","monster_applies_poison","not_int","physical_affinity","ranged","reptile_beast","Unarmed_onhit_audio","very_slow_movement"],
     "name":"Slitherspitter",
@@ -6015,7 +7813,13 @@
     "fireResist":0,
     "life":0.8,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.617
+      }],
     "monsterCategory":"Demon",
     "monsterTags":["Claw_onhit_audio","demon","fast_movement","humanoid","mammal_beast","melee","not_int","not_str","physical_affinity","red_blood","very_fast_movement"],
     "name":"Hungering Stalker",
@@ -6038,7 +7842,13 @@
     "fireResist":0,
     "life":1.3,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.666
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","mammal_beast","medium_movement","melee","MonsterBlunt_onhit_audio","not_int","not_str","physical_affinity","red_blood"],
     "name":"Bramble Rhoa",
@@ -6061,7 +7871,13 @@
     "fireResist":0,
     "life":1.32,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.106
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_additional_projectiles","caster","fast_movement","ghost","ghost_blood","not_dex","not_str","physical_affinity","ranged","Unarmed_onhit_audio","undead"],
     "name":"Sand Spirit",
@@ -6105,7 +7921,13 @@
     "fireResist":0,
     "life":1.4,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.2
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","melee","not_int","not_str","physical_affinity","red_blood","reptile_beast","slow_movement","Unarmed_onhit_audio"],
     "name":"River Drake",
@@ -6128,7 +7950,13 @@
     "fireResist":0,
     "life":1.54,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.45
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["1HBluntMetal_onhit_audio","construct","melee","not_dex","not_int","physical_affinity","very_slow_movement"],
     "name":"Terracotta Soldier",
@@ -6155,7 +7983,13 @@
     "fireResist":0,
     "life":0.99,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.45
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["1HBluntMetal_onhit_audio","construct","melee","not_dex","not_int","physical_affinity","very_slow_movement"],
     "name":"Terracotta Soldier",
@@ -6278,7 +8112,13 @@
     "fireResist":30,
     "life":1.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.33
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","caster","fast_movement","fire_affinity","human","humanoid","not_dex","not_str","ranged","red_blood"],
     "name":"Iron Thaumaturgist",
@@ -6300,13 +8140,47 @@
     "fireResist":0,
     "life":2.15,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.6
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_inc_aoe","bones","melee","physical_affinity","skeleton","Unarmed_onhit_audio","undead","very_slow_movement"],
     "name":"Walking Goliath",
     "skillList":["MASExtraAttackDistance20","MeleeAtAnimationSpeed2","GATitanWalkerStomp","GATitanWalkerSlam"],
     "spawnLocation":["The Khari Crossing (Act 6)","Found in Maps","Trial of the Sekhemas (Floor 3)","Trial of the Sekhemas (Floor 4)","Valley of the Titans (Act 2)"],
     "spectreReservation":88
+  },
+  "Metadata/Monsters/TumourMonsters/Statue07/QimarMonstrositySpectre":{
+    "accuracy":1,
+    "attackRange":28,
+    "attackTime":1.5,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":34,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":51.9,
+    "damage":2.18,
+    "damageSpread":0.2,
+    "fireResist":0,
+    "life":3,
+    "lightningResist":0,
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.6
+      }],
+    "monsterCategory":"Demon",
+    "monsterTags":["demon","medium_movement","MonsterBlunt_onhit_audio","mud_blood"],
+    "name":"Bloodbilge",
+    "skillList":["MeleeAtAnimationSpeed"],
+    "spawnLocation":[],
+    "spectreReservation":113
   },
   "Metadata/Monsters/TwigMonsters/DredgeFiend":{
     "accuracy":1,
@@ -6324,7 +8198,13 @@
     "fireResist":-50,
     "life":2.25,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","Beast_onhit_audio","caster","construct","humanoid","not_dex","physical_affinity","ranged","undead","very_slow_movement"],
     "name":"Dredge Fiend",
@@ -6349,7 +8229,13 @@
     "fireResist":0,
     "life":1.3,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["animal_claw_weapon","caster","construct","humanoid","is_unarmed","melee","MonsterStab_onhit_audio","not_dex","physical_affinity","slow_movement","wood_armour"],
     "name":"Skeleton Spriggan",
@@ -6371,7 +8257,13 @@
     "fireResist":75,
     "life":2.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.666
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_inc_aoe","humanoid","melee","MonsterBlunt_onhit_audio","physical_affinity","very_slow_movement"],
     "name":"Goliath",
@@ -6395,7 +8287,13 @@
     "fireResist":0,
     "life":1.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.233
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","caster","fire_affinity","human","humanoid","melee","not_str","red_blood","SpearMetal_onhit_audio","undead","very_slow_movement"],
     "name":"Risen Tale-woman",
@@ -6424,6 +8322,12 @@
         "name":"Speed",
         "type":"MORE",
         "value":-10
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.333
       }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_additional_projectiles","humanoid","medium_movement","melee","not_int","not_str","physical_affinity","ranged","Unarmed_onhit_audio","undead","zombie"],
@@ -6448,7 +8352,13 @@
     "fireResist":0,
     "life":1.15,
     "lightningResist":-30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.5
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["2HBluntMetal_onhit_audio","construct","fire_affinity","medium_movement","mud_blood","not_dex","ranged"],
     "name":"Flame Sentry",
@@ -6520,7 +8430,13 @@
     "fireResist":0,
     "life":1.15,
     "lightningResist":-30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.333
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["2HBluntMetal_onhit_audio","allows_inc_aoe","cannot_be_monolith","caster","construct","golem","lightning_affinity","medium_movement","melee","mud_blood","not_dex","vaal"],
     "name":"Rusted Dyna Golem",
@@ -6568,7 +8484,13 @@
     "fireResist":0,
     "life":1.1,
     "lightningResist":-30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.283
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["2HBluntMetal_onhit_audio","bludgeoning_weapon","caster","construct","golem","is_unarmed","lightning_affinity","metal_armour","monster_barely_moves","not_dex","slow_movement","vaal"],
     "name":"Reconstructor",
@@ -6591,7 +8513,13 @@
     "fireResist":30,
     "life":2.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.933
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["2HBluntMetal_onhit_audio","allows_inc_aoe","cannot_be_monolith","construct","melee","not_dex","not_int","physical_affinity","stone_construct","vaal","very_slow_movement"],
     "name":"Gold-Melted Sentinel",
@@ -6614,7 +8542,13 @@
     "fireResist":30,
     "life":2.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.933
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["2HBluntWood_onhit_audio","allows_inc_aoe","cannot_be_monolith","construct","melee","not_dex","not_int","physical_affinity","stone_construct","vaal","very_slow_movement"],
     "name":"Stone Sentinel",
@@ -6685,7 +8619,13 @@
     "fireResist":30,
     "life":1.8,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.45
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["2HBluntWood_onhit_audio","allows_inc_aoe","construct","fast_movement","humanoid","melee","mud_blood","not_dex","not_int","physical_affinity","very_fast_movement"],
     "name":"Gold-melted Blacksmith",
@@ -6711,7 +8651,13 @@
     "fireResist":0,
     "life":1.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.833
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["2HSharpMetal_onhit_audio","construct","fast_movement","humanoid","melee","physical_affinity","red_blood","vaal","very_fast_movement"],
     "name":"Warrior Transcendent",
@@ -6735,7 +8681,13 @@
     "fireResist":0,
     "life":1.4,
     "lightningResist":30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.3
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","construct","fast_movement","fire_affinity","humanoid","not_int","ranged","red_blood","Unarmed_onhit_audio"],
     "name":"Doryani's Elite",
@@ -6783,7 +8735,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","construct","humanoid","lightning_affinity","medium_movement","melee","not_dex","physical_affinity","ranged","red_blood","Unarmed_onhit_audio"],
     "name":"Goliath Transcendent",
@@ -6831,7 +8789,19 @@
     "fireResist":0,
     "life":1.5,
     "lightningResist":30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChaosNotDoubleESDamage",
+        "type":"FLAG",
+        "value":1
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"NoEnergyShieldRecharge",
+        "type":"FLAG",
+        "value":1
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["1HSword_onhit_audio","allows_additional_projectiles","allows_inc_aoe","construct","humanoid","lightning_affinity","medium_movement","not_dex","ranged","red_blood"],
     "name":"Shielded Transcendent",
@@ -6921,7 +8891,13 @@
     "fireResist":0,
     "life":1.25,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.25
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","Claw_onhit_audio","medium_movement","melee","not_int","physical_affinity","red_blood"],
     "name":"Loyal Jaguar",
@@ -6944,7 +8920,13 @@
     "fireResist":0,
     "life":1.98,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.3
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","allows_additional_projectiles","allows_inc_aoe","caster","cultist","fast_movement","human","humanoid","not_int","not_str","physical_affinity","ranged","red_blood"],
     "name":"Blood Priestess",
@@ -6969,7 +8951,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.3
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","allows_additional_projectiles","allows_inc_aoe","caster","cultist","fast_movement","human","humanoid","not_str","physical_affinity","ranged","red_blood"],
     "name":"Blood Priest",
@@ -7016,7 +9004,13 @@
     "fireResist":0,
     "life":1.2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.45
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["2HSharpMetal_onhit_audio","allows_additional_projectiles","fast_movement","human","humanoid","melee","not_int","not_str","physical_affinity","ranged","red_blood"],
     "name":"Vaal Axeman",
@@ -7066,7 +9060,13 @@
     "fireResist":0,
     "life":2.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.5
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_inc_aoe","human","humanoid","melee","not_dex","not_int","physical_affinity","red_blood","Unarmed_onhit_audio","very_slow_movement"],
     "name":"Vaal Goliath",
@@ -7089,7 +9089,13 @@
     "fireResist":0,
     "life":1.05,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.3
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["Claw_onhit_audio","human","humanoid","melee","not_int","not_str","physical_affinity","red_blood","very_slow_movement"],
     "name":"Vaal Excoriator",
@@ -7117,7 +9123,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.3
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","fire_affinity","human","humanoid","not_int","not_str","ranged","red_blood","Unarmed_onhit_audio","very_slow_movement"],
     "name":"Vaal Guard",
@@ -7141,7 +9153,13 @@
     "fireResist":0,
     "life":1.8,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.45
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","allows_inc_aoe","fast_movement","human","humanoid","melee","not_int","physical_affinity","red_blood"],
     "name":"Vaal Overseer",
@@ -7167,7 +9185,13 @@
     "fireResist":0,
     "life":1.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.4
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","caster","cultist","human","humanoid","medium_movement","melee","physical_affinity","red_blood"],
     "name":"Vaal Formshifter",
@@ -7194,7 +9218,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.3
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","allows_additional_projectiles","allows_inc_aoe","caster","cultist","human","humanoid","lightning_affinity","not_str","red_blood","very_slow_movement"],
     "name":"Surgical Experimentalist",
@@ -7217,7 +9247,13 @@
     "fireResist":0,
     "life":1.15,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["1HSword_onhit_audio","fast_movement","human","humanoid","melee","not_int","not_str","physical_affinity","red_blood","undead","vaal","very_fast_movement"],
     "name":"Undead Vaal Bladedancer",
@@ -7243,7 +9279,13 @@
     "fireResist":0,
     "life":1.25,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","fast_movement","fire_affinity","human","humanoid","not_int","ranged","red_blood","Unarmed_onhit_audio","undead","vaal"],
     "name":"Undead Vaal Guard",
@@ -7267,7 +9309,13 @@
     "fireResist":0,
     "life":2.25,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.533
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_inc_aoe","caster","Claw_onhit_audio","cold_affinity","fast_movement","ghost","ghost_blood","melee","not_str","undead"],
     "name":"Prowling Shade",
@@ -7339,7 +9387,13 @@
     "fireResist":30,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.65
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","cultist","fast_movement","human","humanoid","melee","not_int","not_str","physical_affinity","quest_null_monster_mods","red_blood","very_fast_movement"],
     "name":"Chaos Zealot",
@@ -7364,7 +9418,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.65
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","cannot_be_monolith","cultist","fast_movement","human","humanoid","melee","not_int","not_str","red_blood","very_fast_movement"],
     "name":"Bannerbearing Zealot",
@@ -7389,7 +9449,13 @@
     "fireResist":30,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.65
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","cultist","fast_movement","human","humanoid","melee","not_int","not_str","physical_affinity","red_blood","very_fast_movement"],
     "name":"Blood Zealot",
@@ -7414,7 +9480,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.65
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","chaos_affinity","cultist","fast_movement","human","humanoid","melee","not_int","not_str","red_blood","very_fast_movement"],
     "name":"Chaotic Zealot",
@@ -7439,7 +9511,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.65
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","cold_affinity","cultist","fast_movement","human","humanoid","melee","not_int","not_str","red_blood","very_fast_movement"],
     "name":"Gelid Zealot",
@@ -7464,7 +9542,13 @@
     "fireResist":30,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.65
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","cultist","fast_movement","fire_affinity","human","humanoid","melee","not_int","not_str","red_blood","very_fast_movement"],
     "name":"Fiery Zealot",
@@ -7486,13 +9570,16 @@
     "damage":1,
     "damageSpread":0.2,
     "evasion":0.3,
-    "extraFlags":{
-      "recommendedSpectre":true
-    },
     "fireResist":0,
     "life":1,
     "lightningResist":30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.65
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["1HSword_onhit_audio","cultist","fast_movement","human","humanoid","lightning_affinity","melee","not_int","not_str","red_blood","very_fast_movement"],
     "name":"Powered Zealot",
@@ -7501,6 +9588,40 @@
     "spectreReservation":50,
     "weaponType1":"Dagger",
     "weaponType2":"Dagger"
+  },
+  "Metadata/Monsters/VaalMonsters/Zealots/VaalZealotSpearLightning":{
+    "accuracy":1,
+    "attackRange":20,
+    "attackTime":1.245,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":52,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":32.1,
+    "damage":1.15,
+    "damageSpread":0.2,
+    "energyShield":0.2,
+    "evasion":0.4,
+    "extraFlags":{
+      "recommendedSpectre":true
+    },
+    "fireResist":0,
+    "life":1.15,
+    "lightningResist":30,
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.466
+      }],
+    "monsterCategory":"Humanoid",
+    "monsterTags":["2HBluntWood_onhit_audio","allows_additional_projectiles","allows_inc_aoe","caster","cultist","fast_movement","human","humanoid","lightning_affinity","melee","not_str","red_blood","very_fast_movement"],
+    "name":"Powered Zealot",
+    "skillList":["MeleeAtAnimationSpeedLightning","VaalZealotLightningSpark","GTVaalZealotSpearLightningBlast","VaalZealotLightningSparkNova","GSVaalZealotLightningBlast","SOVaalZealotLightningBlast"],
+    "spawnLocation":["Etched Ravine (Act 6)","Found in Maps"],
+    "spectreReservation":55,
+    "weaponType1":"Spear"
   },
   "Metadata/Monsters/VaalSavage/CannibalTribeDagger":{
     "accuracy":1,
@@ -7517,7 +9638,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.3
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["Claw_onhit_audio","fast_movement","human","humanoid","melee","not_int","not_str","physical_affinity","red_blood","very_fast_movement"],
     "name":"Orok Throatcutter",
@@ -7541,7 +9668,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.21
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","caster","female","human","humanoid","monster_barely_moves","not_dex","not_str","physical_affinity","ranged","red_blood","Unarmed_onhit_audio","very_slow_movement"],
     "name":"Orok Shaman",
@@ -7565,7 +9698,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.3
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["fast_movement","human","humanoid","melee","not_int","not_str","physical_affinity","red_blood","SpearWood_onhit_audio","very_fast_movement"],
     "name":"Orok Fleshstabber",
@@ -7589,7 +9728,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.3
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_additional_projectiles","fast_movement","human","humanoid","melee","not_int","not_str","physical_affinity","ranged","red_blood","SpearWood_onhit_audio","very_fast_movement"],
     "name":"Orok Hunter",
@@ -7614,7 +9759,13 @@
     "fireResist":0,
     "life":1.37,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.55
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["2HBluntWood_onhit_audio","fast_movement","human","humanoid","melee","not_int","physical_affinity","red_blood"],
     "name":"Orok Stalker",
@@ -7640,7 +9791,13 @@
     "fireResist":0,
     "life":1.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.333
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["human","humanoid","melee","monster_barely_moves","not_int","physical_affinity","red_blood","SpearMetal_onhit_audio","very_slow_movement"],
     "name":"Azak Mongrelmaster",
@@ -7665,7 +9822,13 @@
     "fireResist":0,
     "life":1.5,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.333
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["human","humanoid","melee","monster_barely_moves","not_int","physical_affinity","red_blood","SpearMetal_onhit_audio","very_slow_movement"],
     "name":"Azak Brute",
@@ -7690,7 +9853,13 @@
     "fireResist":0,
     "life":1.05,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.333
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["Claw_onhit_audio","fast_movement","human","humanoid","melee","not_int","physical_affinity","red_blood","very_fast_movement"],
     "name":"Azak Throatcutter",
@@ -7738,7 +9907,13 @@
     "fireResist":30,
     "life":2.25,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.066
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["2HBluntWood_onhit_audio","allows_inc_aoe","human","humanoid","medium_movement","melee","not_dex","not_int","physical_affinity","red_blood"],
     "name":"Azak Mauler",
@@ -7762,7 +9937,13 @@
     "fireResist":30,
     "life":2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.433
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","caster","fast_movement","fire_affinity","human","humanoid","not_dex","not_str","ranged","red_blood","Unarmed_onhit_audio"],
     "name":"Azak Shaman",
@@ -7787,7 +9968,13 @@
     "fireResist":0,
     "life":1.1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.366
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["fast_movement","human","humanoid","melee","not_int","physical_affinity","red_blood","SpearWood_onhit_audio","very_fast_movement"],
     "name":"Azak Fleshstabber",
@@ -7812,7 +9999,13 @@
     "fireResist":0,
     "life":1.1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.333
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["allows_additional_projectiles","fast_movement","human","humanoid","melee","not_int","physical_affinity","ranged","red_blood","SpearWood_onhit_audio","very_fast_movement"],
     "name":"Azak Spearthrower",
@@ -7837,7 +10030,13 @@
     "fireResist":0,
     "life":1.4,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.433
+      }],
     "monsterCategory":"Humanoid",
     "monsterTags":["2HBluntWood_onhit_audio","allows_inc_aoe","fast_movement","human","humanoid","melee","not_int","physical_affinity","red_blood"],
     "name":"Azak Stalker",
@@ -7886,7 +10085,13 @@
     "fireResist":0,
     "life":1.7,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.923
+      }],
     "monsterCategory":"Construct",
     "monsterTags":["construct","melee","not_dex","not_int","physical_affinity","ranged","Unarmed_onhit_audio","undead","very_slow_movement"],
     "name":"Urnwalker",
@@ -7911,7 +10116,13 @@
     "fireResist":0,
     "life":1.35,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.8
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","avian_beast","beast","flying","melee","physical_affinity","ranged","red_blood","slow_movement","Snap_onhit_audio"],
     "name":"Regurgitating Vulture",
@@ -7939,7 +10150,13 @@
     "fireResist":0,
     "life":1.65,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.585
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","Beast_onhit_audio","fast_movement","mammal_beast","melee","not_int","physical_affinity","red_blood","very_fast_movement"],
     "name":"Prowling Chimeral",
@@ -7962,7 +10179,13 @@
     "fireResist":-30,
     "life":1.05,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.615
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","Beast_onhit_audio","fast_movement","humanoid","mammal_beast","melee","not_int","not_str","physical_affinity","red_blood"],
     "name":"Voracious Werewolf",
@@ -7985,7 +10208,13 @@
     "fireResist":-30,
     "life":1.05,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.566
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","Beast_onhit_audio","mammal_beast","medium_movement","melee","not_int","not_str","physical_affinity","red_blood"],
     "name":"Pack Werewolf",
@@ -8008,7 +10237,13 @@
     "fireResist":-30,
     "life":1.4,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.25
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","Beast_onhit_audio","mammal_beast","medium_movement","melee","not_int","not_str","physical_affinity","red_blood"],
     "name":"Werewolf Prowler",
@@ -8031,7 +10266,13 @@
     "fireResist":-30,
     "life":1.4,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.25
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","Beast_onhit_audio","mammal_beast","medium_movement","melee","not_int","not_str","physical_affinity","red_blood"],
     "name":"Tendril Prowler",
@@ -8076,7 +10317,13 @@
     "fireResist":0,
     "life":1.35,
     "lightningResist":-30,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.333
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["2HSharpMetal_onhit_audio","allows_additional_projectiles","beast","flying","lightning_affinity","medium_movement","melee","physical_affinity","ranged","red_blood"],
     "name":"Winged Horror",
@@ -8122,7 +10369,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","fast_movement","mammal_beast","melee","not_int","not_str","physical_affinity","Snap_onhit_audio","very_fast_movement"],
     "name":"Fungal Wolf",
@@ -8151,6 +10404,12 @@
         "name":"Speed",
         "type":"MORE",
         "value":-10
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2
       }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","mammal_beast","medium_movement","melee","not_int","not_str","physical_affinity","Snap_onhit_audio"],
@@ -8180,6 +10439,12 @@
         "name":"Speed",
         "type":"MORE",
         "value":-10
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2
       }],
     "monsterCategory":"Beast",
     "monsterTags":["beast","mammal_beast","medium_movement","melee","not_int","not_str","physical_affinity","red_blood","Snap_onhit_audio"],
@@ -8204,7 +10469,13 @@
     "fireResist":0,
     "life":1.6,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.333
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","caster","cold_affinity","medium_movement","not_str","ranged","Unarmed_onhit_audio","undead"],
     "name":"Frost Wraith",
@@ -8228,7 +10499,13 @@
     "fireResist":0,
     "life":2,
     "lightningResist":75,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.333
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","caster","lightning_affinity","medium_movement","not_str","ranged","Unarmed_onhit_audio","undead"],
     "name":"Lightning Wraith",
@@ -8254,7 +10531,13 @@
     "fireResist":0,
     "life":1.25,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3.033
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","caster","cold_affinity","humanoid","monster_barely_moves","not_dex","not_str","ranged","Unarmed_onhit_audio","undead","very_slow_movement"],
     "name":"Undertaker",
@@ -8276,7 +10559,13 @@
     "fireResist":0,
     "life":1.25,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.866
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_inc_aoe","humanoid","melee","monster_barely_moves","MonsterBlunt_onhit_audio","physical_affinity","undead","very_slow_movement"],
     "name":"Burdened Wretch",
@@ -8299,7 +10588,13 @@
     "fireResist":0,
     "life":1.8,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.866
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["allows_inc_aoe","humanoid","melee","monster_barely_moves","MonsterBlunt_onhit_audio","physical_affinity","undead","very_slow_movement"],
     "name":"Bearer of Penitence",
@@ -8323,7 +10618,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.788
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["1HSword_onhit_audio","humanoid","melee","not_dex","not_int","physical_affinity","skeleton","undead","very_slow_movement"],
     "name":"Ill-fated Explorer",
@@ -8346,7 +10647,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["melee","physical_affinity","Unarmed_onhit_audio","undead","very_slow_movement","zombie"],
     "name":"Burning Dead",
@@ -8369,7 +10676,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["not_dex","not_int","Unarmed_onhit_audio","undead","very_slow_movement","zombie"],
     "name":"Rotting Guard",
@@ -8391,7 +10704,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["1HAxe_onhit_audio","melee","physical_affinity","undead","very_slow_movement","zombie"],
     "name":"Risen Farmhand",
@@ -8414,7 +10733,13 @@
     "fireResist":0,
     "life":1.2,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":2.5
+      }],
     "monsterCategory":"Beast",
     "monsterTags":["allows_additional_projectiles","allows_inc_aoe","beast","flying","monster_barely_moves","physical_affinity","ranged","Unarmed_onhit_audio","very_slow_movement"],
     "name":"Fungal Artillery",
@@ -8436,7 +10761,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["melee","physical_affinity","Unarmed_onhit_audio","undead","very_slow_movement","zombie"],
     "name":"Lumbering Dead",
@@ -8458,7 +10789,13 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["melee","physical_affinity","Unarmed_onhit_audio","undead","very_slow_movement","zombie"],
     "name":"Drowned",
@@ -8480,7 +10817,19 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
-    "modList":[],
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"INC",
+        "value":30
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunDuration",
+        "type":"OVERRIDE",
+        "value":3
+      }],
     "monsterCategory":"Undead",
     "monsterTags":["melee","monster_barely_moves","physical_affinity","Unarmed_onhit_audio","undead","very_slow_movement","zombie"],
     "name":"Maraketh Undead",

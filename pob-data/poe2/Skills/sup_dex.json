@@ -248,6 +248,7 @@
     "color":2,
     "description":"Supports Skills which can expend Combo. On expending Combo with Supported Skills, you have a chance to gain Power Charges based on the amount of Combo expended.",
     "excludeSkillTypes":[],
+    "flavourText":["Ailith awoke to find her fire iridescent, and her mind alive","with visions. By morning, she began teaching what she'd","seen... thus was born the Keepers of the Pale Vision."],
     "gemFamily":["AilithLineage"],
     "ignoreMinionTypes":true,
     "isLineage":true,
@@ -381,6 +382,7 @@
     "color":2,
     "description":"Supports Crossbow Skills, granting a chance to load a bolt into all Crossbow Ammunition on kill with Supported Skill.",
     "excludeSkillTypes":[],
+    "flavourText":["Confident their enemy was defenseless, the Keitans brazenly","charged the walls - but Arjun's ammunition supply reports","had been... 'inaccurate'... just like everything else Bardiyan."],
     "gemFamily":["AmmoConservation"],
     "isLineage":true,
     "levels":[{
@@ -476,6 +478,7 @@
     "color":2,
     "description":"Supports any Skill that Hits Enemies, causing it to deal increasingly higher damage the more Poisons are on the target.",
     "excludeSkillTypes":[],
+    "flavourText":["She flashed a smile full of wicked teeth. \"Sin, my darling.","Forget your Maraketh woes.\" She bit and tore and reveled;","he lay trapped in silk, wrought with despair and ecstasy."],
     "gemFamily":["ArakaaliLineage"],
     "isLineage":true,
     "levels":[{
@@ -1127,6 +1130,7 @@
     "color":2,
     "description":"Supports Crossbow Ammunition Skills, causing them to load multiple extra bolts. Supported Skills cannot reload normally, instead loading bolts when you Dodge.",
     "excludeSkillTypes":[],
+    "flavourText":["\"No plan. No stealth. I want shock. Awe. I want them to","know who did it, and I want them telling tales. That's the","only way for us to earn their respect... and their fear.\""],
     "gemFamily":["DoubleBarrel"],
     "isLineage":true,
     "levels":[{
@@ -2264,6 +2268,7 @@
     "color":2,
     "description":"Supports Attack Skills you use yourself which do not already have some Condition for use. Supported Skills can only be used after you have moved a certain distance, but will Bifurcate Critical Hit Chance. Cannot support Skills which have a Cooldown or that are Triggered, and does not modify skills used by Minions.",
     "excludeSkillTypes":[139,194,238,75,74,64,90,37,95],
+    "flavourText":["At the last, her hope gone - but not her resolve - she threw her","beloved Tangletongue. That was the day a god bled. For this, the","Great Roc graced a Maraketh warrior with a feather for the first time."],
     "gemFamily":["HitAndRun"],
     "ignoreMinionTypes":true,
     "isLineage":true,
@@ -3464,6 +3469,7 @@
     "color":2,
     "description":"Supports Skills that cause Damaging Hits. Hits from Supported Skills cannot kill Enemies.",
     "excludeSkillTypes":[],
+    "flavourText":["The prisoners cowered in their cages when Piety stalked by.","She gave them bread and said flatly, \"You needn't be so","frightened. I don't want to kill you... I'm going to use you.\""],
     "gemFamily":["Mercy"],
     "isLineage":true,
     "levels":[{
@@ -4070,6 +4076,7 @@
     "color":2,
     "description":"Supports Skills that can cause Damaging Hits, causing those Hits to treat Enemy Elemental Resistances as inverted.",
     "excludeSkillTypes":[],
+    "flavourText":["The Tasalio Tribe developed their own Way, seeing","the world not as it is, but as it should be, given its","roiling and endless grace of constant motion."],
     "gemFamily":["RakiataLineage"],
     "isLineage":true,
     "levels":[{
@@ -4427,6 +4434,7 @@
     "color":2,
     "description":"Supports Attack skills, granting them Attack Speed at the cost of Damage or Damage at the cost of Attack Speed depending on Weapon Set they are used in. Does not modify skills used by Minions.",
     "excludeSkillTypes":[218,64],
+    "flavourText":["\"Skothe kept us idle, sitting safe on these islands, while our","brethren remain slaves. We are one and the same! We must","fight! So, I bring you his head. I am now your Wolven King!\""],
     "gemFamily":["RigwaldLineage"],
     "ignoreMinionTypes":true,
     "isLineage":true,
@@ -4838,6 +4846,7 @@
     "color":2,
     "description":"Supports Skills which can cause Damaging Hits. Poison inflicted with Supported Skills deals Damage faster the higher your Rage.",
     "excludeSkillTypes":[],
+    "flavourText":["He almost saved the Vaal. His unique poison made it past","the Queen's cupbearers; he had only to direct his anger...","but in her presence, he could feel naught but lust."],
     "gemFamily":["TacatiLineage"],
     "isLineage":true,
     "levels":[{
@@ -4875,6 +4884,7 @@
     "color":2,
     "description":"Supports Skills that can cause Damaging Hits, granting extra Chaos damage and causing Chaos damage to Contribute to Freeze Buildup.",
     "excludeSkillTypes":[],
+    "flavourText":["\"Countless graves glow silently in endless rows that stretch","on unseen. The living lie within, but do not decay, do not","die. Their eyes remain open, their essence stilled, waiting.\""],
     "gemFamily":["BreachLineage"],
     "isLineage":true,
     "levels":[{

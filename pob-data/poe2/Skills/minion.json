@@ -146,6 +146,53 @@
         "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length"]
       }]
   },
+  "DeathFromAboveDaemonMinion":{
+    "castTime":1,
+    "description":"Fires a flare at a target location, attaching to an enemy if it lands on one. Then fires a series of arrow volleys centred around the flare.",
+    "hidden":true,
+    "levels":[{
+        "baseMultiplier":11.4,
+        "cooldown":40,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Death From Above",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "8":true,
+      "41":true,
+      "89":true,
+      "113":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "projectile":true
+        },
+        "constantStats":[["death_from_above_volley_delay_ms",2000],["death_from_above_number_of_volleys",4],["explosion_delay_ms",250],["active_skill_base_area_of_effect_radius",140],["active_skill_base_secondary_area_of_effect_radius",75],["command_minion_marker_additional_time_ms",300]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Death From Above",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"death_from_above",
+        "statMap":{
+          "death_from_above_number_of_volleys":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillData",
+              "type":"LIST",
+              "value":{
+                "key":"dpsMultiplier"
+              }
+            }]
+        },
+        "stats":["is_commandable_skill","base_is_projectile","is_area_damage","skill_cannot_be_frozen","skill_cannot_be_electrocuted","skill_cannot_be_knocked_back","skill_cannot_be_stunned","modifiers_to_projectile_count_do_not_apply"]
+      }]
+  },
   "DeathStormSkeletonStormMageMinion":{
     "castTime":2,
     "description":"Lightning bolts strike all fallen Skeletons in the area, creating Shocked Ground around them.",

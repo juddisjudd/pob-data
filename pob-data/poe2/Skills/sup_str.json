@@ -594,6 +594,7 @@
     "color":1,
     "description":"Supports Persistent Minion Skills, granting a chance when Supported Minions die for you to gain an Abyssal Monster Modifier.",
     "excludeSkillTypes":[],
+    "flavourText":["Those that serve the Liege of the Lightless are his, utterly.","Blood, flesh, and soul are fodder to bend to his will.","Under a Lich Lord, not even death is an escape."],
     "gemFamily":["AmanamusTithe"],
     "isLineage":true,
     "levels":[{
@@ -914,6 +915,7 @@
     "color":1,
     "description":"Supports any Skill, turning a portion of its Mana cost into a Life cost. Does not support Skills which reserve Spirit. Supported Skills Gain a portion of their Life cost as extra Physical Damage.",
     "excludeSkillTypes":[108,139],
+    "flavourText":["Atazek and Atalui rose, battered and dark, bleeding from a hundred","different wounds. She gave her brother a sinister grin. \"Shall we","show them what happens to those who challenge the Vaal?\""],
     "gemFamily":["Lifetap"],
     "isLineage":true,
     "levels":[{
@@ -1508,6 +1510,7 @@
     "color":1,
     "description":"Supports skills which create Minions, causing those Minions to be unable to deal or take Damage. Cannot support skills which create undamageable Minions.",
     "excludeSkillTypes":[],
+    "flavourText":["Shavronne gleefully raised her arms to the sky as lightning","flashed. She'd done it! Her creation was perfect! Invincible.","Immortal! But she soon realized there was one piece missing..."],
     "gemFamily":["MeatShield"],
     "isLineage":true,
     "levels":[{
@@ -1593,6 +1596,24 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_cannibalism_recover_%_maximum_life_on_kill":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"LifeOnKill",
+              "type":"BASE",
+              "1":{
+                "percent":1,
+                "stat":"Life",
+                "type":"PercentStat"
+              },
+              "2":{
+                "effectName":"Cannibalism",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }]
+        },
         "stats":[]
       }],
     "support":true
@@ -1926,6 +1947,7 @@
     "color":1,
     "description":"Supports Warcries, causing them to inflict massive amounts of Corrupted Blood on enemies in their area of effect, at the cost of your Life.",
     "excludeSkillTypes":[],
+    "flavourText":["The water used to cool the Locus of Corruption ran red","as blood, bright as flame, and bubbled with strange heat.","\"Drink,\" he offered. \"Suffuse your flesh with power!\""],
     "gemFamily":["CorruptingCry"],
     "ignoreMinionTypes":true,
     "isLineage":true,
@@ -2142,6 +2164,7 @@
     "color":1,
     "description":"Supports Banner Skills, causing them to require significantly less Glory to use.",
     "excludeSkillTypes":[],
+    "flavourText":["\"I raised my eyes to look upon my death. Instead, I saw her.","Merveil. Fighting had always been about survival. Now the","fight became about something much greater... love.\""],
     "gemFamily":["DaressoLineage"],
     "isLineage":true,
     "levels":[{
@@ -2372,6 +2395,20 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_deep_cuts_bleeding_effect_+%_final":[{
+              "flags":0,
+              "keywordFlags":4194304,
+              "name":"AilmentMagnitude",
+              "type":"MORE"
+            }],
+          "support_deep_cuts_hit_damage_+%_final":[{
+              "flags":4,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE"
+            }]
+        },
         "stats":[]
       }],
     "support":true
@@ -2759,6 +2796,7 @@
     "color":1,
     "description":"Supports Melee Strike skills, causing them to steal a Modifier from Rare monsters they kill for a lengthy duration, while being unable to damage enemies not on low Life. Does not modify skills used by Minions.",
     "excludeSkillTypes":[],
+    "flavourText":["\"You must cut the beast, like this,\" he told the wide-eyed","and forgetful woman. \"The juiciest parts are in the middle!\"","She nodded, and began relearning the way of the wilds."],
     "gemFamily":["Behead"],
     "ignoreMinionTypes":true,
     "isLineage":true,
@@ -3043,6 +3081,29 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_executioner_damage_+%_final_while_on_low_life":[{
+              "flags":4,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "type":"Condition",
+                "var":"LowLife"
+              }
+            }],
+          "support_executioner_damage_vs_enemies_on_low_life_+%_final":[{
+              "flags":4,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "actor":"enemy",
+                "type":"ActorCondition",
+                "var":"LowLife"
+              }
+            }]
+        },
         "stats":[]
       }],
     "support":true
@@ -3068,6 +3129,19 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_executioner_damage_vs_enemies_on_low_life_+%_final":[{
+              "flags":4,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "actor":"enemy",
+                "type":"ActorCondition",
+                "var":"LowLife"
+              }
+            }]
+        },
         "stats":[]
       }],
     "support":true
@@ -3459,6 +3533,7 @@
     "color":1,
     "description":"Supports Skills which create Totems, causing those Totems to have more Life. Totems created by Supported Skills explode on death, dealing Physical damage based on their Life.",
     "excludeSkillTypes":[],
+    "flavourText":["A scavenging warrior found Tawhoa meditating in a grove.","\"There is only so much jade in this world,\" intoned the god.","\"Take my gift to your tribe. Ironwood will grow for all time.\""],
     "gemFamily":["HardyTotems"],
     "isLineage":true,
     "levels":[{
@@ -3845,6 +3920,20 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "faster_burn_%":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"IgniteFaster",
+              "type":"INC"
+            }],
+          "support_ignition_chance_to_ignite_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"EnemyIgniteChance",
+              "type":"MORE"
+            }]
+        },
         "stats":[]
       }],
     "support":true
@@ -4319,6 +4408,7 @@
     "color":1,
     "description":"Supports Melee Attacks which create fissures in the ground, causing them to create many additional fissures at the cost of damage, attack speed, and area of effect.",
     "excludeSkillTypes":[],
+    "flavourText":["As King Kaom delved further into Wraeclast, so, too, did he","draw closer to the Beast. One night, in a nightmarish fit, he","swung his axe at his own men, slaughtering hundreds."],
     "gemFamily":["Fissures"],
     "isLineage":true,
     "levels":[{
@@ -5437,6 +5527,14 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_fast_forward_detonation_time_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"DetonationTime",
+              "type":"MORE"
+            }]
+        },
         "stats":[]
       }],
     "support":true
@@ -5463,6 +5561,12 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
+          "support_fast_forward_detonation_time_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"DetonationTime",
+              "type":"MORE"
+            }],
           "support_short_fuse_damage_+%_final":[{
               "flags":0,
               "keywordFlags":0,
@@ -5969,6 +6073,7 @@
     "color":1,
     "description":"Supports Skills which can gain levels, granting them many additional levels provided exactly two other supports are used with the supported Skill. Does not support skills which do not have levels.",
     "excludeSkillTypes":[236],
+    "flavourText":["Studying the ill omens of the stars, Uhtred came to suspect","something was very wrong among the first Kalguurans.","Olroth, Vorana, Medved... three there were. Three dangers."],
     "gemFamily":["UhtredLineage"],
     "isLineage":true,
     "levels":[{
@@ -5994,6 +6099,7 @@
     "color":1,
     "description":"Supports Skills which can gain levels, granting them many additional levels provided no other supports are used with the supported Skill. Does not support skills which do not have levels.",
     "excludeSkillTypes":[236],
+    "flavourText":["By the time Uhtred realised the truth, only Vorana remained","to defend them. While the rest fled, she implanted her flesh","with gems and set forth alone to face the endless hordes."],
     "gemFamily":["UhtredLineage"],
     "isLineage":true,
     "levels":[{
@@ -6019,6 +6125,7 @@
     "color":1,
     "description":"Supports Skills which can gain levels, granting them many additional levels provided exactly one other support is used with the supported Skill. Does not support skills which do not have levels.",
     "excludeSkillTypes":[236],
+    "flavourText":["Day and night, his priests followed each of the Kalguuran","heroes. When Medved disappeared, Uhtred grew even more","paranoid. Now, only two remained... Olroth and Vorana."],
     "gemFamily":["UhtredLineage"],
     "isLineage":true,
     "levels":[{
@@ -6293,6 +6400,7 @@
     "color":1,
     "description":"Supports any skill, causing Armour Break it inflicts to be stronger. Fully Breaking Armour with Supported Skills permanently increases the Physical Damage taken by those affected, up to a cap.",
     "excludeSkillTypes":[],
+    "flavourText":["The volcano roared, but there was no thunder, only the boom","of Uruk's hammer. Wraeclast had forgotten the old alliance,","but by the Molten One's will, the fires would rage again."],
     "gemFamily":["ArmourDemolisher"],
     "isLineage":true,
     "levels":[{
@@ -6318,6 +6426,7 @@
     "color":1,
     "description":"Supports Skills that can cause Damaging Hits, granting extra Chaos damage and causing Chaos damage to Break Armour.",
     "excludeSkillTypes":[],
+    "flavourText":["\"The Lords could not breathe, so they grew new lungs.","The Lords could not venture, so they grew new skin.","The Lords were alone, so they grew us, to serve them.\""],
     "gemFamily":["BreachLineage"],
     "isLineage":true,
     "levels":[{
@@ -6504,6 +6613,7 @@
     "color":1,
     "description":"Supports Skills that can cause Damaging Hits, granting extra Chaos damage and causing Chaos damage to Contribute to Ignites.",
     "excludeSkillTypes":[],
+    "flavourText":["\"They drank until only dust remained. Ate until their gums","bled rust. Such was their greed, the only thing that remains","of the Broken Sun... is the Red Pyre, the Torus Eternal.\""],
     "gemFamily":["BreachLineage"],
     "isLineage":true,
     "levels":[{

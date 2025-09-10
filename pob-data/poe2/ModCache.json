@@ -546,8 +546,23 @@
         "keywordFlags":0,
         "name":"ElementalResistMax",
         "type":"BASE",
-        "value":1
-      }],"  if you have at least 5 Red, Green and Blue Support Gems Socketed "],
+        "value":1,
+        "1":{
+          "threshold":5,
+          "type":"MultiplierThreshold",
+          "var":"RedSupportGems"
+        },
+        "2":{
+          "threshold":5,
+          "type":"MultiplierThreshold",
+          "var":"GreenSupportGems"
+        },
+        "3":{
+          "threshold":5,
+          "type":"MultiplierThreshold",
+          "var":"BlueSupportGems"
+        }
+      }]],
   "+1% to all maximum Resistances if you have at least 150 Devotion":[[{
         "flags":0,
         "keywordFlags":0,
@@ -1781,8 +1796,13 @@
         "keywordFlags":0,
         "name":"ColdResistMax",
         "type":"BASE",
-        "value":2
-      }],"  if you have at least 5 Blue Support Gems Socketed "],
+        "value":2,
+        "1":{
+          "threshold":5,
+          "type":"MultiplierThreshold",
+          "var":"BlueSupportGems"
+        }
+      }]],
   "+2% to Maximum Fire Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -1795,8 +1815,13 @@
         "keywordFlags":0,
         "name":"FireResistMax",
         "type":"BASE",
-        "value":2
-      }],"  if you have at least 5 Red Support Gems Socketed "],
+        "value":2,
+        "1":{
+          "threshold":5,
+          "type":"MultiplierThreshold",
+          "var":"RedSupportGems"
+        }
+      }]],
   "+2% to Maximum Fire Resistance while Ignited":[[{
         "flags":0,
         "keywordFlags":0,
@@ -1820,8 +1845,13 @@
         "keywordFlags":0,
         "name":"LightningResistMax",
         "type":"BASE",
-        "value":2
-      }],"  if you have at least 5 Green Support Gems Socketed "],
+        "value":2,
+        "1":{
+          "threshold":5,
+          "type":"MultiplierThreshold",
+          "var":"GreenSupportGems"
+        }
+      }]],
   "+2% to Quality of all Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -8200,17 +8230,10 @@
   "-5% to amount of Damage Prevented by Deflection":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Damage",
+        "name":"DeflectEffect",
         "type":"BASE",
         "value":-5
-      }]," amount of  Prevented by Deflection "],
-  "-5% to amount of Damage Prevented by Deflection 20% increased Deflection Rating":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"BASE",
-        "value":-5
-      }]," amount of  Prevented by Deflection 20% increased Deflection Rating "],
+      }]],
   "-7% to Chaos Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -8598,71 +8621,13 @@
         "type":"BASE",
         "value":10
       }]],
-  "10% chance to Daze on Hit":[[]," to Daze  "],
-  "10% chance to Daze on Hit 25% increased Daze Duration":[[{
+  "10% chance to Daze on Hit":[[{
         "flags":4,
         "keywordFlags":0,
-        "name":"Duration",
+        "name":"DazeChance",
         "type":"BASE",
         "value":10
-      }]," to Daze  25% increased Daze  "],
-  "10% chance to Daze on Hit 30% increased Defences while wielding a Quarterstaff":[[{
-        "flags":4,
-        "keywordFlags":0,
-        "name":"Defences",
-        "type":"BASE",
-        "value":10,
-        "1":{
-          "type":"Condition",
-          "var":"UsingStaff"
-        }
-      }]," to Daze  30% increased   "],
-  "10% chance to Daze on Hit 30% increased Defences while wielding a Quarterstaff 30% increased Freeze Buildup with Quarterstaves":[[{
-        "flags":4,
-        "keywordFlags":0,
-        "name":"Defences",
-        "type":"BASE",
-        "value":10,
-        "1":{
-          "type":"Condition",
-          "var":"UsingStaff"
-        }
-      }]," to Daze  30% increased   30% increased Freeze Buildup with Quarterstaves "],
-  "10% chance to Daze on Hit 30% increased Defences while wielding a Quarterstaff 30% increased Freeze Buildup with Quarterstaves 30% increased Stun Buildup with Quarterstaves":[[{
-        "flags":4,
-        "keywordFlags":0,
-        "name":"Defences",
-        "type":"BASE",
-        "value":10,
-        "1":{
-          "type":"Condition",
-          "var":"UsingStaff"
-        }
-      }]," to Daze  30% increased   30% increased Freeze Buildup with Quarterstaves 30% increased Stun Buildup with Quarterstaves "],
-  "10% chance to Daze on Hit 40% increased Critical Hit Chance against Dazed Enemies":[[{
-        "flags":4,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"BASE",
-        "value":10,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"Dazed"
-        }
-      }]," to Daze  40% increased   "],
-  "10% chance to Daze on Hit 40% increased Damage against Dazed Enemies":[[{
-        "flags":4,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"BASE",
-        "value":10,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"Dazed"
-        }
-      }]," to Daze  40% increased   "],
+      }]],
   "10% chance to Defend with 200% of Armour":[[{
         "flags":0,
         "keywordFlags":0,
@@ -8892,22 +8857,7 @@
           "stat":"TotemsSummoned",
           "type":"PerStat"
         }
-      }],"   in your Presence "],
-  "10% increased Armour and Evasion Rating per Summoned Totem in your Presence 10% increased Attack Damage per Summoned Totem in your Presence":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ArmourAndEvasion",
-        "type":"INC",
-        "value":10,
-        "1":{
-          "stat":"TotemsSummoned",
-          "type":"PerStat"
-        },
-        "2":{
-          "stat":"TotemsSummoned",
-          "type":"PerStat"
-        }
-      }],"   in your Presence 10% increased Attack Damage  in your Presence "],
+      }]],
   "10% increased Attack Area Damage":[[{
         "flags":513,
         "keywordFlags":0,
@@ -8932,7 +8882,7 @@
           "stat":"TotemsSummoned",
           "type":"PerStat"
         }
-      }],"   in your Presence "],
+      }]],
   "10% increased Attack Speed":[[{
         "flags":1,
         "keywordFlags":0,
@@ -8949,25 +8899,26 @@
       }]],
   "10% increased Ballista Critical Damage Bonus":[[{
         "flags":0,
-        "keywordFlags":0,
+        "keywordFlags":16384,
         "name":"CritMultiplier",
         "type":"INC",
-        "value":10
-      }]," Ballista  "],
-  "10% increased Ballista Critical Damage Bonus 10% increased Ballista Critical Hit Chance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CritMultiplier",
-        "type":"INC",
-        "value":10
-      }]," Ballista  10% increased Ballista Critical Hit Chance "],
+        "value":10,
+        "1":{
+          "type":"Condition",
+          "var":"BallistaSkill"
+        }
+      }]],
   "10% increased Ballista Critical Hit Chance":[[{
         "flags":0,
-        "keywordFlags":0,
+        "keywordFlags":16384,
         "name":"CritChance",
         "type":"INC",
-        "value":10
-      }]," Ballista  "],
+        "value":10,
+        "1":{
+          "type":"Condition",
+          "var":"BallistaSkill"
+        }
+      }]],
   "10% increased Bleeding Duration":[[{
         "flags":0,
         "keywordFlags":0,
@@ -9302,23 +9253,24 @@
         "type":"INC",
         "value":10
       }],"  while your Companion is in your Presence "],
-  "10% increased Deflection Rating":[[]," Deflection Rating "],
-  "10% increased Deflection Rating while Surrounded":[[]," Deflection Rating  "],
-  "10% increased Deflection Rating while Surrounded 40% increased Ailment and Stun Threshold while Surrounded":[[{
+  "10% increased Deflection Rating":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"StunThreshold",
+        "name":"DeflectionRating",
+        "type":"INC",
+        "value":10
+      }]],
+  "10% increased Deflection Rating while Surrounded":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DeflectionRating",
         "type":"INC",
         "value":10,
         "1":{
           "type":"Condition",
           "var":"Surrounded"
-        },
-        "2":{
-          "type":"Condition",
-          "var":"Surrounded"
         }
-      }]," Deflection Rating  40% increased Ailment and   "],
+      }]],
   "10% increased Dexterity":[[{
         "flags":0,
         "keywordFlags":0,
@@ -9451,32 +9403,13 @@
         "type":"INC",
         "value":10
       }]],
-  "10% increased Flammability Magnitude":[[],"Magnitude "],
-  "10% increased Flammability Magnitude 10% increased Freeze Buildup":[[],"Magnitude 10% increased Freeze Buildup "],
-  "10% increased Flammability Magnitude 10% increased Freeze Buildup 10% increased chance to Shock":[[{
+  "10% increased Flammability Magnitude":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"EnemyShockChance",
+        "name":"EnemyIgniteChance",
         "type":"INC",
-        "value":10,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Flammability",
-          "type":"SkillName"
-        }
-      }],"Magnitude 10% increased Freeze Buildup 10% increased  "],
-  "10% increased Flammability Magnitude 8% increased Elemental Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ElementalDamage",
-        "type":"INC",
-        "value":10,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Flammability",
-          "type":"SkillName"
-        }
-      }],"Magnitude 8% increased  "],
+        "value":10
+      }]],
   "10% increased Flask Charges gained":[[{
         "flags":0,
         "keywordFlags":0,
@@ -9706,17 +9639,10 @@
   "10% increased Mana Cost Efficiency":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ManaCost",
+        "name":"ManaCostEfficiency",
         "type":"INC",
         "value":10
-      }],"  Efficiency "],
-  "10% increased Mana Cost Efficiency Triggered Spells deal 40% increased Spell Damage":[[{
-        "flags":2,
-        "keywordFlags":0,
-        "name":"ManaCost",
-        "type":"INC",
-        "value":10
-      }],"  Efficiency Triggered s deal 40% increased Spell Damage "],
+      }]],
   "10% increased Mana Cost of Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -10503,7 +10429,13 @@
         "type":"BASE",
         "value":100
       }]],
-  "100% chance to Daze Enemies whose Hits you Block while Actively Blocking":[[]," to Daze Enemies whose Hits you Block ly Blocking "],
+  "100% chance to Daze Enemies whose Hits you Block while Actively Blocking":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DazeChance",
+        "type":"BASE",
+        "value":100
+      }],"  Enemies whose Hits you Block ly Blocking "],
   "100% chance to not consume a bolt if you've Reloaded Recently":[[]," to not consume a bolt if you've Reloaded Recently "],
   "100% faster start of Energy Shield Recharge":[[{
         "flags":0,
@@ -10796,31 +10728,13 @@
         "type":"INC",
         "value":100
       }]],
-  "100% increased Flammability Magnitude":[[],"Magnitude "],
-  "100% increased Flammability Magnitude 100% increased Ignite Magnitude":[[{
-        "flags":0,
-        "keywordFlags":8388608,
-        "name":"AilmentMagnitude",
-        "type":"INC",
-        "value":100,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Flammability",
-          "type":"SkillName"
-        }
-      }],"Magnitude 100% increased  "],
-  "100% increased Flammability Magnitude 30% increased Light Radius":[[{
+  "100% increased Flammability Magnitude":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"LightRadius",
+        "name":"EnemyIgniteChance",
         "type":"INC",
-        "value":100,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Flammability",
-          "type":"SkillName"
-        }
-      }],"Magnitude 30% increased  "],
+        "value":100
+      }]],
   "100% increased Flask Charges gained":[[{
         "flags":0,
         "keywordFlags":0,
@@ -11392,32 +11306,13 @@
         "type":"INC",
         "value":12
       }]],
-  "12% increased Flammability Magnitude":[[],"Magnitude "],
-  "12% increased Flammability Magnitude 12% increased Freeze Buildup":[[],"Magnitude 12% increased Freeze Buildup "],
-  "12% increased Flammability Magnitude 12% increased Freeze Buildup 12% increased chance to Shock":[[{
+  "12% increased Flammability Magnitude":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"EnemyShockChance",
+        "name":"EnemyIgniteChance",
         "type":"INC",
-        "value":12,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Flammability",
-          "type":"SkillName"
-        }
-      }],"Magnitude 12% increased Freeze Buildup 12% increased  "],
-  "12% increased Flammability Magnitude 6% increased Critical Hit Chance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"INC",
-        "value":12,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Flammability",
-          "type":"SkillName"
-        }
-      }],"Magnitude 6% increased  "],
+        "value":12
+      }]],
   "12% increased Freeze Buildup":[[]," Freeze Buildup "],
   "12% increased Freeze Buildup 12% increased chance to Shock":[[{
         "flags":0,
@@ -12311,25 +12206,37 @@
       }]],
   "15% increased Ballista Critical Damage Bonus":[[{
         "flags":0,
-        "keywordFlags":0,
+        "keywordFlags":16384,
         "name":"CritMultiplier",
         "type":"INC",
-        "value":15
-      }]," Ballista  "],
+        "value":15,
+        "1":{
+          "type":"Condition",
+          "var":"BallistaSkill"
+        }
+      }]],
   "15% increased Ballista Critical Hit Chance":[[{
         "flags":0,
-        "keywordFlags":0,
+        "keywordFlags":16384,
         "name":"CritChance",
         "type":"INC",
-        "value":15
-      }]," Ballista  "],
+        "value":15,
+        "1":{
+          "type":"Condition",
+          "var":"BallistaSkill"
+        }
+      }]],
   "15% increased Ballista damage":[[{
         "flags":0,
-        "keywordFlags":0,
+        "keywordFlags":16384,
         "name":"Damage",
         "type":"INC",
-        "value":15
-      }]," Ballista  "],
+        "value":15,
+        "1":{
+          "type":"Condition",
+          "var":"BallistaSkill"
+        }
+      }]],
   "15% increased Block chance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -12382,15 +12289,27 @@
           "type":"SkillType"
         }
       }]],
-  "15% increased Cost Efficiency":[[]," Cost Efficiency "],
-  "15% increased Cost Efficiency of Attacks":[[]," Cost Efficiency of Attacks "],
+  "15% increased Cost Efficiency":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CostEfficiency",
+        "type":"INC",
+        "value":15
+      }]],
+  "15% increased Cost Efficiency of Attacks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CostEfficiency",
+        "type":"INC",
+        "value":15
+      }],"  of Attacks "],
   "15% increased Cost Efficiency of Attacks 18% of Skill Mana Costs Converted to Life Costs":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ManaCost",
+        "name":"CostEfficiency",
         "type":"INC",
         "value":15
-      }]," Cost Efficiency of Attacks 18% of Skill s Converted to Life Costs "],
+      }],"  of Attacks 18% of Skill Mana Costs Converted to Life Costs "],
   "15% increased Critical Damage Bonus":[[{
         "flags":0,
         "keywordFlags":0,
@@ -12677,7 +12596,13 @@
         "type":"INC",
         "value":15
       }]],
-  "15% increased Flammability Magnitude":[[],"Magnitude "],
+  "15% increased Flammability Magnitude":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyIgniteChance",
+        "type":"INC",
+        "value":15
+      }]],
   "15% increased Flask Charges gained":[[{
         "flags":0,
         "keywordFlags":0,
@@ -12887,10 +12812,10 @@
   "15% increased Mana Cost Efficiency":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ManaCost",
+        "name":"ManaCostEfficiency",
         "type":"INC",
         "value":15
-      }],"  Efficiency "],
+      }]],
   "15% increased Mana Cost of Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -13374,7 +13299,17 @@
         "type":"INC",
         "value":-15
       }]],
-  "15% reduced Grenade Detonation Time":[[],"  Detonation Time "],
+  "15% reduced Grenade Detonation Time":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DetonationTime",
+        "type":"INC",
+        "value":-15,
+        "1":{
+          "skillType":158,
+          "type":"SkillType"
+        }
+      }]],
   "15% reduced Magnitude of Ignite on you":[[{
         "flags":0,
         "keywordFlags":0,
@@ -13699,21 +13634,10 @@
   "16% increased Mana Cost Efficiency":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ManaCost",
+        "name":"ManaCostEfficiency",
         "type":"INC",
         "value":16
-      }],"  Efficiency "],
-  "16% increased Mana Cost Efficiency 30% increased Mana Regeneration Rate while moving":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ManaCost",
-        "type":"INC",
-        "value":16,
-        "1":{
-          "type":"Condition",
-          "var":"Moving"
-        }
-      }],"  Efficiency 30% increased Mana Regeneration Rate  "],
+      }]],
   "16% increased Mana Regeneration Rate while not on Low Mana":[[{
         "flags":0,
         "keywordFlags":0,
@@ -14248,11 +14172,11 @@
       }]," for  of Enemies Hitting you to be Unlucky 20% chance for Damage  to be Lucky "],
   "20% chance for Damage with Hits to be Lucky":[[{
         "flags":0,
-        "keywordFlags":262144,
-        "name":"Damage",
+        "keywordFlags":0,
+        "name":"LuckyHitsChance",
         "type":"BASE",
         "value":20
-      }]," for   to be Lucky "],
+      }]],
   "20% chance for Energy Shield Recharge to start when you Kill an Enemy":[[{
         "flags":0,
         "keywordFlags":0,
@@ -14547,12 +14471,16 @@
       }]],
   "20% increased Ballista Critical Hit Chance":[[{
         "flags":0,
-        "keywordFlags":0,
+        "keywordFlags":16384,
         "name":"CritChance",
         "type":"INC",
-        "value":20
-      }]," Ballista  "],
-  "20% increased Ballista Immobilisation buildup":[[]," Ballista Immobilisation buildup "],
+        "value":20,
+        "1":{
+          "type":"Condition",
+          "var":"BallistaSkill"
+        }
+      }]],
+  "20% increased Ballista Immobilisation buildup":[[],"  Immobilisation buildup "],
   "20% increased Blind Effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -14621,11 +14549,10 @@
         "type":"INC",
         "value":20
       }]],
-  "20% increased Cost Efficiency of Skills if you've consumed a Power Charge Recently":[[]," Cost Efficiency of Skills  "],
-  "20% increased Cost Efficiency of Skills if you've consumed a Power Charge Recently Triggered Spells deal 40% increased Spell Damage":[[{
-        "flags":2,
+  "20% increased Cost Efficiency of Skills if you've consumed a Power Charge Recently":[[{
+        "flags":0,
         "keywordFlags":0,
-        "name":"Damage",
+        "name":"CostEfficiency",
         "type":"INC",
         "value":20,
         "1":{
@@ -14633,7 +14560,7 @@
           "type":"Multiplier",
           "var":"RemovablePowerCharge"
         }
-      }]," Cost Efficiency of Skills  Triggered s deal 40% increased Spell  "],
+      }]],
   "20% increased Critical Damage Bonus":[[{
         "flags":0,
         "keywordFlags":0,
@@ -14863,7 +14790,13 @@
         "type":"INC",
         "value":20
       }],"  while your Companion is in your Presence "],
-  "20% increased Deflection Rating":[[]," Deflection Rating "],
+  "20% increased Deflection Rating":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DeflectionRating",
+        "type":"INC",
+        "value":20
+      }]],
   "20% increased Duration":[[{
         "flags":0,
         "keywordFlags":0,
@@ -15054,20 +14987,13 @@
         "type":"INC",
         "value":20
       }]],
-  "20% increased Flammability Magnitude":[[],"Magnitude "],
-  "20% increased Flammability Magnitude 20% increased Freeze Buildup":[[],"Magnitude 20% increased Freeze Buildup "],
-  "20% increased Flammability Magnitude 20% increased Freeze Buildup 20% increased chance to Shock":[[{
+  "20% increased Flammability Magnitude":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"EnemyShockChance",
+        "name":"EnemyIgniteChance",
         "type":"INC",
-        "value":20,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Flammability",
-          "type":"SkillName"
-        }
-      }],"Magnitude 20% increased Freeze Buildup 20% increased  "],
+        "value":20
+      }]],
   "20% increased Flask Effect Duration":[[{
         "flags":0,
         "keywordFlags":0,
@@ -15339,10 +15265,10 @@
   "20% increased Mana Cost Efficiency":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ManaCost",
+        "name":"ManaCostEfficiency",
         "type":"INC",
         "value":20
-      }],"  Efficiency "],
+      }]],
   "20% increased Mana Flask Charges gained":[[{
         "flags":0,
         "keywordFlags":0,
@@ -16497,18 +16423,11 @@
       }],"  to Maim on Hit  25% increased  "],
   "25% chance for Lightning Damage with Hits to be Lucky":[[{
         "flags":0,
-        "keywordFlags":262144,
-        "name":"LightningDamage",
+        "keywordFlags":0,
+        "name":"LightningLuckyHitsChance",
         "type":"BASE",
         "value":25
-      }]," for   to be Lucky "],
-  "25% chance for Lightning Damage with Hits to be Lucky 16% increased Mana Cost Efficiency":[[{
-        "flags":0,
-        "keywordFlags":262144,
-        "name":"LightningDamage",
-        "type":"BASE",
-        "value":25
-      }]," for   to be Lucky 16% increased Mana Cost Efficiency "],
+      }]],
   "25% chance for Projectiles to Pierce Enemies within 3m distance of you":[[{
         "flags":0,
         "keywordFlags":0,
@@ -16593,7 +16512,18 @@
         "type":"BASE",
         "value":25
       }]],
-  "25% chance to inflict Daze with Hits against Enemies further than 6m":[[]," to inflict Daze   "],
+  "25% chance to inflict Daze with Hits against Enemies further than 6m":[[{
+        "flags":0,
+        "keywordFlags":262144,
+        "name":"DazeChance",
+        "type":"BASE",
+        "value":25,
+        "1":{
+          "threshold":60,
+          "type":"MultiplierThreshold",
+          "var":"enemyDistance"
+        }
+      }]],
   "25% chance to inflict Withered for 2 seconds on Hit":[[{
         "flags":0,
         "keywordFlags":0,
@@ -16825,18 +16755,15 @@
       }]],
   "25% increased Ballista Critical Damage Bonus":[[{
         "flags":0,
-        "keywordFlags":0,
+        "keywordFlags":16384,
         "name":"CritMultiplier",
         "type":"INC",
-        "value":25
-      }]," Ballista  "],
-  "25% increased Ballista Critical Damage Bonus 20% increased Ballista Critical Hit Chance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CritMultiplier",
-        "type":"INC",
-        "value":25
-      }]," Ballista  20% increased Ballista Critical Hit Chance "],
+        "value":25,
+        "1":{
+          "type":"Condition",
+          "var":"BallistaSkill"
+        }
+      }]],
   "25% increased Blind duration":[[{
         "flags":0,
         "keywordFlags":0,
@@ -17220,32 +17147,13 @@
         "type":"INC",
         "value":25
       }]],
-  "25% increased Flammability Magnitude":[[],"Magnitude "],
-  "25% increased Flammability Magnitude 25% increased Freeze Buildup":[[],"Magnitude 25% increased Freeze Buildup "],
-  "25% increased Flammability Magnitude 25% increased Freeze Buildup 25% increased chance to Shock":[[{
+  "25% increased Flammability Magnitude":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"EnemyShockChance",
+        "name":"EnemyIgniteChance",
         "type":"INC",
-        "value":25,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Flammability",
-          "type":"SkillName"
-        }
-      }],"Magnitude 25% increased Freeze Buildup 25% increased  "],
-  "25% increased Flammability Magnitude 25% increased Freeze Buildup 25% increased chance to Shock 25% increased Electrocute Buildup":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnemyShockChance",
-        "type":"INC",
-        "value":25,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Flammability",
-          "type":"SkillName"
-        }
-      }],"Magnitude 25% increased Freeze Buildup 25% increased  25% increased Electrocute Buildup "],
+        "value":25
+      }]],
   "25% increased Flask Charges gained":[[{
         "flags":0,
         "keywordFlags":0,
@@ -17394,14 +17302,14 @@
   "25% increased Mana Cost Efficiency while on Low Mana":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ManaCost",
+        "name":"ManaCostEfficiency",
         "type":"INC",
         "value":25,
         "1":{
           "type":"Condition",
           "var":"LowMana"
         }
-      }],"  Efficiency  "],
+      }]],
   "25% increased Mana Recovery from Flasks":[[{
         "flags":0,
         "keywordFlags":0,
@@ -17522,6 +17430,17 @@
         "type":"INC",
         "value":25
       }],"  of Companion Skills "],
+  "25% increased Reservation Efficiency of Skills which create Undead Minions":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ReservationEfficiency",
+        "type":"INC",
+        "value":25,
+        "1":{
+          "skillType":127,
+          "type":"SkillType"
+        }
+      }]],
   "25% increased Shock Duration":[[{
         "flags":0,
         "keywordFlags":0,
@@ -17937,7 +17856,17 @@
           "type":"Global"
         }
       }]],
-  "25% reduced Grenade Detonation Time":[[],"  Detonation Time "],
+  "25% reduced Grenade Detonation Time":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DetonationTime",
+        "type":"INC",
+        "value":-25,
+        "1":{
+          "skillType":158,
+          "type":"SkillType"
+        }
+      }]],
   "25% reduced Ignite Duration on you":[[{
         "flags":0,
         "keywordFlags":0,
@@ -18581,11 +18510,11 @@
       }]," to 40 Physical  "],
   "30% chance for Lightning Damage with Hits to be Lucky":[[{
         "flags":0,
-        "keywordFlags":262144,
-        "name":"LightningDamage",
+        "keywordFlags":0,
+        "name":"LightningLuckyHitsChance",
         "type":"BASE",
         "value":30
-      }]," for   to be Lucky "],
+      }]],
   "30% chance to Chain an additional time":[[]," to Chain an additional time "],
   "30% chance to Chain an additional time 172% increased Physical Damage":[[{
         "flags":0,
@@ -19224,24 +19153,13 @@
         "type":"INC",
         "value":30
       }]],
-  "30% increased Flammability Magnitude":[[],"Magnitude "],
-  "30% increased Flammability Magnitude 30% increased Damage with Hits against Burning Enemies":[[{
+  "30% increased Flammability Magnitude":[[{
         "flags":0,
-        "keywordFlags":262144,
-        "name":"Damage",
+        "keywordFlags":0,
+        "name":"EnemyIgniteChance",
         "type":"INC",
-        "value":30,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"Burning"
-        },
-        "2":{
-          "includeTransfigured":true,
-          "skillName":"Flammability",
-          "type":"SkillName"
-        }
-      }],"Magnitude 30% increased    "],
+        "value":30
+      }]],
   "30% increased Flask Charges gained":[[{
         "flags":0,
         "keywordFlags":0,
@@ -19423,13 +19341,20 @@
         "type":"INC",
         "value":30
       }]],
+  "30% increased Mana Cost Efficiency":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaCostEfficiency",
+        "type":"INC",
+        "value":30
+      }]],
   "30% increased Mana Cost Efficiency of Attacks during any Mana Flask Effect":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ManaCost",
+        "name":"ManaCostEfficiency",
         "type":"INC",
         "value":30
-      }],"  Efficiency of Attacks during any Mana Flask Effect "],
+      }],"  of Attacks during any Mana Flask Effect "],
   "30% increased Mana Recovery from Flasks":[[{
         "flags":0,
         "keywordFlags":0,
@@ -19584,18 +19509,14 @@
   "30% increased Reservation Efficiency of Skills which create Undead Minions":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"ReservationEfficiency",
-            "type":"INC",
-            "value":30
-          }
+        "name":"ReservationEfficiency",
+        "type":"INC",
+        "value":30,
+        "1":{
+          "skillType":127,
+          "type":"SkillType"
         }
-      }],"  which create Undead s "],
+      }]],
   "30% increased Shock Chance against Electrocuted Enemies":[[{
         "flags":0,
         "keywordFlags":0,
@@ -19650,7 +19571,13 @@
         "type":"INC",
         "value":30
       }]," Stun Buildup +15 to  "],
-  "30% increased Stun Buildup 10% chance to Daze on Hit":[[]," Stun Buildup 10% chance to Daze  "],
+  "30% increased Stun Buildup 10% chance to Daze on Hit":[[{
+        "flags":4,
+        "keywordFlags":0,
+        "name":"DazeChance",
+        "type":"INC",
+        "value":30
+      }]," Stun Buildup 10% chance   "],
   "30% increased Stun Buildup 12% increased Area of Effect if you have Stunned an Enemy Recently":[[{
         "flags":0,
         "keywordFlags":0,
@@ -20728,7 +20655,13 @@
           "var":"NonInstantSpellCastRecently"
         }
       }]],
-  "4% increased Deflection Rating":[[]," Deflection Rating "],
+  "4% increased Deflection Rating":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DeflectionRating",
+        "type":"INC",
+        "value":4
+      }]],
   "4% increased Energy Shield per Power Charge":[[{
         "flags":0,
         "keywordFlags":0,
@@ -20890,21 +20823,13 @@
         "type":"BASE",
         "value":40
       }]],
-  "40% chance to Daze on Hit":[[]," to Daze  "],
-  "40% chance to Daze on Hit 172% increased Physical Damage":[[{
+  "40% chance to Daze on Hit":[[{
         "flags":4,
         "keywordFlags":0,
-        "name":"PhysicalDamage",
+        "name":"DazeChance",
         "type":"BASE",
         "value":40
-      }]," to Daze  172% increased  "],
-  "40% chance to Daze on Hit Adds 53 to 86 Fire Damage":[[{
-        "flags":4,
-        "keywordFlags":0,
-        "name":"FireDamage",
-        "type":"BASE",
-        "value":40
-      }]," to Daze  Adds 53 to 86  "],
+      }]],
   "40% faster Curse Activation":[[{
         "flags":0,
         "keywordFlags":0,
@@ -21425,36 +21350,13 @@
           "var":"AffectedByHeraldofAsh"
         }
       }]],
-  "40% increased Flammability Magnitude":[[],"Magnitude "],
-  "40% increased Flammability Magnitude 40% increased Damage with Hits against Ignited Enemies":[[{
-        "flags":0,
-        "keywordFlags":262144,
-        "name":"Damage",
-        "type":"INC",
-        "value":40,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"Ignited"
-        },
-        "2":{
-          "includeTransfigured":true,
-          "skillName":"Flammability",
-          "type":"SkillName"
-        }
-      }],"Magnitude 40% increased    "],
-  "40% increased Flammability Magnitude Enemies Ignited by you have -5% to Fire Resistance":[[{
+  "40% increased Flammability Magnitude":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"FireResist",
+        "name":"EnemyIgniteChance",
         "type":"INC",
-        "value":40,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Flammability",
-          "type":"SkillName"
-        }
-      }],"Magnitude Enemies Ignited by you have -5% to  "],
+        "value":40
+      }]],
   "40% increased Flask Life Recovery rate":[[{
         "flags":0,
         "keywordFlags":0,
@@ -21579,10 +21481,10 @@
   "40% increased Mana Cost Efficiency":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ManaCost",
+        "name":"ManaCostEfficiency",
         "type":"INC",
         "value":40
-      }],"  Efficiency "],
+      }]],
   "40% increased Mana Recovery from Flasks":[[{
         "flags":0,
         "keywordFlags":0,
@@ -22212,32 +22114,13 @@
         "type":"BASE",
         "value":5
       }]],
-  "5% chance to Daze on Hit":[[]," to Daze  "],
-  "5% chance to Daze on Hit 20% increased Freeze Buildup with Quarterstaves":[[]," to Daze  20% increased Freeze Buildup with Quarterstaves "],
-  "5% chance to Daze on Hit Gain 12% of Physical Damage as Extra Cold Damage against Dazed Enemies":[[{
+  "5% chance to Daze on Hit":[[{
         "flags":4,
         "keywordFlags":0,
-        "name":"PhysicalDamage",
+        "name":"DazeChance",
         "type":"BASE",
-        "value":5,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"Dazed"
-        }
-      }]," to Daze  Gain 12% of  as Extra Cold Damage  "],
-  "5% chance to Daze on Hit Gain 12% of Physical Damage as Extra Lightning Damage against Dazed Enemies":[[{
-        "flags":4,
-        "keywordFlags":0,
-        "name":"PhysicalDamage",
-        "type":"BASE",
-        "value":5,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"Dazed"
-        }
-      }]," to Daze  Gain 12% of  as Extra Lightning Damage  "],
+        "value":5
+      }]],
   "5% chance to Gain Arcane Surge when you deal a Critical Hit":[[{
         "flags":0,
         "keywordFlags":0,
@@ -22397,7 +22280,13 @@
           "var":"LowLife"
         }
       }]],
-  "5% increased Deflection Rating":[[]," Deflection Rating "],
+  "5% increased Deflection Rating":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DeflectionRating",
+        "type":"INC",
+        "value":5
+      }]],
   "5% increased Dexterity":[[{
         "flags":0,
         "keywordFlags":0,
@@ -22472,22 +22361,13 @@
         "keywordFlags":0,
         "name":"Life",
         "type":"INC",
-        "value":5
-      }],"  if you have at least 10 Red Support Gems Socketed "],
-  "5% increased Maximum Life if you have at least 10 Red Support Gems Socketed 5% increased Maximum Mana if you have at least 10 Blue Support Gems Socketed":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Life",
-        "type":"INC",
-        "value":5
-      }],"  if you have at least 10 Red Support Gems Socketed 5% increased Maximum Mana if you have at least 10 Blue Support Gems Socketed "],
-  "5% increased Maximum Life if you have at least 10 Red Support Gems Socketed 5% increased Maximum Mana if you have at least 10 Blue Support Gems Socketed 5% increased Movement Speed if you have at least 10 Green Support Gems Socketed":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Life",
-        "type":"INC",
-        "value":5
-      }],"  if you have at least 10 Red Support Gems Socketed 5% increased Maximum Mana if you have at least 10 Blue Support Gems Socketed 5% increased Movement Speed if you have at least 10 Green Support Gems Socketed "],
+        "value":5,
+        "1":{
+          "threshold":10,
+          "type":"MultiplierThreshold",
+          "var":"RedSupportGems"
+        }
+      }]],
   "5% increased Maximum Life per Socket filled":[[{
         "flags":0,
         "keywordFlags":0,
@@ -22504,15 +22384,13 @@
         "keywordFlags":0,
         "name":"Mana",
         "type":"INC",
-        "value":5
-      }],"  if you have at least 10 Blue Support Gems Socketed "],
-  "5% increased Maximum Mana if you have at least 10 Blue Support Gems Socketed 5% increased Movement Speed if you have at least 10 Green Support Gems Socketed":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Mana",
-        "type":"INC",
-        "value":5
-      }],"  if you have at least 10 Blue Support Gems Socketed 5% increased Movement Speed if you have at least 10 Green Support Gems Socketed "],
+        "value":5,
+        "1":{
+          "threshold":10,
+          "type":"MultiplierThreshold",
+          "var":"BlueSupportGems"
+        }
+      }]],
   "5% increased Maximum Mana per Socket filled":[[{
         "flags":0,
         "keywordFlags":0,
@@ -22536,8 +22414,13 @@
         "keywordFlags":0,
         "name":"MovementSpeed",
         "type":"INC",
-        "value":5
-      }],"  if you have at least 10 Green Support Gems Socketed "],
+        "value":5,
+        "1":{
+          "threshold":10,
+          "type":"MultiplierThreshold",
+          "var":"GreenSupportGems"
+        }
+      }]],
   "5% increased Movement Speed if you've Pinned an Enemy Recently":[[{
         "flags":0,
         "keywordFlags":0,
@@ -22897,7 +22780,7 @@
         "type":"INC",
         "value":50
       }]],
-  "50% increased Ballista Immobilisation buildup":[[]," Ballista Immobilisation buildup "],
+  "50% increased Ballista Immobilisation buildup":[[],"  Immobilisation buildup "],
   "50% increased Blind Effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -23218,31 +23101,13 @@
           "var":"Ignited"
         }
       }]],
-  "50% increased Flammability Magnitude":[[],"Magnitude "],
-  "50% increased Flammability Magnitude 20% increased Ignite Magnitude":[[{
-        "flags":0,
-        "keywordFlags":8388608,
-        "name":"AilmentMagnitude",
-        "type":"INC",
-        "value":50,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Flammability",
-          "type":"SkillName"
-        }
-      }],"Magnitude 20% increased  "],
-  "50% increased Flammability Magnitude Projectiles Pierce all Ignited enemies":[[{
+  "50% increased Flammability Magnitude":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ProjectileCount",
+        "name":"EnemyIgniteChance",
         "type":"INC",
-        "value":50,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Flammability",
-          "type":"SkillName"
-        }
-      }],"Magnitude  Pierce all Ignited enemies "],
+        "value":50
+      }]],
   "50% increased Flask Charges used":[[{
         "flags":0,
         "keywordFlags":0,
@@ -23279,18 +23144,17 @@
         "type":"INC",
         "value":50
       }]," Freeze Buildup 30% increased  "],
-  "50% increased Grenade Detonation Time":[[],"  Detonation Time "],
-  "50% increased Grenade Detonation Time Grenade Skills Fire an additional Projectile":[[{
+  "50% increased Grenade Detonation Time":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ProjectileCount",
+        "name":"DetonationTime",
         "type":"INC",
         "value":50,
         "1":{
           "skillType":158,
           "type":"SkillType"
         }
-      }],"  Detonation Time Grenade Skills Fire an additional  "],
+      }]],
   "50% increased Hazard Area of Effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -24628,17 +24492,17 @@
   "60% increased Mana Cost Efficiency of Marks":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ManaCost",
+        "name":"ManaCostEfficiency",
         "type":"INC",
         "value":60
-      }],"  Efficiency of Marks "],
+      }],"  of Marks "],
   "60% increased Mana Cost Efficiency of Marks 4% increased Movement Speed if you've used a Mark Recently":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ManaCost",
+        "name":"ManaCostEfficiency",
         "type":"INC",
         "value":60
-      }],"  Efficiency of Marks 4% increased Movement Speed if you've used a Mark Recently "],
+      }],"  of Marks 4% increased Movement Speed if you've used a Mark Recently "],
   "60% increased Mana Regeneration Rate while Surrounded":[[{
         "flags":0,
         "keywordFlags":0,
@@ -25470,19 +25334,13 @@
         "type":"INC",
         "value":8
       }]],
-  "8% increased Flammability Magnitude":[[],"Magnitude "],
-  "8% increased Flammability Magnitude 8% increased Ignite Magnitude":[[{
+  "8% increased Flammability Magnitude":[[{
         "flags":0,
-        "keywordFlags":8388608,
-        "name":"AilmentMagnitude",
+        "keywordFlags":0,
+        "name":"EnemyIgniteChance",
         "type":"INC",
-        "value":8,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Flammability",
-          "type":"SkillName"
-        }
-      }],"Magnitude 8% increased  "],
+        "value":8
+      }]],
   "8% increased Flask Charges gained":[[{
         "flags":0,
         "keywordFlags":0,
@@ -25544,10 +25402,10 @@
   "8% increased Mana Cost Efficiency":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ManaCost",
+        "name":"ManaCostEfficiency",
         "type":"INC",
         "value":8
-      }],"  Efficiency "],
+      }]],
   "8% increased Mana Regeneration Rate":[[{
         "flags":0,
         "keywordFlags":0,
@@ -27844,7 +27702,63 @@
   "All Damage from Hits with this Weapon Contributes to Pin Buildup":[null,"All Damage from Hits with this Weapon Contributes to Pin Buildup "],
   "All Damage from Hits with this Weapon Contributes to Pin Buildup 30% increased Projectile Speed with this Weapon":[null,"All Damage from Hits with this Weapon Contributes to Pin Buildup 30% increased Projectile Speed with this Weapon "],
   "All Damage from you and Allies in your Presence":[null,"All Damage from you and "],
-  "All Damage from you and Allies in your Presence contributes to Flammability and Ignite Magnitudes":[null,"All Damage from you and contributes to Flammability and Ignite Magnitudes "],
+  "All Damage from you and Allies in your Presence contributes to Flammability and Ignite Magnitudes":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ColdCanIgnite",
+            "type":"FLAG",
+            "value":true
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"LightningCanIgnite",
+            "type":"FLAG",
+            "value":true
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ChaosCanIgnite",
+            "type":"FLAG",
+            "value":true
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"PhysicalCanIgnite",
+            "type":"FLAG",
+            "value":true
+          }
+        }
+      }]],
   "All Damage is taken from Mana before Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -34209,9 +34123,28 @@
           "type":"SkillType"
         }
       }]],
-  "Attacks used by Ballistas have 10% increased Attack Speed":[null,"Attacks used by Ballistas have 10% increased Attack Speed "],
-  "Attacks used by Ballistas have 10% increased Attack Speed 50% increased Ballista Immobilisation buildup":[null,"Attacks used by Ballistas have 10% increased Attack Speed 50% increased Ballista Immobilisation buildup "],
-  "Attacks used by Ballistas have 4% increased Attack Speed":[null,"Attacks used by Ballistas have 4% increased Attack Speed "],
+  "Attacks used by Ballistas have 10% increased Attack Speed":[[{
+        "flags":1,
+        "keywordFlags":16384,
+        "name":"Speed",
+        "type":"INC",
+        "value":10,
+        "1":{
+          "type":"Condition",
+          "var":"BallistaSkill"
+        }
+      }]],
+  "Attacks used by Ballistas have 4% increased Attack Speed":[[{
+        "flags":1,
+        "keywordFlags":16384,
+        "name":"Speed",
+        "type":"INC",
+        "value":4,
+        "1":{
+          "type":"Condition",
+          "var":"BallistaSkill"
+        }
+      }]],
   "Attacks used by Totems have 3% increased Attack Speed per Summoned Totem":[[{
         "flags":1,
         "keywordFlags":16384,
@@ -34661,8 +34594,17 @@
         "type":"LIST",
         "value":"Blood Magic"
       }]],
-  "Blue: Skills have 30% less cost":[null,"Blue: Skills have 30% less cost "],
-  "Blue: Skills have 30% less cost Green: 40% less Movement Speed Penalty from using Skills while Moving":[null,"Blue: Skills have 30% less cost Green: 40% less Movement Speed Penalty from using Skills while Moving "],
+  "Blue: Skills have 30% less cost":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaCost",
+        "type":"MORE",
+        "value":-30,
+        "1":{
+          "type":"Condition",
+          "var":"MostNumerousBlueSocketedSupports"
+        }
+      }]],
   "Body Armour grants +100% of Armour also applies to Chaos Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -35252,11 +35194,27 @@
         "value":true
       }]],
   "Chance is doubled against Undead and Demons":[[],"Chance  against Undead and Demons "],
-  "Chance to Block Damage is Lucky":[null,"Chance to Block Damage is Lucky "],
-  "Chance to Block Damage is Lucky You take 20% of damage from Blocked Hits":[null,"Chance to Block Damage is Lucky You take 20% of damage from Blocked Hits "],
-  "Chance to Deflect is Lucky":[null,"Chance to Deflect is Lucky "],
-  "Chance to Evade is Unlucky":[null,"Chance to Evade is Unlucky "],
-  "Chance to Evade is Unlucky Chance to Deflect is Lucky":[null,"Chance to Evade is Unlucky Chance to Deflect is Lucky "],
+  "Chance to Block Damage is Lucky":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"BlockChanceIsLucky",
+        "type":"FLAG",
+        "value":true
+      }]],
+  "Chance to Deflect is Lucky":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DeflectIsLucky",
+        "type":"FLAG",
+        "value":true
+      }]],
+  "Chance to Evade is Unlucky":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"UnluckyEvade",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Chance to Hit with Attacks can exceed 100%":[[{
         "flags":0,
         "keywordFlags":0,
@@ -35947,9 +35905,9 @@
   "Damage with Hits is Lucky against Enemies that are on Low Life":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"LuckyHits",
-        "type":"FLAG",
-        "value":true,
+        "name":"LuckyHitsChance",
+        "type":"BASE",
+        "value":100,
         "1":{
           "actor":"enemy",
           "type":"ActorCondition",
@@ -35959,9 +35917,9 @@
   "Damage with Hits is Lucky against Heavy Stunned Enemies":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"LuckyHits",
-        "type":"FLAG",
-        "value":true,
+        "name":"LuckyHitsChance",
+        "type":"BASE",
+        "value":100,
         "1":{
           "actor":"enemy",
           "type":"ActorCondition",
@@ -36030,8 +35988,17 @@
   "Damaging Spells consume a Power Charge if able to trigger Abyssal Apparition":[null,"Damaging Spells consume a Power Charge if able to trigger Abyssal Apparition "],
   "Darkness Reservation lasts for 5 seconds":[null,"Darkness Reservation lasts for 5 seconds "],
   "Darkness Reservation lasts for 5 seconds +8 to Maximum Darkness per Level":[null,"Darkness Reservation lasts for 5 seconds +8 to Maximum Darkness per Level "],
-  "Dazes on Hit":[null,"Dazes on Hit "],
-  "Dazes on Hit 50% increased Melee Damage against Heavy Stunned enemies":[null,"Dazes on Hit 50% increased Melee Damage against Heavy Stunned enemies "],
+  "Dazes on Hit":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DazeChance",
+        "type":"BASE",
+        "value":100,
+        "1":{
+          "type":"Condition",
+          "var":"{Hand}Attack"
+        }
+      }]],
   "Deal 30% of Overkill damage to enemies within 2 metres of the enemy killed":[[{
         "flags":0,
         "keywordFlags":0,
@@ -36165,7 +36132,13 @@
   "Deflected Hits cannot inflict Bleeding on you":[null,"Deflected Hits cannot inflict Bleeding on you "],
   "Deflected Hits cannot inflict Maim on you":[null,"Deflected Hits cannot inflict Maim on you "],
   "Deflected Hits cannot inflict Maim on you Deflected Hits cannot inflict Bleeding on you":[null,"Deflected Hits cannot inflict Maim on you Deflected Hits cannot inflict Bleeding on you "],
-  "Demonflame has no maximum":[null,"Demonflame has no maximum "],
+  "Demonflame has no maximum":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:DemonFlameMaximum",
+        "type":"BASE",
+        "value":999
+      }]],
   "Detonator skills have 40% increased Area of Effect":[null,"Detonator skills have 40% increased Area of Effect "],
   "Detonator skills have 40% increased Area of Effect Detonator skills have 80% reduced damage":[null,"Detonator skills have 40% increased Area of Effect Detonator skills have 80% reduced damage "],
   "Detonator skills have 8% increased Area of Effect":[null,"Detonator skills have 8% increased Area of Effect "],
@@ -37314,10 +37287,7 @@
         "type":"BASE",
         "value":0.17
       }]],
-  "For each colour of Socketed Support Gem that is most numerous, gain:":[null,"For each colour of Socketed Support Gem that is most numerous, gain: "],
-  "For each colour of Socketed Support Gem that is most numerous, gain: Red: Hits against you have no Critical Damage Bonus":[null,"For each colour of Socketed Support Gem that is most numerous, gain: Red: Hits  have no Critical Damage Bonus "],
-  "For each colour of Socketed Support Gem that is most numerous, gain: Red: Hits against you have no Critical Damage Bonus Blue: Skills have 30% less cost":[null,"For each colour of Socketed Support Gem that is most numerous, gain: Red: Hits  have no Critical Damage Bonus Blue: Skills have 30% less cost "],
-  "For each colour of Socketed Support Gem that is most numerous, gain: Red: Hits against you have no Critical Damage Bonus Blue: Skills have 30% less cost Green: 40% less Movement Speed Penalty from using Skills while Moving":[null,"For each colour of Socketed Support Gem that is most numerous, gain: Red: Hits  have no Critical Damage Bonus Blue: Skills have 30% less cost Green: 40% less Movement Speed Penalty from using Skills while Moving "],
+  "For each colour of Socketed Support Gem that is most numerous, gain:":[[]],
   "Frenzy or Power Charge":[null,"Frenzy or Power Charge "],
   "Fully Armour Broken enemies you kill with Hits Shatter":[null,"Fully Armour Broken enemies you kill with Hits Shatter "],
   "Fully Broken Armour effects also apply to Fire Damage Taken from Hits":[null,"Fully Broken Armour effects also apply to Fire Damage Taken from Hits "],
@@ -38289,21 +38259,76 @@
         }
       }]," when a  Dies 30% increased  "],
   "Gain Cold Thorns Damage equal to 18% of your maximum Mana":[null,"Cold Thorns Damage equal to 18% of your maximum Mana "],
-  "Gain Deflection Rating equal to 10% of Evasion Rating":[null,"Deflection Rating equal to 10% of Evasion Rating "],
-  "Gain Deflection Rating equal to 10% of Evasion Rating 40% increased Evasion Rating while moving":[null,"Deflection Rating equal to 10% of Evasion Rating 40% increased Evasion Rating  "],
-  "Gain Deflection Rating equal to 10% of Evasion Rating 40% increased Evasion Rating while moving +10 to Dexterity":[null,"Deflection Rating equal to 10% of Evasion Rating 40% increased Evasion Rating  +10 to Dexterity "],
-  "Gain Deflection Rating equal to 16% of Evasion Rating":[null,"Deflection Rating equal to 16% of Evasion Rating "],
-  "Gain Deflection Rating equal to 16% of Evasion Rating +20 to Spirit while you have at least 200 Dexterity":[null,"Deflection Rating equal to 16% of Evasion Rating +20 to Spirit  "],
-  "Gain Deflection Rating equal to 20% of Armour":[null,"Deflection Rating equal to 20% of Armour "],
-  "Gain Deflection Rating equal to 20% of Armour +300 to Stun Threshold":[null,"Deflection Rating equal to 20% of Armour +300 to Stun Threshold "],
-  "Gain Deflection Rating equal to 20% of Armour Gain 100% of Evasion Rating as extra Ailment Threshold":[null,"Deflection Rating equal to 20% of Armour Gain 100% of Evasion Rating as extra Ailment Threshold "],
-  "Gain Deflection Rating equal to 3% of Evasion Rating":[null,"Deflection Rating equal to 3% of Evasion Rating "],
-  "Gain Deflection Rating equal to 30% of Evasion Rating":[null,"Deflection Rating equal to 30% of Evasion Rating "],
-  "Gain Deflection Rating equal to 5% of Evasion Rating":[null,"Deflection Rating equal to 5% of Evasion Rating "],
-  "Gain Deflection Rating equal to 5% of Evasion Rating 8% increased Dexterity":[null,"Deflection Rating equal to 5% of Evasion Rating 8% increased Dexterity "],
-  "Gain Deflection Rating equal to 6% of Evasion Rating":[null,"Deflection Rating equal to 6% of Evasion Rating "],
-  "Gain Deflection Rating equal to 60% of Evasion Rating":[null,"Deflection Rating equal to 60% of Evasion Rating "],
-  "Gain Deflection Rating equal to 60% of Evasion Rating 20 Life Regeneration per second":[null,"Deflection Rating equal to 60% of Evasion Rating 20 Life Regeneration per second "],
+  "Gain Deflection Rating equal to 10% of Evasion Rating":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EvasionGainAsDeflection",
+        "type":"BASE",
+        "value":10
+      }]],
+  "Gain Deflection Rating equal to 16% of Evasion Rating":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EvasionGainAsDeflection",
+        "type":"BASE",
+        "value":16
+      }]],
+  "Gain Deflection Rating equal to 20% of Armour":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArmourGainAsDeflection",
+        "type":"BASE",
+        "value":20
+      }]],
+  "Gain Deflection Rating equal to 25% of Evasion Rating":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EvasionGainAsDeflection",
+        "type":"BASE",
+        "value":25
+      }]],
+  "Gain Deflection Rating equal to 3% of Evasion Rating":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EvasionGainAsDeflection",
+        "type":"BASE",
+        "value":3
+      }]],
+  "Gain Deflection Rating equal to 30% of Evasion Rating":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EvasionGainAsDeflection",
+        "type":"BASE",
+        "value":30
+      }]],
+  "Gain Deflection Rating equal to 5% of Evasion Rating":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EvasionGainAsDeflection",
+        "type":"BASE",
+        "value":5
+      }]],
+  "Gain Deflection Rating equal to 50% of Evasion Rating":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EvasionGainAsDeflection",
+        "type":"BASE",
+        "value":50
+      }]],
+  "Gain Deflection Rating equal to 6% of Evasion Rating":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EvasionGainAsDeflection",
+        "type":"BASE",
+        "value":6
+      }]],
+  "Gain Deflection Rating equal to 60% of Evasion Rating":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EvasionGainAsDeflection",
+        "type":"BASE",
+        "value":60
+      }]],
   "Gain Endurance Charges instead of Power Charges":[null,"Endurance Charges instead of Power Charges "],
   "Gain Frenzy Charges instead of Endurance Charges":[null,"Frenzy Charges instead of Endurance Charges "],
   "Gain Frenzy Charges instead of Endurance Charges Gain Endurance Charges instead of Power Charges":[null,"Frenzy Charges instead of Endurance Charges Gain Endurance Charges instead of Power Charges "],
@@ -39858,10 +39883,10 @@
         }
       }]],
   "Grenades have 15% chance to activate a second time":[[{
-        "flags":1024,
+        "flags":0,
         "keywordFlags":0,
-        "name":"DPS",
-        "type":"MORE",
+        "name":"GrenadeActivateTwice",
+        "type":"BASE",
         "value":15,
         "1":{
           "skillType":158,
@@ -40190,9 +40215,17 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Immune to Chill if a majority of your Socketed Support Gems are Blue":[null,"Immune to Chill if a majority of your Socketed Support Gems are Blue "],
-  "Immune to Chill if a majority of your Socketed Support Gems are Blue Immune to Ignite if a majority of your Socketed Support Gems are Red":[null,"Immune to Chill if a majority of your Socketed Support Gems are Blue Immune to Ignite if a majority of your Socketed Support Gems are Red "],
-  "Immune to Chill if a majority of your Socketed Support Gems are Blue Immune to Ignite if a majority of your Socketed Support Gems are Red Immune to Shock if a majority of your Socketed Support Gems are Green":[null,"Immune to Chill if a majority of your Socketed Support Gems are Blue Immune to Ignite if a majority of your Socketed Support Gems are Red Immune to Shock if a majority of your Socketed Support Gems are Green "],
+  "Immune to Chill if a majority of your Socketed Support Gems are Blue":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChillImmune",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"MajorityBlueSocketedSupports"
+        }
+      }]],
   "Immune to Corrupted Blood":[null,"Immune to Corrupted Blood "],
   "Immune to Corrupted Blood 40% reduced Duration of Bleeding on You":[null,"Immune to Corrupted Blood 40% reduced Duration of Bleeding on You "],
   "Immune to Elemental Ailments while on Consecrated Ground if you have at least 150 Devotion":[[{
@@ -40228,8 +40261,17 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Immune to Ignite if a majority of your Socketed Support Gems are Red":[null,"Immune to Ignite if a majority of your Socketed Support Gems are Red "],
-  "Immune to Ignite if a majority of your Socketed Support Gems are Red Immune to Shock if a majority of your Socketed Support Gems are Green":[null,"Immune to Ignite if a majority of your Socketed Support Gems are Red Immune to Shock if a majority of your Socketed Support Gems are Green "],
+  "Immune to Ignite if a majority of your Socketed Support Gems are Red":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"IgniteImmune",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"MajorityRedSocketedSupports"
+        }
+      }]],
   "Immune to Ignite while affected by Flame Archon":[null,"Immune to Ignite while affected by Flame Archon "],
   "Immune to Maim":[null,"Immune to Maim "],
   "Immune to Poison":[[{
@@ -40257,7 +40299,17 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Immune to Shock if a majority of your Socketed Support Gems are Green":[null,"Immune to Shock if a majority of your Socketed Support Gems are Green "],
+  "Immune to Shock if a majority of your Socketed Support Gems are Green":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ShockImmune",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"MajorityGreenSocketedSupports"
+        }
+      }]],
   "Immune to Shock while affected by Lightning Archon":[null,"Immune to Shock while affected by Lightning Archon "],
   "Increases and Reductions to Armour also apply to Energy Shield":[null,"Increases and Reductions to Armour also apply to Energy Shield "],
   "Increases and Reductions to Armour also apply to Energy Shield Recharge Rate at 40% of their value":[[{
@@ -43296,8 +43348,20 @@
         "value":1
       }]],
   "Prevent +15% of Damage from Deflected Critical Hits":[null,"Prevent +15% of Damage from Deflected Critical Hits "],
-  "Prevent +3% of Damage from Deflected Hits":[null,"Prevent +3% of Damage from Deflected Hits "],
-  "Prevent +6% of Damage from Deflected Hits":[null,"Prevent +6% of Damage from Deflected Hits "],
+  "Prevent +3% of Damage from Deflected Hits":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DeflectEffect",
+        "type":"BASE",
+        "value":3
+      }]],
+  "Prevent +6% of Damage from Deflected Hits":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DeflectEffect",
+        "type":"BASE",
+        "value":6
+      }]],
   "Projectile Attacks have a 12% chance to fire two additional Projectiles while moving":[null,"Projectile Attacks have a 12% chance to fire two additional Projectiles while moving "],
   "Projectile Damage builds Pin":[null,"Projectile Damage builds Pin "],
   "Projectile Damage builds Pin Pinned enemies cannot perform actions":[null,"Projectile Damage builds Pin Pinned enemies cannot perform actions "],
@@ -43659,9 +43723,17 @@
   "Recover Mana equal to 20% of Life Flask's Recovery Amount when used":[null,"Recover Mana equal to 20% of Life Flask's Recovery Amount when used "],
   "Recover all Mana when Used":[null,"Recover all Mana when Used "],
   "Recover all Mana when Used Deals 25% of current Mana as Chaos Damage to you when Effect ends":[null,"Recover all Mana when Used Deals 25% of current Mana as Chaos Damage to you when Effect ends "],
-  "Red: Hits against you have no Critical Damage Bonus":[null,"Red: Hits  have no Critical Damage Bonus "],
-  "Red: Hits against you have no Critical Damage Bonus Blue: Skills have 30% less cost":[null,"Red: Hits  have no Critical Damage Bonus Blue: Skills have 30% less cost "],
-  "Red: Hits against you have no Critical Damage Bonus Blue: Skills have 30% less cost Green: 40% less Movement Speed Penalty from using Skills while Moving":[null,"Red: Hits  have no Critical Damage Bonus Blue: Skills have 30% less cost Green: 40% less Movement Speed Penalty from using Skills while Moving "],
+  "Red: Hits against you have no Critical Damage Bonus":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ReduceCritExtraDamage",
+        "type":"BASE",
+        "value":100,
+        "1":{
+          "type":"Condition",
+          "var":"MostNumerousRedSocketedSupports"
+        }
+      }]],
   "Reflects opposite Ring":[[]],
   "Regenerate (0.7-1.2)% of Life per second":[null,"Regenerate (0.7-1.2)% of Life per second "],
   "Regenerate 0.05 Life per second per Maximum Energy Shield":[[{
@@ -45152,7 +45224,21 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Your Minions are Gigantic":[null,"Your Minions are Gigantic "],
+  "Your Minions are Gigantic":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Gigantic",
+            "type":"FLAG",
+            "value":true
+          }
+        }
+      }]],
   "Your Offerings affect you instead of your Minions":[null,"Your Offerings affect you instead of your Minions "],
   "Your Offerings affect you instead of your Minions Offerings created by Culling Enemies have 1% increased Effect per Power of Culled Enemy":[null,"Your Offerings affect you instead of your Minions Offerings created by Culling Enemies have 1% increased Effect per Power of Culled Enemy "],
   "Your Offerings can target Enemies in Culling range":[null,"Your Offerings can target Enemies in Culling range "],
@@ -45175,11 +45261,9 @@
   "additional Elemental Infusion of the same type":[null,"additional Elemental Infusion of the same type "],
   "apply to Energy Shield Recharge Rate":[null,"apply to Energy Shield Recharge Rate "],
   "apply to Energy Shield Recharge Rate Gain 50% of Maximum Mana as Armour":[null,"apply to Energy Shield Recharge Rate Gain 50% of Maximum Mana as Armour "],
-  "contributes to Flammability and Ignite Magnitudes":[null,"contributes to Flammability and Ignite Magnitudes "],
   "every different Grenade fired in the past 8 seconds":[null,"every different Grenade fired in the past 8 seconds "],
   "for 4 seconds, every 0.25 seconds while raised":[null,"for 4 seconds, every 0.25 seconds while raised "],
   "gain 6 Cold Surges or 6 Fire Surges":[[]," Cold Surges or 6 Fire Surges "],
-  "least 5 Red, Green and Blue Support Gems Socketed":[null,"least 5 Red, Green and Blue Support Gems Socketed "],
   "the enemy's Power for 6 seconds, up to a total of 500":[null,"the enemy's Power for 6 seconds, up to a total of 500 "],
   "the same damage to enemies within 1.8 metres":[null,"the same damage to enemies within 1.8 metres "],
   "until you take no Damage to Life for 5 seconds":[null,"until you take no Damage to Life for 5 seconds "],
