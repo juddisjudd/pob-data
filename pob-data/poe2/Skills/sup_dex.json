@@ -1222,6 +1222,72 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_ailment_effect_+%_final_while_afflicted_by_relevant_ailment":[{
+              "flags":0,
+              "keywordFlags":4194304,
+              "name":"AilmentMagnitude",
+              "type":"MORE",
+              "1":{
+                "type":"Condition",
+                "var":"Bleeding"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":8388608,
+              "name":"AilmentMagnitude",
+              "type":"MORE",
+              "1":{
+                "type":"Condition",
+                "var":"Ignited"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":2097152,
+              "name":"AilmentMagnitude",
+              "type":"MORE",
+              "1":{
+                "type":"Condition",
+                "var":"Poisoned"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"EnemyShockMagnitude",
+              "type":"MORE",
+              "1":{
+                "type":"Condition",
+                "var":"Shocked"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"EnemyChillMagnitude",
+              "type":"MORE",
+              "1":{
+                "type":"Condition",
+                "var":"Chilled"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"EnemyFreezeEffect",
+              "type":"MORE",
+              "1":{
+                "type":"Condition",
+                "var":"Frozen"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"EnemyElectrocuteEffect",
+              "type":"MORE",
+              "1":{
+                "type":"Condition",
+                "var":"Electrocuted"
+              }
+            }]
+        },
         "stats":["remove_ailment_when_applying_relevant_ailment"]
       }],
     "support":true
@@ -5125,6 +5191,17 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
+          "gain_%_of_evasion_as_deflection_rating_on_perfect_timing_for_8_seconds":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"EvasionGainAsDeflection",
+              "type":"BASE",
+              "1":{
+                "effectName":"Window of Opportunity II",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }],
           "support_window_of_opportunity_perfect_timing_damage_+%_final":[{
               "flags":0,
               "keywordFlags":0,

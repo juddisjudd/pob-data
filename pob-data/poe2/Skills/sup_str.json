@@ -933,6 +933,19 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "gain_%_of_damage_as_physical_per_10_life_cost":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"DamageGainAsPhysical",
+              "type":"BASE",
+              "1":{
+                "div":10,
+                "stat":"LifeCost",
+                "type":"PerStat"
+              }
+            }]
+        },
         "stats":[]
       }],
     "support":true
@@ -4450,6 +4463,14 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_arms_length_knockback_distance_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"EnemyKnockbackDistance",
+              "type":"MORE"
+            }]
+        },
         "stats":["global_knockback"]
       }],
     "support":true

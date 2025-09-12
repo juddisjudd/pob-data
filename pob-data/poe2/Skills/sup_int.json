@@ -1181,24 +1181,6 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
-          "minion_command_skill_cooldown_speed_+%":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"MinionModifier",
-              "type":"LIST",
-              "value":{
-                "mod":{
-                  "flags":0,
-                  "keywordFlags":0,
-                  "name":"CooldownRecovery",
-                  "type":"INC",
-                  "1":{
-                    "type":"Condition",
-                    "var":"CommandableSkill"
-                  }
-                }
-              }
-            }],
           "support_minion_damage_with_non_command_skills_+%_final":[{
               "flags":0,
               "keywordFlags":0,

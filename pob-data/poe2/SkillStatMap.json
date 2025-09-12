@@ -3805,6 +3805,12 @@
       "type":"BASE"
     }
   },
+  "hits_ignore_enemy_monster_physical_damage_reduction_%_chance":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"ChanceToIgnoreEnemyPhysicalDamageReduction",
+      "type":"BASE"
+    }],
   "holy_relic_trigger_on_parent_attack_%":[{
       "flags":0,
       "keywordFlags":0,
@@ -4432,6 +4438,24 @@
           "keywordFlags":0,
           "name":"DoubleDamageChance",
           "type":"BASE"
+        }
+      }
+    }],
+  "minion_command_skill_cooldown_speed_+%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"MinionModifier",
+      "type":"LIST",
+      "value":{
+        "mod":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"CooldownRecovery",
+          "type":"INC",
+          "1":{
+            "type":"Condition",
+            "var":"CommandableSkill"
+          }
         }
       }
     }],
@@ -5625,6 +5649,7 @@
   "quality_display_banner_buff_effect_+%_final_per_resource_is_gem":[],
   "quality_display_base_additional_arrows_is_gem":[],
   "quality_display_base_duration_is_quality":[],
+  "quality_display_base_number_of_crossbow_bolts_is_gem":[],
   "quality_display_base_number_of_projectiles_is_gem":[],
   "quality_display_base_skill_effect_duration_is_gem":[],
   "quality_display_base_totem_duration_is_gem":[],
@@ -6077,6 +6102,7 @@
         "value":true
       }
     }],
+  "skill_specific_stat_description_mode":[],
   "skill_triggered_by_snipe":[{
       "flags":0,
       "keywordFlags":0,

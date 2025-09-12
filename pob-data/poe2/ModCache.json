@@ -8679,7 +8679,13 @@
           "var":"CritRecently"
         }
       }]],
-  "10% chance to Pierce an Enemy":[[]," to Pierce an Enemy "],
+  "10% chance to Pierce an Enemy":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PierceChance",
+        "type":"BASE",
+        "value":10
+      }]],
   "10% chance to Poison on Hit":[[{
         "flags":0,
         "keywordFlags":0,
@@ -9188,8 +9194,12 @@
         "keywordFlags":0,
         "name":"Damage",
         "type":"INC",
-        "value":10
-      }],"  while your Companion is in your Presence "],
+        "value":10,
+        "1":{
+          "type":"Condition",
+          "var":"CompanionInPresence"
+        }
+      }]],
   "10% increased Damage with Bows":[[{
         "flags":131076,
         "keywordFlags":0,
@@ -9251,8 +9261,12 @@
         "keywordFlags":0,
         "name":"Defences",
         "type":"INC",
-        "value":10
-      }],"  while your Companion is in your Presence "],
+        "value":10,
+        "1":{
+          "type":"Condition",
+          "var":"CompanionInPresence"
+        }
+      }]],
   "10% increased Deflection Rating":[[{
         "flags":0,
         "keywordFlags":0,
@@ -9982,7 +9996,13 @@
           "type":"PerStat"
         }
       }]],
-  "10% increased Withered Magnitude":[[]," Withered Magnitude "],
+  "10% increased Withered Magnitude":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"WitherEffect",
+        "type":"INC",
+        "value":10
+      }]],
   "10% increased amount of Life Leeched":[[{
         "flags":0,
         "keywordFlags":0,
@@ -10040,10 +10060,10 @@
   "10% increased effect of Fully Broken Armour":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"LocalEffect",
+        "name":"FullyBrokenArmourEffect",
         "type":"INC",
         "value":10
-      }],"  of Fully Broken Armour "],
+      }]],
   "10% increased maximum Darkness":[[{
         "flags":0,
         "keywordFlags":0,
@@ -12022,14 +12042,13 @@
         "type":"BASE",
         "value":15
       }]],
-  "15% chance to Pierce an Enemy":[[]," to Pierce an Enemy "],
-  "15% chance to Pierce an Enemy 15% increased Projectile Damage":[[{
-        "flags":1024,
+  "15% chance to Pierce an Enemy":[[{
+        "flags":0,
         "keywordFlags":0,
-        "name":"Damage",
+        "name":"PierceChance",
         "type":"BASE",
         "value":15
-      }]," to Pierce an Enemy 15% increased  "],
+      }]],
   "15% chance to Poison on Hit":[[{
         "flags":0,
         "keywordFlags":0,
@@ -13088,17 +13107,10 @@
   "15% increased effect of Fully Broken Armour":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"LocalEffect",
+        "name":"FullyBrokenArmourEffect",
         "type":"INC",
         "value":15
-      }],"  of Fully Broken Armour "],
-  "15% increased effect of Fully Broken Armour Fully Broken Armour effects also apply to Fire Damage Taken from Hits":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LocalEffect",
-        "type":"INC",
-        "value":15
-      }],"  of Fully Broken Armour Fully Broken Armour effects also apply to Fire Damage Taken from Hits "],
+      }]],
   "15% increased maximum Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -14217,6 +14229,13 @@
         "value":20
       }]],
   "20% chance to Knock Enemies Back with Hits at Close Range":[[]," to Knock Enemies Back   "],
+  "20% chance to Pierce an Enemy":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PierceChance",
+        "type":"BASE",
+        "value":20
+      }]],
   "20% chance to Poison on Hit":[[{
         "flags":0,
         "keywordFlags":0,
@@ -14420,8 +14439,12 @@
         "keywordFlags":0,
         "name":"Damage",
         "type":"INC",
-        "value":20
-      }],"  if you have been Heavy Stunned Recently "],
+        "value":20,
+        "1":{
+          "type":"Condition",
+          "var":"StunnedRecently"
+        }
+      }]],
   "20% increased Attack Damage when on Low Life":[[{
         "flags":1,
         "keywordFlags":0,
@@ -14449,8 +14472,12 @@
         "keywordFlags":0,
         "name":"Damage",
         "type":"INC",
-        "value":20
-      }],"  while you have no Life Flask uses left "],
+        "value":20,
+        "1":{
+          "type":"Condition",
+          "var":"NoLifeFlaskUsesLeft"
+        }
+      }]],
   "20% increased Attack Speed":[[{
         "flags":1,
         "keywordFlags":0,
@@ -14662,7 +14689,7 @@
         }
       }]],
   "20% increased Culling Strike Threshold":[[]," Culling Strike Threshold "],
-  "20% increased Culling Strike Threshold Culling Strike against Beasts while your Companion is in your Presence":[[]," Culling Strike Threshold Culling Strike against Beasts while your Companion is in your Presence "],
+  "20% increased Culling Strike Threshold Culling Strike against Beasts while your Companion is in your Presence":[[]," Culling Strike Threshold Culling Strike against Beasts  "],
   "20% increased Curse Duration":[[{
         "flags":0,
         "keywordFlags":2,
@@ -14788,8 +14815,12 @@
         "keywordFlags":0,
         "name":"Defences",
         "type":"INC",
-        "value":20
-      }],"  while your Companion is in your Presence "],
+        "value":20,
+        "1":{
+          "type":"Condition",
+          "var":"CompanionInPresence"
+        }
+      }]],
   "20% increased Deflection Rating":[[{
         "flags":0,
         "keywordFlags":0,
@@ -15141,8 +15172,12 @@
         "keywordFlags":0,
         "name":"LifeRecoveryRate",
         "type":"INC",
-        "value":20
-      }],"  while your Companion is in your Presence "],
+        "value":20,
+        "1":{
+          "type":"Condition",
+          "var":"CompanionInPresence"
+        }
+      }]],
   "20% increased Life Recovery from Flasks":[[{
         "flags":0,
         "keywordFlags":0,
@@ -15644,7 +15679,13 @@
         "type":"INC",
         "value":20
       }]],
-  "20% increased Withered Magnitude":[[]," Withered Magnitude "],
+  "20% increased Withered Magnitude":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"WitherEffect",
+        "type":"INC",
+        "value":20
+      }]],
   "20% increased amount of Life Leeched":[[{
         "flags":0,
         "keywordFlags":0,
@@ -16474,14 +16515,13 @@
         "type":"BASE",
         "value":25
       }]," to Maim  Adds 17 to 28  "],
-  "25% chance to Pierce an Enemy":[[]," to Pierce an Enemy "],
-  "25% chance to Pierce an Enemy Bow Attacks consume 10% of your maximum Life Flask Charges if possible to deal added Physical damage equal to 5% of Flask's Life Recovery amount":[[{
+  "25% chance to Pierce an Enemy":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Life",
+        "name":"PierceChance",
         "type":"BASE",
         "value":25
-      }]," to Pierce an Enemy Bow Attacks consume 10% of your  Flask Charges if possible to deal added Physical damage equal to 5% of Flask's Life Recovery amount "],
+      }]],
   "25% chance to Poison on Hit":[[{
         "flags":0,
         "keywordFlags":0,
@@ -16645,41 +16685,12 @@
         "keywordFlags":0,
         "name":"Damage",
         "type":"INC",
-        "value":25
-      }],"  if you have been Heavy Stunned Recently "],
-  "25% increased Attack Damage if you have been Heavy Stunned Recently 25% increased Attack Damage while you have no Life Flask uses left":[[{
-        "flags":1,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
-        "value":25
-      }],"  if you have been Heavy Stunned Recently 25% increased Attack Damage while you have no Life Flask uses left "],
-  "25% increased Attack Damage if you have been Heavy Stunned Recently 25% increased Attack Damage while you have no Life Flask uses left 25% increased Attack Damage while Surrounded":[[{
-        "flags":1,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
         "value":25,
         "1":{
           "type":"Condition",
-          "var":"Surrounded"
+          "var":"StunnedRecently"
         }
-      }],"  if you have been Heavy Stunned Recently 25% increased Attack Damage while you have no Life Flask uses left 25% increased Attack Damage  "],
-  "25% increased Attack Damage if you have been Heavy Stunned Recently 25% increased Attack Damage while you have no Life Flask uses left 25% increased Attack Damage while Surrounded 25% increased Attack Damage when on Low Life":[[{
-        "flags":1,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
-        "value":25,
-        "1":{
-          "type":"Condition",
-          "var":"Surrounded"
-        },
-        "2":{
-          "type":"Condition",
-          "var":"LowLife"
-        }
-      }],"  if you have been Heavy Stunned Recently 25% increased Attack Damage while you have no Life Flask uses left 25% increased Attack Damage  25% increased Attack Damage  "],
+      }]],
   "25% increased Attack Damage when on Low Life":[[{
         "flags":1,
         "keywordFlags":0,
@@ -16707,34 +16718,12 @@
         "keywordFlags":0,
         "name":"Damage",
         "type":"INC",
-        "value":25
-      }],"  while you have no Life Flask uses left "],
-  "25% increased Attack Damage while you have no Life Flask uses left 25% increased Attack Damage while Surrounded":[[{
-        "flags":1,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
         "value":25,
         "1":{
           "type":"Condition",
-          "var":"Surrounded"
+          "var":"NoLifeFlaskUsesLeft"
         }
-      }],"  while you have no Life Flask uses left 25% increased Attack Damage  "],
-  "25% increased Attack Damage while you have no Life Flask uses left 25% increased Attack Damage while Surrounded 25% increased Attack Damage when on Low Life":[[{
-        "flags":1,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
-        "value":25,
-        "1":{
-          "type":"Condition",
-          "var":"Surrounded"
-        },
-        "2":{
-          "type":"Condition",
-          "var":"LowLife"
-        }
-      }],"  while you have no Life Flask uses left 25% increased Attack Damage  25% increased Attack Damage  "],
+      }]],
   "25% increased Attack Speed":[[{
         "flags":1,
         "keywordFlags":0,
@@ -16976,15 +16965,12 @@
         "keywordFlags":0,
         "name":"Damage",
         "type":"INC",
-        "value":25
-      }],"  while your Companion is in your Presence "],
-  "25% increased Damage while your Companion is in your Presence 25% increased Exposure Effect":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
-        "value":25
-      }],"  while your Companion is in your Presence 25% increased Exposure Effect "],
+        "value":25,
+        "1":{
+          "type":"Condition",
+          "var":"CompanionInPresence"
+        }
+      }]],
   "25% increased Damage with Crossbows for each type of Ammunition fired in the past 10 seconds":[[{
         "flags":67108868,
         "keywordFlags":0,
@@ -17428,8 +17414,12 @@
         "keywordFlags":0,
         "name":"ReservationEfficiency",
         "type":"INC",
-        "value":25
-      }],"  of Companion Skills "],
+        "value":25,
+        "1":{
+          "skillType":219,
+          "type":"SkillType"
+        }
+      }]],
   "25% increased Reservation Efficiency of Skills which create Undead Minions":[[{
         "flags":0,
         "keywordFlags":0,
@@ -18125,15 +18115,12 @@
         "keywordFlags":0,
         "name":"Speed",
         "type":"INC",
-        "value":3
-      }],"  while your Companion is in your Presence "],
-  "3% increased Attack Speed while your Companion is in your Presence Companions have 4% increased Attack Speed":[[{
-        "flags":1,
-        "keywordFlags":0,
-        "name":"Speed",
-        "type":"INC",
-        "value":3
-      }],"  while your Companion is in your Presence Companions have 4% increased Attack Speed "],
+        "value":3,
+        "1":{
+          "type":"Condition",
+          "var":"CompanionInPresence"
+        }
+      }]],
   "3% increased Attack Speed with Axes":[[{
         "flags":65541,
         "keywordFlags":0,
@@ -18530,14 +18517,13 @@
         "type":"BASE",
         "value":30
       }]," to Chain an additional time Adds 53 to 86  "],
-  "30% chance to Pierce an Enemy":[[]," to Pierce an Enemy "],
-  "30% chance to Pierce an Enemy Projectiles have 10% chance to Chain an additional time from terrain":[[{
+  "30% chance to Pierce an Enemy":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ProjectileCount",
+        "name":"PierceChance",
         "type":"BASE",
         "value":30
-      }]," to Pierce an Enemy  have 10% chance to Chain an additional time from terrain "],
+      }]],
   "30% chance to Poison on Hit":[[{
         "flags":0,
         "keywordFlags":0,
@@ -19828,10 +19814,10 @@
   "30% increased effect of Fully Broken Armour":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"LocalEffect",
+        "name":"FullyBrokenArmourEffect",
         "type":"INC",
         "value":30
-      }],"  of Fully Broken Armour "],
+      }]],
   "30% increased maximum Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -20854,7 +20840,17 @@
           "type":"Condition",
           "var":"Surrounded"
         }
-      }]," Ailment and   "],
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AilmentThreshold",
+        "type":"INC",
+        "value":40,
+        "1":{
+          "type":"Condition",
+          "var":"Surrounded"
+        }
+      }]],
   "40% increased Area of Effect of Curses":[[{
         "flags":0,
         "keywordFlags":2,
@@ -22510,8 +22506,12 @@
         "keywordFlags":0,
         "name":"Damage",
         "type":"BASE",
-        "value":5
-      }],"  from Hits is taken from your Damageable Companion's Life before you 20% increased Defences while your Companion is in your Presence "],
+        "value":5,
+        "1":{
+          "type":"Condition",
+          "var":"CompanionInPresence"
+        }
+      }],"  from Hits is taken from your Damageable Companion's Life before you 20% increased Defences  "],
   "5% of Damage taken Recouped as Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -22649,14 +22649,13 @@
       }]," for Surges to suffuse your  without being Consumed "],
   "50% chance to Avoid Death from Hits":[[]," to Avoid Death from Hits "],
   "50% chance to Knock Back Bleeding Enemies with Hits":[[]," to Knock Back Bleeding Enemies  "],
-  "50% chance to Pierce an Enemy":[[]," to Pierce an Enemy "],
-  "50% chance to Pierce an Enemy 15% chance when a Charm is used to use another Charm without consuming Charges":[[{
+  "50% chance to Pierce an Enemy":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"FlaskCharges",
+        "name":"PierceChance",
         "type":"BASE",
         "value":50
-      }]," to Pierce an Enemy 15% chance when a Charm is used to use another Charm without consuming  "],
+      }]],
   "50% chance to gain Onslaught on Killing Blow with Axes":[[{
         "flags":65540,
         "keywordFlags":0,
@@ -23337,10 +23336,10 @@
   "50% increased Surrounded Area of Effect":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"AreaOfEffect",
+        "name":"SurroundedArea",
         "type":"INC",
         "value":50
-      }]," Surrounded  "],
+      }]],
   "50% increased Thorns damage if you've consumed an Endurance Charge Recently":[[{
         "flags":0,
         "keywordFlags":0,
@@ -25471,8 +25470,12 @@
         "keywordFlags":0,
         "name":"ReservationEfficiency",
         "type":"INC",
-        "value":8
-      }],"  of Companion Skills "],
+        "value":8,
+        "1":{
+          "skillType":219,
+          "type":"SkillType"
+        }
+      }]],
   "8% increased Reservation Efficiency of Herald Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -33921,8 +33924,19 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Arrows Fork":[null,"Arrows Fork "],
-  "Arrows Fork Arrows Pierce all targets after Forking":[null,"Arrows Fork Arrows Pierce all targets after Forking "],
+  "Arrows Fork":[[{
+        "flags":131072,
+        "keywordFlags":0,
+        "name":"ForkOnce",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":1024,
+        "keywordFlags":0,
+        "name":"ForkCountMax",
+        "type":"BASE",
+        "value":1
+      }]],
   "Arrows Pierce all targets after Forking":[[{
         "flags":131072,
         "keywordFlags":0,
@@ -34559,7 +34573,25 @@
           }
         }
       }]],
-  "Bleeding you inflict on Pinned Enemies is Aggravated":[null,"Bleeding you inflict on Pinned Enemies is Aggravated "],
+  "Bleeding you inflict on Pinned Enemies is Aggravated":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Condition:BleedAggravated",
+            "type":"FLAG",
+            "value":true,
+            "1":{
+              "type":"Condition",
+              "var":"Pinned"
+            }
+          }
+        }
+      }]],
   "Blind Chilled enemies on Hit":[null,"Blind Chilled enemies on Hit "],
   "Blind Enemies when they Stun you":[null,"Blind Enemies when they Stun you "],
   "Blind Targets when you Poison them":[null,"Blind Targets when you Poison them "],
@@ -35340,7 +35372,7 @@
           }
         },
         "1":{
-          "skillType":198,
+          "skillType":219,
           "type":"SkillType"
         }
       }]],
@@ -35364,7 +35396,7 @@
           }
         },
         "1":{
-          "skillType":198,
+          "skillType":219,
           "type":"SkillType"
         }
       }]],
@@ -35391,7 +35423,7 @@
           }
         },
         "1":{
-          "skillType":198,
+          "skillType":219,
           "type":"SkillType"
         }
       }]],
@@ -35410,7 +35442,7 @@
           }
         },
         "1":{
-          "skillType":198,
+          "skillType":219,
           "type":"SkillType"
         }
       }]],
@@ -35429,7 +35461,7 @@
           }
         },
         "1":{
-          "skillType":198,
+          "skillType":219,
           "type":"SkillType"
         }
       }]],
@@ -35448,7 +35480,7 @@
           }
         },
         "1":{
-          "skillType":198,
+          "skillType":219,
           "type":"SkillType"
         }
       }]],
@@ -35467,7 +35499,7 @@
           }
         },
         "1":{
-          "skillType":198,
+          "skillType":219,
           "type":"SkillType"
         }
       }]],
@@ -35486,7 +35518,7 @@
           }
         },
         "1":{
-          "skillType":198,
+          "skillType":219,
           "type":"SkillType"
         }
       }]],
@@ -35505,7 +35537,7 @@
           }
         },
         "1":{
-          "skillType":198,
+          "skillType":219,
           "type":"SkillType"
         }
       }]],
@@ -36128,7 +36160,13 @@
       }]],
   "Defend with 200% of Armour against Critical Hits":[null,"Defend with 200% of Armour against Critical Hits "],
   "Defend with 200% of Armour against Critical Hits +15 to Strength":[null,"Defend with 200% of Armour against Critical Hits +15 to Strength "],
-  "Defend with 200% of Armour during effect":[null,"Defend with 200% of Armour during effect "],
+  "Defend with 200% of Armour during effect":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArmourDefense",
+        "type":"MAX",
+        "value":100
+      }]],
   "Deflected Hits cannot inflict Bleeding on you":[null,"Deflected Hits cannot inflict Bleeding on you "],
   "Deflected Hits cannot inflict Maim on you":[null,"Deflected Hits cannot inflict Maim on you "],
   "Deflected Hits cannot inflict Maim on you Deflected Hits cannot inflict Bleeding on you":[null,"Deflected Hits cannot inflict Maim on you Deflected Hits cannot inflict Bleeding on you "],
@@ -40325,7 +40363,13 @@
         "type":"MAX",
         "value":40
       }]],
-  "Increases and Reductions to Companion Damage also apply to you":[null,"Increases and Reductions to Companion Damage also apply to you "],
+  "Increases and Reductions to Companion Damage also apply to you":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CompanionDamageAppliesToPlayer",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Increases and Reductions to Mana Regeneration Rate also":[null,"Increases and Reductions to Mana Regeneration Rate also "],
   "Increases and Reductions to Mana Regeneration Rate also apply to Energy Shield Recharge Rate":[null,"Increases and Reductions to Mana Regeneration Rate also apply to Energy Shield Recharge Rate "],
   "Increases and Reductions to Minion Attack Speed also affect you":[[{
@@ -41097,8 +41141,21 @@
         "value":50
       }]],
   "Maximum Volatility is 30":[[],"Maximum Volatility "],
-  "Melee Attack Skills have +1 to maximum number of Summoned Totems":[null,"Melee Attack Skills have +1 to maximum number of Summoned Totems "],
-  "Melee Attack Skills have +1 to maximum number of Summoned Totems 20% increased Totem Placement range":[null,"Melee Attack Skills have +1 to maximum number of Summoned Totems 20% increased Totem Placement range "],
+  "Melee Attack Skills have +1 to maximum number of Summoned Totems":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveTotemLimit",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "skillType":20,
+          "type":"SkillType"
+        },
+        "2":{
+          "skillType":1,
+          "type":"SkillType"
+        }
+      }]],
   "Meta Skills gain 15% increased Energy":[null,"Meta Skills gain 15% increased Energy "],
   "Meta Skills gain 16% increased Energy":[null,"Meta Skills gain 16% increased Energy "],
   "Meta Skills gain 16% increased Energy 1% increased Cast Speed per 20 Spirit":[null,"Meta Skills gain 16% increased Energy 1% increased Cast Speed per 20 Spirit "],
@@ -41221,10 +41278,18 @@
             "keywordFlags":0,
             "name":"Damage",
             "type":"INC",
-            "value":10
+            "value":10,
+            "1":{
+              "type":"Condition",
+              "var":"CommandableSkill"
+            },
+            "2":{
+              "type":"Multiplier",
+              "var":"PersistentMinionTypes"
+            }
           }
         }
-      }],"  with Command Skills for each different type of Persistent  in your Presence "],
+      }]],
   "Minions deal 12% increased Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -41266,10 +41331,14 @@
             "keywordFlags":0,
             "name":"Damage",
             "type":"INC",
-            "value":15
+            "value":15,
+            "1":{
+              "type":"Condition",
+              "var":"CommandableSkill"
+            }
           }
         }
-      }],"  with Command Skills "],
+      }]],
   "Minions deal 16% increased Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -41311,10 +41380,14 @@
             "keywordFlags":0,
             "name":"Damage",
             "type":"INC",
-            "value":20
+            "value":20,
+            "1":{
+              "type":"Condition",
+              "var":"CommandableSkill"
+            }
           }
         }
-      }],"  with Command Skills "],
+      }]],
   "Minions deal 25% increased Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -41977,10 +42050,14 @@
             "keywordFlags":0,
             "name":"CooldownRecovery",
             "type":"INC",
-            "value":20
+            "value":20,
+            "1":{
+              "type":"Condition",
+              "var":"CommandableSkill"
+            }
           }
         }
-      }],"  for Command Skills "],
+      }]],
   "Minions have 20% increased Critical Hit Chance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -43308,6 +43385,7 @@
   "Physical Damage is Pinning":[null,"Physical Damage is Pinning "],
   "Physical Spell Critical Hits build Pin":[null,"Physical Spell Critical Hits build Pin "],
   "Pin Enemies which are Primed for Pinning":[null,"Pin Enemies which are Primed for Pinning "],
+  "Pin Enemies which are Primed for Pinning Require 5 fewer enemies to be Surrounded":[null,"Pin Enemies which are Primed for Pinning Require 5 fewer enemies to be Surrounded "],
   "Pinned Enemies cannot deal Critical Hits":[null,"Pinned Enemies cannot deal Critical Hits "],
   "Pinned enemies cannot perform actions":[null,"Pinned enemies cannot perform actions "],
   "Possessed by Spirit Of The Bear for 20 seconds on use":[null,"Possessed by Spirit Of The Bear for 20 seconds on use "],
@@ -43367,7 +43445,17 @@
   "Projectile Damage builds Pin Pinned enemies cannot perform actions":[null,"Projectile Damage builds Pin Pinned enemies cannot perform actions "],
   "Projectiles Pierce all Ignited enemies":[null,"Projectiles Pierce all Ignited enemies "],
   "Projectiles Pierce all Ignited enemies Attacks Gain 10% of Damage as Extra Fire Damage":[null,"Projectiles Pierce all Ignited enemies Attacks Gain 10% of Damage as Extra Fire Damage "],
-  "Projectiles Pierce enemies with Fully Broken Armour":[null,"Projectiles Pierce enemies with Fully Broken Armour "],
+  "Projectiles Pierce enemies with Fully Broken Armour":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PierceCount",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "type":"Condition",
+          "var":"ArmourFullyBroken"
+        }
+      }]],
   "Projectiles Split towards +2 targets":[[{
         "flags":0,
         "keywordFlags":0,
@@ -44004,6 +44092,20 @@
   "Remnants you create reappear once, 3 seconds after being collected":[null,"Remnants you create reappear once, 3 seconds after being collected "],
   "Remove Ignite when you Warcry":[null,"Remove Ignite when you Warcry "],
   "Remove a Curse when you use a Mana Flask":[null,"Remove a Curse when you use a Mana Flask "],
+  "Require 4 fewer enemies to be Surrounded":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SurroundedMinimum",
+        "type":"BASE",
+        "value":-4
+      }]],
+  "Require 5 fewer enemies to be Surrounded":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SurroundedMinimum",
+        "type":"BASE",
+        "value":-5
+      }]],
   "Reserves 25% of Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -45004,8 +45106,13 @@
           "var":"KilledRecently"
         }
       }]],
-  "You have 30% less Defences":[null,"30% less Defences "],
-  "You have 30% less Defences Companions have +1 to each Defence for every 2 of that Defence you have":[null,"30% less Defences Companions have +1 to each Defence for every 2 of that Defence you have "],
+  "You have 30% less Defences":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Defences",
+        "type":"MORE",
+        "value":-30
+      }]],
   "You have Arcane Surge":[[{
         "flags":0,
         "keywordFlags":0,
