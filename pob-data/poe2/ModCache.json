@@ -44,7 +44,7 @@
         "type":"OVERRIDE",
         "value":1
       }],"(2-4)% chance to deal   (25-35)% increased Physical Damage "],
-  "(2-4)% increased effect of Non-Curse Auras from your Skills":[null,"(2-4)% increased effect of Non-Curse Auras from your Skills "],
+  "(2-4)% increased Magnitudes of Non-Curse Auras from your Skills":[null,"(2-4)% increased Magnitudes of Non-Curse Auras from your Skills "],
   "(2-4)% increased maximum Life":[null,"(2-4)% increased maximum Life "],
   "(20-30)% increased Defences from Equipped Shield":[null,"(20-30)% increased Defences from Equipped Shield "],
   "(25-35)% increased Chaos Damage":[null,"(25-35)% increased Chaos Damage "],
@@ -67,15 +67,14 @@
   "(3-4)% increased Attack Speed":[null,"(3-4)% increased Attack Speed "],
   "(3-5)% increased maximum Energy Shield":[null,"(3-5)% increased maximum Energy Shield "],
   "(3-6)% chance to Freeze":[null,"(3-6)% chance to Freeze "],
-  "(3-6)% chance to Ignite":[null,"(3-6)% chance to Ignite "],
   "(3-6)% chance to Shock":[null,"(3-6)% chance to Shock "],
   "(30-40)% increased Armour":[null,"(30-40)% increased Armour "],
   "(30-40)% increased Armour (3-4)% additional Physical Damage Reduction":[null,"(30-40)% increased Armour (3-4)% additional Physical Damage Reduction "],
   "(30-40)% increased Evasion Rating":[null,"(30-40)% increased Evasion Rating "],
   "(30-40)% increased Evasion Rating (5-7)% chance to Blind Enemies on Hit":[null,"(30-40)% increased Evasion Rating (5-7)% chance to Blind Enemies on Hit "],
   "(35-50)% increased Critical Hit Chance for Spells":[null,"(35-50)% increased Critical Hit Chance for Spells "],
-  "(4-6)% increased Effect of your Curses":[null,"(4-6)% increased Effect of your Curses "],
-  "(4-6)% increased Effect of your Curses Curse Skills have 20% increased Skill Effect Duration":[null,"(4-6)% increased Effect of your Curses Curse Skills have 20% increased Skill Effect Duration "],
+  "(4-6)% increased Curse Magnitudes":[null,"(4-6)% increased Curse Magnitudes "],
+  "(4-6)% increased Curse Magnitudes Curse Skills have 20% increased Skill Effect Duration":[null,"(4-6)% increased Curse Magnitudes Curse Skills have 20% increased Skill Effect Duration "],
   "(4-6)% increased maximum Mana":[null,"(4-6)% increased maximum Mana "],
   "(4-7)% increased Area of Effect":[null,"(4-7)% increased Area of Effect "],
   "(4-7)% increased Skill Effect Duration":[null,"(4-7)% increased Skill Effect Duration "],
@@ -84,8 +83,8 @@
   "(6-10) Life gained when you Block +5% to Block chance":[null,"(6-10) Life gained when you Block +5% to Block chance "],
   "(6-10)% increased Critical Damage Bonus":[null,"(6-10)% increased Critical Damage Bonus "],
   "(6-10)% increased maximum Life":[null,"(6-10)% increased maximum Life "],
-  "(6-10)% increased maximum Life Regenerate (0.7-1.2)% of Life per second":[null,"(6-10)% increased maximum Life Regenerate (0.7-1.2)% of Life per second "],
-  "(7-10)% increased effect of Non-Curse Auras from your Skills":[null,"(7-10)% increased effect of Non-Curse Auras from your Skills "],
+  "(6-10)% increased maximum Life Regenerate (0.7-1.2)% of maximum Life per second":[null,"(6-10)% increased maximum Life Regenerate (0.7-1.2)% of maximum Life per second "],
+  "(7-10)% increased Magnitudes of Non-Curse Auras from your Skills":[null,"(7-10)% increased Magnitudes of Non-Curse Auras from your Skills "],
   "(7-11)% increased Skill Effect Duration":[null,"(7-11)% increased Skill Effect Duration "],
   "(7-12)% increased Area Damage":[null,"(7-12)% increased Area Damage "],
   "(7-12)% increased Armour":[null,"(7-12)% increased Armour "],
@@ -112,7 +111,6 @@
   "+(20-30)% to Lightning Resistance":[null,"+(20-30)% to Lightning Resistance "],
   "+(6-10)% to Chaos Resistance":[null,"+(6-10)% to Chaos Resistance "],
   "+(8-10)% to all Elemental Resistances":[null,"+(8-10)% to all Elemental Resistances "],
-  "+(8-10)% to all Elemental Resistances +6% chance to Suppress Spell Damage":[null,"+(8-10)% to all Elemental Resistances +6% chance to Suppress Spell Damage "],
   "+(9-14)% to Cold Resistance":[null,"+(9-14)% to Cold Resistance "],
   "+(9-14)% to Fire Resistance":[null,"+(9-14)% to Fire Resistance "],
   "+(9-14)% to Lightning Resistance":[null,"+(9-14)% to Lightning Resistance "],
@@ -174,6 +172,38 @@
           "var":"Surrounded"
         }
       }]," metres to Dodge Roll distance  10% increased   "],
+  "+0.5% to Thorns Critical Hit Chance per 50 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"BASE",
+        "value":0.5,
+        "1":{
+          "actor":"parent",
+          "div":50,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]," Thorns   "],
+  "+0.5% to Thorns Critical Hit Chance per 50 Tribute 2% increased Thorns damage per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"BASE",
+        "value":0.5,
+        "1":{
+          "actor":"parent",
+          "div":50,
+          "stat":"Tribute",
+          "type":"PerStat"
+        },
+        "2":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]," Thorns   2% increased Thorns damage  "],
   "+0.6% to Unarmed Melee Attack Critical Hit Chance":[[{
         "flags":16777477,
         "keywordFlags":0,
@@ -348,6 +378,19 @@
         "name":"PowerChargesMax",
         "type":"BASE",
         "value":1
+      }]],
+  "+1 to Maximum Rage per 50 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MaximumRage",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "actor":"parent",
+          "div":50,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
       }]],
   "+1 to Maximum Spirit per 25 Maximum Life":[[{
         "flags":0,
@@ -954,6 +997,25 @@
         "type":"BASE",
         "value":100
       }]],
+  "+100% of Armour applies to Elemental Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArmourAppliesToFireDamageTaken",
+        "type":"BASE",
+        "value":100
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArmourAppliesToColdDamageTaken",
+        "type":"BASE",
+        "value":100
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArmourAppliesToLightningDamageTaken",
+        "type":"BASE",
+        "value":100
+      }]],
   "+1000 to maximum Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -1000,13 +1062,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"Str",
-        "type":"BASE",
-        "value":12
-      }]],
-  "+12% chance to Suppress Spell Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"SpellSuppressionChance",
         "type":"BASE",
         "value":12
       }]],
@@ -1595,6 +1650,19 @@
       }]],
   "+2 metres to Dodge Roll distance if you haven't Dodge Rolled Recently":[[]," metres to Dodge Roll distance if you haven't Dodge Rolled Recently "],
   "+2 metres to Dodge Roll distance if you haven't Dodge Rolled Recently -1 metre to Dodge Roll distance if you've Dodge Rolled Recently":[[]," metres to Dodge Roll distance if you haven't Dodge Rolled Recently -1 metre to Dodge Roll distance  "],
+  "+2 to Dexterity per 25 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Dex",
+        "type":"BASE",
+        "value":2,
+        "1":{
+          "actor":"parent",
+          "div":25,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]],
   "+2 to Evasion Rating per 1 Item Energy Shield on Equipped Helmet":[[{
         "flags":0,
         "keywordFlags":0,
@@ -1604,6 +1672,19 @@
         "1":{
           "div":1,
           "stat":"EnergyShieldOnHelmet",
+          "type":"PerStat"
+        }
+      }]],
+  "+2 to Intelligence per 25 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Int",
+        "type":"BASE",
+        "value":2,
+        "1":{
+          "actor":"parent",
+          "div":25,
+          "stat":"Tribute",
           "type":"PerStat"
         }
       }]],
@@ -1777,12 +1858,18 @@
         "type":"BASE",
         "value":2
       }]],
-  "+2% chance to Suppress Spell Damage":[[{
+  "+2 to Strength per 25 Tribute":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"SpellSuppressionChance",
+        "name":"Str",
         "type":"BASE",
-        "value":2
+        "value":2,
+        "1":{
+          "actor":"parent",
+          "div":25,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
       }]],
   "+2% to Maximum Cold Resistance":[[{
         "flags":0,
@@ -7011,6 +7098,13 @@
         "type":"BASE",
         "value":5
       }]],
+  "+5 to Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Tribute",
+        "type":"BASE",
+        "value":5
+      }]],
   "+5 to all Attributes":[[{
         "flags":0,
         "keywordFlags":0,
@@ -7419,13 +7513,6 @@
           "type":"Multiplier",
           "var":"RunesSocketedIn{SlotName}"
         }
-      }]],
-  "+6% chance to Suppress Spell Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"SpellSuppressionChance",
-        "type":"BASE",
-        "value":6
       }]],
   "+6% to Critical Hit Chance":[[{
         "flags":0,
@@ -8333,13 +8420,7 @@
         "type":"FLAG",
         "value":true
       }]],
-  "1% Chance to Block Spell Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"SpellBlockChance",
-        "type":"BASE",
-        "value":1
-      }]],
+  "1% chance when you gain a Charge to gain an additional Charge per 10 Tribute":[[]," when you gain a Charge to gain an additional Charge  "],
   "1% increased Area of Effect for Attacks per 10 Intelligence":[[{
         "flags":1,
         "keywordFlags":0,
@@ -8349,6 +8430,18 @@
         "1":{
           "div":10,
           "stat":"Int",
+          "type":"PerStat"
+        }
+      }]],
+  "1% increased Armour per 2 Dexterity":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Armour",
+        "type":"INC",
+        "value":1,
+        "1":{
+          "div":2,
+          "stat":"Dex",
           "type":"PerStat"
         }
       }]],
@@ -8424,6 +8517,19 @@
           "type":"PerStat"
         }
       }]],
+  "1% increased Cooldown Recovery Rate per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CooldownRecovery",
+        "type":"INC",
+        "value":1,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]],
   "1% increased Critical Damage Bonus per 50 Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -8472,6 +8578,55 @@
           "type":"PerStat"
         }
       }]],
+  "1% increased Energy Shield per 2 Strength":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
+        "type":"INC",
+        "value":1,
+        "1":{
+          "div":2,
+          "stat":"Str",
+          "type":"PerStat"
+        }
+      }]],
+  "1% increased Evasion Rating per 2 Intelligence":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":1,
+        "1":{
+          "div":2,
+          "stat":"Int",
+          "type":"PerStat"
+        }
+      }]],
+  "1% increased Life and Mana Recovery from Flasks per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FlaskLifeRecovery",
+        "type":"INC",
+        "value":1,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FlaskManaRecovery",
+        "type":"INC",
+        "value":1,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]],
   "1% increased Movement Speed":[[{
         "flags":0,
         "keywordFlags":0,
@@ -8514,6 +8669,32 @@
           "type":"PerStat"
         }
       }]],
+  "1% increased Spirit Reservation Efficiency of Skills per 20 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SpiritReservationEfficiency",
+        "type":"INC",
+        "value":1,
+        "1":{
+          "actor":"parent",
+          "div":20,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]],
+  "1% increased damage taken per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DamageTaken",
+        "type":"INC",
+        "value":1,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]],
   "1% increased maximum Darkness per 1% Chaos Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -8523,6 +8704,82 @@
         "1":{
           "div":1,
           "stat":"ChaosResist",
+          "type":"PerStat"
+        }
+      }]],
+  "1% of Maximum Life Converted to Energy Shield per 20 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeConvertToEnergyShield",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "actor":"parent",
+          "div":20,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]],
+  "1% of damage taken Recouped as Life per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeRecoup",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]],
+  "1% of damage taken Recouped as Mana per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaRecoup",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]],
+  "1% reduced Duration of Damaging Ailments per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyIgniteDuration",
+        "type":"INC",
+        "value":-1,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyBleedDuration",
+        "type":"INC",
+        "value":-1,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyPoisonDuration",
+        "type":"INC",
+        "value":-1,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
           "type":"PerStat"
         }
       }]],
@@ -10115,17 +10372,6 @@
         "type":"MORE",
         "value":-10
       }]," Movement and  per Dodge Roll in the past 20 seconds "],
-  "10% more chance to Evade Attacks if you have been Hit by an Attack Recently":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EvadeChance",
-        "type":"MORE",
-        "value":10,
-        "1":{
-          "type":"Condition",
-          "var":"BeenHitByAttackRecently"
-        }
-      }]],
   "10% of Damage is taken from Mana before Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -10456,7 +10702,17 @@
         "type":"BASE",
         "value":100
       }],"  Enemies whose Hits you Block ly Blocking "],
-  "100% chance to not consume a bolt if you've Reloaded Recently":[[]," to not consume a bolt if you've Reloaded Recently "],
+  "100% chance to not consume a bolt if you've Reloaded Recently":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChanceToNotConsumeAmmo",
+        "type":"BASE",
+        "value":100,
+        "1":{
+          "type":"Condition",
+          "var":"ReloadedRecently"
+        }
+      }]],
   "100% faster start of Energy Shield Recharge":[[{
         "flags":0,
         "keywordFlags":0,
@@ -10732,8 +10988,12 @@
         "keywordFlags":0,
         "name":"Evasion",
         "type":"INC",
-        "value":100
-      }],"  while Sprinting "],
+        "value":100,
+        "1":{
+          "type":"Condition",
+          "var":"Sprinting"
+        }
+      }]],
   "100% increased Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -11387,6 +11647,13 @@
         "type":"INC",
         "value":12
       }]],
+  "12% increased Magnitudes of Non-Curse Auras from your Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Magnitude",
+        "type":"INC",
+        "value":12
+      }],"  of Non-Curse Auras from your Skills "],
   "12% increased Mana Regeneration Rate":[[{
         "flags":0,
         "keywordFlags":0,
@@ -11417,8 +11684,12 @@
         "keywordFlags":0,
         "name":"MovementSpeed",
         "type":"INC",
-        "value":12
-      }],"  while Sprinting "],
+        "value":12,
+        "1":{
+          "type":"Condition",
+          "var":"Sprinting"
+        }
+      }]],
   "12% increased Physical Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -11487,11 +11758,16 @@
       }]],
   "12% increased Spell Damage with Spells that cost Life":[[{
         "flags":2,
-        "keywordFlags":0,
+        "keywordFlags":131072,
         "name":"Damage",
         "type":"INC",
-        "value":12
-      }],"   with Spells that cost Life "],
+        "value":12,
+        "1":{
+          "stat":"LifeCost",
+          "threshold":1,
+          "type":"StatThreshold"
+        }
+      }]],
   "12% increased Stun Buildup":[[]," Stun Buildup "],
   "12% increased Stun Buildup 10% increased Damage with Maces":[[{
         "flags":1048580,
@@ -11553,22 +11829,6 @@
         "name":"EnemyShockChance",
         "type":"INC",
         "value":12
-      }]],
-  "12% increased effect of Non-Curse Auras from your Skills":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"AuraEffect",
-        "type":"INC",
-        "value":12,
-        "1":{
-          "skillType":39,
-          "type":"SkillType"
-        },
-        "2":{
-          "neg":true,
-          "skillType":69,
-          "type":"SkillType"
-        }
       }]],
   "12% increased maximum Energy Shield":[[{
         "flags":0,
@@ -12379,8 +12639,13 @@
         "keywordFlags":0,
         "name":"CritChance",
         "type":"INC",
-        "value":15
-      }],"  against Enemies that have entered your Presence Recently "],
+        "value":15,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"EnteredPresenceRecently"
+        }
+      }]],
   "15% increased Critical Hit Chance for Attacks":[[{
         "flags":1,
         "keywordFlags":0,
@@ -12506,8 +12771,13 @@
         "keywordFlags":0,
         "name":"EnemyAilmentDuration",
         "type":"INC",
-        "value":15
-      }],"  against Enemies with Exposure "],
+        "value":15,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"HasExposure"
+        }
+      }]],
   "15% increased Duration of Damaging Ailments on Enemies":[[{
         "flags":0,
         "keywordFlags":0,
@@ -12599,15 +12869,12 @@
         "keywordFlags":0,
         "name":"Evasion",
         "type":"INC",
-        "value":15
-      }],"  while Sprinting "],
-  "15% increased Evasion Rating while Sprinting 2% increased Movement Speed while Sprinting":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Evasion",
-        "type":"INC",
-        "value":15
-      }],"  while Sprinting 2% increased Movement Speed while Sprinting "],
+        "value":15,
+        "1":{
+          "type":"Condition",
+          "var":"Sprinting"
+        }
+      }]],
   "15% increased Fire Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -13989,6 +14256,19 @@
           "var":"MaxResourceGain"
         }
       }]],
+  "2% increased Accuracy Rating per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Accuracy",
+        "type":"INC",
+        "value":2,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]],
   "2% increased Area of Effect for Attacks per 10 Intelligence":[[{
         "flags":1,
         "keywordFlags":0,
@@ -13998,6 +14278,19 @@
         "1":{
           "div":10,
           "stat":"Int",
+          "type":"PerStat"
+        }
+      }]],
+  "2% increased Armour per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Armour",
+        "type":"INC",
+        "value":2,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
           "type":"PerStat"
         }
       }]],
@@ -14043,6 +14336,13 @@
         "type":"INC",
         "value":2
       }]],
+  "2% increased Curse Magnitudes":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CurseEffect",
+        "type":"INC",
+        "value":2
+      }]],
   "2% increased Damage per 5 of your lowest Attribute":[[{
         "flags":0,
         "keywordFlags":0,
@@ -14055,12 +14355,31 @@
           "type":"PerStat"
         }
       }]],
-  "2% increased Effect of your Curses":[[{
+  "2% increased Evasion Rating per 10 Tribute":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"CurseEffect",
+        "name":"Evasion",
         "type":"INC",
-        "value":2
+        "value":2,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]],
+  "2% increased Life Recovery rate per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeRecoveryRate",
+        "type":"INC",
+        "value":2,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
       }]],
   "2% increased Lightning Damage per 10 Intelligence":[[{
         "flags":0,
@@ -14071,6 +14390,45 @@
         "1":{
           "div":10,
           "stat":"Int",
+          "type":"PerStat"
+        }
+      }]],
+  "2% increased Magnitude of Damaging Ailments you inflict per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":14680064,
+        "name":"AilmentMagnitude",
+        "type":"INC",
+        "value":2,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]],
+  "2% increased Mana Cost Efficiency per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaCostEfficiency",
+        "type":"INC",
+        "value":2,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]],
+  "2% increased Mana Recovery rate per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaRecoveryRate",
+        "type":"INC",
+        "value":2,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
           "type":"PerStat"
         }
       }]],
@@ -14097,8 +14455,25 @@
         "keywordFlags":0,
         "name":"MovementSpeed",
         "type":"INC",
-        "value":2
-      }],"  while Sprinting "],
+        "value":2,
+        "1":{
+          "type":"Condition",
+          "var":"Sprinting"
+        }
+      }]],
+  "2% increased Parried Debuff Duration per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Duration",
+        "type":"INC",
+        "value":2,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]," Parried Debuff   "],
   "2% increased Spirit per socketed Grand Spectrum":[[{
         "flags":0,
         "keywordFlags":0,
@@ -14108,6 +14483,20 @@
         "1":{
           "type":"Multiplier",
           "var":"GrandSpectrum"
+        }
+      }]],
+  "2% increased Stun Buildup per 10 Tribute":[[]," Stun Buildup  "],
+  "2% increased Thorns damage per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ThornsDamage",
+        "type":"INC",
+        "value":2,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
         }
       }]],
   "2% increased maximum Life":[[{
@@ -14123,6 +14512,45 @@
         "name":"Mana",
         "type":"INC",
         "value":2
+      }]],
+  "2% reduced Energy Shield Recharge Rate per 25 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShieldRecharge",
+        "type":"INC",
+        "value":-2,
+        "1":{
+          "actor":"parent",
+          "div":25,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]],
+  "2% reduced Light Radius per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LightRadius",
+        "type":"INC",
+        "value":-2,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]],
+  "2% reduced Presence Area of Effect per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PresenceArea",
+        "type":"INC",
+        "value":-2,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
       }]],
   "20 Life Regeneration per second":[[{
         "flags":0,
@@ -14207,7 +14635,13 @@
         "type":"BASE",
         "value":20
       }]],
-  "20% chance for Lightning Skills to Chain an additional time":[[]," for Lightning Skills to Chain an additional time "],
+  "20% chance for Lightning Skills to Chain an additional time":[[{
+        "flags":0,
+        "keywordFlags":128,
+        "name":"ChainChance",
+        "type":"BASE",
+        "value":20
+      }]],
   "20% chance to Aggravate Bleeding on targets you Critically Hit with Attacks":[[]," to Aggravate Bleeding on targets you Critically Hit  "],
   "20% chance to Aggravate Bleeding on targets you Hit with Empowered Attacks":[[]," to Aggravate Bleeding on targets you Hit  "],
   "20% chance to Aggravate Bleeding on targets you Hit with Empowered Attacks Empowered Attacks deal 30% increased Damage":[[{
@@ -15244,14 +15678,13 @@
         "type":"INC",
         "value":20
       }]],
-  "20% increased Magnitude of Impales inflicted with Spells":[[]," Magnitude of Impales inflicted  "],
-  "20% increased Magnitude of Impales inflicted with Spells 20% increased Physical Damage":[[{
+  "20% increased Magnitude of Impales inflicted with Spells":[[{
         "flags":0,
         "keywordFlags":131072,
-        "name":"PhysicalDamage",
+        "name":"ImpaleEffect",
         "type":"INC",
         "value":20
-      }]," Magnitude of Impales inflicted  20% increased  "],
+      }]],
   "20% increased Magnitude of Non-Damaging Ailments you inflict with Critical Hits":[[{
         "flags":0,
         "keywordFlags":0,
@@ -15672,6 +16105,13 @@
         "type":"INC",
         "value":20
       }]],
+  "20% increased Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Tribute",
+        "type":"INC",
+        "value":20
+      }]],
   "20% increased Warcry Speed":[[{
         "flags":0,
         "keywordFlags":4,
@@ -15712,8 +16152,13 @@
         "keywordFlags":0,
         "name":"AilmentChance",
         "type":"INC",
-        "value":20
-      }],"  against Enemies with Exposure "],
+        "value":20,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"HasExposure"
+        }
+      }]],
   "20% increased chance to inflict Ailments against Rare or Unique Enemies":[[{
         "flags":0,
         "keywordFlags":0,
@@ -15781,18 +16226,6 @@
         "type":"INC",
         "value":20
       }]],
-  "20% less Attack Damage taken if you haven't been Hit by an Attack Recently":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"AttackDamageTaken",
-        "type":"MORE",
-        "value":-20,
-        "1":{
-          "neg":true,
-          "type":"Condition",
-          "var":"BeenHitByAttackRecently"
-        }
-      }]],
   "20% less Attributes":[[{
         "flags":0,
         "keywordFlags":0,
@@ -15828,17 +16261,6 @@
           "neg":true,
           "type":"Condition",
           "var":"BeenHitRecently"
-        }
-      }]],
-  "20% more Attack Damage taken if you have been Hit by an Attack Recently":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"AttackDamageTaken",
-        "type":"MORE",
-        "value":20,
-        "1":{
-          "type":"Condition",
-          "var":"BeenHitByAttackRecently"
         }
       }]],
   "20% more Charm Charges gained":[[{
@@ -16506,6 +16928,13 @@
         "type":"BASE",
         "value":25
       }]],
+  "25% chance to Chain an additional time":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChainChance",
+        "type":"BASE",
+        "value":25
+      }]],
   "25% chance to Intimidate Enemies for 4 seconds on Hit":[[]," to Intimidate Enemies   "],
   "25% chance to Maim on Hit":[[]," to Maim  "],
   "25% chance to Maim on Hit Adds 17 to 28 Physical Damage":[[{
@@ -16648,24 +17077,16 @@
         "value":25
       }],"  Break Duration 25% increased Attack  Damage "],
   "25% increased Armour if you've Hit an Enemy with a Melee Attack Recently":[[{
-        "flags":256,
-        "keywordFlags":0,
-        "name":"Armour",
-        "type":"INC",
-        "value":25
-      }],"  if you've Hit an Enemy with a  Attack Recently "],
-  "25% increased Armour if you've Hit an Enemy with a Melee Attack Recently 50% increased Melee Damage against Immobilised Enemies":[[{
-        "flags":256,
+        "flags":0,
         "keywordFlags":0,
         "name":"Armour",
         "type":"INC",
         "value":25,
         "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"Immobilised"
+          "type":"Condition",
+          "var":"HitMeleeRecently"
         }
-      }],"  if you've Hit an Enemy with a  Attack Recently 50% increased Melee Damage  "],
+      }]],
   "25% increased Attack Area Damage":[[{
         "flags":513,
         "keywordFlags":0,
@@ -16888,15 +17309,13 @@
         "keywordFlags":0,
         "name":"CritChance",
         "type":"INC",
-        "value":25
-      }],"  against Marked Enemies "],
-  "25% increased Critical Hit Chance against Marked Enemies +10 to Dexterity":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"INC",
-        "value":25
-      }],"  against Marked Enemies +10 to Dexterity "],
+        "value":25,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"Marked"
+        }
+      }]],
   "25% increased Critical Hit Chance against Shocked Enemies":[[{
         "flags":0,
         "keywordFlags":0,
@@ -16976,8 +17395,13 @@
         "keywordFlags":0,
         "name":"Damage",
         "type":"INC",
-        "value":25
-      }],"   for each type of Ammunition fired in the past 10 seconds "],
+        "value":25,
+        "1":{
+          "limitVar":"AmmoTypes",
+          "type":"Multiplier",
+          "var":"DifferentAmmoFired"
+        }
+      }]],
   "25% increased Damage with Flails":[[{
         "flags":134217732,
         "keywordFlags":0,
@@ -17105,8 +17529,12 @@
         "keywordFlags":0,
         "name":"Evasion",
         "type":"INC",
-        "value":25
-      }],"  while Sprinting "],
+        "value":25,
+        "1":{
+          "type":"Condition",
+          "var":"Sprinting"
+        }
+      }]],
   "25% increased Exposure Effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -17241,22 +17669,13 @@
         "keywordFlags":0,
         "name":"AilmentMagnitude",
         "type":"INC",
-        "value":25
-      }],"  against Marked Enemies "],
-  "25% increased Magnitude of Ailments you inflict against Marked Enemies 25% increased Critical Hit Chance against Marked Enemies":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"AilmentMagnitude",
-        "type":"INC",
-        "value":25
-      }],"  against Marked Enemies 25% increased Critical Hit Chance against Marked Enemies "],
-  "25% increased Magnitude of Ailments you inflict against Marked Enemies 25% increased Critical Hit Chance against Marked Enemies +10 to Dexterity":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"AilmentMagnitude",
-        "type":"INC",
-        "value":25
-      }],"  against Marked Enemies 25% increased Critical Hit Chance against Marked Enemies +10 to Dexterity "],
+        "value":25,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"Marked"
+        }
+      }]],
   "25% increased Magnitude of Bleeding you inflict":[[{
         "flags":0,
         "keywordFlags":4194304,
@@ -18062,6 +18481,19 @@
         "value":3
       }]],
   "3% chance to gain Volatility on Kill":[null,"Volatility  "],
+  "3% faster Curse Activation per 20 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CurseActivation",
+        "type":"INC",
+        "value":3,
+        "1":{
+          "actor":"parent",
+          "div":20,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]],
   "3% increased Area of Effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -18230,12 +18662,38 @@
         "type":"INC",
         "value":3
       }]],
+  "3% increased Charm Effect Duration per 25 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CharmDuration",
+        "type":"INC",
+        "value":3,
+        "1":{
+          "actor":"parent",
+          "div":25,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]],
   "3% increased Cooldown Recovery Rate":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"CooldownRecovery",
         "type":"INC",
         "value":3
+      }]],
+  "3% increased Curse Duration per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":2,
+        "name":"Duration",
+        "type":"INC",
+        "value":3,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
       }]],
   "3% increased Curse Magnitudes":[[{
         "flags":0,
@@ -18253,6 +18711,19 @@
         "1":{
           "div":10,
           "stat":"Int",
+          "type":"PerStat"
+        }
+      }]],
+  "3% increased Flask Effect Duration per 25 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FlaskDuration",
+        "type":"INC",
+        "value":3,
+        "1":{
+          "actor":"parent",
+          "div":25,
+          "stat":"Tribute",
           "type":"PerStat"
         }
       }]],
@@ -18297,8 +18768,12 @@
         "keywordFlags":0,
         "name":"MovementSpeed",
         "type":"INC",
-        "value":3
-      }],"  while Sprinting "],
+        "value":3,
+        "1":{
+          "type":"Condition",
+          "var":"Sprinting"
+        }
+      }]],
   "3% increased Movement Speed while you have Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -18456,6 +18931,19 @@
         "type":"BASE",
         "value":3
       }]],
+  "3% reduced Accuracy Rating per 25 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Accuracy",
+        "type":"INC",
+        "value":-3,
+        "1":{
+          "actor":"parent",
+          "div":25,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]],
   "3% reduced Area of Effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -18502,21 +18990,13 @@
         "type":"BASE",
         "value":30
       }]],
-  "30% chance to Chain an additional time":[[]," to Chain an additional time "],
-  "30% chance to Chain an additional time 172% increased Physical Damage":[[{
+  "30% chance to Chain an additional time":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"PhysicalDamage",
+        "name":"ChainChance",
         "type":"BASE",
         "value":30
-      }]," to Chain an additional time 172% increased  "],
-  "30% chance to Chain an additional time Adds 53 to 86 Fire Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireDamage",
-        "type":"BASE",
-        "value":30
-      }]," to Chain an additional time Adds 53 to 86  "],
+      }]],
   "30% chance to Pierce an Enemy":[[{
         "flags":0,
         "keywordFlags":0,
@@ -18545,8 +19025,24 @@
         "type":"BASE",
         "value":30
       }]],
-  "30% chance to not consume a bolt if you've Reloaded Recently":[[]," to not consume a bolt if you've Reloaded Recently "],
-  "30% chance when you Reload a Crossbow to be immediate":[[]," when you Reload a  to be immediate "],
+  "30% chance to not consume a bolt if you've Reloaded Recently":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChanceToNotConsumeAmmo",
+        "type":"BASE",
+        "value":30,
+        "1":{
+          "type":"Condition",
+          "var":"ReloadedRecently"
+        }
+      }]],
+  "30% chance when you Reload a Crossbow to be immediate":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"InstantReloadChance",
+        "type":"BASE",
+        "value":30
+      }]],
   "30% faster start of Energy Shield Recharge":[[{
         "flags":0,
         "keywordFlags":0,
@@ -18803,8 +19299,13 @@
         "keywordFlags":0,
         "name":"CritChance",
         "type":"INC",
-        "value":30
-      }],"  against enemies with Exposure "],
+        "value":30,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"HasExposure"
+        }
+      }]],
   "30% increased Critical Hit Chance for Attacks":[[{
         "flags":1,
         "keywordFlags":0,
@@ -19339,8 +19840,16 @@
         "keywordFlags":0,
         "name":"ManaCostEfficiency",
         "type":"INC",
-        "value":30
-      }],"  of Attacks during any Mana Flask Effect "],
+        "value":30,
+        "1":{
+          "skillType":1,
+          "type":"SkillType"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UsingManaFlask"
+        }
+      }]],
   "30% increased Mana Recovery from Flasks":[[{
         "flags":0,
         "keywordFlags":0,
@@ -20102,10 +20611,10 @@
   "30% reduced penalty to Accuracy Rating at range":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Accuracy",
+        "name":"AccuracyPenalty",
         "type":"INC",
         "value":-30
-      }]," penalty to  at range "],
+      }]],
   "30% slower start of Energy Shield Recharge":[[{
         "flags":0,
         "keywordFlags":0,
@@ -20296,19 +20805,12 @@
         "keywordFlags":0,
         "name":"CritChance",
         "type":"INC",
-        "value":35
-      }],"  if you've Triggered a Skill Recently "],
-  "35% increased Critical Hit Chance if you've Triggered a Skill Recently Meta Skills gain 25% increased Energy if you've dealt a Critical Hit Recently":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"INC",
         "value":35,
         "1":{
           "type":"Condition",
-          "var":"CritRecently"
+          "var":"TriggeredSkillRecently"
         }
-      }],"  if you've Triggered a Skill Recently Meta Skills gain 25% increased Energy  "],
+      }]],
   "35% increased Damage with Hits against Burning Enemies":[[{
         "flags":0,
         "keywordFlags":262144,
@@ -20709,8 +21211,12 @@
         "keywordFlags":0,
         "name":"MovementSpeed",
         "type":"INC",
-        "value":4
-      }],"  if you've used a Mark Recently "],
+        "value":4,
+        "1":{
+          "type":"Condition",
+          "var":"CastMarkRecently"
+        }
+      }]],
   "4% increased Skill Speed":[[{
         "flags":0,
         "keywordFlags":0,
@@ -20749,6 +21255,32 @@
         "name":"Str",
         "type":"INC",
         "value":4
+      }]],
+  "4% increased Warcry Speed per 25 Tribute":[[{
+        "flags":0,
+        "keywordFlags":4,
+        "name":"WarcrySpeed",
+        "type":"INC",
+        "value":4,
+        "1":{
+          "actor":"parent",
+          "div":25,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]],
+  "4% increased maximum Energy Shield per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
+        "type":"INC",
+        "value":4,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
       }]],
   "4% increased maximum Mana":[[{
         "flags":0,
@@ -21146,15 +21678,12 @@
         "keywordFlags":0,
         "name":"Damage",
         "type":"INC",
-        "value":40
-      }],"  if you've Triggered a Skill Recently "],
-  "40% increased Damage if you've Triggered a Skill Recently Meta Skills gain 15% increased Energy":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
-        "value":40
-      }],"  if you've Triggered a Skill Recently Meta Skills gain 15% increased Energy "],
+        "value":40,
+        "1":{
+          "type":"Condition",
+          "var":"TriggeredSkillRecently"
+        }
+      }]],
   "40% increased Damage with Bow Skills":[[{
         "flags":0,
         "keywordFlags":1024,
@@ -21643,15 +22172,24 @@
         "keywordFlags":0,
         "name":"Damage",
         "type":"INC",
-        "value":40
-      }],"   if one of your Minions has died Recently "],
+        "value":40,
+        "1":{
+          "type":"Condition",
+          "var":"MinionsDiedRecently"
+        }
+      }]],
   "40% increased Spell Damage with Spells that cost Life":[[{
         "flags":2,
-        "keywordFlags":0,
+        "keywordFlags":131072,
         "name":"Damage",
         "type":"INC",
-        "value":40
-      }],"   with Spells that cost Life "],
+        "value":40,
+        "1":{
+          "stat":"LifeCost",
+          "threshold":1,
+          "type":"StatThreshold"
+        }
+      }]],
   "40% increased Spirit":[[{
         "flags":0,
         "keywordFlags":0,
@@ -21685,13 +22223,6 @@
         "flags":0,
         "keywordFlags":16384,
         "name":"Damage",
-        "type":"INC",
-        "value":40
-      }]],
-  "40% increased chance to Ignite":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnemyIgniteChance",
         "type":"INC",
         "value":40
       }]],
@@ -21738,17 +22269,6 @@
         }
       }]],
   "40% more Immobilisation buildup":[[]," Immobilisation buildup "],
-  "40% more Mana Reservation of Aura Skills":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ManaReserved",
-        "type":"MORE",
-        "value":40,
-        "1":{
-          "skillType":39,
-          "type":"SkillType"
-        }
-      }]],
   "40% more maximum Physical Attack Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -22075,13 +22595,6 @@
         "type":"BASE",
         "value":5
       }]," to 10 Physical  Pain Attunement "],
-  "5% Chance to Block Spell Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"SpellBlockChance",
-        "type":"BASE",
-        "value":5
-      }]],
   "5% Chance to build an additional Combo on Hit":[[]," to build an additional Combo  "],
   "5% additional Physical Damage Reduction while you have at least 150 Devotion":[[{
         "flags":0,
@@ -22152,6 +22665,19 @@
         "name":"AreaOfEffect",
         "type":"INC",
         "value":5
+      }]],
+  "5% increased Attack Critical Hit Chance per 10 Tribute":[[{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"INC",
+        "value":5,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
       }]],
   "5% increased Attack Damage":[[{
         "flags":1,
@@ -22274,6 +22800,27 @@
         "1":{
           "type":"Condition",
           "var":"LowLife"
+        }
+      }]],
+  "5% increased Defences from Equipped Shield per 25 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Defences",
+        "type":"INC",
+        "value":5,
+        "1":{
+          "slotName":"Weapon 2",
+          "type":"SlotName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UsingShield"
+        },
+        "3":{
+          "actor":"parent",
+          "div":25,
+          "stat":"Tribute",
+          "type":"PerStat"
         }
       }]],
   "5% increased Deflection Rating":[[{
@@ -22479,6 +23026,19 @@
         "name":"StunThreshold",
         "type":"INC",
         "value":5
+      }]],
+  "5% increased Stun Threshold per 25 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunThreshold",
+        "type":"INC",
+        "value":5,
+        "1":{
+          "actor":"parent",
+          "div":25,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
       }]],
   "5% increased effect of Archon Buffs on you":[[{
         "flags":0,
@@ -22826,8 +23386,13 @@
         "keywordFlags":0,
         "name":"CritMultiplier",
         "type":"INC",
-        "value":50
-      }],"  against Enemies that have exited your Presence Recently "],
+        "value":50,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"ExitedPresenceRecently"
+        }
+      }]],
   "50% increased Critical Hit Chance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -23453,6 +24018,13 @@
         "type":"MORE",
         "value":-50
       }]],
+  "50% less Mana Regeneration Rate":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaRegen",
+        "type":"MORE",
+        "value":-50
+      }]],
   "50% less Movement Speed Penalty from using Skills while moving":[[{
         "flags":0,
         "keywordFlags":0,
@@ -23493,6 +24065,13 @@
           "type":"ActorCondition",
           "var":"HeavyStunned"
         }
+      }]],
+  "50% more Life Cost of Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeCost",
+        "type":"MORE",
+        "value":50
       }]],
   "50% more Mana Cost of Skills if you have no Energy Shield":[[{
         "flags":0,
@@ -23591,10 +24170,14 @@
   "50% of Skill Mana costs Converted to Life Costs during any Life Flask Effect":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ManaCost",
+        "name":"HybridManaAndLifeCost_Life",
         "type":"BASE",
-        "value":50
-      }]," Skill s Converted to Life Costs during any Life Flask Effect "],
+        "value":50,
+        "1":{
+          "type":"Condition",
+          "var":"UsingLifeFlask"
+        }
+      }]],
   "50% of charges used by Charms granted to your Life Flasks":[[{
         "flags":0,
         "keywordFlags":0,
@@ -24166,18 +24749,16 @@
       }]],
   "6% increased Spell Damage with Spells that cost Life":[[{
         "flags":2,
-        "keywordFlags":0,
+        "keywordFlags":131072,
         "name":"Damage",
         "type":"INC",
-        "value":6
-      }],"   with Spells that cost Life "],
-  "6% increased Spell Damage with Spells that cost Life 8% of Spell Mana Cost Converted to Life Cost":[[{
-        "flags":2,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
-        "value":6
-      }],"   with Spells that cost Life 8% of Spell Mana Cost Converted to Life Cost "],
+        "value":6,
+        "1":{
+          "stat":"LifeCost",
+          "threshold":1,
+          "type":"StatThreshold"
+        }
+      }]],
   "6% increased Spirit":[[{
         "flags":0,
         "keywordFlags":0,
@@ -24276,7 +24857,13 @@
         "type":"BASE",
         "value":60
       }]],
-  "60% chance for Lightning Skills to Chain an additional time":[[]," for Lightning Skills to Chain an additional time "],
+  "60% chance for Lightning Skills to Chain an additional time":[[{
+        "flags":0,
+        "keywordFlags":128,
+        "name":"ChainChance",
+        "type":"BASE",
+        "value":60
+      }]],
   "60% faster start of Energy Shield Recharge if you've been Stunned Recently":[[{
         "flags":0,
         "keywordFlags":0,
@@ -24378,11 +24965,17 @@
       }]],
   "60% increased Effect of Poison you inflict on targets that are not Poisoned":[[{
         "flags":0,
-        "keywordFlags":0,
-        "name":"LocalEffect",
+        "keywordFlags":2097152,
+        "name":"AilmentEffect",
         "type":"INC",
-        "value":60
-      }],"  of Poison you inflict on targets that are not Poisoned "],
+        "value":60,
+        "1":{
+          "threshold":1,
+          "type":"MultiplierThreshold",
+          "upper":true,
+          "var":"PoisonStacks"
+        }
+      }]],
   "60% increased Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -24493,15 +25086,12 @@
         "keywordFlags":0,
         "name":"ManaCostEfficiency",
         "type":"INC",
-        "value":60
-      }],"  of Marks "],
-  "60% increased Mana Cost Efficiency of Marks 4% increased Movement Speed if you've used a Mark Recently":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ManaCostEfficiency",
-        "type":"INC",
-        "value":60
-      }],"  of Marks 4% increased Movement Speed if you've used a Mark Recently "],
+        "value":60,
+        "1":{
+          "skillType":98,
+          "type":"SkillType"
+        }
+      }]],
   "60% increased Mana Regeneration Rate while Surrounded":[[{
         "flags":0,
         "keywordFlags":0,
@@ -24974,13 +25564,6 @@
         "type":"BASE",
         "value":8
       }]],
-  "8% Chance to Block Spell Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"SpellBlockChance",
-        "type":"BASE",
-        "value":8
-      }]],
   "8% chance for Mace Slam Skills you use yourself to cause Aftershocks":[[]," for Mace Slam Skills you use yourself to cause Aftershocks "],
   "8% chance to Blind Enemies on Hit with Attacks":[[{
         "flags":0,
@@ -25087,6 +25670,19 @@
         "name":"Damage",
         "type":"INC",
         "value":8
+      }]],
+  "8% increased Attack Damage per 10 Tribute":[[{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"Damage",
+        "type":"INC",
+        "value":8,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
       }]],
   "8% increased Attack Damage while you have an Ally in your Presence":[[{
         "flags":1,
@@ -25744,14 +26340,20 @@
           "var":"FullLife"
         }
       }]],
-  "80% increased Desecrated Modifier magnitudes":[[]," Desecrated Modifier magnitudes "],
+  "80% increased Desecrated Modifier magnitudes":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Magnitude",
+        "type":"INC",
+        "value":80
+      }]," Desecrated Modifier  "],
   "80% increased Desecrated Modifier magnitudes 120% increased Chaos Damage":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ChaosDamage",
+        "name":"Magnitude",
         "type":"INC",
         "value":80
-      }]," Desecrated Modifier magnitudes 120% increased  "],
+      }]," Desecrated Modifier  120% increased Chaos Damage "],
   "80% increased Elemental Damage with Attacks":[[{
         "flags":0,
         "keywordFlags":65536,
@@ -33875,7 +34477,13 @@
       }]],
   "Apply 5 Critical Weakness to Enemies when Consuming a Mark on them":[null,"Apply 5 Critical Weakness to Enemies when Consuming a Mark on them "],
   "Apply Debilitate to Enemies 3 Metres in front of you while actively Blocking":[null,"Apply Debilitate to Enemies 3 Metres in front of you while actively Blocking "],
-  "Arcane Surge grants more Life Regeneration Rate instead of Mana Regeneration Rate":[null,"Arcane Surge grants more Life Regeneration Rate instead of Mana Regeneration Rate "],
+  "Arcane Surge grants more Life Regeneration Rate instead of Mana Regeneration Rate":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArcaneSurgeLifeRegen",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Archon Buffs also grant +20% to all Elemental Resistances":[null,"Archon Buffs also grant +20% to all Elemental Resistances "],
   "Archon Buffs also grant +20% to all Elemental Resistances Archon Buffs also grant 10% increased Movement Speed":[null,"Archon Buffs also grant +20% to all Elemental Resistances Archon Buffs also grant 10% increased Movement Speed "],
   "Archon Buffs also grant 10% increased Movement Speed":[null,"Archon Buffs also grant 10% increased Movement Speed "],
@@ -33892,31 +34500,8 @@
           "type":"SkillType"
         }
       }]],
-  "Armour applies to Fire, Cold and Lightning Damage taken from Hits instead of Physical Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ArmourAppliesToFireDamageTaken",
-        "type":"BASE",
-        "value":100
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ArmourAppliesToColdDamageTaken",
-        "type":"BASE",
-        "value":100
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ArmourAppliesToLightningDamageTaken",
-        "type":"BASE",
-        "value":100
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ArmourDoesNotApplyToPhysicalDamageTaken",
-        "type":"FLAG",
-        "value":true
-      }]],
+  "Armour does not apply to Physical Damage":[null,"Armour does not apply to Physical Damage "],
+  "Armour does not apply to Physical Damage -15% to all maximum Elemental Resistances":[null,"Armour does not apply to Physical Damage -15% to all maximum Elemental Resistances "],
   "Armour is increased by Overcapped Fire Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -34334,45 +34919,60 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Aura Skills have 1% more Aura Effect per 2% of maximum Mana they Reserve":[[{
+  "Aura Skills have 10% increased Magnitudes":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"AuraEffect",
-        "type":"MORE",
-        "value":1,
-        "1":{
-          "skillType":39,
-          "type":"SkillType"
-        },
-        "2":{
-          "div":2,
-          "stat":"ManaReservedPercent",
-          "type":"PerStat"
-        }
-      }]],
-  "Aura Skills have 10% increased Magnitudes":[[]," Magnitudes "],
-  "Aura Skills have 10% increased Magnitudes +10 to Intelligence":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Int",
+        "name":"Magnitude",
         "type":"INC",
         "value":10,
         "1":{
           "skillType":39,
           "type":"SkillType"
         }
-      }]," Magnitudes +10 to  "],
-  "Aura Skills have 12% increased Magnitudes":[[]," Magnitudes "],
-  "Aura Skills have 14% increased Magnitudes":[[]," Magnitudes "],
-  "Aura Skills have 14% increased Magnitudes Your Aura Buffs do not affect Allies":[[]," Magnitudes Your Aura Buffs do not affect Allies "],
-  "Aura Skills have 5% increased Magnitudes":[[]," Magnitudes "],
-  "Aura Skills have 6% increased Magnitudes":[[]," Magnitudes "],
-  "Auras from your Skills can only affect you":[[{
+      }]],
+  "Aura Skills have 12% increased Magnitudes":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"SelfAurasOnlyAffectYou",
-        "type":"FLAG",
-        "value":true
+        "name":"Magnitude",
+        "type":"INC",
+        "value":12,
+        "1":{
+          "skillType":39,
+          "type":"SkillType"
+        }
+      }]],
+  "Aura Skills have 14% increased Magnitudes":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Magnitude",
+        "type":"INC",
+        "value":14,
+        "1":{
+          "skillType":39,
+          "type":"SkillType"
+        }
+      }]],
+  "Aura Skills have 5% increased Magnitudes":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Magnitude",
+        "type":"INC",
+        "value":5,
+        "1":{
+          "skillType":39,
+          "type":"SkillType"
+        }
+      }]],
+  "Aura Skills have 6% increased Magnitudes":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Magnitude",
+        "type":"INC",
+        "value":6,
+        "1":{
+          "skillType":39,
+          "type":"SkillType"
+        }
       }]],
   "Banner Buffs linger on you for 2 seconds after you leave the Area":[null,"Banner Buffs linger on you for 2 seconds after you leave the Area "],
   "Banner Skills have 12% increased Aura Magnitudes":[[{
@@ -34530,8 +35130,13 @@
         "type":"OVERRIDE",
         "value":1
       }],"Benefits from consuming Frenzy  for your Skills have 50% chance to be d "],
-  "Bifurcates Critical Hits":[null,"Bifurcates Critical Hits "],
-  "Bifurcates Critical Hits 10% of Skill Mana Costs Converted to Life Costs":[null,"Bifurcates Critical Hits 10% of Skill Mana Costs Converted to Life Costs "],
+  "Bifurcates Critical Hits":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"BifurcateCrit",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Bleeding you inflict deals Damage 10% faster":[[{
         "flags":0,
         "keywordFlags":0,
@@ -34597,25 +35202,6 @@
   "Blind Targets when you Poison them":[null,"Blind Targets when you Poison them "],
   "Blind does not affect your Light Radius":[null,"Blind does not affect your Light Radius "],
   "Blind does not affect your Light Radius 25% more Melee Critical Hit Chance while Blinded":[null,"Blind does not affect your Light Radius 25% more Melee Critical Hit Chance while Blinded "],
-  "Block Chance is doubled":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"BlockChance",
-        "type":"MORE",
-        "value":100,
-        "1":{
-          "globalLimit":100,
-          "globalLimitKey":"BlockChanceDoubledLimit",
-          "type":"Multiplier",
-          "var":"BlockChanceDoubled"
-        }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Multiplier:BlockChanceDoubled",
-        "type":"OVERRIDE",
-        "value":1
-      }]],
   "Blocking Damage Poisons the Enemy as though dealing 100 Base Chaos Damage":[null,"Blocking Damage Poisons the Enemy as though dealing 100 Base Chaos Damage "],
   "Blocking Damage Poisons the Enemy as though dealing 100 Base Chaos Damage Blocking Damage Poisons the Enemy as though dealing 200 Base Chaos Damage":[null,"Blocking Damage Poisons the Enemy as though dealing 100 Base Chaos Damage Blocking Damage Poisons the Enemy as though dealing 200 Base Chaos Damage "],
   "Blocking Damage Poisons the Enemy as though dealing 200 Base Chaos Damage":[null,"Blocking Damage Poisons the Enemy as though dealing 200 Base Chaos Damage "],
@@ -35024,7 +35610,19 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Cannot Dodge Roll or Sprint":[null,"Cannot Dodge Roll or Sprint "],
+  "Cannot Dodge Roll or Sprint":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CannotDodgeRoll",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CannotSprint",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Cannot Evade Enemy Attacks":[[{
         "flags":0,
         "keywordFlags":0,
@@ -35114,6 +35712,7 @@
         "type":"FLAG",
         "value":true
       }]],
+  "Cannot collide with targets":[null,"Cannot collide with targets "],
   "Cannot gain Spirit from Equipment":[[{
         "flags":0,
         "keywordFlags":0,
@@ -35225,6 +35824,11 @@
         "type":"FLAG",
         "value":true
       }]],
+  "Chain an additional time":[null,"Chain an additional time "],
+  "Chain an additional time Chain from Terrain an additional time":[null,"Chain an additional time Chain from Terrain an additional time "],
+  "Chain an additional time Chain from Terrain an additional time Cannot collide with targets":[null,"Chain an additional time Chain from Terrain an additional time Cannot collide with targets "],
+  "Chain from Terrain an additional time":[null,"Chain from Terrain an additional time "],
+  "Chain from Terrain an additional time Cannot collide with targets":[null,"Chain from Terrain an additional time Cannot collide with targets "],
   "Chance is doubled against Undead and Demons":[[],"Chance  against Undead and Demons "],
   "Chance to Block Damage is Lucky":[[{
         "flags":0,
@@ -35310,6 +35914,7 @@
         "type":"OVERRIDE",
         "value":0
       }]],
+  "Charms applied to you have 1% increased Effect per 10 Tribute":[null,"Charms applied to you have 1% increased Effect per 10 Tribute "],
   "Charms applied to you have 10% increased Effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -35783,7 +36388,6 @@
         }
       }]],
   "Curses you inflict have infinite Duration You can apply an additional Curse":[null,"Curses you inflict have infinite Duration You can apply an additional Curse "],
-  "DNT Ded.":[null,"DNT Ded. "],
   "Damage Blocked is Recouped as Mana":[null,"Damage Blocked is Recouped as Mana "],
   "Damage Penetrates (2-4)% Cold Resistance":[null,"Damage Penetrates (2-4)% Cold Resistance "],
   "Damage Penetrates (2-4)% Fire Resistance":[null,"Damage Penetrates (2-4)% Fire Resistance "],
@@ -35928,7 +36532,7 @@
   "Damage of Enemies Hitting you is Unlucky while you are on Low Life":[null,"Damage of Enemies Hitting you is Unlucky while you are on Low Life "],
   "Damage of Enemies Hitting you is Unlucky while you are on Low Life 50% chance to Avoid Death from Hits":[null,"Damage of Enemies Hitting you is Unlucky while you are on Low Life 50% chance to Avoid Death from Hits "],
   "Damage over Time bypasses your Energy Shield":[null,"Damage over Time bypasses your Energy Shield "],
-  "Damage over Time bypasses your Energy Shield While not on Full Life, Sacrifice 1% of Mana per Second to Recover that much Life":[null,"Damage over Time bypasses your Energy Shield While not on Full Life, Sacrifice 1% of Mana per Second to Recover that much Life "],
+  "Damage over Time bypasses your Energy Shield While not on Full Life, Sacrifice 1% of maximum Mana per Second to Recover that much Life":[null,"Damage over Time bypasses your Energy Shield While not on Full Life, Sacrifice 1% of maximum Mana per Second to Recover that much Life "],
   "Damage over Time bypasses your Energy Shield While not on Full Life, Sacrifice 10% of maximum Mana per Second to Recover that much Life":[null,"Damage over Time bypasses your Energy Shield While not on Full Life, Sacrifice 10% of maximum Mana per Second to Recover that much Life "],
   "Damage taken Recouped as Life is also Recouped as Energy Shield":[null,"Damage taken Recouped as Life is also Recouped as Energy Shield "],
   "Damage taken is Reserved from Darkness before being taken from Life or Energy Shield":[null,"Damage taken is Reserved from Darkness before being taken from Life or Energy Shield "],
@@ -36181,24 +36785,6 @@
   "Detonator skills have 40% increased Area of Effect Detonator skills have 80% reduced damage":[null,"Detonator skills have 40% increased Area of Effect Detonator skills have 80% reduced damage "],
   "Detonator skills have 8% increased Area of Effect":[null,"Detonator skills have 8% increased Area of Effect "],
   "Detonator skills have 80% reduced damage":[null,"Detonator skills have 80% reduced damage "],
-  "Dexterity's inherent bonus is 1% increased Armour per 2 Dexterity instead":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Armour",
-        "type":"INC",
-        "value":1,
-        "1":{
-          "div":"2",
-          "stat":"Dex",
-          "type":"PerStat"
-        }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"NoDexBonusToAccuracy",
-        "type":"FLAG",
-        "value":true
-      }]],
   "Dodge Roll avoids all Hits":[null,"Dodge Roll avoids all Hits "],
   "Dodge Roll avoids all Hits 10% less Movement and Skill Speed per Dodge Roll in the past 20 seconds":[null,"Dodge Roll avoids all Hits 10% less Movement and Skill Speed per Dodge Roll in the past 20 seconds "],
   "Dodge Roll cannot Avoid Damage":[null,"Dodge Roll cannot Avoid Damage "],
@@ -36253,7 +36839,25 @@
   "Drop Ignited Ground while moving, which lasts 8 seconds and Ignites as though dealing Fire Damage equal to 10% of your maximum Life":[null,"Drop Ignited Ground while moving, which lasts 8 seconds and Ignites as though dealing Fire Damage equal to 10% of your maximum Life "],
   "Drop Shocked Ground while moving, lasting 8 seconds":[null,"Drop Shocked Ground while moving, lasting 8 seconds "],
   "Each Arrow fired is a Crescendo, Splinter, Reversing, Diamond, Covetous, or Blunt Arrow":[null,"Each Arrow fired is a Crescendo, Splinter, Reversing, Diamond, Covetous, or Blunt Arrow "],
-  "Each Totem applies 2% increased Damage taken to Enemies in their Presence":[null,"Each Totem applies 2% increased Damage taken to Enemies in their Presence "],
+  "Each Totem applies 2% increased Damage taken to Enemies in their Presence":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"DamageTaken",
+            "type":"INC",
+            "value":2,
+            "1":{
+              "type":"Multiplier",
+              "var":"TotemsSummoned"
+            }
+          }
+        }
+      }]],
   "Effect is not removed when Unreserved Life is Filled":[null,"Effect is not removed when Unreserved Life is Filled "],
   "Effect is not removed when Unreserved Life is Filled 30% of Damage taken during effect Recouped as Life":[null,"Effect is not removed when Unreserved Life is Filled 30% of Damage taken during effect Recouped as Life "],
   "Effect is not removed when Unreserved Mana is Filled":[[{
@@ -36322,6 +36926,23 @@
         "1":{
           "type":"Condition",
           "var":"Empowered"
+        }
+      }]],
+  "Empowered Attacks deal 2% increased damage per 10 Tribute":[[{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"Damage",
+        "type":"INC",
+        "value":2,
+        "1":{
+          "type":"Condition",
+          "var":"Empowered"
+        },
+        "2":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
         }
       }]],
   "Empowered Attacks deal 20% increased Damage":[[{
@@ -37104,7 +37725,24 @@
         }
       }]],
   "Enemies you inflict Bleeding on cannot Regenerate Life":[null,"Enemies you inflict Bleeding on cannot Regenerate Life "],
-  "Enemies you kill with Empowered Attacks have a 10% chance to Explode, dealing a tenth of their maximum Life as Fire Damage":[null,"Enemies you kill with Empowered Attacks have a 10% chance to Explode, dealing a tenth of their maximum Life as Fire Damage "],
+  "Enemies you kill with Empowered Attacks have a 10% chance to Explode, dealing a tenth of their maximum Life as Fire Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExplodeMod",
+        "type":"LIST",
+        "value":{
+          "amount":10,
+          "chance":0.1,
+          "keyOfScaledMod":"chance",
+          "type":"Fire"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CanExplode",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Enemies' Damage with Critical Hits against you is Lucky":[null,"Enemies' Damage with Critical Hits  is Lucky "],
   "Energy Generation is doubled":[[],"Energy Generation  "],
   "Energy Shield Recharge is not interrupted by Damage if Recharge began Recently":[null,"Energy Shield Recharge is not interrupted by Damage if Recharge began Recently "],
@@ -37280,7 +37918,13 @@
           "var":"FullLife"
         }
       }]],
-  "Exposure you inflict lowers Resistances by an additional 5%":[null,"Exposure you inflict lowers Resistances by an additional 5% "],
+  "Exposure you inflict lowers Resistances by an additional 5%":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraExposure",
+        "type":"BASE",
+        "value":-5
+      }]],
   "Final Repeat of Spells has 30% increased Area of Effect":[[{
         "flags":2,
         "keywordFlags":0,
@@ -37326,6 +37970,10 @@
         "value":0.17
       }]],
   "For each colour of Socketed Support Gem that is most numerous, gain:":[[]],
+  "Fork an additional time":[null,"Fork an additional time "],
+  "Fork an additional time Chain an additional time":[null,"Fork an additional time Chain an additional time "],
+  "Fork an additional time Chain an additional time Chain from Terrain an additional time":[null,"Fork an additional time Chain an additional time Chain from Terrain an additional time "],
+  "Fork an additional time Chain an additional time Chain from Terrain an additional time Cannot collide with targets":[null,"Fork an additional time Chain an additional time Chain from Terrain an additional time Cannot collide with targets "],
   "Frenzy or Power Charge":[null,"Frenzy or Power Charge "],
   "Fully Armour Broken enemies you kill with Hits Shatter":[null,"Fully Armour Broken enemies you kill with Hits Shatter "],
   "Fully Broken Armour effects also apply to Fire Damage Taken from Hits":[null,"Fully Broken Armour effects also apply to Fire Damage Taken from Hits "],
@@ -37580,7 +38228,7 @@
           "type":"Condition",
           "var":"OnChilledGround"
         }
-      }],"   while  "],
+      }]],
   "Gain 15% of Damage as Extra Fire Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -37593,8 +38241,12 @@
         "keywordFlags":0,
         "name":"DamageGainAsFire",
         "type":"BASE",
-        "value":15
-      }],"   while on Ignited Ground "],
+        "value":15,
+        "1":{
+          "type":"Condition",
+          "var":"OnIgnitedGround"
+        }
+      }]],
   "Gain 15% of Damage as Extra Lightning Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -37612,18 +38264,7 @@
           "type":"Condition",
           "var":"OnShockedGround"
         }
-      }],"   while  "],
-  "Gain 15% of Damage as Extra Lightning Damage while on Shocked Ground 40% reduced effect of Shock on you":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"DamageGainAsLightning",
-        "type":"BASE",
-        "value":15,
-        "1":{
-          "type":"Condition",
-          "var":"OnShockedGround"
-        }
-      }],"   while  40% reduced effect of Shock on you "],
+      }]],
   "Gain 15% of maximum Energy Shield as additional Freeze Threshold":[[{
         "flags":0,
         "keywordFlags":0,
@@ -37931,10 +38572,11 @@
         "type":"BASE",
         "value":4,
         "1":{
-          "skillType":158,
-          "type":"SkillType"
+          "limitVar":"GrenadeTypes",
+          "type":"Multiplier",
+          "var":"DifferentGrenadeFired"
         }
-      }],"   for every different  fired in the past 8 seconds "],
+      }]],
   "Gain 40 Life per Enemy Killed":[[{
         "flags":0,
         "keywordFlags":0,
@@ -37946,6 +38588,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"DamageGainAsChaos",
+        "type":"BASE",
+        "value":40
+      }]],
+  "Gain 40% of Maximum Mana as Armour":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaGainAsArmour",
         "type":"BASE",
         "value":40
       }]],
@@ -38029,7 +38678,14 @@
         "type":"BASE",
         "value":5
       }]],
-  "Gain 5% of Maximum Mana as Extra Maximum Energy Shield while you have at least 150 Devotion":[[{
+  "Gain 5% of maximum Mana as Extra maximum Energy Shield":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaGainAsEnergyShield",
+        "type":"BASE",
+        "value":5
+      }]],
+  "Gain 5% of maximum Mana as Extra maximum Energy Shield while you have at least 150 Devotion":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"ManaGainAsEnergyShield",
@@ -38040,13 +38696,6 @@
           "threshold":150,
           "type":"StatThreshold"
         }
-      }]],
-  "Gain 5% of maximum Mana as Extra maximum Energy Shield":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ManaGainAsEnergyShield",
-        "type":"BASE",
-        "value":5
       }]],
   "Gain 50 Life per Enemy Killed":[[{
         "flags":0,
@@ -38065,10 +38714,10 @@
   "Gain 50% of Maximum Mana as Armour":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Mana",
+        "name":"ManaGainAsArmour",
         "type":"BASE",
         "value":50
-      }],"  as Armour "],
+      }]],
   "Gain 50% of maximum Energy Shield as additional Freeze Threshold":[[{
         "flags":0,
         "keywordFlags":0,
@@ -38311,6 +38960,8 @@
         "type":"BASE",
         "value":16
       }]],
+  "Gain Deflection Rating equal to 2% of Evasion Rating per 25 Tribute":[null,"Deflection Rating equal to 2% of Evasion Rating  "],
+  "Gain Deflection Rating equal to 2% of Evasion Rating per 25 Tribute 2% increased Evasion Rating per 10 Tribute":[null,"Deflection Rating equal to 2% of Evasion Rating  2% increased Evasion Rating  "],
   "Gain Deflection Rating equal to 20% of Armour":[[{
         "flags":0,
         "keywordFlags":0,
@@ -38697,10 +39348,19 @@
       }]],
   "Gain an Endurance Charge when you Heavy Stun a Rare or Unique Enemy":[null,"an Endurance Charge when you Heavy Stun a Rare or Unique Enemy "],
   "Gain an additional Charge when you gain a Charge":[null,"an additional Charge when you gain a Charge "],
+  "Gain no inherent bonus from Dexterity":[null,"no inherent bonus from Dexterity "],
+  "Gain no inherent bonus from Dexterity 1% increased Armour per 2 Dexterity":[null,"no inherent bonus from Dexterity 1% increased Armour  "],
   "Gain no inherent bonus from Intelligence":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"NoIntBonusToMana",
+        "type":"FLAG",
+        "value":true
+      }]],
+  "Gain no inherent bonus from Strength":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"NoStrBonusToLife",
         "type":"FLAG",
         "value":true
       }]],
@@ -38731,6 +39391,102 @@
         "name":"Keystone",
         "type":"LIST",
         "value":"Giant's Blood"
+      }]],
+  "Glorifying the defilement of 4050 souls in tribute to Ulaman":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"JewelData",
+        "type":"LIST",
+        "value":{
+          "key":"conqueredBy",
+          "value":{
+            "conqueror":{
+              "id":5,
+              "type":"abyss"
+            },
+            "id":4050
+          }
+        }
+      }]],
+  "Glorifying the defilement of 8000 souls in tribute to Amanamu":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"JewelData",
+        "type":"LIST",
+        "value":{
+          "key":"conqueredBy",
+          "value":{
+            "conqueror":{
+              "id":1,
+              "type":"abyss"
+            },
+            "id":8000
+          }
+        }
+      }]],
+  "Glorifying the defilement of 8000 souls in tribute to Kulemak":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"JewelData",
+        "type":"LIST",
+        "value":{
+          "key":"conqueredBy",
+          "value":{
+            "conqueror":{
+              "id":2,
+              "type":"abyss"
+            },
+            "id":8000
+          }
+        }
+      }]],
+  "Glorifying the defilement of 8000 souls in tribute to Kurgal":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"JewelData",
+        "type":"LIST",
+        "value":{
+          "key":"conqueredBy",
+          "value":{
+            "conqueror":{
+              "id":3,
+              "type":"abyss"
+            },
+            "id":8000
+          }
+        }
+      }]],
+  "Glorifying the defilement of 8000 souls in tribute to Tecrod":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"JewelData",
+        "type":"LIST",
+        "value":{
+          "key":"conqueredBy",
+          "value":{
+            "conqueror":{
+              "id":4,
+              "type":"abyss"
+            },
+            "id":8000
+          }
+        }
+      }]],
+  "Glorifying the defilement of 8000 souls in tribute to Ulaman":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"JewelData",
+        "type":"LIST",
+        "value":{
+          "key":"conqueredBy",
+          "value":{
+            "conqueror":{
+              "id":5,
+              "type":"abyss"
+            },
+            "id":8000
+          }
+        }
       }]],
   "Grants 1 Passive Skill Point":[[{
         "flags":0,
@@ -40371,7 +41127,13 @@
         "value":true
       }]],
   "Increases and Reductions to Mana Regeneration Rate also":[null,"Increases and Reductions to Mana Regeneration Rate also "],
-  "Increases and Reductions to Mana Regeneration Rate also apply to Energy Shield Recharge Rate":[null,"Increases and Reductions to Mana Regeneration Rate also apply to Energy Shield Recharge Rate "],
+  "Increases and Reductions to Mana Regeneration Rate also apply to Energy Shield Recharge Rate":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaRegenAppliesToEnergyShieldRecharge",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Increases and Reductions to Minion Attack Speed also affect you":[[{
         "flags":0,
         "keywordFlags":0,
@@ -40435,7 +41197,13 @@
   "Inflicts Fire Exposure when this Weapon Fully Breaks Armour":[null,"Inflicts Fire Exposure when this Weapon Fully Breaks Armour "],
   "Inflicts a random Curse on you when your Totems die, ignoring Curse limit":[null,"Inflicts a random Curse on you when your Totems die, ignoring Curse limit "],
   "Infusion Remnants you create are always a Random Element":[null,"Infusion Remnants you create are always a Random Element "],
-  "Inherent Life granted by Strength is halved":[null,"Inherent Life granted by Strength is halved "],
+  "Inherent Life granted by Strength is halved":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"HalvesLifeFromStrength",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Inherent Rage Loss starts 1 second later":[[{
         "flags":0,
         "keywordFlags":0,
@@ -40450,6 +41218,7 @@
         "type":"FLAG",
         "value":true
       }]],
+  "Inherent loss of Rage is 2% slower per 10 Tribute":[[],"Inherent loss of Rage slower  "],
   "Inherent loss of Rage is 20% slower":[[{
         "flags":0,
         "keywordFlags":0,
@@ -40471,29 +41240,41 @@
         "type":"BASE",
         "value":100
       }]],
-  "Intelligence's inherent bonus is 1% increased Evasion Rating per 2 Intelligence instead":[[{
+  "Invocated Spells deal 15% increased Damage":[[{
         "flags":0,
-        "keywordFlags":0,
-        "name":"Evasion",
+        "keywordFlags":131072,
+        "name":"Damage",
         "type":"INC",
-        "value":1,
+        "value":15,
         "1":{
-          "div":"2",
-          "stat":"Int",
-          "type":"PerStat"
+          "type":"Condition",
+          "var":"InvocationSkill"
         }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"NoIntBonusToMana",
-        "type":"FLAG",
-        "value":true
       }]],
-  "Invocated Spells deal 15% increased Damage":[null,"Invocated Spells deal 15% increased Damage "],
-  "Invocated Spells have 15% increased Critical Hit Chance":[null,"Invocated Spells have 15% increased Critical Hit Chance "],
-  "Invocated Spells have 40% chance to consume half as much Energy":[null,"Invocated Spells have 40% chance to consume half as much Energy "],
-  "Invocated Spells have 40% increased Critical Hit Chance":[null,"Invocated Spells have 40% increased Critical Hit Chance "],
-  "Invocated skills have 30% increased Maximum Energy":[null,"Invocated skills have 30% increased Maximum Energy "],
+  "Invocated Spells have 15% increased Critical Hit Chance":[[{
+        "flags":0,
+        "keywordFlags":131072,
+        "name":"CritChance",
+        "type":"INC",
+        "value":15,
+        "1":{
+          "type":"Condition",
+          "var":"InvocationSkill"
+        }
+      }]],
+  "Invocated Spells have 40% chance to consume half as much Energy":[[]," to consume half as much Energy "],
+  "Invocated Spells have 40% increased Critical Hit Chance":[[{
+        "flags":0,
+        "keywordFlags":131072,
+        "name":"CritChance",
+        "type":"INC",
+        "value":40,
+        "1":{
+          "type":"Condition",
+          "var":"InvocationSkill"
+        }
+      }]],
+  "Invocated skills have 30% increased Maximum Energy":[[]," Maximum Energy "],
   "Invocation Skills cannot gain Energy while Triggering Spells":[null,"Invocation Skills cannot gain Energy while Triggering Spells "],
   "Invocation Skills cannot gain Energy while Triggering Spells Invoked Spells consume 50% less Energy":[null,"Invocation Skills cannot gain Energy while Triggering Spells Invoked Spells consume 50% less Energy "],
   "Invocation Skills instead Trigger Spells every 2 seconds":[null,"Invocation Skills instead Trigger Spells every 2 seconds "],
@@ -40631,7 +41412,25 @@
           "var":"CriticalStrike"
         }
       }]],
-  "Leech recovers based on Chaos Damage as well as Physical Damage":[null,"Leech recovers based on Chaos Damage as well as Physical Damage "],
+  "Leech recovers based on Chaos Damage as well as Physical Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeLeechBasedOnChaosDamage",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaLeechBasedOnChaosDamage",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShieldLeechBasedOnChaosDamage",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Leeches 0.1% of Physical Damage as Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -40819,11 +41618,23 @@
         "type":"BASE",
         "value":100
       }]],
-  "Life Leech recovers based on your Chaos damage instead of Physical damage":[null,"Life Leech recovers based on your Chaos damage instead of Physical damage "],
+  "Life Leech recovers based on your Chaos damage instead of Physical damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeLeechBasedOnChaosDamage",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:NoLifeLeechFromPhysicalDamage",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Life Leech recovers based on your Elemental damage as well as Physical damage":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"PhysicalAsElementalDamageLifeLeech",
+        "name":"LifeLeechBasedOnElementalDamage",
         "type":"FLAG",
         "value":true
       }]],
@@ -40840,19 +41651,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"LifeFlaskAppliesToEnergyShield",
-        "type":"FLAG",
-        "value":true
-      }]],
-  "Life Recovery from Flasks applies to Energy Shield instead":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LifeFlaskAppliesToEnergyShield",
-        "type":"FLAG",
-        "value":true
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LifeFlaskDoesNotApply",
         "type":"FLAG",
         "value":true
       }]],
@@ -41084,7 +41882,21 @@
           "var":"LowMana"
         }
       }]],
-  "Mana Leech recovers based on Elemental Damage Types instead of Physical Damage":[null,"Mana Leech recovers based on Elemental Damage Types instead of Physical Damage "],
+  "Mana Leech recovers based on Elemental Damage Types instead of Physical Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaLeechBasedOnElementalDamage",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:NoManaLeechFromPhysicalDamage",
+        "type":"FLAG",
+        "value":true
+      }]],
+  "Mana Recovery from Regeneration Overflows maximum Mana":[null,"Mana Recovery from Regeneration Overflows maximum Mana "],
+  "Mana Recovery from Regeneration Overflows maximum Mana 50% less Mana Regeneration Rate":[null,"Mana Recovery from Regeneration Overflows maximum Mana 50% less Mana Regeneration Rate "],
   "Mana Recovery from Regeneration is not applied":[[{
         "flags":0,
         "keywordFlags":0,
@@ -41093,7 +41905,17 @@
         "value":true
       }]],
   "Mana Recovery other than Regeneration cannot Recover Mana":[null,"Mana Recovery other than Regeneration cannot Recover Mana "],
-  "Mark Skills have 10% increased Use Speed":[[]," Use Speed "],
+  "Mark Skills have 10% increased Use Speed":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Speed",
+        "type":"INC",
+        "value":10,
+        "1":{
+          "skillType":98,
+          "type":"SkillType"
+        }
+      }]],
   "Mark Skills have 25% increased Skill Effect Duration":[[{
         "flags":0,
         "keywordFlags":0,
@@ -41252,6 +42074,27 @@
   "Minions cause 15% increased Stun Buildup":[null,"cause 15% increased Stun Buildup "],
   "Minions deal (25-35)% increased Damage":[null,"(25-35)% increased Damage "],
   "Minions deal (8-13)% increased Damage":[null,"(8-13)% increased Damage "],
+  "Minions deal 1% increased damage per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Damage",
+            "type":"INC",
+            "value":1,
+            "1":{
+              "actor":"parent",
+              "div":10,
+              "stat":"Tribute",
+              "type":"PerStat"
+            }
+          }
+        }
+      }]],
   "Minions deal 10% increased Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -41723,7 +42566,7 @@
             "value":3
           }
         }
-      }]," s "],
+      }]],
   "Minions have +3% to Maximum Fire Resistances":[[{
         "flags":0,
         "keywordFlags":0,
@@ -41738,22 +42581,7 @@
             "value":3
           }
         }
-      }]," s "],
-  "Minions have +3% to Maximum Fire Resistances Minions have +20% to Fire Resistance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"FireResistMax",
-            "type":"BASE",
-            "value":3
-          }
-        }
-      }]," s s have +20% to Fire Resistance "],
+      }]],
   "Minions have +3% to Maximum Lightning Resistances":[[{
         "flags":0,
         "keywordFlags":0,
@@ -41768,7 +42596,7 @@
             "value":3
           }
         }
-      }]," s "],
+      }]],
   "Minions have +3% to all Maximum Elemental Resistances":[[{
         "flags":0,
         "keywordFlags":0,
@@ -42148,6 +42976,27 @@
           }
         }
       }]],
+  "Minions have 3% increased Attack and Cast Speed per 50 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Speed",
+            "type":"INC",
+            "value":3,
+            "1":{
+              "actor":"parent",
+              "div":50,
+              "stat":"Tribute",
+              "type":"PerStat"
+            }
+          }
+        }
+      }]],
   "Minions have 30% increased maximum Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -42175,6 +43024,27 @@
             "name":"Speed",
             "type":"INC",
             "value":4
+          }
+        }
+      }]],
+  "Minions have 4% increased Cooldown Recovery Rate per 10 Tribute":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"CooldownRecovery",
+            "type":"INC",
+            "value":4,
+            "1":{
+              "actor":"parent",
+              "div":10,
+              "stat":"Tribute",
+              "type":"PerStat"
+            }
           }
         }
       }]],
@@ -42358,6 +43228,27 @@
           }
         }
       }]],
+  "Minions lose 2% Life per 10 Tribute you have when following Commands":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Life",
+            "type":"BASE",
+            "value":-2,
+            "1":{
+              "actor":"parent",
+              "div":10,
+              "stat":"Tribute",
+              "type":"PerStat"
+            }
+          }
+        }
+      }],"%   you have when following Commands "],
   "Minions' Resistances are equal to yours":[[{
         "flags":0,
         "keywordFlags":0,
@@ -42751,6 +43642,7 @@
           "value":true
         }
       }]],
+  "Passives in radius are Conquered by the Abyssals":[[]],
   "Passives in radius are Conquered by the Kalguur":[[]],
   "Passives in radius of Acrobatics can be Allocated without being connected to your tree":[[{
         "flags":0,
@@ -43386,7 +44278,43 @@
   "Physical Spell Critical Hits build Pin":[null,"Physical Spell Critical Hits build Pin "],
   "Pin Enemies which are Primed for Pinning":[null,"Pin Enemies which are Primed for Pinning "],
   "Pin Enemies which are Primed for Pinning Require 5 fewer enemies to be Surrounded":[null,"Pin Enemies which are Primed for Pinning Require 5 fewer enemies to be Surrounded "],
-  "Pinned Enemies cannot deal Critical Hits":[null,"Pinned Enemies cannot deal Critical Hits "],
+  "Pinned Enemies cannot deal Critical Hits":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"NeverCrit",
+            "type":"FLAG",
+            "value":true,
+            "1":{
+              "type":"Condition",
+              "var":"Pinned"
+            }
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Condition:NeverCrit",
+            "type":"FLAG",
+            "value":true,
+            "1":{
+              "type":"Condition",
+              "var":"Pinned"
+            }
+          }
+        }
+      }]],
   "Pinned enemies cannot perform actions":[null,"Pinned enemies cannot perform actions "],
   "Possessed by Spirit Of The Bear for 20 seconds on use":[null,"Possessed by Spirit Of The Bear for 20 seconds on use "],
   "Possessed by Spirit Of The Bear for 20 seconds on use Possessed by Spirit Of The Boar for 20 seconds on use":[null,"Possessed by Spirit Of The Bear for 20 seconds on use Possessed by Spirit Of The Boar for 20 seconds on use "],
@@ -43547,6 +44475,11 @@
           "var":"HeavyStunned"
         }
       }]],
+  "Projectiles do one of the following at random:":[null,"Projectiles do one of the following at random: "],
+  "Projectiles do one of the following at random: Fork an additional time":[null,"Projectiles do one of the following at random: Fork an additional time "],
+  "Projectiles do one of the following at random: Fork an additional time Chain an additional time":[null,"Projectiles do one of the following at random: Fork an additional time Chain an additional time "],
+  "Projectiles do one of the following at random: Fork an additional time Chain an additional time Chain from Terrain an additional time":[null,"Projectiles do one of the following at random: Fork an additional time Chain an additional time Chain from Terrain an additional time "],
+  "Projectiles do one of the following at random: Fork an additional time Chain an additional time Chain from Terrain an additional time Cannot collide with targets":[null,"Projectiles do one of the following at random: Fork an additional time Chain an additional time Chain from Terrain an additional time Cannot collide with targets "],
   "Projectiles from Spells cannot Pierce":[[{
         "flags":2,
         "keywordFlags":0,
@@ -43554,6 +44487,19 @@
         "type":"FLAG",
         "value":true
       }]],
+  "Projectiles have 10% chance for an additional Projectile when Forking per 10 Tribute":[[{
+        "flags":1024,
+        "keywordFlags":0,
+        "name":"ProjectileCount",
+        "type":"BASE",
+        "value":10,
+        "1":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      }]," for an additional  when Forking  "],
   "Projectiles have 10% chance to Chain an additional time from terrain":[[{
         "flags":1024,
         "keywordFlags":0,
@@ -43702,6 +44648,7 @@
           "type":"PercentStat"
         }
       }]],
+  "Recover 1% of maximum Life on Kill per 50 Tribute":[null,"Recover 1% of maximum Life on Kill per 50 Tribute "],
   "Recover 1% of maximum Life per Glory consumed":[null,"Recover 1% of maximum Life per Glory consumed "],
   "Recover 1% of maximum Mana on Kill":[[{
         "flags":0,
@@ -43715,6 +44662,7 @@
           "type":"PercentStat"
         }
       }]],
+  "Recover 1% of maximum Mana on Kill per 50 Tribute":[null,"Recover 1% of maximum Mana on Kill per 50 Tribute "],
   "Recover 10% of Missing Life before being Hit by an Enemy":[null,"Recover 10% of Missing Life before being Hit by an Enemy "],
   "Recover 10% of Missing Life before being Hit by an Enemy Recover 20% of Missing Life before being Hit by an Enemy":[null,"Recover 10% of Missing Life before being Hit by an Enemy Recover 20% of Missing Life before being Hit by an Enemy "],
   "Recover 10% of maximum Mana when a Charm is used":[null,"Recover 10% of maximum Mana when a Charm is used "],
@@ -43823,7 +44771,7 @@
         }
       }]],
   "Reflects opposite Ring":[[]],
-  "Regenerate (0.7-1.2)% of Life per second":[null,"Regenerate (0.7-1.2)% of Life per second "],
+  "Regenerate (0.7-1.2)% of maximum Life per second":[null,"Regenerate (0.7-1.2)% of maximum Life per second "],
   "Regenerate 0.05 Life per second per Maximum Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -43867,6 +44815,18 @@
         "name":"LifeRegenPercent",
         "type":"BASE",
         "value":0.75
+      }]],
+  "Regenerate 1 Life per second per 8 Life spent in the past 8 seconds":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeRegen",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "div":8,
+          "type":"Multiplier",
+          "var":"LifeSpentPast8s"
+        }
       }]],
   "Regenerate 1% of maximum Life per Second if you've used a Life Flask in the past 10 seconds":[[{
         "flags":0,
@@ -43919,13 +44879,6 @@
           "var":"HaveTotem"
         }
       }]],
-  "Regenerate 1.5% of Life per second":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LifeRegenPercent",
-        "type":"BASE",
-        "value":1.5
-      }]],
   "Regenerate 1.5% of maximum Life per Second if you've used a Life Flask in the past 10 seconds":[[{
         "flags":0,
         "keywordFlags":0,
@@ -43936,6 +44889,13 @@
           "type":"Condition",
           "var":"UsingLifeFlask"
         }
+      }]],
+  "Regenerate 1.5% of maximum Life per second":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeRegenPercent",
+        "type":"BASE",
+        "value":1.5
       }]],
   "Regenerate 1.5% of maximum Life per second while on Low Life":[[{
         "flags":0,
@@ -44089,6 +45049,7 @@
   "Remnants can be collected from 15% further away":[null,"Remnants can be collected from 15% further away "],
   "Remnants can be collected from 30% further away":[null,"Remnants can be collected from 30% further away "],
   "Remnants have 10% increased effect":[null,"Remnants have 10% increased effect "],
+  "Remnants have 2% increased effect per 10 Tribute":[null,"Remnants have 2% increased effect per 10 Tribute "],
   "Remnants you create reappear once, 3 seconds after being collected":[null,"Remnants you create reappear once, 3 seconds after being collected "],
   "Remove Ignite when you Warcry":[null,"Remove Ignite when you Warcry "],
   "Remove a Curse when you use a Mana Flask":[null,"Remove a Curse when you use a Mana Flask "],
@@ -44455,24 +45416,6 @@
   "Spells fire Projectiles in a circle":[null,"Projectiles in a circle "],
   "Spells have a 25% chance to inflict Withered for 4 seconds on Hit":[[]," to inflict Withered   "],
   "Strength can satisfy other Attribute Requirements of Melee Weapons and Melee Skills":[null,"Strength can satisfy other Attribute Requirements of Melee Weapons and Melee Skills "],
-  "Strength's inherent bonus is 1% increased Energy Shield per 2 Strength instead":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnergyShield",
-        "type":"INC",
-        "value":1,
-        "1":{
-          "div":"2",
-          "stat":"Str",
-          "type":"PerStat"
-        }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"NoStrBonusToLife",
-        "type":"FLAG",
-        "value":true
-      }]],
   "Strikes deal Splash damage to targets within 1.5 metres":[null,"Strikes deal Splash damage to targets within 1.5 metres "],
   "Strikes deal Splash damage to targets within 1.5 metres 172% increased Physical Damage":[null,"Strikes deal Splash damage to targets within 1.5 metres 172% increased Physical Damage "],
   "Strikes deal Splash damage to targets within 1.5 metres Adds 35 to 50 Physical Damage":[[{
@@ -44777,6 +45720,25 @@
           "var":"LeechingMana"
         }
       }]],
+  "Undead Minions have 25% less maximum Life":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Life",
+            "type":"MORE",
+            "value":-25
+          }
+        },
+        "1":{
+          "skillType":127,
+          "type":"SkillType"
+        }
+      }]],
   "Unlimited number of Summoned Totems":[null,"Unlimited number of Summoned Totems "],
   "Unlimited number of Summoned Totems Totems reserve 75 Spirit each":[null,"Unlimited number of Summoned Totems Totems reserve 75 Spirit each "],
   "Unwavering Stance":[[{
@@ -44814,8 +45776,13 @@
   "Used when you take Lightning damage from a Hit":[null,"Used when you take Lightning damage from a Hit "],
   "Used when you take Lightning damage from a Hit 40% increased Charges gained":[null,"Used when you take Lightning damage from a Hit 40% increased Charges gained "],
   "Volatile Power also grants 1% increased Critical Hit chance per Volatility exploded":[null,"Volatile Power also grants 1% increased Critical Hit chance per Volatility exploded "],
-  "Warcries Debilitate Enemies":[null,"Warcries Debilitate Enemies "],
-  "Warcries Debilitate Enemies Warcry Skills have 25% increased Area of Effect":[null,"Warcries Debilitate Enemies Warcry Skills have 25% increased Area of Effect "],
+  "Warcries Debilitate Enemies":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DebilitateChance",
+        "type":"BASE",
+        "value":100
+      }]],
   "Warcries Empower an additional Attack":[null,"Warcries Empower an additional Attack "],
   "Warcries Explode Corpses dealing 10% of their Life as Physical Damage":[[{
         "flags":0,
@@ -44886,6 +45853,19 @@
   "When a Banner expires, recover 15% of the Glory required for that Banner":[null,"When a Banner expires, recover 15% of the Glory required for that Banner "],
   "When a Party Member in your Presence Casts a Spell, you":[null,"When a Party Member in your Presence Casts a Spell, you "],
   "When a Party Member in your Presence Casts a Spell, you Sacrifice 20% of Mana and they Leech that Mana":[null,"When a Party Member in your Presence Casts a Spell, you Sacrifice 20% of Mana and they Leech that Mana "],
+  "When taking damage from Hits, 20% of Life Loss is prevented, then 150% of Life Loss prevented this way is Lost over 4 seconds":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeLossPrevented",
+        "type":"BASE",
+        "value":20
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeLossLost",
+        "type":"BASE",
+        "value":"150"
+      }]],
   "When you Consume a Charge Trigger Chaotic Surge to gain 2 Chaos Surges":[null,"When you Consume a Charge Trigger Chaotic Surge to gain 2 Chaos Surges "],
   "When you Consume a Charge Trigger Chaotic Surge to gain 2 Chaos Surges Life Leech recovers based on your Chaos damage instead of Physical damage":[null,"When you Consume a Charge Trigger Chaotic Surge to gain 2 Chaos Surges Life Leech recovers based on your Chaos damage instead of Physical damage "],
   "When you Consume a Frenzy Charge Trigger Elemental Surge to gain 3 Lightning Surges":[null,"When you Consume a Frenzy Charge Trigger Elemental Surge to gain 3 Lightning Surges "],
@@ -44901,7 +45881,7 @@
   "When you Leech Life from a Hit, Allies in your Presence also Leech the same amount of Life":[null,"When you Leech Life from a Hit, also Leech the same amount of Life "],
   "When you reload, triggers Gemini Surge to alternately":[null,"When you reload, triggers Gemini Surge to alternately "],
   "When you reload, triggers Gemini Surge to alternately gain 6 Cold Surges or 6 Fire Surges":[null,"When you reload, triggers Gemini Surge to alternately gain 6 Cold Surges or 6 Fire Surges "],
-  "While not on Full Life, Sacrifice 1% of Mana per Second to Recover that much Life":[[{
+  "While not on Full Life, Sacrifice 1% of maximum Mana per Second to Recover that much Life":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"ManaDegenPercent",
@@ -45095,6 +46075,8 @@
         "type":"BASE",
         "value":0.35
       }]],
+  "You deal 1% more Damage per 2 total Power of your Undead Minions":[null,"You deal 1% more Damage per 2 total Power of your Undead Minions "],
+  "You deal 1% more Damage per 2 total Power of your Undead Minions Undead Minions have 25% less maximum Life":[null,"You deal 1% more Damage per 2 total Power of your Undead Minions Undead Minions have 25% less maximum Life "],
   "You gain Onslaught for 4 seconds on Kill":[[{
         "flags":0,
         "keywordFlags":0,
@@ -45235,13 +46217,6 @@
         "type":"BASE",
         "value":5
       }]],
-  "You take 50% of Damage from Blocked Hits":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"BlockEffect",
-        "type":"BASE",
-        "value":50
-      }]],
   "You take 50% of damage from Blocked Hits":[[{
         "flags":0,
         "keywordFlags":0,
@@ -45310,6 +46285,8 @@
         "value":true
       }]],
   "Your Energy Shield Recharge starts when your Minions are Reformed":[null,"Your Energy Shield Recharge starts when your Minions are Reformed "],
+  "Your Heavy Stun buildup empties 1% faster per 10 Tribute":[null,"Your Heavy Stun buildup empties 1% faster per 10 Tribute "],
+  "Your Heavy Stun buildup empties 1% faster per 10 Tribute 5% increased Defences from Equipped Shield per 25 Tribute":[null,"Your Heavy Stun buildup empties 1% faster per 10 Tribute 5% increased Defences from Equipped Shield per 25 Tribute "],
   "Your Heavy Stun buildup empties 50% faster":[null,"Your Heavy Stun buildup empties 50% faster "],
   "Your Heavy Stun buildup empties 50% faster if you've successfully Parried Recently":[null,"Your Heavy Stun buildup empties 50% faster if you've successfully Parried Recently "],
   "Your Hits are Crushing Blows":[null,"Your Hits are Crushing Blows "],
@@ -45320,8 +46297,30 @@
         "type":"BASE",
         "value":-50
       }]],
-  "Your Hits cannot be Evaded by Heavy Stunned Enemies":[null,"Your Hits cannot be Evaded by Heavy Stunned Enemies "],
-  "Your Hits cannot be Evaded by Pinned Enemies":[null,"Your Hits cannot be Evaded by Pinned Enemies "],
+  "Your Hits cannot be Evaded by Heavy Stunned Enemies":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CannotBeEvaded",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"HeavyStunned"
+        }
+      }]],
+  "Your Hits cannot be Evaded by Pinned Enemies":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CannotBeEvaded",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"Pinned"
+        }
+      }]],
   "Your Life Flask also applies to your Minions":[null,"Your Life Flask also applies to your Minions "],
   "Your Life Flask also applies to your Minions Minions cannot Die while affected by a Life Flask":[null,"Your Life Flask also applies to your Minions Minions cannot Die while affected by a Life Flask "],
   "Your Life cannot change while you have Energy Shield":[[{
@@ -45366,9 +46365,6 @@
         "value":true
       }]],
   "additional Elemental Infusion of the same type":[null,"additional Elemental Infusion of the same type "],
-  "apply to Energy Shield Recharge Rate":[null,"apply to Energy Shield Recharge Rate "],
-  "apply to Energy Shield Recharge Rate Gain 50% of Maximum Mana as Armour":[null,"apply to Energy Shield Recharge Rate Gain 50% of Maximum Mana as Armour "],
-  "every different Grenade fired in the past 8 seconds":[null,"every different Grenade fired in the past 8 seconds "],
   "for 4 seconds, every 0.25 seconds while raised":[null,"for 4 seconds, every 0.25 seconds while raised "],
   "gain 6 Cold Surges or 6 Fire Surges":[[]," Cold Surges or 6 Fire Surges "],
   "the enemy's Power for 6 seconds, up to a total of 500":[null,"the enemy's Power for 6 seconds, up to a total of 500 "],

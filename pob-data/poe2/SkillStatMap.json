@@ -3612,6 +3612,13 @@
         "type":"GlobalEffect"
       }
     }],
+  "generic_ongoing_triggerer_is_invocation_skill":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Condition:InvocationSkill",
+      "type":"FLAG",
+      "value":true
+    }],
   "global_always_hit":[{
       "flags":0,
       "keywordFlags":0,
