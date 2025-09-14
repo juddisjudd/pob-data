@@ -23921,6 +23921,21 @@
           "spell":true,
           "summonBeast":true
         },
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"MinionModifier",
+            "type":"LIST",
+            "value":{
+              "mod":{
+                "flags":0,
+                "keywordFlags":0,
+                "name":"Damage",
+                "type":"MORE",
+                "value":25
+              }
+            }
+          }],
         "constantStats":[["minion_base_resummon_time_ms",12000]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Minion Info",

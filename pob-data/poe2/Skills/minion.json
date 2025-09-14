@@ -919,7 +919,7 @@
       },{
         "baseFlags":{
           "area":true,
-          "hit":true
+          "attack":true
         },
         "constantStats":[["active_skill_base_area_of_effect_radius",14],["active_skill_base_secondary_area_of_effect_radius",20],["command_minion_marker_additional_time_ms",300],["active_skill_base_physical_damage_%_to_convert_to_fire",100]],
         "incrementalEffectiveness":0.054999999701977,

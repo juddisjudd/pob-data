@@ -58830,6 +58830,21 @@
           "spectre":true,
           "spell":true
         },
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"MinionModifier",
+            "type":"LIST",
+            "value":{
+              "mod":{
+                "flags":0,
+                "keywordFlags":0,
+                "name":"Damage",
+                "type":"MORE",
+                "value":25
+              }
+            }
+          }],
         "constantStats":[["minion_base_resummon_time_ms",12000],["spectre_warp_start_distance",100],["spectre_warp_end_distance",30],["spectre_warp_speed_override",100]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Minion Info",
