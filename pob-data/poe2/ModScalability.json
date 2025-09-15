@@ -1864,9 +1864,6 @@
   "#% chance for Cold Snap and Creeping Frost to Sap Enemies in Chilling Areas":[{
       "isScalable":true
     }],
-  "#% chance for Crossbow Attacks to not consume a bolt":[{
-      "isScalable":true
-    }],
   "#% chance for Damage of Enemies Hitting you to be Lucky":[{
       "formats":["negate"],
       "isScalable":true
@@ -3994,9 +3991,6 @@
   "#% chance to not consume Sextant Uses":[{
       "isScalable":false
     }],
-  "#% chance to not consume a bolt if you've Reloaded Recently":[{
-      "isScalable":true
-    }],
   "#% chance to not destroy Corpses when Consuming Corpses":[{
       "isScalable":true
     }],
@@ -4659,12 +4653,6 @@
   "#% increased Attack Damage per Summoned Totem in your Presence":[{
       "isScalable":true
     }],
-  "#% increased Attack Damage when on Full Life":[{
-      "isScalable":true
-    }],
-  "#% increased Attack Damage when on Low Life":[{
-      "isScalable":true
-    }],
   "#% increased Attack Damage while Channelling":[{
       "isScalable":true
     }],
@@ -4687,6 +4675,12 @@
       "isScalable":true
     }],
   "#% increased Attack Damage while not on Low Mana":[{
+      "isScalable":true
+    }],
+  "#% increased Attack Damage while on Full Life":[{
+      "isScalable":true
+    }],
+  "#% increased Attack Damage while on Low Life":[{
       "isScalable":true
     }],
   "#% increased Attack Damage while you have an Ally in your Presence":[{
@@ -5719,10 +5713,10 @@
   "#% increased Critical Hit Chance against Enemies on Consecrated Ground while affected by Zealotry":[{
       "isScalable":true
     }],
-  "#% increased Critical Hit Chance against Enemies on Full Life":[{
+  "#% increased Critical Hit Chance against Enemies that are affected\nby no Elemental Ailments":[{
       "isScalable":true
     }],
-  "#% increased Critical Hit Chance against Enemies that are affected\nby no Elemental Ailments":[{
+  "#% increased Critical Hit Chance against Enemies that are on Full Life":[{
       "isScalable":true
     }],
   "#% increased Critical Hit Chance against Enemies that have entered your Presence Recently":[{
@@ -12600,14 +12594,6 @@
   "#% reduced Attack Damage per Summoned Totem in your Presence":[{
       "isScalable":true
     }],
-  "#% reduced Attack Damage when on Full Life":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "#% reduced Attack Damage when on Low Life":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
   "#% reduced Attack Damage while Channelling":[{
       "formats":["negate"],
       "isScalable":true
@@ -12637,6 +12623,14 @@
       "isScalable":true
     }],
   "#% reduced Attack Damage while not on Low Mana":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Attack Damage while on Full Life":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Attack Damage while on Low Life":[{
       "formats":["negate"],
       "isScalable":true
     }],
@@ -13875,11 +13869,11 @@
       "formats":["negate"],
       "isScalable":true
     }],
-  "#% reduced Critical Hit Chance against Enemies on Full Life":[{
+  "#% reduced Critical Hit Chance against Enemies that are affected\nby no Elemental Ailments":[{
       "formats":["negate"],
       "isScalable":true
     }],
-  "#% reduced Critical Hit Chance against Enemies that are affected\nby no Elemental Ailments":[{
+  "#% reduced Critical Hit Chance against Enemies that are on Full Life":[{
       "formats":["negate"],
       "isScalable":true
     }],
@@ -17302,7 +17296,7 @@
       "isScalable":true
     }],
   "#% reduced Mana Reservation Efficiency of Curse Aura Skills":[{
-      "formats":["negate"],
+      "formats":["double"],
       "isScalable":true
     }],
   "#% reduced Mana Reservation Efficiency of Herald Skills":[{
@@ -23010,6 +23004,12 @@
   "Body Armour grants Unaffected by Ignite":[],
   "Body Armour grants regenerate #% of maximum Life per second":[{
       "formats":["per_minute_to_per_second"],
+      "isScalable":true
+    }],
+  "Bolts fired by Crossbow Attacks have #% chance to not\nexpend Ammunition if you've Reloaded Recently":[{
+      "isScalable":true
+    }],
+  "Bolts fired by Crossbow Attacks have #% chance to not expend Ammunition":[{
       "isScalable":true
     }],
   "Bone Offering grants an additional #% Chance to Block Attack Damage":[{
@@ -29538,6 +29538,8 @@
   "Leeches #% of maximum Life when you Cast a Spell":[{
       "isScalable":true
     }],
+  "Leeching Life from your Hits causes Allies in your Presence to also Leech the same amount of Life":[],
+  "Leeching Life from your Hits causes your Companion to also Leech the same amount of Life":[],
   "Left Ring Slot: Your Chilling Skitterbot's Aura applies Socketed Hex Curse instead":[],
   "Left Ring slot: Cover Enemies in Ash for # seconds when you Ignite them":[{
       "isScalable":true
@@ -29638,7 +29640,6 @@
   "Life Leech can Overflow Maximum Life":[],
   "Life Leech effects are not removed when Unreserved Life is Filled":[],
   "Life Leech from Hits with this Weapon is instant":[],
-  "Life Leech from your Hits also applies to your Companion":[],
   "Life Leech is Converted to Energy Shield Leech":[],
   "Life Leech is instant":[],
   "Life Leech is instant during Effect":[],
@@ -33250,7 +33251,7 @@
       "isScalable":true
     }],
   "Purity of Fire has #% reduced Mana Reservation Efficiency":[{
-      "formats":["negate"],
+      "formats":["double"],
       "isScalable":true
     }],
   "Purity of Fire has #% reduced Reservation":[{
@@ -35155,6 +35156,9 @@
   "Skills deal #% increased Damage per Combo consumed, up to 40%":[{
       "isScalable":true
     }],
+  "Skills deal #% increased Damage per Connected red Support Gem":[{
+      "isScalable":true
+    }],
   "Skills deal #% less Damage for each Warcry Empowering them":[{
       "formats":["negate"],
       "isScalable":true
@@ -35167,6 +35171,10 @@
       "isScalable":true
     }],
   "Skills deal #% reduced Damage per Combo consumed, up to 40%":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "Skills deal #% reduced Damage per Connected red Support Gem":[{
       "formats":["negate"],
       "isScalable":true
     }],
@@ -35201,28 +35209,7 @@
       "isScalable":true
     }],
   "Skills from Equipped Helmet Penetrate 20% Elemental Resistances":[],
-  "Skills gain #% increased Critical Hit Chance per socketed blue Support Gem":[{
-      "isScalable":true
-    }],
-  "Skills gain #% increased Damage per socketed red Support Gem":[{
-      "isScalable":true
-    }],
-  "Skills gain #% increased Skill Speed per socketed green Support Gem":[{
-      "isScalable":true
-    }],
   "Skills gain #% of Damage as Chaos Damage per 3 Life Cost":[{
-      "isScalable":true
-    }],
-  "Skills gain #% reduced Critical Hit Chance per socketed blue Support Gem":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "Skills gain #% reduced Damage per socketed red Support Gem":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "Skills gain #% reduced Skill Speed per socketed green Support Gem":[{
-      "formats":["negate"],
       "isScalable":true
     }],
   "Skills gain 1 Glory every # second for each Rare or Unique monster in your Presence":[{
@@ -35255,6 +35242,20 @@
       "isScalable":true
     }],
   "Skills have #% chance to not remove Power Charges but still count as consuming them":[{
+      "isScalable":true
+    }],
+  "Skills have #% increased Critical Hit Chance per Connected blue Support Gem":[{
+      "isScalable":true
+    }],
+  "Skills have #% increased Skill Speed per Connected green Support Gem":[{
+      "isScalable":true
+    }],
+  "Skills have #% reduced Critical Hit Chance per Connected blue Support Gem":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "Skills have #% reduced Skill Speed per Connected green Support Gem":[{
+      "formats":["negate"],
       "isScalable":true
     }],
   "Skills have a #% chance to not consume Glory":[{
@@ -38576,7 +38577,6 @@
   "When you Kill an Enemy, for each Curse on that Enemy, gain #%\nof Non-Chaos Damage as extra Chaos Damage for 4 seconds":[{
       "isScalable":true
     }],
-  "When you Leech Life from a Hit, Allies in your Presence also Leech the same amount of Life":[],
   "When you Warcry, you and nearby Allies gain Onslaught for 4 seconds":[],
   "When you create a Banner, it gains #% of the Stages of your placed Banner":[{
       "isScalable":true
@@ -39709,10 +39709,10 @@
     }],
   "Your Critical Hits with Attacks Maim Enemies":[],
   "Your Curse Limit is equal to your maximum Power Charges":[],
-  "Your Curses have #% increased Effect if 50% of Curse Duration expired":[{
+  "Your Curses have #% increased Magnitudes if 50% of Curse Duration expired":[{
       "isScalable":true
     }],
-  "Your Curses have #% reduced Effect if 50% of Curse Duration expired":[{
+  "Your Curses have #% reduced Magnitudes if 50% of Curse Duration expired":[{
       "formats":["negate"],
       "isScalable":true
     }],

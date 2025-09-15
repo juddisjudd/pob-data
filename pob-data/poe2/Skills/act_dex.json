@@ -1651,6 +1651,7 @@
     "statSets":[{
         "baseEffectiveness":2.2999999523163,
         "baseFlags":{
+          "area":true,
           "nonWeaponAttack":true
         },
         "constantStats":[["active_skill_base_area_of_effect_radius",26],["hunters_mark_explosion_area_of_effect_+%_final_from_buildup",100],["chance_to_trigger_hunters_mark_explosion_%",100],["hunters_mark_buildup_%_as_explosion_damage_+%_final",100]],
@@ -1859,7 +1860,7 @@
           }],
         "notMinionStat":["main_hand_weapon_minimum_physical_damage","main_hand_weapon_maximum_physical_damage"],
         "statDescriptionScope":"hunters_mark_explosion",
-        "stats":["main_hand_weapon_minimum_physical_damage","main_hand_weapon_maximum_physical_damage","display_statset_hide_usage_stats","replace_main_hand_unarmed_attack_stats_with_nothing_type","base_skill_show_average_damage_instead_of_dps","cannot_cause_bleeding","triggerable_in_any_set"]
+        "stats":["main_hand_weapon_minimum_physical_damage","main_hand_weapon_maximum_physical_damage","display_statset_hide_usage_stats","replace_main_hand_unarmed_attack_stats_with_nothing_type","base_skill_show_average_damage_instead_of_dps","cannot_cause_bleeding","triggerable_in_any_set","is_area_damage"]
       }]
   },
   "BloodhoundsMarkPlayer":{
@@ -10052,7 +10053,7 @@
           }],
         "statDescriptionScope":"herald_of_agony",
         "statMap":{
-          "herald_of_agony_poison_on_enemies_you_kill_spread_to_enemies_within_x":[{
+          "herald_of_agony_poison_spread_on_kill_radius_base_magnitude_to_grant":[{
               "flags":0,
               "keywordFlags":0,
               "name":"PoisonProlifRange",
@@ -10064,7 +10065,7 @@
               }
             }]
         },
-        "stats":["herald_of_agony_poison_on_enemies_you_kill_spread_to_enemies_within_x","hinder_chance_%_on_spreading_poioson","base_deal_no_damage"]
+        "stats":["herald_of_agony_poison_spread_on_kill_radius_base_magnitude_to_grant","hinder_chance_%_on_spreading_poioson","base_deal_no_damage"]
       }],
     "weaponTypes":{
       "Bow":true,
@@ -26541,7 +26542,12 @@
           }],
         "statDescriptionScope":"toxic_domain_statset_1",
         "stats":["toxic_domain_+1%_final_more_damage_per_x_stored_poison","toxic_domain_+1%_final_more_damage_per_x_stored_poison","can_perform_skill_while_moving","is_area_damage","skill_no_cost_or_reservation"]
-      }]
+      }],
+    "weaponTypes":{
+      "Bow":true,
+      "Crossbow":true,
+      "Spear":true
+    }
   },
   "ToxicGrowthPlayer":{
     "baseTypeName":"Toxic Growth",
@@ -27096,9 +27102,10 @@
             "3":45395
           }],
         "statDescriptionScope":"poisonbloom_arrow_statset_0",
-        "stats":["poisonbloom_arrow_bloom_burst_1%_more_damage_per_x_stored_poison","poisonbloom_arrow_duration_expires_1%_faster_per_x_stored_poison_damage","poisonbloom_arrow_burst_base_radius_+1_per_x_stored_poison","base_is_projectile","skill_can_fire_arrows","can_perform_skill_while_moving","has_modular_projectiles_enabled","projectiles_fire_at_ground","disable_visual_hit_effect","quality_display_base_number_of_projectiles_is_gem"]
+        "stats":["poisonbloom_arrow_bloom_burst_1%_more_damage_per_x_stored_poison","poisonbloom_arrow_duration_expires_1%_faster_per_x_stored_poison_damage","poisonbloom_arrow_burst_base_radius_+1_per_x_stored_poison","base_is_projectile","skill_can_fire_arrows","can_perform_skill_while_moving","has_modular_projectiles_enabled","projectiles_fire_at_ground","disable_visual_hit_effect","quality_display_base_number_of_projectiles_is_gem","is_area_damage"]
       },{
         "baseFlags":{
+          "area":true,
           "attack":true,
           "projectile":true
         },
@@ -27386,7 +27393,7 @@
             "3":45395
           }],
         "statDescriptionScope":"poisonbloom_arrow_statset_1",
-        "stats":["poisonbloom_arrow_bloom_burst_1%_more_damage_per_x_stored_poison","poisonbloom_arrow_duration_expires_1%_faster_per_x_stored_poison_damage","poisonbloom_arrow_burst_base_radius_+1_per_x_stored_poison","base_is_projectile","skill_can_fire_arrows","can_perform_skill_while_moving","has_modular_projectiles_enabled","projectiles_fire_at_ground","disable_visual_hit_effect","quality_display_base_number_of_projectiles_is_gem","display_statset_hide_usage_stats"]
+        "stats":["poisonbloom_arrow_bloom_burst_1%_more_damage_per_x_stored_poison","poisonbloom_arrow_duration_expires_1%_faster_per_x_stored_poison_damage","poisonbloom_arrow_burst_base_radius_+1_per_x_stored_poison","base_is_projectile","skill_can_fire_arrows","can_perform_skill_while_moving","has_modular_projectiles_enabled","projectiles_fire_at_ground","disable_visual_hit_effect","quality_display_base_number_of_projectiles_is_gem","is_area_damage","display_statset_hide_usage_stats"]
       }],
     "weaponTypes":{
       "Bow":true
@@ -28195,6 +28202,7 @@
     "statSets":[{
         "baseEffectiveness":1.8600000143051,
         "baseFlags":{
+          "area":true,
           "nonWeaponAttack":true
         },
         "constantStats":[["active_skill_base_area_of_effect_radius",26],["active_skill_shock_chance_+%_final",200]],
@@ -28402,7 +28410,7 @@
             "2":1093
           }],
         "statDescriptionScope":"voltaic_mark_nova",
-        "stats":["main_hand_weapon_minimum_lightning_damage","main_hand_weapon_maximum_lightning_damage","triggered_by_thaumaturgist_mark","replace_main_hand_unarmed_attack_stats_with_nothing_type","display_statset_hide_usage_stats","triggerable_in_any_set"]
+        "stats":["main_hand_weapon_minimum_lightning_damage","main_hand_weapon_maximum_lightning_damage","triggered_by_thaumaturgist_mark","replace_main_hand_unarmed_attack_stats_with_nothing_type","display_statset_hide_usage_stats","triggerable_in_any_set","is_area_damage"]
       }]
   },
   "TriggeredWindDancerPlayer":{
@@ -31078,6 +31086,7 @@
         "stats":["base_is_projectile","projectile_uses_contact_position","projectile_uses_contact_direction","check_for_targets_between_initiator_and_projectile_source","can_perform_skill_while_moving","has_modular_projectiles_enabled","quality_display_sandstorm_swipe_is_gem"]
       },{
         "baseFlags":{
+          "area":true,
           "attack":true,
           "duration":true,
           "melee":true
@@ -31231,7 +31240,7 @@
               }
             }]
         },
-        "stats":["projectile_uses_contact_position","projectile_uses_contact_direction","check_for_targets_between_initiator_and_projectile_source","can_perform_skill_while_moving","has_modular_projectiles_enabled","quality_display_sandstorm_swipe_is_gem","visual_hit_effect_physical_is_wind","display_statset_hide_usage_stats","base_skill_show_average_damage_instead_of_dps"]
+        "stats":["projectile_uses_contact_position","projectile_uses_contact_direction","check_for_targets_between_initiator_and_projectile_source","can_perform_skill_while_moving","has_modular_projectiles_enabled","quality_display_sandstorm_swipe_is_gem","visual_hit_effect_physical_is_wind","display_statset_hide_usage_stats","base_skill_show_average_damage_instead_of_dps","is_area_damage"]
       }],
     "weaponTypes":{
       "Spear":true

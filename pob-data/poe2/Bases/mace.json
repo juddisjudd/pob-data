@@ -767,8 +767,8 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "level":46,
-      "str":82
+      "level":45,
+      "str":80
     },
     "socketLimit":3,
     "tags":{
@@ -783,7 +783,7 @@
     "weapon":{
       "AttackRateBase":1.45,
       "CritChanceBase":6.5,
-      "PhysicalMax":50,
+      "PhysicalMax":49,
       "PhysicalMin":33,
       "Range":11
     }
@@ -842,8 +842,8 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "level":46,
-      "str":82
+      "level":45,
+      "str":80
     },
     "socketLimit":4,
     "tags":{
@@ -858,8 +858,8 @@
     "weapon":{
       "AttackRateBase":1.1,
       "CritChanceBase":6.5,
-      "PhysicalMax":104,
-      "PhysicalMin":69,
+      "PhysicalMax":102,
+      "PhysicalMin":68,
       "Range":13
     }
   },

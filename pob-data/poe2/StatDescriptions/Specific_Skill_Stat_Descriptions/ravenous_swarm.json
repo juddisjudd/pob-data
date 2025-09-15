@@ -2,10 +2,10 @@
   "active_skill_area_of_effect_radius":1,
   "active_skill_base_area_of_effect_radius":2,
   "base_skill_effect_duration":3,
+  "minion_duration":4,
   "parent":"skill_stat_descriptions",
-  "ravenous_swarm_create_new_swarm_every_X_ms":4,
-  "ravenous_swarm_maximum_swarm_count":5,
-  "skill_effect_duration":6,
+  "ravenous_swarm_create_new_swarm_every_X_ms":5,
+  "ravenous_swarm_maximum_swarm_count":6,
   "1":{
     "stats":["active_skill_area_of_effect_radius"],
     "1":[]
@@ -48,6 +48,10 @@
       }]
   },
   "4":{
+    "stats":["minion_duration"],
+    "1":[]
+  },
+  "5":{
     "stats":["ravenous_swarm_create_new_swarm_every_X_ms"],
     "1":[{
         "limit":[[1000,1000]],
@@ -65,7 +69,7 @@
         }
       }]
   },
-  "5":{
+  "6":{
     "stats":["ravenous_swarm_maximum_swarm_count"],
     "1":[{
         "limit":[[1,1]],
@@ -74,9 +78,5 @@
         "limit":[[2,"#"]],
         "text":"Limit {0} active Swarms"
       }]
-  },
-  "6":{
-    "stats":["skill_effect_duration"],
-    "1":[]
   }
 }

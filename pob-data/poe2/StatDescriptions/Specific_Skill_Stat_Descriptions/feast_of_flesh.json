@@ -1,10 +1,10 @@
 {
   "active_skill_area_of_effect_radius":1,
   "active_skill_base_area_of_effect_radius":2,
-  "base_life_recovery_per_minute":3,
-  "base_mana_recovery_per_minute":3,
-  "feast_of_flesh_number_of_corpses":4,
-  "feast_of_flesh_regeneration_duration":3,
+  "feast_of_flesh_number_of_corpses":3,
+  "feast_of_flesh_recover_X_life_per_corpse_consumed":4,
+  "feast_of_flesh_recover_X_mana_per_corpse_consumed":4,
+  "feast_of_flesh_recovery_duration":4,
   "parent":"skill_stat_descriptions",
   "1":{
     "stats":["active_skill_area_of_effect_radius"],
@@ -29,24 +29,6 @@
       }]
   },
   "3":{
-    "stats":["base_life_recovery_per_minute","base_mana_recovery_per_minute","feast_of_flesh_regeneration_duration"],
-    "1":[{
-        "limit":[["#","#"],["#","#"],[1000,1000]],
-        "text":"Recover {0} Life and {1} Mana over {2} second per Corpse Consumed",
-        "1":{
-          "k":"milliseconds_to_seconds_2dp_if_required",
-          "v":3
-        }
-      },{
-        "limit":[["#","#"],["#","#"],["#","#"]],
-        "text":"Recover {0} Life and {1} Mana over {2} seconds per Corpse Consumed",
-        "1":{
-          "k":"milliseconds_to_seconds_2dp_if_required",
-          "v":3
-        }
-      }]
-  },
-  "4":{
     "stats":["feast_of_flesh_number_of_corpses"],
     "1":[{
         "gem_quality":true,
@@ -62,6 +44,24 @@
       },{
         "limit":[["#","#"]],
         "text":"Consumes up to {0} Corpses"
+      }]
+  },
+  "4":{
+    "stats":["feast_of_flesh_recover_X_life_per_corpse_consumed","feast_of_flesh_recover_X_mana_per_corpse_consumed","feast_of_flesh_recovery_duration"],
+    "1":[{
+        "limit":[["#","#"],["#","#"],[1000,1000]],
+        "text":"Recover {0} Life and {1} Mana over {2} second per Corpse Consumed",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":3
+        }
+      },{
+        "limit":[["#","#"],["#","#"],["#","#"]],
+        "text":"Recover {0} Life and {1} Mana over {2} seconds per Corpse Consumed",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":3
+        }
       }]
   }
 }

@@ -6,6 +6,7 @@
   "living_lightning_beam_attack_time_ms":6,
   "living_lightning_maximum_number_of_attacks":7,
   "minion_base_physical_damage_%_to_convert_to_lightning":5,
+  "minion_duration":8,
   "parent":"skill_stat_descriptions",
   "1":{
     "stats":["chance_to_trigger_living_lightning_on_lightning_damage_%"],
@@ -86,5 +87,9 @@
         "limit":[[2,"#"]],
         "text":"Minions disperse after {0} Attacks"
       }]
+  },
+  "8":{
+    "stats":["minion_duration"],
+    "1":[]
   }
 }

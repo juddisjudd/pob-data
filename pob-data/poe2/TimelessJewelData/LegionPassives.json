@@ -52,7 +52,7 @@
           "index":1,
           "max":12,
           "min":7,
-          "statOrder":10043
+          "statOrder":10045
         }
       }
     },{
@@ -192,7 +192,7 @@
           "index":1,
           "max":14,
           "min":7,
-          "statOrder":9948
+          "statOrder":9950
         }
       }
     },{
@@ -401,7 +401,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":2124
+          "statOrder":2126
         }
       }
     },{
@@ -455,7 +455,7 @@
           "index":1,
           "max":4,
           "min":2,
-          "statOrder":3134
+          "statOrder":3136
         }
       }
     },{
@@ -469,7 +469,7 @@
           "index":1,
           "max":2,
           "min":2,
-          "statOrder":2256
+          "statOrder":2258
         }
       }
     },{
@@ -539,7 +539,7 @@
           "index":1,
           "max":2,
           "min":2,
-          "statOrder":9919
+          "statOrder":9921
         }
       }
     },{
@@ -553,7 +553,7 @@
           "index":1,
           "max":4,
           "min":4,
-          "statOrder":9919
+          "statOrder":9921
         }
       }
     },{
@@ -567,7 +567,7 @@
           "index":1,
           "max":20,
           "min":20,
-          "statOrder":9919
+          "statOrder":9921
         }
       }
     },{
@@ -581,7 +581,7 @@
           "index":1,
           "max":5,
           "min":5,
-          "statOrder":9920
+          "statOrder":9922
         }
       }
     },{
@@ -622,7 +622,7 @@
           "index":1,
           "max":5,
           "min":5,
-          "statOrder":5079
+          "statOrder":5081
         }
       }
     },{
@@ -650,7 +650,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":4553
+          "statOrder":4555
         }
       }
     },{
@@ -776,7 +776,7 @@
           "index":1,
           "max":20,
           "min":20,
-          "statOrder":10043
+          "statOrder":10045
         }
       }
     },{
@@ -790,7 +790,7 @@
           "index":1,
           "max":8,
           "min":8,
-          "statOrder":9703
+          "statOrder":9705
         }
       }
     },{
@@ -804,7 +804,7 @@
           "index":1,
           "max":12,
           "min":12,
-          "statOrder":2240
+          "statOrder":2242
         }
       }
     },{
@@ -832,7 +832,7 @@
           "index":1,
           "max":10,
           "min":10,
-          "statOrder":2226
+          "statOrder":2228
         }
       }
     },{
@@ -874,7 +874,7 @@
           "index":1,
           "max":5,
           "min":5,
-          "statOrder":2113
+          "statOrder":2115
         }
       }
     },{
@@ -888,7 +888,7 @@
           "index":1,
           "max":5,
           "min":5,
-          "statOrder":2283
+          "statOrder":2285
         }
       }
     },{
@@ -902,7 +902,7 @@
           "index":1,
           "max":10,
           "min":10,
-          "statOrder":5132
+          "statOrder":5134
         }
       }
     },{
@@ -916,7 +916,7 @@
           "index":1,
           "max":2,
           "min":2,
-          "statOrder":9921
+          "statOrder":9923
         }
       }
     },{
@@ -930,7 +930,7 @@
           "index":1,
           "max":4,
           "min":4,
-          "statOrder":9921
+          "statOrder":9923
         }
       }
     },{
@@ -944,7 +944,7 @@
           "index":1,
           "max":20,
           "min":20,
-          "statOrder":9921
+          "statOrder":9923
         }
       }
     },{
@@ -958,7 +958,7 @@
           "index":1,
           "max":5,
           "min":5,
-          "statOrder":9922
+          "statOrder":9924
         }
       }
     },{
@@ -1028,7 +1028,7 @@
           "index":1,
           "max":5,
           "min":5,
-          "statOrder":9957
+          "statOrder":9959
         }
       }
     },{
@@ -1098,7 +1098,7 @@
           "index":1,
           "max":25,
           "min":25,
-          "statOrder":9948
+          "statOrder":9950
         }
       }
     },{
@@ -1167,7 +1167,7 @@
           "index":1,
           "max":8,
           "min":8,
-          "statOrder":3134
+          "statOrder":3136
         }
       }
     },{
@@ -1223,7 +1223,7 @@
           "index":1,
           "max":10,
           "min":10,
-          "statOrder":8533
+          "statOrder":8536
         }
       }
     },{
@@ -1265,7 +1265,7 @@
           "index":1,
           "max":5,
           "min":5,
-          "statOrder":2285
+          "statOrder":2287
         }
       }
     },{
@@ -1279,7 +1279,7 @@
           "index":1,
           "max":8,
           "min":8,
-          "statOrder":2297
+          "statOrder":2299
         }
       }
     },{
@@ -1293,7 +1293,7 @@
           "index":1,
           "max":5,
           "min":5,
-          "statOrder":9916
+          "statOrder":9918
         }
       }
     },{
@@ -1307,7 +1307,7 @@
           "index":1,
           "max":5,
           "min":5,
-          "statOrder":9916
+          "statOrder":9918
         }
       }
     },{
@@ -1321,7 +1321,7 @@
           "index":1,
           "max":3,
           "min":3,
-          "statOrder":9917
+          "statOrder":9919
         }
       }
     }],
@@ -1361,7 +1361,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10079
+          "statOrder":10081
         }
       }
     },{
@@ -1392,7 +1392,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10083
+          "statOrder":10085
         }
       }
     },{
@@ -1576,7 +1576,7 @@
           "index":1,
           "max":12,
           "min":7,
-          "statOrder":10043
+          "statOrder":10045
         }
       }
     },{
@@ -1886,7 +1886,7 @@
           "index":1,
           "max":14,
           "min":7,
-          "statOrder":9948
+          "statOrder":9950
         }
       }
     },{
@@ -2350,7 +2350,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":2124
+          "statOrder":2126
         }
       }
     },{
@@ -2472,7 +2472,7 @@
           "index":1,
           "max":4,
           "min":2,
-          "statOrder":3134
+          "statOrder":3136
         }
       }
     },{
@@ -2503,7 +2503,7 @@
           "index":1,
           "max":2,
           "min":2,
-          "statOrder":2256
+          "statOrder":2258
         }
       }
     },{
@@ -2658,7 +2658,7 @@
           "index":2,
           "max":4,
           "min":2,
-          "statOrder":2602
+          "statOrder":2604
         },
         "fire_damage_+%":{
           "fmt":"d",
@@ -2771,7 +2771,7 @@
           "index":2,
           "max":4,
           "min":2,
-          "statOrder":2603
+          "statOrder":2605
         },
         "cold_damage_+%":{
           "fmt":"d",
@@ -2884,7 +2884,7 @@
           "index":2,
           "max":4,
           "min":2,
-          "statOrder":2604
+          "statOrder":2606
         },
         "lightning_damage_+%":{
           "fmt":"d",
@@ -2997,14 +2997,14 @@
           "index":2,
           "max":4,
           "min":2,
-          "statOrder":5079
+          "statOrder":5081
         },
         "physical_damage_+%":{
           "fmt":"d",
           "index":1,
           "max":35,
           "min":25,
-          "statOrder":10043
+          "statOrder":10045
         }
       }
     },{
@@ -3041,7 +3041,7 @@
           "index":1,
           "max":35,
           "min":25,
-          "statOrder":10043
+          "statOrder":10045
         }
       }
     },{
@@ -3079,7 +3079,7 @@
           "index":1,
           "max":35,
           "min":25,
-          "statOrder":10043
+          "statOrder":10045
         }
       }
     },{
@@ -3117,7 +3117,7 @@
           "index":2,
           "max":25,
           "min":25,
-          "statOrder":3944
+          "statOrder":3946
         }
       }
     },{
@@ -3457,7 +3457,7 @@
           "index":2,
           "max":7,
           "min":5,
-          "statOrder":9957
+          "statOrder":9959
         }
       }
     },{
@@ -3563,7 +3563,7 @@
           "index":1,
           "max":5,
           "min":5,
-          "statOrder":2124
+          "statOrder":2126
         },
         "life_gained_on_block":{
           "fmt":"d",
@@ -3607,7 +3607,7 @@
           "index":2,
           "max":30,
           "min":20,
-          "statOrder":9089
+          "statOrder":9092
         }
       }
     },{
@@ -3720,7 +3720,7 @@
           "index":1,
           "max":10,
           "min":7,
-          "statOrder":3134
+          "statOrder":3136
         }
       }
     },{
@@ -3751,14 +3751,14 @@
           "index":1,
           "max":6,
           "min":4,
-          "statOrder":2256
+          "statOrder":2258
         },
         "curse_skill_effect_duration_+%":{
           "fmt":"d",
           "index":2,
           "max":20,
           "min":20,
-          "statOrder":5478
+          "statOrder":5479
         }
       }
     },{
@@ -4017,7 +4017,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10109
+          "statOrder":10111
         }
       }
     },{
@@ -4048,7 +4048,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10086
+          "statOrder":10088
         }
       }
     },{
@@ -4079,7 +4079,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10085
+          "statOrder":10087
         }
       }
     },{
@@ -4140,7 +4140,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10099
+          "statOrder":10101
         }
       }
     },{
@@ -4171,7 +4171,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10106
+          "statOrder":10108
         }
       }
     },{
@@ -4202,7 +4202,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10075
+          "statOrder":10077
         }
       }
     },{
@@ -4233,7 +4233,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":9606
+          "statOrder":9608
         }
       }
     },{
@@ -4264,7 +4264,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10101
+          "statOrder":10103
         }
       }
     },{
@@ -4295,7 +4295,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10102
+          "statOrder":10104
         }
       }
     },{
@@ -4326,7 +4326,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10097
+          "statOrder":10099
         }
       }
     },{
@@ -4357,7 +4357,7 @@
           "index":1,
           "max":10,
           "min":10,
-          "statOrder":9916
+          "statOrder":9918
         }
       }
     },{
@@ -4388,7 +4388,7 @@
           "index":1,
           "max":15,
           "min":15,
-          "statOrder":8585
+          "statOrder":8588
         }
       }
     },{
@@ -4419,7 +4419,7 @@
           "index":1,
           "max":15,
           "min":15,
-          "statOrder":8583
+          "statOrder":8586
         }
       }
     },{
@@ -4450,7 +4450,7 @@
           "index":1,
           "max":15,
           "min":15,
-          "statOrder":8587
+          "statOrder":8590
         }
       }
     },{
@@ -4481,7 +4481,7 @@
           "index":1,
           "max":5,
           "min":5,
-          "statOrder":7394
+          "statOrder":7397
         }
       }
     },{
@@ -4543,7 +4543,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":8308
+          "statOrder":8311
         }
       }
     },{
@@ -4574,7 +4574,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":8314
+          "statOrder":8317
         }
       }
     },{
@@ -4605,7 +4605,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":8310
+          "statOrder":8313
         }
       }
     },{
@@ -4636,7 +4636,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":6738
+          "statOrder":6741
         }
       }
     },{
@@ -4667,7 +4667,7 @@
           "index":1,
           "max":5,
           "min":5,
-          "statOrder":8730
+          "statOrder":8733
         }
       }
     },{
@@ -4698,7 +4698,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":4072
+          "statOrder":4074
         }
       }
     },{
@@ -4729,7 +4729,7 @@
           "index":1,
           "max":10,
           "min":10,
-          "statOrder":6790
+          "statOrder":6793
         }
       }
     },{
@@ -4760,7 +4760,7 @@
           "index":1,
           "max":10,
           "min":10,
-          "statOrder":6787
+          "statOrder":6790
         }
       }
     },{
@@ -4791,7 +4791,7 @@
           "index":1,
           "max":10,
           "min":10,
-          "statOrder":6796
+          "statOrder":6799
         }
       }
     },{
@@ -4822,7 +4822,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10082
+          "statOrder":10084
         }
       }
     },{
@@ -4853,7 +4853,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10096
+          "statOrder":10098
         }
       }
     },{
@@ -4914,7 +4914,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10107
+          "statOrder":10109
         }
       }
     },{
@@ -4968,7 +4968,7 @@
           "index":1,
           "max":80,
           "min":80,
-          "statOrder":9948
+          "statOrder":9950
         }
       }
     },{
@@ -5061,7 +5061,7 @@
           "index":1,
           "max":8,
           "min":8,
-          "statOrder":8740
+          "statOrder":8743
         }
       }
     },{
@@ -5092,7 +5092,7 @@
           "index":1,
           "max":10,
           "min":10,
-          "statOrder":2801
+          "statOrder":2803
         }
       }
     },{
@@ -5185,7 +5185,7 @@
           "index":1,
           "max":10,
           "min":10,
-          "statOrder":2878
+          "statOrder":2880
         }
       }
     },{
@@ -5309,7 +5309,7 @@
           "index":1,
           "max":30,
           "min":30,
-          "statOrder":9995
+          "statOrder":9997
         }
       }
     },{
@@ -5371,7 +5371,7 @@
           "index":1,
           "max":30,
           "min":30,
-          "statOrder":10055
+          "statOrder":10057
         }
       }
     },{
@@ -5433,7 +5433,7 @@
           "index":1,
           "max":8,
           "min":8,
-          "statOrder":2124
+          "statOrder":2126
         }
       }
     },{
@@ -5555,7 +5555,7 @@
           "index":1,
           "max":12,
           "min":12,
-          "statOrder":3134
+          "statOrder":3136
         }
       }
     },{
@@ -5741,7 +5741,7 @@
           "index":1,
           "max":80,
           "min":80,
-          "statOrder":5259
+          "statOrder":5261
         }
       }
     },{
@@ -5772,7 +5772,7 @@
           "index":1,
           "max":80,
           "min":80,
-          "statOrder":6975
+          "statOrder":6978
         }
       }
     },{
@@ -5803,7 +5803,7 @@
           "index":1,
           "max":80,
           "min":80,
-          "statOrder":10043
+          "statOrder":10045
         }
       }
     },{
@@ -6361,7 +6361,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10071
+          "statOrder":10073
         }
       }
     },{
@@ -6392,7 +6392,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10069
+          "statOrder":10071
         }
       }
     },{
@@ -6423,7 +6423,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10070
+          "statOrder":10072
         }
       }
     },{
@@ -6454,7 +6454,7 @@
           "index":2,
           "max":15,
           "min":15,
-          "statOrder":9923
+          "statOrder":9925
         },
         "fire_damage_+%":{
           "fmt":"d",
@@ -6499,7 +6499,7 @@
           "index":1,
           "max":40,
           "min":40,
-          "statOrder":10043
+          "statOrder":10045
         }
       }
     },{
@@ -6682,7 +6682,7 @@
           "index":1,
           "max":40,
           "min":40,
-          "statOrder":4259
+          "statOrder":4261
         },
         "energy_shield_delay_-%":{
           "fmt":"d",
@@ -6765,7 +6765,7 @@
           "index":2,
           "max":15,
           "min":15,
-          "statOrder":2547
+          "statOrder":2549
         }
       }
     },{
@@ -6834,14 +6834,14 @@
           "index":2,
           "max":10,
           "min":10,
-          "statOrder":2880
+          "statOrder":2882
         },
         "base_bleeding_effect_+%":{
           "fmt":"d",
           "index":1,
           "max":20,
           "min":20,
-          "statOrder":4626
+          "statOrder":4628
         }
       }
     },{
@@ -6872,7 +6872,7 @@
           "index":3,
           "max":10,
           "min":10,
-          "statOrder":5261
+          "statOrder":5263
         },
         "empowered_attack_damage_+%":{
           "fmt":"d",
@@ -6893,7 +6893,7 @@
           "index":2,
           "max":10,
           "min":10,
-          "statOrder":6980
+          "statOrder":6983
         }
       }
     },{
@@ -6962,7 +6962,7 @@
           "index":2,
           "max":15,
           "min":15,
-          "statOrder":9919
+          "statOrder":9921
         },
         "lightning_damage_+%":{
           "fmt":"d",
@@ -7045,7 +7045,7 @@
           "index":2,
           "max":15,
           "min":15,
-          "statOrder":2867
+          "statOrder":2869
         }
       }
     },{
@@ -7159,7 +7159,7 @@
           "index":2,
           "max":10,
           "min":10,
-          "statOrder":4626
+          "statOrder":4628
         }
       }
     },{
@@ -7235,7 +7235,7 @@
           "index":1,
           "max":20,
           "min":20,
-          "statOrder":8781
+          "statOrder":8784
         }
       }
     },{
@@ -7311,7 +7311,7 @@
           "index":2,
           "max":15,
           "min":15,
-          "statOrder":2918
+          "statOrder":2920
         }
       }
     },{
@@ -7342,7 +7342,7 @@
           "index":1,
           "max":20,
           "min":20,
-          "statOrder":2258
+          "statOrder":2260
         },
         "skill_effect_duration_+%":{
           "fmt":"d",
@@ -7387,7 +7387,7 @@
           "index":2,
           "max":20,
           "min":20,
-          "statOrder":9089
+          "statOrder":9092
         }
       }
     },{
@@ -7456,7 +7456,7 @@
           "index":2,
           "max":15,
           "min":15,
-          "statOrder":9921
+          "statOrder":9923
         },
         "cold_damage_+%":{
           "fmt":"d",
@@ -7608,7 +7608,7 @@
           "index":2,
           "max":5,
           "min":5,
-          "statOrder":9957
+          "statOrder":9959
         },
         "spell_critical_strike_chance_+%":{
           "fmt":"d",
@@ -7646,7 +7646,7 @@
           "index":2,
           "max":15,
           "min":15,
-          "statOrder":4130
+          "statOrder":4132
         },
         "mana_regeneration_rate_+%":{
           "fmt":"d",
@@ -7843,7 +7843,7 @@
           "index":2,
           "max":6,
           "min":6,
-          "statOrder":8826
+          "statOrder":8829
         }
       }
     },{
@@ -7874,7 +7874,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10072
+          "statOrder":10074
         }
       }
     },{
@@ -7905,7 +7905,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10094
+          "statOrder":10096
         }
       }
     },{
@@ -7936,7 +7936,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10095
+          "statOrder":10097
         }
       }
     },{
@@ -7967,7 +7967,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10108
+          "statOrder":10110
         }
       }
     },{
@@ -7998,7 +7998,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":10110
+          "statOrder":10112
         }
       }
     },{
@@ -8029,7 +8029,7 @@
           "index":1,
           "max":5,
           "min":5,
-          "statOrder":9917
+          "statOrder":9919
         }
       }
     },{
@@ -8060,7 +8060,7 @@
           "index":1,
           "max":20,
           "min":20,
-          "statOrder":9918
+          "statOrder":9920
         }
       }
     },{
@@ -8098,7 +8098,7 @@
           "index":2,
           "max":1,
           "min":1,
-          "statOrder":8945
+          "statOrder":8948
         }
       }
     },{
@@ -8136,7 +8136,7 @@
           "index":2,
           "max":1,
           "min":1,
-          "statOrder":8949
+          "statOrder":8952
         }
       }
     },{
@@ -8167,14 +8167,14 @@
           "index":2,
           "max":3,
           "min":3,
-          "statOrder":8328
+          "statOrder":8331
         },
         "minion_damage_+%_per_10_tribute":{
           "fmt":"d",
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":8354
+          "statOrder":8357
         }
       }
     },{
@@ -8205,14 +8205,14 @@
           "index":2,
           "max":4,
           "min":4,
-          "statOrder":8349
+          "statOrder":8352
         },
         "minions_lose_%_life_when_following_commands_per_10_tribute":{
           "fmt":"d",
           "index":1,
           "max":2,
           "min":2,
-          "statOrder":8426
+          "statOrder":8429
         }
       }
     },{
@@ -8243,7 +8243,7 @@
           "index":1,
           "max":10,
           "min":10,
-          "statOrder":5091
+          "statOrder":5093
         }
       }
     },{
@@ -8274,14 +8274,14 @@
           "index":2,
           "max":8,
           "min":8,
-          "statOrder":4347
+          "statOrder":4349
         },
         "base_damage_taken_+%_per_10_tribute":{
           "fmt":"d",
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":4511
+          "statOrder":4513
         }
       }
     },{
@@ -8312,14 +8312,14 @@
           "index":2,
           "max":3,
           "min":3,
-          "statOrder":4004
+          "statOrder":4006
         },
         "attack_critical_strike_chance_+%_per_10_tribute":{
           "fmt":"d",
           "index":1,
           "max":5,
           "min":5,
-          "statOrder":4344
+          "statOrder":4346
         }
       }
     },{
@@ -8350,7 +8350,7 @@
           "index":1,
           "max":2,
           "min":2,
-          "statOrder":4550
+          "statOrder":4552
         }
       }
     },{
@@ -8381,14 +8381,14 @@
           "index":2,
           "max":3,
           "min":3,
-          "statOrder":5470
+          "statOrder":5471
         },
         "curse_duration_+%_per_10_tribute":{
           "fmt":"d",
           "index":1,
           "max":3,
           "min":3,
-          "statOrder":5472
+          "statOrder":5473
         }
       }
     },{
@@ -8419,14 +8419,14 @@
           "index":2,
           "max":1,
           "min":1,
-          "statOrder":4578
+          "statOrder":4580
         },
         "presence_area_+%_per_10_tribute":{
           "fmt":"d",
           "index":1,
           "max":2,
           "min":2,
-          "statOrder":8803
+          "statOrder":8806
         }
       }
     },{
@@ -8457,7 +8457,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":8204
+          "statOrder":8207
         }
       }
     },{
@@ -8488,7 +8488,7 @@
           "index":1,
           "max":2,
           "min":2,
-          "statOrder":7397
+          "statOrder":7400
         }
       }
     },{
@@ -8519,7 +8519,7 @@
           "index":1,
           "max":2,
           "min":2,
-          "statOrder":6908
+          "statOrder":6911
         }
       }
     },{
@@ -8550,14 +8550,14 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":4506
+          "statOrder":4508
         },
         "base_intelligence_per_25_tribute":{
           "fmt":"d",
           "index":2,
           "max":2,
           "min":2,
-          "statOrder":4536
+          "statOrder":4538
         }
       }
     },{
@@ -8588,7 +8588,7 @@
           "index":2,
           "max":2,
           "min":2,
-          "statOrder":4579
+          "statOrder":4581
         },
         "hit_damage_stun_multiplier_+%_per_10_tribute":{
           "fmt":"d",
@@ -8626,14 +8626,14 @@
           "index":2,
           "max":2,
           "min":2,
-          "statOrder":4523
+          "statOrder":4525
         },
         "parry_skill_effect_duration_+%_per_10_tribute":{
           "fmt":"d",
           "index":1,
           "max":2,
           "min":2,
-          "statOrder":8670
+          "statOrder":8673
         }
       }
     },{
@@ -8664,7 +8664,7 @@
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":5094
+          "statOrder":5096
         }
       }
     },{
@@ -8695,14 +8695,14 @@
           "index":2,
           "max":2,
           "min":2,
-          "statOrder":4003
+          "statOrder":4005
         },
         "light_radius_+%_per_10_tribute":{
           "fmt":"d",
           "index":1,
           "max":2,
           "min":2,
-          "statOrder":6956
+          "statOrder":6959
         }
       }
     },{
@@ -8740,7 +8740,7 @@
           "index":2,
           "max":4,
           "min":4,
-          "statOrder":9713
+          "statOrder":9715
         }
       }
     },{
@@ -8771,7 +8771,7 @@
           "index":1,
           "max":2,
           "min":2,
-          "statOrder":9001
+          "statOrder":9004
         }
       }
     },{
@@ -8802,14 +8802,14 @@
           "index":2,
           "max":1,
           "min":1,
-          "statOrder":8231
+          "statOrder":8234
         },
         "rage_decay_speed_+%_per_10_tribute":{
           "fmt":"d",
           "index":1,
           "max":2,
           "min":2,
-          "statOrder":8896
+          "statOrder":8899
         }
       }
     },{
@@ -8840,7 +8840,7 @@
           "index":1,
           "max":2,
           "min":2,
-          "statOrder":4512
+          "statOrder":4514
         },
         "damaging_ailment_duration_+%_per_10_tribute":{
           "fmt":"d",
@@ -8878,7 +8878,7 @@
           "index":2,
           "max":2,
           "min":2,
-          "statOrder":4522
+          "statOrder":4524
         },
         "evasion_rating_+%_per_10_tribute":{
           "fmt":"d",
@@ -8923,7 +8923,7 @@
           "index":1,
           "max":4,
           "min":4,
-          "statOrder":8190
+          "statOrder":8193
         }
       }
     },{
@@ -8954,14 +8954,14 @@
           "index":1,
           "max":2,
           "min":2,
-          "statOrder":8735
+          "statOrder":8738
         },
         "stun_threshold_+%_per_25_tribute":{
           "fmt":"d",
           "index":2,
           "max":5,
           "min":5,
-          "statOrder":9359
+          "statOrder":9361
         }
       }
     },{
@@ -9030,14 +9030,14 @@
           "index":2,
           "max":3,
           "min":3,
-          "statOrder":5182
+          "statOrder":5184
         },
         "charm_effect_+%_per_10_tribute":{
           "fmt":"d",
           "index":1,
           "max":1,
           "min":1,
-          "statOrder":5183
+          "statOrder":5185
         }
       }
     },{
@@ -9075,7 +9075,7 @@
           "index":2,
           "max":5,
           "min":5,
-          "statOrder":9090
+          "statOrder":9093
         }
       }
     },{
@@ -9106,14 +9106,14 @@
           "index":2,
           "max":0.5,
           "min":0.5,
-          "statOrder":4092
+          "statOrder":4094
         },
         "thorns_damage_+%_per_10_tribute":{
           "fmt":"d",
           "index":1,
           "max":2,
           "min":2,
-          "statOrder":9475
+          "statOrder":9477
         }
       }
     }]

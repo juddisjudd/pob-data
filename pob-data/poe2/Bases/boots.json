@@ -362,15 +362,15 @@
   },
   "Covered Sabatons":{
     "armour":{
-      "Armour":74,
-      "Evasion":67
+      "Armour":73,
+      "Evasion":65
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":35,
-      "level":46,
-      "str":35
+      "dex":34,
+      "level":45,
+      "str":34
     },
     "socketLimit":3,
     "subType":"Armour/Evasion",
@@ -636,13 +636,13 @@
   },
   "Flared Boots":{
     "armour":{
-      "Evasion":121
+      "Evasion":119
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":62,
-      "level":46
+      "dex":60,
+      "level":45
     },
     "socketLimit":3,
     "subType":"Evasion",
@@ -662,8 +662,8 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":62,
-      "level":46
+      "int":60,
+      "level":45
     },
     "socketLimit":3,
     "subType":"Energy Shield",
@@ -1231,13 +1231,13 @@
   },
   "Reefsteel Greaves":{
     "armour":{
-      "Armour":135
+      "Armour":132
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "level":46,
-      "str":62
+      "level":45,
+      "str":60
     },
     "socketLimit":3,
     "subType":"Armour",
@@ -1484,15 +1484,15 @@
   },
   "Steelpoint Shoes":{
     "armour":{
-      "EnergyShield":27,
-      "Evasion":67
+      "EnergyShield":26,
+      "Evasion":65
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":35,
-      "int":35,
-      "level":46
+      "dex":34,
+      "int":34,
+      "level":45
     },
     "socketLimit":3,
     "subType":"Evasion/Energy Shield",
@@ -1844,15 +1844,15 @@
   },
   "Weaver Leggings":{
     "armour":{
-      "Armour":74,
-      "EnergyShield":27
+      "Armour":73,
+      "EnergyShield":26
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":35,
-      "level":46,
-      "str":35
+      "int":34,
+      "level":45,
+      "str":34
     },
     "socketLimit":3,
     "subType":"Armour/Energy Shield",

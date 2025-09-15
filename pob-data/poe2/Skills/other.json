@@ -15148,7 +15148,9 @@
       "228":true
     },
     "statSets":[{
-        "baseFlags":[],
+        "baseFlags":{
+          "channelRelease":true
+        },
         "constantStats":[["imbue_weapon_max_exerts",12],["channel_skill_end_animation_duration_override_ms",83],["temper_weapon_empowers_per_strike",3]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Temper Weapon",
@@ -15234,6 +15236,17 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"skill_stat_descriptions",
+        "statMap":{
+          "imbue_weapon_max_exerts":{
+            "div":3,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Multiplier:TemperWeaponMaxStages",
+              "type":"BASE"
+            }
+          }
+        },
         "stats":["base_deal_no_damage"]
       }],
     "weaponTypes":{

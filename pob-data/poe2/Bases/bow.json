@@ -29,8 +29,8 @@
     "implicitModTypes":[[]],
     "quality":20,
     "req":{
-      "dex":82,
-      "level":46
+      "dex":80,
+      "level":45
     },
     "socketLimit":4,
     "tags":{
@@ -46,8 +46,8 @@
     "weapon":{
       "AttackRateBase":1.15,
       "CritChanceBase":5,
-      "PhysicalMax":74,
-      "PhysicalMin":40,
+      "PhysicalMax":72,
+      "PhysicalMin":39,
       "Range":120
     }
   },

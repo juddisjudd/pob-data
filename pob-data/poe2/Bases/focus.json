@@ -257,8 +257,8 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":66,
-      "level":46
+      "int":64,
+      "level":45
     },
     "socketLimit":3,
     "tags":{

@@ -7,7 +7,7 @@
     "isHideout":false,
     "isMap":false,
     "level":79,
-    "monsterVarieties":["Flesh Larva"],
+    "monsterVarieties":["Abyssal Shambler","Abyssal Strangler","Abyssal Walker","Flesh Larva","Gargantuan Larva","Lightless Abomination","Lightless Moray","Lightless Serpent","Lightless Vengewing"],
     "name":"Lightless Void",
     "tags":[]
   },
@@ -19,7 +19,7 @@
     "isHideout":false,
     "isMap":false,
     "level":79,
-    "monsterVarieties":["Flesh Larva"],
+    "monsterVarieties":["Abyssal Shambler","Abyssal Strangler","Abyssal Walker","Blackblooded Blisterboil","Blackblooded Cretin","Blackblooded Elite","Blackblooded Proboscite","Blackblooded Tarhulk","Flesh Larva","Gargantuan Larva"],
     "name":"Dark Domain",
     "tags":[]
   },
@@ -30,7 +30,7 @@
     "isHideout":false,
     "isMap":false,
     "level":22,
-    "monsterVarieties":["Flesh Larva"],
+    "monsterVarieties":["Abyssal Shambler","Abyssal Strangler","Abyssal Walker","Flesh Larva","Gargantuan Larva","Lightless Abomination","Lightless Moray","Lightless Serpent","Lightless Vengewing"],
     "name":"Abyssal Depths (Act 2)",
     "tags":[]
   },
@@ -41,7 +41,7 @@
     "isHideout":false,
     "isMap":false,
     "level":22,
-    "monsterVarieties":["Flesh Larva"],
+    "monsterVarieties":["Abyssal Shambler","Abyssal Strangler","Abyssal Walker","Blackblooded Blisterboil","Blackblooded Cretin","Blackblooded Elite","Blackblooded Proboscite","Blackblooded Tarhulk","Flesh Larva","Gargantuan Larva"],
     "name":"Abyssal Depths (Act 2)",
     "tags":[]
   },
@@ -52,7 +52,7 @@
     "isHideout":false,
     "isMap":false,
     "level":22,
-    "monsterVarieties":["Flesh Larva"],
+    "monsterVarieties":["Abyssal Shambler","Abyssal Strangler","Abyssal Walker","Flesh Larva","Fungoid of the Pit","Gargantuan Larva","Hound of the Pit","Primordium of the Pit","Strider of the Pit"],
     "name":"Abyssal Depths (Act 2)",
     "tags":[]
   },
@@ -74,7 +74,7 @@
     "isHideout":false,
     "isMap":false,
     "level":22,
-    "monsterVarieties":["Flesh Larva","Lost-men Brute","Lost-men Subjugator","Lost-men Zealot"],
+    "monsterVarieties":["Abyssal Shambler","Abyssal Strangler","Abyssal Walker","Blackblooded Blisterboil","Blackblooded Cretin","Blackblooded Elite","Blackblooded Proboscite","Flesh Larva","Fungoid of the Pit","Gargantuan Larva","Lightless Moray","Lightless Serpent","Lightless Vengewing","Lost-men Brute","Lost-men Subjugator","Lost-men Zealot","Strider of the Pit"],
     "name":"Lightless Passage (Act 2)",
     "tags":[]
   },
@@ -719,7 +719,7 @@
     "isHideout":false,
     "isMap":false,
     "level":28,
-    "monsterVarieties":["Maraketh Undead","Porcupine Goliath","Rasp Scavenger","Regurgitating Vulture"],
+    "monsterVarieties":["Maraketh Undead","Porcupine Goliath","Rasp Scavenger","Regurgitating Vulture","Vile Vulture"],
     "name":"Deshar (Act 2)",
     "tags":["MarakethStrongbox","maraketh_shrine"]
   },
@@ -982,7 +982,7 @@
     "isHideout":false,
     "isMap":false,
     "level":40,
-    "monsterVarieties":["Chyme Skitterer","Filthy Crone","Filthy First-born","Filthy Lobber","Flathead Clubber","Flathead Warrior","Foul Blacksmith","Foul Mauler","Foul Sage","Hunchback Clubber","River Drake","River Hag"],
+    "monsterVarieties":["Chyme Skitterer","Drowned Crawler","Drowned Explorer","Filthy Crone","Filthy First-born","Filthy Lobber","Flathead Clubber","Flathead Warrior","Foul Blacksmith","Foul Mauler","Foul Sage","Hunchback Clubber","River Drake","River Hag"],
     "name":"The Drowned City (Act 3)",
     "tags":["area_with_water","VaalStrongbox","vaal_shrine"]
   },
@@ -1027,7 +1027,7 @@
     "isHideout":false,
     "isMap":false,
     "level":52,
-    "monsterVarieties":[],
+    "monsterVarieties":["Faithful Archer","Faithful Warrior","Righteous Axewielder","Twilight Order Oathsworn","Twilight Order Officer","Twilight Order Soldier","Zealous Courser","Zealous Excavator","Zealous Guard","Zealous Pillarcrusher","Zealous Shockwarden"],
     "name":"The Excavation (Act 4)",
     "tags":["KaruiStrongbox"]
   },
@@ -1049,7 +1049,7 @@
     "isHideout":false,
     "isMap":false,
     "level":53,
-    "monsterVarieties":[],
+    "monsterVarieties":["Blood-fevered Axeman","Blood-fevered Brew-breather","Blood-fevered Hookman","Blood-fevered Maceman","Blood-fevered Tuskbeast","Blood-fevered Warrior","Blood-fevered Wisewoman"],
     "name":"Ngakanu (Act 4)",
     "tags":["area_with_water","KaruiStrongbox","karui_shrine"]
   },
@@ -1061,7 +1061,7 @@
     "isHideout":false,
     "isMap":false,
     "level":53,
-    "monsterVarieties":[],
+    "monsterVarieties":["Blood-fevered Axeman","Blood-fevered Brew-breather","Blood-fevered Hookman","Blood-fevered Maceman","Blood-fevered Plaguespreader","Blood-fevered Spearman","Blood-fevered Warrior","Blood-fevered Wisewoman"],
     "name":"Heart of the Tribe (Act 4)",
     "tags":["area_with_water","KaruiStrongbox","karui_shrine"]
   },
@@ -1095,7 +1095,7 @@
     "isHideout":false,
     "isMap":false,
     "level":46,
-    "monsterVarieties":["Boulder Ant"],
+    "monsterVarieties":["Boulder Ant","Feral Kin","Shaman Kin","Skulltop Kin","Spearbearer Kin","Tallwalker Kin","Tuskbearer Kin","Wardrum Kin"],
     "name":"Isle of Kin (Act 4)",
     "tags":["area_with_water","KaruiStrongbox"]
   },
@@ -1107,7 +1107,7 @@
     "isHideout":false,
     "isMap":false,
     "level":47,
-    "monsterVarieties":[],
+    "monsterVarieties":["Feral Kin","Molten Imp","Shaman Kin","Skulltop Kin","Spearbearer Kin","Tallwalker Kin","Torchbearer Kin","Tuskbearer Kin","Wardrum Kin"],
     "name":"Volcanic Warrens (Act 4)",
     "tags":["area_with_water","KaruiStrongbox"]
   },
@@ -1118,7 +1118,7 @@
     "isHideout":false,
     "isMap":false,
     "level":46,
-    "monsterVarieties":[],
+    "monsterVarieties":["Bloated Anchorman","Drowned Bearer","Drowned Crawler","Drowned Explorer","Gull Shrike","Searot Harpooner","Searot Skeleton","Searot Sniper"],
     "name":"Kedge Bay (Act 4)",
     "tags":["area_with_water","KaruiStrongbox","karui_shrine"]
   },
@@ -1130,7 +1130,7 @@
     "isHideout":false,
     "isMap":false,
     "level":47,
-    "monsterVarieties":[],
+    "monsterVarieties":["Drowned Explorer","Man o' War","Rotting Cannoneer","Rotting Demolitionist","Rotting Soulcatcher"],
     "name":"Journey's End (Act 4)",
     "tags":["area_with_water","KaruiStrongbox","karui_shrine"]
   },
@@ -1142,7 +1142,7 @@
     "isHideout":false,
     "isMap":false,
     "level":46,
-    "monsterVarieties":["Scorpion Monkey"],
+    "monsterVarieties":["Caustic Crab","Coconut Crab","Elephant Tortoise","Quill Crab","Scorpion Monkey","Spiked Scuttler","Stoneback Rhoa"],
     "name":"Whakapanu Island (Act 4)",
     "tags":["area_with_water","KaruiStrongbox","karui_shrine"]
   },
@@ -1154,7 +1154,7 @@
     "isHideout":false,
     "isMap":false,
     "level":47,
-    "monsterVarieties":[],
+    "monsterVarieties":["Amphibious Prowler","Brine Maiden","Coral-crowned Skeleton","Ghastly Siren","Giant Maw","Luminous Spinefish","Skittering Jellycrab","Spiked Ray"],
     "name":"Singing Caverns (Act 4)",
     "tags":["area_with_water","KaruiStrongbox","karui_shrine"]
   },
@@ -1165,7 +1165,7 @@
     "isHideout":false,
     "isMap":false,
     "level":46,
-    "monsterVarieties":[],
+    "monsterVarieties":["Guardian Lizard","Guardian Turtle"],
     "name":"Eye of Hinekora (Act 4)",
     "tags":["area_with_water","KaruiStrongbox","karui_shrine"]
   },
@@ -1177,7 +1177,7 @@
     "isHideout":false,
     "isMap":false,
     "level":47,
-    "monsterVarieties":[],
+    "monsterVarieties":["Ancestral Archer","Ancestral Channeler","Ancestral Guardian","Ancestral Headtaker","Ancestral Hornbearer","Ancestral Warrior"],
     "name":"Halls of the Dead (Act 4)",
     "tags":["area_with_water","KaruiStrongbox","karui_shrine"]
   },
@@ -1199,7 +1199,7 @@
     "isHideout":false,
     "isMap":false,
     "level":46,
-    "monsterVarieties":["Risen Rattler"],
+    "monsterVarieties":["Eaten Rat","Eternal Guard","Eternal Prisoner","Eternal Torturer","Prowling Skeleton","Rattling Gibbet","Risen Rattler","Spined Necromancer"],
     "name":"Abandoned Prison (Act 4)",
     "tags":["area_with_water","EzomyteStrongbox","ezomyte_shrine"]
   },
@@ -1211,7 +1211,7 @@
     "isHideout":false,
     "isMap":false,
     "level":47,
-    "monsterVarieties":[],
+    "monsterVarieties":["Angler Maw","Bulbous Maw","Coral-crowned Skeleton","Eternal Guard","Pale Abductor","Pale Brinesplitter","Pale Tidecrasher","Pale Waterwalker","Prowling Skeleton","Spined Necromancer"],
     "name":"Solitary Confinement (Act 4)",
     "tags":["area_with_water","EzomyteStrongbox","ezomyte_shrine"]
   },
@@ -1223,7 +1223,7 @@
     "isHideout":false,
     "isMap":false,
     "level":46,
-    "monsterVarieties":[],
+    "monsterVarieties":["Carrion Gull","Goliath Shrike","Gull Shrike","Manshrike","Raven Shrike","Scavenged Skeleton","Vile Vulture","Vilespit Gull"],
     "name":"Shrike Island (Act 4)",
     "tags":["area_with_water","KaruiStrongbox"]
   },
@@ -1246,7 +1246,7 @@
     "isHideout":false,
     "isMap":false,
     "level":52,
-    "monsterVarieties":[],
+    "monsterVarieties":["Faithful Archer","Faithful Warrior","Gargantuan Wasp","Righteous Axewielder","Swarming Wasp","Twilight Order Oathsworn","Twilight Order Officer","Twilight Order Priest","Twilight Order Soldier"],
     "name":"Arastas (Act 4)",
     "tags":["area_with_water","KaruiStrongbox","twilight_order_shrine"]
   },
@@ -1298,7 +1298,7 @@
     "isHideout":false,
     "isMap":false,
     "level":65,
-    "monsterVarieties":["Adorned Beetle","Adorned Miscreation","Adorned Scarab","Alpha Primate","Ancient Ezomyte","Antlion Charger","Armoured Rhex","Azak Brute","Azak Fledgling","Azak Fleshstabber","Azak Mauler","Azak Shaman","Azak Spearthrower","Azak Stalker","Azak Throatcutter","Bearer of Penitence","Bladelash Transcendent","Blood Carrier","Blood Collector","Blood Cretin","Blood Priest","Blood Priestess","Blood Zealot","Bloodrite Guard","Bloodrite Priest","Bloodthief Queen","Bloodthief Wasp","Bloom Serpent","Bogfelled Commoner","Bogfelled Slave","Bone Stalker","Boulder Ant","Bramble Ape","Bramble Burrower","Bramble Hulk","Bramble Rhoa","Brimstone Crab","Brutal Transcendent","Burdened Wretch","Burning Dead","Chaotic Zealot","Chaw Mongrel","Chyme Skitterer","Constricted Shambler","Constricted Spitter","Corrupted Corpse","Courtesan","Crag Leaper","Cultist Archer","Cultist Brute","Cultist Daggerdancer","Cultist Warrior","Cultist Witch","Cultivated Grove","Death Knight","Decrepit Mercenary","Desiccated Lich","Diretusk Boar","Doryani's Elite","Dread Servant","Dredge Fiend","Drowned","Drudge Osseodon","Dune Lurker","Entrailhome Shambler","Entwined Hulk","Eternal Knight","Faridun Bladedancer","Faridun Butcher","Faridun Crawler","Faridun Fledgling","Faridun Heavy Infantry","Faridun Infantry","Faridun Javelineer","Faridun Neophyte","Faridun Plaguebringer","Faridun Spearman","Faridun Swordsman","Faridun Wind-slicer","Feral Primate","Fiery Zealot","Filthy Crone","Filthy First-born","Filthy Lobber","Flathead Clubber","Flathead Warrior","Flathead Youngling","Flesh Larva","Forgotten Crawler","Forgotten Satyr","Forgotten Stalker","Forsaken Hulk","Forsaken Miner","Foul Blacksmith","Foul Mauler","Foul Sage","Frost Wraith","Fungal Artillery","Fungal Proliferator","Fungal Rattler","Fungal Wolf","Fungal Zombie","Fused Swordsman","Gargoyle Demon","Gelid Zealot","Gilded Cobra","Gold-Melted Sentinel","Gold-Melted Shambler","Gold-melted Blacksmith","Goliath","Goliath Transcendent","Hunchback Clubber","Hyena Demon","Ill-fated Explorer","Iron Enforcer","Iron Guard","Iron Sharpshooter","Iron Spearman","Iron Thaumaturgist","Knight-Gaunt","Lightning Wraith","Living Sand","Lost-men Brute","Lost-men Necromancer","Lost-men Subjugator","Lost-men Zealot","Mantis Rat","Mar Acolyte","Maraketh Undead","Mud Simulacrum","Orok Fleshstabber","Orok Hunter","Orok Shaman","Orok Throatcutter","Pack Werewolf","Pale-stitched Stalker","Plague Harvester","Plague Nymph","Plague Swarm","Porcupine Crab","Porcupine Goliath","Powered Zealot","Priest of the Sun","Prowling Chimeral","Prowling Shade","Pyromushroom Cultivator","Quadrilla","Quake Golem","Rabid Dog","Rasp Scavenger","Regurgitating Vulture","Rhex","Ribrattle","Risen Arbalest","Risen Farmhand","Risen Maraketh","Risen Rattler","Risen Tale-woman","River Drake","River Hag","Rotted Rat","Rotten Wolf","Rotting Crow","Rotting Hulk","Rusted Dyna Golem","Sabre Spider","Sand Spirit","Sandflesh Mage","Sandflesh Skeleton","Sandflesh Warrior","Sandscoured Dead","Scarecrow Beast","Scorpion Monkey","Serpent Clan","Serpent Shaman","Shielded Transcendent","Skeleton Spriggan","Skitter Golem","Skullslinger","Slitherspitter","Snakethroat Shambler","Spinesnatcher","Sun Clan Scavenger","Surgical Experimentalist","Swamp Golem","Tarnished Beetle","Tarnished Scarab","Tendril Prowler","Tendril Sentinel","Tombshrieker","Undead Vaal Bladedancer","Undead Vaal Guard","Undertaker","Vaal Axeman","Vaal Embalmed Archer","Vaal Embalmed Axeman","Vaal Embalmed Bearer","Vaal Embalmed Rogue","Vaal Embalmed Spearman","Vaal Excoriator","Vaal Formshifter","Vaal Goliath","Vaal Guard","Vaal Overseer","Vaal Skeletal Archer","Vaal Skeletal Priest","Vaal Skeletal Squire","Vaal Skeletal Warrior","Vault Lurker","Venomous Crab","Venomous Crab Matriarch","Vile Hag","Vile Imp","Viper Legionnaire","Walking Goliath","Warrior Transcendent","Werewolf Prowler","Winged Fiend","Winged Horror","Wretched Rattler"],
+    "monsterVarieties":["Adorned Beetle","Adorned Miscreation","Adorned Scarab","Alpha Primate","Amphibious Prowler","Ancestral Archer","Ancestral Channeler","Ancestral Guardian","Ancestral Headtaker","Ancestral Hornbearer","Ancestral Warrior","Ancient Ezomyte","Angler Maw","Antlion Charger","Armoured Rhex","Azak Brute","Azak Fledgling","Azak Fleshstabber","Azak Mauler","Azak Shaman","Azak Spearthrower","Azak Stalker","Azak Throatcutter","Bearer of Penitence","Bladelash Transcendent","Bloated Anchorman","Blood Carrier","Blood Collector","Blood Cretin","Blood Priest","Blood Priestess","Blood Zealot","Blood-fevered Axeman","Blood-fevered Brew-breather","Blood-fevered Hookman","Blood-fevered Maceman","Blood-fevered Plaguespreader","Blood-fevered Spearman","Blood-fevered Tuskbeast","Blood-fevered Warrior","Blood-fevered Wisewoman","Bloodrite Guard","Bloodrite Priest","Bloodthief Queen","Bloodthief Wasp","Bloom Serpent","Bogfelled Commoner","Bogfelled Slave","Bone Stalker","Boulder Ant","Bramble Ape","Bramble Burrower","Bramble Hulk","Bramble Rhoa","Brimstone Crab","Brine Maiden","Brutal Transcendent","Bulbous Maw","Burdened Wretch","Burning Dead","Caustic Crab","Chaotic Zealot","Chaw Mongrel","Chyme Skitterer","Constricted Shambler","Constricted Spitter","Corrupted Corpse","Courtesan","Crag Leaper","Cultist Archer","Cultist Brute","Cultist Daggerdancer","Cultist Warrior","Cultist Witch","Cultivated Grove","Death Knight","Decrepit Mercenary","Desiccated Lich","Diretusk Boar","Doryani's Elite","Dread Servant","Dredge Fiend","Drowned","Drowned Bearer","Drowned Crawler","Drowned Explorer","Drudge Osseodon","Dune Lurker","Elephant Tortoise","Entrailhome Shambler","Entwined Hulk","Eternal Guard","Eternal Knight","Eternal Prisoner","Eternal Torturer","Faithful Archer","Faithful Warrior","Faridun Bladedancer","Faridun Butcher","Faridun Crawler","Faridun Fledgling","Faridun Heavy Infantry","Faridun Infantry","Faridun Javelineer","Faridun Neophyte","Faridun Plaguebringer","Faridun Spearman","Faridun Swordsman","Faridun Wind-slicer","Feral Kin","Feral Primate","Fiery Zealot","Filthy Crone","Filthy First-born","Filthy Lobber","Flathead Clubber","Flathead Warrior","Flathead Youngling","Flesh Larva","Forgotten Crawler","Forgotten Satyr","Forgotten Stalker","Forsaken Hulk","Forsaken Miner","Foul Blacksmith","Foul Mauler","Foul Sage","Frost Wraith","Fungal Artillery","Fungal Proliferator","Fungal Rattler","Fungal Wolf","Fungal Zombie","Fused Swordsman","Gargantuan Wasp","Gargoyle Demon","Gelid Zealot","Ghastly Siren","Giant Maw","Gilded Cobra","Gold-Melted Sentinel","Gold-Melted Shambler","Gold-melted Blacksmith","Goliath","Goliath Shrike","Goliath Transcendent","Guardian Lizard","Guardian Turtle","Gull Shrike","Hunchback Clubber","Hyena Demon","Ill-fated Explorer","Iron Enforcer","Iron Guard","Iron Sharpshooter","Iron Spearman","Iron Thaumaturgist","Knight-Gaunt","Lightning Wraith","Living Sand","Lost-men Brute","Lost-men Necromancer","Lost-men Subjugator","Lost-men Zealot","Luminous Spinefish","Man o' War","Manshrike","Mantis Rat","Mar Acolyte","Maraketh Undead","Molten Imp","Mud Simulacrum","Orok Fleshstabber","Orok Hunter","Orok Shaman","Orok Throatcutter","Pack Werewolf","Pale Abductor","Pale Brinesplitter","Pale Tidecrasher","Pale Waterwalker","Pale-stitched Stalker","Plague Harvester","Plague Nymph","Plague Swarm","Porcupine Crab","Porcupine Goliath","Powered Zealot","Priest of the Sun","Prowling Chimeral","Prowling Shade","Pyromushroom Cultivator","Quadrilla","Quake Golem","Quill Crab","Rabid Dog","Rasp Scavenger","Rattling Gibbet","Regurgitating Vulture","Rhex","Ribrattle","Righteous Axewielder","Risen Arbalest","Risen Farmhand","Risen Maraketh","Risen Rattler","Risen Tale-woman","River Drake","River Hag","Rotted Rat","Rotten Wolf","Rotting Cannoneer","Rotting Crow","Rotting Demolitionist","Rotting Hulk","Rotting Soulcatcher","Rusted Dyna Golem","Sabre Spider","Sand Spirit","Sandflesh Mage","Sandflesh Skeleton","Sandflesh Warrior","Sandscoured Dead","Scarecrow Beast","Scavenged Skeleton","Scorpion Monkey","Searot Harpooner","Searot Skeleton","Searot Sniper","Serpent Clan","Serpent Shaman","Shaman Kin","Shielded Transcendent","Skeleton Spriggan","Skitter Golem","Skittering Jellycrab","Skullslinger","Skulltop Kin","Slitherspitter","Snakethroat Shambler","Spearbearer Kin","Spiked Ray","Spiked Scuttler","Spined Necromancer","Spinesnatcher","Stoneback Rhoa","Sun Clan Scavenger","Surgical Experimentalist","Swamp Golem","Swarming Wasp","Tallwalker Kin","Tarnished Beetle","Tarnished Scarab","Tendril Prowler","Tendril Sentinel","Tombshrieker","Torchbearer Kin","Tuskbearer Kin","Twilight Order Oathsworn","Twilight Order Officer","Twilight Order Priest","Twilight Order Soldier","Undead Vaal Bladedancer","Undead Vaal Guard","Undertaker","Vaal Axeman","Vaal Embalmed Archer","Vaal Embalmed Axeman","Vaal Embalmed Bearer","Vaal Embalmed Rogue","Vaal Embalmed Spearman","Vaal Excoriator","Vaal Formshifter","Vaal Goliath","Vaal Guard","Vaal Overseer","Vaal Skeletal Archer","Vaal Skeletal Priest","Vaal Skeletal Squire","Vaal Skeletal Warrior","Vault Lurker","Venomous Crab","Venomous Crab Matriarch","Vile Hag","Vile Imp","Vile Vulture","Vilespit Gull","Viper Legionnaire","Walking Goliath","Wardrum Kin","Warrior Transcendent","Werewolf Prowler","Winged Fiend","Winged Horror","Wretched Rattler","Zealous Courser","Zealous Excavator","Zealous Guard","Zealous Pillarcrusher","Zealous Shockwarden"],
     "name":"The Ziggurat Refuge",
     "tags":[]
   },
@@ -2026,7 +2026,7 @@
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":[],
+    "monsterVarieties":["Elephant Tortoise","Stoneback Rhoa"],
     "name":"Azmerian Ranges (Map)",
     "tags":["map","forest_biome","mountain_biome","EzomyteStrongbox"]
   },
@@ -2132,7 +2132,7 @@
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":[],
+    "monsterVarieties":["Feral Kin","Shaman Kin","Skulltop Kin","Spearbearer Kin","Tallwalker Kin","Torchbearer Kin","Tuskbearer Kin","Wardrum Kin"],
     "name":"Caldera (Map)",
     "tags":["map","area_with_water","water_biome"]
   },
@@ -2203,7 +2203,7 @@
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":[],
+    "monsterVarieties":["Faithful Archer","Faithful Warrior","Righteous Axewielder","Twilight Order Oathsworn","Twilight Order Officer","Twilight Order Priest","Twilight Order Soldier"],
     "name":"Cliffside (Map)",
     "tags":["map","area_with_water","water_biome","grass_biome","forest_biome","mountain_biome"]
   },
@@ -2320,7 +2320,7 @@
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":[],
+    "monsterVarieties":["Zealous Courser","Zealous Excavator","Zealous Guard","Zealous Pillarcrusher","Zealous Shockwarden"],
     "name":"Digsite (Map)",
     "tags":["map","grass_biome","EzomyteStrongbox"]
   },
@@ -2332,7 +2332,7 @@
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":[],
+    "monsterVarieties":["Bloated Anchorman","Drowned Bearer","Drowned Explorer","Rotting Cannoneer","Rotting Demolitionist","Rotting Soulcatcher"],
     "name":"Flotsam (Map)",
     "tags":["map","area_with_water","water_biome","grass_biome","forest_biome"]
   },
@@ -2368,7 +2368,7 @@
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":[],
+    "monsterVarieties":["Bulbous Maw","Pale Abductor","Pale Brinesplitter","Pale Tidecrasher","Pale Waterwalker"],
     "name":"Frozen Falls (Map)",
     "tags":["map","mountain_biome","EzomyteStrongbox"]
   },
@@ -2459,7 +2459,7 @@
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":[],
+    "monsterVarieties":["Eternal Torturer"],
     "name":"Prison Hideout (Map)",
     "tags":["map","swamp_biome","EzomyteStrongbox"]
   },
@@ -2469,7 +2469,7 @@
     "isHideout":false,
     "isMap":false,
     "level":46,
-    "monsterVarieties":[],
+    "monsterVarieties":["Caustic Crab","Coconut Crab","Elephant Tortoise","Quill Crab","Spiked Scuttler","Stoneback Rhoa"],
     "name":"Shoreline Hideout (Act 4)",
     "tags":["area_with_water"]
   },
@@ -2803,7 +2803,7 @@
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":[],
+    "monsterVarieties":["Brine Maiden","Ghastly Siren"],
     "name":"Rugosa (Map)",
     "tags":["map","water_biome","KaruiStrongbox","area_with_water"]
   },
@@ -2875,7 +2875,7 @@
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":["Rasp Scavenger","Regurgitating Vulture"],
+    "monsterVarieties":["Rasp Scavenger","Regurgitating Vulture","Vile Vulture"],
     "name":"Confluence (Map)",
     "tags":["map","area_with_water","desert_biome","MarakethStrongbox"]
   },
@@ -2887,7 +2887,7 @@
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":[],
+    "monsterVarieties":["Ancestral Archer","Ancestral Channeler","Ancestral Guardian","Ancestral Headtaker","Ancestral Hornbearer","Ancestral Warrior","Guardian Lizard","Guardian Turtle"],
     "name":"Sinkhole (Map)",
     "tags":["map","area_with_water","water_biome"]
   },
@@ -2970,7 +2970,7 @@
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":["Risen Rattler"],
+    "monsterVarieties":["Rattling Gibbet","Risen Rattler"],
     "name":"Stronghold (Map)",
     "tags":["map","area_with_water","water_biome"]
   },
@@ -3041,7 +3041,7 @@
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":[],
+    "monsterVarieties":["Gargantuan Wasp","Swarming Wasp"],
     "name":"Trenches (Map)",
     "tags":["map","forest_biome","swamp_biome","EzomyteStrongbox"]
   },
@@ -3077,7 +3077,7 @@
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":[],
+    "monsterVarieties":["Blood-fevered Axeman","Blood-fevered Brew-breather","Blood-fevered Hookman","Blood-fevered Maceman","Blood-fevered Plaguespreader","Blood-fevered Spearman","Blood-fevered Tuskbeast","Blood-fevered Warrior","Blood-fevered Wisewoman"],
     "name":"The Jade Isles (Map)",
     "tags":["map","KaruiStrongbox","water_biome","swamp_biome","karui_shrine"]
   },
@@ -3113,7 +3113,7 @@
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":[],
+    "monsterVarieties":["Bloated Anchorman","Drowned Bearer","Drowned Crawler","Drowned Explorer","Gull Shrike","Man o' War","Rotting Cannoneer","Rotting Demolitionist","Rotting Soulcatcher","Searot Harpooner","Searot Skeleton","Searot Sniper"],
     "name":"Castaway (Map)",
     "tags":["map"]
   },
@@ -3277,7 +3277,7 @@
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":["Bramble Ape","Bramble Burrower","Bramble Hulk","Bramble Rhoa"],
+    "monsterVarieties":["Bramble Ape","Bramble Burrower","Bramble Hulk","Bramble Rhoa","Caustic Crab","Quill Crab"],
     "name":"Untainted Paradise (Map)",
     "tags":["map"]
   },
@@ -3474,7 +3474,7 @@
     "isHideout":false,
     "isMap":false,
     "level":55,
-    "monsterVarieties":["Bearer of Penitence","Burdened Wretch","Death Knight","Eternal Knight","Filthy Crone","Gargoyle Demon","Ghoul Commander","Hungering Stalker","Knight-Gaunt","Risen Rattler","Skulking Ghoul","Wheelbound Hag"],
+    "monsterVarieties":["Bearer of Penitence","Burdened Wretch","Death Knight","Eternal Knight","Filthy Crone","Gargoyle Demon","Ghoul Commander","Hungering Stalker","Knight-Gaunt","Prowling Skeleton","Risen Rattler","Skulking Ghoul","Wheelbound Hag"],
     "name":"Holten (Act 6)",
     "tags":["EzomyteStrongbox","ezomyte_shrine"]
   },
@@ -3486,7 +3486,7 @@
     "isHideout":false,
     "isMap":false,
     "level":56,
-    "monsterVarieties":["Death Knight","Risen Rattler"],
+    "monsterVarieties":["Death Knight","Eaten Rat","Eternal Prisoner","Eternal Torturer","Prowling Skeleton","Rattling Gibbet","Risen Rattler","Spined Necromancer"],
     "name":"Wolvenhold (Act 6)",
     "tags":["EzomyteStrongbox","ezomyte_shrine"]
   },
@@ -3521,7 +3521,7 @@
     "isHideout":false,
     "isMap":false,
     "level":54,
-    "monsterVarieties":["Crag Leaper","Desiccated Lich","Dune Lurker","Goliath","Living Sand","Porcupine Goliath","Rasp Scavenger","Regurgitating Vulture","Risen Arbalest","Risen Maraketh","Sabre Spider","Tarnished Beetle","Tarnished Scarab","Walking Goliath"],
+    "monsterVarieties":["Crag Leaper","Desiccated Lich","Dune Lurker","Goliath","Living Sand","Molten Imp","Porcupine Goliath","Rasp Scavenger","Regurgitating Vulture","Risen Arbalest","Risen Maraketh","Sabre Spider","Stoneback Rhoa","Tarnished Beetle","Tarnished Scarab","Vile Vulture","Walking Goliath"],
     "name":"The Khari Crossing (Act 6)",
     "tags":["MarakethStrongbox","maraketh_shrine"]
   },
@@ -3556,7 +3556,7 @@
     "isHideout":false,
     "isMap":false,
     "level":56,
-    "monsterVarieties":["Adorned Beetle","Adorned Scarab","Forgotten Crawler","Forgotten Satyr","Forgotten Stalker","Forsaken Hulk","Forsaken Miner","Maraketh Undead","Risen Tale-woman","Tarnished Beetle"],
+    "monsterVarieties":["Adorned Beetle","Adorned Scarab","Forgotten Crawler","Forgotten Satyr","Forgotten Stalker","Forsaken Hulk","Forsaken Miner","Maraketh Undead","Molten Imp","Risen Tale-woman","Tarnished Beetle"],
     "name":"The Galai Gates (Act 6)",
     "tags":["MarakethStrongbox","maraketh_shrine"]
   },
@@ -3601,7 +3601,7 @@
     "isHideout":false,
     "isMap":false,
     "level":54,
-    "monsterVarieties":["Bramble Burrower","Bramble Rhoa","Fungal Artillery","Fungal Proliferator","Fungal Rattler","Fungal Wolf","Fungal Zombie","Sabre Spider","Vault Lurker"],
+    "monsterVarieties":["Bramble Burrower","Bramble Rhoa","Fungal Artillery","Fungal Proliferator","Fungal Rattler","Fungal Wolf","Fungal Zombie","Gargantuan Wasp","Sabre Spider","Swarming Wasp","Vault Lurker"],
     "name":"Ashen Forest (Act 6)",
     "tags":["VaalStrongbox","nameless_shrine"]
   },
@@ -3613,7 +3613,7 @@
     "isHideout":false,
     "isMap":false,
     "level":54,
-    "monsterVarieties":["Bloom Serpent","Bramble Ape","Bramble Burrower","Bramble Hulk","Constricted Shambler","Constricted Spitter","Entrailhome Shambler","Entwined Hulk","Slitherspitter","Snakethroat Shambler"],
+    "monsterVarieties":["Bloom Serpent","Bramble Ape","Bramble Burrower","Bramble Hulk","Constricted Shambler","Constricted Spitter","Elephant Tortoise","Entrailhome Shambler","Entwined Hulk","Slitherspitter","Snakethroat Shambler"],
     "name":"Kriar Village (Act 6)",
     "tags":["VaalStrongbox","nameless_shrine"]
   },
@@ -3625,7 +3625,7 @@
     "isHideout":false,
     "isMap":false,
     "level":55,
-    "monsterVarieties":["Bane Sapling","Bogfelled Commoner","Bogfelled Slave","Dredge Fiend","Filthy First-born","Ill-fated Explorer","River Hag"],
+    "monsterVarieties":["Bane Sapling","Bogfelled Commoner","Bogfelled Slave","Bulbous Maw","Dredge Fiend","Drowned Explorer","Filthy First-born","Ill-fated Explorer","Pale Abductor","Pale Brinesplitter","Pale Tidecrasher","Pale Waterwalker","Quill Crab","River Hag"],
     "name":"Glacial Tarn (Act 6)",
     "tags":["VaalStrongbox","nameless_shrine"]
   },
@@ -3637,7 +3637,7 @@
     "isHideout":false,
     "isMap":false,
     "level":55,
-    "monsterVarieties":["Frost Wraith","Hungry Wolf","Plague Nymph","Quadrilla","Scorpion Monkey"],
+    "monsterVarieties":["Brine Maiden","Frost Wraith","Ghastly Siren","Hungry Wolf","Plague Nymph","Quadrilla","Scorpion Monkey"],
     "name":"Howling Caves (Act 6)",
     "tags":["VaalStrongbox","vaal_shrine"]
   },

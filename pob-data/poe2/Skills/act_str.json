@@ -3788,7 +3788,7 @@
         "spiritReservationFlat":30
       }],
     "name":"Berserk",
-    "qualityStats":[["rage_effect_+%",0.5]],
+    "qualityStats":[["skill_base_rage_effect_+%_to_apply",0.5]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -3797,7 +3797,7 @@
     },
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["life_loss_%_per_minute_per_rage_while_not_losing_rage",6],["rage_art_variation",2]],
+        "constantStats":[["skill_base_life_loss_%_per_minute_per_rage_while_not_losing_rage_to_apply",6]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Berserk",
         "levels":[{
@@ -3980,7 +3980,17 @@
               }
             }
           },
-          "life_loss_%_per_minute_per_rage_while_not_losing_rage":{
+          "rage_effect_+%":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"RageEffect",
+              "type":"INC",
+              "1":{
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }],
+          "skill_base_life_loss_%_per_minute_per_rage_while_not_losing_rage_to_apply":{
             "div":60,
             "1":{
               "flags":0,
@@ -3996,19 +4006,9 @@
                 "var":"RageEffect"
               }
             }
-          },
-          "rage_effect_+%":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"RageEffect",
-              "type":"INC",
-              "1":{
-                "effectType":"Buff",
-                "type":"GlobalEffect"
-              }
-            }]
+          }
         },
-        "stats":["rage_effect_+%"]
+        "stats":["skill_base_rage_effect_+%_to_apply"]
       }]
   },
   "BlackPowderBlitzPlayer":{
@@ -6440,7 +6440,7 @@
         "levelRequirement":0
       }],
     "name":"Defiance Banner",
-    "qualityStats":[["base_reservation_efficiency_+%",0.5]],
+    "qualityStats":[],
     "skillTypes":{
       "5":true,
       "8":true,
@@ -6874,7 +6874,7 @@
         "spiritReservationFlat":30
       }],
     "name":"Defiance Banner",
-    "qualityStats":[],
+    "qualityStats":[["base_reservation_efficiency_+%",0.5]],
     "skillTypes":{
       "5":true,
       "8":true,
@@ -7060,7 +7060,7 @@
         "levelRequirement":0
       }],
     "name":"Dread Banner",
-    "qualityStats":[["base_reservation_efficiency_+%",0.5]],
+    "qualityStats":[],
     "skillTypes":{
       "5":true,
       "8":true,
@@ -7537,7 +7537,7 @@
         "spiritReservationFlat":30
       }],
     "name":"Dread Banner",
-    "qualityStats":[],
+    "qualityStats":[["base_reservation_efficiency_+%",0.5]],
     "skillTypes":{
       "5":true,
       "8":true,
@@ -21575,7 +21575,6 @@
     "qualityStats":[["skill_igneous_shield_grants_block_chance_+%",0.25]],
     "skillTypes":{
       "5":true,
-      "9":true,
       "12":true,
       "28":true,
       "120":true,
@@ -22224,7 +22223,7 @@
             "6":8
           }],
         "statDescriptionScope":"igneous_shield_explosion",
-        "stats":["off_hand_weapon_minimum_fire_damage","off_hand_weapon_maximum_fire_damage","off_hand_minimum_added_fire_damage_per_15_shield_armour","off_hand_maximum_added_fire_damage_per_15_shield_armour","off_hand_minimum_added_fire_damage_per_15_shield_evasion","off_hand_maximum_added_fire_damage_per_15_shield_evasion","base_skill_show_average_damage_instead_of_dps","display_statset_hide_usage_stats"]
+        "stats":["off_hand_weapon_minimum_fire_damage","off_hand_weapon_maximum_fire_damage","off_hand_minimum_added_fire_damage_per_15_shield_armour","off_hand_maximum_added_fire_damage_per_15_shield_armour","off_hand_minimum_added_fire_damage_per_15_shield_evasion","off_hand_maximum_added_fire_damage_per_15_shield_evasion","base_skill_show_average_damage_instead_of_dps","display_statset_hide_usage_stats","is_area_damage"]
       }]
   },
   "MetaCastLightningSpellOnHitPlayer":{
@@ -37921,8 +37920,20 @@
         "baseFlags":{
           "area":true,
           "attack":true,
+          "channelRelease":true,
           "melee":true
         },
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"DPS",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "type":"Multiplier",
+              "var":"SuperchargedSlamStage"
+            }
+          }],
         "constantStats":[["active_skill_base_area_of_effect_radius",16],["channelled_slam_damage_+%_final_per_stage",40],["channelled_slam_max_stages",3],["skill_animation_duration_multiplier_override",3],["channel_skill_end_animation_duration_override_ms",1000],["base_minimum_channel_time_ms",1000]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Impact",
@@ -38008,13 +38019,44 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"channelled_slam_statset_0",
+        "statMap":{
+          "base_skill_show_average_damage_instead_of_dps":[],
+          "channelled_slam_damage_+%_final_per_stage":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "type":"Multiplier",
+                "var":"SuperchargedSlamStage"
+              }
+            }],
+          "channelled_slam_max_stages":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Multiplier:SuperchargedSlamMaxStages",
+              "type":"BASE"
+            }]
+        },
         "stats":["is_area_damage","base_skill_show_average_damage_instead_of_dps","channel_start_lock_cancelling_scales_with_attack_speed","quality_display_supercharged_slam_is_gem"]
       },{
         "baseFlags":{
           "area":true,
           "attack":true,
+          "channelRelease":true,
           "melee":true
         },
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"DPS",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "type":"Multiplier",
+              "var":"SuperchargedSlamStage"
+            }
+          }],
         "constantStats":[["active_skill_base_area_of_effect_radius",16],["channelled_slam_damage_+%_final_per_stage",40],["channelled_slam_max_stages",3],["skill_animation_duration_multiplier_override",3],["channel_skill_end_animation_duration_override_ms",1000],["base_minimum_channel_time_ms",1000],["active_skill_base_area_of_effect_radius",12],["aftershock_radius_+_per_previous_aftershock",4],["aftershock_delay_ms",250]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Aftershock",
@@ -38100,6 +38142,40 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"channelled_slam_statset_1",
+        "statMap":{
+          "aftershock_radius_+_per_previous_aftershock":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillData",
+              "type":"LIST",
+              "value":{
+                "key":"radiusExtra"
+              },
+              "1":{
+                "limit":30,
+                "limitTotal":true,
+                "type":"Multiplier",
+                "var":"SuperchargedSlamStage"
+              }
+            }],
+          "base_skill_show_average_damage_instead_of_dps":[],
+          "channelled_slam_damage_+%_final_per_stage":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "type":"Multiplier",
+                "var":"SuperchargedSlamStage"
+              }
+            }],
+          "channelled_slam_max_stages":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Multiplier:SuperchargedSlamMaxStages",
+              "type":"BASE"
+            }]
+        },
         "stats":["is_area_damage","base_skill_show_average_damage_instead_of_dps","channel_start_lock_cancelling_scales_with_attack_speed","quality_display_supercharged_slam_is_gem","display_statset_hide_usage_stats"]
       }],
     "weaponTypes":{
@@ -41518,7 +41594,7 @@
         "levelRequirement":0
       }],
     "name":"War Banner",
-    "qualityStats":[["base_reservation_efficiency_+%",0.5]],
+    "qualityStats":[],
     "skillTypes":{
       "5":true,
       "8":true,
@@ -41979,7 +42055,7 @@
         "spiritReservationFlat":30
       }],
     "name":"War Banner",
-    "qualityStats":[],
+    "qualityStats":[["base_reservation_efficiency_+%",0.5]],
     "skillTypes":{
       "5":true,
       "8":true,

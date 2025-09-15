@@ -32,7 +32,7 @@
     "damage_taken_when_hit_+%_final_per_fortification":-1,
     "dexterity_per_level":0,
     "disable_minion_formation":1,
-    "dodge_roll_sprint_minimum_time_ms":500,
+    "dodge_roll_sprint_minimum_time_ms":100,
     "dodge_roll_sprint_turn_rate":150,
     "elemental_damage_taken_goes_to_energy_shield_over_4_seconds_%_per_absorption_charge":12,
     "enable_movement_skill_animation_skipping":1,

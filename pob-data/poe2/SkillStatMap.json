@@ -370,6 +370,15 @@
         "type":"Condition",
         "var":"DualWielding"
       }
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SkillData",
+      "type":"LIST",
+      "value":{
+        "key":"doubleHitsWhenDualWielding",
+        "value":true
+      }
     }],
   "active_skill_freeze_duration_+%_final":[{
       "flags":0,
@@ -1778,6 +1787,19 @@
         "type":"SkillType"
       }
     }],
+  "base_minimum_channel_time_ms":{
+    "div":1000,
+    "1":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SkillData",
+      "type":"LIST",
+      "value":{
+        "key":"minChannelTime",
+        "value":true
+      }
+    }
+  },
   "base_minion_duration_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -1855,6 +1877,12 @@
       "name":"ActiveGolemLimit",
       "type":"BASE"
     }],
+  "base_number_of_living_lightning_allowed":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"ActiveLivingLightningLimit",
+      "type":"BASE"
+    }],
   "base_number_of_projectiles":{
     "base":-1,
     "1":{
@@ -1874,6 +1902,12 @@
       "flags":0,
       "keywordFlags":0,
       "name":"BrandsAttachedLimit",
+      "type":"BASE"
+    }],
+  "base_number_of_skeletal_constructs_allowed":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"ActiveUnearthBoneConstructLimit",
       "type":"BASE"
     }],
   "base_number_of_skeletons_allowed":[{
@@ -2564,6 +2598,7 @@
       "name":"ImprovedCastSpeedAppliesToProjectileSpeed",
       "type":"MAX"
     }],
+  "cast_speed_modifiers_apply_to_over_time_cost":[],
   "cast_spell_on_linked_attack_crit":[{
       "flags":0,
       "keywordFlags":0,
@@ -3402,6 +3437,16 @@
       "type":"BASE"
     }
   },
+  "display_minion_level_from_triggering_skill_level":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SkillData",
+      "type":"LIST",
+      "value":{
+        "key":"minionLevelIsTriggeredSkillLevel",
+        "value":true
+      }
+    }],
   "display_mirage_warriors_no_spirit_strikes":[{
       "flags":0,
       "keywordFlags":0,
@@ -4161,6 +4206,12 @@
       "name":"MaxEnergyShieldLeechRate",
       "type":"INC"
     }],
+  "maximum_hatching_elementals_allowed":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"ActiveSkitteringStoneLimit",
+      "type":"BASE"
+    }],
   "maximum_life_+%_for_corpses_you_create":[{
       "flags":0,
       "keywordFlags":0,
@@ -4403,6 +4454,20 @@
           "keywordFlags":0,
           "name":"Speed",
           "type":"INC"
+        }
+      }
+    }],
+  "minion_base_physical_damage_%_to_convert_to_lightning":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"MinionModifier",
+      "type":"LIST",
+      "value":{
+        "mod":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"PhysicalDamageConvertToLightning",
+          "type":"BASE"
         }
       }
     }],
@@ -5667,6 +5732,7 @@
   "quality_display_siege_cascade_damage_+%_final_vs_immobilised_enemies_is_gem":[],
   "quality_display_sigil_attached_target_damage_is_gem":[],
   "quality_display_spell_damage_to_attack_damage_is_gem":[],
+  "quality_display_supercharged_slam_is_gem":[],
   "quality_display_trap_duration_is_gem":[],
   "receive_bleeding_chance_%_when_hit_by_attack":[{
       "flags":0,
@@ -5875,6 +5941,12 @@
         "ramp":[[0,0],[60,1]],
         "type":"DistanceRamp"
       }
+    }],
+  "shock_chance_+%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"EnemyShockChance",
+      "type":"INC"
     }],
   "shock_duration_+%":[{
       "flags":0,
@@ -6110,6 +6182,17 @@
       }
     }],
   "skill_specific_stat_description_mode":[],
+  "skill_speed_+%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Speed",
+      "type":"INC"
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"WarcrySpeed",
+      "type":"INC"
+    }],
   "skill_triggered_by_snipe":[{
       "flags":0,
       "keywordFlags":0,

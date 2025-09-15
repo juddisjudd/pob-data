@@ -7,8 +7,8 @@
     "statOrder":[656,656.1],
     "tradeHash":182714578,
     "type":"Suffix",
-    "weightKey":["flask","default"],
-    "weightVal":[1,0],
+    "weightKey":[],
+    "weightVal":[],
     "1":"Grants Immunity to Bleeding for (6-8) seconds if used while Bleeding",
     "2":"Grants Immunity to Corrupted Blood for (6-8) seconds if used while affected by Corrupted Blood"
   },
@@ -20,8 +20,8 @@
     "statOrder":[620,738],
     "tradeHash":3588165839,
     "type":"Suffix",
-    "weightKey":["flask","default"],
-    "weightVal":[1,0],
+    "weightKey":[],
+    "weightVal":[],
     "1":"(45-49)% less Duration",
     "2":"Immunity to Bleeding and Corrupted Blood during Effect"
   },
@@ -213,8 +213,8 @@
     "statOrder":[658,658.1],
     "tradeHash":3869628136,
     "type":"Suffix",
-    "weightKey":["flask","default"],
-    "weightVal":[1,0],
+    "weightKey":[],
+    "weightVal":[],
     "1":"Grants Immunity to Chill for (6-8) seconds if used while Chilled",
     "2":"Grants Immunity to Freeze for (6-8) seconds if used while Frozen"
   },
@@ -226,8 +226,8 @@
     "statOrder":[653],
     "tradeHash":3895393544,
     "type":"Suffix",
-    "weightKey":["flask","default"],
-    "weightVal":[1,0],
+    "weightKey":[],
+    "weightVal":[],
     "1":"Removes Curses on use"
   },
   "FlaskExtraCharges1":{
@@ -476,8 +476,8 @@
     "statOrder":[620,740],
     "tradeHash":650731684,
     "type":"Suffix",
-    "weightKey":["flask","default"],
-    "weightVal":[1,0],
+    "weightKey":[],
+    "weightVal":[],
     "1":"(45-49)% less Duration",
     "2":"Immunity to Freeze and Chill during Effect"
   },
@@ -562,8 +562,8 @@
     "statOrder":[660,660.1],
     "tradeHash":2361218755,
     "type":"Suffix",
-    "weightKey":["flask","default"],
-    "weightVal":[1,0],
+    "weightKey":[],
+    "weightVal":[],
     "1":"Grants Immunity to Ignite for (6-8) seconds if used while Ignited",
     "2":"Removes all Burning when used"
   },
@@ -575,8 +575,8 @@
     "statOrder":[620,671,671.1],
     "tradeHash":3238382707,
     "type":"Suffix",
-    "weightKey":["flask","default"],
-    "weightVal":[1,0],
+    "weightKey":[],
+    "weightVal":[],
     "1":"(45-49)% less Duration",
     "2":"Immunity to Ignite during Effect",
     "3":"Removes Burning on use"
@@ -913,8 +913,8 @@
     "statOrder":[664],
     "tradeHash":542375676,
     "type":"Suffix",
-    "weightKey":["flask","default"],
-    "weightVal":[1,0],
+    "weightKey":[],
+    "weightVal":[],
     "1":"Grants Immunity to Poison for (6-8) seconds if used while Poisoned"
   },
   "FlaskPoisonImmunityDuringEffect":{
@@ -925,8 +925,8 @@
     "statOrder":[620,741],
     "tradeHash":188046746,
     "type":"Suffix",
-    "weightKey":["flask","default"],
-    "weightVal":[1,0],
+    "weightKey":[],
+    "weightVal":[],
     "1":"(45-49)% less Duration",
     "2":"Immunity to Poison during Effect"
   },
@@ -938,8 +938,8 @@
     "statOrder":[666],
     "tradeHash":3854439683,
     "type":"Suffix",
-    "weightKey":["flask","default"],
-    "weightVal":[1,0],
+    "weightKey":[],
+    "weightVal":[],
     "1":"Grants Immunity to Shock for (6-8) seconds if used while Shocked"
   },
   "FlaskShockImmunityDuringEffect":{
@@ -950,8 +950,8 @@
     "statOrder":[620,742],
     "tradeHash":4195389357,
     "type":"Suffix",
-    "weightKey":["flask","default"],
-    "weightVal":[1,0],
+    "weightKey":[],
+    "weightVal":[],
     "1":"(45-49)% less Duration",
     "2":"Immunity to Shock during Effect"
   }

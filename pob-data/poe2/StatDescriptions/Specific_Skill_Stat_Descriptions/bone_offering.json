@@ -3,8 +3,8 @@
   "base_skill_effect_duration":2,
   "bone_offering_damage_taken_+%_final":3,
   "bone_offering_hit_threshold_%_of_maximum_life":4,
+  "minion_duration":5,
   "parent":"skill_stat_descriptions",
-  "skill_effect_duration":5,
   "1":{
     "stats":["base_secondary_skill_effect_duration"]
   },
@@ -48,7 +48,7 @@
       }]
   },
   "5":{
-    "stats":["skill_effect_duration"],
+    "stats":["minion_duration"],
     "1":[]
   }
 }

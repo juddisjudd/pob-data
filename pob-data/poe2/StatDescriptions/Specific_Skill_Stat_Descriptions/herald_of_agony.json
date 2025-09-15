@@ -1,9 +1,9 @@
 {
-  "herald_of_agony_poison_on_enemies_you_kill_spread_to_enemies_within_x":1,
+  "herald_of_agony_poison_spread_on_kill_radius_base_magnitude_to_grant":1,
   "hinder_chance_%_on_spreading_poioson":2,
   "parent":"skill_stat_descriptions",
   "1":{
-    "stats":["herald_of_agony_poison_on_enemies_you_kill_spread_to_enemies_within_x"],
+    "stats":["herald_of_agony_poison_spread_on_kill_radius_base_magnitude_to_grant"],
     "1":[{
         "limit":[["#","#"]],
         "text":"Spreads the most Damaging Poison on enemies you kill in a {0} metre radius",

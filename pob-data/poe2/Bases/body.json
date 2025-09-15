@@ -447,15 +447,15 @@
   },
   "Cleric Vestments":{
     "armour":{
-      "Armour":151,
-      "EnergyShield":54,
+      "Armour":148,
+      "EnergyShield":53,
       "MovementPenalty":0.04
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
       "int":41,
-      "level":46,
+      "level":45,
       "str":41
     },
     "socketLimit":4,
@@ -585,14 +585,14 @@
   },
   "Corsair Vest":{
     "armour":{
-      "Evasion":247,
+      "Evasion":242,
       "MovementPenalty":0.03
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":74,
-      "level":46
+      "dex":72,
+      "level":45
     },
     "socketLimit":4,
     "subType":"Evasion",
@@ -768,14 +768,14 @@
   },
   "Elementalist Robe":{
     "armour":{
-      "EnergyShield":98,
+      "EnergyShield":97,
       "MovementPenalty":0.03
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":74,
-      "level":46
+      "int":72,
+      "level":45
     },
     "socketLimit":4,
     "subType":"Energy Shield",
@@ -1479,14 +1479,14 @@
   },
   "Juggernaut Plate":{
     "armour":{
-      "Armour":274,
+      "Armour":269,
       "MovementPenalty":0.05
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "level":46,
-      "str":74
+      "level":45,
+      "str":72
     },
     "socketLimit":4,
     "subType":"Armour",
@@ -1523,15 +1523,15 @@
   },
   "Knight Armour":{
     "armour":{
-      "Armour":151,
-      "Evasion":136,
+      "Armour":148,
+      "Evasion":133,
       "MovementPenalty":0.04
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
       "dex":41,
-      "level":46,
+      "level":45,
       "str":41
     },
     "socketLimit":4,
@@ -2412,8 +2412,8 @@
   },
   "Scoundrel Jacket":{
     "armour":{
-      "EnergyShield":54,
-      "Evasion":136,
+      "EnergyShield":53,
+      "Evasion":133,
       "MovementPenalty":0.03
     },
     "implicitModTypes":[],
@@ -2421,7 +2421,7 @@
     "req":{
       "dex":41,
       "int":41,
-      "level":46
+      "level":45
     },
     "socketLimit":4,
     "subType":"Evasion/Energy Shield",

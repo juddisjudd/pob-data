@@ -5795,7 +5795,7 @@
     "stats":["crossbow_attack_%_chance_to_not_consume_ammo"],
     "1":[{
         "limit":[["#","#"]],
-        "text":"Supported Crossbow Attacks have {0}% chance to not consume a bolt"
+        "text":"Bolts fired by Supported Crossbow Attacks have {0}% chance to not expend Ammunition"
       }]
   },
   "405":{

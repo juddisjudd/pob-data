@@ -477,7 +477,7 @@
   },
   "Crucible Tower Shield":{
     "armour":{
-      "Armour":112,
+      "Armour":110,
       "BlockChance":26,
       "MovementPenalty":0.03
     },
@@ -485,8 +485,8 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "level":46,
-      "str":66
+      "level":45,
+      "str":64
     },
     "socketLimit":3,
     "subType":"Armour",
@@ -1183,14 +1183,14 @@
   "Laminate Buckler":{
     "armour":{
       "BlockChance":20,
-      "Evasion":81
+      "Evasion":79
     },
     "implicit":"Grants Skill: Level (1-20) Parry",
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":66,
-      "level":46
+      "dex":64,
+      "level":45
     },
     "socketLimit":3,
     "subType":"Evasion",
@@ -2167,7 +2167,7 @@
   },
   "Wayward Crest Shield":{
     "armour":{
-      "Armour":62,
+      "Armour":61,
       "BlockChance":25,
       "EnergyShield":22,
       "MovementPenalty":0.015
@@ -2176,9 +2176,9 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":37,
-      "level":46,
-      "str":37
+      "int":36,
+      "level":45,
+      "str":36
     },
     "socketLimit":3,
     "subType":"Armour/Energy Shield",

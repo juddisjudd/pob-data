@@ -1,7 +1,7 @@
 {
   "base_skill_effect_duration":1,
+  "minion_duration":2,
   "parent":"skill_stat_descriptions",
-  "skill_effect_duration":2,
   "1":{
     "stats":["base_skill_effect_duration"],
     "1":[{
@@ -21,7 +21,7 @@
       }]
   },
   "2":{
-    "stats":["skill_effect_duration"],
+    "stats":["minion_duration"],
     "1":[]
   }
 }

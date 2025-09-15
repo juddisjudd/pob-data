@@ -5502,6 +5502,36 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"triggered_living_lightning",
+        "statMap":{
+          "living_lightning_beam_attack_time_ms":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"MinionModifier",
+              "type":"LIST",
+              "value":{
+                "mod":{
+                  "flags":0,
+                  "keywordFlags":0,
+                  "name":"Multiplier:LivingLightningAttackTime",
+                  "type":"BASE"
+                }
+              }
+            }],
+          "living_lightning_maximum_number_of_attacks":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"MinionModifier",
+              "type":"LIST",
+              "value":{
+                "mod":{
+                  "flags":0,
+                  "keywordFlags":0,
+                  "name":"RepeatCount",
+                  "type":"BASE"
+                }
+              }
+            }]
+        },
         "stats":["display_minion_level_from_triggering_skill_level"]
       }]
   },
@@ -5540,6 +5570,34 @@
           }],
         "statDescriptionScope":"triggered_living_lightning",
         "statMap":{
+          "living_lightning_beam_attack_time_ms":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"MinionModifier",
+              "type":"LIST",
+              "value":{
+                "mod":{
+                  "flags":0,
+                  "keywordFlags":0,
+                  "name":"Multiplier:LivingLightningAttackTime",
+                  "type":"BASE"
+                }
+              }
+            }],
+          "living_lightning_maximum_number_of_attacks":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"MinionModifier",
+              "type":"LIST",
+              "value":{
+                "mod":{
+                  "flags":0,
+                  "keywordFlags":0,
+                  "name":"RepeatCount",
+                  "type":"BASE"
+                }
+              }
+            }],
           "minion_1%_attack_speed_+%_per_X_player_dexterity":{
             "div":10,
             "1":{

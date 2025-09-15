@@ -302,7 +302,7 @@
   },
   "Buckled Wraps":{
     "armour":{
-      "EnergyShield":18,
+      "EnergyShield":17,
       "Evasion":44
     },
     "implicitModTypes":[],
@@ -310,7 +310,7 @@
     "req":{
       "dex":32,
       "int":32,
-      "level":46
+      "level":45
     },
     "socketLimit":3,
     "subType":"Evasion/Energy Shield",
@@ -435,13 +435,13 @@
   },
   "Detailed Mitts":{
     "armour":{
-      "Armour":90
+      "Armour":88
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "level":46,
-      "str":57
+      "level":45,
+      "str":56
     },
     "socketLimit":3,
     "subType":"Armour",
@@ -601,13 +601,13 @@
   },
   "Fine Bracers":{
     "armour":{
-      "Evasion":81
+      "Evasion":79
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":57,
-      "level":46
+      "dex":56,
+      "level":45
     },
     "socketLimit":3,
     "subType":"Evasion",
@@ -1179,8 +1179,8 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":57,
-      "level":46
+      "int":56,
+      "level":45
     },
     "socketLimit":3,
     "subType":"Energy Shield",
@@ -1195,14 +1195,14 @@
   },
   "Plate Gauntlets":{
     "armour":{
-      "Armour":49,
+      "Armour":48,
       "Evasion":44
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
       "dex":32,
-      "level":46,
+      "level":45,
       "str":32
     },
     "socketLimit":3,
@@ -1802,14 +1802,14 @@
   },
   "Verisium Cuffs":{
     "armour":{
-      "Armour":49,
-      "EnergyShield":18
+      "Armour":48,
+      "EnergyShield":17
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
       "int":32,
-      "level":46,
+      "level":45,
       "str":32
     },
     "socketLimit":3,

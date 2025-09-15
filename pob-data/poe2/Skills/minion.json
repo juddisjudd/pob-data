@@ -1111,52 +1111,237 @@
         "stats":["skeletal_cleric_grants_base_life_regeneration_rate_per_minute","display_minion_heal"]
       }]
   },
-  "IceBombSkeletonMageMinion":{
-    "castTime":1.25,
-    "description":"Crystallises the air into icy shards that explode outwards when they hit the ground.",
+  "IceArmourSkeletonMageMinion":{
+    "castTime":1,
+    "description":"Command a Skeletal Frost Mage to target a location or Minion and apply Ice Armour to Minions in an area, reducing damage taken from Hits, causing damage to enemies that Hit them, and counting as Frozen for other effects.",
     "hidden":true,
     "levels":[{
-        "cooldown":8,
-        "critChance":12,
+        "cooldown":12,
         "levelRequirement":0,
         "storedUses":1
       }],
-    "name":"Ice Bomb",
+    "name":"Ice Armour",
     "qualityStats":[],
     "skillTypes":{
-      "2":true,
+      "5":true,
       "6":true,
-      "7":true,
       "8":true,
       "9":true,
-      "14":true,
-      "15":true,
-      "16":true,
-      "22":true,
-      "29":true,
-      "31":true,
-      "56":true,
       "72":true
     },
     "statSets":[{
-        "baseEffectiveness":5,
+        "baseEffectiveness":0.85000002384186,
         "baseFlags":{
           "duration":true,
           "spell":true
         },
-        "constantStats":[["active_skill_base_area_of_effect_radius",26],["active_skill_chill_effect_+%_final",100]],
-        "damageIncrementalEffectiveness":0.041499998420477,
+        "constantStats":[["active_skill_base_area_of_effect_radius",40],["base_skill_effect_duration",6000],["rime_damage_taken_+%_final",-40]],
+        "damageIncrementalEffectiveness":0.034499999135733,
         "incrementalEffectiveness":0.25,
-        "label":"Ice Bomb",
+        "label":"Ice Armour",
         "levels":[{
             "actorLevel":1,
-            "statInterpolation":[3,3],
-            "1":0.80000001192093,
-            "2":1.2000000476837
+            "statInterpolation":[1,1],
+            "1":3,
+            "2":4
+          },{
+            "actorLevel":3.4519999027252,
+            "statInterpolation":[1,1],
+            "1":5,
+            "2":7
+          },{
+            "actorLevel":6.7670001983643,
+            "statInterpolation":[1,1],
+            "1":8,
+            "2":12
+          },{
+            "actorLevel":10.307999610901,
+            "statInterpolation":[1,1],
+            "1":12,
+            "2":18
+          },{
+            "actorLevel":14.074999809265,
+            "statInterpolation":[1,1],
+            "1":18,
+            "2":26
+          },{
+            "actorLevel":18.068000793457,
+            "statInterpolation":[1,1],
+            "1":25,
+            "2":37
+          },{
+            "actorLevel":22.287000656128,
+            "statInterpolation":[1,1],
+            "1":34,
+            "2":52
+          },{
+            "actorLevel":26.732000350952,
+            "statInterpolation":[1,1],
+            "1":47,
+            "2":71
+          },{
+            "actorLevel":31.40299987793,
+            "statInterpolation":[1,1],
+            "1":64,
+            "2":96
+          },{
+            "actorLevel":36.299999237061,
+            "statInterpolation":[1,1],
+            "1":86,
+            "2":129
+          },{
+            "actorLevel":41.423000335693,
+            "statInterpolation":[1,1],
+            "1":116,
+            "2":173
+          },{
+            "actorLevel":46.771999359131,
+            "statInterpolation":[1,1],
+            "1":155,
+            "2":233
+          },{
+            "actorLevel":52.34700012207,
+            "statInterpolation":[1,1],
+            "1":209,
+            "2":313
+          },{
+            "actorLevel":58.147998809814,
+            "statInterpolation":[1,1],
+            "1":281,
+            "2":421
+          },{
+            "actorLevel":64.175003051758,
+            "statInterpolation":[1,1],
+            "1":378,
+            "2":567
+          },{
+            "actorLevel":70.428001403809,
+            "statInterpolation":[1,1],
+            "1":511,
+            "2":767
+          },{
+            "actorLevel":76.906997680664,
+            "statInterpolation":[1,1],
+            "1":693,
+            "2":1039
+          },{
+            "actorLevel":83.611999511719,
+            "statInterpolation":[1,1],
+            "1":943,
+            "2":1414
+          },{
+            "actorLevel":90.542999267578,
+            "statInterpolation":[1,1],
+            "1":1288,
+            "2":1932
+          },{
+            "actorLevel":97.699996948242,
+            "statInterpolation":[1,1],
+            "1":1767,
+            "2":2651
+          },{
+            "actorLevel":105.08300018311,
+            "statInterpolation":[1,1],
+            "1":2437,
+            "2":3655
+          },{
+            "actorLevel":112.69200134277,
+            "statInterpolation":[1,1],
+            "1":3376,
+            "2":5064
+          },{
+            "actorLevel":120.52700042725,
+            "statInterpolation":[1,1],
+            "1":4702,
+            "2":7054
+          },{
+            "actorLevel":128.58799743652,
+            "statInterpolation":[1,1],
+            "1":6584,
+            "2":9877
+          },{
+            "actorLevel":136.875,
+            "statInterpolation":[1,1],
+            "1":9271,
+            "2":13906
+          },{
+            "actorLevel":145.38800048828,
+            "statInterpolation":[1,1],
+            "1":13127,
+            "2":19691
+          },{
+            "actorLevel":154.12699890137,
+            "statInterpolation":[1,1],
+            "1":18696,
+            "2":28044
+          },{
+            "actorLevel":163.09199523926,
+            "statInterpolation":[1,1],
+            "1":26786,
+            "2":40179
+          },{
+            "actorLevel":172.28300476074,
+            "statInterpolation":[1,1],
+            "1":38609,
+            "2":57913
+          },{
+            "actorLevel":181.69999694824,
+            "statInterpolation":[1,1],
+            "1":55993,
+            "2":83989
+          },{
+            "actorLevel":191.34300231934,
+            "statInterpolation":[1,1],
+            "1":81711,
+            "2":122566
+          },{
+            "actorLevel":201.21200561523,
+            "statInterpolation":[1,1],
+            "1":119996,
+            "2":179994
+          },{
+            "actorLevel":211.30700683594,
+            "statInterpolation":[1,1],
+            "1":177348,
+            "2":266022
+          },{
+            "actorLevel":221.62800598145,
+            "statInterpolation":[1,1],
+            "1":263807,
+            "2":395711
+          },{
+            "actorLevel":232.17500305176,
+            "statInterpolation":[1,1],
+            "1":394981,
+            "2":592472
+          },{
+            "actorLevel":242.94799804688,
+            "statInterpolation":[1,1],
+            "1":595279,
+            "2":892918
+          },{
+            "actorLevel":253.94700622559,
+            "statInterpolation":[1,1],
+            "1":903112,
+            "2":1354667
+          },{
+            "actorLevel":265.17199707031,
+            "statInterpolation":[1,1],
+            "1":1379307,
+            "2":2068961
+          },{
+            "actorLevel":276.62298583984,
+            "statInterpolation":[1,1],
+            "1":2120799,
+            "2":3181198
+          },{
+            "actorLevel":288.29998779297,
+            "statInterpolation":[1,1],
+            "1":3283031,
+            "2":4924547
           }],
-        "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
-        "statDescriptionScope":"ice_bomb",
-        "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_commandable_skill","skill_cannot_be_frozen","skill_cannot_be_electrocuted","skill_cannot_be_knocked_back","skill_cannot_be_stunned"]
+        "statDescriptionScope":"apply_rimeshield",
+        "stats":["spell_minimum_added_cold_damage","spell_maximum_added_cold_damage","is_commandable_skill"]
       }]
   },
   "LivingLightningZap":{
@@ -1184,6 +1369,20 @@
           "chaining":true,
           "melee":true
         },
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"SkillData",
+            "type":"LIST",
+            "value":{
+              "key":"timeOverride",
+              "value":0.001
+            },
+            "1":{
+              "type":"Multiplier",
+              "var":"LivingLightningAttackTime"
+            }
+          }],
         "constantStats":[["number_of_chains",3],["living_lightning_damage_+%_final_per_additional_hit",-30]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Zap",
@@ -1191,6 +1390,17 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"skill_stat_descriptions",
+        "statMap":{
+          "living_lightning_damage_+%_final_per_additional_hit":{
+            "div":1.5,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE"
+            }
+          }
+        },
         "stats":[]
       }]
   },
@@ -1580,6 +1790,246 @@
           }],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["global_poison_on_hit"]
+      }]
+  },
+  "ShatteringRoarSkeletalBruteMinion":{
+    "castTime":1,
+    "description":"Command a Skeletal Brute to use a Warcry, Intimidating nearby enemies and Consuming Freeze on enemies and allies to deal damage in an Area around them.",
+    "hidden":true,
+    "levels":[{
+        "cooldown":8,
+        "critChance":12,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Shattering Roar",
+    "qualityStats":[],
+    "skillTypes":{
+      "6":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "29":true,
+      "63":true,
+      "84":true,
+      "90":true,
+      "140":true
+    },
+    "statSets":[{
+        "baseEffectiveness":1.5,
+        "baseFlags":{
+          "duration":true,
+          "hit":true,
+          "warcry":true
+        },
+        "constantStats":[["base_skill_effect_duration",4000],["active_skill_base_area_of_effect_radius",40],["active_skill_base_secondary_area_of_effect_radius",24]],
+        "damageIncrementalEffectiveness":0.034499999135733,
+        "incrementalEffectiveness":0.25,
+        "label":"Shattering Roar",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[1,1],
+            "1":5,
+            "2":7
+          },{
+            "actorLevel":3.4519999027252,
+            "statInterpolation":[1,1],
+            "1":8,
+            "2":12
+          },{
+            "actorLevel":6.7670001983643,
+            "statInterpolation":[1,1],
+            "1":14,
+            "2":21
+          },{
+            "actorLevel":10.307999610901,
+            "statInterpolation":[1,1],
+            "1":21,
+            "2":32
+          },{
+            "actorLevel":14.074999809265,
+            "statInterpolation":[1,1],
+            "1":31,
+            "2":47
+          },{
+            "actorLevel":18.068000793457,
+            "statInterpolation":[1,1],
+            "1":44,
+            "2":66
+          },{
+            "actorLevel":22.287000656128,
+            "statInterpolation":[1,1],
+            "1":61,
+            "2":91
+          },{
+            "actorLevel":26.732000350952,
+            "statInterpolation":[1,1],
+            "1":83,
+            "2":124
+          },{
+            "actorLevel":31.40299987793,
+            "statInterpolation":[1,1],
+            "1":112,
+            "2":169
+          },{
+            "actorLevel":36.299999237061,
+            "statInterpolation":[1,1],
+            "1":152,
+            "2":228
+          },{
+            "actorLevel":41.423000335693,
+            "statInterpolation":[1,1],
+            "1":204,
+            "2":306
+          },{
+            "actorLevel":46.771999359131,
+            "statInterpolation":[1,1],
+            "1":274,
+            "2":411
+          },{
+            "actorLevel":52.34700012207,
+            "statInterpolation":[1,1],
+            "1":368,
+            "2":552
+          },{
+            "actorLevel":58.147998809814,
+            "statInterpolation":[1,1],
+            "1":495,
+            "2":743
+          },{
+            "actorLevel":64.175003051758,
+            "statInterpolation":[1,1],
+            "1":667,
+            "2":1001
+          },{
+            "actorLevel":70.428001403809,
+            "statInterpolation":[1,1],
+            "1":902,
+            "2":1353
+          },{
+            "actorLevel":76.906997680664,
+            "statInterpolation":[1,1],
+            "1":1223,
+            "2":1834
+          },{
+            "actorLevel":83.611999511719,
+            "statInterpolation":[1,1],
+            "1":1664,
+            "2":2495
+          },{
+            "actorLevel":90.542999267578,
+            "statInterpolation":[1,1],
+            "1":2273,
+            "2":3409
+          },{
+            "actorLevel":97.699996948242,
+            "statInterpolation":[1,1],
+            "1":3119,
+            "2":4678
+          },{
+            "actorLevel":105.08300018311,
+            "statInterpolation":[1,1],
+            "1":4300,
+            "2":6450
+          },{
+            "actorLevel":112.69200134277,
+            "statInterpolation":[1,1],
+            "1":5958,
+            "2":8937
+          },{
+            "actorLevel":120.52700042725,
+            "statInterpolation":[1,1],
+            "1":8298,
+            "2":12447
+          },{
+            "actorLevel":128.58799743652,
+            "statInterpolation":[1,1],
+            "1":11619,
+            "2":17429
+          },{
+            "actorLevel":136.875,
+            "statInterpolation":[1,1],
+            "1":16360,
+            "2":24540
+          },{
+            "actorLevel":145.38800048828,
+            "statInterpolation":[1,1],
+            "1":23165,
+            "2":34748
+          },{
+            "actorLevel":154.12699890137,
+            "statInterpolation":[1,1],
+            "1":32993,
+            "2":49490
+          },{
+            "actorLevel":163.09199523926,
+            "statInterpolation":[1,1],
+            "1":47269,
+            "2":70904
+          },{
+            "actorLevel":172.28300476074,
+            "statInterpolation":[1,1],
+            "1":68133,
+            "2":102200
+          },{
+            "actorLevel":181.69999694824,
+            "statInterpolation":[1,1],
+            "1":98810,
+            "2":148216
+          },{
+            "actorLevel":191.34300231934,
+            "statInterpolation":[1,1],
+            "1":144195,
+            "2":216293
+          },{
+            "actorLevel":201.21200561523,
+            "statInterpolation":[1,1],
+            "1":211757,
+            "2":317636
+          },{
+            "actorLevel":211.30700683594,
+            "statInterpolation":[1,1],
+            "1":312967,
+            "2":469450
+          },{
+            "actorLevel":221.62800598145,
+            "statInterpolation":[1,1],
+            "1":465542,
+            "2":698314
+          },{
+            "actorLevel":232.17500305176,
+            "statInterpolation":[1,1],
+            "1":697026,
+            "2":1045539
+          },{
+            "actorLevel":242.94799804688,
+            "statInterpolation":[1,1],
+            "1":1050492,
+            "2":1575738
+          },{
+            "actorLevel":253.94700622559,
+            "statInterpolation":[1,1],
+            "1":1593726,
+            "2":2390589
+          },{
+            "actorLevel":265.17199707031,
+            "statInterpolation":[1,1],
+            "1":2434072,
+            "2":3651108
+          },{
+            "actorLevel":276.62298583984,
+            "statInterpolation":[1,1],
+            "1":3742586,
+            "2":5613879
+          },{
+            "actorLevel":288.29998779297,
+            "statInterpolation":[1,1],
+            "1":5793584,
+            "2":8690377
+          }],
+        "notMinionStat":["secondary_minimum_base_cold_damage","secondary_maximum_base_cold_damage"],
+        "statDescriptionScope":"brute_warcry",
+        "stats":["secondary_minimum_base_cold_damage","secondary_maximum_base_cold_damage","is_commandable_skill"]
       }]
   },
   "TCAncestralLeagueKaruiHulk":{

@@ -259,15 +259,15 @@
   },
   "Closed Helm":{
     "armour":{
-      "Armour":99,
-      "Evasion":89
+      "Armour":97,
+      "Evasion":87
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":37,
-      "level":46,
-      "str":37
+      "dex":36,
+      "level":45,
+      "str":36
     },
     "socketLimit":3,
     "subType":"Armour/Evasion",
@@ -282,13 +282,13 @@
   },
   "Commander Greathelm":{
     "armour":{
-      "Armour":180
+      "Armour":176
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "level":46,
-      "str":66
+      "level":45,
+      "str":64
     },
     "socketLimit":3,
     "subType":"Armour",
@@ -323,13 +323,13 @@
   },
   "Corsair Cap":{
     "armour":{
-      "Evasion":162
+      "Evasion":158
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":66,
-      "level":46
+      "dex":64,
+      "level":45
     },
     "socketLimit":3,
     "subType":"Evasion",
@@ -1939,14 +1939,14 @@
   "Solid Mask":{
     "armour":{
       "EnergyShield":35,
-      "Evasion":89
+      "Evasion":87
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":37,
-      "int":37,
-      "level":46
+      "dex":36,
+      "int":36,
+      "level":45
     },
     "socketLimit":3,
     "subType":"Evasion/Energy Shield",
@@ -2002,15 +2002,15 @@
   },
   "Spiritbone Crown":{
     "armour":{
-      "Armour":99,
+      "Armour":97,
       "EnergyShield":35
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":37,
-      "level":46,
-      "str":37
+      "int":36,
+      "level":45,
+      "str":36
     },
     "socketLimit":3,
     "subType":"Armour/Energy Shield",
@@ -2170,13 +2170,13 @@
   },
   "Vermeil Circlet":{
     "armour":{
-      "EnergyShield":64
+      "EnergyShield":63
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":66,
-      "level":46
+      "int":64,
+      "level":45
     },
     "socketLimit":3,
     "subType":"Energy Shield",

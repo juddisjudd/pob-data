@@ -3,11 +3,11 @@
   "active_skill_base_area_of_effect_radius":3,
   "base_secondary_skill_effect_duration":1,
   "base_skill_effect_duration":4,
-  "pain_offering_attack_and_cast_speed_+%":5,
-  "pain_offering_damage_+%":6,
+  "minion_duration":5,
+  "pain_offering_attack_and_cast_speed_+%":6,
+  "pain_offering_damage_+%":7,
   "parent":"skill_stat_descriptions",
   "quality_display_active_skill_base_area_of_effect_radius_is_gem":3,
-  "skill_effect_duration":7,
   "1":{
     "stats":["base_secondary_skill_effect_duration"]
   },
@@ -66,6 +66,10 @@
       }]
   },
   "5":{
+    "stats":["minion_duration"],
+    "1":[]
+  },
+  "6":{
     "stats":["pain_offering_attack_and_cast_speed_+%"],
     "1":[{
         "limit":[[1,"#"]],
@@ -79,7 +83,7 @@
         }
       }]
   },
-  "6":{
+  "7":{
     "stats":["pain_offering_damage_+%"],
     "1":[{
         "limit":[[1,"#"]],
@@ -92,9 +96,5 @@
           "v":1
         }
       }]
-  },
-  "7":{
-    "stats":["skill_effect_duration"],
-    "1":[]
   }
 }

@@ -122,14 +122,14 @@
   },
   "Estazunti's Soul Core of Convalescence":{
     "boots":{
-      "statOrder":[8938],
+      "statOrder":[8941],
       "type":"Rune",
       "1":"10% increased speed of Recoup Effects"
     }
   },
   "Farrul's Rune of Grace":{
     "boots":{
-      "statOrder":[8468],
+      "statOrder":[8471],
       "type":"Rune",
       "1":"6% reduced Movement Speed Penalty from using Skills while moving"
     }
@@ -143,7 +143,7 @@
   },
   "Farrul's Rune of the Hunt":{
     "weapon":{
-      "statOrder":[4352],
+      "statOrder":[4354],
       "type":"Rune",
       "1":"50% increased Attack Damage against Rare or Unique Enemies"
     }
@@ -162,7 +162,7 @@
   },
   "Fenumus' Rune of Draining":{
     "gloves":{
-      "statOrder":[9735],
+      "statOrder":[9737],
       "type":"Rune",
       "1":"20% increased Withered Magnitude"
     }
@@ -176,7 +176,7 @@
   },
   "Fox Talisman":{
     "body armour":{
-      "statOrder":[4150],
+      "statOrder":[4152],
       "type":"Rune",
       "1":"+2% to Quality of all Skills"
     }
@@ -382,31 +382,31 @@
   },
   "Greater Rune of Leadership":{
     "armour":{
-      "statOrder":[8393],
+      "statOrder":[8396],
       "type":"Rune",
       "1":"Minions take 10% of Physical Damage as Lightning Damage"
     },
     "weapon":{
-      "statOrder":[8392],
+      "statOrder":[8395],
       "type":"Rune",
       "1":"Minions gain 10% of their Physical Damage as Extra Lightning Damage"
     }
   },
   "Greater Rune of Nobility":{
     "armour":{
-      "statOrder":[9108],
+      "statOrder":[9111],
       "type":"Rune",
       "1":"10% reduced effect of Shock on you"
     },
     "weapon":{
-      "statOrder":[7160],
+      "statOrder":[7163],
       "type":"Rune",
       "1":"Attacks with this Weapon have 10% chance to inflict Lightning Exposure"
     }
   },
   "Greater Rune of Tithing":{
     "armour":{
-      "statOrder":[9483],
+      "statOrder":[9485],
       "type":"Rune",
       "1":"1 to 100 Lightning Thorns damage"
     },
@@ -423,7 +423,7 @@
       "1":"+80 to Stun Threshold"
     },
     "caster":{
-      "statOrder":[9365],
+      "statOrder":[9367],
       "type":"Rune",
       "1":"Gain additional Stun Threshold equal to 14% of maximum Energy Shield"
     },
@@ -452,7 +452,7 @@
   },
   "Greater Tempered Rune":{
     "armour":{
-      "statOrder":[9484],
+      "statOrder":[9486],
       "type":"Rune",
       "1":"31 to 52 Physical Thorns damage"
     },
@@ -481,19 +481,19 @@
   },
   "Guatelitzi's Soul Core of Endurance":{
     "caster":{
-      "statOrder":[5096],
+      "statOrder":[5098],
       "type":"Rune",
       "1":"50% chance when you gain an Endurance Charge to gain an additional Endurance Charge"
     },
     "weapon":{
-      "statOrder":[5096],
+      "statOrder":[5098],
       "type":"Rune",
       "1":"50% chance when you gain an Endurance Charge to gain an additional Endurance Charge"
     }
   },
   "Hayoxi's Soul Core of Heatproofing":{
     "helmet":{
-      "statOrder":[4481],
+      "statOrder":[4483],
       "type":"Rune",
       "1":"+30% of Armour also applies to Cold Damage"
     }
@@ -723,7 +723,7 @@
       "1":"+40 to Stun Threshold"
     },
     "caster":{
-      "statOrder":[9365],
+      "statOrder":[9367],
       "type":"Rune",
       "1":"Gain additional Stun Threshold equal to 10% of maximum Energy Shield"
     },
@@ -752,7 +752,7 @@
   },
   "Lesser Tempered Rune":{
     "armour":{
-      "statOrder":[9484],
+      "statOrder":[9486],
       "type":"Rune",
       "1":"6 to 9 Physical Thorns damage"
     },
@@ -798,19 +798,19 @@
   },
   "Opiloti's Soul Core of Assault":{
     "caster":{
-      "statOrder":[5097],
+      "statOrder":[5099],
       "type":"Rune",
       "1":"50% chance when you gain a Frenzy Charge to gain an additional Frenzy Charge"
     },
     "weapon":{
-      "statOrder":[5097],
+      "statOrder":[5099],
       "type":"Rune",
       "1":"50% chance when you gain a Frenzy Charge to gain an additional Frenzy Charge"
     }
   },
   "Owl Talisman":{
     "focus":{
-      "statOrder":[4507],
+      "statOrder":[4509],
       "type":"Rune",
       "1":"10% increased Cooldown Recovery Rate"
     }
@@ -831,7 +831,7 @@
   },
   "Quipolatl's Soul Core of Flow":{
     "helmet":{
-      "statOrder":[1569,4507],
+      "statOrder":[1569,4509],
       "type":"Rune",
       "1":"8% increased Skill Effect Duration",
       "2":"8% increased Cooldown Recovery Rate"
@@ -911,31 +911,31 @@
   },
   "Saqawal's Rune of the Sky":{
     "caster":{
-      "statOrder":[8553],
+      "statOrder":[8556],
       "type":"Rune",
       "1":"Gain 5% of Damage as Extra Damage of all Elements"
     },
     "weapon":{
-      "statOrder":[8553],
+      "statOrder":[8556],
       "type":"Rune",
       "1":"Gain 5% of Damage as Extra Damage of all Elements"
     }
   },
   "Serpent Talisman":{
     "gloves":{
-      "statOrder":[2256],
+      "statOrder":[2258],
       "type":"Rune",
       "1":"5% increased Curse Magnitudes"
     }
   },
   "Soul Core of Atmohua":{
     "armour":{
-      "statOrder":[7229],
+      "statOrder":[7232],
       "type":"Rune",
       "1":"Convert 20% of Requirements to Strength"
     },
     "weapon":{
-      "statOrder":[7229],
+      "statOrder":[7232],
       "type":"Rune",
       "1":"Convert 20% of Requirements to Strength"
     }
@@ -954,12 +954,12 @@
   },
   "Soul Core of Cholotl":{
     "armour":{
-      "statOrder":[7227],
+      "statOrder":[7230],
       "type":"Rune",
       "1":"Convert 20% of Requirements to Dexterity"
     },
     "weapon":{
-      "statOrder":[7227],
+      "statOrder":[7230],
       "type":"Rune",
       "1":"Convert 20% of Requirements to Dexterity"
     }
@@ -990,12 +990,12 @@
   },
   "Soul Core of Opiloti":{
     "helmet":{
-      "statOrder":[5177],
+      "statOrder":[5179],
       "type":"Rune",
       "1":"20% increased Charm Charges gained"
     },
     "weapon":{
-      "statOrder":[2147],
+      "statOrder":[2149],
       "type":"Rune",
       "1":"15% chance to cause Bleeding on Hit"
     }
@@ -1014,7 +1014,7 @@
   },
   "Soul Core of Quipolatl":{
     "boots":{
-      "statOrder":[4572],
+      "statOrder":[4574],
       "type":"Rune",
       "1":"15% reduced Slowing Potency of Debuffs on You"
     },
@@ -1031,7 +1031,7 @@
       "1":"+11% to Chaos Resistance"
     },
     "weapon":{
-      "statOrder":[7225],
+      "statOrder":[7228],
       "type":"Rune",
       "1":"15% chance to Poison on Hit with this weapon"
     }
@@ -1050,12 +1050,12 @@
   },
   "Soul Core of Topotante":{
     "boots":{
-      "statOrder":[4130],
+      "statOrder":[4132],
       "type":"Rune",
       "1":"25% increased Elemental Ailment Threshold"
     },
     "weapon":{
-      "statOrder":[3319],
+      "statOrder":[3321],
       "type":"Rune",
       "1":"Attacks with this Weapon Penetrate 15% Elemental Resistances"
     }
@@ -1098,19 +1098,19 @@
   },
   "Soul Core of Zantipi":{
     "armour":{
-      "statOrder":[7228],
+      "statOrder":[7231],
       "type":"Rune",
       "1":"Convert 20% of Requirements to Intelligence"
     },
     "weapon":{
-      "statOrder":[7228],
+      "statOrder":[7231],
       "type":"Rune",
       "1":"Convert 20% of Requirements to Intelligence"
     }
   },
   "Stag Talisman":{
     "helmet":{
-      "statOrder":[9473],
+      "statOrder":[9475],
       "type":"Rune",
       "1":"50% increased Thorns Critical Hit Chance"
     }
@@ -1122,7 +1122,7 @@
       "1":"+60 to Stun Threshold"
     },
     "caster":{
-      "statOrder":[9365],
+      "statOrder":[9367],
       "type":"Rune",
       "1":"Gain additional Stun Threshold equal to 12% of maximum Energy Shield"
     },
@@ -1151,42 +1151,42 @@
   },
   "Tacati's Soul Core of Affliction":{
     "helmet":{
-      "statOrder":[3606],
+      "statOrder":[3608],
       "type":"Rune",
       "1":"Enemies you Curse have -4% to Chaos Resistance"
     }
   },
   "Talisman of Eeshta":{
     "helmet":{
-      "statOrder":[4568],
+      "statOrder":[4570],
       "type":"Rune",
       "1":"10% increased Cost Efficiency"
     }
   },
   "Talisman of Egrin":{
     "helmet":{
-      "statOrder":[3316],
+      "statOrder":[3318],
       "type":"Rune",
       "1":"Enemies you Curse take 5% increased Damage"
     }
   },
   "Talisman of Grold":{
     "gloves":{
-      "statOrder":[9709],
+      "statOrder":[9711],
       "type":"Rune",
       "1":"15% increased total Power counted by Warcries"
     }
   },
   "Talisman of Maxarius":{
     "body armour":{
-      "statOrder":[8603],
+      "statOrder":[8606],
       "type":"Rune",
       "1":"+1 Charm Slot"
     }
   },
   "Talisman of Ralakesh":{
     "helmet":{
-      "statOrder":[8398],
+      "statOrder":[8401],
       "type":"Rune",
       "1":"6% increased Reservation Efficiency of Minion Skills"
     }
@@ -1200,7 +1200,7 @@
   },
   "Talisman of Thruldana":{
     "weapon":{
-      "statOrder":[2775,8613],
+      "statOrder":[2777,8616],
       "type":"Rune",
       "1":"25% reduced Poison Duration",
       "2":"Targets can be affected by +1 of your Poisons at the same time"
@@ -1208,7 +1208,7 @@
   },
   "Tempered Rune":{
     "armour":{
-      "statOrder":[9484],
+      "statOrder":[9486],
       "type":"Rune",
       "1":"14 to 21 Physical Thorns damage"
     },
@@ -1220,14 +1220,14 @@
   },
   "Thane Girt's Rune of Wildness":{
     "caster":{
-      "statOrder":[9268],
+      "statOrder":[9270],
       "type":"Rune",
       "1":"25% chance for Spell Skills to fire 2 additional Projectiles"
     }
   },
   "Thane Grannell's Rune of Mastery":{
     "gloves":{
-      "statOrder":[8533],
+      "statOrder":[8536],
       "type":"Rune",
       "1":"20% increased Magnitude of Non-Damaging Ailments you inflict"
     }
@@ -1255,28 +1255,28 @@
   },
   "The Greatwolf's Rune of Willpower":{
     "body armour":{
-      "statOrder":[2352],
+      "statOrder":[2354],
       "type":"Rune",
       "1":"10% of Damage is taken from Mana before Life"
     }
   },
   "Topotante's Soul Core of Dampening":{
     "gloves":{
-      "statOrder":[4482],
+      "statOrder":[4484],
       "type":"Rune",
       "1":"+30% of Armour also applies to Fire Damage"
     }
   },
   "Tzamoto's Soul Core of Ferocity":{
     "helmet":{
-      "statOrder":[8887],
+      "statOrder":[8890],
       "type":"Rune",
       "1":"+4 to Maximum Rage"
     }
   },
   "Uromoti's Soul Core of Attenuation":{
     "boots":{
-      "statOrder":[1463,2775],
+      "statOrder":[1463,2777],
       "type":"Rune",
       "1":"15% increased Curse Duration",
       "2":"15% increased Poison Duration"
@@ -1301,38 +1301,38 @@
   },
   "Wolf Talisman":{
     "gloves":{
-      "statOrder":[4626],
+      "statOrder":[4628],
       "type":"Rune",
       "1":"10% increased Magnitude of Bleeding you inflict"
     }
   },
   "Xipocado's Soul Core of Dominion":{
     "caster":{
-      "statOrder":[8348],
+      "statOrder":[8351],
       "type":"Rune",
       "1":"Minions deal 40% increased Damage with Command Skills"
     },
     "sceptre":{
-      "statOrder":[8348],
+      "statOrder":[8351],
       "type":"Rune",
       "1":"Minions deal 40% increased Damage with Command Skills"
     }
   },
   "Xopec's Soul Core of Power":{
     "caster":{
-      "statOrder":[5098],
+      "statOrder":[5100],
       "type":"Rune",
       "1":"50% chance when you gain a Power Charge to gain an additional Power Charge"
     },
     "weapon":{
-      "statOrder":[5098],
+      "statOrder":[5100],
       "type":"Rune",
       "1":"50% chance when you gain a Power Charge to gain an additional Power Charge"
     }
   },
   "Zalatl's Soul Core of Insulation":{
     "boots":{
-      "statOrder":[4483],
+      "statOrder":[4485],
       "type":"Rune",
       "1":"+30% of Armour also applies to Lightning Damage"
     }

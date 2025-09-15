@@ -409,9 +409,9 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":64,
+      "dex":63,
       "int":26,
-      "level":46
+      "level":45
     },
     "socketLimit":4,
     "subType":"Warstaff",
@@ -427,7 +427,7 @@
     "weapon":{
       "AttackRateBase":1.35,
       "CritChanceBase":10,
-      "PhysicalMax":82,
+      "PhysicalMax":80,
       "PhysicalMin":39,
       "Range":13
     }

@@ -8039,6 +8039,52 @@
     },
     "variantId":"HinderSupport"
   },
+  "Metadata/Items/Gems/SkillGemHisFoulEmergence":{
+    "Tier":0,
+    "baseTypeName":"His Foul Emergence",
+    "gameId":"Metadata/Items/Gems/SkillGemHisFoulEmergence",
+    "gemType":"Spell",
+    "grantedEffectId":"HisFoulEmergencePlayer",
+    "name":"His Foul Emergence",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"AoE, Physical, Chaos, Duration",
+    "tags":{
+      "area":true,
+      "chaos":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "physical":true,
+      "spell":true
+    },
+    "variantId":"HisFoulEmergence"
+  },
+  "Metadata/Items/Gems/SkillGemHisWinnowingFlame":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"TriggeredHisWinnowingFlamePillarPlayer",
+    "baseTypeName":"His Winnowing Flame",
+    "gameId":"Metadata/Items/Gems/SkillGemHisWinnowingFlame",
+    "gemType":"Spell",
+    "grantedEffectId":"HisWinnowingFlamePlayer",
+    "name":"His Winnowing Flame",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"AoE, Fire, Payoff",
+    "tags":{
+      "area":true,
+      "fire":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "payoff":true,
+      "spell":true
+    },
+    "variantId":"HisWinnowingFlame"
+  },
   "Metadata/Items/Gems/SkillGemHitAndRunSupport":{
     "Tier":4,
     "gameId":"Metadata/Items/Gem/SupportGemHitAndRun",
@@ -9661,12 +9707,11 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, Persistent, AoE, Melee, Trigger, Fire, Duration",
+    "tagString":"Attack, Persistent, AoE, Melee, Trigger, Fire",
     "tags":{
       "area":true,
       "attack":true,
       "buff":true,
-      "duration":true,
       "fire":true,
       "grants_active_skill":true,
       "melee":true,
@@ -12985,6 +13030,30 @@
     },
     "variantId":"SalvoSupport"
   },
+  "Metadata/Items/Gems/SkillGemScatteringCalamity":{
+    "Tier":0,
+    "additionalStatSet1":"ScatteringCalamityExplosionPlayer",
+    "baseTypeName":"His Scattering Calamity",
+    "gameId":"Metadata/Items/Gems/SkillGemScatteringCalamity",
+    "gemType":"Spell",
+    "grantedEffectId":"ScatteringCalamityPlayer",
+    "name":"His Scattering Calamity",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"AoE, Projectile, Lightning, Duration",
+    "tags":{
+      "area":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "lightning":true,
+      "projectile":true,
+      "spell":true
+    },
+    "variantId":"ScatteringCalamity"
+  },
   "Metadata/Items/Gems/SkillGemScavengedPlating":{
     "Tier":4,
     "baseTypeName":"Scavenged Plating",
@@ -14125,6 +14194,30 @@
     },
     "variantId":"SpellEchoSupport"
   },
+  "Metadata/Items/Gems/SkillGemSpellslinger":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"SupportSpellslingerPlayer",
+    "baseTypeName":"Spellslinger",
+    "gameId":"Metadata/Items/Gem/SkillGemSpellslinger",
+    "gemType":"Buff",
+    "grantedEffectId":"MetaSpellslingerPlayer",
+    "name":"Spellslinger",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Persistent, Trigger, Invocation, Meta",
+    "tags":{
+      "buff":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "invocation":true,
+      "meta":true,
+      "persistent":true,
+      "trigger":true
+    },
+    "variantId":"Spellslinger"
+  },
   "Metadata/Items/Gems/SkillGemSpiralVolley":{
     "Tier":13,
     "baseTypeName":"Spiral Volley",
@@ -15230,7 +15323,8 @@
       "grants_active_skill":true,
       "physical":true
     },
-    "variantId":"ToxicDomain"
+    "variantId":"ToxicDomain",
+    "weaponRequirements":"Spear, Bow, Crossbow"
   },
   "Metadata/Items/Gems/SkillGemToxicGrenade":{
     "Tier":5,
@@ -15989,6 +16083,28 @@
       "support":true
     },
     "variantId":"VerglasSupport"
+  },
+  "Metadata/Items/Gems/SkillGemVileDisruption":{
+    "Tier":0,
+    "baseTypeName":"His Vile Intrusion",
+    "gameId":"Metadata/Items/Gems/SkillGemVileDisruption",
+    "gemType":"Spell",
+    "grantedEffectId":"VileDisruptionPlayer",
+    "name":"His Vile Intrusion",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"AoE, Physical, Duration",
+    "tags":{
+      "area":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "physical":true,
+      "spell":true
+    },
+    "variantId":"VileDisruption"
   },
   "Metadata/Items/Gems/SkillGemVilentasPropulsionSupport":{
     "Tier":0,

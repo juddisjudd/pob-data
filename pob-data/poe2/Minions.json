@@ -112,6 +112,7 @@
     "fireResist":0,
     "life":1,
     "lightningResist":0,
+    "limit":"ActiveLivingLightningLimit",
     "modList":[{
         "flags":0,
         "keywordFlags":0,
@@ -526,7 +527,8 @@
         "type":"OVERRIDE",
         "value":1
       }],
-    "monsterTags":["slow_movement","Unarmed_onhit_audio"],
+    "monsterCategory":"Beast",
+    "monsterTags":["beast","slow_movement","Unarmed_onhit_audio"],
     "name":"Ravenous Swarm",
     "skillList":["RavenousSwarmAttack"],
     "spawnLocation":[],
@@ -692,6 +694,7 @@
     "fireResist":0,
     "life":0.35,
     "lightningResist":0,
+    "limit":"ActiveUnearthBoneConstructLimit",
     "modList":[{
         "flags":0,
         "keywordFlags":0,
